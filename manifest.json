@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.layolayo.iching-oracle",
+  "name": "I-Ching: Stalks & Sacred Marbles",
+  "version": "1.0.0",
+  "author": "Matthew Hudson",
+  "license": "MIT",
+  "description": "Authentic I-Ching divination using the 2006 Kennedy physical-hand yarrow stalk algorithm and 38-marble pouch.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "I-Ching Oracle",
+    "description": "Consult the I-Ching with authentic yarrow stalk divination and 38 marbles",
+    "category": "Widgets",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
