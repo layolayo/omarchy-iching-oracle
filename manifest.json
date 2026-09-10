@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "author": "Matthew Hudson",
   "license": "MIT",
-  "description": "Authentic I-Ching divination using the 2006 Kennedy physical-hand yarrow stalk algorithm and 38-marble pouch.",
+  "description": "Authentic I-Ching divination using Andrew Kennedy's Revised Yarrow Algorithm and the 38-marble pouch.",
   "kinds": [
     "bar-widget"
   ],

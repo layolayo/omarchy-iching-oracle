@@ -2,7 +2,7 @@
 
 An authentic, meditative I-Ching divination bar widget and interactive oracle for the **Omarchy** desktop environment.
 
-Built with **pure QML / Quickshell** with zero binary dependencies, featuring the **2006 Andrew Kennedy Physical Hands Yarrow Algorithm** and the mathematically optimal **38-Marble Divination Method**.
+Built with **pure QML / Quickshell** with zero binary dependencies, featuring **Andrew Kennedy's Revised Yarrow Algorithm** (2006) and the mathematically optimal **38-Marble Divination Method**.
 
 ![I-Ching: Stalks & Sacred Marbles](preview.png)
 
@@ -22,8 +22,8 @@ In 1974, mathematician Martin Gardner published the classical yarrow stalk ratio
 
 However, Gardner's model assumed idealized chalkboard mathematics where stalks divide into clean theoretical quarters and hands could hold zero stalks.
 
-### 3. The 2006 Andrew Kennedy Discovery (Physical Hand Boundaries)
-In 2006, researcher Andrew Kennedy demonstrated in *Briefing Leaders* that stalks in physical human hands behave differently:
+### 3. Andrew Kennedy's Revised Yarrow Algorithm (2006)
+In 2006, researcher Andrew Kennedy published his revised yarrow algorithm in *Briefing Leaders: A new look at the I Ching and the Tao De Ching* (Gravity Publishing), demonstrating that stalks in physical human hands behave differently than idealized models:
 1. When splitting 49 stalks between left and right hands, **neither hand can ever be empty**.
 2. Drawing 1 stalk from the right hand to tuck between your fingers requires the right hand to hold **at least 2 stalks initially**.
 3. Therefore, dividing 49 stalks creates **47 physical hand split points** (2 ≤ West ≤ 48).
@@ -35,7 +35,7 @@ Because hands cannot hold zero stalks, real-world yarrow odds diverge from the o
 
 Kennedy proved that an opaque pouch of **38 marbles** replicates physical hand-sorted stalks to within **less than a tenth of one percent (< 0.09%)** across all four line types. Furthermore, an exhaustive mathematical combinatorial search across all pouch sizes up to 100 objects proves that **38 is the #1 global optimum in existence**.
 
-| Line Type | Symbol | Classical Meaning | Gardner (32 Bag) | True Physical Stalks | Kennedy (38 Bag) | Accuracy Delta |
+| Line Type | Symbol | Classical Meaning | Gardner (32 Bag) | True Physical Stalks | Kennedy's Revised (38 Bag) | Accuracy Delta |
 | :--- | :---: | :--- | :---: | :---: | :---: | :---: |
 | **Young Yin (8)** | ⚋ | Unchanging Yin | 43.75% (14/32) | **44.84%** | **44.74%** (17/38) | **< 0.10%** |
 | **Young Yang (7)** | ⚊ | Unchanging Yang | 31.25% (10/32) | **28.87%** | **28.95%** (11/38) | **< 0.08%** |
@@ -52,7 +52,7 @@ Kennedy proved that an opaque pouch of **38 marbles** replicates physical hand-s
 - **Segmented 3-Phase Navigation**:
   - **☯ Chamber**: Step-by-step bottom-up line casting (Line 1 Earth → Line 6 Heaven) with lower and upper trigram illumination.
   - **📖 Reading**: Complete King Wen presentation of both Primary and Relating (transformed) hexagrams with Judgment, Image, and changing line details.
-  - **ℹ Lore & Math**: Built-in historical guide explaining Zhu Xi, Gardner (1974), and Kennedy (2006).
+  - **ℹ Lore & Math**: Built-in historical guide explaining Zhu Xi (1186), Gardner (1974), and Andrew Kennedy's Revised Yarrow Algorithm (2006).
 - **Sincere Inquiry Card**: Frame your query and hold single-minded intent throughout the casting.
 - **Desktop Clipboard Export**: Format a full, beautiful Markdown consultation log with one click (`📋 Copy`).
 - **Zero External Dependencies**: Pure QML / QtQuick / Quickshell running natively in Omarchy.
@@ -93,6 +93,14 @@ While the panel is open:
 - `1`: Switch to Casting Chamber.
 - `2`: Switch to Reading View.
 - `3`: Switch to Lore & Math Drawer.
+
+---
+
+## References
+
+* **Kennedy, Andrew** (2006). *Briefing Leaders: A new look at the I Ching and the Tao De Ching*. Gravity Publishing. ISBN: 978-0955355608.
+* **Gardner, Martin** (1974). "Mathematical Games: The Combinatorial Properties of the I Ching." *Scientific American*, 230(1), 108–113.
+* **Zhu Xi** (1186 CE). *Yixue Qimeng* (易學啟蒙, *Introduction to the Study of the I Ching*).
 
 ---
 

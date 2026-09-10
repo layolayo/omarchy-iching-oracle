@@ -45,7 +45,7 @@ Panel {
 
   function methodLabel() {
     if (method === "yarrow") return "🌿 49 Yarrow Stalks"
-    return "🔮 38 Marbles (Kennedy)"
+    return "🔮 38 Marbles (Kennedy's Revised)"
   }
 
   function castNextLine() {
@@ -87,7 +87,7 @@ Panel {
     var p = consultation.primary
     var methodLabel = (root.method === "yarrow")
       ? "Authentic 50 Yarrow Stalks Method"
-      : "38 Marbles Pouch (Kennedy Method)"
+      : "38 Marbles Pouch (Andrew Kennedy's Revised Yarrow Algorithm)"
     var text = "☯ I-Ching Oracle Reading (" + methodLabel + ") ☯\n\n"
     if (root.inquiryText.trim() !== "") {
       text += "Inquiry: \"" + root.inquiryText.trim() + "\"\n\n"
@@ -362,7 +362,7 @@ Panel {
                   ? "Origin, Mathematics & Protocol"
                   : (root.method === "yarrow"
                     ? "Authentic 50 Yarrow Stalks (大衍筮法)"
-                    : "38 Marbles Pouch (Kennedy Non-Zero Split)"))
+                    : "38 Marbles Pouch (Andrew Kennedy's Revised Yarrow Algorithm)"))
               color: root.mutedColor
               font.family: root.fontFamily
               font.pixelSize: Style.font.caption
@@ -1147,7 +1147,7 @@ Panel {
 
             Text {
               width: parent.width
-              text: "• Zhu Xi (朱熹, 1186 CE):\nPreserved the authentic 18-step physical yarrow stalk algorithm in his manual 'Yixue Qimeng' from the ancient Han-era Great Treatise (Dazhuan).\n\n• Flawed 3-Coin Shortcut & Gardner (1974):\nWestern coin-tossing gives equal 12.5% chances to both changing lines. Martin Gardner showed in Scientific American that authentic yarrow division produces a dynamic asymmetry: restless Yang transforms 3 to 4 times more readily than Yin. Gardner's chalkboard math suggested a 16/32 ratio.\n\n• Real Physical Hands: Andrew Kennedy (2006):\nGardner's math assumed theoretical numbers dividing into quarters. But real human hands cannot divide stalks with zero on either side: when splitting 49 stalks into left and right hands, neither hand can ever be empty, and removing 1 stalk to hold between fingers means the right hand must hold at least 2. Dividing 49 stalks with physical non-zero hands yields 47 possible physical splits—a prime number that doesn't divide cleanly into quarters.\n\n• Why 38 Marbles Replaces 32:\nThe classical 32-marble bag had chalkboard errors of up to 2.4% on every line. By contrast, a 38-marble pouch matches the exact physical hand division of yarrow stalks to within 0.09%—the #1 most accurate integer model in existence.\n\n• Sacred 38-Marble Pouch:\n  • 17 Pure Black = Young Yin (8) [44.7%]\n  • 11 Pure White = Young Yang (7) [28.9%]\n  • 8 White with Black Specks = Old Yang (9) [21.1% · Changing]\n  • 2 Black with White Specks = Old Yin (6) [5.3% · Changing]\n\n• Present vs Future:\nChanging lines (Old Yang ● and Old Yin ✕) indicate points of active transformation, evolving the Present Hexagram into the Future Relating Hexagram.\n\n• Classical Consultation Protocol (Mind, Intent & Hexagram 4):\n  - Sincerity of Intent (Chéng, 誠): The Great Treatise teaches: 'In stillness it is without thought, tranquil and unmoving; when stirred, it penetrates all under heaven.' Approach with a quiet, centered mind.\n  - Hold the Question Throughout: Maintain uninterrupted focus on your inquiry as each line is drawn from the bottom up.\n  - How to Frame an Inquiry: Ask open-ended questions about dynamics, counsel, and attitude (e.g. 'What forces are at play in this situation?' or 'How should I navigate this conflict?') rather than testing or trivial yes/no predictions.\n  - The Rule of Hexagram 4 (Youthful Folly): 'The first consultation informs; asking repeatedly out of dissatisfaction is importunity' (初筮告，再三瀆，瀆則不告). Accept the oracle's counsel with an open, meditative heart."
+              text: "• Zhu Xi (朱熹, 1186 CE):\nPreserved the authentic 18-step physical yarrow stalk algorithm in his manual 'Yixue Qimeng' from the ancient Han-era Great Treatise (Dazhuan).\n\n• Flawed 3-Coin Shortcut & Gardner (1974):\nWestern coin-tossing gives equal 12.5% chances to both changing lines. Martin Gardner showed in Scientific American that authentic yarrow division produces a dynamic asymmetry: restless Yang transforms 3 to 4 times more readily than Yin. Gardner's chalkboard math suggested a 16/32 ratio.\n\n• Andrew Kennedy's Revised Yarrow Algorithm (2006):\nGardner's math assumed theoretical numbers dividing into quarters. But real human hands cannot divide stalks with zero on either side: when splitting 49 stalks into left and right hands, neither hand can ever be empty, and removing 1 stalk to hold between fingers means the right hand must hold at least 2. Dividing 49 stalks with physical non-zero hands yields 47 possible physical splits—a prime number that doesn't divide cleanly into quarters.\n\n• Why 38 Marbles Replaces 32:\nThe classical 32-marble bag had chalkboard errors of up to 2.4% on every line. By contrast, a 38-marble pouch matches the exact physical hand division of yarrow stalks to within 0.09%—the #1 most accurate integer model in existence.\n\n• Sacred 38-Marble Pouch:\n  • 17 Pure Black = Young Yin (8) [44.7%]\n  • 11 Pure White = Young Yang (7) [28.9%]\n  • 8 White with Black Specks = Old Yang (9) [21.1% · Changing]\n  • 2 Black with White Specks = Old Yin (6) [5.3% · Changing]\n\n• Present vs Future:\nChanging lines (Old Yang ● and Old Yin ✕) indicate points of active transformation, evolving the Present Hexagram into the Future Relating Hexagram.\n\n• Classical Consultation Protocol (Mind, Intent & Hexagram 4):\n  - Sincerity of Intent (Chéng, 誠): The Great Treatise teaches: 'In stillness it is without thought, tranquil and unmoving; when stirred, it penetrates all under heaven.' Approach with a quiet, centered mind.\n  - Hold the Question Throughout: Maintain uninterrupted focus on your inquiry as each line is drawn from the bottom up.\n  - How to Frame an Inquiry: Ask open-ended questions about dynamics, counsel, and attitude (e.g. 'What forces are at play in this situation?' or 'How should I navigate this conflict?') rather than testing or trivial yes/no predictions.\n  - The Rule of Hexagram 4 (Youthful Folly): 'The first consultation informs; asking repeatedly out of dissatisfaction is importunity' (初筮告，再三瀆，瀆則不告). Accept the oracle's counsel with an open, meditative heart."
               color: root.foreground
               font.family: root.fontFamily
               font.pixelSize: Style.font.caption
