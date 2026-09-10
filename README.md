@@ -14,8 +14,8 @@ Built with **pure QML / Quickshell** with zero binary dependencies, featuring **
 Almost all computer I-Ching programs and Western interpretations use the three-coin toss (2³ = 8 outcomes). Three coins produce equal 12.5% probabilities (1/8) for both changing lines (Old Yang and Old Yin). 
 
 In authentic Daoist cosmology, this is fundamentally incorrect:
-* **Yang** (⚊) is active, dynamic solar energy; it is restless and burns out quickly, transforming three times more readily into Yin.
-* **Yin** (⚋) is receptive, steady lunar/earthen energy; it is quiet and slow to alter course.
+* **Yang** (━━━━━━━) is active, dynamic solar energy; it is restless and burns out quickly, transforming three times more readily into Yin.
+* **Yin** (━━━ ━━━) is receptive, steady lunar/earthen energy; it is quiet and slow to alter course.
 
 ### 2. Beyond Martin Gardner's 1974 "Chalkboard Math"
 In 1974, mathematician Martin Gardner published the classical yarrow stalk ratio in *Scientific American* (1/16 Old Yin, 3/16 Old Yang, 5/16 Young Yang, 7/16 Young Yin). This popularized the 16-ratio / 32-marble bag.
@@ -37,10 +37,10 @@ Kennedy proved that an opaque pouch of **38 marbles** replicates physical hand-s
 
 | Line Type | Symbol | Classical Meaning | Gardner (32 Bag) | True Physical Stalks | Kennedy's Revised (38 Bag) | Accuracy Delta |
 | :--- | :---: | :--- | :---: | :---: | :---: | :---: |
-| **Young Yin (8)** | ⚋ | Unchanging Yin | 43.75% (14/32) | **44.84%** | **44.74%** (17/38) | **< 0.10%** |
-| **Young Yang (7)** | ⚊ | Unchanging Yang | 31.25% (10/32) | **28.87%** | **28.95%** (11/38) | **< 0.08%** |
-| **Old Yang (9)** | ⚊ ○ | Changing Yang → Yin | 18.75% (6/32) | **21.12%** | **21.05%** (8/38) | **< 0.07%** |
-| **Old Yin (6)** | ⚋ ✕ | Changing Yin → Yang | 6.25% (2/32) | **5.17%** | **5.26%** (2/38) | **< 0.09%** |
+| **Young Yin (8)** | ━━━ ━━━ | Unchanging Yin | 43.75% (14/32) | **44.84%** | **44.74%** (17/38) | **< 0.10%** |
+| **Young Yang (7)** | ━━━━━━━ | Unchanging Yang | 31.25% (10/32) | **28.87%** | **28.95%** (11/38) | **< 0.08%** |
+| **Old Yang (9)** | ━━━○━━━ | Changing Yang → Yin | 18.75% (6/32) | **21.12%** | **21.05%** (8/38) | **< 0.07%** |
+| **Old Yin (6)** | ━━━✕━━━ | Changing Yin → Yang | 6.25% (2/32) | **5.17%** | **5.26%** (2/38) | **< 0.09%** |
 
 ---
 
