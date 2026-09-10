@@ -4,6 +4,8 @@ An authentic, meditative I-Ching divination bar widget and interactive oracle fo
 
 Built with **pure QML / Quickshell** with zero binary dependencies, featuring the **2006 Andrew Kennedy Physical Hands Yarrow Algorithm** and the mathematically optimal **38-Marble Divination Method**.
 
+![I-Ching: Stalks & Sacred Marbles](preview.png)
+
 ---
 
 ## What Makes This Oracle Unique?
