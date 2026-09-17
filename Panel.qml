@@ -1198,7 +1198,7 @@ Panel {
                 // Upper Trigram (Outer Realm)
                 BorderSurface {
                   width: (parent.width - Style.space(8)) * 0.5
-                  implicitHeight: pUpperCol.implicitHeight + Style.space(14)
+                  implicitHeight: Math.max(pUpperCol.implicitHeight, pLowerCol.implicitHeight) + Style.space(14)
                   color: Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.08)
                   radius: Style.cornerRadius
                   borderSpec: Border.flat(Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.35), 1)
@@ -1206,7 +1206,9 @@ Panel {
                   Column {
                     id: pUpperCol
                     width: parent.width - Style.space(16)
-                    anchors.centerIn: parent
+                    anchors.horizontalCenter: parent.horizontalCenter
+                    anchors.top: parent.top
+                    anchors.topMargin: Style.space(7)
                     spacing: Style.space(4)
 
                     // Header Tag
@@ -1293,7 +1295,7 @@ Panel {
                 // Lower Trigram (Inner Realm)
                 BorderSurface {
                   width: (parent.width - Style.space(8)) * 0.5
-                  implicitHeight: pLowerCol.implicitHeight + Style.space(14)
+                  implicitHeight: Math.max(pUpperCol.implicitHeight, pLowerCol.implicitHeight) + Style.space(14)
                   color: Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.08)
                   radius: Style.cornerRadius
                   borderSpec: Border.flat(Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.35), 1)
@@ -1301,7 +1303,9 @@ Panel {
                   Column {
                     id: pLowerCol
                     width: parent.width - Style.space(16)
-                    anchors.centerIn: parent
+                    anchors.horizontalCenter: parent.horizontalCenter
+                    anchors.top: parent.top
+                    anchors.topMargin: Style.space(7)
                     spacing: Style.space(4)
 
                     // Header Tag
@@ -1849,7 +1853,7 @@ Panel {
                 // Upper Trigram (Outer Realm)
                 BorderSurface {
                   width: (parent.width - Style.space(8)) * 0.5
-                  implicitHeight: tUpperCol.implicitHeight + Style.space(14)
+                  implicitHeight: Math.max(tUpperCol.implicitHeight, tLowerCol.implicitHeight) + Style.space(14)
                   color: Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.08)
                   radius: Style.cornerRadius
                   borderSpec: Border.flat(Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.35), 1)
@@ -1857,7 +1861,9 @@ Panel {
                   Column {
                     id: tUpperCol
                     width: parent.width - Style.space(16)
-                    anchors.centerIn: parent
+                    anchors.horizontalCenter: parent.horizontalCenter
+                    anchors.top: parent.top
+                    anchors.topMargin: Style.space(7)
                     spacing: Style.space(4)
 
                     // Header Tag
@@ -1944,7 +1950,7 @@ Panel {
                 // Lower Trigram (Inner Realm)
                 BorderSurface {
                   width: (parent.width - Style.space(8)) * 0.5
-                  implicitHeight: tLowerCol.implicitHeight + Style.space(14)
+                  implicitHeight: Math.max(tUpperCol.implicitHeight, tLowerCol.implicitHeight) + Style.space(14)
                   color: Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.08)
                   radius: Style.cornerRadius
                   borderSpec: Border.flat(Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.35), 1)
@@ -1952,7 +1958,9 @@ Panel {
                   Column {
                     id: tLowerCol
                     width: parent.width - Style.space(16)
-                    anchors.centerIn: parent
+                    anchors.horizontalCenter: parent.horizontalCenter
+                    anchors.top: parent.top
+                    anchors.topMargin: Style.space(7)
                     spacing: Style.space(4)
 
                     // Header Tag
