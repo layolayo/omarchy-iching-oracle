@@ -160,8 +160,8 @@ Panel {
         if (consultation.nuclearTransition) {
           var nt = consultation.nuclearTransition
           text += "\nInterior Core Transition (" + nt.badge + "):\n"
-          text += "  State X (Initial Core):   #" + nt.fromHex.number + " " + nt.fromHex.english + " (" + nt.fromGate.name + ")\n"
-          text += "  State Y (Relating Core):  #" + nt.toHex.number + " " + nt.toHex.english + " (" + nt.toGate.name + ")\n"
+          text += "  Initial Core:             #" + nt.fromHex.number + " " + nt.fromHex.english + " (" + nt.fromGate.name + ")\n"
+          text += "  Relating Core:            #" + nt.toHex.number + " " + nt.toHex.english + " (" + nt.toGate.name + ")\n"
           text += "  Transition Vector:        " + nt.changingLinesLabel + "\n"
           text += "  Dynamic:                  " + nt.headline + "\n"
           text += "  Analysis:                 " + nt.description + "\n"
@@ -1498,17 +1498,6 @@ Panel {
                         font.bold: true
                       }
                     }
-
-                    Text {
-                      anchors.verticalCenter: parent.verticalCenter
-                      text: root.consultation && root.consultation.primary && root.consultation.primary.nuclear && root.consultation.primary.nuclear.rootGate
-                        ? ("· " + root.consultation.primary.nuclear.rootGate.theme)
-                        : ""
-                      color: root.mutedColor
-                      font.family: root.fontFamily
-                      font.pixelSize: Style.space(9)
-                      font.italic: true
-                    }
                   }
 
                   Text {
@@ -2304,7 +2293,7 @@ Panel {
                     // State X Box
                     BorderSurface {
                       width: (parent.width - Style.space(32)) / 2
-                      implicitHeight: stateXCol.implicitHeight + Style.space(12)
+                      implicitHeight: Math.max(stateXCol.implicitHeight, stateYCol.implicitHeight) + Style.space(16)
                       radius: Style.space(6)
                       color: Qt.rgba(0, 0, 0, 0.25)
                       borderSpec: Border.flat(Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.3), 1)
@@ -2312,11 +2301,13 @@ Panel {
                       Column {
                         id: stateXCol
                         width: parent.width - Style.space(12)
-                        anchors.centerIn: parent
+                        anchors.top: parent.top
+                        anchors.topMargin: Style.space(8)
+                        anchors.horizontalCenter: parent.horizontalCenter
                         spacing: Style.space(2)
 
                         Text {
-                          text: "STATE X · INITIAL CORE"
+                          text: "INITIAL CORE"
                           color: root.accentColor
                           font.family: root.fontFamily
                           font.pixelSize: Style.space(8)
@@ -2398,7 +2389,7 @@ Panel {
                     // State Y Box
                     BorderSurface {
                       width: (parent.width - Style.space(32)) / 2
-                      implicitHeight: stateYCol.implicitHeight + Style.space(12)
+                      implicitHeight: Math.max(stateXCol.implicitHeight, stateYCol.implicitHeight) + Style.space(16)
                       radius: Style.space(6)
                       color: Qt.rgba(0, 0, 0, 0.25)
                       borderSpec: Border.flat(Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.4), 1)
@@ -2406,11 +2397,13 @@ Panel {
                       Column {
                         id: stateYCol
                         width: parent.width - Style.space(12)
-                        anchors.centerIn: parent
+                        anchors.top: parent.top
+                        anchors.topMargin: Style.space(8)
+                        anchors.horizontalCenter: parent.horizontalCenter
                         spacing: Style.space(2)
 
                         Text {
-                          text: "STATE Y · RELATING CORE"
+                          text: "RELATING CORE"
                           color: root.changingLineColor
                           font.family: root.fontFamily
                           font.pixelSize: Style.space(8)
@@ -2549,17 +2542,6 @@ Panel {
                         font.pixelSize: Style.space(9)
                         font.bold: true
                       }
-                    }
-
-                    Text {
-                      anchors.verticalCenter: parent.verticalCenter
-                      text: root.consultation && root.consultation.transformed && root.consultation.transformed.nuclear && root.consultation.transformed.nuclear.rootGate
-                        ? ("· " + root.consultation.transformed.nuclear.rootGate.theme)
-                        : ""
-                      color: root.mutedColor
-                      font.family: root.fontFamily
-                      font.pixelSize: Style.space(9)
-                      font.italic: true
                     }
                   }
 
