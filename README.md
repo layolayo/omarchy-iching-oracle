@@ -53,10 +53,10 @@ Beyond the primary surface reading lies the **Nuclear Hexagram (*Hù Guà*)**, a
   * **Upper Nuclear Trigram**: Lines 3, 4, 5 of the outer hexagram.
 * **The 16 Nuclear Families**: While there are 64 primary hexagrams, there are strictly **only 16 possible nuclear hexagrams**. Every primary hexagram belongs to one of these 16 core patterns.
 * **The Four Primordial Root Gates**: Iterating nuclear reduction recursively collapses all 64 hexagrams into one of **Four Primordial Attractors** (Root Gates):
-  * **Gate 1: #1 The Creative (乾 · Qián)** — Pure Creative Yang & Dynamic Initiative
-  * **Gate 2: #2 The Receptive (坤 · Kūn)** — Pure Receptivity, Devotion & Grounding
-  * **Gate 3: #63 After Completion (既濟 · Jì Jì)** — Peak Order, Dynamic Equilibrium & Balanced Reciprocity
-  * **Gate 4: #64 Before Completion (未濟 · Wèi Jì)** — Primordial Genesis, Infinite Becoming & Open Potential
+  * **Gate 1: Hexagram 1 — The Creative (乾 · Qián)** — Pure Creative Yang & Dynamic Initiative
+  * **Gate 2: Hexagram 2 — The Receptive (坤 · Kūn)** — Pure Receptivity, Devotion & Grounding
+  * **Gate 3: Hexagram 63 — After Completion (既濟 · Jì Jì)** — Peak Order, Dynamic Equilibrium & Balanced Reciprocity
+  * **Gate 4: Hexagram 64 — Before Completion (未濟 · Wèi Jì)** — Primordial Genesis, Infinite Becoming & Open Potential
 * Every hexagram card displays a standalone Primordial Root Gate badge identifying its ultimate cosmological attractor.
 
 ### 2. The $X \to Y$ Nuclear Transition Matrix
