@@ -88,7 +88,8 @@ Panel {
     var methodLabel = (root.method === "yarrow")
       ? "Authentic 50 Yarrow Stalks Method"
       : "38 Marbles Pouch (Andrew Kennedy's Revised Yarrow Algorithm)"
-    var text = "☯ I-Ching Oracle Reading (" + methodLabel + ") ☯\n\n"
+    var text = "☯ I-Ching Oracle Reading (" + methodLabel + ") ☯\n"
+    text += "Translation & Commentary: Richard Wilhelm / Cary F. Baynes (Princeton University Press)\n\n"
     if (root.inquiryText.trim() !== "") {
       text += "Inquiry: \"" + root.inquiryText.trim() + "\"\n\n"
     }
@@ -97,18 +98,34 @@ Panel {
     text += "\nThe Judgment:\n" + p.judgment + "\n"
     text += "\nThe Image:\n" + p.image + "\n\n"
 
-    if (consultation.hasChangingLines && consultation.transformed) {
-      var t = consultation.transformed
+    if (consultation.hasChangingLines) {
       var changingStr = ""
       for (var k = 0; k < consultation.changingLines.length; k++) {
         if (k > 0) changingStr += ", "
         changingStr += "Line " + consultation.changingLines[k]
       }
       text += "Changing Lines: " + changingStr + "\n\n"
-      text += "Relating Hexagram (Future): #" + t.number + " " + t.chinese + " (" + t.pinyin + ") — " + t.english + " " + t.unicode + "\n"
-      text += "Trigrams: " + t.upperTrigram.name + " (" + t.upperTrigram.symbol + ") above " + t.lowerTrigram.name + " (" + t.lowerTrigram.symbol + ")\n"
-      text += "\nThe Judgment:\n" + t.judgment + "\n"
-      text += "\nThe Image:\n" + t.image + "\n\n"
+
+      if (consultation.changingLineDetails && consultation.changingLineDetails.length > 0) {
+        text += "The Lines (Operative Counsel):\n"
+        for (var cd = 0; cd < consultation.changingLineDetails.length; cd++) {
+          var cld = consultation.changingLineDetails[cd]
+          text += "  Line " + cld.line + " — " + cld.name + ":\n"
+          text += "  \"" + cld.text.replace(/\n/g, " ") + "\"\n"
+          if (cld.comments) {
+            text += "  Commentary: " + cld.comments.replace(/\n/g, " ") + "\n"
+          }
+          text += "\n"
+        }
+      }
+
+      if (consultation.transformed) {
+        var t = consultation.transformed
+        text += "Relating Hexagram (Future): #" + t.number + " " + t.chinese + " (" + t.pinyin + ") — " + t.english + " " + t.unicode + "\n"
+        text += "Trigrams: " + t.upperTrigram.name + " (" + t.upperTrigram.symbol + ") above " + t.lowerTrigram.name + " (" + t.lowerTrigram.symbol + ")\n"
+        text += "\nThe Judgment:\n" + t.judgment + "\n"
+        text += "\nThe Image:\n" + t.image + "\n\n"
+      }
     }
 
     text += "Lines Cast (Bottom Line 1 to Top Line 6):\n"
@@ -304,13 +321,14 @@ Panel {
     bar: root.bar
     open: root.opened
     centerOnBar: false
-    contentWidth: Style.space(440)
+    contentWidth: Style.space(510)
     contentHeight: panel.fittedContentHeight(scrollContent.implicitHeight + panel.padding * 2, Style.space(740))
 
     Controls.ScrollView {
       id: scrollArea
       anchors.fill: parent
       clip: true
+      rightPadding: Style.space(16)
       Controls.ScrollBar.horizontal.policy: Controls.ScrollBar.AlwaysOff
       Controls.ScrollBar.vertical.policy: scrollContent.implicitHeight > height
         ? Controls.ScrollBar.AsNeeded
@@ -499,36 +517,36 @@ Panel {
                 font.pixelSize: Style.font.caption
                 font.bold: true
               }
+              Text {
+                visible: root.castLines.length > 0
+                text: "🔒 (Locked)"
+                color: root.mutedColor
+                font.family: root.fontFamily
+                font.pixelSize: Style.font.caption
+              }
             }
 
             TextField {
               id: questionInputField
               width: parent.width
-              visible: root.castLines.length === 0
-              placeholderText: "Formulate your question & hold it in mind throughout..."
+              readOnly: root.castLines.length > 0
+              placeholderText: root.castLines.length === 0
+                ? "Formulate your question & hold it in mind throughout..."
+                : "(Silent contemplation · Focus of intent)"
               text: root.inquiryText
               font.pixelSize: Style.font.caption
-              onTextChanged: root.inquiryText = text
-            }
-
-            Text {
-              visible: root.castLines.length > 0 && root.inquiryText.trim() !== ""
-              width: parent.width
-              text: "“" + root.inquiryText.trim() + "”"
-              color: root.foreground
-              font.family: root.fontFamily
-              font.pixelSize: Style.font.caption
-              font.bold: true
-              wrapMode: Text.WordWrap
+              onTextChanged: {
+                if (root.castLines.length === 0) {
+                  root.inquiryText = text
+                }
+              }
             }
 
             Text {
               width: parent.width
-              text: root.castLines.length === 0
-                ? "The classics teach: quiet your mind, formulate what you seek counsel on, and hold it firmly in thought through all six draws."
-                : (root.castLines.length < 6
-                  ? "Maintain single-minded focus on this inquiry as each line is drawn from the bottom up."
-                  : "Reflect deeply upon the Judgment and Image in relation to your inquiry.")
+              text: root.castLines.length === 6
+                ? "Consultation complete. Reflect deeply upon the Judgment and Image in relation to your inquiry."
+                : "The classics teach: quiet your mind, formulate what you seek counsel on, and hold it firmly in thought through all six draws."
               color: root.mutedColor
               font.family: root.fontFamily
               font.pixelSize: Style.space(11)
@@ -982,6 +1000,126 @@ Panel {
           }
         }
 
+        // ----------------- Changing Lines (Yáo Cí · The Lines) -----------------
+        BorderSurface {
+          width: parent.width
+          visible: root.activeTab === "reading" && root.castLines.length === 6 && root.consultation && root.consultation.hasChangingLines && root.consultation.changingLineDetails && root.consultation.changingLineDetails.length > 0
+          implicitHeight: changingLinesCol.implicitHeight + Style.space(24)
+          color: Qt.rgba(245/255, 158/255, 11/255, 0.07)
+          radius: Style.cornerRadius
+          borderSpec: Border.flat(Qt.rgba(245/255, 158/255, 11/255, 0.35), 1)
+
+          Column {
+            id: changingLinesCol
+            width: parent.width - Style.space(24)
+            anchors.centerIn: parent
+            spacing: Style.space(12)
+
+            Row {
+              width: parent.width
+              spacing: Style.space(8)
+
+              Text {
+                text: "⚡"
+                font.pixelSize: Style.font.heading
+                color: root.changingLineColor
+              }
+
+              Column {
+                width: parent.width - Style.space(32)
+                spacing: Style.space(2)
+
+                Text {
+                  width: parent.width
+                  text: "The Changing Lines · 爻辭 (Operative Counsel)"
+                  color: root.changingLineColor
+                  font.family: root.fontFamily
+                  font.pixelSize: Style.font.bodySmall
+                  font.bold: true
+                }
+
+                Text {
+                  width: parent.width
+                  text: "Active lines in motion, revealing specific advice for the turning point:"
+                  color: root.mutedColor
+                  font.family: root.fontFamily
+                  font.pixelSize: Style.font.caption
+                  wrapMode: Text.WordWrap
+                }
+              }
+            }
+
+            // List each changing line
+            Repeater {
+              model: root.consultation && root.consultation.changingLineDetails ? root.consultation.changingLineDetails : []
+              delegate: Column {
+                required property var modelData
+                width: parent.width
+                spacing: Style.space(6)
+
+                // Line Title badge
+                Row {
+                  spacing: Style.space(6)
+
+                  Rectangle {
+                    anchors.verticalCenter: parent.verticalCenter
+                    width: Style.space(8)
+                    height: Style.space(8)
+                    radius: Style.space(4)
+                    color: root.changingLineColor
+                  }
+
+                  Text {
+                    text: (modelData.line && modelData.line <= 6 ? ("Line " + modelData.line + " — ") : "") + (modelData.name || "")
+                    color: root.foreground
+                    font.family: root.fontFamily
+                    font.pixelSize: Style.font.bodySmall
+                    font.bold: true
+                  }
+                }
+
+                // Line Oracle Text & Commentary Box
+                BorderSurface {
+                  width: parent.width
+                  implicitHeight: lineTextCol.implicitHeight + Style.space(16)
+                  color: Qt.rgba(0, 0, 0, 0.25)
+                  radius: Style.cornerRadius
+                  borderSpec: Border.flat(Qt.rgba(245/255, 158/255, 11/255, 0.25), 1)
+
+                  Column {
+                    id: lineTextCol
+                    width: parent.width - Style.space(16)
+                    anchors.centerIn: parent
+                    spacing: Style.space(6)
+
+                    Text {
+                      width: parent.width
+                      text: modelData.text || ""
+                      color: root.foreground
+                      font.family: root.fontFamily
+                      font.pixelSize: Style.font.caption
+                      font.bold: true
+                      lineHeight: 1.3
+                      wrapMode: Text.WordWrap
+                    }
+
+                    Text {
+                      visible: !!modelData.comments
+                      width: parent.width
+                      text: modelData.comments ? ("Commentary: " + modelData.comments) : ""
+                      color: root.mutedColor
+                      font.family: root.fontFamily
+                      font.pixelSize: Style.font.caption
+                      lineHeight: 1.25
+                      wrapMode: Text.WordWrap
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
         // ----------------- Transformed Hexagram (if changing lines) -----------------
         BorderSurface {
           width: parent.width
@@ -1122,6 +1260,22 @@ Panel {
           }
         }
 
+        // ----------------- Source Citation Footer -----------------
+        Text {
+          width: parent.width
+          visible: root.activeTab === "reading" && root.castLines.length === 6 && !!root.consultation
+          horizontalAlignment: Text.AlignHCenter
+          text: "📖 Translation & Commentary: Richard Wilhelm / Cary F. Baynes · Princeton University Press"
+          color: root.mutedColor
+          font.family: root.fontFamily
+          font.pixelSize: Style.font.caption
+          font.italic: true
+          wrapMode: Text.WordWrap
+          lineHeight: 1.3
+          topPadding: Style.space(4)
+          bottomPadding: Style.space(12)
+        }
+
         // ----------------- Lore & Philosophy Tab -----------------
         BorderSurface {
           width: parent.width
@@ -1147,7 +1301,7 @@ Panel {
 
             Text {
               width: parent.width
-              text: "• Zhu Xi (朱熹, 1186 CE):\nPreserved the authentic 18-step physical yarrow stalk algorithm in his manual 'Yixue Qimeng' from the ancient Han-era Great Treatise (Dazhuan).\n\n• Flawed 3-Coin Shortcut & Gardner (1974):\nWestern coin-tossing gives equal 12.5% chances to both changing lines. Martin Gardner showed in Scientific American that authentic yarrow division produces a dynamic asymmetry: restless Yang transforms 3 to 4 times more readily than Yin. Gardner's chalkboard math suggested a 16/32 ratio.\n\n• Andrew Kennedy's Revised Yarrow Algorithm (2006):\nGardner's math assumed theoretical numbers dividing into quarters. But real human hands cannot divide stalks with zero on either side: when splitting 49 stalks into left and right hands, neither hand can ever be empty, and removing 1 stalk to hold between fingers means the right hand must hold at least 2. Dividing 49 stalks with physical non-zero hands yields 47 possible physical splits—a prime number that doesn't divide cleanly into quarters.\n\n• Why 38 Marbles Replaces 32:\nThe classical 32-marble bag had chalkboard errors of up to 2.4% on every line. By contrast, a 38-marble pouch matches the exact physical hand division of yarrow stalks to within 0.09%—the #1 most accurate integer model in existence.\n\n• Sacred 38-Marble Pouch:\n  • 17 Pure Black = Young Yin (8) [44.7%]\n  • 11 Pure White = Young Yang (7) [28.9%]\n  • 8 White with Black Specks = Old Yang (9) [21.1% · Changing]\n  • 2 Black with White Specks = Old Yin (6) [5.3% · Changing]\n\n• Present vs Future:\nChanging lines (Old Yang ● and Old Yin ✕) indicate points of active transformation, evolving the Present Hexagram into the Future Relating Hexagram.\n\n• Classical Consultation Protocol (Mind, Intent & Hexagram 4):\n  - Sincerity of Intent (Chéng, 誠): The Great Treatise teaches: 'In stillness it is without thought, tranquil and unmoving; when stirred, it penetrates all under heaven.' Approach with a quiet, centered mind.\n  - Hold the Question Throughout: Maintain uninterrupted focus on your inquiry as each line is drawn from the bottom up.\n  - How to Frame an Inquiry: Ask open-ended questions about dynamics, counsel, and attitude (e.g. 'What forces are at play in this situation?' or 'How should I navigate this conflict?') rather than testing or trivial yes/no predictions.\n  - The Rule of Hexagram 4 (Youthful Folly): 'The first consultation informs; asking repeatedly out of dissatisfaction is importunity' (初筮告，再三瀆，瀆則不告). Accept the oracle's counsel with an open, meditative heart."
+              text: "• Zhu Xi (朱熹, 1186 CE):\nPreserved the authentic 18-step physical yarrow stalk algorithm in his manual 'Yixue Qimeng' from the ancient Han-era Great Treatise (Dazhuan).\n\n• Flawed 3-Coin Shortcut & Gardner (1974):\nWestern coin-tossing gives equal 12.5% chances to both changing lines. Martin Gardner showed in Scientific American that authentic yarrow division produces a dynamic asymmetry: restless Yang transforms 3 to 4 times more readily than Yin. Gardner's chalkboard math suggested a 16/32 ratio.\n\n• Andrew Kennedy's Revised Yarrow Algorithm (2006):\nGardner's math assumed theoretical numbers dividing into quarters. But real human hands cannot divide stalks with zero on either side: when splitting 49 stalks into left and right hands, neither hand can ever be empty, and removing 1 stalk to hold between fingers means the right hand must hold at least 2. Dividing 49 stalks with physical non-zero hands yields 47 possible physical splits—a prime number that doesn't divide cleanly into quarters.\n\n• Why 38 Marbles Replaces 32:\nThe classical 32-marble bag had chalkboard errors of up to 2.4% on every line. By contrast, a 38-marble pouch matches the exact physical hand division of yarrow stalks to within 0.09%—the #1 most accurate integer model in existence.\n\n• Sacred 38-Marble Pouch:\n  • 17 Pure Black = Young Yin (8) [44.7%]\n  • 11 Pure White = Young Yang (7) [28.9%]\n  • 8 White with Black Specks = Old Yang (9) [21.1% · Changing]\n  • 2 Black with White Specks = Old Yin (6) [5.3% · Changing]\n\n• Present vs Future:\nChanging lines (Old Yang ● and Old Yin ✕) indicate points of active transformation, evolving the Present Hexagram into the Future Relating Hexagram.\n\n• Classical Consultation Protocol (Mind, Intent & Hexagram 4):\n  - Sincerity of Intent (Chéng, 誠): The Great Treatise teaches: 'In stillness it is without thought, tranquil and unmoving; when stirred, it penetrates all under heaven.' Approach with a quiet, centered mind.\n  - Hold the Question Throughout: Maintain uninterrupted focus on your inquiry as each line is drawn from the bottom up.\n  - How to Frame an Inquiry: Ask open-ended questions about dynamics, counsel, and attitude (e.g. 'What forces are at play in this situation?' or 'How should I navigate this conflict?') rather than testing or trivial yes/no predictions.\n  - The Rule of Hexagram 4 (Youthful Folly): 'The first consultation informs; asking repeatedly out of dissatisfaction is importunity' (初筮告，再三瀆，瀆則不告). Accept the oracle's counsel with an open, meditative heart.\n\n• Classical Translation & Commentary (Wilhelm / Baynes):\nThe judgments, images, line texts (爻辭, Yáo Cí), and commentaries in this oracle are drawn from the Richard Wilhelm translation, translated from German into English by Cary F. Baynes with a foreword by C.G. Jung (Princeton University Press, Bollingen Series XIX). First published in English in 1950, this edition remains the international benchmark for both scholarly fidelity and psychological depth."
               color: root.foreground
               font.family: root.fontFamily
               font.pixelSize: Style.font.caption

@@ -43,7 +43,65 @@ var HEXAGRAMS = [
       1
     ],
     "judgment": "The Creative works sublime success, furthering through perseverance.",
-    "image": "The movement of heaven is full of power. Thus the superior person makes themselves strong and untiring."
+    "image": "The movement of heaven is full of power. Thus the superior person makes themselves strong and untiring.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the beginning",
+        "text": "Hidden dragon. Do not act.",
+        "comments": "In China the dragon has a meaning altogether different from that given it in the Western world. The dragon is a symbol of the electrically charged, dynamic, arousing force that manifests itself in the thunderstorm. In winter this energy withdraws into the earth; in the early summer it becomes active again, appearing in the sky as thunder and lightning. As a result the creative forces on earth begin to stir again. Here this creative force is still hidden beneath the earth and therefore has no effect. In terms of human affairs, this symbolizes a great man who is still unrecognized. Nonetheless he remains true to himself. He does not allow himself to be influenced by outward success or failure, but confident in his strength, he bides his time. Hence it is wise for the man who consults the oracle and draws this line to wait in the calm strength of patience. The time will fulfill itself. One need not fear least strong will should not prevail; the main thing is not to expend one's powers prematurely in an attempt to obtain by force something for which the time is not yet ripe."
+      },
+      {
+        "line": 2,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the second place",
+        "text": "Dragon appearing in the field.\nIt furthers one to see the great man.",
+        "comments": "Here the effects of the light-giving power begin to manifest themselves. In terms of human affairs, this means that the great man makes his appearance in his chosen field of activity. As yet he has no commanding position but is still with his peers. However, what distinguishes him form the others is his seriousness of purpose, his unqualified reliability, and the influence he exerts on his environment with out conscious effort. Such a man is destined to gain great influence and to set the world in order. Therefore it is favorable to see him."
+      },
+      {
+        "line": 3,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the third place",
+        "text": "All day long the superior man is creatively active.\nAt nightfall his mind is still beset with cares.\nDanger. No blame.",
+        "comments": "A sphere of influence opens up for the great man. His fame begins to spread. The masses flock to him. His inner power is adequate to the increased outer activity. There are all sorts of things to be done, and when others are at rest in the evening, plans and anxieties press in upon him. But danger lurks here at the place of transition from lowliness to the heights. Many a great man has been ruined because the masses flocked to him and swept him into their course. Ambition has destroyed his integrity. However, true greatness is not impaired by temptations. He who remains in touch with the time that is dawning, and with its demands is prudent enough to avoid all pitfalls, and remains blameless."
+      },
+      {
+        "line": 4,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fourth place",
+        "text": "Wavering flight over the depths.\nNo blame.",
+        "comments": "A place of transition has been reached, and free choice can enter in. A twofold possibility is presented to the great man: he can soar to the heights and play an important part in the world, or he can withdraw into solitude and develop himself. He can go the way of the hero or that of the holy sage who seeks seclusion. There is no general law of his being. If the individual acts consistently and is true to himself, he will find the way that is appropriate for him. This way is right for him and without blame."
+      },
+      {
+        "line": 5,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fifth place",
+        "text": "Flying dragon in the heavens.\nIt furthers one to see the great man.",
+        "comments": "Here the great man has attained the sphere of the heavenly beings. His influence spreads and becomes visible throughout the whole world. Everyone who sees him may count himself blessed. Confucius says about this line:\n\nThings that accord in tone vibrate together. Things that have affinity in their inmost natures seek one another. Water flows to what is wet, fire turns to what is dry. Clouds (the breath of heaven) follow the dragon, wind (the breath of earth) follows the tiger. Thus the sage arises, and all creatures follow him with their eyes. What is born of heaven feels related to what is above. What is born of earth feels related to what is below. Each follows its kind."
+      },
+      {
+        "line": 6,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the top",
+        "text": "Arrogant dragon will have cause to repent.",
+        "comments": "When a man seeks to climb so high that he loses touch with the rest of mankind, he becomes isolated, and this necessarily leads to failure. This line warns against titanic aspirations that exceed one's power. A precipitous fall would follow.\nWhen all the lines are nines, it means:\n\nThere appears a flight of dragons without heads.\nGood fortune."
+      }
+    ],
+    "specialLine": {
+      "line": 7,
+      "name": "When all the lines are nines",
+      "val": 9,
+      "type": "yang",
+      "text": "There appears a flight of dragons without heads.\nGood fortune.",
+      "comments": "When all the lines are nines, it means that the whole hexagram is in motion and changes into the hexagram K'un, the Receptive, whose character is devotion. The strength of the Creative and the mildness of the Receptive unite. Strength is indicated by the flight of dragons, mildness by the fact that their heads are hidden. This means that mildness in action joined to strength of decision brings good fortune."
+    }
   },
   {
     "number": 2,
@@ -87,7 +145,65 @@ var HEXAGRAMS = [
       0
     ],
     "judgment": "The Receptive brings about sublime success, furthering through the perseverance of a mare. If one undertakes something and tries to lead, one goes astray; but if one follows, one finds guidance.",
-    "image": "The earth's condition is receptive devotion. Thus the superior person who has breadth of character carries the outer world."
+    "image": "The earth's condition is receptive devotion. Thus the superior person who has breadth of character carries the outer world.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the beginning",
+        "text": "When there is hoarfrost underfoot,\nSolid ice is not far off.",
+        "comments": "Just as the light-giving power represents life, so the dark power, the shadowy, represents death. When the first hoarfrost comes in the autumn, the power of darkness and cold is just at its beginning. After these first warnings, signs of death will gradually multiply, until, in obedience to immutable laws, stark winter with its ice is here. In life it is the same. After certain scarcely noticeable signs of decay have appeared, they go on increasing until final dissolution comes. But in life precautions can be taken by heeding the first signs of decay and checking them in time."
+      },
+      {
+        "line": 2,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the second place",
+        "text": "Straight, square, great.\nWithout purpose,\nYet nothing remains unfurthered.",
+        "comments": "The symbol of heaven is the circle, and that of earth is the square. Thus squareness is a primary quality of the earth. On the other hand, movement in a straight line, as well as magnitude, is a primary quality of the Creative. But all square things have their origin in a straight line and into turn form solid bodies. In mathematics, when we discriminate between lines, planes and solids, we find that rectangular planes result from straight lines, and cubic magnitudes from rectangular planes. The Receptive accommodates itself to the qualities of the Creative and makes them its own. Thus a square develops out of a straight line and a cube out of a square. This is compliance with the laws of the Creative; nothing is taken away, nothing added. Therefore the Receptive has no need of a special purpose of its own, nor of any effort' yet everything turns out as it should. Nature creates all beings without erring: this is its foursquareness. It tolerates all creatures equally: this is its greatness. Therefore it attains what is right for all without artifice or special intentions. Man achieves the height of wisdom when all that he does is as self-evident as what nature does."
+      },
+      {
+        "line": 3,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the third place",
+        "text": "Hidden lines.\nOne is able to remain persevering.\nIf by chance you are in the service of a king,\nSeek not works, but bring to completion.",
+        "comments": "If a man is free of vanity he is able to conceal his abilities and keep them from attracting attention too soon; thus he can mature undisturbed. If conditions demand it, he can also enter public life, but that too he does with restraint. The wise man gladly leaves fame to others. He does not seek to have credited to himself things that stand accomplished, but hopes to release active forces; that is, he completes his works in such a manner that they may bear fruit for the future."
+      },
+      {
+        "line": 4,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fourth place",
+        "text": "A tied-up sack. No blame, no praise.",
+        "comments": "The dark element opens when it moves and closes when at rest. The strictest reticence is indicated here. The time is dangerous , because any degree of prominence leads either to the enmity of irresistible antagonists if one challenges them or to misconceived recognition if one is complaisant. Therefore a man ought to maintain reserve, be it in solitude or in the turmoil of the world, for there too he can hide himself so well that no one knows him."
+      },
+      {
+        "line": 5,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fifth place",
+        "text": "A yellow lower garment brings supreme good fortune.",
+        "comments": "Yellow is the color of the earth and of the middle; it is the symbol of that which is reliable and genuine. The lower garment is inconspicuously decorated--the symbol of aristocratic reserve. When anyone is called upon to work in a prominent but not independent position, true success depends on the utmost discretion. A man's genuineness and refinement should not reveal themselves directly; they should express themselves only indirectly as an effect from within."
+      },
+      {
+        "line": 6,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the top",
+        "text": "Dragons fight in the meadow.\nTheir blood is black and yellow.",
+        "comments": "In the top place the dark element should yield to the light. If it attempts to maintain a position to which it is not entitled and to rule instead of serving, it draws down upon itself the anger of the strong. A struggle ensues in which it is overthrown, with injury, however, to both sides. The dragon, symbol of heaven, comes to fight the false dragon that symbolized the inflation of the earth principle. Midnight blue is the color of heaven; yellow is the color of earth. Therefore, when black and yellow blood flow, it is a sign that in this unnatural contest both primal powers suffer injury."
+      }
+    ],
+    "specialLine": {
+      "line": 7,
+      "name": "When all the lines are sixes",
+      "val": 6,
+      "type": "yin",
+      "text": "Lasting perseverance furthers.",
+      "comments": "When all the lines are sixes, the hexagram K'un turns into the hexagram Ch'ien, the Creative. It gains the strength that it needs for enduring. But although a change is taking place, there is no departure from the firm and yielding nature of the Receptive. The perseverance is steadfast and lasting."
+    }
   },
   {
     "number": 3,
@@ -131,7 +247,57 @@ var HEXAGRAMS = [
       0
     ],
     "judgment": "Difficulty at the Beginning works supreme success, furthering through perseverance. Nothing should be undertaken rashly, yet it furthers one to appoint helpers.",
-    "image": "Clouds and thunder: the image of Difficulty at the Beginning. Thus the superior person brings order out of confusion."
+    "image": "Clouds and thunder: the image of Difficulty at the Beginning. Thus the superior person brings order out of confusion.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the beginning",
+        "text": "Hesitation and hindrance.\nIt furthers one to remain persevering.\nIt furthers one to appoint helpers.",
+        "comments": "If a person encounters a hindrance at the beginning of an enterprise, he must not try to force advance but must pause and take thought. However, nothing should put him off his course; he must persevere and constantly keep the goal in sight. It is important to seek out the right assistants, but he can find them only if he avoids arrogance and associated with his fellows in a spirit of humility. Only then will he attract those with whose help he can combat the difficulties."
+      },
+      {
+        "line": 2,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the second place",
+        "text": "Difficulties pile up.\nHorse and wagon part.\nHe is not a robber;\nHe wants to woo when the time comes.\nThe maiden is chaste,\nShe does not pledge herself.\nTen years--then she pledges herself.",
+        "comments": "We find ourselves beset by difficulties and hindrances. Suddenly there is a turn of affairs, as if someone were coming up with a horse and wagon and unhitching them. This event comes so unexpectedly that we assume the newcomer to be a robber. Gradually it becomes clear that he has no evil intentions but seeks to be friendly and to offer help. But this offer is not to be accepted, because it does not come from the right quarter. We must wait until the time is fulfilled; ten years is a fulfilled cycle of time. Then normal conditions return of themselves, and we can join forces with the friend intended for us. Using the image of a betrothed girl who remains true to her lover in face of grave conflicts, the hexagram gives counsel for a special situation. When in times of difficulty a hindrance is encountered and unexpected relief is offered from a source unrelated to us, we must be careful and not take upon ourselves any obligations entailed by such help; otherwise our freedom of decision is impaired. If we bide our time, things will quiet down again, and we shall attain what we have hoped for."
+      },
+      {
+        "line": 3,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the third place",
+        "text": "Whoever hunts deer without the forester\nOnly loses his way in the forest.\nThe superior man understands the signs of the time\nAnd prefers to desist.\nTo go on brings humiliation.",
+        "comments": "If a man tries to hunt in a strange forest and has no guide, he loses his way. When he finds himself in difficulties he must not try to steal out of them unthinkingly and without guidance. Fate cannot be duped; premature effort, without the necessary guidance, ends in failure and disgrace. Therefore the superior man, discerning the seeds of coming events, prefers to renounce a wish rather than to provoke failure and humiliation by trying to force its fulfillment."
+      },
+      {
+        "line": 4,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fourth place",
+        "text": "Horse and wagon part.\nStrive for union.\nTo go brings good fortune.\nEverything acts to further.",
+        "comments": "We are in a situation in which it is our duty to act, but we lack sufficient power. However, an opportunity to make connections offers itself. It must be seized. Neither false pride nor false reserve should deter us. Bringing oneself to take the first step, even when it involves a certain degree of self-abnegation, is a sign of inner clarity. To accept help in a difficult situation is not a disgrace. If the right helper is found, all goes well."
+      },
+      {
+        "line": 5,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fifth place",
+        "text": "Difficulties in blessing.\nA little perseverance brings good fortune.\nGreat perseverance brings misfortune.",
+        "comments": "An individual is in a position in which he cannot so express his good intentions that they will actually take shape and be understood. Other people interpose and distort everything he does. He should then be cautious and proceed step by step. He must not try to force the consummation of a great undertaking, because success is possible only when general confidence already prevails. It is only through faithful and conscientious work, unobtrusively carried on, that the situation gradually clears up and the hindrance disappears."
+      },
+      {
+        "line": 6,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the top",
+        "text": "Horse and wagon part.\nBloody tears flow.",
+        "comments": "The difficulties at the beginning are too great for some persons. They get stuck and never find their way out; they fold their hands and give up the struggle. Such resignation is the saddest of all things. Therefore Confucius says of this line: \"Bloody tears flow: one should not persist in this.\""
+      }
+    ]
   },
   {
     "number": 4,
@@ -175,7 +341,57 @@ var HEXAGRAMS = [
       1
     ],
     "judgment": "Youthful folly has success. It is not I who seek the young fool; the young fool seeks me. Perseverance furthers.",
-    "image": "A spring wells up at the foot of the mountain: the image of Youth. Thus the superior person fosters character by thoroughness in all actions."
+    "image": "A spring wells up at the foot of the mountain: the image of Youth. Thus the superior person fosters character by thoroughness in all actions.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the beginning",
+        "text": "To make a fool develop\nIt furthers one to apply discipline.\nThe fetters should be removed.\nTo go on in this way bring humiliation.",
+        "comments": "Law is the beginning of education. Youth in its inexperience is inclined at first to take everything carelessly and playfully. It must be shown the seriousness of life. A certain measure of taking oneself in hand, brought about by strict discipline, is a good thing. He who plays with life never amounts to anything. However, discipline should not degenerate into drill. Continuous drill has a humiliating effect and cripples a man's powers."
+      },
+      {
+        "line": 2,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the second place",
+        "text": "To bear with fools in kindliness brings good fortune.\nTo know how to take women\nBrings good fortune.\nThe son is capable of taking charge of the household.",
+        "comments": "These lines picture a man who has no external power, but who has enough strength of mind to bear his burden of responsibility. He has the inner superiority and that enable him to tolerate with kindliness the shortcomings of human folly. The same attitude is owed to women as the weaker sex. One must understand them and give them recognition in a spirit of chivalrous consideration. Only this combination of inner strength with outer reserve enables one to take on the responsibility of directing a larger social body with real success."
+      },
+      {
+        "line": 3,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the third place",
+        "text": "Take not a maiden who. When she sees a man of bronze,\nLoses possession of herself.\nNothing furthers.",
+        "comments": "A weak, inexperienced man, struggling to rise, easily loses his own individuality when he slavishly imitates a strong personality of higher station. He is like a girl throwing herself away when she meets a strong man. Such a servile approach should not be encouraged, because it is bad both for the youth and the teacher. A girl owes it to her dignity to wait until she is wooed. In both cases it is undignified to offer oneself, and no good comes of accepting such an offer."
+      },
+      {
+        "line": 4,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fourth place",
+        "text": "Entangled folly bring humiliation.",
+        "comments": "For youthful folly it is the most hopeless thing to entangle itself in empty imaginings. The more obstinately it clings to such unreal fantasies, the more certainly will humiliation overtake it. Often the teacher, when confronted with such entangled folly, has no other course but to leave the fool to himself for a time, not sparing him the humiliation that results. This is frequently the only means of rescue."
+      },
+      {
+        "line": 5,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fifth place",
+        "text": "Childlike folly brings good fortune.",
+        "comments": "An inexperienced person who seeks instruction in a childlike and unassuming way is on the right path, for the man devoid of arrogance who subordinated himself to his teacher will certainly be helped."
+      },
+      {
+        "line": 6,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the top",
+        "text": "In punishing folly\nIt does not further one\nTo commit transgressions.\nThe only thing that furthers\nIs to prevent transgressions.",
+        "comments": "Sometimes an incorrigible fool must be punished. He who will not heed will be made to feel. This punishment is quite different from a preliminary shaking up. But the penalty should not be imposed in anger; it must be restricted to an objective guarding against unjustified excesses. Punishment is never an end in itself but serves merely to restore order. This applies not only in regard to education but also in regard to the measures taken by a government against a populace guilty of transgressions. Governmental interference should always be merely preventive and should have as its sole aim the establishment of public security and peace."
+      }
+    ]
   },
   {
     "number": 5,
@@ -219,7 +435,57 @@ var HEXAGRAMS = [
       0
     ],
     "judgment": "Waiting. If you are sincere, you have light and success. Perseverance brings good fortune. It furthers one to cross the great water.",
-    "image": "Clouds rise up to heaven: the image of Waiting. Thus the superior person eats and drinks, is joyous and of good cheer."
+    "image": "Clouds rise up to heaven: the image of Waiting. Thus the superior person eats and drinks, is joyous and of good cheer.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the beginning",
+        "text": "Waiting in the meadow.\nIT furthers one to abide in what endures.\nNo blame.",
+        "comments": "The danger is not yet close. One is still waiting on the open plain. Conditions are still simple, yet there is a feeling of something impending. One must continue to lead a regular life as long as possible. Only in this way does one guard against a premature waste of strength, keep free of blame and error that would become a source of weakness later on."
+      },
+      {
+        "line": 2,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the second place",
+        "text": "Waiting on the sand.\nThere is some gossip.\nThe end brings good fortune.",
+        "comments": "The danger gradually comes closer. Sand is near the bank of the river, and the water means danger. Disagreements crop up. General unrest can easily develop in such times, and we lay the blame on one another. He who stays calm will succeed in making things go well in the end. Slander will be silenced if we do not gratify it with injured retorts."
+      },
+      {
+        "line": 3,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the third place",
+        "text": "Waiting in the mud\nBrings about the arrival of the enemy.",
+        "comments": "Mud is no place for waiting, since it is already being washed by the water of the stream. Instead of having gathered strength to cross the stream at one try, one has made a premature start that has got him no farther than the muddy bank. Such an unfavorable position invites enemies from without, who naturally take advantage of it. Caution and a sense of the seriousness of the situation are all that can keep one from injury."
+      },
+      {
+        "line": 4,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fourth place",
+        "text": "Waiting in blood.\nGet out of the pit.",
+        "comments": "The situation is extremely dangerous. IT is of utmost gravity now--a matter of life and death. Bloodshed seems imminent. There is no going forward or backward; we are cut off as if in a pit. Now we must simply stand fast and let fate take its course. This composure, which keeps us from aggravating the trouble by anything we might do, is the only way of getting out of the dangerous pit."
+      },
+      {
+        "line": 5,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fifth place",
+        "text": "Waiting at meat and drink.\nPerseverance brings good fortune.",
+        "comments": "Even in the midst of danger there come intervals of peace when things go relatively well. If we possess enough inner strength, we shall take advantage of these intervals to fortify ourselves for renewed struggle. We must know how to enjoy the moment without being deflected from the goal, for perseverance is needed to remain victorious. This is true in public life as well; it is not possible to achieve everything all at once. The height of wisdom is to allow people enough recreation to quicken pleasure in their work until the task is completed. Herein lies the secret of the whole hexagram. It differs from Chin OBSTRUCTION\n\n39, in the fact that in this instance, while waiting, we are sure of our cause and therefore do not lose the serenity born of inner cheerfulness."
+      },
+      {
+        "line": 6,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the top",
+        "text": "One falls into the pit.\nThree uninvited guests arrive.\nHonor them, and in the end there will be good fortune.",
+        "comments": "The waiting is over; the danger can no longer be averted. One falls into the pit and must yield to the inevitable. Everything seems to have been in vain. But precisely in this extremity things take an unforeseen turn. Without a move on one's own part, there is outside intervention. At first one cannot be sure of its meaning: is it rescue or is it destruction? A person in this situation must keep his mind alert and not withdraw into himself with a sulky gesture of refusal, but must greet the new turn with respect. Thus he ultimately escapes the danger, and all goes well. Even happy turns of fortune often come in a form that at first seems strange to us."
+      }
+    ]
   },
   {
     "number": 6,
@@ -263,7 +529,57 @@ var HEXAGRAMS = [
       1
     ],
     "judgment": "Conflict. You are sincere and are being obstructed. A cautious halt halfway brings good fortune; going through to the end brings misfortune.",
-    "image": "Heaven and water go their opposite ways: the image of Conflict. Thus the superior person in all transactions considers the beginning."
+    "image": "Heaven and water go their opposite ways: the image of Conflict. Thus the superior person in all transactions considers the beginning.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the beginning",
+        "text": "If one does not perpetuate the affair,\nThere is a little gossip.\nIn the end, good fortune comes.",
+        "comments": "While a conflict is in the incipient stage, the best thing To do is to drop the issue. Especially when the adversary is stronger, it is not advisable to risk pushing the conflict to a decision. It may come to a slight dispute, but in the end all goes well."
+      },
+      {
+        "line": 2,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the second place",
+        "text": "One cannot engage in conflict;\nOne returns home, gives way.\nThe people of his town,\nThree hundred households,\nRemain free of guilt.",
+        "comments": "In a struggle with an enemy of superior strength, retreat is no disgrace. Timely withdrawal prevents bad consequences. If, out of a false sense of honor, a man allowed himself to be tempted into an unequal conflict, he would be drawing down disaster upon himself. In such a case a wise and conciliatory attitude benefits the whole community, which will then not be drawn into the conflict."
+      },
+      {
+        "line": 3,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the third place",
+        "text": "To nourish oneself on ancient virtue induces perseverance.\nDanger. In the end, good fortune comes.\nIf by chance you are in the service of a king,\nSeek not works.",
+        "comments": "This is a warning of the danger that goes with an expansive disposition. Only that which has been honestly acquired through merit remains a permanent possession. It can happen that such a possession may be contested, but since it is really one's own, one cannot be robbed of it. Whatever a man possesses through the strength of his own nature cannot be lost. If one enters the service of a superior, one can avoid conflict only by not seeking works for the sake of prestige. It is enough if the work is done: let the honor go to the other."
+      },
+      {
+        "line": 4,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fourth place",
+        "text": "One cannot engage in conflict.\nOne turns back and submits to fate,\nChanges one's attitude,\nAnd finds peace in perseverance.\nGood fortune.",
+        "comments": "This refers to a person whose inner attitude at first lacks peace. He does not feel content with his situation and would like to improve it through conflict. In contrast tot the situation of the nine in the second place, he is dealing with a weaker opponent and might therefore succeed. But he cannot carry on the fight, because, since right is not on his side, he cannot justify the conflict to his conscience. Therefore he turns back and accepts his fate. He changes his mind and finds lasting peace in being at one with eternal law. This brings good fortune."
+      },
+      {
+        "line": 5,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fifth place",
+        "text": "To contend before him\nBrings supreme good fortune.",
+        "comments": "This refers to an arbiter in a conflict who is powerful and just, and strong enough to lend weight to the right side. A dispute can be turned over to him with confidence. If one is in the right, one attains great good fortune."
+      },
+      {
+        "line": 6,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the top",
+        "text": "Even if by chance a leather belt is bestowed on one,'\nBy the end of a morning\nIt will have been snatched away three times.",
+        "comments": "Here we have someone who has carried a conflict to the bitter end and has triumphed. He is granted a decoration, but his happiness does not last. He is attacked again and again, and the result is conflict without end."
+      }
+    ]
   },
   {
     "number": 7,
@@ -307,7 +623,57 @@ var HEXAGRAMS = [
       0
     ],
     "judgment": "The Army needs perseverance and a strong leader. Good fortune without blame.",
-    "image": "In the middle of the earth is water: the image of the Army. Thus the superior person increases their masses by generosity toward the people."
+    "image": "In the middle of the earth is water: the image of the Army. Thus the superior person increases their masses by generosity toward the people.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the beginning",
+        "text": "An army must set forth in proper order.\nIf the order is not good, misfortune threatens.",
+        "comments": "At the beginning of a military enterprise, order is imperative. A just and valid cause must exist, and the obedience and coordination of the troops must be well organized, otherwise the result is inevitably failure."
+      },
+      {
+        "line": 2,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the second place",
+        "text": "In the midst of the army.\nGood fortune. No blame.\nThe king bestows a triple decoration.",
+        "comments": "The leader should be in the midst of his army, in touch with it, sharing good and bad with the masses he leads. This alone makes him equal to the heavy demands made upon him. He needs also the recognition of the ruler. The decorations he receives are justified, because there is no question of personal preferment here: the whole army, whose center he is, is honored in his person."
+      },
+      {
+        "line": 3,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the third place",
+        "text": "Perchance the army carries corpses in the wagon.\nMisfortune.",
+        "comments": "Here we have a choice of two explanations. One points to defeat because someone other than the chosen leader interferes with the command; the other is similar in its general meaning, but the expression, \"carries corpses in the wagon,\" is interpreted differently. At burials and at sacrifices to the dead it was customary in China for the deceased to whom the sacrifice was made to be represented by a boy of the family, who sat in the dead man's place and was honored as his representative. On the basis of this custom the text is interpreted as meaning that a \"corpse boy\" is sitting in the wagon, or, in other words, that authority is not being exercised by the proper leaders but has been usurped by others. Perhaps the whole difficulty clears up if it is inferred that there has been an error in copying. The character fan, meaning \"all,\" may have been misread as shih, which means \"corpse.\" Allowing for this error, the meaning would be that if the multitude assumes leadership of the army (rides in the wagon), misfortune will ensue."
+      },
+      {
+        "line": 4,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fourth place",
+        "text": "The army retreats. No blame.",
+        "comments": "In the face of a superior enemy, with whom it would be hopeless to engage in battle, an orderly retreat is the only correct procedure, because it will save the army from defeat and disintegration. It is by no means a sign of courage or strength to insist upon engaging in a hopeless struggle regardless of circumstances."
+      },
+      {
+        "line": 5,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fifth place",
+        "text": "There is game in the field.\nIt furthers one to catch it.\nWithout blame.\nLet the eldest lead the army.\nThe younger transports corpses;\nThen perseverance brings misfortune.",
+        "comments": "Game is in the field--it has left its usual haunts in the forest and is devastating the fields. This points to an enemy invasion. Energetic combat and punishment are here thoroughly justified, but they must not degenerate into a wild melee in which everyone fends for himself. Despite the greatest degree of perseverance and bravery, this would lead to misfortune. The army must be directed by an experienced leader. It is a matter of waging war, not of permitting the mob to slaughter all who fall into their hands; if they do, defeat will be the result, and despite all perseverance there is danger of misfortune."
+      },
+      {
+        "line": 6,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the top",
+        "text": "The great prince issues commands,\nFounds states, vests families with fiefs.\nInferior people should not be employed.",
+        "comments": "The war has ended successfully, victory is won, and the king divided estates and fiefs among his faithful vassals. But it is important that inferior people should not come into power. If they have helped, let them be paid off with money, but they should not be awarded lands or the privileges of rulers, lest power be abused."
+      }
+    ]
   },
   {
     "number": 8,
@@ -351,7 +717,57 @@ var HEXAGRAMS = [
       0
     ],
     "judgment": "Holding Together brings good fortune. Inquire of the oracle once again whether you have sublimity, constancy, and perseverance; then there is no blame.",
-    "image": "On the earth is water: the image of Holding Together. Thus the kings of antiquity cultivated friendly relations with all realms."
+    "image": "On the earth is water: the image of Holding Together. Thus the kings of antiquity cultivated friendly relations with all realms.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the beginning",
+        "text": "Hold to him in truth and loyalty;\nThis is without blame.\nTruth, like a full earthen bowl\"\nThus in the end\nGood fortune comes from without.",
+        "comments": "Fundamental sincerity is the only proper basis for forming relationships. This attitude, symbolized by a full earthen bowl, in which the content is everything and the empty form nothing, shows itself not in clever words but through the strength of what lies within the speaker. This strength is so great that it has power to attract good fortune to itself from without."
+      },
+      {
+        "line": 2,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the second place",
+        "text": "Hold to him inwardly.\nPerseverance brings good fortune.",
+        "comments": "If a person responds perseveringly and in the right way to the behests from above that summon him to action, his relations with others are intrinsic and he does not lose himself. But if a man seeks association with others as if he were an obsequious office hunter, he throws himself away. He does not follow the path of the superior man, who never loses his dignity."
+      },
+      {
+        "line": 3,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the third place",
+        "text": "You hold together with the wrong people.",
+        "comments": "We are often among people who do not belong to our own sphere. In that case we must beware of being drawn into false intimacy through force of habit. Needless to say, this would have evil consequences. Maintaining sociability without intimacy is the only right attitude toward people, because otherwise we should not be free to enter into relationship with people of our own kind later on."
+      },
+      {
+        "line": 4,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fourth place",
+        "text": "Hold to him outwardly also.\nPerseverance brings good fortune.",
+        "comments": "Here the relations with a man who is the center of union are well established. Then we may, and indeed we should, show our attachment openly. But we must remain constant and not allow ourselves to be led astray."
+      },
+      {
+        "line": 5,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fifth place",
+        "text": "Manifestation of holding together.\nIn the hunt the king uses beaters on three sides only\nAnd forgoes game that runs off in front.\nThe citizens need no warning.\nGood fortune.",
+        "comments": "In the royal hunts of ancient China it was customary to drive up the game from three sides, but on the fourth the animals had a chance to run off. If they failed to do this they had to pass through a gate behind which the king stood ready to shoot. Only animals that entered here were shot; those that ran off in front were permitted to escape. This custom accorded with a kingly attitude; the royal hunter did not wish to turn the chase into a slaughter, but held that the kill should consist only of those animals which had so to speak voluntarily exposed themselves. There is depicted here a ruler, or influential man, to whom people are attracted. Those who come to him he accepts, those who do not come are allowed to go their own way. He invited none, flatters none--all come of their own free will. In this way there develops a voluntary dependence among those who hold him. They do not have to be constantly on their guard but may express their opinions openly. Police measures are not necessary, and they cleave to their ruler of their own volition. The same principle of freedom is valid for life in general. We should not woo favor from people. If a man cultivates within himself the purity and the strength that are necessary for one who is the center of a fellowship, those who are meant for him come of their own accord."
+      },
+      {
+        "line": 6,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the top",
+        "text": "He finds no head for holding together.\nMisfortune.",
+        "comments": "The head is the beginning. If the beginning is not right, there is no hope of a right ending. If we have missed the right moment for union and go on hesitating to give complete and full devotion, we shall regret the error when it is too late."
+      }
+    ]
   },
   {
     "number": 9,
@@ -395,7 +811,57 @@ var HEXAGRAMS = [
       1
     ],
     "judgment": "The Taming Power of the Small has success. Dense clouds, no rain from our western region. Gentle restraint brings progress.",
-    "image": "The wind drives across the heavens: the image of the Taming Power of the Small. Thus the superior person refines outward character."
+    "image": "The wind drives across the heavens: the image of the Taming Power of the Small. Thus the superior person refines outward character.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the beginning",
+        "text": "Return to the way.\nHow could there be blame in this?\nGood fortune.",
+        "comments": "It lies in the nature of a strong man to press forward. In so doing he encounters obstructions. Therefore he returns to the way suited to his situation, where he is free to advance or to retreat. In the nature of things this will bring good fortune, for it is wise and reasonable not to try to obtain anything by force."
+      },
+      {
+        "line": 2,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the second place",
+        "text": "He allows himself to be drawn into returning.\nGood fortune.",
+        "comments": "One would like to press forward, but before going farther one sees from the example of others like oneself that this way is blocked. In such a case, if the effort to push forward is not in harmony with the time, a reasonable and resolute man will not expose himself to a personal rebuff, but will retreat with others of like mind. This brings good fortune, because he does not needlessly jeopardize himself."
+      },
+      {
+        "line": 3,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the third place",
+        "text": "The spokes burst out of the wagon wheels.\nMan and wife roll their eyes.",
+        "comments": "Here an attempt is made to press forward forcibly, in the consciousness that the obstructing power is slight. But since, under the circumstances, power actually lies with the weak, this sudden offensive is doomed to failure. External conditions hinder the advance, just as loss of the wheel spokes stops the progress of a wagon. We do not yet heed this hint form fate, hence there are annoying arguments like those of a married couple. Naturally this is not a favorable state of thing, for though the situation may enable the weaker side to hold its ground, the difficulties are too numerous to permit of a happy result. In consequence even the strong man cannot so use his power as to exert the right influence on those around him. He experiences a rebuff where he expected an easy victory, and he thus compromises his dignity."
+      },
+      {
+        "line": 4,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fourth place",
+        "text": "If you are sincere, blood vanishes and fear gives way.\nNo blame.",
+        "comments": "If one is in the difficult and responsible position of counselor to a powerful man, on should restrain him in such a way that the threat of actual bloodshed may arise. Nonetheless, the power of disinterested truth is greater than all theses obstacles. It carries such weight that the end is achieved, and all danger of bloodshed and all fear disappear."
+      },
+      {
+        "line": 5,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fifth place",
+        "text": "If you are sincere and loyally attached,\nYou are rich in your neighbor.",
+        "comments": "Loyalty leads to firm ties because it means that each partner complements the other. In the weaker person loyalty consists in devotion, in the stronger it consists in trustworthiness. This relation of mutual reinforcement leads to a true wealth that is all the more apparent because it is not selfishly hoarded but is shared with friends. Pleasure shared is pleasure doubled."
+      },
+      {
+        "line": 6,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the top",
+        "text": "The rain comes, there is rest.\nThis is due to the lasting effect of character.\nPerseverance brings the woman into danger.\nThe moon is nearly full.\nIf the superior man persists,\nMisfortune comes.",
+        "comments": "Success is at hand. The wind has driven up the rain. A fixed standpoint has been reach. This has come about through the cumulation of small effects produced by reverence for a superior character. But a success thus secured bit by bit calls for great caution. It would be a dangerous illusion for anyone to think he could presume upon it. The female principle, the weak element that has won the victory, should never persist in vaunting it--that would lead to danger. The dark power in the moon is strongest when the moon is almost full. When it is full and directly opposite the sun, its waning is inevitable. Under such circumstances one must be content with what has been achieved. To advance any further, before the appropriate time has come, would lead to misfortune."
+      }
+    ]
   },
   {
     "number": 10,
@@ -439,7 +905,57 @@ var HEXAGRAMS = [
       1
     ],
     "judgment": "Treading upon the tail of the tiger. It does not bite. Success through gentle, dignified conduct.",
-    "image": "Heaven above, the lake below: the image of Treading. Thus the superior person discriminates between high and low, fortifying the minds of the people."
+    "image": "Heaven above, the lake below: the image of Treading. Thus the superior person discriminates between high and low, fortifying the minds of the people.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the beginning",
+        "text": "Simple conduct. Progress without blame.",
+        "comments": "The situation is one in which we are still not bound by any obligations of social intercourse. If our conduct is simple, we remain free of them We can quietly follow our predilections as long as we are content and make not demands on people. The meaning of the hexagram is not standstill but progress. A man finds himself in an altogether inferior position at the start. However, he has the inner strength that guarantees progress. If he can be content with simplicity, he can make progress without blame. When a man is dissatisfied with modest circumstances, he is restless and ambitious and tries to advance, not for the sake of accomplishing anything worth while, but merely in order to escape from lowliness and poverty by dint of his conduct. Once his purpose is achieved, he is certain to become arrogant and luxury-loving. Therefore blame attaches to his progress. On the other hand, a man who is good at his work is content to behave simply. He wishes to make progress in order to accomplish something. When he attains his goal, he does something worth while, an all is well."
+      },
+      {
+        "line": 2,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the second place",
+        "text": "Treading a smooth, level course.\nThe perseverance of a dark man\nBrings good fortune.",
+        "comments": "The situation of a lonely sage is indicated here. He remains withdrawn from the bustle of life, seeks nothing, asks nothing of anyone, and travels through life unassailed, on a level road. Since he is content and does not challenge fate, he remains free of entanglements."
+      },
+      {
+        "line": 3,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the third place",
+        "text": "A one-eyed man is able to see,\nA lame man is able to tread.\nHe treads on the tail of the tiger.",
+        "comments": "The tiger bites the man.\nMisfortune.\n\nThus does a warrior act on behalf of his great prince.\n\nA one-eyed man can indeed see, but not enough for clear vision. A lame man can indeed treat, but not enough to make progress. If in spite of such defects a man considers himself strong and consequently exposes himself to danger, he is inviting disaster, for he is undertaking something beyond his strength. This reckless way of plunging ahead, regardless of the adequacy of one's powers, can be justified only in the case of a warrior battling for his prince."
+      },
+      {
+        "line": 4,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fourth place",
+        "text": "He treads on the tail of the tiger.\nCaution and circumspection\nLead ultimately to good fortune.",
+        "comments": "This text refers to a dangerous enterprise. The inner power to carry it through is there, but this inner power is combined with hesitating caution in one's external attitude. This line contrasts with the preceding line, which is weak within but outwardly presses forward. Here one is sure of ultimate success, which consists in achieving one's purpose, that is, in overcoming danger by going forward."
+      },
+      {
+        "line": 5,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fifth place",
+        "text": "Resolute conduct.\nPerseverance with awareness of danger.",
+        "comments": "This refers to the ruler of the hexagram as a whole. One sees that one has to be resolute in conduct. But at the same time one must remain conscious of the danger connected with such resoluteness, especially if it is to be persevered in. Only awareness of the danger makes success possible."
+      },
+      {
+        "line": 6,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the top",
+        "text": "Look to your conduct and weigh the favorable signs.\nWhen everything is fulfilled, supreme good fortune comes.",
+        "comments": "The work is ended. If we want to know whether good fortune will follow, we must look back upon our conduct and its consequences. If the effects are good, then good fortune is certain. No one knows himself. It is only by the consequences of his actions, by the fruit of his labors, that a man can judge what he is to expect."
+      }
+    ]
   },
   {
     "number": 11,
@@ -483,7 +999,57 @@ var HEXAGRAMS = [
       0
     ],
     "judgment": "Peace. The small departs, the great approaches. Good fortune. Sublime success.",
-    "image": "Heaven and earth unite: the image of Peace. Thus the ruler divides and completes the courses of heaven and earth, aiding the people."
+    "image": "Heaven and earth unite: the image of Peace. Thus the ruler divides and completes the courses of heaven and earth, aiding the people.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the beginning",
+        "text": "When ribbon grass is pulled up, the sod comes with it.\nEach according to his kind.\nUndertakings bring good fortune.",
+        "comments": "In times of prosperity every able man called to fill an office draws like minded people along with him, just as in pulling up ribbon grass one always pulls up a bunch of it, because the stalks are connected by their roots. In such times, when it is possible to extend influence widely, the mind of an able man is set upon going out into life and accomplishing something."
+      },
+      {
+        "line": 2,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the second place",
+        "text": "Bearing with the uncultured in gentleness,\nFording the river with resolution,\nNot neglecting what is distant,\nNot regarding one's companions:",
+        "comments": "Thus one may manage to walk in the middle.\n\nIn times of prosperity it is important and above all to possess enough greatness of soul to bear with imperfect people. For in the hands of a great master no material is unproductive; he can find use for everything. But this generosity is by no means laxity or weakness. It is during times of prosperity especially that we must always be ready to risk even dangerous undertakings, such as the crossing of a river, if they are necessary. So too we must not neglect what is distant but must attend scrupulously to everything. Factionalism and the dominance of cliques are especially to be avoided. Even if people of like mind come forward together, they ought not to form a faction by holding together for mutual advantage; instead, each man should do is duty. Theses are four ways in which one can overcome the hidden danger of a gradual slackening that always lurks in any time of peace. And that is how one finds the middle way for action."
+      },
+      {
+        "line": 3,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the third place",
+        "text": "No plain not followed by a slope.\nNo going not followed by a return.\nHe who remains persevering in danger\nIs without blame.\nDo not complain about this truth;\nEnjoy the good fortune you still possess.",
+        "comments": "Everything on earth is subject to change. Prosperity is followed by decline: this is the eternal law on earth. Evil can indeed be held in check but not permanently abolished. It always returns. This conviction might induct melancholy, but it should not; it ought only to keep us from falling into illusion when good fortune comes to us. If we continue mindful of the danger, we remain persevering and make no mistakes. As long as a man's inner nature remains stronger and richer than anything offered by external fortune, as long as he remains inwardly superior to fate, fortune will not desert him."
+      },
+      {
+        "line": 4,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fourth place",
+        "text": "He flutters down, not boasting of his wealth,\nTogether with his neighbor,\nGuileless and sincere.",
+        "comments": "In times of mutual confidence, people of high rank come in close contact with the lowly quite simply and without boasting of their wealth. This is not due to the force of circumstances but corresponds with their inmost sentiment. The approach is made quite spontaneously, because it is based on inner conviction."
+      },
+      {
+        "line": 5,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fifth place",
+        "text": "The sovereign I\nGives his daughter in marriage.\nAnd supreme good fortune.",
+        "comments": "The sovereign I is T'ang the Completer. By his decree the imperial princesses, although higher in rank than their husbands, had to obey them like all other wives. Here too we are shown a truly modest union of high and low that brings happiness and blessings."
+      },
+      {
+        "line": 6,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the top",
+        "text": "The wall falls back into the moat.\nUse no army now.\nMake your commands known within your own town.\nPerseverance brings humiliation.",
+        "comments": "The change alluded to in the middle of the hexagram has begun to take place. The wall of the town sinks back into the moat from which it was dug. The hour of doom is at hand. When matters have come to this pass, we should submit to fate and not try to stave it off by violent resistance. The one recourse left us is to hold our own within our intimate circle. Should we persevere in trying to resist the evil in the usual way, our collapse would only be more complete, and humiliation would be the result."
+      }
+    ]
   },
   {
     "number": 12,
@@ -527,7 +1093,57 @@ var HEXAGRAMS = [
       1
     ],
     "judgment": "Standstill. Evil people do not further the perseverance of the superior person. The great departs; the small approaches.",
-    "image": "Heaven and earth do not unite: the image of Standstill. Thus the superior person falls back upon inner worth to escape difficulty."
+    "image": "Heaven and earth do not unite: the image of Standstill. Thus the superior person falls back upon inner worth to escape difficulty.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the beginning",
+        "text": "When ribbon grass is pulled up, the sod comes with it.\nEach according to his kind.\nPerseverance brings good fortune and success.",
+        "comments": "The text is almost the same as that of the first line of the preceding hexagram, but with a contrary meaning. In the latter a man is drawing another along with him on the road to an official career; here a man is drawing another with him into retirement form public life. This is why the text says here, \"Perseverance brings good fortune and success,\" and not \"Undertakings bring good fortune.\" If it becomes impossible to make our influence count, it is only by retirement that we spare ourselves humiliation. Success in a higher sense can be ours, because we know how to safeguard the value of our personalities."
+      },
+      {
+        "line": 2,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the second place",
+        "text": "They bear and endure;\nThis means good fortune for inferior people.\nThe standstill serves to help the great man to attain success.",
+        "comments": "Inferior people are ready to flatter their superiors in a servile way. They would also endure the superior man if he would put an end to their confusion. This is fortunate for them. But the great man calmly bears the consequences of the standstill. He does not mingle with the crowd of the inferior; that is not his place. By his willingness to suffer personally he insures the success of his fundamental principles."
+      },
+      {
+        "line": 3,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the third place",
+        "text": "They bear shame.",
+        "comments": "Inferior people who have risen to power illegitimately do not feel equal to the responsibility they have taken upon themselves. In their hearts they begin to be ashamed, although at first they do not show it outwardly. This marks a turn for the better."
+      },
+      {
+        "line": 4,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fourth place",
+        "text": "He who acts at the command of the highest\nRemains without blame.\nThose of like mind partake of the blessing.",
+        "comments": "The time of standstill is nearing the point of change into its opposite. Whoever wishes to restore order must feel himself called to the task and have the necessary authority. A man who sets himself up a capable of creating order according to his own judgment could make mistakes and end in failure. But the man who is truly called to the task is favored by the conditions of the time, and all those of like mind will share in his blessing."
+      },
+      {
+        "line": 5,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fifth place",
+        "text": "Standstill is giving way.\nGood fortune for the great man.\n\"What if it should fail, what if it should fail?\"\nIn this way he ties it to a cluster of mulberry shoots.",
+        "comments": "The time undergoes a change. The right man, able to restore order, has arrived. Hence \"good fortune.\" But such periods of transition are the very times in which we must fear and tremble. Success is assured only through greatest caution, which asks always, \"What if it should fail?\" When a mulberry bush is cut down, a number of unusually strong shoots sprout from the roots. Hence the image of tying something to a cluster of mulberry shoots is used to symbolize the way of making success certain. Confucius says about this line:\n\nDanger arises when a man feels secure in his position. Destruction threatens when a man seeks to preserve his worldly estate. Confusion develops when a man has put everything in order. Therefore the superior man does not forget danger in his security, not ruin when he is well established, nor confusion when his affairs are in order. In this way he gains personal safety and is able to protect the empire."
+      },
+      {
+        "line": 6,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the top",
+        "text": "The standstill comes to an end.\nFirst standstill, then good fortune.",
+        "comments": "The standstill does not last forever. However, it does not cease of its own accord; the right man is needed to end it. This is the difference between a state of peace and a state of stagnation. Continuous effort is necessary to maintain peace: left to itself it would change into stagnation and disintegration. The time of disintegration, however, does not change back automatically to a condition of peace and prosperity; effort must be put forth in order to end it. This shows the creative attitude that man must take if the world is to be put in order."
+      }
+    ]
   },
   {
     "number": 13,
@@ -571,7 +1187,57 @@ var HEXAGRAMS = [
       1
     ],
     "judgment": "Fellowship with others in the open. Success. It furthers one to cross the great water.",
-    "image": "Heaven together with fire: the image of Fellowship with People. Thus the superior person organizes community and clarifies distinctions."
+    "image": "Heaven together with fire: the image of Fellowship with People. Thus the superior person organizes community and clarifies distinctions.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the beginning",
+        "text": "Fellowship with men at the gate.\nNo blame.",
+        "comments": "The beginning of union among people should take place before the door. All are equally close to one another. No divergent aims have yet arisen, and one makes not mistakes. The basic principles of any kind of union must be equally accessible to all concerned. Secret agreements bring misfortune."
+      },
+      {
+        "line": 2,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the second place",
+        "text": "Fellowship with men in the clan.\nHumiliation.",
+        "comments": "There is danger here of formation of a separate faction on the basis of personal and egotistic interests. Such factions, which are exclusive and, instead of welcoming all men, must condemn one group in order to unite the others, originate from low motives and therefore lead in the course of time to humiliation."
+      },
+      {
+        "line": 3,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the third place",
+        "text": "He hides weapons in the thicket;\nHe climbs the high hill in front of it.\nFor three years he does not rise up.",
+        "comments": "Here fellowship has changed about to mistrust. Each man distrusts the other, plans a secret ambush, and seeks to spy on his fellow form afar. We are dealing with an obstinate opponent whom we cannot come at by this method. Obstacles standing in the way of fellowship with others are shown here. One has mental reservations for one's own part and seeks to take his opponent by surprise. This very fact makes one mistrustful, suspecting the same wiles in his opponent and trying to ferret them out. The result is that one departs further and further from true fellowship. The longer this goes on, the more alienated one becomes."
+      },
+      {
+        "line": 4,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fourth place",
+        "text": "He climbs up on his wall; he cannot attack.\nGood fortune.",
+        "comments": "Here the reconciliation that follows quarrel mover nearer. It is true that there are still dividing walls on which we stand confronting one another. But the difficulties are too great. We get into straits, and this brings us to our senses. We cannot fight, and therein lies our good fortune."
+      },
+      {
+        "line": 5,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fifth place",
+        "text": "Men bound in fellowship first weep and lament,\nBut afterward they laugh.\nAfter great struggles they succeed in meeting.",
+        "comments": "Two people are outwardly separated, but in their hearts they are united. They are kept apart by their positions in life. Many difficulties and obstructions arise between them and cause them grief. But, remaining true to each other, the allow nothing to separate them, and although it costs them a severe struggle to overcome the obstacles, they will succeed. When they come together their sadness will change to joy. Confucius says of this:\n\nLife leads the thoughtful man on a path of many windings.Now the course is checked, now it runs straight again.Here winged thoughts may pour freely forth in words,There the heavy burden of knowledge must be shut away in silence.But when two people are at one in the inmost hearts,They shatter even the strength of iron or of bronze.And when two people understand each other in their inmost hearts,Their words are sweet and strong, like the fragrance of orchids."
+      },
+      {
+        "line": 6,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the top",
+        "text": "Fellowship with men in the meadow.\nNo remorse.",
+        "comments": "The warm attachment that springs from the heart is lacking here. We are by this time actually outside of fellowship with others. However, we ally ourselves with them. The fellowship does not include all, but only those who happen to dwell near one another. The meadow is the pasture at the entrance to the town. At this stage, the ultimate goal of the union of mankind has not yet been attained, but we need not reproach ourselves. We join the community without separate aims of our own."
+      }
+    ]
   },
   {
     "number": 14,
@@ -615,7 +1281,57 @@ var HEXAGRAMS = [
       1
     ],
     "judgment": "Possession in Great Measure. Supreme success through generous illumination and virtue.",
-    "image": "Fire in heaven above: the image of Possession in Great Measure. Thus the superior person curbs evil and furthers good."
+    "image": "Fire in heaven above: the image of Possession in Great Measure. Thus the superior person curbs evil and furthers good.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the beginning",
+        "text": "No relationship with what is harmful;\nThere is no blame in this.\nIf one remains conscious of difficulty,\nOne remains without blame.",
+        "comments": "Great possession that is still in its beginnings and that has not yet been challenged brings no blame, since there has been no opportunity to make mistakes. Yet there are many difficulties to be overcome. It is only by remaining conscious of theses difficulties that one can keep inwardly free of possible arrogance and wastefulness, and thus in principle overcome all cause for blame."
+      },
+      {
+        "line": 2,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the second place",
+        "text": "A big wagon for loading.\nOne may undertake something.\nNo blame.",
+        "comments": "Great possession consists not only in the quantity of goods at one's disposal, but first and foremost, in their mobility and utility, for then they can be used in undertakings, and we remain free of embarrassment and mistakes. The big wagon, which will carry a heavy load and in which one can journey farm means that there are at hand able helpers who give their support t and are equal to their task. One can load great responsibility upon such persons, and this is necessary in important undertakings."
+      },
+      {
+        "line": 3,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the third place",
+        "text": "A prince offers it to the Son of Heaven.\nA petty man cannot do this.",
+        "comments": "A magnanimous, liberal-minded man should not regard what he possesses as his exclusive personal property , but should place it at the disposal of the ruler or of the people at large. In so doing, he takes the right attitude toward his possession, which as private property can never endure. A petty man is incapable of this. He is harmed by great possessions, because instead of sacrificing them, he would keep them for himself."
+      },
+      {
+        "line": 4,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fourth place",
+        "text": "He makes a difference\nBetween himself and his neighbor.\nNo blame.",
+        "comments": "This characterizes the position of a man placed among rich and powerful neighbors. It is a dangerous position. He must look neither to the right nor to the left, and must shun envy and the temptation to vie with others. In this way he remains free of mistakes."
+      },
+      {
+        "line": 5,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fifth place",
+        "text": "He whose truth is accessible, yet dignified,\nHas good fortune.",
+        "comments": "The situation is very favorable. People are being won not by coercion but by unaffected sincerity, so that they are attached to us in sincerity and truth. However, benevolence alone is not sufficient at the time of POSSESSION IN GREAT MEASURE. For insolence might begin to spread. Insolence must be kept in bounds by dignity; then good fortune is assured."
+      },
+      {
+        "line": 6,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the top",
+        "text": "He is blessed by heaven.\nGood fortune.\nNothing that does not further.",
+        "comments": "In the fullness of possession and at the height of power, one remains modest and gives honor to the sage who stands outside the affairs of the world. By this means one puts oneself under the beneficent influence descending form heaven, and all goes well. Confucius says of this line:\n\nTo bless means to help. Heaven helps the man who is devoted; men help the man who is true. He who walks in truth and is devoted in his thinking, and furthermore reveres the worthy, is blessed by heaven. He has good fortune, and there is nothing that would not further."
+      }
+    ]
   },
   {
     "number": 15,
@@ -659,7 +1375,57 @@ var HEXAGRAMS = [
       0
     ],
     "judgment": "Modesty creates success. The superior person carries things through to completion.",
-    "image": "Within the earth, a mountain: the image of Modesty. Thus the superior person reduces that which is too much and augments that which is too little."
+    "image": "Within the earth, a mountain: the image of Modesty. Thus the superior person reduces that which is too much and augments that which is too little.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the beginning",
+        "text": "A superior man modest about his modesty\nMay cross the great water.\nGood fortune.",
+        "comments": "A dangerous enterprise, such as the crossing of a great stream, is made much more difficult if many claims and considerations have to be taken into account. On the other hand, the task is easy if it is attended to quickly and simply. Therefore the unassuming attitude of mind that goes with modesty fits a man to accomplish even difficult undertakings: he imposes no demands or stipulations but settles matters easily and quickly. Where no claims are put forward, no resistances arise."
+      },
+      {
+        "line": 2,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the second place",
+        "text": "Modesty that comes to expression. Perseverance brings good fortune.",
+        "comments": "\"Out of the fullness of the heart the mouth speaketh.\" When a man's attitude of mind is so modest that this expresses itself in his outward behavior, it is a source of good fortune to him. For the possibility of exerting a lasting influence arises of itself and no one can interfere."
+      },
+      {
+        "line": 3,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the third place",
+        "text": "A superior man of modesty and merit\nCarries things to conclusion.\nGood fortune.",
+        "comments": "This is the center of the hexagram, where its secret is disclosed. A distinguished name is readily earned by great achievements. If a man allows himself to be dazzled by fame, he will soon be criticized, and difficulties will arise. If, on the contrary, he remains modest despite his merit, he makes himself beloved and wins the support necessary for carrying his work through to the end."
+      },
+      {
+        "line": 4,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fourth place",
+        "text": "Nothing that would not further modesty\nIn movement.",
+        "comments": "Everything has its proper measure. Even modesty in behavior can be carried too far. Here, however, it is appropriate, because the place between a worthy helper below and a kindly ruler above carries great responsibility. The confidence of the man in superior place must not be abused nor the merits of the man in inferior placed concealed. There are officials who indeed do not strive for prominence; they hide behind the letter of ordinances, decline all responsibility, accept pay without giving its equivalent in work, and bear empty titles. This is the opposite of what is meant here by modesty. In such a position, modesty is shown by interest in one's work."
+      },
+      {
+        "line": 5,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fifth place",
+        "text": "No boasting of wealth before one's neighbor.\nIt is favorable to attack with force.\nNothing that would not further.",
+        "comments": "Modesty is not to be confused with weak good nature that lets things take their own course. When a man holds a responsible position, he must at times resort to energetic measures. In doing so he must not try to make an impression by boasting of his superiority but must make certain of the people around him. The measures taken should be purely objective and in no way personally offensive. Thus modesty manifests itself even in severity."
+      },
+      {
+        "line": 6,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the top",
+        "text": "Modesty that comes to expression.\nIt is favorable to set armies marching\nTo chastise one's own city and one's country.",
+        "comments": "A person who is really sincere in his modesty must make it show in reality. He must proceed with great energy in this. When enmity arises nothing is easier than to lay the blame on another. A weak man takes offense perhaps, and draws back, feeling self-pity; he thinks that it is modesty that keeps him from defending himself. Genuine modesty sets one to creating order and inspires one to begin by disciplining one's own ego and one's immediate circle. Only through having the courage to marshal one's armies against oneself, will something forceful really be achieved."
+      }
+    ]
   },
   {
     "number": 16,
@@ -703,7 +1469,57 @@ var HEXAGRAMS = [
       0
     ],
     "judgment": "Enthusiasm. It furthers one to install helpers and to set armies marching.",
-    "image": "Thunder comes resounding out of the earth: the image of Enthusiasm. Thus the ancient rulers made music to honor merit."
+    "image": "Thunder comes resounding out of the earth: the image of Enthusiasm. Thus the ancient rulers made music to honor merit.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the beginning",
+        "text": "Enthusiasm that expresses itself\nBrings misfortune.",
+        "comments": "A man in an inferior position has aristocratic connections about which he boasts enthusiastically. This arrogance inevitably invites misfortune.\nEnthusiasm should never be an egotistic emotion; it is justified only when it is a general feeling that unites one with others."
+      },
+      {
+        "line": 2,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the second place",
+        "text": "Firm as a rock. Not a whole day.\nPerseverance brings good fortune.",
+        "comments": "This describes a person who does not allow himself to be misled by any illusions. While others are letting themselves be dazzled by enthusiasm, he recognizes with perfect clarity the first signs of the time. Thus he neither flatters those above nor neglects those beneath him; he is as firm as a rock. When the first sign of discord appears, he knows the right moment for withdrawing and does not delay even for a day. Perseverance in such conduct will bring good fortune. Confucius says about this line:\n\nTo know the seeds, that is divine indeed. In his association with those above him, the superior man does not flatter. In his association with those beneath him, he is not arrogant. For he knows the seeds. The seeds are the first imperceptible beginning of movement, the first trace of good fortune (or misfortune) that shows itself. The superior man perceives the seeds and immediately takes actin. He does not wait even a whole day. In the Book of Changes it is said: \"Firm as a rock. Not a whole day. Perseverance brings good fortune.\"\n\nFirm as a rock, what need of a whole day?\n\n. The judgment can be known.\n\n. The superior man knows what is hidden and what is evident.\nHe knows weakness, he knows strength as well.\nHence the myriads look up to him."
+      },
+      {
+        "line": 3,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the third place",
+        "text": "Enthusiasm that looks upward creates remorse.\nHesitation brings remorse.",
+        "comments": "This line is the opposite of the preceding one: the latter bespeaks self-reliance, while here there is enthusiastic looking up to a leader. If a man hesitates too long, this also will bring remorse. The right moment for approach must be seized: only then will he do the right thing."
+      },
+      {
+        "line": 4,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fourth place",
+        "text": "The source of enthusiasm.\nHe achieves great things.\nDoubt not.\nYou gather friends around you\nAs a hair clasp gathers the hair.",
+        "comments": "This describes a man who is able to awaken enthusiasm through his own sureness and freedom from hesitation. He attracts people because he has no doubts and is wholly sincere. Owing to his confidence in them he wins their enthusiastic co-operation and attains success. Just as a clasp draws the hair together and hold it, so he draws man together by the support he gives them."
+      },
+      {
+        "line": 5,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fifth place",
+        "text": "Persistently ill, and still does not die.",
+        "comments": "Here enthusiasm is obstructed. A man is under constant pressure, which prevents him from breathing freely. However, this pressure has its advantage--it prevents him from consuming his powers in empty enthusiasm. Thus constant pressure can actually serve to keep one alive."
+      },
+      {
+        "line": 6,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the top",
+        "text": "Deluded enthusiasm.\nBut if after completion one changes,\nThere is no blame.",
+        "comments": "It is a bad thing for a man to let himself be deluded by enthusiasm. But if this delusion has run its course, and he is still capable of changing, then he is freed of error. A sober awakening from false enthusiasm is quite possible and very favorable."
+      }
+    ]
   },
   {
     "number": 17,
@@ -747,7 +1563,57 @@ var HEXAGRAMS = [
       0
     ],
     "judgment": "Following has supreme success. Perseverance furthers. Be free of blame.",
-    "image": "Thunder in the middle of the lake: the image of Following. Thus the superior person at nightfall goes within for rest and recuperation."
+    "image": "Thunder in the middle of the lake: the image of Following. Thus the superior person at nightfall goes within for rest and recuperation.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the beginning",
+        "text": "The standard is changing.\nPerseverance brings good fortune.\nTo go out of the door in company\nProduces deeds.",
+        "comments": "There are exceptional conditions in which the relation between leader and followers changes. It is implicit in the idea of following and adaptation that if one wants to lead others, one must remain accessible and responsive to the views of those under him. At the same time, however, he must have firm principles, so that he does not vacillate where there is only a question of current opinion. Once we are ready to listen to the opinions of others, we must not associate exclusively with people who share our views or with members of our own party; instead, we must go out and mingle freely with all sorts of people, friends or foes. That is the only way to achieve something."
+      },
+      {
+        "line": 2,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the second place",
+        "text": "If one clings to the little boy,\nOne loses the strong man.",
+        "comments": "In friendships and close relationships an individual must make a careful choice. He surrounds himself either with good or with bad company; he cannot have both at once. If he throws himself away on unworthy friends he loses connection with people of intellectual power who could further him in the good."
+      },
+      {
+        "line": 3,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the third place",
+        "text": "If one clings to the strong man,\nOne loses the little boy.",
+        "comments": "Through following one finds what one seeks.\nIt furthers one to remain persevering.\n\nWhen the right connection with distinguished people has been found, a certain loss naturally ensues. A man must part company with the inferior and superficial. But in his heart he will feel satisfied, because he seeks and needs for the development of his personality. The important thing is to remain firm. He must know what he wants and not be led astray by momentary inclinations."
+      },
+      {
+        "line": 4,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fourth place",
+        "text": "Following creates success.\nPerseverance brings misfortune.\nTo go one's way with sincerity brings clarity.\nHow could there be blame in this?",
+        "comments": "It often happens, when a man exerts a certain amount of influence, that he obtains a following by condescension toward inferiors. But the people who attach themselves to him are not honest in their intentions. They seek personal advantage and try to make themselves indispensable through flattery and subservience. If one becomes accustomed to such satellites and cannot do without them, it brings misfortune. Only when a man is completely free from his ego, and intent, by conviction, upon what is right and essential, does he acquire the clarity that enables him to see through such people, and become free of blame."
+      },
+      {
+        "line": 5,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fifth place",
+        "text": "Sincere in the good. Good fortune.",
+        "comments": "Every man must have something he follows--something that serves him as a lodestar. He who follows with conviction the beautiful and the good may feel himself strengthened by this saying."
+      },
+      {
+        "line": 6,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the top",
+        "text": "He meets with firm allegiance\nAnd is still further bound.\nThe king introduces him\nTo the Western Mountain.",
+        "comments": "This refers to a man, an exalted sage, who has already put the turmoil of the world behind him. But a follower appears who understands him and is not to be put off. So the sage comes back into the world and aids the other in his work. Thus there develops an eternal tie between the two. The allegory is chosen from the annals of the Chou dynasty. The rulers of this dynasty honored men who had served them well by awarding them a place in the royal family's temple of ancestors on the Western Mountain. In this way they were regarded as sharing in the destiny of the ruling family."
+      }
+    ]
   },
   {
     "number": 18,
@@ -791,7 +1657,57 @@ var HEXAGRAMS = [
       1
     ],
     "judgment": "Work on What Has Been Spoiled has supreme success. It furthers one to cross the great water.",
-    "image": "The wind blows at the foot of the mountain: the image of Decay. Thus the superior person stirs up the people and strengthens their spirit."
+    "image": "The wind blows at the foot of the mountain: the image of Decay. Thus the superior person stirs up the people and strengthens their spirit.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the beginning",
+        "text": "Setting right what has been spoiled by the father.\nIf there is a son,\nNo blame rests upon the departed father.\nDanger. In the end good fortune.",
+        "comments": "Rigid adherence to tradition has resulted in decay. But the decay has not yet penetrated deeply and so can still be easily remedied. It is as if a son were compensated for the decay his father allowed to creep in. Then no blame attaches to the father. However, one must not overlook the danger or take the matter too lightly. Only if one is conscious of the danger connected with every reform will everything go well in the end."
+      },
+      {
+        "line": 2,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the second place",
+        "text": "Setting right what has been spoiled by the mother.\nOne must not be too persevering.",
+        "comments": "This refers to mistakes that as a result of weakness have brought about decay-hence the symbol, \"what has been spoiled by the mother. \" In setting things right in such a case, a certain gentle consideration is called for. In order not to wound, one should not attempt to proceed too drastically."
+      },
+      {
+        "line": 3,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the third place",
+        "text": "Setting right what has been spoiled by the father.\nThere will be a little remorse. No great blame.",
+        "comments": "This describes a man who proceeds a little too energetically in righting the mistakes of the past. Now and then, as a result, minor discourse and annoyances will surely develop. But too much energy is better than too little. Therefore, although he may at times have slight cause for regret, he remains free of any serious blame."
+      },
+      {
+        "line": 4,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fourth place",
+        "text": "Tolerating what has been spoiled by the father.\nIn continuing one sees humiliation.",
+        "comments": "This shows the situation of someone too weak to take measures against decay that has its roots in the past and is just beginning to manifest itself. It is allowed to run its course. If this continues, humiliation will result."
+      },
+      {
+        "line": 5,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fifth place",
+        "text": "Setting right what has been spoiled by the father.\nOne meets with praise.",
+        "comments": "An individual is confronted with corruption originating from neglect in former times. He lacks the power to ward it off alone, but with able helpers he can at least bring about a thorough reform, if he cannot create a new beginning, and this also is praiseworthy."
+      },
+      {
+        "line": 6,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the top",
+        "text": "He does not serve kings and princes,\nSets himself higher goals.",
+        "comments": "Not every man has an obligation to mingle in the affairs of the world. There are some who are developed to such a degree that they are justified in letting the world go its own way and refusing to enter public life with a view to reforming it. But this does not imply a right to remain idle or to sit back and merely criticize. Such withdrawal is justified only when we strive to realize in ourselves the higher aims of mankind. For although the sage remains distant from the turmoil of daily life, he creates incomparable human values for the future."
+      }
+    ]
   },
   {
     "number": 19,
@@ -835,7 +1751,57 @@ var HEXAGRAMS = [
       0
     ],
     "judgment": "Approach has supreme success. Perseverance furthers. When the eighth month comes, there will be misfortune.",
-    "image": "The earth above the lake: the image of Approach. Thus the superior person is inexhaustible in teaching and without limits in tolerance."
+    "image": "The earth above the lake: the image of Approach. Thus the superior person is inexhaustible in teaching and without limits in tolerance.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the beginning",
+        "text": "Joint approach.\nPerseverance brings good fortune.",
+        "comments": "The good begins to prevail and to find response in influential circles. This in turn is an incentive to men of ability. IT is well to join this upward trend, but we must not let ourselves be carried away by the current of the time; we must adhere perseveringly to what is right. This bring good fortune."
+      },
+      {
+        "line": 2,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the second place",
+        "text": "Joint approach.\nGood fortune.\nEverything furthers.",
+        "comments": "When the stimulus to approach comes from a high place, and when a man has the inner strength and consistency that need no admonition, good fortune will ensue. Nor need the future cause any concern. He is well aware that everything earthly is transitory, and that a descent follows upon every rise, but need not be confused by this universal law of fate. Everything serves to further. Therefore he will travel the paths of life swiftly, honestly, and valiantly."
+      },
+      {
+        "line": 3,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the third place",
+        "text": "Comfortable approach.\nNothing that would further.\nIf one is induced to grieve over it,\nOne becomes free of blame.",
+        "comments": "Things are going well for a man: he achieves power and influence. But in this lies the danger that he may relax, and confident of his position, allow the easygoing, careless mood to show itself in his dealings with other people. This would inevitably be harmful. But there is possibility of a change of mood. If he regrets his mistaken attitude and feels the responsibility of an influential position, he frees himself of faults."
+      },
+      {
+        "line": 4,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fourth place",
+        "text": "Complete approach.\nNo blame.",
+        "comments": "While the three lower lines indicate rise to power and influence, the three upper lines show the attitude of persons in higher position toward those of lower rank for whom they procure influence. Here is shown the open-minded approach of a person of high rank to a man of ability whom he draws in to his own circle, regardless of class prejudice. This is very favorable."
+      },
+      {
+        "line": 5,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fifth place",
+        "text": "Wise approach.\nThis is right for a great prince.\nGood fortune.",
+        "comments": "A prince, or anyone in a leading position, must have the wisdom to attract to himself people of ability who are expert in directing affairs. His wisdom consists both in selecting the right people and in allowing those chosen to have a free hand without interference from him. For only through such self-restraint will he find the experts needed to satisfy all of his requirements."
+      },
+      {
+        "line": 6,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the top",
+        "text": "Great hearted approach.\nGood-hearted approach.\nGood fortune. No blame.",
+        "comments": "A sage who has put the world behind him and who in spirit has already withdrawn from life may, under certain circumstances, decide to return once more to the here and now and to approach other men. This means great good fortune for the men whom he teaches and helps. And for him this great hearted humbling of himself is blameless."
+      }
+    ]
   },
   {
     "number": 20,
@@ -879,7 +1845,57 @@ var HEXAGRAMS = [
       1
     ],
     "judgment": "Contemplation. The ablution has been made, but not yet the offering. Full of trust they look up.",
-    "image": "The wind blows over the earth: the image of Contemplation. Thus the kings of old inspected the regions of the realm and gave instruction."
+    "image": "The wind blows over the earth: the image of Contemplation. Thus the kings of old inspected the regions of the realm and gave instruction.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the beginning",
+        "text": "Boy like contemplation.\nFor an inferior man, no blame.\nFor a superior man, humiliation.",
+        "comments": "This means contemplation from a distance, without comprehension. A man of influence is at hand, abut his influence is not understood by the common people. This matters little in the case of the masses, for they benefit by the actions of the ruling sage whether they understand them or not. But for a superior man it is a disgrace. He must not content himself with a shallow, thoughtless view of prevailing forces; he must contemplate them as a connected whole and try to understand them."
+      },
+      {
+        "line": 2,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the second place",
+        "text": "Contemplation through the crack of the door.\nFurthering for the perseverance of a woman.",
+        "comments": "Through the crack of the door one has a limited outlook; one looks outward from within. Contemplation is subjectively limited. One tends to relate everything to oneself and cannot put oneself in another's place and understand his motives. This is appropriate for a good housewife. It is not necessary for her to be conversant with the affairs of the world. But for a man who must take active part in public life, such a narrow, egotistic way of contemplating things is of course harmful."
+      },
+      {
+        "line": 3,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the third place",
+        "text": "Contemplation of my life\nDecides the choice\nBetween advance and retreat.",
+        "comments": "This is the place of transition. We no longer look outward to receive pictures that are more or less limited and confused, but direct out contemplation upon ourselves in order to find a guideline for our decisions. This self-contemplation means the overcoming of naive egotism in the person who sees everything solely form his own standpoint. He begins to reflect and in this way acquires objectivity. However, self-knowledge does not mean preoccupation with one's own thoughts; rather, it means concern about the effects one creates. It is only the effects our lives produce that give us the right to judge whether what we have done means progress or regression."
+      },
+      {
+        "line": 4,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fourth place",
+        "text": "Contemplation of the light of the kingdom.\nIt furthers one to exert influence as the guest of a king.",
+        "comments": "This describes a man who understands the secrets by which a kingdom can be made to flourish. Such a man must be given an authoritative position, in which he can exert influence. He should be, so to speak, a guest-that is, he should be honored and act independently, and should not be used as a tool."
+      },
+      {
+        "line": 5,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fifth place",
+        "text": "Contemplation of my life.\nThe superior man is without blame.",
+        "comments": "A man in an authoritative position to whom others look up must always be ready for self–examination.  The right sort of self–examination, however, consists not in idle brooding over oneself but in examining the effects one produces.  Only when these effects are good, and when one’s influence on others is good, will the contemplation of one’s own life bring the satisfaction of knowing oneself to be free of mistakes."
+      },
+      {
+        "line": 6,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the top",
+        "text": "Contemplation of his life.\nThe superior man is without blame.",
+        "comments": "While the preceding line represents a man who contemplates himself, here in the highest place everything that is personal, related to the ego, is excluded. The picture is that of a sage who stands outside the affairs of the world. Liberated from his ego, he contemplates the laws of life and so realizes that knowing how to become free of blame is the highest good."
+      }
+    ]
   },
   {
     "number": 21,
@@ -923,7 +1939,57 @@ var HEXAGRAMS = [
       1
     ],
     "judgment": "Biting Through has success. It is favorable to let justice be administered.",
-    "image": "Thunder and lightning: the image of Biting Through. Thus the rulers of former times clarified penalties and administered justice."
+    "image": "Thunder and lightning: the image of Biting Through. Thus the rulers of former times clarified penalties and administered justice.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the beginning",
+        "text": "His feet are fastened in the stocks,\nSo that his toes disappear.\nNo blame.",
+        "comments": "If a sentence is imposed the first time a man attempts to do wrong, the penalty is a mild one. Only the toes are put in the stocks. This prevents him from sinning further and thus he becomes free of blame. It is a warning to halt in time on the path of evil."
+      },
+      {
+        "line": 2,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the second place",
+        "text": "Bites through tender meat,\nSo that his nose disappears.\nNo blame.",
+        "comments": "It is easy to discriminate between right and wrong in this case;it is like biting through tender meat. But one encounters ahardened sinner, and, aroused by anger, one goes a little toofar. The disappearance of the nose in the course of the bitesignifies that indignation blots out finer sensibility. However,there is no great harm in this, because the penalty as such isjust."
+      },
+      {
+        "line": 3,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the third place",
+        "text": "Bites on old dried meat\nAnd strikes on something poisonous.\nSlight humiliation. No blame.",
+        "comments": "Punishment is to be carried out by someone who lacks the power and authority to do so. Therefore the culprits do not submit. The matter at issue is an old one-as symbolized by salted game-and in dealing with it difficulties arise. This old meat is spoiled: by taking up the problem the punisher arouses poisonous hatred against himself, and n this way is put in a somewhat humiliating position. But since punishment was required by the time, he remains free of blame."
+      },
+      {
+        "line": 4,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fourth place",
+        "text": "Bites on dried gristly meat.\nReceives metal arrows.\nIt furthers one to be mindful of difficulties\nAnd to be persevering.\nGood fortune.",
+        "comments": "There are great obstacles to be overcome, powerful opponents are to be punished. Though this is arduous, the effort succeeds. But it is necessary to be hard as metal and straight as an arrow to surmount the difficulties. If one knows these difficulties and remains persevering, he attains good fortune. The difficult task is achieved in the end."
+      },
+      {
+        "line": 5,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fifth place",
+        "text": "Bites on dried lean meat.\nReceives yellow gold.\nPerseveringly aware of danger.",
+        "comments": "No blame.\n\nThe case to be decided is indeed not easy but perfectly clear. Since we naturally incline to leniency, we must make every effort to be like yellow gold-that is, as true as gold and as impartial as yellow, the color of the middle [the mean]. It is only by remaining conscious of the dangers growing out of the responsibility we have assumed that we can avoid making mistakes."
+      },
+      {
+        "line": 6,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the top",
+        "text": "His neck is fastened in the wooden cangue,\nSo that his ears disappear.\nMisfortune.",
+        "comments": "In contrast to the first line, this line refers to a man who is incorrigible. His punishment is the wooden cangue, and his ears disappear under it-that is to say, he is deaf to warnings. This obstinacy leads to misfortune."
+      }
+    ]
   },
   {
     "number": 22,
@@ -967,7 +2033,57 @@ var HEXAGRAMS = [
       1
     ],
     "judgment": "Grace has success. In small matters it is favorable to undertake something.",
-    "image": "Fire at the foot of the mountain: the image of Grace. Thus the superior person clarifies current matters with elegance."
+    "image": "Fire at the foot of the mountain: the image of Grace. Thus the superior person clarifies current matters with elegance.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the beginning",
+        "text": "He lends grace to his toes, leaves the carriage, and walks.",
+        "comments": "A beginner in subordinate place must take upon himself the labor of advancing. There might be an opportunity of surreptitiously easing the way-symbolized by the carriage-but a self-contained man scorns help gained in a dubious fashion. He thinks it more graceful to go on foot than to drive in a carriage under false pretenses."
+      },
+      {
+        "line": 2,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the second place",
+        "text": "Lends grace to the beard on his chin.",
+        "comments": "The beard is not an independent thing; it moves only with the chin. The image therefore means that form is to be considered only as a result and attribute of content. The beard is a superfluous ornament. To devote care to it for its own sake, without regard for the inner content of which it is an ornament, would bespeak a certain vanity."
+      },
+      {
+        "line": 3,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the third place",
+        "text": "Graceful and moist.\nConstant perseverance brings good fortune.",
+        "comments": "This represents a very charming life situation. One is under the spell of grace and the mellow mood induced by wine. This grace can adorn, but it can also swamp us. Hence the warning not to sink into convivial indolence but to remain constant in perseverance. Good fortune depends on this."
+      },
+      {
+        "line": 4,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fourth place",
+        "text": "Grace or simplicity?\nA white horse comes as if on wings.\nHe is not a robber,\nHe will woo at the right time.",
+        "comments": "An individual is in a situation in which doubts arise as to which is better-to pursue the grace of external brilliance, or to return to simplicity. The doubt itself implies the answer. Confirmation comes from the outside; it comes like a white winged horse. The white color indicates simplicity. At first it may be disappointing to renounce the comforts that might have been obtained, yet one finds peace of mind in a true relationship with the friend who courts him. The winged horse is the symbol of the thoughts that transcend all limits of space and time."
+      },
+      {
+        "line": 5,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fifth place",
+        "text": "Grace in the hills and gardens.\nThe roll of silk is meager and small.\nHumiliation, but in the end good fortune.",
+        "comments": "A man withdraws from contact with people of the lowlands, who seek nothing but magnificence and luxury, in to the solitude of the heights. There he finds an individual to look up to, whom he would like to have as a friend. But the gifts he has to offer are poor and few, so that he feels ashamed. However, it is not the material gifts that count, but sincerity of feeling, and so all goes well in the end."
+      },
+      {
+        "line": 6,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the top",
+        "text": "Simple grace. No blame.",
+        "comments": "Here at the highest stage of development all ornament is discarded. Form no longer conceals content but brings out its value to the full. Perfect grace consists not in exterior ornamentation of the substance, but in the simple fitness of its form."
+      }
+    ]
   },
   {
     "number": 23,
@@ -1011,7 +2127,57 @@ var HEXAGRAMS = [
       1
     ],
     "judgment": "Splitting Apart. It does not further one to go anywhere. Endure patiently.",
-    "image": "The mountain rests on the earth: the image of Splitting Apart. Thus those above can ensure their position only by generous giving to those below."
+    "image": "The mountain rests on the earth: the image of Splitting Apart. Thus those above can ensure their position only by generous giving to those below.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the beginning",
+        "text": "The leg of the bed is split.\nThose who persevere are destroyed.\nMisfortune.",
+        "comments": "Inferior people are on the rise and stealthily begin their destructive burrowing from below in order to undermine the place where the superior man rests. Those followers of the ruler who remain loyal are destroyed by slander and intrigue. The situation bodes disaster, yet there is nothing to do but wait."
+      },
+      {
+        "line": 2,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the second place",
+        "text": "The bed is split at the edge.\nThose who persevere are destroyed.\nMisfortune.",
+        "comments": "The power of the inferior people is growing. The danger draws close to one's person; already there are clear indication, and rest is disturbed. Moreover, in this dangerous situation one is as yet without help or friendly advances from above or below. Extreme caution is necessary in this isolation. One must adjust to the time and promptly avoid the danger. Stubborn perseverance in maintaining one's standpoint would lead to downfall."
+      },
+      {
+        "line": 3,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the third place",
+        "text": "He splits with them. No blame.",
+        "comments": "An individual finds himself in an evil environment to which he is committed by external ties. But he has an inner relationship with a superior man, and through this he attains the stability to free himself from the way of the inferior people around him. This brings him into opposition to them of course, but that is not wrong."
+      },
+      {
+        "line": 4,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fourth place",
+        "text": "The bed is split up to the skin.\nMisfortune.",
+        "comments": "Here the disaster affects not only the resting place but even the occupant. No warning or other comment is added. Misfortune has reached its peak: it can no longer be warded off."
+      },
+      {
+        "line": 5,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fifth place",
+        "text": "A shoal of fishes. Favor comes through the court ladies.\nEverything acts to further.",
+        "comments": "Here, in immediate proximity to the strong, light-giving principle at the top, the nature of the dark force undergoes a change. It no longer opposes the strong principle by means of intrigues but submits to its guidance. Indeed, as the head of the other weak lines, it leads all of these to the strong line, just as a princess leads her maids-in-waiting like a shoal of fishes to her husband and thus gains his favor. Inasmuch as the lower element thus voluntarily places itself under the higher, it attains happiness and the higher also receives its due. Therefore all goes well."
+      },
+      {
+        "line": 6,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the top",
+        "text": "There is a large fruit still uneaten.\nThe superior man receives a carriage.\nThe house of the inferior man is split apart.",
+        "comments": "Here the splitting apart reaches its end. When misfortune has spent itself, better times return. The seed of the good remains, and it is just when the fruit falls to the ground that food sprouts anew from its seed. The superior man again attains influence and effectiveness. He is supported by public opinion as if in a carriage. But the inferior man's wickedness is visited upon himself. His house is split apart. A law of nature is at work here. Evil is not destructive to the good alone but inevitably destroys itself as well. For evil, which lives solely by negation, cannot continue to exist on its own strength alone. The inferior man himself fares best when held under control by a superior man."
+      }
+    ]
   },
   {
     "number": 24,
@@ -1055,7 +2221,57 @@ var HEXAGRAMS = [
       0
     ],
     "judgment": "Return. Success. Going out and coming in without error. The turning point arrives. It furthers one to have somewhere to go.",
-    "image": "Thunder within the earth: the image of the Turning Point. Thus the kings of antiquity closed the passes at the winter solstice."
+    "image": "Thunder within the earth: the image of the Turning Point. Thus the kings of antiquity closed the passes at the winter solstice.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the beginning",
+        "text": "Return from a short distance.\nNo need for remorse.\nGreat good fortune.",
+        "comments": "Slight digressions from the good cannot be avoided, but one must turn back in time, before going too far. This is especially important in the development of character; every faintly evil thought must be put aside immediately, before it goes too far and takes root in the mind. Then there is no cause for remorse, and all goes well."
+      },
+      {
+        "line": 2,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the second place",
+        "text": "Quiet return. Good fortune.",
+        "comments": "Return always calls for a decision and is an act of self-mastery. It is made easier if a man is in good company. If he can bring himself to put aside pride and follow the example of good men, good fortune results."
+      },
+      {
+        "line": 3,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the third place",
+        "text": "Repeated return. Danger. No blame.",
+        "comments": "There are people of a certain inner instability who feel a constant urge to reverse themselves. There is danger in continually deserting the good because of uncontrolled desires, then turning back to it again because of a better resolution. However, since this does not lead to habituation in evil, a general inclination to overcome the defect is not wholly excluded/"
+      },
+      {
+        "line": 4,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fourth place",
+        "text": "Walking in the midst of others,\nOne returns alone.",
+        "comments": "A man is in a society composed of inferior people, but is connected spiritually with a strong and good friend, and this makes him turn back alone. Although nothing is said of reward and punishment, this return is certainly favorable, for such a resolve to choose the good brings its own reward."
+      },
+      {
+        "line": 5,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fifth place",
+        "text": "Noblehearted return. No remorse.",
+        "comments": "When the time for return has come, a man should not take shelter in trivial excuses, but should look within and examine himself. And if he has done something wrong he should make a noblehearted resolve to confess his fault. No one will regret having taken this road."
+      },
+      {
+        "line": 6,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the top",
+        "text": "Missing the return. Misfortune.\nMisfortune from within and without.\nIf armies are set marching in this way,\nOne will in the end suffer a great defeat,\nDisastrous for the ruler of the country.\nFor ten years\nIt will not be possible to attack again.",
+        "comments": "If a man misses the right time for return, he meets with misfortune. The misfortune has its inner cause in a wrong attitude toward the world. The misfortune coming upon him for without results from this wrong attitude. What is pictured here is blind obstinacy and the judgment that is visited upon it."
+      }
+    ]
   },
   {
     "number": 25,
@@ -1099,7 +2315,57 @@ var HEXAGRAMS = [
       1
     ],
     "judgment": "Innocence. Supreme success. Perseverance furthers. Keep to what is genuine and true.",
-    "image": "Under heaven thunder rolls: all things attain their natural state of innocence. Thus rulers nurtured all beings with rich and timely care."
+    "image": "Under heaven thunder rolls: all things attain their natural state of innocence. Thus rulers nurtured all beings with rich and timely care.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the beginning",
+        "text": "Innocent behavior brings good fortune.",
+        "comments": "The original impulses of the heart are always good, so that we may follow them confidently, assured of good fortune and achievement of our aims."
+      },
+      {
+        "line": 2,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the second place",
+        "text": "If one does not count on the harvest while plowing,",
+        "comments": "Nor on the use of the ground while clearing it,\nIt furthers one to undertake something.\n\nWe should do every task for its own sake as time and place demand and not with an eye to the result. Then each task turns out well, and anything we undertake succeeds."
+      },
+      {
+        "line": 3,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the third place",
+        "text": "Undeserved misfortune.",
+        "comments": "The cow that was tethered by someone\nIs the wanderer's gain, the citizen's loss.\n\nSometimes undeserved misfortune befalls a man at the hands of another, as for instance when someone passes by and takes a tethered cow along with him. His gain is the owner's loss. In all transactions, no matter how innocent, we must accommodate ourselves to the demands of the time, otherwise unexpected misfortune overtakes us."
+      },
+      {
+        "line": 4,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fourth place",
+        "text": "He who can be persevering\nRemains without blame.",
+        "comments": "We cannot lose what really belongs to us, even if we throw it away. Therefore we need have no anxiety. All that need concern us is that we should remain true to our own natures and not listen to others."
+      },
+      {
+        "line": 5,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fifth place",
+        "text": "Use no medicine in an illness\nIncurred through no fault of your own.\nIt will pass of itself.",
+        "comments": "An unexpected evil may come accidentally from without. If it does not originate in one's own nature or have a foothold there, one should not resort to external means to eradicate it, but should quietly let nature take its course. Then improvement will come of itself."
+      },
+      {
+        "line": 6,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the top",
+        "text": "Innocent action brings misfortune.",
+        "comments": "Nothing furthers.\n\nWhen, in a given situation, the time is not ripe for further progress, the best thing to do is to wait quietly, without ulterior designs. If one acts thoughtlessly and tries to push ahead in opposition to fate, success will not be achieved."
+      }
+    ]
   },
   {
     "number": 26,
@@ -1143,7 +2409,57 @@ var HEXAGRAMS = [
       1
     ],
     "judgment": "The Taming Power of the Great. Perseverance furthers. It furthers one to cross the great water.",
-    "image": "Heaven within the mountain: the image of the Taming Power of the Great. Thus the superior person acquaints themselves with the wisdom of the past."
+    "image": "Heaven within the mountain: the image of the Taming Power of the Great. Thus the superior person acquaints themselves with the wisdom of the past.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the beginning",
+        "text": "Danger is at hand. It furthers one to desist.",
+        "comments": "A man wishes to make vigorous advance, but circumstances present an obstacle. He sees himself held back firmly. If he should attempt to fore an advance, it would lead him into misfortune. Therefore it is better for him to compose himself and to wait until an outlet is offered for release of his stored-up energies."
+      },
+      {
+        "line": 2,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the second place",
+        "text": "The axletrees are taken from the wagon.",
+        "comments": "Here advance is checked just as in the third line of THE TAMING POWER OF THE SMALL\n\n9. However, in the later the restraining force is slight; thus a conflict arises between the propulsive and the restraining movement, as a result of which the spokes fall out of the wagon wheels, while here the restraining force is absolutely superior; hence no struggle takes place. One submits and removes the axletrees from the wagon -in other words, contents himself with waiting. In this way energy accumulates for a vigorous advance later on."
+      },
+      {
+        "line": 3,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the third place",
+        "text": "A good horse that follows others.\nAwareness of danger,\nWith perseverance, furthers.\nPractice chariot driving and armed defense daily.\nIt furthers one to have somewhere to go.",
+        "comments": "The way opens; the hindrance has been cleared away. A man is in contact with a strong will acting in the same direction as his own, and goes forward like one good horse following another. But danger still threatens, and he must remain aware of it, or he will be robbed of his firmness. Thus he must acquire skill on the one hand in what will take him forward, and on the other in what will protect him against unforeseen attacks. It is good in such a pass to have a goal toward which to strive."
+      },
+      {
+        "line": 4,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fourth place",
+        "text": "The headboard of a young bull.\nGreat good fortune.",
+        "comments": "This line and the one following it are the two that tame the forward-pushing lower lines. Before a bull's horns grow out, a headboard is fastened to its forehead, so that later when the horns appear they cannot do harm. A good way to restrain wild force is to forestall it. By so doing one achieves an easy and great success."
+      },
+      {
+        "line": 5,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fifth place",
+        "text": "The tusk of a gelded boar.\nGood fortune.",
+        "comments": "Here the restraining of the impetuous forward drive is achieved in an indirect way. A boar's tusk is in itself dangerous, but if the boar's nature is altered, the tusk is no longer a menace. Thus also where men are concerned, wild force should not be combated directly; instead, its roots should be eradicated."
+      },
+      {
+        "line": 6,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the top",
+        "text": "One attains the way of heaven.",
+        "comments": "Success.\n\nThe time of obstruction is past. The energy long dammed up by inhibition forces its way out and achieves great success. This refers to a man who is honored by the ruler and whose principles now prevail and shape the world."
+      }
+    ]
   },
   {
     "number": 27,
@@ -1187,7 +2503,57 @@ var HEXAGRAMS = [
       1
     ],
     "judgment": "Nourishment. Perseverance brings good fortune. Pay heed to providing nourishment and what one fills oneself with.",
-    "image": "At the foot of the mountain, thunder: the image of Nourishment. Thus the superior person is careful in speech and temperate in eating."
+    "image": "At the foot of the mountain, thunder: the image of Nourishment. Thus the superior person is careful in speech and temperate in eating.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the beginning",
+        "text": "You let your magic tortoise go,\nAnd look at me with the corners of your mouth drooping.\nMisfortune.",
+        "comments": "The magic tortoise is a creature possessed of such supernatural powers that it lives on air and needs no earthly nourishment. The image means that a man fitted by nature and position to live freely and independently renounces this self-reliance and instead looks with envy and discontent at others who are outwardly in better circumstances. But such base envy only arouses derision and contempt in those others. This has bad results."
+      },
+      {
+        "line": 2,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the second place",
+        "text": "Turning to the summit for nourishment,\nDeviating from the path",
+        "comments": "To seek nourishment from the hill.\nContinuing to do this brings misfortune.\n\nNormally a person either provides his own means of nourishment or is supported in a proper way by those whose duty of privilege it is to provide for him. If, owing to weakness of spirit, a man cannot support himself, a feeling of uneasiness comes over him; this is because in shirking the proper way of obtaining a living, he accepts support as a favor from those in higher place. This is unworthy, for he is deviating from his true nature. Kept up indefinitely, this course leads to misfortune."
+      },
+      {
+        "line": 3,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the third place",
+        "text": "Turning away from nourishment.\nPerseverance brings misfortune.\nDo not act thus for ten years.",
+        "comments": "Nothing serves to further.\nHe who seeks nourishment that does not nourish reels from desire to gratification and in gratification craves desire. Mad pursuit of pleasure for the satisfaction of the senses never brings one to the goal. One should never (ten years is a complete cycle of time) follow this path, for nothing good can come of it."
+      },
+      {
+        "line": 4,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fourth place",
+        "text": "Turning to the summit\nFor provision of nourishment\nBrings good fortune.",
+        "comments": "Spying about with sharp eyes\nLike a tiger with insatiable craving.\n\nNo blame.\n\nIn contrast to the six in the second place, which refers to a man bent exclusively on his own advantage, this line refers to one occupying a high position and striving to let his light sine forth. To do this he needs helpers, because he cannot attain his lofty aim alone. With the greed of a hungry tiger he is on the lookout for the right people. Since he is not working for himself but for the good of all, there is no wrong in such zeal."
+      },
+      {
+        "line": 5,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fifth place",
+        "text": "Turning away from the path.",
+        "comments": "To remain persevering brings good fortune.\nOne should not cross the great water.\n\nA man may be conscious of a deficiency in himself. He should be undertaking the nourishment of the people, but he has not the strength to do it. Thus he must turn from his accustomed path and beg counsel and help from a man who is spiritually his superior but undistinguished outwardly. If he maintains this attitude of mind perseveringly, success and good fortune are his. But he must remain aware of his dependence. He must not put his own person forward nor attempt great labors, such as crossing the great water."
+      },
+      {
+        "line": 6,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the top",
+        "text": "The source of nourishment.\nAwareness of danger brings good fortune.\nIt furthers one to cross the great water.",
+        "comments": "This describes a sage of the highest order, from whom emanate all influences that provide nourishment for others. Such a position brings with it heavy responsibility. If he remains conscious of this fact, he has good fortune and may confidently undertake even great and difficult labors, such as crossing the great water. These undertakings bring general happiness for him and for all others."
+      }
+    ]
   },
   {
     "number": 28,
@@ -1231,7 +2597,57 @@ var HEXAGRAMS = [
       0
     ],
     "judgment": "Preponderance of the Great. The ridgepole sags to the breaking point. Movement in any direction brings success.",
-    "image": "The lake rises above the trees: the image of Preponderance of the Great. Thus the superior person when standing alone is unconcerned."
+    "image": "The lake rises above the trees: the image of Preponderance of the Great. Thus the superior person when standing alone is unconcerned.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the beginning",
+        "text": "To spread white rushes underneath.",
+        "comments": "No blame.\n\nWhen a man wishes to undertake an enterprise in extraordinary times, he must be extraordinarily cautious, just as when setting a heavy thing down on the floor, one takes care to put rushes under it, so that nothing will break. This caution, though it may seem exaggerated, is not a mistake. Exceptional enterprises cannot succeed unless utmost caution is observed in their beginnings and in the laying of their foundations."
+      },
+      {
+        "line": 2,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the second place",
+        "text": "A dry poplar sprouts at the root.\nAn older man takes a young wife.\nEverything furthers.",
+        "comments": "Wood is near water; hence the image of an old poplar sprouting at the root. This means an extraordinary situation arises when an older man marries a young girl who suits him. Despite the unusualness of the situation, all goes well. From the point of view of politics, the meaning is that in exceptional times one does well to join with the lowly, for this affords a possibility of renewal."
+      },
+      {
+        "line": 3,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the third place",
+        "text": "The ridgepole sags to the breaking point.\nMisfortune.",
+        "comments": "This indicates a type of man who in times of preponderance of the great insists on pushing ahead. He accepts no advice from others, and therefore they in turn are not willing to lend him support. Because of this the burden grows, until the structure of things bends or breaks. Plunging willfully ahead in times of danger only hastens the catastrophe."
+      },
+      {
+        "line": 4,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fourth place",
+        "text": "The ridgepole is braced. Good fortune.\nIf there are ulterior motives, it is humiliating.",
+        "comments": "Through friendly relations with people of lower rank, a responsible man succeeds in becoming master of the situation. But if, instead of working for the rescue of the whole, he were to misuse his connections to obtain personal power and success, it would lead to humiliation."
+      },
+      {
+        "line": 5,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fifth place",
+        "text": "A withered poplar puts forth flowers.\nAn older woman takes a husband.",
+        "comments": "No blame. No praise.\n\nA withered poplar that flowers exhausts its energies thereby and only hastens its end. An older woman may marry once more, but no renewal takes place. Everything remains barren. Thus, though all the amenities are observed, the net result is only the anomaly of the situation. Applied to politics, the metaphor means that if in times of insecurity we give up alliance with those below us and keep up only the relationships we have with people of higher rank, an unstable situation is created."
+      },
+      {
+        "line": 6,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the top",
+        "text": "One must go through the water.\nIt goes over one's head.\nMisfortune. No blame.",
+        "comments": "Here is a situation in which the unusual has reached a climax. One is courageous and wishes to accomplish one's task, no matter what happens. This leads into danger. The water rises over one's head. This is the misfortune. But one incurs no blame in giving up one's life that the good and the right may prevail. There are things that are more important than life."
+      }
+    ]
   },
   {
     "number": 29,
@@ -1275,7 +2691,57 @@ var HEXAGRAMS = [
       0
     ],
     "judgment": "The Abysmal repeated. If you are sincere, you have success in your heart, and whatever you do succeeds.",
-    "image": "Water flows on uninterruptedly: the image of the Abysmal repeated. Thus the superior person walks in lasting virtue and teaches others."
+    "image": "Water flows on uninterruptedly: the image of the Abysmal repeated. Thus the superior person walks in lasting virtue and teaches others.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the beginning",
+        "text": "Repetition of the Abysmal.\nIn the abyss one falls into a pit.\nMisfortune.",
+        "comments": "By growing used to what is dangerous, a man can easily allow it to become part of him. He is familiar with it and grows used to evil. With this he has lost the right way, and misfortune is the natural result."
+      },
+      {
+        "line": 2,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the second place",
+        "text": "The abyss is dangerous.\nOne should strive to attain small things only.",
+        "comments": "When we are in danger we ought not to attempt to get out of it immediately, regardless of circumstances; at first we must content ourselves with not being overcome by it. We must calmly weigh the conditions of the time and by satisfied with small gains, because for the time being a great success cannot be attained. A spring flows only sparingly at first, and tarries for some time before it makes its way in to the open."
+      },
+      {
+        "line": 3,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the third place",
+        "text": "Forward and backward, abyss on abyss.\nIn danger like this, pause at first and wait,\nOtherwise you will fall into a pit in the abyss.\nDo not act this way.",
+        "comments": "Here every step, forward or backward, leads into danger. Escape is out of the question. Therefore we must not be misled into action, as a result of which we should only bog down deeper in the danger; disagreeable as it may be to remain in such a situation, we must wait until a way out shows itself."
+      },
+      {
+        "line": 4,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fourth place",
+        "text": "A jug of wine, a bowl of rice with it;\nEarthen vessels",
+        "comments": "Simply handed in through the Window.\n\nThere is certainly no blame in this.\n\nIn times of danger ceremonious forms are dropped. What matters most is sincerity. Although as a rule it is customary for an official to present certain introductory gifts and recommendations before he is appointed, here everything is simplified to the utmost. The gifts are insignificant, there is no one to sponsor him, he introduces himself; yet all this need not be humiliating if only there is the honest intention of mutual help in danger. Still another idea is suggested. The window is the place through which light enters the room. If in difficult times we want to enlighten someone, we must begin with that which is in itself lucid and proceed quite simply from that point on."
+      },
+      {
+        "line": 5,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fifth place",
+        "text": "The abyss is not filled to overflowing,\nIt is filled only to the rim.",
+        "comments": "No blame.\n\nDanger comes because one is too ambitious. In order to flow out of a ravine, water does not rise higher than the lowest point of the rim. So likewise a man when in danger has only to proceed along the line of least resistance; thus he reaches the goal. Great labors cannot be accomplished in such times; it is enough to get out of the danger."
+      },
+      {
+        "line": 6,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the top",
+        "text": "Bound with cords and ropes,",
+        "comments": "Shut in between thorn-hedged prison walls:\nFor three years one does not find the way.\nMisfortune.\n\nA man who in the extremity of danger has lost the right way and is irremediably entangled in his sins has no prospect of escape. He is like a criminal who sits shackled behind thorn hedged prison walls."
+      }
+    ]
   },
   {
     "number": 30,
@@ -1319,7 +2785,57 @@ var HEXAGRAMS = [
       1
     ],
     "judgment": "The Clinging. Perseverance furthers. It brings success. Care of the cow brings good fortune.",
-    "image": "Brightness repeated: the image of Fire. Thus the great person by perpetuating brightness illumines the four quarters of the world."
+    "image": "Brightness repeated: the image of Fire. Thus the great person by perpetuating brightness illumines the four quarters of the world.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the beginning",
+        "text": "The footprints run crisscross.\nIf one is seriously intent, no blame.",
+        "comments": "It is early morning and work begins. The mind has been closed to the outside world in sleep; now its connections with the world begin again. The traces of one's impressions run crisscross. Activity and haste prevail. It is important then to preserve inner composure and not to allow oneself to be swept along by the bustle of life. If one is serious and composed, he can acquire the clarity of mind needed for coming to terms with the innumerable impressions that pour in. It is precisely at the beginning that serious concentration is important, because the beginning holds the seed of all that is to follow."
+      },
+      {
+        "line": 2,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the second place",
+        "text": "Yellow light. Supreme good fortune.",
+        "comments": "Midday has come; the sun shines with a yellow light. Yellow is the color of measure and mean. Yellow light is therefore a symbol of the highest culture and art, whose consummate harmony consists in holding to the mean."
+      },
+      {
+        "line": 3,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the third place",
+        "text": "In the light of the setting sun,\nMen either beat the pot and sing\nOr loudly bewail the approach of old age.\nMisfortune.",
+        "comments": "Here the end of the day has come. The light of the setting sun calls to mind the fact that life is transitory and conditional. Caught in this external bondage, men are usually robbed of their inner freedom as well. The sense of the transitoriness of life impels them to uninhibited revelry in order to enjoy life while it lasts, or else they yield to melancholy and spoil the precious time by lamenting the approach of old age. Both attitudes are wrong. To the superior man it makes no difference whether death comes early or late. He cultivates himself, awaits his allotted time, and in this way secures his fate."
+      },
+      {
+        "line": 4,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fourth place",
+        "text": "Its coming is sudden;\nIt flames up, dies down, is thrown away.",
+        "comments": "Clarity of mind has the same relation to life that fire has to wood. Fire clings to wood, but also consumes it. Clarity of mind is rooted in life but can also consume it. Everything depends upon how the clarity functions. Here the image used is that of a meteor or a straw fire. A man who is excitable and restless may rise quickly to prominence but produces no lasting effects. Thus matters end badly when a man spends himself too rapidly and consumes himself like a meteor."
+      },
+      {
+        "line": 5,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fifth place",
+        "text": "Tears in floods, sighing and lamenting.\nGood fortune.",
+        "comments": "Here the zenith of life has been reached. Were there no warning, one would at this point consume oneself like a flame. Instead, understanding the vanity of all things, one may put aside both hope and fear, and sigh and lament: if one is intent on retaining his clarity of mind, good fortune will come from this grief. For here we are dealing not with a passing mood, as in the nine in the third place, but with a real change of heart."
+      },
+      {
+        "line": 6,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the top",
+        "text": "The king used him to march forth and chastise.",
+        "comments": "Then it is best to kill the leaders\nAnd take captive the followers. No blame.\n\nIt is not the purpose of chastisement to impose punishment blindly but to create discipline. Evil must be cured at its roots. To eradicate evil in political life, it is best to kill the ringleaders and spare the followers. In educating oneself it is best to root out bad habits and tolerate those that are harmless. For asceticism that is too strict, like sentences of undue severity, fails in its purpose."
+      }
+    ]
   },
   {
     "number": 31,
@@ -1363,7 +2879,57 @@ var HEXAGRAMS = [
       0
     ],
     "judgment": "Influence. Success. Mutual resonance brings good fortune. Readiness to receive others.",
-    "image": "A lake on the mountain: the image of Influence. Thus the superior person encourages others to approach through readiness to receive them."
+    "image": "A lake on the mountain: the image of Influence. Thus the superior person encourages others to approach through readiness to receive them.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the beginning",
+        "text": "The influence shows itself in the big toe.",
+        "comments": "A movement, before it is actually carried out, shows itself first in the toes. The idea of an influence is already present, but is not immediately apparent to others. As long as the intention has no visible effect, it is of no importance to the outside world and leads neither to good nor to evil."
+      },
+      {
+        "line": 2,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the second place",
+        "text": "The influence shows itself in the calves of the legs.\nMisfortune.",
+        "comments": "Tarrying brings good fortune.\n\nIn movement, the calf of the leg follows the foot; by itself it can neither go forward nor stand still. Since the movement is not self-governed, it bodes ill. One should wait quietly until one is impelled to action by a real influence. Then one remains uninjured."
+      },
+      {
+        "line": 3,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the third place",
+        "text": "The influence shows itself in the thighs.\nHolds to that which follows it.",
+        "comments": "To continue is humiliating.\nEvery mood of the heart influences us to movement. What the heart desires, the thighs run after without a moment's hesitation; they hold to the heart, which they follow. In the life of man, however, acting on the spur of every caprice is wrong and if continued leads to humiliation. Three considerations suggest themselves here. First, a man should not run precipitately after all the persons whom he would like to influence, but must be able to hold back under certain circumstances. As little should he yield immediately to every whim of those in whose service he stands. Finally, where the moods of his own heart are concerned, he should never ignore the possibility of inhibition, for this is the basis of human freedom."
+      },
+      {
+        "line": 4,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fourth place",
+        "text": "Perseverance brings good fortune.\nRemorse disappears.\nIf a man is agitated in mind,\nAnd his thoughts go hither and thither,\nOnly those friends\nOn whom he fixes his conscious thoughts\nWill follow.",
+        "comments": "Here the place of the heart is reached. The impulse that springs from this source is the most important of all. It is of particular concern that this influence be constant and good; then, in spite of the danger arising from the great susceptibility of the human heart, there will be no cause for remorse. When the quiet power of a man's own character is at work, the effects produced are right. All those who are receptive to the vibrations of such a spirit will then be influenced. Influence over others should not express itself as a conscious and willed effort to manipulate them. Through practicing such conscious incitement, one becomes wrought up and is exhausted by the eternal stress and strain. Moreover, the effects produced are then limited to those on whom one's thoughts are consciously fixed."
+      },
+      {
+        "line": 5,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fifth place",
+        "text": "The influence shows itself in the back of the neck.",
+        "comments": "No remorse.\n\nThe back of the neck is the most rigid part of the body. When the influence shows itself there, the will remains firm and the influence does not lead to confusion. Hence remorse does not enter into consideration here. What takes place in the depths of one's being, in the unconscious mind. It is true that if we cannot be influenced ourselves, we cannot influence the outside world."
+      },
+      {
+        "line": 6,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the top",
+        "text": "The influence shows itself in the jaws, cheeks, and tongue.",
+        "comments": "The most superficial way of trying to influence others is through talk that has nothing real behind it. The influence produced by such mere tongue wagging must necessarily remain insignificant. Hence no indication is added regarding good or bad fortune."
+      }
+    ]
   },
   {
     "number": 32,
@@ -1407,7 +2973,57 @@ var HEXAGRAMS = [
       0
     ],
     "judgment": "Duration. Success. No blame. Perseverance furthers. Steadfast continuity without wavering.",
-    "image": "Thunder and wind: the image of Duration. Thus the superior person stands firm and does not change direction with passing trends."
+    "image": "Thunder and wind: the image of Duration. Thus the superior person stands firm and does not change direction with passing trends.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the beginning",
+        "text": "Seeking duration too hastily brings misfortune persistently.",
+        "comments": "Nothing that would further.\n\nWhatever endures can be created only gradually by long-continued work and careful reflection. In the same sense Lao-tse says: \"If we wish to compress something, we must first let it fully expand.\" He who demands too much at once is acting precipitately, and because he attempts too much, he ends by succeeding in nothing."
+      },
+      {
+        "line": 2,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the second place",
+        "text": "Remorse disappears.",
+        "comments": "The situation is abnormal. A man's force of character is greater than the available material power. Thus he might be afraid of allowing himself to attempt something beyond his strength. However, since it is the time of DURATION, it is possible for him to control his inner strength and so to avoid excess. Cause for remorse then disappears."
+      },
+      {
+        "line": 3,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the third place",
+        "text": "He who does not give duration to his character\nMeets with disgrace.\nPersistent humiliation.",
+        "comments": "If a man remains at the mercy of moods of hope or fear aroused by the outer world, he loses his inner consistency of character. Such inconsistency invariably leads to distressing experiences. These humiliations often come from an unforeseen quarter. Such experiences are not merely effects produced by the external world, but logical consequences evoked by his own nature."
+      },
+      {
+        "line": 4,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fourth place",
+        "text": "No game in the field.",
+        "comments": "If we are in pursuit of game and want to get a shot at a quarry, we must set about it in the right way. A man who persists in stalking game in a place where there is none may wait forever without finding any. Persistence in search is not enough. What is not sought in the right way is not found."
+      },
+      {
+        "line": 5,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fifth place",
+        "text": "Giving duration to one's character through perseverance.",
+        "comments": "This is good fortune for a woman, misfortune for a man.\n\nA woman should follow a man her whole life long, but a man should at all times hold to what is his duty at the given moment. Should he persistently seek to conform to the woman, it would be a mistake for him. Accordingly it is altogether right for a woman to hold conservatively to tradition, but a man must always be flexible and adaptable and allow himself to be guided solely by what his duty requires of him at the moment."
+      },
+      {
+        "line": 6,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the top",
+        "text": "Restlessness as an enduring condition brings misfortune.",
+        "comments": "There are people who live in a state of perpetual hurry without ever attaininginner composure. Restlessness not only prevents all thoroughness but actuallybecomes a danger if it is dominant in places of authority."
+      }
+    ]
   },
   {
     "number": 33,
@@ -1451,7 +3067,57 @@ var HEXAGRAMS = [
       1
     ],
     "judgment": "Retreat. Success. In what is small, perseverance furthers.",
-    "image": "Mountain under heaven: the image of Retreat. Thus the superior person keeps the small-minded at a distance, with dignity and calmness."
+    "image": "Mountain under heaven: the image of Retreat. Thus the superior person keeps the small-minded at a distance, with dignity and calmness.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the beginning",
+        "text": "At the tail in retreat. This is dangerous.\nOne must not wish to undertake anything.",
+        "comments": "Since the hexagram is the picture of something that is retreating, the lowest line represents the tail and the top line the head. In a retreat it is advantageous to be at the front. Here one is at the back, in immediate contact with the pursuing enemy. This is dangerous, and under such circumstances it is not advisable to undertake anything. Keeping still is the easiest way of escaping from the threatening danger."
+      },
+      {
+        "line": 2,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the second place",
+        "text": "he holds him fast with yellow oxhide.",
+        "comments": "No one can tear him loose.\n\nYellow is the color of the middle. It indicates that which is correct and in line with duty. Oxhide is strong and not to be torn. While the superior men retreat and the inferior press after them, the inferior man represented here holds on so firmly and tightly to the superior man that the latter cannot shake him off. And because he is in quest of what is right an so strong in purpose, he reaches his goal. Thus the line confirms what is said in the Judgment: \"In what is small\" --here equivalent to \"in the inferior man\" -- \"perseverance furthers.\""
+      },
+      {
+        "line": 3,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the third place",
+        "text": "A halted retreat\nIs nerve-wracking and dangerous.",
+        "comments": "To retain people as men- and maidservants\nBrings good fortune.\n\nWhen it is time to retreat it is both unpleasant and dangerous to be held back, because then one no longer has freedom of action. In such a case the only expedient is to take into one's service, so to speak, those who refuse to let one go, so that one may at least keep one's initiative and not fall helplessly under their domination. But even with this expedient the situation is far from satisfactory--for what can one hope to accomplish with such servants?"
+      },
+      {
+        "line": 4,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fourth place",
+        "text": "Voluntary retreat brings good fortune to the superior man\nAnd downfall to the inferior man.",
+        "comments": "In retreating the superior man is intent on taking his departure willingly and in all friendliness. He easily adjusts his mind to retreat, because in retreating he does not have to do violence to his convictions. The only one who suffers is the inferior man from whom he retreats, who will degenerate when deprived of the guidance of the superior man."
+      },
+      {
+        "line": 5,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fifth place",
+        "text": "Friendly retreat. Perseverance brings good fortune.",
+        "comments": "It is the business of the superior man to recognize in time that the moment for retreat has come. If the right moment is chosen, the retreat can be carried out within the forms of perfect friendliness, without the necessity of disagreeable discussions. Yet, for all the observance of amenities, absolute firmness of decision is necessary if one is not to be led astray by irrelevant considerations."
+      },
+      {
+        "line": 6,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the top",
+        "text": "Cheerful retreat. Everything serves to further.",
+        "comments": "The situation is unequivocal. Inner detachment has become an established fact, and we are at liberty to depart. When one sees the way ahead thus clearly, free of all doubt, a cheerful mood sets in, and one chooses what is right without further thought. Such a clear path ahead always leads to the good."
+      }
+    ]
   },
   {
     "number": 34,
@@ -1495,7 +3161,57 @@ var HEXAGRAMS = [
       0
     ],
     "judgment": "Great Power. Perseverance furthers. True power lies in staying aligned with right timing and order.",
-    "image": "Thunder in heaven above: the image of Great Power. Thus the superior person avoids walking down paths that violate harmony."
+    "image": "Thunder in heaven above: the image of Great Power. Thus the superior person avoids walking down paths that violate harmony.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the beginning",
+        "text": "Power in the toes.\nContinuing brings misfortune.",
+        "comments": "This is certainly true.\n\nThe toes are in the lowest place and are ready to advance. So likewise great power in lowly station is inclined to effect advance by force. This, if carried further, would certainly lead to misfortune, and therefore by way of advice a warning is added."
+      },
+      {
+        "line": 2,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the second place",
+        "text": "Perseverance brings good fortune.",
+        "comments": "The premise here is that the gates to success are beginning to open. Resistance gives way and we forge ahead. This is the point at which, only too easily, we become the prey of exuberant self-confidence. This is why the oracle says that perseverance (i.e., perseverance in inner equilibrium, without excessive use of power) brings good fortune."
+      },
+      {
+        "line": 3,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the third place",
+        "text": "The inferior man works through power.",
+        "comments": "The superior man does not act thus.\n\nTo continue is dangerous.\nA goat butts against a hedge\nAnd gets its horns entangled.\n\nMaking a boast of power leads to entanglements, just as a goat entangles its horns when it butts against a hedge. Whereas an inferior man revels in power when he comes into possession of it, the superior man never makes this mistake. He is conscious at all times of the danger of pushing ahead regardless of circumstances, and therefore renounces in good time the empty display of force."
+      },
+      {
+        "line": 4,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fourth place",
+        "text": "Perseverance brings good fortune.\nRemorse disappears.",
+        "comments": "The hedge opens; there is no entanglement.\nPower depends upon the axle of a big cart.\n\nIf a man goes on quietly and perseveringly working at the removal of resistances, success comes in the end. The obstructions give way and all occasion for remorse arising from excessive use of power disappears.\n\nSuch a man's power does not show externally, yet it can move heavy loads, like a big cart whose real strength lies in its axle. The less that power is applied outwardly, the greater its effect."
+      },
+      {
+        "line": 5,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fifth place",
+        "text": "Loses the goat with ease.",
+        "comments": "No remorse.\n\nThe goat is noted for hardness outwardly and weakness within. Now the situation is such that everything is easy; there is no more resistance. One can give up a belligerent, stubborn way of acting and will not have to regret it."
+      },
+      {
+        "line": 6,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the top",
+        "text": "A goat butts against a hedge.\nIt cannot go backward, it cannot go forward.",
+        "comments": "Nothing serves to further.\nIf one notes the difficulty, this brings good fortune.\n\nIf we venture too far we come to a deadlock, unable either to advance or to retreat and whatever we do merely serves to complicate thing further. Such obstinacy leads to insuperable difficulties. But if, realizing the situation, we compose ourselves and decide not to continue, everything will right itself in time."
+      }
+    ]
   },
   {
     "number": 35,
@@ -1539,7 +3255,57 @@ var HEXAGRAMS = [
       1
     ],
     "judgment": "Progress. The virtuous leader is honored and advances into clarity and distinction.",
-    "image": "The sun rises over the earth: the image of Progress. Thus the superior person brightens their inner virtue."
+    "image": "The sun rises over the earth: the image of Progress. Thus the superior person brightens their inner virtue.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the beginning",
+        "text": "Progressing, but turned back.\nPerseverance brings good fortune.\nIf one meets with no confidence, one should remain calm.",
+        "comments": "No mistake.\n\nAt a time when all elements are pressing for progress, we are still uncertain whether in the course of advance we may not meet with a rebuff. Then the thing to do is simply continue in what is right; in the end this will bring good fortune. It may be that we meet with no confidence. In this case we ought not to try to win confidence regardless of the situation, but should remain calm and cheerful and refuse to be roused to anger. Thus we remain free of mistakes."
+      },
+      {
+        "line": 2,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the second place",
+        "text": "Progressing, but in sorrow.\nPerseverance brings good fortune.",
+        "comments": "Then one obtains great happiness from one's ancestress.\n\nProgress is halted; an individual is kept from getting in touch with the man in authority with whom he has a connection. When this happens, he must remain persevering, although he is grieved; then with a maternal gentleness the man in question will bestow great happiness upon him. This happiness comes to him-and is well deserved-because in this case mutual attraction does not rest on selfish or partisan motives but on firm and correct principles."
+      },
+      {
+        "line": 3,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the third place",
+        "text": "All are in accord. Remorse disappears.",
+        "comments": "A man strives onward, in association with others whose backing encourages him. This dispels any cause for regret over the fact that he does not have enough independence to triumph unaided over every hostile turn of fate."
+      },
+      {
+        "line": 4,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fourth place",
+        "text": "Progress like a hamster.\nPerseverance brings danger.",
+        "comments": "In times of progress it is easy for strong men in the wrong places to amass great possessions. But such conduct shuns the light. And since times of progress are inevitably brought to the light, perseverance in such action always leads to danger."
+      },
+      {
+        "line": 5,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fifth place",
+        "text": "Remorse disappears.",
+        "comments": "Take not gain and loss to heart.\nUndertakings bring good fortune.\nEverything serves to further.\n\nThe situation described here is that of one who, finding himself in an influential position in a time of progress, remains gentle and reserved. He might reproach himself for lack of energy in making the most of the propitiousness of the time and obtaining all possible advantage. However, this regret passes away. He must not take either loss or gain to heart; they are minor considerations. What matters much more is the fact that in this way he has assured himself of opportunities for successful and beneficent influence."
+      },
+      {
+        "line": 6,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the top",
+        "text": "Making progress with the horns is permissible\nOnly for the purpose of punishing one's own city.",
+        "comments": "To be conscious of danger brings good fortune.\n\nNo blame.\nPerseverance brings humiliation.\n\nMaking progress with lowered horns-i.e., acting on the offensive-is permissible, in times like those referred to here, only in dealing with the mistakes of one's own people. Even then we must bear in mind that proceeding on the offensive may always be dangerous. In this way we avoid the mistakes that otherwise threaten, and succeed in what we set out to do. On the other hand, perseverance in such over energetic behavior, especially toward persons with whom there is no close connection, will lead to humiliation."
+      }
+    ]
   },
   {
     "number": 36,
@@ -1583,7 +3349,57 @@ var HEXAGRAMS = [
       0
     ],
     "judgment": "Darkening of the Light. In adversity it furthers one to be persevering and veil one's brilliance.",
-    "image": "The light has sunk into the earth: the image of Darkening of the Light. Thus the superior person lives with the masses: veiling light, yet shining within."
+    "image": "The light has sunk into the earth: the image of Darkening of the Light. Thus the superior person lives with the masses: veiling light, yet shining within.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the beginning",
+        "text": "Darkening of the light during flight.\nHe lowers his wings.",
+        "comments": "The superior man does not eat for three days\nOn his wanderings.\nBut he has somewhere to go.\n\nThe host has occasion to gossip about him.\n\nWith grandiose resolve a man endeavors to soar above all obstacles, but thus encounters a hostile fate. He retreats and evades the issue. The time is difficult. Without rest, he must hurry along, with no permanent abiding place. If he does not want to make compromises within himself, but insists on remaining true to his principles, he suffers deprivation. Never the less he has a fixed goal to strive for even though the people with whom he lives do not understand him and speak ill of him."
+      },
+      {
+        "line": 2,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the second place",
+        "text": "Darkening of the light injures him in the left thigh.\nHe gives aid with the strength of a horse.\nGood fortune.",
+        "comments": "Here the Lord of Light is in a subordinate place and is wounded by the Lord of Darkness. But the injury is not fatal; it is only a hindrance. Rescue is still possible. The wounded man gives no thought to himself; he thinks only of saving the others who are also in danger. Therefore he tries with all his strength to save all that can be saved. There is good fortune in thus acting according to duty."
+      },
+      {
+        "line": 3,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the third place",
+        "text": "Darkening of the light during the hunt in the south.",
+        "comments": "Their great leader is captured.\nOne must not expect perseverance too soon.\n\nIt seems as if chance were at work. While the strong, loyal man is striving eagerly and in good faith to create order, he meets the ringleader of the disorder, as if by accident, and seizes him. Thus victory is achieved. But in abolishing abuses one must not be too hasty. This would turn out badly because the abuses have been in existence so long."
+      },
+      {
+        "line": 4,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fourth place",
+        "text": "He penetrates the left side of the belly.\nOne gets at the very heart of the darkening of the light.",
+        "comments": "We find ourselves close to the commander of darkness and so discover his mot secret thoughts. In this way we realize that there is no longer any hope of improvement, and thus we are enabled to leave the scene of disaster before the storm breaks."
+      },
+      {
+        "line": 5,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fifth place",
+        "text": "Darkening of the light as with Prince Chi.\nPerseverance furthers.",
+        "comments": "Prince Chi lived at the court of the evil tyrant Chou Hsin, who, although not mentioned by name, furnished the historical example on which this whole situation is based. Prince Chi was a relative of the tyrant and could not withdraw from the court; therefore he concealed his true sentiments and feigned insanity. Although he was held a slave, he did not allow external misery to deflect him from his convictions. This provides a teaching for those who cannot leave their posts in times of darkness. In order to escape danger, they need invincible perseverance of spirit and redoubled caution in their dealings with the world."
+      },
+      {
+        "line": 6,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the top",
+        "text": "Not light but darkness.\nFirst he climbed up to heaven,",
+        "comments": "Then plunged into the depths of the earth.\n\nHere the climax of the darkening is reached. The dark power at first held so high a place that it could wound all who were on the side of good and of the light. But in the end it perishes of its own darkness, for evil must itself fall at the very moment when it has wholly overcome the good, and thus consumed the energy to which it owed its duration."
+      }
+    ]
   },
   {
     "number": 37,
@@ -1627,7 +3443,57 @@ var HEXAGRAMS = [
       1
     ],
     "judgment": "The Family. The perseverance of the heart furthers. Order in the core creates peace around.",
-    "image": "Wind comes forth from fire: the image of the Family. Thus the superior person speaks with substance and acts with constancy."
+    "image": "Wind comes forth from fire: the image of the Family. Thus the superior person speaks with substance and acts with constancy.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the beginning",
+        "text": "Firm seclusion within the family.\nRemorse disappears.",
+        "comments": "The family must form a well-defined unit within which each member knows his place. From the beginning each child must be accustomed to firmly established rules of order, before ever its will is directed to other things. If we begin too late to enforce order, when the will of the child has already been overindulged, the whims and passions, grown stronger with the years, offer resistance and give cause for remorse. If we insist on order from the outset, occasions for remorse may arise-in general social life these are unavoidable-but the remorse always disappears again, and everything rights itself. For there is nothing easily avoided and more difficult to carry through than \"breaking a child's will.\""
+      },
+      {
+        "line": 2,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the second place",
+        "text": "She should not follow her whims.",
+        "comments": "She must attend within to the food.\nPerseverance brings good fortune.\n\nThe wife must always be guided by the will of the master of the house, be he father, husband, or grown son. There, without having to look for them, she has great and important duties. She must attend to the nourishment of her family and to the food for the sacrifice. IN this way she becomes the center of the social and religious life of the family, and her perseverance in this position brings good fortune to the whole house. In relation to general conditions, the counsel here is to seek nothing by means of force, but quietly to confine oneself to the duties at hand."
+      },
+      {
+        "line": 3,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the third place",
+        "text": "When tempers flare up in the family,",
+        "comments": "Too great severity brings remorse.\nGood fortune nonetheless.\nWhen woman and chile dally and laugh\nIt leads in the end to humiliation.\n\nIn the family the proper mean between severity and indulgence ought to prevail. Too great severity toward one's own flesh and blood leads to remorse. The wise thing is to build strong dikes within which complete freedom of movement is allowed each individual. But in doubtful instances too great severity, despite occasional mistakes, is preferable, because it preserves discipline in the family, whereas too great weakness leads to disgrace."
+      },
+      {
+        "line": 4,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fourth place",
+        "text": "She is the treasure of the house.\nGreat good fortune.",
+        "comments": "It is upon the woman of the house that the well-being of the family depends. Well-being prevails when expenditures and income are soundly balanced. This leads to great good fortune. In the sphere of public life, this line refers to the faithful steward whose measures further the general welfare."
+      },
+      {
+        "line": 5,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fifth place",
+        "text": "As a king he approaches his family.\nFear not.\nGood fortune.",
+        "comments": "A king is the symbol of a fatherly man who is richly endowed in mind. He does nothing to make himself feared; on the contrary, the whole family can trust him, because love governs their intercourse. His character of itself exercises the right influence."
+      },
+      {
+        "line": 6,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the top",
+        "text": "His work commands respect.'\nIn the end good fortune comes.",
+        "comments": "In the last analysis, order within the family depends on the character of the master of the house. If he cultivates his personality so that it works impressively through the force of inner truth, all goes well with the family. In a ruling position one must of his own accord assume responsibility."
+      }
+    ]
   },
   {
     "number": 38,
@@ -1671,7 +3537,57 @@ var HEXAGRAMS = [
       1
     ],
     "judgment": "Opposition. In small matters, good fortune. Even opposites can cooperate in their distinct roles.",
-    "image": "Above, fire; below, the lake: the image of Opposition. Thus amid all fellowship the superior person retains their individuality."
+    "image": "Above, fire; below, the lake: the image of Opposition. Thus amid all fellowship the superior person retains their individuality.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the beginning",
+        "text": "Remorse disappears.\nIf you lose your horse, do not run after it;\nIt will come back of its own accord.\nWhen you see evil people,\nGuard yourself against mistakes.",
+        "comments": "Even in times when oppositions prevail, mistakes can be avoided, so that remorse disappears. When opposition begins to manifest itself, a man must not try to bring about unity by force, for by so doing he would only achieve the contrary, just as a horse goes farther and farther away if one runs after it. It it is one's won horse, one can safely let it go; it will come back of its own accord. So too when someone who belongs with us is momentarily estranged because of a misunderstanding, he will return of his own accord if we leave matters to him. One the other hand, it is well to be cautious when evil men who do not belong with us force themselves upon us, again as the result of a misunderstanding. Here the important thing is to avoid mistakes. We must not try to shake off these evil men by force; this would give rise to real hostility. We must simply endure them. They will eventually withdraw of their own accord."
+      },
+      {
+        "line": 2,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the second place",
+        "text": "One meets his lord in a narrow street.",
+        "comments": "No blame.\n\nAs a result of misunderstandings, it has become impossible for people who by nature belong together to meet in the correct way. This being so, an accidental meeting under informal circumstances may serve the purpose, provided there is an inner affinity between them."
+      },
+      {
+        "line": 3,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the third place",
+        "text": "One sees the wagon dragged back,",
+        "comments": "The oxen halted,\nA man's hair and nose cut off.\n\nNot a good beginning, but a good end.\n\nOften it seems tot a man as though everything were conspiring against him. He sees himself checked and hindered in his progress, insulted and dishonored. However, he must not let himself be misled; despite this opposition, he must cleave to the man with whom he knows he belongs. Thus, notwithstanding the bad beginning, the matter will end well."
+      },
+      {
+        "line": 4,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fourth place",
+        "text": "Isolated through opposition,\nOne meets a like-minded man\nWith whom one can associate in good faith.\nDespite the danger, no blame.",
+        "comments": "If a man finds himself in a company of people from whom he is separated by an inner opposition, he becomes isolated. But if in such a situation a man meets someone who fundamentally by the very law of his being, is kin to him, and whom he can trust completely, he overcomes all the dangers of isolation. His will achieves its aim, and he becomes free of faults."
+      },
+      {
+        "line": 5,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fifth place",
+        "text": "Remorse disappears.",
+        "comments": "The companion bits his way through the wrappings.\nIf one goes to him,\nHow could it be a mistake?\n\nComing upon a sincere man, one fails to recognize him at first because of the general estrangement. However, he bites his way through the wrappings that are causing the separation. When such a companion thus reveals himself in his true character, it is one's duty to go to meet him and to work with him."
+      },
+      {
+        "line": 6,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the top",
+        "text": "Isolated through opposition,\nOne sees one's companion as a pig covered with dirt,\nAs a wagon full of devils.\nFirst one draws a bow against him,",
+        "comments": "Then one lays the bow aside.\nHe is not a robber; he will woo at the right time.\nAs one goes, rain falls; then good fortune comes.\n\nHere the isolation is due to misunderstanding; it is brought about not by outer circumstances but by inner conditions. A man misjudges his best friends, taking them to be as unclean as a dirty pig in and as dangerous as a wagon full of devils. He adopts an attitude of defense. But in the end, realizing his mistake, he lays aside the bow, perceiving that the other is approaching with the best intentions for the purpose of close union. Thus the tension is relieved. The union resolves the tension, just as falling rain relieves the sultriness preceding a thunderstorm. All goes well, for just when opposition reaches its climax it changes over to its antithesis."
+      }
+    ]
   },
   {
     "number": 39,
@@ -1715,7 +3631,57 @@ var HEXAGRAMS = [
       0
     ],
     "judgment": "Obstruction. The southwest furthers; the northeast does not. It furthers one to see the great leader.",
-    "image": "Water on the mountain: the image of Obstruction. Thus the superior person turns attention inward to mold character."
+    "image": "Water on the mountain: the image of Obstruction. Thus the superior person turns attention inward to mold character.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the beginning",
+        "text": "Going leads to obstructions,\nComing meets with praise.",
+        "comments": "When one encounters an obstruction, the important thing is to reflect on how best to deal with it. When threatened with danger, one should not strive blindly to go ahead, for this only leads to complications. The correct thing is, on the contrary, to retreat for the time being, not in order to give up the struggle but to await the right moment for action."
+      },
+      {
+        "line": 2,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the second place",
+        "text": "The King's servant is beset by obstruction upon obstruction,\nBut it is not his own fault.",
+        "comments": "Ordinarily it is best to go around an obstacle and try to overcome it along the line of least resistance. But there is one instance in which a man must go out to meet the trouble, even though difficulty piles upon difficulty: this is when the path of duty leads directly to it-in other words, when he cannot act of his own volition but is duty bound to go and seek out danger in the service of a higher cause. Then he may do it without compunction, because it is not through any fault of his that he is putting himself in this difficult situation."
+      },
+      {
+        "line": 3,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the third place",
+        "text": "Going leads to obstructions;\nHence he comes back.",
+        "comments": "While the preceding line shows the official compelled by duty to follow the way of danger, this line shows the man who must act as father of a family or as head of his kin. If he were to plunge recklessly in to danger, it would be a useless act, because those entrusted to his care cannot get along by themselves. But if he withdraws and turns back to his own, they welcome him with great joy."
+      },
+      {
+        "line": 4,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fourth place",
+        "text": "Going leads to obstructions,\nComing leads to union.",
+        "comments": "This too describes a situation that cannot be managed single-handed. In such a case the direct way is not the shortest. If a person were to forge ahead on his own strength and without the necessary preparations, he would not find the support he needs and would realize too late that he has been mistaken in his calculations, inasmuch as the conditions on which he hoped he could rely would prove to be inadequate. In this case it is better, therefore, to hold back for the time being and to gather together trustworthy companions who can be counted upon for help in overcoming the obstructions."
+      },
+      {
+        "line": 5,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fifth place",
+        "text": "In the midst of the greatest obstructions,\nFriends come.",
+        "comments": "Here we see a man who is called to help in an emergency. He should not seek to evade the obstructions, no matter how dangerously they pile up before him. But because he is really called to the task, the power of his spirit is strong enough to attract helpers whom he can effectively organize, so that through the well-directed co-operation of all participants the obstruction is overcome."
+      },
+      {
+        "line": 6,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the top",
+        "text": "Going leads to obstructions,\nComing leads to great good fortune.\nIt furthers one to see the great man.",
+        "comments": "This refers to a man who has already left the world and its tumult behind him. When the time of obstructions arrives, it might seem that the simplest thing for him to do would be to turn his back upon the world and take refuge in the beyond. But this road is barred to him. He must not seek his own salvation and abandon the world to its adversity. Duty calls him back once more into the turmoil of life. Precisely because of his experience and inner freedom, he is able to create something both great and complete that brings good fortune. And it is favorable to see the great man in alliance with whom one can achieve the work of rescue."
+      }
+    ]
   },
   {
     "number": 40,
@@ -1759,7 +3725,57 @@ var HEXAGRAMS = [
       0
     ],
     "judgment": "Deliverance. The tension releases. Forgiveness and untying knots bring good fortune.",
-    "image": "Thunder and rain set in: the image of Deliverance. Thus the superior person pardons mistakes and forgives offenses."
+    "image": "Thunder and rain set in: the image of Deliverance. Thus the superior person pardons mistakes and forgives offenses.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the beginning",
+        "text": "Without blame.",
+        "comments": "In keeping with the situation, few words are needed. The hindrance is past, deliverance has come. One recuperates in peace and keeps still. This is the right thing to do in times when difficulties have been overcome."
+      },
+      {
+        "line": 2,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the second place",
+        "text": "One kills three foxes in the field\nAnd receives a yellow arrow.\nPerseverance brings good fortune.",
+        "comments": "The image is taken from the hunt. The hunter catches three cunning foxes and receives a yellow arrow as a reward. The obstacles in public life are the designing foxes who try to influence the ruler through flattery. They must be removed before there can be any deliverance. But the struggle must not be carried on with the wrong weapons. The yellow color points to measure and mean in proceeding against the enemy; the arrow signifies the straight course. If one devotes himself wholeheartedly to the task of deliverance, he develops so much inner strength from his rectitude that it acts as a weapon against all that is false and low."
+      },
+      {
+        "line": 3,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the third place",
+        "text": "If a man carries a burden on his back\nAnd nonetheless rides in a carriage,\nHe thereby encourages robbers to draw near.\nPerseverance leads to humiliation.",
+        "comments": "This refers to a man who has come out of needy circumstances in to comfort and freedom from want. If now, in the manner of an upstart, he tries to take his ease in comfortable surroundings that do not suit his nature, he thereby attracts robbers. If he goes on thus he is sure to bring disgrace upon himself. Confucius says about this line:\n\nCarrying a burden on the back is the business of common man; a carriage is the appurtenance of a man of rank. Now, when a common man uses the appurtenance of man of rank, robbers plot to take it away from him. If a man is insolent toward those above him and hard toward those below him, robbers plot to attack him. Carelessness in guarding things tempts thieves to steal. Sumptuous ornaments worn by a maiden are an enticement to rob her of her virtue."
+      },
+      {
+        "line": 4,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fourth place",
+        "text": "Deliver yourself from your great toe.",
+        "comments": "Then the companion comes,\nAnd him you can trust.\n\nIn times of standstill it will happen that inferior people attach themselves to a superior man, and through force of daily habit they may grow very close to him and become indispensable, just as the big toe is indispensable to the foot because it makes walking easier. But when the time of deliverance draws near, with its call to deeds, a man must free himself from such chance acquaintances with whim he has no inner connection. For otherwise the friends who share his views, on whom he could really rely and together with whom he could accomplish something, mistrust him and stay away."
+      },
+      {
+        "line": 5,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fifth place",
+        "text": "If only the superior man can deliver himself,\nIt brings good fortune.",
+        "comments": "Thus he proves to inferior men that he is in earnest.\n\nTimes of deliverance demand inner resolve. Inferior people cannot be driven off by prohibitions or any external means. If one desires to be rid of them, he must first break completely with them in his own mind; they will see for themselves that he is in earnest and will withdraw."
+      },
+      {
+        "line": 6,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the top",
+        "text": "The prince shoots at a hawk on a high wall.\nHe kills it. Everything serves to further.",
+        "comments": "The hawk on a high wall is the symbol of a powerful inferior in a high position who is hindering the deliverance. He withstands the force of inner influences, because he is hardened in his wickedness. He must be forcibly removed, and this requires appropriate means. Confucius says about this line:\n\nThe hawk is the object of the hunt; bow and arrow are the tools and means. The marksman is man (who must make proper use of the means to his end). The superior man contains the means in his own person. He bides his time and then acts. Why then should not everything go well? He acts and is free. Therefore all he has to do is to go forth, and he takes his quarry. This is how a man fares who acts after he has made ready the means."
+      }
+    ]
   },
   {
     "number": 41,
@@ -1803,7 +3819,57 @@ var HEXAGRAMS = [
       1
     ],
     "judgment": "Decrease combined with sincerity brings supreme good fortune without blame. Two small offerings suffice.",
-    "image": "At the foot of the mountain, the lake: the image of Decrease. Thus the superior person restrains anger and curbs desires."
+    "image": "At the foot of the mountain, the lake: the image of Decrease. Thus the superior person restrains anger and curbs desires.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the beginning",
+        "text": "Going quickly when one's tasks are finished\nIs without blame.\nBut one must reflect on how much one may decrease others.",
+        "comments": "It is unselfish and good when a man, after completing his own urgent tasks, uses his strength in the service of others, and without bragging or making much of it, helps quickly where help is needed. But the man in a superior position who is thus aided must weigh carefully how much he can accept without doing the helpful servant or friend real harm. Only where such delicacy of feeling exists can one give oneself unconditionally and without hesitation."
+      },
+      {
+        "line": 2,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the second place",
+        "text": "Perseverance furthers.",
+        "comments": "To undertake something brings misfortune.\nWithout decreasing oneself,\nOne is able to bring increase to others.\n\nA high-minded self-awareness and a consistent seriousness with no forfeit of dignity are necessary if a man wants to be of service to others. He who throw himself away in order to do the bidding of a superior diminishes his own position without thereby giving lasting benefit to the other. This is wrong. To render true service of lasting value to another, one must serve him without relinquishing oneself."
+      },
+      {
+        "line": 3,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the third place",
+        "text": "When three people journey together,",
+        "comments": "Their number increases by one.\nWhen one man journeys alone,\nHe finds a companion.\n\nWhen there are three people together, jealousy arises. One of them will have to go. Avery close bond is possible only between two people. But when one man is lonely, he is certain to find a companion who complements him."
+      },
+      {
+        "line": 4,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fourth place",
+        "text": "If a man deceases his faults,\nIt makes the other hasten to come and rejoice.",
+        "comments": "No blame.\n\nA man's faults often prevent even well-disposed people from coming closer to him. His faults are sometimes reinforced by the environment in which he lives. But if in humility he can bring himself to the point of giving them up, he frees his well-disposed friends from an inner pressure and causes them to approach the more quickly, and there is mutual joy."
+      },
+      {
+        "line": 5,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fifth place",
+        "text": "Someone does indeed increase him.",
+        "comments": "Ten pairs of tortoises cannot oppose it.\n\nSupreme good fortune.\nIf someone is marked out by fate for good fortune, it comes without fail. All oracles-as for instance those that are read from the shells of tortoises-are bound to concur in giving him favorable signs. He need fear nothing, because his luck is ordained from on high."
+      },
+      {
+        "line": 6,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the top",
+        "text": "If one is increased without depriving other,",
+        "comments": "There is no blame.\nPerseverance brings good fortune.\nIt furthers one to undertake something.\nOne obtains servants\nBut no longer has a separate home.\n\nThere are people who dispense blessings to the whole world. Every increase in power that comes to them benefits the whole of mankind and therefore does not bring decrease to others. Through perseverance and zealous work a man wins success and finds helpers as they are needed. But what he accomplishes is not a limited private advantage; it is a public good and available to everyone."
+      }
+    ]
   },
   {
     "number": 42,
@@ -1847,7 +3913,57 @@ var HEXAGRAMS = [
       1
     ],
     "judgment": "Increase. It furthers one to undertake something. It furthers one to cross the great water.",
-    "image": "Wind and thunder: the image of Increase. Thus the superior person: seeing good, imitates it; having faults, sheds them."
+    "image": "Wind and thunder: the image of Increase. Thus the superior person: seeing good, imitates it; having faults, sheds them.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the beginning",
+        "text": "It furthers one to accomplish great deeds.",
+        "comments": "Supreme good fortune. No blame.\n\nIf great help comes to a man from on high, this increased strength must be used to achieve something great for which he might otherwise never have found energy, or readiness to take responsibility. Great good fortune is produced by selflessness, and in bringing about great good fortune, he remains free of reproach."
+      },
+      {
+        "line": 2,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the second place",
+        "text": "Someone does indeed increase him;",
+        "comments": "Ten pairs of tortoises cannot oppose it.\nConstant perseverance brings good fortune.\n\nThe king presents him before God.\nGood fortune.\n\nA man brings about real increase by producing in himself the conditions for it, that it, through receptivity to and love of the good. Thus the thing for which he strives comes of itself, with the inevitability of natural law. Where increase is thus in harmony with the highest laws of the universe, it cannot be prevented by any constellation of accidents. But everything depends on his not letting unexpected good fortune make him heedless; he must make it his own through inner strength an steadfastness. Then he acquires meaning before God and man, and can accomplish something for the good of the world."
+      },
+      {
+        "line": 3,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the third place",
+        "text": "One is enriched through unfortunate events.",
+        "comments": "No blame, if you are sincere\nAnd walk in the middle,\nAnd report with a seal to the prince.\n\nA time of blessing and enrichment has such powerful effects that even events ordinarily unfortunate must turn out to the advantage of those affected by them. These persons become free of error, and by acting in harmony with truth they gain such inner authority that they exert influence as if sanctioned by the letter and seal."
+      },
+      {
+        "line": 4,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fourth place",
+        "text": "If you walk in the middle\nAnd report the prince,\nHe will follow.\nIt furthers one to be used\nIn the removal of the capital.",
+        "comments": "It is important that there should be men who mediate between leaders and followers. These should be disinterested people, especially in times of increase, since the benefit is to spread from the leader to the people. Nothing of this benefit should be held back in a selfish way; it should really reach those for whom it is intended. This sort of intermediary, who also exercises a good influence on the leader, is especially important in times when it is a matter of great undertakings, decisive for the future and requiring the inner assent of all concerned."
+      },
+      {
+        "line": 5,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fifth place",
+        "text": "If in truth you have a kind heart, ask not.",
+        "comments": "Supreme good fortune.\n\nTruly, kindness will be recognized as your virtue.\n\nTrue kindness does not count upon nor ask about merit and gratitude but acts from inner necessity. And such a truly kind heart finds itself rewarded in being recognized, and thus the beneficent influence will spread unhindered."
+      },
+      {
+        "line": 6,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the top",
+        "text": "He brings increase to no one.\nIndeed, someone even strikes him.\nHe does not keep his heart constantly steady.\nMisfortune.",
+        "comments": "The meaning here is that through renunciation those in high place should bring increase to those below. By neglecting this duty and helping no one, they in turn lose the furhtering influence of others and soon find themselves alone. In this way they invite attacks. An attitude not permanently in harmony with the demands of the time will necessarily bring misfortune with it. Confucius says about this line:\n\nThe superior man sets his person at rest before he moves; he composes his mind before he speaks; he makes his relations firm before he asks for something. By attending to these three matters, the superior man gains complete security. But if a man is brusque in his movements, others will not cooperate. If he is agitated in his word, they awaken no echo in others. If he asks for something without having fist established relations, it will not be given to him. If no one is with him, those who would harm him draw near."
+      }
+    ]
   },
   {
     "number": 43,
@@ -1891,7 +4007,57 @@ var HEXAGRAMS = [
       0
     ],
     "judgment": "Breakthrough. Resolutely resolve obstacles with truth and open declaration. Avoid resorting to brute force.",
-    "image": "The lake has risen to heaven: the image of Breakthrough. Thus the superior person dispenses riches downward and stays humble."
+    "image": "The lake has risen to heaven: the image of Breakthrough. Thus the superior person dispenses riches downward and stays humble.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the beginning",
+        "text": "Mighty in the forward-striding toes.\nWhen one goes and is not equal to the task,\nOne makes a mistake.",
+        "comments": "In times of resolute advance, the beginning is especially difficult. We feel inspired to press forward but resistance is still strong; therefore we ought to gauge our own strength and venture only so far as we can go with certainty of success. To plunge blindly ahead is wrong, because it is precisely at the beginning that an unexpected setback can have the most disastrous results."
+      },
+      {
+        "line": 2,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the second place",
+        "text": "A cry of alarm. Arms at evening and at night.\nFear nothing.",
+        "comments": "Readiness is everything. Resolution is indissolubly bound up with caution. If an individual is careful and keeps his wits about him, he need not become excited or alarmed. If he is watchful at all times, even before danger is present, he is armed when danger approaches and need not be afraid. The superior man is on his guard against what is not yet in sight and on the alert for what is not yet within hearing; therefore he dwells in the midst of difficulties as thought hey did not exist. If a man develops his character, people submit to him of their own accord. If reason triumphs, the passions withdraw of themselves. To be circumspect and not to forget one's armor is the right way to security."
+      },
+      {
+        "line": 3,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the third place",
+        "text": "To be powerful in the cheekbones\nBrings misfortune.",
+        "comments": "The superior man is firmly resolved.\nHe walks alone and is caught in the rain.\nHe is bespattered,\nAnd people murmur against him.\n\nNo blame.\n\nHere we have a man in an ambiguous situation. While all others are engaged in a resolute fight against all that is inferior, he alone has a certain relationship with an inferior man. If he were to show strength outwardly and turn against this man before the time is ripe, he would only endanger the entire situation, because the inferior man would too quickly have recourse to countermeasures. The task of the superior man becomes extremely difficult here. He must be firmly resolved within himself and, while maintaining association with the inferior man, avoid any participation in his evilness. He will of course be misjudged. It will be thought that he belong to the party of the inferior man. He will be lonely because no one will understand him. His relations with the inferior man will sully him in the eyes of the multitude, and they will turn against him, grumbling. But he can endure this lack of appreciation and makes no mistake, because he remains true to himself."
+      },
+      {
+        "line": 4,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fourth place",
+        "text": "There is no skin on his thighs,\nAnd walking comes hard.\nIf a man were to let himself be led like a sheep,\nRemorse would disappear.\nBut if these words are heard",
+        "comments": "They will not be believed.\n\nHere a man is suffering from inner restlessness and cannot abide in his place. He would like to push forward under any circumstances, but encounters insuperable obstacles. Thus his situation entails an inner conflict. This is due to the obstinacy with which he seeks to enforce his will. If he would desist from this obstinacy, everything would go well. But this advice, like so much other good counsel, will be ignored. For obstinacy makes a man unable to hear, for all that he has ears."
+      },
+      {
+        "line": 5,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fifth place",
+        "text": "In dealing with weeds,\nFirm resolution is necessary.\nWalking in the middle\nRemains free of blame.",
+        "comments": "Weeds always grow back again and are difficult to exterminate. So too the struggle against an inferior man in a high position demands firm resolution. One has certain relations with him, hence there is danger that one may give up the struggle as hopeless. But this must not be. One must go on resolutely and not allow himself to be deflected from him course. Only in this way does one remain free of blame."
+      },
+      {
+        "line": 6,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the top",
+        "text": "No cry.\nIn the end misfortune comes.",
+        "comments": "Victory seems to have been achieved. There remains merely a remnant of the evil resolutely to be eradicated as the time demands. Everything looks easy. Just there, however, lies the danger. If we are not on guard, evil will succeed in escaping by means of concealment, and when it has eluded us new misfortunes will develop from the remaining seeds, for evil does not die easily. So too in dealing with the evil in own's own character, one must go to work with thoroughness. If out of carelessness anything were to be overlooked, new evil would arise from it."
+      }
+    ]
   },
   {
     "number": 44,
@@ -1935,7 +4101,57 @@ var HEXAGRAMS = [
       1
     ],
     "judgment": "Coming to Meet. An unexpected encounter. Watch for seductive or subtle corrupting influences.",
-    "image": "Under heaven, wind: the image of Coming to Meet. Thus does the leader proclaim directives across the four corners of the land."
+    "image": "Under heaven, wind: the image of Coming to Meet. Thus does the leader proclaim directives across the four corners of the land.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the beginning",
+        "text": "It must be checked with a brake of bronze.\nPerseverance brings good fortune.\nIf one lets it take its course, one experiences misfortune.\nEven a lean pig has it in him to rage around.",
+        "comments": "If an inferior element has wormed its way in, it must be energetically checked at once. By consistently checking it, bad effects can be avoided. If it is allowed to take its course, misfortune is bound to result; the insignificance of that which creeps in should not be a temptation to underrate it. A pig that is still young and lean cannot rage around much, but after it has eaten its fill and become strong, its true nature comes out if it has not previously been curbed."
+      },
+      {
+        "line": 2,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the second place",
+        "text": "There is a fish in the tank. No blame.\nDoes not further guests.",
+        "comments": "The inferior element is not overcome by violence but is kept under gentle control. Then nothing evil is to be feared. But care must be taken not to let it come in contact with those further away, because once free it would unfold its evil aspects unchecked."
+      },
+      {
+        "line": 3,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the third place",
+        "text": "And walking comes hard.\nIf one is mindful of the danger,",
+        "comments": "No great mistake is made.\n\nThere is a temptation to fall in with the evil element offering itself-a very dangerous situation. Fortunately circumstances prevent this; one would like to do it, but cannot. This leads to painful indecision in behavior. But if we gain clear insight into the danger of the situation, we shall at least avoid more serious mistakes."
+      },
+      {
+        "line": 4,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fourth place",
+        "text": "No fish in the tank.",
+        "comments": "This leads to misfortune.\n\nInsignificant people must be tolerated in order to keep them well disposed. Then we can make use of them if we should need them. If we become alienated from them and do not meet them halfway, they turn their backs on us and are not at our disposal when we need them. But this is our own fault."
+      },
+      {
+        "line": 5,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fifth place",
+        "text": "A melon covered with willow leaves.\nHidden lines.",
+        "comments": "Then it drops down to one from heave.\n\nThe melon, like the fish, is a symbol of the principle of darkness. It is sweet but spoils easily and for this reason is protected with a cover of willow leaves. This is a situation in which a strong, superior, well-poised man tolerates and protects the inferiors in his charge. He has the firm lines of order an beauty within himself but he does not lay stress upon them. He does not bother his subordinates with outward show or tiresome admonitions but leaves them quite free, putting his trust in the transforming power of a strong and upright personality. And behold! Fate is favorable. His inferiors respond to his influence and fall to his disposition like ripe fruit."
+      },
+      {
+        "line": 6,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the top",
+        "text": "He comes to meet with his horns.\nHumiliation. No blame.",
+        "comments": "When a man has withdrawn from the world, its tumult often becomes unbearable to him. There are many people who in a noble pride hold themselves aloof from all that is low and rebuff it brusquely wherever it comes to meet them. Such persons are reproached for being proud and distant, but since active duties no longer hold them to the world, this does not greatly matter. They know how to bear the dislike of the masses with composure."
+      }
+    ]
   },
   {
     "number": 45,
@@ -1979,7 +4195,57 @@ var HEXAGRAMS = [
       0
     ],
     "judgment": "Gathering Together. Success. Uniting people around a noble core brings fortune.",
-    "image": "Over the earth, the lake: the image of Gathering Together. Thus the superior person prepares defenses against the unforeseen."
+    "image": "Over the earth, the lake: the image of Gathering Together. Thus the superior person prepares defenses against the unforeseen.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the beginning",
+        "text": "If you are sincere, but not to the end,",
+        "comments": "There will sometimes be confusion, sometimes gathering together.\nIf you call out,\n\nThen after one grasp of the hand you can laugh again.\nRegret not. Going is without blame.\n\nThe situation is this: People desire to gather around a leader to whom they look up. But they are in a large group, by which they allow themselves to be influenced, so that they waver in their decision. Thus they lack a firm center around which to gather. But if expression is given to this need, and if they call for help, one grasp of the hand from the leader is enough to turn away all distress. Therefore they must not allow themselves to be led astray. It is undoubtedly right that they should attach themselves to this leader."
+      },
+      {
+        "line": 2,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the second place",
+        "text": "Letting oneself be drawn\nBrings good fortune and remains blameless.\nIf one is sincere,\nIt furthers one to bring even a small offering.",
+        "comments": "In the time of GATHERING TOGETHER, we should make no arbitrary choice of the way. There are secret forces at work, leading together those who belong together. We must yield to this attraction; then we make no mistakes. Where inner relationships exist, no great preparations and formalities are necessary. People understand one another forthwith, just as the Divinity graciously accepts a small offering if it comes from the heart."
+      },
+      {
+        "line": 3,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the third place",
+        "text": "Gathering together amid sighs.",
+        "comments": "Nothing that would further.\nGoing is without blame.\n\nSlight humiliation.\n\nOften a man feels an urge to unite with others, but the individuals around him have already formed themselves into a group, so that he remains isolated. The whole situation proves untenable. Then he ought to choose the way of progress, resolutely allying himself with a man who stands nearer to the center of the group, and can help him to gain admission to the closed circle. This is not a mistake, even though at first his position as an outsider is somewhat humiliating."
+      },
+      {
+        "line": 4,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fourth place",
+        "text": "Great good fortune. No blame.",
+        "comments": "This describes a man who gathers people around him in the name of his ruler. Since he is not striving for any special advantages for himself but is working unselfishly to bring about general unity, his work is crowned with success, and everything becomes as it should be."
+      },
+      {
+        "line": 5,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fifth place",
+        "text": "If in gathering together one has position,",
+        "comments": "This brings no blame.\nIf there are some who are not yet sincerely in the work,\n\nSublime and enduring perseverance is needed.\n\nThen remorse disappears.\n\nWhen people spontaneously gather around a man, it is only a good. It gives him a certain influence that can be altogether useful.. But of course there is also the possibility that many may gather around him not because of a feeling of confidence but merely because of his influential position. This is certainly to be regretted. The only means of dealing with such people is to gain their confidence through steadfastness an intensified, unswerving devotion to duty. In this way secret mistrust will gradually be overcome, and there will be no occasion for regret."
+      },
+      {
+        "line": 6,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the top",
+        "text": "Lamenting and sighing, floods of tears.",
+        "comments": "No blame.\n\nIt may happen that an individual would like to ally himself with another, but his good intentions are misunderstood. Then he becomes sad and laments. But this is the right course. For it may cause the other person to come to his senses, so that the alliance that has been sought and so painfully missed is after all achieved."
+      }
+    ]
   },
   {
     "number": 46,
@@ -2023,7 +4289,57 @@ var HEXAGRAMS = [
       0
     ],
     "judgment": "Pushing Upward has supreme success. Steady organic growth upward brings prosperity.",
-    "image": "Within the earth, wood grows: the image of Pushing Upward. Thus the superior person accumulates small steps to attain great heights."
+    "image": "Within the earth, wood grows: the image of Pushing Upward. Thus the superior person accumulates small steps to attain great heights.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the beginning",
+        "text": "Pushing upward that meets with confidence\nBrings great good fortune.",
+        "comments": "This situation at the beginning of ascent. Just as wood draws strength for its upward push from the root, which in itself is in the lowest place, so the power to rise comes from this low and obscure station. But there is a spiritual affinity with the rulers above, and this solidarity creates the confidence needed to accomplish something."
+      },
+      {
+        "line": 2,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the second place",
+        "text": "If one is sincere,\nIt furthers one to bring even a small offering.",
+        "comments": "No blame.\n\nHere a strong man is presupposed. It is true that he does not fit in with his environment, inasmuch as he is too brusque and pays too little attention to form. But as he is upright in character, he meets with response, and his lack of outward form does no harm. Here uprightness is the outcome of sound qualities of character, whereas in the corresponding line of the preceding hexagram it is the result of innate humility."
+      },
+      {
+        "line": 3,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the third place",
+        "text": "One pushes upward into an empty city.",
+        "comments": "All obstructions that generally block progress fall away here. Things proceed with remarkable ease. Unhesitatingly one follows this road, in order to profit by one's success. Seen from without, everything seems to be in the best of order. However, no promise of good fortune is added. It is a question how long such unobstructed success can last. But it is wise not to yield to such misgivings, because they only inhibit one's power. Instead, the point is to profit by the propitiousness of time."
+      },
+      {
+        "line": 4,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fourth place",
+        "text": "The king offers him Mount Ch'i.\nGood fortune. No blame.",
+        "comments": "Mount Ch'i is in the western China, the homeland of King Wên, whose son, the Duke of Chou, added the words to the individual lines. The pronouncement takes us back to a time when the Chou dynasty was coming into power. At that time King Wên introduced his illustrious helpers to the god of his native mountain, and they received their places in the halls of the ancestors by the side of the ruler. This indicates a stage in which pushing upward attains its goal. One acquires fame in the sight of gods and men, is received into the circle of those who foster the spiritual life of the nation, and thereby attains a significance that endures beyond time."
+      },
+      {
+        "line": 5,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fifth place",
+        "text": "Perseverance brings good fortune.\nOne pushes upward by steps.",
+        "comments": "When a man is advancing farther and farther, it is important for him not to become intoxicated by success. Precisely when he experiences great success it is necessary to remain sober and not to try to skip any stages; he must go on slowly, step by step, as though hesitant. Only such calm, steady progress, overleaping nothing, leads to the goal."
+      },
+      {
+        "line": 6,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the top",
+        "text": "Pushing upward in darkness.\nIt furthers one",
+        "comments": "To be unremittingly persevering.\n\nHe who pushes upward blindly deludes himself. He knows only advance, not retreat. But this means exhaustion. In such a case it is important to be constantly mindful that one must be conscientious and consistent and must remain so. Only thus does one become free of blind impulse, which is always harmful."
+      }
+    ]
   },
   {
     "number": 47,
@@ -2067,7 +4383,57 @@ var HEXAGRAMS = [
       0
     ],
     "judgment": "Oppression. Exhaustion tests endurance. Words may not be believed; stay true to your spirit.",
-    "image": "There is no water in the lake: the image of Oppression. Thus the superior person stakes their life on following their true calling."
+    "image": "There is no water in the lake: the image of Oppression. Thus the superior person stakes their life on following their true calling.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the beginning",
+        "text": "One sits oppressed under a bare tree\nAnd strays into a gloomy valley.\nFor three years one sees nothing.",
+        "comments": "When adversity befalls a man, it is important above all things for him to be strong and to overcome the trouble inwardly. If he is weak, the trouble overwhelms him. Instead of proceeding on his way, he remains sitting under a bare tree and falls ever more deeply into gloom and melancholy. This makes the situation only more and more hopeless. Such an attitude comes from an inner delusion that he must by all means overcome."
+      },
+      {
+        "line": 2,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the second place",
+        "text": "One is oppressed while at meat and drink.",
+        "comments": "The man with the scarlet knee bands is just coming.\nIt furthers one to offer sacrifice.\n\nTo set forth brings misfortune.\n\nNo blame.\n\nThis pictures a state of inner oppression. Externally, all is well, one has meat and drink. But one is exhausted by the commonplaces of life, and there seems to be no way of escape. Then help comes from a high place. A prince-in ancient China princes wore scarlet knee bands- is in search of able helpers. But there are still obstructions to be overcome. Therefore it is important to meet these obstructions in the visible realm by offerings and prayer. To set forth without being prepared would be disastrous, though not morally wrong. Here a disagreeable situation must be overcome by patience of spirit."
+      },
+      {
+        "line": 3,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the third place",
+        "text": "A man permits himself to be oppressed by stone,\nAnd leans on thorns and thistles.\nHe enters the house and does not see his wife.\nMisfortune.",
+        "comments": "This shows a man who is restless and indecisive in times of adversity. At first he wants to push ahead, then he encounters obstructions that, it is true, mean oppression only when recklessly dealt with. He butts his head against a wall and in consequence feels himself oppressed by the wall. Then he leans on things that have in themselves no stability and that are merely a hazard for him who leans on them. Thereupon he turns back irresolutely and retires into his house, only to find, as a fresh disappointment, that his wife is not there. Confucius says about this line:\n\nIf a man permits himself to be oppressed by something that ought not to oppress him, his name will certainly be disgraced. If he leans on things upon which one cannot lean, his life will certainly be endangered. For him who is in disgrace and danger, the hour of death draws near; how can he then still see his wife?"
+      },
+      {
+        "line": 4,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fourth place",
+        "text": "He comes very quietly, oppressed in a golden carriage.\nHumiliation, but the end is reached.",
+        "comments": "A well-to-do man sees the need of the lower classes and would like very much to be of help. But instead of proceeding with speed and energy where their is need, he begins in a hesitant and measured way. Then he encounters obstructions. Powerful and wealthy acquaintances draw him into their circle; he has to do as they do and cannot withdraw from them. Hence he finds himself in great embarrassment. But the trouble is transitory. The original strength of his nature offsets the mistake he has made, and the goal is reached."
+      },
+      {
+        "line": 5,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fifth place",
+        "text": "His nose and feet are cut off.\nOppression at the hands of the man with the purple knee bands.\nJoy comes softly.\nIt furthers one to make offerings and libations.",
+        "comments": "An individual who has the good of mankind at heart is oppressed from above and below (this is the meaning of the cutting off of nose an defeat). He finds no help among the people whose duty it would be to aid in the work of rescue (ministers wore purple knee bands). But little by little, things take a turn for the better. Until that time, he should turn to God, firm in his inner composure, and pray and offer sacrifice for the general well-being."
+      },
+      {
+        "line": 6,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the top",
+        "text": "He is oppressed by creeping vines.\nHe moves uncertainly and says, \"Movement brings remorse.\"\nIf one feels remorse over this and makes a start,\nGood fortune comes.",
+        "comments": "A man is oppressed by bonds that can easily be broken. The distress is drawing to an end. But he is still irresolute; he is still influenced by the previous condition and fears that he may have cause for regret if he makes a move. But as soon as he grasps the situation, changes this mental attitude, and makes a firm decision, he masters the oppression."
+      }
+    ]
   },
   {
     "number": 48,
@@ -2111,7 +4477,57 @@ var HEXAGRAMS = [
       0
     ],
     "judgment": "The Well. The town may move, but the well remains. Deep spiritual nourishment is inexhaustible.",
-    "image": "Water over wood: the image of the Well. Thus the superior person encourages people to draw from mutual wisdom."
+    "image": "Water over wood: the image of the Well. Thus the superior person encourages people to draw from mutual wisdom.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the beginning",
+        "text": "One does not drink the mud of the well.",
+        "comments": "No animals come to an old well.\n\nIf a man wanders around in swampy lowlands, his life is submerged in mud. Such a man loses all significance for mankind. He who throws himself away is no longer sought out by others. In the end no one troubles about him any more."
+      },
+      {
+        "line": 2,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the second place",
+        "text": "At the well hole one shoots fishes.",
+        "comments": "The jug is broken and leaks.\n\nThe water itself is clear, but it is not being used. Thus the well is a place where only fish will stay, and whoever comes to it, comes only to catch fish. But the jug is broken, so that the fish cannot be kept in it. This describes the situation of a person who possesses good qualities but neglects them. No one bothers about him. As a result he deteriorates in mind. He associates with inferior men and can no longer accomplish anything worth while."
+      },
+      {
+        "line": 3,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the third place",
+        "text": "The well is cleaned, but no one drinks from it.",
+        "comments": "This is my heart's sorrow,\nFor one might draw from it.\nIf the king were clear-minded,\nGood fortune might be enjoyed in common.\n\nAn able man is available. He is like a purified well whose water is drinkable. But no use is made of him. This is the sorrow of those who know him. One wishes that the prince might learn about it; this would be good fortune for all concerned."
+      },
+      {
+        "line": 4,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fourth place",
+        "text": "The well is being lined. No blame.",
+        "comments": "True, if a well is being lined with sone, it cannot be used while the work is going on. But the work is not in vain; the result is that the water stays clear. In life also there are times when a man must put himself in order. During such a time he can do nothing for others, but his work is nonetheless valuable, because by enhancing his powers and abilities through inner development, he can accomplish all the more later on."
+      },
+      {
+        "line": 5,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fifth place",
+        "text": "In the well there is a clear, cold spring\nFrom which one can drink.",
+        "comments": "A well that is fed by a spring of living water is a good well. A man who has virtues like a well of this sort is born to be a leader and savior of men, for he has the water of life. Nevertheless, the character for \"good fortune\" is left out here. The all-important thing about a well is that its water be drawn. The best water is only a potentiality for refreshment as long as it is not brought up. So too with leaders of mankind: it is all-important that one should drink from the spring of their words and translate them into life."
+      },
+      {
+        "line": 6,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the top",
+        "text": "One draws from the well\nWithout hindrance.\nIt is dependable.",
+        "comments": "Supreme good fortune.\n\nThe well is there fore all. No one is forbidden to take water from it. No matter how many come, all find what they need, for the well is dependable. It has a spring and never runs dry. Therefore it is a great blessing to the whole land. The same is true of the really great man, whose inner wealth is inexhaustible; the more that people draw from him, the greater his wealth becomes."
+      }
+    ]
   },
   {
     "number": 49,
@@ -2155,7 +4571,57 @@ var HEXAGRAMS = [
       0
     ],
     "judgment": "Revolution. On your own day you are believed. Transformation aligned with cosmic cycles brings supreme success.",
-    "image": "Fire in the lake: the image of Revolution. Thus the superior person brings order into the seasons and clarifies the times."
+    "image": "Fire in the lake: the image of Revolution. Thus the superior person brings order into the seasons and clarifies the times.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the beginning",
+        "text": "Wrapped in the hide of a yellow cow.",
+        "comments": "Changes ought to be undertaken only when there is nothing else to be done. Therefore at first the utmost restraint is necessary. One must becomes firm in one's mind, control oneself-yellow is the color of the means, and the cow is the symbol of docility-and refrain from doing anything for the time being, because any premature offensive will bring evil results."
+      },
+      {
+        "line": 2,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the second place",
+        "text": "When one's own day comes, one may create revolution.",
+        "comments": "Starting brings good fortune. No blame.\n\nWhen we have tried in every other way to bring about reforms, but without success, revolution becomes necessary. But such a thoroughgoing upheaval must be carefully prepared. There must be available a man who has the requisite abilities and who possesses public confidence. To such a man we may well turn. This brings good fortune and is not a mistake. The first thing to be considered is our inner attitude toward the new condition that will inevitably come. We have to go out to meet it, as it were. Only in this way can it be prepared for."
+      },
+      {
+        "line": 3,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the third place",
+        "text": "Starting brings misfortune.\nPerseverance brings danger.\nWhen talk of revolution has gone the rounds three times,\nOne may commit himself,\nAnd men will believe him.",
+        "comments": "When change is necessary, there are two mistakes to be avoided. One lies in excessive haste and ruthlessness, which bring disaster. The other lies in excessive hesitation and conservatism, which are also dangerous. Not every demand for change in the existing order should be heeded. On the other hand, repeated and well-founded complaints should not fail of a hearing. When talk of change has come to one's ears three times, and has been pondered well, he may believe and acquiesce in it. Then he will meet with belief and will accomplish something."
+      },
+      {
+        "line": 4,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fourth place",
+        "text": "Remorse disappears. Men believe him.\nChanging the form of government brings good fortune.",
+        "comments": "Radical changes require adequate authority. A man must have inner strength as well as influential position. What he does must correspond with a higher truth and must not spring from arbitrary or petty motives; then it brings great good fortune. If a revolution is not founded on such inner truth, the results are bad, and it has no success. For in the end men will support only those undertakings which they feel instinctively to be just."
+      },
+      {
+        "line": 5,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fifth place",
+        "text": "The great man changes like a tiger.\nEven before he questions the oracle\nHe is believed.",
+        "comments": "A tigerskin, with its highly visible black stripes on a yellow ground, shows its distinct pattern from afar. It is the same with a revolution brought about by a great man: large, clear guiding lines become visible, understandable to everyone. Therefore he need not first consult the oracle, for he wins the spontaneous support of the people."
+      },
+      {
+        "line": 6,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the top",
+        "text": "The superior man changes like a panther.",
+        "comments": "The inferior man molts in the face.\n\nStarting brings misfortune.\n\nTo remain persevering brings good fortune.\n\nAfter the large and fundamental problems are settled, certain minor reforms, and elaborations of these, are necessary. These detailed reforms may be likened to the equally distinct but relatively small marks of the panther's coat. As a consequence, a change also takes place among the inferior people. In conformity with the new order, they likewise \"molt.\" This molting, it is true, does not go very deep, but that is not to be expected. We must be satisfied with the attainable. If we should go too far and try to achieve too much, it would lead to unrest and misfortune. For the object of a great revolution is the attainment of clarified, secure conditions ensuring a general stabilization on the basis of what is possible at the moment."
+      }
+    ]
   },
   {
     "number": 50,
@@ -2199,7 +4665,57 @@ var HEXAGRAMS = [
       1
     ],
     "judgment": "The Caldron. Supreme good fortune. Nurturing spiritual culture and elevating life to sacred heights.",
-    "image": "Fire over wood: the image of the Caldron. Thus the superior person consolidates destiny by holding their position right."
+    "image": "Fire over wood: the image of the Caldron. Thus the superior person consolidates destiny by holding their position right.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the beginning",
+        "text": "A ting with legs upturned.\nFurthers removal of stagnating stuff.\nOne takes a concubine for the sake of her son.",
+        "comments": "No blame.\n\nIf a ting is turned upside down before being used, no harm is done-on the contrary, this clears it of refuse. A concubine's position is lowly, but because she has a son she comes to be honored. These two metaphors express the idea that in a highly developed civilization, such as that indicated by this hexagram, every person of good will can in some way or other succeed. No matter how lowly he may be, provided he is ready to purify himself, he is accepted. He attains a station in which he can prove himself fruitful in accomplishment, and as a result he gains recognition."
+      },
+      {
+        "line": 2,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the second place",
+        "text": "There is food in the ting.\nMy comrades are envious,\nBut they cannot harm me.\nGood fortune.",
+        "comments": "In a period of advanced culture, it is of the greatest importance that one should achieve something significant. If a man concentrates on such real undertakings, he may indeed experience envy and disfavor, but that is not dangerous. The more he limits himself to his actual achievements, the less harm the envious inflict on him."
+      },
+      {
+        "line": 3,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the third place",
+        "text": "The handle of the ting is altered.\nOne is impeded in his way of life.",
+        "comments": "The fat of the pheasant is not eaten.\nOnce rain falls, remorse is spent.\nGood fortune comes in the end.\n\nThe handle is the means for lifting up the ting. If the handle is altered, the ting cannot be lifted up and used, and, sad to say, the delicious food in it, such as pheasant fat, cannot be eaten by anyone. This describes a man who, in a highly evolved civilization, finds himself in a place where no one notices or recognizes him. This is a severe block to his effectiveness. All of his good qualities and gifts of mind thus needlessly go to waste. But if he will only see to it that he is possessed of something truly spiritual, the time is bound to come, sooner or later, when the difficulties will be resolved and all will go well. The fall of rain symbolizes here, as in other instances, release of tension."
+      },
+      {
+        "line": 4,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fourth place",
+        "text": "The legs of the ting are broken.",
+        "comments": "The prince's meal is spilled\nAnd his person is soiled.\nMisfortune.\n\nA man has a difficult and responsible task to which he is not adequate. Moreover, he does not devote himself to it with all his strength but goes about with inferior people; therefore the execution of the work fails. In this way he also incurs personal opprobrium. Confucius says about this line: \"Weak character coupled with honored place, meager knowledge with large plans, limited powers with heavy responsibility, will seldom escape disaster.\""
+      },
+      {
+        "line": 5,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fifth place",
+        "text": "The ting has yellow handles, golden carrying rings.\nPerseverance furthers.",
+        "comments": "Here we have, in a ruling position, a man who is approachable and modest in nature. As a result of this attitude he succeeds in finding strong and able helpers who complement and aid him in his work. Having achieved this attitude, which requires constant self-abnegation, it is important for him to hold to it and not to let himself be led astray."
+      },
+      {
+        "line": 6,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the top",
+        "text": "The ting has rings of jade.\nGreat good fortune.",
+        "comments": "Nothing that would not act to further.\n\nIn the preceding line the carrying rings are described as golden, to denote their strength; here they are said to be of jade. Jade is notable for its combination of hardness with soft luster. This counsel, in relation to the man who is open to it, works greatly t his advantage. Here the counsel is described in relation to the sage who imparts it. In imparting it, he will be mild and pure, like precious jade. Thus the work finds favor in the eyes of the Deity, who dispenses great good fortune, and becomes pleasing to men, wherefore all goes well."
+      }
+    ]
   },
   {
     "number": 51,
@@ -2243,7 +4759,57 @@ var HEXAGRAMS = [
       0
     ],
     "judgment": "Shock brings success. Thunder terrifies for a hundred miles, yet one stays composed and steady.",
-    "image": "Thunder repeated: the image of Shock. Thus in awe and reverence the superior person sets life in order."
+    "image": "Thunder repeated: the image of Shock. Thus in awe and reverence the superior person sets life in order.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the beginning",
+        "text": "Shock comes-oh, oh!",
+        "comments": "Then follow laughing words-ha, ha!\nGood fortune.\n\nThe fear and trembling engendered by shock come to an individual at first in such a way that he sees himself placed at a disadvantage as against others. But this is only transitory. When the ordeal is over, he experiences relief, and thus the very terror he had to endure at the outset brings good fortune in the long run."
+      },
+      {
+        "line": 2,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the second place",
+        "text": "Shock comes bringing danger.\nA hundred thousand times\nYou lose your treasures\nAnd must climb the nine hills.\nDo not go in pursuit of them.\nAfter seven days you will get them back again.",
+        "comments": "This pictures a situation in which a shock endangers a man and he suffers great losses. Resistance would be contrary to the movement of the time and for this reason unsuccessful. Therefore he must simply retreat to heights inaccessible to the threatening forces of danger. He must accept his loss of property without worrying too much about it. When the time of shock and upheaval that has robbed him of his possessions has passed, he will get them back again without going in pursuit of them."
+      },
+      {
+        "line": 3,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the third place",
+        "text": "Shock comes and makes one distraught.\nIf shock spurs to action\nOne remains free of misfortune.",
+        "comments": "There are three kinds of shock-the shock of heaven, which is thunder, the shock of fate, and, finally, the shock of the heart. The present hexagram refers less to inner shock than to the shock of fate. In such times of shock, presence of mind is all too easily lost: the individual overlooks all opportunities for action and mutely lets fate take its course. But if he allows the shocks of fate to induce movement within his mind, he will overcome these external blows with little effort."
+      },
+      {
+        "line": 4,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fourth place",
+        "text": "Shock is mired.",
+        "comments": "Movement within the mind depends for its success partly on circumstances. If there is neither a resistance that might be vigorously combated, nor yet a yielding that permits of victory-if, instead, everything is tough and inert like mire-movement is crippled."
+      },
+      {
+        "line": 5,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fifth place",
+        "text": "Shock goes hither and thither.\nDanger.\nHowever, nothing at all is lost.\nYet there are things to be done.",
+        "comments": "This is a case not of a single shock but of repeated shocks with no breathing space between. Nonetheless, the shock causes no loss, because one takes care to stay in the center of movement and in this way to be spared the fate of being helplessly tossed hither and thither."
+      },
+      {
+        "line": 6,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the top",
+        "text": "Shock brings ruin and terrified gazing around.\nGoing ahead brings misfortune.\nIf it has not yet touched one's own body\nBut has reached one's neighbor first,",
+        "comments": "There is no blame.\nOne's comrades have something to talk about.\n\nWhen inner shock is at its height, it robs a man of reflection and clarity of vision. In such a state of shock it is of course impossible to act with presence of mind. Then the right thing is to keep still until composure and clarity are restored. But this a man can do only when he himself is not yet infected by the agitation, although its disastrous effects are already visible in those around him. If he withdraws from the affair in time, he remains free of mistakes and injury. But his comrades, who no longer heed any warning, will in their excitement certainly be displeased with him. However, he must not take this into account."
+      }
+    ]
   },
   {
     "number": 52,
@@ -2287,7 +4853,57 @@ var HEXAGRAMS = [
       1
     ],
     "judgment": "Keeping Still. Keeping the back still so one feels no attachment to selfish desire. Peace within.",
-    "image": "Mountains standing close together: the image of Keeping Still. Thus the superior person does not let thoughts drift beyond their position."
+    "image": "Mountains standing close together: the image of Keeping Still. Thus the superior person does not let thoughts drift beyond their position.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the beginning",
+        "text": "Keeping his toes still.",
+        "comments": "No blame.\nContinued perseverance furthers.\n\nKeeping the toes still means halting before one has even begun to move. The beginning is the time of few mistakes. At that time one is still in harmony with primal innocence. Not yet influenced by obscuring interests and desires, one sees things intuitively as they really are. A man who halts at the beginning, so long as he has not yet abandoned the truth, finds the right way. But persisting firmness is needed to keep one from drifting irresolutely."
+      },
+      {
+        "line": 2,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the second place",
+        "text": "Keeping his calves still.\nHe cannot rescue him whom he follows.\nHis heart is not glad.",
+        "comments": "The leg cannot move independently; it depends on the movement of the body. If a leg is suddenly stopped while the whole body is in vigorous motion, the continuing body movement will make one fall. The same is true of a man who serves a master stronger than himself. He is swept along, and even though he may himself halt on the path of wrongdoing, he can no longer check the other in his powerful movement. Where the master presses forward, the servant, no matter how good his intentions, cannot save him."
+      },
+      {
+        "line": 3,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the third place",
+        "text": "Keeping his hips still.\nMaking his sacrum stiff.\nDangerous. The heart suffocates.",
+        "comments": "This refers to enforced quiet. The restless heart is to be subdued by forcible means. But fire when it is smothered changes into acrid smoke that suffocates as it spreads. Therefore, in exercises in meditation and concentration, one ought not to try to force results. Rather, calmness must develop naturally out of a state of inner composure. If one tries to induce calmness by means of artificial rigidity, meditation will lead to very unwholesome results."
+      },
+      {
+        "line": 4,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fourth place",
+        "text": "Keeping his trunk still.",
+        "comments": "No blame.\n\nAs has been pointed out above in the comment on the Judgment, keeping the back at rest means forgetting the ego. This is the highest stage of rest. Here this stage has not yet been reached: the individual in this instance, though able to keep the ego, with its thoughts and impulses, in a state of rest, is not yet quite liberated from its dominance. Nonetheless, keeping the heart at rest is an important function, leading in the end to the complete elimination of egotistic drives. Even though at this point one does not yet remain free from all the dangers of doubt and unrest, this frame of mind is not a mistake, as it leads ultimately to that other, higher level."
+      },
+      {
+        "line": 5,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fifth place",
+        "text": "Keeping his jaws still.",
+        "comments": "The words have order.\nRemorse disappears.\n\nA man in a dangerous situation, especially when he is not adequate to it, is inclined to be very free with talk and presumptuous jokes. But injudicious speech easily leads to situations that subsequently give much cause for regret. However, if a man is reserved in speech, his words take ever more definite form, and every occasion for regret vanishes."
+      },
+      {
+        "line": 6,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the top",
+        "text": "Noblehearted keeping still.\nGood fortune.",
+        "comments": "This marks the consummation of the effort to attain tranquillity. One is at rest, not merely in a small, circumscribed way in regard to matters of detail, but one has also a general resignation in regard to life as a whole, and this confers peace and good fortune in relation to every individual matter."
+      }
+    ]
   },
   {
     "number": 53,
@@ -2331,7 +4947,57 @@ var HEXAGRAMS = [
       1
     ],
     "judgment": "Development. Gradual progress brings good fortune. Patience and steady cultivation.",
-    "image": "On the mountain, a tree grows: the image of Development. Thus the superior person abides in dignity and virtue to improve customs."
+    "image": "On the mountain, a tree grows: the image of Development. Thus the superior person abides in dignity and virtue to improve customs.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the beginning",
+        "text": "The wild goose gradually draws near the shore.",
+        "comments": "The young son is in danger.\n\nThere is talk. No blame.\n\nAll the individual lines in this hexagram symbolize the gradual flight of the wild goose. The wild goose is the symbol of conjugal fidelity, because it is believed that this bird never takes another mate after the death of the first. The initial line suggests the first resting place in the flight of water birds from the water to the heights. The shore is reached. The situation is that of a lonely young man who is just starting out to make his way in life. Since no one comes to help him, his first steps are slow and hesitant, and he is surrounded by danger. Naturally he is subjected to much criticism. But these very difficulties keep him from being too hasty, and his progress is successful."
+      },
+      {
+        "line": 2,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the second place",
+        "text": "The wild goose gradually draws near the cliff.\nEating and drinking in peace and concord.\nGood fortune.",
+        "comments": "The cliff is a safe place on shore. The development has gone a step further. The initial insecurity has been overcome, and a safe position in life has been found, giving one enough to live on. This first success, opening up a path to activity, brings a certain joyousness of mood, and one goes to meet the future reassured. It is said of the wild goose that it calls to its comrades whenever it finds food; this is the symbol of peace and concord in good fortune. A man does not want to keep his good luck for himself only, but is ready to share it with others."
+      },
+      {
+        "line": 3,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the third place",
+        "text": "The wild goose gradually draws near the plateau.",
+        "comments": "The man goes forth and does not return.\n\nThe woman carries a child but does not bring it forth.\nMisfortune.\nIt furthers one to fight off robbers.\n\nThe high plateau is dry and unsuitable for the wild goose. If it goes there, it has lost its way and gone too far. This is contrary to the law of development. It is the same in human life. If we do not let things develop quietly but plunge of our own choice too rashly into a struggle, misfortune results. A man jeopardizes his own life, and his family perishes thereby. However, this is not all necessary; it is only the result of transgressing the law of natural development. If one does not willfully provoke a conflict, but confines himself to vigorously maintaining his own position and to warding off unjustified attacks, all goes well."
+      },
+      {
+        "line": 4,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fourth place",
+        "text": "The wild goose goes gradually draws near the tree.\nPerhaps it will find a flat branch. No blame.",
+        "comments": "A tree is not a suitable place for a wild goose. But if it is clever, it will find a flat branch on which it can get a footing. A man's life too, in the course of its development, often brings him into inappropriate situations, in which he finds it difficult to hold his own without danger. Then it is important to be sensible and yielding. This enables him to discover a safe place in which life can go on, although he may be surrounded by danger."
+      },
+      {
+        "line": 5,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fifth place",
+        "text": "The wild goose gradually draws near the summit.\nFor three years the woman has no child.\nIn the end nothing can hinder her.\nGood fortune.",
+        "comments": "The summit is a high place. In a high position one easily becomes isolated. One is misjudged by the very person on whom one is dependent-the woman by her husband, the official by his superior. This is the work of deceitful persons who have wormed their way in. The result is that relationships remain sterile, and nothing is accomplished. But in the course of further development, such misunderstandings are cleared away, and reconciliation is achieved after all."
+      },
+      {
+        "line": 6,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the top",
+        "text": "The wild goose gradually draws near the clouds heights.\nIts feathers can be used for the sacred dance.\nGood fortune.",
+        "comments": "Here life comes to its end. A man's work stands completed. The path rises high toward heaven, like the flight of wild geese when they have left the earth far behind. There they fly, keeping to the order of their flight in strict formation. And if their feathers fall, they can serve as ornaments in the sacred dance pantomimes performed in the temples. Thus the life of a man who has perfected himself is a bright light for the people of earth, who look up to him as an example."
+      }
+    ]
   },
   {
     "number": 54,
@@ -2375,7 +5041,57 @@ var HEXAGRAMS = [
       0
     ],
     "judgment": "The Marrying Maiden. Entering a secondary or impulsive situation brings difficulty. Act with care.",
-    "image": "Thunder over the lake: the image of the Marrying Maiden. Thus the superior person understands the fleeting in the light of the eternal."
+    "image": "Thunder over the lake: the image of the Marrying Maiden. Thus the superior person understands the fleeting in the light of the eternal.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the beginning",
+        "text": "The marrying maiden as a concubine.\nA lame man who is able to tread.\nUndertakings bring good fortune.",
+        "comments": "The princess of ancient China maintained a fixed order of rank among the court ladies, who were subordinated to the queen as are younger sisters to the eldest. Frequently they came from the family of the queen, who herself led them to her husband. The meaning is that a girl entering a family with the consent of the wife will not rank outwardly as the equal of the latter but will withdraw modestly into the background. However, if she understands how to fit herself into the pattern of things, her position will be entirely satisfactory, and she will feel sheltered in the love of the husband to whom she bears children. The same meaning is brought out in the relationships between officials. A man may enjoy the personal friendship of a prince and be taken into his confidence. Outwardly this man must keep tactfully in the background behind the official ministers of state, but, although he is hampered by this status, as if he were lame, he can nevertheless accomplish something through the kindliness of his nature."
+      },
+      {
+        "line": 2,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the second place",
+        "text": "A one-eyed man who is able to see.",
+        "comments": "The perseverance of a solitary man furthers.\n\nHere the situation is that of a girl married to a man who has disappointed her. Man and wife ought to work together like a pair of eyes. Here the girl is left behind in loneliness; the man of her choice either has become unfaithful or has died. But she does not lost the inner light of loyalty. Thought the other eye is gone, she maintains her loyalty even in loneliness."
+      },
+      {
+        "line": 3,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the third place",
+        "text": "The marrying maiden as a slave.",
+        "comments": "She marries as a concubine.\n\nA girl who is in a lowly position and finds no husband may, in some circumstances, still win shelter as a concubine. This pictures the situation of a person who longs too much for joys that cannot be obtained in the usual way. He enters upon a situation not altogether compatible with self-esteem. Neither judgment nor warning is added to this line; it merely lays bare the actual situation, so that everyone may draw a lesson from it."
+      },
+      {
+        "line": 4,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fourth place",
+        "text": "The marrying maiden draws out the allotted time.\nA late marriage comes in due course.",
+        "comments": "The girl is virtuous. She does not wish to throw herself away, and allows the customary time for marriage to slip by. However, there is no harm in this; she is rewarded for her purity and, even though belatedly, finds the husband intended for her."
+      },
+      {
+        "line": 5,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fifth place",
+        "text": "The sovereign I gave his daughter in marriage.",
+        "comments": "The embroidered garments of the princess\nWere not as gorgeous\nAs those of the serving maid.\n\nThe moon that is nearly full\nBrings good fortune.\n\nThe sovereign I is T'ang the Completer. This ruler decreed that the imperial princesses should be subordinated to their husbands in the same manner as other women (cf. Hexagram\n\n11, six in the fifth place). The emperor does not wait for a suitor to woo his daughter but gives her in marriage when he sees fit. Therefore it is in accord with custom for the girl's family to take the initiative here. We see here a girl of aristocratic birth who marries a man of modest circumstances and understands how to adapt herself with grace to the new situation. She is free of all vanity of outer adornment, and forgetting her rank in her marriage, takes a place below that of her husband, just as the moon, before it is quite full, does not directly face the sun."
+      },
+      {
+        "line": 6,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the top",
+        "text": "The woman holds the basket, but there are no fruits in it.",
+        "comments": "The man stabs the sheep, but no blood flows.\n\nNothing that acts to further.\n\nAt the sacrifice to the ancestors, the woman had to present harvest offerings in a basket, while the man slaughtered the sacrificial animal with his own hand. Here the ritual is only superficially fulfilled; the woman takes an empty basket and the man stabs a sheep slaughtered beforehand-solely to preserve the forms. This impious, irreverent attitude bodes no good for a marriage."
+      }
+    ]
   },
   {
     "number": 55,
@@ -2419,7 +5135,57 @@ var HEXAGRAMS = [
       0
     ],
     "judgment": "Abundance has success. Zenith of light and movement. Be not sorrowful; be like the sun at noon.",
-    "image": "Both thunder and lightning come: the image of Abundance. Thus the superior person clarifies decisions and dispenses equity."
+    "image": "Both thunder and lightning come: the image of Abundance. Thus the superior person clarifies decisions and dispenses equity.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the beginning",
+        "text": "When a man meets his destined ruler,",
+        "comments": "They can be together ten days,\nAnd it is not a mistake.\nGoing meets with recognition.\n\nTo bring about a time of abundance, a union of clarity with energetic movement is needed. Two individuals possessed of these two attributes are suited to each other, and even if they spend an entire cycle of time together during the period of abundance, it will not be too long, nor is it a mistake. Therefore one may go forth, in order to make one's influence felt; it will meet with recognition."
+      },
+      {
+        "line": 2,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the second place",
+        "text": "The curtain is of such fullness",
+        "comments": "That the polestars can be seen at noon.\n\nThrough going one meets with mistrust and hate.\nIf one rouses him through truth,\nGood fortune comes.\n\nIt often happens that plots and party intrigues, which have the darkening effect of an eclipse of the sun, come between a ruler intent on great achievement and the man who could effect great undertakings. Then, instead of the sun, we see the northern stars in the sky. The ruler is overshadowed by a party that has usurped power. If a man at such a time were to try to take energetic measures, he would encounter only mistrust and envy, which would prohibit all movement. The essential thing then is to hold inwardly to the power of truth, which in the end is so strong that it exerts an invisible influence on the ruler, so that all goes well."
+      },
+      {
+        "line": 3,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the third place",
+        "text": "The underbrush is of such abundance",
+        "comments": "That the small stars can be seen at noon.\nHe breaks his right arm . No blame.\n\nThe image is that of a progressive covering over of the sun. Here the eclipse reaches totality, therefore even the small stars can be seen at noon. In the sphere of social relationships, this means that the prince is now so eclipsed that even the most insignificant persons can push themselves into the foreground. This makes it impossible for an able man, though he might be the right hand of the ruler, to undertake anything. It is as though his arm were broken, but he is not to blame for being thus hindered in action."
+      },
+      {
+        "line": 4,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fourth place",
+        "text": "The curtain is of such fullness",
+        "comments": "That the polestars can be seen at noon.\nHe meets his ruler, who is of like kind.\nGood fortune.\n\nHere the darkness is already decreasing, therefore interrelated elements come together. Here too the complement must be found-the necessary wisdom to complement joy of action. Then everything will go well. The complementary factor postulated here is the reverse of the one in the first line. In the latter, wisdom is to be complemented by energy, while here energy is complemented by wisdom."
+      },
+      {
+        "line": 5,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fifth place",
+        "text": "Lines are coming,\nBlessing and fame draw near.\nGood fortune.",
+        "comments": "The ruler is modest and therefore open to the counsel of able men. Thus he is surrounded by men who suggest to him the lines of action. This brings blessing, fame, and good fortune to him and all the people."
+      },
+      {
+        "line": 6,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the top",
+        "text": "His house is in a state of abundance.\nHe screens off his family.\nHe peers through the gate\nAnd no longer perceives anyone.\nFor three years he sees nothing.\nMisfortune.",
+        "comments": "This describes a man who because of his arrogance and obstinacy attains the opposite of what he strives for. He seeks abundance and splendor for his dwelling. He wishes at all odds to be master in his house, which so alienates his family that in the end he finds himself completely isolated."
+      }
+    ]
   },
   {
     "number": 56,
@@ -2463,7 +5229,57 @@ var HEXAGRAMS = [
       1
     ],
     "judgment": "The Wanderer. Success through modesty. Traveling through unfamiliar territory with careful respect.",
-    "image": "Fire on the mountain: the image of the Wanderer. Thus the superior person is clear-minded, cautious, and avoids lingering entanglements."
+    "image": "Fire on the mountain: the image of the Wanderer. Thus the superior person is clear-minded, cautious, and avoids lingering entanglements.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the beginning",
+        "text": "If the wanderer busies himself with trivial things,\nHe draws down misfortune upon himself.",
+        "comments": "A wanderer should not demean himself or busy himself with inferior things he meets with along the way. The humbler and more defenseless his outward position, the more should he preserve his inner dignity. For a stranger is mistaken if he hopes to find a friendly reception through lending himself to jokes and buffoonery. The result will be only contempt and insulting treatment."
+      },
+      {
+        "line": 2,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the second place",
+        "text": "The wanderer comes to an inn.\nHe has his property with him.\nHe wins the steadfastness of a young servant.",
+        "comments": "The wanderer her described is modest and reserved. He does not lose touch with his inner being, hence he finds a resting place. In the outside world he does not lose the liking of other people, hence all persons further him, so that he can acquire property. Moreover, he wins the allegiance of a faithful and trustworthy servant-a thing of inestimable value to a wanderer."
+      },
+      {
+        "line": 3,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the third place",
+        "text": "The wanderer's inn burns down.\nHe loses the steadfastness of his young servant.\nDanger.",
+        "comments": "A truculent stranger does not know how to behave properly. He meddles in affairs and controversies that do not concern him; thus he loses his resting place. He treats his servant with aloofness and arrogance; thus he loses the man's loyalty. When a stranger in a strange land has no one left on whom he can rely, the situation becomes very dangerous."
+      },
+      {
+        "line": 4,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fourth place",
+        "text": "The wanderer rests in a shelter.\nHe obtains his property and an ax.\nMy heart is not glad.",
+        "comments": "This describes a wanderer who knows how to limit his desires outwardly, though he is inwardly strong and aspiring. Therefore he finds at least a place of shelter in which he can stay. He also succeeds in acquiring property, but even with this he is not secure. He must be always on guard, ready to defend himself with arms. Hence he is not at ease. He is persistently conscious of being a stranger in a strange land."
+      },
+      {
+        "line": 5,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fifth place",
+        "text": "He shoots a pheasant.\nIt drops with the first arrow.\nIn the end this brings both praise and office.",
+        "comments": "Traveling statesman were in the habit of introducing themselves to local princes with the gift of a pheasant, killing it at the first shot. Thus he finds friends who praise and recommend him, and in the end the prince accepts him and confers an office upon him. Circumstances often cause a man to seek a home in foreign parts. If he knows how to meet the situation and how to introduce himself in the right way, he may find a circle of friends and a sphere of activity even in a strange country."
+      },
+      {
+        "line": 6,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the top",
+        "text": "The bird's nest burns up.",
+        "comments": "The wanderer laughs at first,\n\nThen must needs lament and weep.\n\nThrough carelessness he loses his cow.\nMisfortune.\n\nThe picture of a bird whose nest burns up indicates loss of one's resting place. This misfortune may overtake the bird if it is heedless and imprudent when building its nest. It is the same with a wanderer. If he lets himself go, laughing and jesting, and forgets that he is a wanderer, he will later have cause to weep and lament. For if through carelessness a man loses his cow-i.e., his modesty and adaptability-evil will result."
+      }
+    ]
   },
   {
     "number": 57,
@@ -2507,7 +5323,57 @@ var HEXAGRAMS = [
       1
     ],
     "judgment": "The Gentle. Success through small, penetrating influences. Adaptability and constant gentleness.",
-    "image": "Winds following one upon the other: the image of the Gentle. Thus the superior person spreads influence patiently abroad."
+    "image": "Winds following one upon the other: the image of the Gentle. Thus the superior person spreads influence patiently abroad.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the beginning",
+        "text": "In advancing and in retreating,",
+        "comments": "The perseverance of a warrior furthers.\n\nIn born gentleness is often carried to the point of indecisiveness. One does not feel strong enough to advance resolutely. A thousand doubts crop up; one is, however, not minded to withdraw but drifts indecisively to and fro. In such a situation, a military decisiveness is the proper thing, so that one resolutely does what order demands. Resolute discipline is far better than irresolute license."
+      },
+      {
+        "line": 2,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the second place",
+        "text": "Penetration under the bed.\nPriests and magicians are used in great number.\nGood fortune. No blame.",
+        "comments": "At times one has to deal with hidden enemies, intangible influences that slink into dark corners and from this hiding affect people by suggestion. In instances like this, it is necessary to trace these things back to the most secret recesses, in order to determine the nature of the influences to be dealt with. This is the task of the priests; removing the influences is the task of the magicians. The very anonymity of such plotting requires an especially vigorous and indefatigable effort, but this is well worth while. For when such elusive influences are brought into the light and branded, they lose their power over people."
+      },
+      {
+        "line": 3,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the third place",
+        "text": "Repeated penetration. Humiliation.",
+        "comments": "Penetrating reflection must not be pushed too far, lest it cripple the power of decision. After a matter has been thoroughly pondered, it is essential to form a decision and to act. Repeated deliberation brings fresh doubts and scruples, and thereby humiliation, because one shows oneself unable to act."
+      },
+      {
+        "line": 4,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fourth place",
+        "text": "Remorse vanishes.\nDuring the hunt",
+        "comments": "Three kinds of game are caught.\n\nWhen a responsible position and accumulated experience lead one to combine innate modesty with energetic action, great success is assured. The three kinds of animals referred to served for offerings to the gods, for feasting guests, and for everyday consumption. When the catch answered all three purposes, the hunt was considered especially successful."
+      },
+      {
+        "line": 5,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fifth place",
+        "text": "Perseverance brings good fortune.\nRemorse vanishes.",
+        "comments": "Nothing that does not further.\n\nNo beginning, but an end.\nBefore the change, three days.\nAfter the change, three days.\nGood fortune.\n\nIn the situation described in Ku, WORK ON WHAT HAS BEEN SPOILED\n\n18, an entirely new point of departure must be set up, whereas here it is only a question of reforms. The beginning has not been good, but the moment has been reached when a new direction can be taken. Change and improvement are called for. Such steps must be undertaken with steadfastness, that is, with a firm and correct attitude of mind; then they will succeed, and remorse will disappear. But it must be remembered that such improvements require careful consideration. Before a change is made, it must be pondered over again and again. After the change is made, it is necessary to note carefully for some time after how the improvements bear the test of actuality. Such careful work is accompanied by good fortune."
+      },
+      {
+        "line": 6,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the top",
+        "text": "Penetration under the bed.\nHe loses his property and his ax.\nPerseverance brings misfortune.",
+        "comments": "A man's understanding is sufficiently penetrating. He follows up injurious influences into the most secret corners. But he no longer has the strength to combat them decisively. In this case any attempt to penetrate into the personal domain of darkness would only bring harm."
+      }
+    ]
   },
   {
     "number": 58,
@@ -2551,7 +5417,57 @@ var HEXAGRAMS = [
       0
     ],
     "judgment": "The Joyous. Success through joyful communication and openness. Fellowship and shared insight.",
-    "image": "Lakes resting one on the other: the image of the Joyous. Thus the superior person joins with friends for fruitful exchange."
+    "image": "Lakes resting one on the other: the image of the Joyous. Thus the superior person joins with friends for fruitful exchange.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the beginning",
+        "text": "Contented joyousness. Good fortune.",
+        "comments": "A quiet, wordless, self-contained joy, desiring nothing from without and resting content with everything, remains free of all egotistic likes and dislikes. In this freedom lies good fortune, because it harbors the quiet security of a heart fortified within itself."
+      },
+      {
+        "line": 2,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the second place",
+        "text": "Sincere joyousness. Good fortune.\nRemorse disappears.",
+        "comments": "We often find ourselves associating with inferior people in whose company we are tempted by pleasures that are inappropriate for the superior man. To participate in such pleasures would certainly bring remorse, for a superior man can find no real satisfaction in low pleasures. When, recognizing this, a man does not permit his will to swerve, so that he does not find such ways agreeable, not even dubious companions will venture to proffer any base pleasures, because he would not enjoy them. Thus every cause for regret is removed."
+      },
+      {
+        "line": 3,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the third place",
+        "text": "Coming joyousness. Misfortune.",
+        "comments": "True joy must spring from within. But if one is empty within and wholly given over to the world, idle pleasures come streaming in from without. This is what many people welcome as diversion. Those who lack inner stability and therefore need amusement, will always find opportunity of indulgence. They attract external pleasures by the emptiness of their natures. Thus they lose themselves more and more, which of course has bad results."
+      },
+      {
+        "line": 4,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fourth place",
+        "text": "Joyousness that is weighed is not at peace.\nAfter ridding himself of mistakes a man has joy.",
+        "comments": "Often a man finds himself weighing the choice between various kinds of pleasures, and so long as he has not decided which kind he will choose, the higher or the lower, he has no inner peace. Only when he clearly recognizes that passion brings suffering, can he make up his mind to turn away from the lower pleasures and to strive for the higher. Once this decision is sealed, he finds true joy and peace, and inner conflict is overcome."
+      },
+      {
+        "line": 5,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fifth place",
+        "text": "Sincerity toward disintegrating influences is dangerous.",
+        "comments": "Dangerous elements approach even the far best of men. If a man permits himself to have anything to do with them, their disintegrating influence acts slowly but surely, and inevitable brings dangers in its train. But if he recognizes the situation and can comprehend the danger, he knows how to protect himself and remains unharmed."
+      },
+      {
+        "line": 6,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the top",
+        "text": "Seductive joyousness.",
+        "comments": "A vain nature invites diverting pleasures and must suffer accordingly (cf. the six in the third place). If a man is unstable within, the pleasures of the world that he does not shun have so powerful an influence that he is swept along by them. Here it is no longer a question of danger, of good fortune or misfortune. He has given up direction of his own life, and what becomes of him depends upon chance and external influences."
+      }
+    ]
   },
   {
     "number": 59,
@@ -2595,7 +5511,57 @@ var HEXAGRAMS = [
       1
     ],
     "judgment": "Dispersion. Rigid ego dissolves. Unity across divisions. It furthers one to cross the great stream.",
-    "image": "The wind drives over the water: the image of Dispersion. Thus the kings of old united the realm through sacred purpose."
+    "image": "The wind drives over the water: the image of Dispersion. Thus the kings of old united the realm through sacred purpose.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the beginning",
+        "text": "He brings help with the strength of a horse.\nGood fortune.",
+        "comments": "It is important that disunion should be overcome at the outset, before it has become complete-that the clouds should be dispersed before they have brought storm and rain. At such times when hidden divergences in temper make themselves felt and lead to mutual misunderstandings we must take quick and vigorous action to dissolve the misunderstandings and mutual distrust."
+      },
+      {
+        "line": 2,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the second place",
+        "text": "At the dissolution\nHe hurries to that which supports him.\nRemorse disappears.",
+        "comments": "When an individual discovers within himself the beginnings of alienation from others, of misanthropy and ill humor, he must set about dissolving these obstructions. He must rouse himself inwardly, hasten to that which supports him. Such support is never found in hatred, but always in a moderate and just judgment of men, linked with good will. If he regains this unobstructed outlook on humanity, while at the same time all saturnine ill humor is dissolved, all occasion for remorse disappears."
+      },
+      {
+        "line": 3,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the third place",
+        "text": "He dissolves his self. No remorse.",
+        "comments": "Under certain circumstances, a man's work may become so difficult that he can no longer think of himself. He must set aside all personal desires and disperse whatever the self gathers about it to serve as a barrier against others. Only on the basis of great renunciation can he obtain the strength for great achievements. By setting his goal in a great task outside himself, he can attain this standpoint."
+      },
+      {
+        "line": 4,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fourth place",
+        "text": "He dissolves his bond with his group.",
+        "comments": "Supreme good fortune.\nDispersion leads in turn to accumulation.\n\nThis is something that ordinary men do not think of.\n\nWhen we are working at a task that affects the general welfare, we must leave all private friendships out of account. Only by rising above party interests can we achieve something decisive. He who has the courage thus to forego what is near wins what is afar. But in order to comprehend this standpoint, one must have a wide view of the interrelationships of life, such as only unusual men attain."
+      },
+      {
+        "line": 5,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fifth place",
+        "text": "His loud cries are as dissolving as sweat.\nDissolution! A king abides without blame.",
+        "comments": "In times of general dispersion and separation, a great idea provides a focal point for the organization of recovery. Just as an illness reaches its crisis in a dissolving sweat, so a great stimulating idea is a true salvation in times of general deadlock. It gives the people a rallying point-a man in a ruling position who can dispel misunderstandings."
+      },
+      {
+        "line": 6,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the top",
+        "text": "He dissolves his blood.\nDeparting, keeping at a distance, going out,\nIs without blame.",
+        "comments": "The idea of the dissolving of a man's blood means the dispersion of that which might lead to bloodshed and wounds, i.e., avoidance of danger. But here the thought is not that a man avoids difficulties for himself alone, but rather that he rescues his kin-helps them to get away before danger comes, or to keep at a distance from an existing danger, or to find a way out of a danger that is already upon them. In this way he does what is right."
+      }
+    ]
   },
   {
     "number": 60,
@@ -2639,7 +5605,57 @@ var HEXAGRAMS = [
       0
     ],
     "judgment": "Limitation brings success. Boundaries create form and rhythm. Bitter or extreme limitation must not be prolonged.",
-    "image": "Water over lake: the image of Limitation. Thus the superior person creates measure, bounds, and harmonious structure."
+    "image": "Water over lake: the image of Limitation. Thus the superior person creates measure, bounds, and harmonious structure.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the beginning",
+        "text": "Not going out of the door and the courtyard\nIs without blame.",
+        "comments": "Often a man who would like to undertake something finds himself confronted by insurmountable limitations. Then he must know where to stop. If he rightly understands this and does not go beyond the limits set for him, he accumulates an energy that enables him, when the proper time comes, to act with great force. Discretion is of prime importance in preparing the way for momentous things. Concerning this, Confucius says:\n\nWhere disorder develops, words are the first steps. If the prince is not discreet, he loses his servant. If the servant is not discreet he loses his life. If germinating things are not handled with discretion, the perfecting of them is impeded. Therefore the superior man is careful to maintain silence and does not go forth."
+      },
+      {
+        "line": 2,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the second place",
+        "text": "Not going out of the gate and the courtyard\nBrings misfortune.",
+        "comments": "When the time for action has come, the moment must be quickly seized. Just as water first collects in a lake without flowing out, yet is certain to find an outlet when the lake is full, so it is in the life of man. It is a good thing to hesitate so long as the time for action has not come, but no longer. Once the obstacles to action have been removed, anxious hesitation is a mistake that is bound to bring disaster, because one misses one's opportunity."
+      },
+      {
+        "line": 3,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the third place",
+        "text": "He who knows limitation\nWill have cause to lament.",
+        "comments": "No blame.\n\nIf an individual is bent only on pleasures and enjoyment, it is easy for him to lose his sense of the limits that are necessary. If he gives himself over to extravagance, he will have to suffer the consequences, with accompanying regret. He must not seek to lay the blame on others. Only when we realize that our mistakes are of our own making will such disagreeable experiences free us of errors."
+      },
+      {
+        "line": 4,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fourth place",
+        "text": "Contented limitation. Success.",
+        "comments": "Every limitation has its value, but a limitation that requires persistent effort entails a cost of too much energy. When, however, the limitation is a natural one (as for example, the limitation by which water flows only downhill), it necessarily leads to success, for then it means a saving of energy. The energy that otherwise would be consumed in a vain struggle with the object, is applied wholly to the benefit of the matter in hand, and success is assured."
+      },
+      {
+        "line": 5,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fifth place",
+        "text": "Sweet limitation brings good fortune.\nGoing brings esteem.",
+        "comments": "The limitation must be carried out in the right way if it is to be effective. If we seek to impose restrictions on others only, while evading them ourselves, these restrictions will always be resented and will provoke resistance. If, however, a man in a leading position applies the limitation first to himself, demanding little from those associated with him, and with modest means manages to achieve something, good fortune is the result. Where such an example occurs, it meets with emulation, so that whatever is undertaken must succeed."
+      },
+      {
+        "line": 6,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the top",
+        "text": "Galling limitation.\nPerseverance brings misfortune.\nRemorse disappears.",
+        "comments": "If one is too severe in setting up restrictions, people will not endure them. The more consistent such severity, the worse it is, for in the long run a reaction is unavoidable. In the same way, the tormented body will rebel against excessive asceticism. On the other hand, although ruthless severity is not to be applied persistently and systematically, there may be times when it si the only means of safeguarding against guilt and remorse. In such situations ruthlessness toward oneself is the only means of saving one's soul, which otherwise would succumb to irresolution and temptation."
+      }
+    ]
   },
   {
     "number": 61,
@@ -2683,7 +5699,57 @@ var HEXAGRAMS = [
       1
     ],
     "judgment": "Inner Truth. Supreme sincerity moves even pigs and fishes. Good fortune. Cross the great water.",
-    "image": "Wind over lake: the image of Inner Truth. Thus the superior person listens deeply and judges with compassion."
+    "image": "Wind over lake: the image of Inner Truth. Thus the superior person listens deeply and judges with compassion.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the beginning",
+        "text": "Being prepared brings good fortune.\nIf there are secret designs, it is disquieting.",
+        "comments": "The force of inner truth depends chiefly on inner stability and preparedness. From this state of mind springs the correct attitude toward the outer world. But if a man should try to cultivate secret relationships of a special sort, it would deprive him of his inner independence. The more reliance he places on the support of others, the more uneasy and anxious he will become as to whether these secret ties are really tenable. In this way inner peace and the force of inner truth are lost."
+      },
+      {
+        "line": 2,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the second place",
+        "text": "A crane calling in the shade.\nIts young answers it.\nI have a good goblet.\nI will share it with you.",
+        "comments": "This refers to the involuntary influence of a man's inner being upon persons of kindred spirit. The crane need not show itself on a high hill. It may be quite hidden when it sounds its call; yet its young will hear its not, will recognize it and give answer. Where there is a joyous mood, there a comrade will appear to share a glass of wine. This is the echo awakened in men through spiritual attraction. Whenever a feeling is voiced with truth and frankness, whenever a deed is the clear expression of sentiment, a mysterious and far-reaching influence is exerted. At first it acts on those who are inwardly receptive. But the circle grows larger and larger. The root of all influence lies in one's own inner being: given true and vigorous expression in word and deed, its effect is great. The effect is but the reflection of something that emanates from one's own heart. Any deliberate intention of an effect would only destroy the possibility of producing it. Confucius says about this line:\n\nThe superior man abides in his room. If his words are well spoken, he meets with assent at a distance of more than a thousand miles. How much more then from near by! If the superior man abides in his room and his words are not well spoken, he meets with contradiction at a distance of more than a thousand miles. How much more then from near by! Words go forth from one's own person and exert their influence on men. Deeds are born close at hand and become visible far away. Words and deeds are the hinge and bowspring of the superior man. As hinge and bowspring move, they bring honor or disgrace. Through words and deeds the superior man moves heaven and earth . Must one not, then, be cautious?"
+      },
+      {
+        "line": 3,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the third place",
+        "text": "He finds a comrade.",
+        "comments": "Now he beats the drum, now he stops.\n\nNow he sobs, now he sings.\n\nHere the source of a man's strength lies not in himself but in his relation to other people. No matter how close to them he may be, if his center of gravity depends on them, he is inevitably tossed to and fro between joy and sorrow. Rejoicing to high heaven, then sad unto death-this is the fate of those who depend upon an inner accord with other persons whom they love. Here we have only the statement of the law that this is so. Whether this condition is felt to be an affliction of the supreme happiness of love, is left to the subjective verdict of the person concerned."
+      },
+      {
+        "line": 4,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fourth place",
+        "text": "The moon nearly at the full.",
+        "comments": "The team horse goes astray.\n\nNo blame.\n\nTo intensify the power of inner truth, a man must always turn to his superior, from whom he can receive enlightenment as the moon receives light form the sun. However, this requires a certain humility, like that of the moon when it is not yet quite full. At the moment when the moon becomes full and stands directly opposite the sun, it begins to wane. Just as on the one hand we must be humble and reverent when face to face with the source of enlightenment, so likewise must we on the other renounce factionalism among men. Only be pursuing one's course like a horse that goes straight ahead without looking sidewise at its mate, can one retain the inner freedom that helps one onward."
+      },
+      {
+        "line": 5,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fifth place",
+        "text": "He possesses truth, which links together.",
+        "comments": "No blame.\n\nThis describes the ruler who holds all elements together by the power of his personality. Only when the strength of his character is so ample that he can influence all who are subject to him, is he as he needs to be. The power of suggestion must emanate from the ruler. It will firmly knit together and unite all his adherents. Without this central force, all external unity is only deception and breaks down at the decisive moment."
+      },
+      {
+        "line": 6,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the top",
+        "text": "Cockcrow penetrating to heaven.\nPerseverance brings misfortune.",
+        "comments": "The cock is dependable. It crows at dawn. But it cannot itself fly to heaven. It just crows. A man may count on mere words to awaken faith. This may succeed now and then, but if persisted in, it will have bad consequences."
+      }
+    ]
   },
   {
     "number": 62,
@@ -2727,7 +5793,57 @@ var HEXAGRAMS = [
       0
     ],
     "judgment": "Preponderance of the Small. Success in small, attentive steps. Do not strive too high; stay humble and grounded.",
-    "image": "Thunder on the mountain: the image of Preponderance of the Small. Thus the superior person in conduct gives weight to reverence."
+    "image": "Thunder on the mountain: the image of Preponderance of the Small. Thus the superior person in conduct gives weight to reverence.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the beginning",
+        "text": "The bird meets with misfortune through flying.",
+        "comments": "A bird ought to remain in the nest until it is fledged. If it tries to fly before this, it invites misfortune. Extraordinary measures should be resorted to only when all else fails. At first we ought to put up with traditional ways as long as possible; otherwise we exhaust ourselves and our energy and still achieve nothing."
+      },
+      {
+        "line": 2,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the second place",
+        "text": "She passes by her ancestor\nAnd meets her ancestress.\nHe does not reach his prince\nAnd meets the official.",
+        "comments": "No blame.\n\nTwo exceptional situations are instanced here. In the temple of ancestors, where alternation of generations prevails, the grandson stands on the same side as the grandfather. Hence his closest relations are with the grandfather. The present line designates the grandson's wife, who during the sacrifice passes by the ancestor and goes toward the ancestress. This unusual behavior is, however, an expression of her modesty. She ventures rather to approach the ancestress, for she feels related to her by their common sex. Hence here deviation from the rule is not a mistake. Another image is that of the official who, in compliance with regulation, first seeks an audience with his prince. If he is not successful in this, he does not try to force anything but goes about conscientious fulfillment of his duty, taking his place among the other officials. This extraordinary restraint is likewise not a mistake in exceptional times. (The rule is that every official should first have an audience with the prince by whom he is appointed. Here the appointment is made by the minister.)"
+      },
+      {
+        "line": 3,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the third place",
+        "text": "If one is not extremely careful,",
+        "comments": "Somebody may come up from behind and strike him.\nMisfortune.\n\nAt certain times extraordinary caution is absolutely necessary. But it is just in such life situations that we find upright and strong personalities who, conscious of being in the right, disdain to hold themselves on guard, because they consider it petty. Instead, they go their way proud and unconcerned. But this self-confidence deludes them. There are dangers lurking for which they are unprepared. Yet such danger is not unavoidable; one can escape it if he understands that the time demands that he pay especial attention to small and insignificant thing."
+      },
+      {
+        "line": 4,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fourth place",
+        "text": "No blame. He meets him without passing by.\nGoing brings danger. One must be on guard.\nDo not act. Be constantly persevering.",
+        "comments": "Hardness of character is tempered by yielding position so that no mistakes are made. The situation here calls for extreme caution; one must make no attempt of one's own initiative to reach the desired end. And if one were to go on, endeavoring one must be on guard and not act but continue inwardly to persevere."
+      },
+      {
+        "line": 5,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fifth place",
+        "text": "Dense clouds,",
+        "comments": "No rain from our western territory.\n\nThe prince shoots and hits him who is in the cave.\n\nAs a high place is pictured here, the image of a flying bird has become that of flying clouds. But dense as the clouds are, they race across the sky and give no rain. Similarly, in exceptional times there may be a born ruler who is qualified to set the world in order, but who cannot achieve anything or confer blessing on the people because he stands alone and has no helpers. Is such times a man must seek out helpers with whose aid he can carry out the task. But these helpers must be modestly sought out in the retirement to which they have withdrawn. It is not in the fame nor their great names but their genuine achievements that are important. Through such modesty the right man is found, and the exceptional task is carried out in spite of all difficulties."
+      },
+      {
+        "line": 6,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the top",
+        "text": "He passes him by, not meeting him.",
+        "comments": "The flying bird leaves him.\nMisfortune.\n\nThis means bad luck and injury.\n\nIf one overshoots the goal, one cannot hit it. If a bird will not come to its nest but flies higher and higher, it eventually falls into the hunter's net. He who in times of extraordinary salience of small things does not know how to call a halt, but restlessly seeks to press on and on, draws upon himself misfortune at the hands of gods and men, because he deviates from the order of nature."
+      }
+    ]
   },
   {
     "number": 63,
@@ -2771,7 +5887,57 @@ var HEXAGRAMS = [
       0
     ],
     "judgment": "After Completion. Success in small matters. At the beginning good fortune; in the end watchfulness is needed.",
-    "image": "Water over fire: the image of After Completion. Thus the superior person anticipates misfortune and arms against it in advance."
+    "image": "Water over fire: the image of After Completion. Thus the superior person anticipates misfortune and arms against it in advance.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the beginning",
+        "text": "He breaks his wheels.\nHe gets his tail in the water.",
+        "comments": "No blame.\n\nIn times following a great transition, everything is pressing forward, striving in the direction of development and progress. But this pressing forward at the beginning is not good; it overshoots the mark and leads with certainty to loss and collapse. Therefore a man of strong character does not allow himself to be infected by the general intoxication but checks his course in time. He may indeed not remain altogether untouched by the disastrous consequences of the general pressure, but he is hit only from behind like a fox that, having crossed the water, at the last minute gets its tail wet. He will not suffer any real harm, because his behavior has been correct."
+      },
+      {
+        "line": 2,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the second place",
+        "text": "The woman loses the curtain of her carriage.\nDo not run after it;\nOn the seventh day you will get it.",
+        "comments": "When a woman drove out in her carriage, she had a curtain that hid her from the glances of the curious. It was regarded as a breach of propriety to drive on if this curtain was lost. Applied to public life, this means that a man who wants to achieve something is not receiving that confidence of the authorities which he needs, so to speak, for his personal protection. Especially in times \"after completion\" it may happen that those who have come to power grow arrogant and conceited and no longer trouble themselves about fostering new talent. This as a rule results in office seeking. If a man's superiors withhold their trust from him, he will seek ways and means of getting it and of drawing attention to himself. We are warned against such an unworthy procedure: \"Do not seek it.\" Do not throw yourself away on the world, but wait tranquilly and develop your personal worth by your own efforts. Times change. When the six stages of the hexagram have passed, the new era dawns. That which is a man's own cannot be permanently lost. It comes to him of its own accord. He need only be able to wait."
+      },
+      {
+        "line": 3,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the third place",
+        "text": "The Illustrious Ancestor\nDisciplines the Devil's Country.\nAfter three years he conquers it.\nInferior people must not be employed.",
+        "comments": "\"Illustrious Ancestor\" is the dynastic title of the Emperor Wu Ting of the Yin dynasty. After putting his realm in order with a strong hand, he waged long colonial wars for the subjection of the Huns who occupied the northern borderland with constant threat of incursions. The situation described is as follows. After times of completion, when a new power has arisen and everything within the country has been set in order, a period of colonial expansion almost inevitably follows. Then as a rule long-drawn-out struggles must be reckoned with. For this reason, a correct colonial policy is especially important. The territory won at such bitter cost must not be regarded as an almshouse for people who in one way or another have hade themselves impossible at home, but who are thought to be quite good enough for the colonies. Such a policy ruins at the outset any chance of success. This holds true in small as well as large matters, because it is not only rising states that carry on a colonial policy; the urge to expand, with its accompanying dangers, is part and parcel of every ambitious undertaking."
+      },
+      {
+        "line": 4,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fourth place",
+        "text": "The finest clothes turn to rags.\nBe careful all day long.",
+        "comments": "In a time of flowering culture, an occasional convulsion is bound to occur, uncovering a hidden evil within society and at first causing a great sensation. But since the situation is favorable on the whole, such evils can easily be glossed over and concealed from the public. Then everything is forgotten and peace apparently reigns complacently once more. However, to the thoughtful man, such occurrences are grave omens that he does not neglect. This is the only way of averting evil consequences."
+      },
+      {
+        "line": 5,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fifth place",
+        "text": "The neighbor in the east who slaughters an ox\nDoes not attain as much real happiness\nAs the neighbor in the west\nWith his small offering.",
+        "comments": "Religious attitudes are likewise influenced by the spiritual atmosphere prevailing in times after completion. In divine worship the simple old forms are replaced by an ever more elaborate ritual and an ever greater outward display. But inner seriousness is lacking in this show of magnificence; human caprice takes the place of conscientious obedience to the divine will. However, while man sees what is before his eyes, God looks into the heart. Therefore a simple sacrifice offered with real piety holds a greater blessing than an impressive service without warmth."
+      },
+      {
+        "line": 6,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the top",
+        "text": "He gets his head in the water. Danger.",
+        "comments": "Here in conclusion another warning is added. After crossing a stream, a man's head can get into the water only if he is so imprudent as to turn back. As long as he goes forward and does not look back, he escapes this danger. But there is a fascination in standing still and looking back on a peril overcome. However, such vain self-admiration brings misfortune. It leads only to danger, and unless one finally resolves to go forward without pausing, one falls a victim to this danger."
+      }
+    ]
   },
   {
     "number": 64,
@@ -2815,2827 +5981,65 @@ var HEXAGRAMS = [
       1
     ],
     "judgment": "Before Completion. Success. The transition is at hand. Stay alert to step across successfully.",
-    "image": "Fire over water: the image of Before Completion. Thus the superior person differentiates things so each finds its proper place."
+    "image": "Fire over water: the image of Before Completion. Thus the superior person differentiates things so each finds its proper place.",
+    "lineTexts": [
+      {
+        "line": 1,
+        "val": 6,
+        "type": "yin",
+        "name": "Six at the beginning",
+        "text": "He gets his tail in the water.\nHumiliating.",
+        "comments": "In times of disorder there is a temptation to advance oneself as rapidly as possible in order to accomplish something tangible. But this enthusiasm leads only to failure and humiliation if the time for achievement has not yet arrived. In such time it is wise to spare ourselves the opprobrium of failure by holding back."
+      },
+      {
+        "line": 2,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the second place",
+        "text": "He brakes his wheels.\nPerseverance brings good fortune.",
+        "comments": "Here again the time to act has not yet come. But the patience needed is not that of idle waiting without thought of the morrow. Kept up indefinitely, this would not lead to any success. Instead, an individual must develop in himself the strength that will enable him to go forward. He must have a vehicle, as it were, to effect the crossing. But he must for the time being use the brakes. Patience in the highest sense means putting brakes on strength. Therefore he must not fall asleep and lose sight of the goal. If he remains strong and steadfast in his resolve, all goes well in the end."
+      },
+      {
+        "line": 3,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the third place",
+        "text": "Before completion, attack brings misfortune.\nIt furthers one to cross the great water.",
+        "comments": "The time of transition has arrived, but one lacks the strength to complete the transition. If one should attempt to force it, disaster would result, because collapse would then be unavoidable. What is to be done? A new situation must be created; one must engage the energies of able helpers and in this fellowship take the decisive step-cross the great water. Then completion will become possible."
+      },
+      {
+        "line": 4,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine in the fourth place",
+        "text": "Perseverance brings good fortune.\nRemorse disappears.",
+        "comments": "Shock, thus to discipline the Devil's Country.\nFor three years, great realms are rewarded.\n\nNow it is the time of struggle. The transition must be completed. We must make ourselves strong in resolution; this brings good fortune. All misgivings that might arise in such grave times of struggle must be silenced. It is a question of a fierce battle to break and to discipline the Devil's Country, the forces of decadence. But the struggle also has its reward. Now is the time to lay the foundations of power and mastery for the future."
+      },
+      {
+        "line": 5,
+        "val": 6,
+        "type": "yin",
+        "name": "Six in the fifth place",
+        "text": "Perseverance brings good fortune.",
+        "comments": "No remorse.\n\nThe light of the superior man is true.\nGood fortune.\n\nThe victory has been won. The power of steadfastness has not been routed. Everything has gone well. All misgivings have been overcome. Success has justified the deed. The light of a superior personality shines forth anew and makes its influence felt among men who have faith in it and rally around it. The new time has arrived, and with it good fortune. And just as the sun shines forth in redoubled beauty after rain, or as a forest grows more freshly green from charred ruins after a fire, so the new era appears all the more glorious by contrast with the misery of the old."
+      },
+      {
+        "line": 6,
+        "val": 9,
+        "type": "yang",
+        "name": "Nine at the top",
+        "text": "There is drinking of wine\nIn genuine confidence. No blame.\nBut if one wets his head,\nHe loses it, in truth.",
+        "comments": "Before completion, at the dawning of the new time, friends foregather in an atmosphere of mutual trust, and the time of waiting is passed in conviviality. Since the new era is hard on the threshold, there is no blame in this. But one must be careful in all this to keep within proper bounds. If in his exuberance a man gets drunk, he forfeits the favorableness of the situation through his intemperance."
+      }
+    ]
   }
 ];
-var BY_BINARY = {
-  "111111": {
-    "number": 1,
-    "unicode": "䷀",
-    "chinese": "乾",
-    "pinyin": "Qián",
-    "english": "The Creative",
-    "upperTrigram": {
-      "name": "Heaven",
-      "chinese": "乾",
-      "pinyin": "Qián",
-      "symbol": "☰",
-      "element": "Sky",
-      "nature": "Creative / Strong",
-      "lines": [
-        1,
-        1,
-        1
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Heaven",
-      "chinese": "乾",
-      "pinyin": "Qián",
-      "symbol": "☰",
-      "element": "Sky",
-      "nature": "Creative / Strong",
-      "lines": [
-        1,
-        1,
-        1
-      ]
-    },
-    "binary": "111111",
-    "lines": [
-      1,
-      1,
-      1,
-      1,
-      1,
-      1
-    ],
-    "judgment": "The Creative works sublime success, furthering through perseverance.",
-    "image": "The movement of heaven is full of power. Thus the superior person makes themselves strong and untiring."
-  },
-  "000000": {
-    "number": 2,
-    "unicode": "䷁",
-    "chinese": "坤",
-    "pinyin": "Kūn",
-    "english": "The Receptive",
-    "upperTrigram": {
-      "name": "Earth",
-      "chinese": "坤",
-      "pinyin": "Kūn",
-      "symbol": "☷",
-      "element": "Earth",
-      "nature": "Receptive / Devoted",
-      "lines": [
-        0,
-        0,
-        0
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Earth",
-      "chinese": "坤",
-      "pinyin": "Kūn",
-      "symbol": "☷",
-      "element": "Earth",
-      "nature": "Receptive / Devoted",
-      "lines": [
-        0,
-        0,
-        0
-      ]
-    },
-    "binary": "000000",
-    "lines": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "judgment": "The Receptive brings about sublime success, furthering through the perseverance of a mare. If one undertakes something and tries to lead, one goes astray; but if one follows, one finds guidance.",
-    "image": "The earth's condition is receptive devotion. Thus the superior person who has breadth of character carries the outer world."
-  },
-  "100010": {
-    "number": 3,
-    "unicode": "䷂",
-    "chinese": "屯",
-    "pinyin": "Zhūn",
-    "english": "Difficulty at the Beginning",
-    "upperTrigram": {
-      "name": "Water",
-      "chinese": "坎",
-      "pinyin": "Kǎn",
-      "symbol": "☵",
-      "element": "Water / Abyss",
-      "nature": "Abysmal / Danger",
-      "lines": [
-        0,
-        1,
-        0
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Thunder",
-      "chinese": "震",
-      "pinyin": "Zhèn",
-      "symbol": "☳",
-      "element": "Thunder",
-      "nature": "Arousing / Movement",
-      "lines": [
-        1,
-        0,
-        0
-      ]
-    },
-    "binary": "100010",
-    "lines": [
-      1,
-      0,
-      0,
-      0,
-      1,
-      0
-    ],
-    "judgment": "Difficulty at the Beginning works supreme success, furthering through perseverance. Nothing should be undertaken rashly, yet it furthers one to appoint helpers.",
-    "image": "Clouds and thunder: the image of Difficulty at the Beginning. Thus the superior person brings order out of confusion."
-  },
-  "010001": {
-    "number": 4,
-    "unicode": "䷃",
-    "chinese": "蒙",
-    "pinyin": "Méng",
-    "english": "Youthful Folly",
-    "upperTrigram": {
-      "name": "Mountain",
-      "chinese": "艮",
-      "pinyin": "Gèn",
-      "symbol": "☶",
-      "element": "Mountain",
-      "nature": "Keeping Still / Quiet",
-      "lines": [
-        0,
-        0,
-        1
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Water",
-      "chinese": "坎",
-      "pinyin": "Kǎn",
-      "symbol": "☵",
-      "element": "Water / Abyss",
-      "nature": "Abysmal / Danger",
-      "lines": [
-        0,
-        1,
-        0
-      ]
-    },
-    "binary": "010001",
-    "lines": [
-      0,
-      1,
-      0,
-      0,
-      0,
-      1
-    ],
-    "judgment": "Youthful folly has success. It is not I who seek the young fool; the young fool seeks me. Perseverance furthers.",
-    "image": "A spring wells up at the foot of the mountain: the image of Youth. Thus the superior person fosters character by thoroughness in all actions."
-  },
-  "111010": {
-    "number": 5,
-    "unicode": "䷄",
-    "chinese": "需",
-    "pinyin": "Xū",
-    "english": "Waiting",
-    "upperTrigram": {
-      "name": "Water",
-      "chinese": "坎",
-      "pinyin": "Kǎn",
-      "symbol": "☵",
-      "element": "Water / Abyss",
-      "nature": "Abysmal / Danger",
-      "lines": [
-        0,
-        1,
-        0
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Heaven",
-      "chinese": "乾",
-      "pinyin": "Qián",
-      "symbol": "☰",
-      "element": "Sky",
-      "nature": "Creative / Strong",
-      "lines": [
-        1,
-        1,
-        1
-      ]
-    },
-    "binary": "111010",
-    "lines": [
-      1,
-      1,
-      1,
-      0,
-      1,
-      0
-    ],
-    "judgment": "Waiting. If you are sincere, you have light and success. Perseverance brings good fortune. It furthers one to cross the great water.",
-    "image": "Clouds rise up to heaven: the image of Waiting. Thus the superior person eats and drinks, is joyous and of good cheer."
-  },
-  "010111": {
-    "number": 6,
-    "unicode": "䷅",
-    "chinese": "訟",
-    "pinyin": "Sòng",
-    "english": "Conflict",
-    "upperTrigram": {
-      "name": "Heaven",
-      "chinese": "乾",
-      "pinyin": "Qián",
-      "symbol": "☰",
-      "element": "Sky",
-      "nature": "Creative / Strong",
-      "lines": [
-        1,
-        1,
-        1
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Water",
-      "chinese": "坎",
-      "pinyin": "Kǎn",
-      "symbol": "☵",
-      "element": "Water / Abyss",
-      "nature": "Abysmal / Danger",
-      "lines": [
-        0,
-        1,
-        0
-      ]
-    },
-    "binary": "010111",
-    "lines": [
-      0,
-      1,
-      0,
-      1,
-      1,
-      1
-    ],
-    "judgment": "Conflict. You are sincere and are being obstructed. A cautious halt halfway brings good fortune; going through to the end brings misfortune.",
-    "image": "Heaven and water go their opposite ways: the image of Conflict. Thus the superior person in all transactions considers the beginning."
-  },
-  "010000": {
-    "number": 7,
-    "unicode": "䷆",
-    "chinese": "師",
-    "pinyin": "Shī",
-    "english": "The Army",
-    "upperTrigram": {
-      "name": "Earth",
-      "chinese": "坤",
-      "pinyin": "Kūn",
-      "symbol": "☷",
-      "element": "Earth",
-      "nature": "Receptive / Devoted",
-      "lines": [
-        0,
-        0,
-        0
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Water",
-      "chinese": "坎",
-      "pinyin": "Kǎn",
-      "symbol": "☵",
-      "element": "Water / Abyss",
-      "nature": "Abysmal / Danger",
-      "lines": [
-        0,
-        1,
-        0
-      ]
-    },
-    "binary": "010000",
-    "lines": [
-      0,
-      1,
-      0,
-      0,
-      0,
-      0
-    ],
-    "judgment": "The Army needs perseverance and a strong leader. Good fortune without blame.",
-    "image": "In the middle of the earth is water: the image of the Army. Thus the superior person increases their masses by generosity toward the people."
-  },
-  "000010": {
-    "number": 8,
-    "unicode": "䷇",
-    "chinese": "比",
-    "pinyin": "Bǐ",
-    "english": "Holding Together",
-    "upperTrigram": {
-      "name": "Water",
-      "chinese": "坎",
-      "pinyin": "Kǎn",
-      "symbol": "☵",
-      "element": "Water / Abyss",
-      "nature": "Abysmal / Danger",
-      "lines": [
-        0,
-        1,
-        0
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Earth",
-      "chinese": "坤",
-      "pinyin": "Kūn",
-      "symbol": "☷",
-      "element": "Earth",
-      "nature": "Receptive / Devoted",
-      "lines": [
-        0,
-        0,
-        0
-      ]
-    },
-    "binary": "000010",
-    "lines": [
-      0,
-      0,
-      0,
-      0,
-      1,
-      0
-    ],
-    "judgment": "Holding Together brings good fortune. Inquire of the oracle once again whether you have sublimity, constancy, and perseverance; then there is no blame.",
-    "image": "On the earth is water: the image of Holding Together. Thus the kings of antiquity cultivated friendly relations with all realms."
-  },
-  "111011": {
-    "number": 9,
-    "unicode": "䷈",
-    "chinese": "小畜",
-    "pinyin": "Xiǎo Chù",
-    "english": "Small Taming",
-    "upperTrigram": {
-      "name": "Wind",
-      "chinese": "巽",
-      "pinyin": "Xùn",
-      "symbol": "☴",
-      "element": "Wood / Wind",
-      "nature": "Gentle / Penetrating",
-      "lines": [
-        0,
-        1,
-        1
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Heaven",
-      "chinese": "乾",
-      "pinyin": "Qián",
-      "symbol": "☰",
-      "element": "Sky",
-      "nature": "Creative / Strong",
-      "lines": [
-        1,
-        1,
-        1
-      ]
-    },
-    "binary": "111011",
-    "lines": [
-      1,
-      1,
-      1,
-      0,
-      1,
-      1
-    ],
-    "judgment": "The Taming Power of the Small has success. Dense clouds, no rain from our western region. Gentle restraint brings progress.",
-    "image": "The wind drives across the heavens: the image of the Taming Power of the Small. Thus the superior person refines outward character."
-  },
-  "110111": {
-    "number": 10,
-    "unicode": "䷉",
-    "chinese": "履",
-    "pinyin": "Lǚ",
-    "english": "Treading",
-    "upperTrigram": {
-      "name": "Heaven",
-      "chinese": "乾",
-      "pinyin": "Qián",
-      "symbol": "☰",
-      "element": "Sky",
-      "nature": "Creative / Strong",
-      "lines": [
-        1,
-        1,
-        1
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Lake",
-      "chinese": "兌",
-      "pinyin": "Duì",
-      "symbol": "☱",
-      "element": "Marsh / Mist",
-      "nature": "Joyous / Open",
-      "lines": [
-        1,
-        1,
-        0
-      ]
-    },
-    "binary": "110111",
-    "lines": [
-      1,
-      1,
-      0,
-      1,
-      1,
-      1
-    ],
-    "judgment": "Treading upon the tail of the tiger. It does not bite. Success through gentle, dignified conduct.",
-    "image": "Heaven above, the lake below: the image of Treading. Thus the superior person discriminates between high and low, fortifying the minds of the people."
-  },
-  "111000": {
-    "number": 11,
-    "unicode": "䷊",
-    "chinese": "泰",
-    "pinyin": "Tài",
-    "english": "Peace",
-    "upperTrigram": {
-      "name": "Earth",
-      "chinese": "坤",
-      "pinyin": "Kūn",
-      "symbol": "☷",
-      "element": "Earth",
-      "nature": "Receptive / Devoted",
-      "lines": [
-        0,
-        0,
-        0
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Heaven",
-      "chinese": "乾",
-      "pinyin": "Qián",
-      "symbol": "☰",
-      "element": "Sky",
-      "nature": "Creative / Strong",
-      "lines": [
-        1,
-        1,
-        1
-      ]
-    },
-    "binary": "111000",
-    "lines": [
-      1,
-      1,
-      1,
-      0,
-      0,
-      0
-    ],
-    "judgment": "Peace. The small departs, the great approaches. Good fortune. Sublime success.",
-    "image": "Heaven and earth unite: the image of Peace. Thus the ruler divides and completes the courses of heaven and earth, aiding the people."
-  },
-  "000111": {
-    "number": 12,
-    "unicode": "䷋",
-    "chinese": "否",
-    "pinyin": "Pǐ",
-    "english": "Standstill",
-    "upperTrigram": {
-      "name": "Heaven",
-      "chinese": "乾",
-      "pinyin": "Qián",
-      "symbol": "☰",
-      "element": "Sky",
-      "nature": "Creative / Strong",
-      "lines": [
-        1,
-        1,
-        1
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Earth",
-      "chinese": "坤",
-      "pinyin": "Kūn",
-      "symbol": "☷",
-      "element": "Earth",
-      "nature": "Receptive / Devoted",
-      "lines": [
-        0,
-        0,
-        0
-      ]
-    },
-    "binary": "000111",
-    "lines": [
-      0,
-      0,
-      0,
-      1,
-      1,
-      1
-    ],
-    "judgment": "Standstill. Evil people do not further the perseverance of the superior person. The great departs; the small approaches.",
-    "image": "Heaven and earth do not unite: the image of Standstill. Thus the superior person falls back upon inner worth to escape difficulty."
-  },
-  "101111": {
-    "number": 13,
-    "unicode": "䷌",
-    "chinese": "同人",
-    "pinyin": "Tóng Rén",
-    "english": "Fellowship",
-    "upperTrigram": {
-      "name": "Heaven",
-      "chinese": "乾",
-      "pinyin": "Qián",
-      "symbol": "☰",
-      "element": "Sky",
-      "nature": "Creative / Strong",
-      "lines": [
-        1,
-        1,
-        1
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Fire",
-      "chinese": "離",
-      "pinyin": "Lí",
-      "symbol": "☲",
-      "element": "Sun / Flame",
-      "nature": "Clinging / Clarity",
-      "lines": [
-        1,
-        0,
-        1
-      ]
-    },
-    "binary": "101111",
-    "lines": [
-      1,
-      0,
-      1,
-      1,
-      1,
-      1
-    ],
-    "judgment": "Fellowship with others in the open. Success. It furthers one to cross the great water.",
-    "image": "Heaven together with fire: the image of Fellowship with People. Thus the superior person organizes community and clarifies distinctions."
-  },
-  "111101": {
-    "number": 14,
-    "unicode": "䷍",
-    "chinese": "大有",
-    "pinyin": "Dà Yǒu",
-    "english": "Great Possession",
-    "upperTrigram": {
-      "name": "Fire",
-      "chinese": "離",
-      "pinyin": "Lí",
-      "symbol": "☲",
-      "element": "Sun / Flame",
-      "nature": "Clinging / Clarity",
-      "lines": [
-        1,
-        0,
-        1
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Heaven",
-      "chinese": "乾",
-      "pinyin": "Qián",
-      "symbol": "☰",
-      "element": "Sky",
-      "nature": "Creative / Strong",
-      "lines": [
-        1,
-        1,
-        1
-      ]
-    },
-    "binary": "111101",
-    "lines": [
-      1,
-      1,
-      1,
-      1,
-      0,
-      1
-    ],
-    "judgment": "Possession in Great Measure. Supreme success through generous illumination and virtue.",
-    "image": "Fire in heaven above: the image of Possession in Great Measure. Thus the superior person curbs evil and furthers good."
-  },
-  "001000": {
-    "number": 15,
-    "unicode": "䷎",
-    "chinese": "謙",
-    "pinyin": "Qiān",
-    "english": "Modesty",
-    "upperTrigram": {
-      "name": "Earth",
-      "chinese": "坤",
-      "pinyin": "Kūn",
-      "symbol": "☷",
-      "element": "Earth",
-      "nature": "Receptive / Devoted",
-      "lines": [
-        0,
-        0,
-        0
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Mountain",
-      "chinese": "艮",
-      "pinyin": "Gèn",
-      "symbol": "☶",
-      "element": "Mountain",
-      "nature": "Keeping Still / Quiet",
-      "lines": [
-        0,
-        0,
-        1
-      ]
-    },
-    "binary": "001000",
-    "lines": [
-      0,
-      0,
-      1,
-      0,
-      0,
-      0
-    ],
-    "judgment": "Modesty creates success. The superior person carries things through to completion.",
-    "image": "Within the earth, a mountain: the image of Modesty. Thus the superior person reduces that which is too much and augments that which is too little."
-  },
-  "000100": {
-    "number": 16,
-    "unicode": "䷏",
-    "chinese": "豫",
-    "pinyin": "Yù",
-    "english": "Enthusiasm",
-    "upperTrigram": {
-      "name": "Thunder",
-      "chinese": "震",
-      "pinyin": "Zhèn",
-      "symbol": "☳",
-      "element": "Thunder",
-      "nature": "Arousing / Movement",
-      "lines": [
-        1,
-        0,
-        0
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Earth",
-      "chinese": "坤",
-      "pinyin": "Kūn",
-      "symbol": "☷",
-      "element": "Earth",
-      "nature": "Receptive / Devoted",
-      "lines": [
-        0,
-        0,
-        0
-      ]
-    },
-    "binary": "000100",
-    "lines": [
-      0,
-      0,
-      0,
-      1,
-      0,
-      0
-    ],
-    "judgment": "Enthusiasm. It furthers one to install helpers and to set armies marching.",
-    "image": "Thunder comes resounding out of the earth: the image of Enthusiasm. Thus the ancient rulers made music to honor merit."
-  },
-  "100110": {
-    "number": 17,
-    "unicode": "䷐",
-    "chinese": "隨",
-    "pinyin": "Suí",
-    "english": "Following",
-    "upperTrigram": {
-      "name": "Lake",
-      "chinese": "兌",
-      "pinyin": "Duì",
-      "symbol": "☱",
-      "element": "Marsh / Mist",
-      "nature": "Joyous / Open",
-      "lines": [
-        1,
-        1,
-        0
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Thunder",
-      "chinese": "震",
-      "pinyin": "Zhèn",
-      "symbol": "☳",
-      "element": "Thunder",
-      "nature": "Arousing / Movement",
-      "lines": [
-        1,
-        0,
-        0
-      ]
-    },
-    "binary": "100110",
-    "lines": [
-      1,
-      0,
-      0,
-      1,
-      1,
-      0
-    ],
-    "judgment": "Following has supreme success. Perseverance furthers. Be free of blame.",
-    "image": "Thunder in the middle of the lake: the image of Following. Thus the superior person at nightfall goes within for rest and recuperation."
-  },
-  "011001": {
-    "number": 18,
-    "unicode": "䷑",
-    "chinese": "蠱",
-    "pinyin": "Gǔ",
-    "english": "Decay (Work on Spoiled)",
-    "upperTrigram": {
-      "name": "Mountain",
-      "chinese": "艮",
-      "pinyin": "Gèn",
-      "symbol": "☶",
-      "element": "Mountain",
-      "nature": "Keeping Still / Quiet",
-      "lines": [
-        0,
-        0,
-        1
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Wind",
-      "chinese": "巽",
-      "pinyin": "Xùn",
-      "symbol": "☴",
-      "element": "Wood / Wind",
-      "nature": "Gentle / Penetrating",
-      "lines": [
-        0,
-        1,
-        1
-      ]
-    },
-    "binary": "011001",
-    "lines": [
-      0,
-      1,
-      1,
-      0,
-      0,
-      1
-    ],
-    "judgment": "Work on What Has Been Spoiled has supreme success. It furthers one to cross the great water.",
-    "image": "The wind blows at the foot of the mountain: the image of Decay. Thus the superior person stirs up the people and strengthens their spirit."
-  },
-  "110000": {
-    "number": 19,
-    "unicode": "䷒",
-    "chinese": "臨",
-    "pinyin": "Lín",
-    "english": "Approach",
-    "upperTrigram": {
-      "name": "Earth",
-      "chinese": "坤",
-      "pinyin": "Kūn",
-      "symbol": "☷",
-      "element": "Earth",
-      "nature": "Receptive / Devoted",
-      "lines": [
-        0,
-        0,
-        0
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Lake",
-      "chinese": "兌",
-      "pinyin": "Duì",
-      "symbol": "☱",
-      "element": "Marsh / Mist",
-      "nature": "Joyous / Open",
-      "lines": [
-        1,
-        1,
-        0
-      ]
-    },
-    "binary": "110000",
-    "lines": [
-      1,
-      1,
-      0,
-      0,
-      0,
-      0
-    ],
-    "judgment": "Approach has supreme success. Perseverance furthers. When the eighth month comes, there will be misfortune.",
-    "image": "The earth above the lake: the image of Approach. Thus the superior person is inexhaustible in teaching and without limits in tolerance."
-  },
-  "000011": {
-    "number": 20,
-    "unicode": "䷓",
-    "chinese": "觀",
-    "pinyin": "Guān",
-    "english": "Contemplation",
-    "upperTrigram": {
-      "name": "Wind",
-      "chinese": "巽",
-      "pinyin": "Xùn",
-      "symbol": "☴",
-      "element": "Wood / Wind",
-      "nature": "Gentle / Penetrating",
-      "lines": [
-        0,
-        1,
-        1
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Earth",
-      "chinese": "坤",
-      "pinyin": "Kūn",
-      "symbol": "☷",
-      "element": "Earth",
-      "nature": "Receptive / Devoted",
-      "lines": [
-        0,
-        0,
-        0
-      ]
-    },
-    "binary": "000011",
-    "lines": [
-      0,
-      0,
-      0,
-      0,
-      1,
-      1
-    ],
-    "judgment": "Contemplation. The ablution has been made, but not yet the offering. Full of trust they look up.",
-    "image": "The wind blows over the earth: the image of Contemplation. Thus the kings of old inspected the regions of the realm and gave instruction."
-  },
-  "100101": {
-    "number": 21,
-    "unicode": "䷔",
-    "chinese": "噬嗑",
-    "pinyin": "Shì Kè",
-    "english": "Biting Through",
-    "upperTrigram": {
-      "name": "Fire",
-      "chinese": "離",
-      "pinyin": "Lí",
-      "symbol": "☲",
-      "element": "Sun / Flame",
-      "nature": "Clinging / Clarity",
-      "lines": [
-        1,
-        0,
-        1
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Thunder",
-      "chinese": "震",
-      "pinyin": "Zhèn",
-      "symbol": "☳",
-      "element": "Thunder",
-      "nature": "Arousing / Movement",
-      "lines": [
-        1,
-        0,
-        0
-      ]
-    },
-    "binary": "100101",
-    "lines": [
-      1,
-      0,
-      0,
-      1,
-      0,
-      1
-    ],
-    "judgment": "Biting Through has success. It is favorable to let justice be administered.",
-    "image": "Thunder and lightning: the image of Biting Through. Thus the rulers of former times clarified penalties and administered justice."
-  },
-  "101001": {
-    "number": 22,
-    "unicode": "䷕",
-    "chinese": "賁",
-    "pinyin": "Bì",
-    "english": "Grace",
-    "upperTrigram": {
-      "name": "Mountain",
-      "chinese": "艮",
-      "pinyin": "Gèn",
-      "symbol": "☶",
-      "element": "Mountain",
-      "nature": "Keeping Still / Quiet",
-      "lines": [
-        0,
-        0,
-        1
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Fire",
-      "chinese": "離",
-      "pinyin": "Lí",
-      "symbol": "☲",
-      "element": "Sun / Flame",
-      "nature": "Clinging / Clarity",
-      "lines": [
-        1,
-        0,
-        1
-      ]
-    },
-    "binary": "101001",
-    "lines": [
-      1,
-      0,
-      1,
-      0,
-      0,
-      1
-    ],
-    "judgment": "Grace has success. In small matters it is favorable to undertake something.",
-    "image": "Fire at the foot of the mountain: the image of Grace. Thus the superior person clarifies current matters with elegance."
-  },
-  "000001": {
-    "number": 23,
-    "unicode": "䷖",
-    "chinese": "剝",
-    "pinyin": "Bō",
-    "english": "Splitting Apart",
-    "upperTrigram": {
-      "name": "Mountain",
-      "chinese": "艮",
-      "pinyin": "Gèn",
-      "symbol": "☶",
-      "element": "Mountain",
-      "nature": "Keeping Still / Quiet",
-      "lines": [
-        0,
-        0,
-        1
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Earth",
-      "chinese": "坤",
-      "pinyin": "Kūn",
-      "symbol": "☷",
-      "element": "Earth",
-      "nature": "Receptive / Devoted",
-      "lines": [
-        0,
-        0,
-        0
-      ]
-    },
-    "binary": "000001",
-    "lines": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      1
-    ],
-    "judgment": "Splitting Apart. It does not further one to go anywhere. Endure patiently.",
-    "image": "The mountain rests on the earth: the image of Splitting Apart. Thus those above can ensure their position only by generous giving to those below."
-  },
-  "100000": {
-    "number": 24,
-    "unicode": "䷗",
-    "chinese": "復",
-    "pinyin": "Fù",
-    "english": "Return",
-    "upperTrigram": {
-      "name": "Earth",
-      "chinese": "坤",
-      "pinyin": "Kūn",
-      "symbol": "☷",
-      "element": "Earth",
-      "nature": "Receptive / Devoted",
-      "lines": [
-        0,
-        0,
-        0
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Thunder",
-      "chinese": "震",
-      "pinyin": "Zhèn",
-      "symbol": "☳",
-      "element": "Thunder",
-      "nature": "Arousing / Movement",
-      "lines": [
-        1,
-        0,
-        0
-      ]
-    },
-    "binary": "100000",
-    "lines": [
-      1,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "judgment": "Return. Success. Going out and coming in without error. The turning point arrives. It furthers one to have somewhere to go.",
-    "image": "Thunder within the earth: the image of the Turning Point. Thus the kings of antiquity closed the passes at the winter solstice."
-  },
-  "100111": {
-    "number": 25,
-    "unicode": "䷘",
-    "chinese": "無妄",
-    "pinyin": "Wú Wàng",
-    "english": "Innocence",
-    "upperTrigram": {
-      "name": "Heaven",
-      "chinese": "乾",
-      "pinyin": "Qián",
-      "symbol": "☰",
-      "element": "Sky",
-      "nature": "Creative / Strong",
-      "lines": [
-        1,
-        1,
-        1
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Thunder",
-      "chinese": "震",
-      "pinyin": "Zhèn",
-      "symbol": "☳",
-      "element": "Thunder",
-      "nature": "Arousing / Movement",
-      "lines": [
-        1,
-        0,
-        0
-      ]
-    },
-    "binary": "100111",
-    "lines": [
-      1,
-      0,
-      0,
-      1,
-      1,
-      1
-    ],
-    "judgment": "Innocence. Supreme success. Perseverance furthers. Keep to what is genuine and true.",
-    "image": "Under heaven thunder rolls: all things attain their natural state of innocence. Thus rulers nurtured all beings with rich and timely care."
-  },
-  "111001": {
-    "number": 26,
-    "unicode": "䷙",
-    "chinese": "大畜",
-    "pinyin": "Dà Chù",
-    "english": "Great Taming",
-    "upperTrigram": {
-      "name": "Mountain",
-      "chinese": "艮",
-      "pinyin": "Gèn",
-      "symbol": "☶",
-      "element": "Mountain",
-      "nature": "Keeping Still / Quiet",
-      "lines": [
-        0,
-        0,
-        1
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Heaven",
-      "chinese": "乾",
-      "pinyin": "Qián",
-      "symbol": "☰",
-      "element": "Sky",
-      "nature": "Creative / Strong",
-      "lines": [
-        1,
-        1,
-        1
-      ]
-    },
-    "binary": "111001",
-    "lines": [
-      1,
-      1,
-      1,
-      0,
-      0,
-      1
-    ],
-    "judgment": "The Taming Power of the Great. Perseverance furthers. It furthers one to cross the great water.",
-    "image": "Heaven within the mountain: the image of the Taming Power of the Great. Thus the superior person acquaints themselves with the wisdom of the past."
-  },
-  "100001": {
-    "number": 27,
-    "unicode": "䷚",
-    "chinese": "頤",
-    "pinyin": "Yí",
-    "english": "Nourishment",
-    "upperTrigram": {
-      "name": "Mountain",
-      "chinese": "艮",
-      "pinyin": "Gèn",
-      "symbol": "☶",
-      "element": "Mountain",
-      "nature": "Keeping Still / Quiet",
-      "lines": [
-        0,
-        0,
-        1
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Thunder",
-      "chinese": "震",
-      "pinyin": "Zhèn",
-      "symbol": "☳",
-      "element": "Thunder",
-      "nature": "Arousing / Movement",
-      "lines": [
-        1,
-        0,
-        0
-      ]
-    },
-    "binary": "100001",
-    "lines": [
-      1,
-      0,
-      0,
-      0,
-      0,
-      1
-    ],
-    "judgment": "Nourishment. Perseverance brings good fortune. Pay heed to providing nourishment and what one fills oneself with.",
-    "image": "At the foot of the mountain, thunder: the image of Nourishment. Thus the superior person is careful in speech and temperate in eating."
-  },
-  "011110": {
-    "number": 28,
-    "unicode": "䷛",
-    "chinese": "大過",
-    "pinyin": "Dà Guò",
-    "english": "Great Preponderance",
-    "upperTrigram": {
-      "name": "Lake",
-      "chinese": "兌",
-      "pinyin": "Duì",
-      "symbol": "☱",
-      "element": "Marsh / Mist",
-      "nature": "Joyous / Open",
-      "lines": [
-        1,
-        1,
-        0
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Wind",
-      "chinese": "巽",
-      "pinyin": "Xùn",
-      "symbol": "☴",
-      "element": "Wood / Wind",
-      "nature": "Gentle / Penetrating",
-      "lines": [
-        0,
-        1,
-        1
-      ]
-    },
-    "binary": "011110",
-    "lines": [
-      0,
-      1,
-      1,
-      1,
-      1,
-      0
-    ],
-    "judgment": "Preponderance of the Great. The ridgepole sags to the breaking point. Movement in any direction brings success.",
-    "image": "The lake rises above the trees: the image of Preponderance of the Great. Thus the superior person when standing alone is unconcerned."
-  },
-  "010010": {
-    "number": 29,
-    "unicode": "䷜",
-    "chinese": "坎",
-    "pinyin": "Kǎn",
-    "english": "The Abysmal Water",
-    "upperTrigram": {
-      "name": "Water",
-      "chinese": "坎",
-      "pinyin": "Kǎn",
-      "symbol": "☵",
-      "element": "Water / Abyss",
-      "nature": "Abysmal / Danger",
-      "lines": [
-        0,
-        1,
-        0
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Water",
-      "chinese": "坎",
-      "pinyin": "Kǎn",
-      "symbol": "☵",
-      "element": "Water / Abyss",
-      "nature": "Abysmal / Danger",
-      "lines": [
-        0,
-        1,
-        0
-      ]
-    },
-    "binary": "010010",
-    "lines": [
-      0,
-      1,
-      0,
-      0,
-      1,
-      0
-    ],
-    "judgment": "The Abysmal repeated. If you are sincere, you have success in your heart, and whatever you do succeeds.",
-    "image": "Water flows on uninterruptedly: the image of the Abysmal repeated. Thus the superior person walks in lasting virtue and teaches others."
-  },
-  "101101": {
-    "number": 30,
-    "unicode": "䷝",
-    "chinese": "離",
-    "pinyin": "Lí",
-    "english": "The Clinging Fire",
-    "upperTrigram": {
-      "name": "Fire",
-      "chinese": "離",
-      "pinyin": "Lí",
-      "symbol": "☲",
-      "element": "Sun / Flame",
-      "nature": "Clinging / Clarity",
-      "lines": [
-        1,
-        0,
-        1
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Fire",
-      "chinese": "離",
-      "pinyin": "Lí",
-      "symbol": "☲",
-      "element": "Sun / Flame",
-      "nature": "Clinging / Clarity",
-      "lines": [
-        1,
-        0,
-        1
-      ]
-    },
-    "binary": "101101",
-    "lines": [
-      1,
-      0,
-      1,
-      1,
-      0,
-      1
-    ],
-    "judgment": "The Clinging. Perseverance furthers. It brings success. Care of the cow brings good fortune.",
-    "image": "Brightness repeated: the image of Fire. Thus the great person by perpetuating brightness illumines the four quarters of the world."
-  },
-  "001110": {
-    "number": 31,
-    "unicode": "䷞",
-    "chinese": "咸",
-    "pinyin": "Xián",
-    "english": "Influence",
-    "upperTrigram": {
-      "name": "Lake",
-      "chinese": "兌",
-      "pinyin": "Duì",
-      "symbol": "☱",
-      "element": "Marsh / Mist",
-      "nature": "Joyous / Open",
-      "lines": [
-        1,
-        1,
-        0
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Mountain",
-      "chinese": "艮",
-      "pinyin": "Gèn",
-      "symbol": "☶",
-      "element": "Mountain",
-      "nature": "Keeping Still / Quiet",
-      "lines": [
-        0,
-        0,
-        1
-      ]
-    },
-    "binary": "001110",
-    "lines": [
-      0,
-      0,
-      1,
-      1,
-      1,
-      0
-    ],
-    "judgment": "Influence. Success. Mutual resonance brings good fortune. Readiness to receive others.",
-    "image": "A lake on the mountain: the image of Influence. Thus the superior person encourages others to approach through readiness to receive them."
-  },
-  "011100": {
-    "number": 32,
-    "unicode": "䷟",
-    "chinese": "恆",
-    "pinyin": "Héng",
-    "english": "Duration",
-    "upperTrigram": {
-      "name": "Thunder",
-      "chinese": "震",
-      "pinyin": "Zhèn",
-      "symbol": "☳",
-      "element": "Thunder",
-      "nature": "Arousing / Movement",
-      "lines": [
-        1,
-        0,
-        0
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Wind",
-      "chinese": "巽",
-      "pinyin": "Xùn",
-      "symbol": "☴",
-      "element": "Wood / Wind",
-      "nature": "Gentle / Penetrating",
-      "lines": [
-        0,
-        1,
-        1
-      ]
-    },
-    "binary": "011100",
-    "lines": [
-      0,
-      1,
-      1,
-      1,
-      0,
-      0
-    ],
-    "judgment": "Duration. Success. No blame. Perseverance furthers. Steadfast continuity without wavering.",
-    "image": "Thunder and wind: the image of Duration. Thus the superior person stands firm and does not change direction with passing trends."
-  },
-  "001111": {
-    "number": 33,
-    "unicode": "䷠",
-    "chinese": "遯",
-    "pinyin": "Dùn",
-    "english": "Retreat",
-    "upperTrigram": {
-      "name": "Heaven",
-      "chinese": "乾",
-      "pinyin": "Qián",
-      "symbol": "☰",
-      "element": "Sky",
-      "nature": "Creative / Strong",
-      "lines": [
-        1,
-        1,
-        1
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Mountain",
-      "chinese": "艮",
-      "pinyin": "Gèn",
-      "symbol": "☶",
-      "element": "Mountain",
-      "nature": "Keeping Still / Quiet",
-      "lines": [
-        0,
-        0,
-        1
-      ]
-    },
-    "binary": "001111",
-    "lines": [
-      0,
-      0,
-      1,
-      1,
-      1,
-      1
-    ],
-    "judgment": "Retreat. Success. In what is small, perseverance furthers.",
-    "image": "Mountain under heaven: the image of Retreat. Thus the superior person keeps the small-minded at a distance, with dignity and calmness."
-  },
-  "111100": {
-    "number": 34,
-    "unicode": "䷡",
-    "chinese": "大壯",
-    "pinyin": "Dà Zhuàng",
-    "english": "Great Power",
-    "upperTrigram": {
-      "name": "Thunder",
-      "chinese": "震",
-      "pinyin": "Zhèn",
-      "symbol": "☳",
-      "element": "Thunder",
-      "nature": "Arousing / Movement",
-      "lines": [
-        1,
-        0,
-        0
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Heaven",
-      "chinese": "乾",
-      "pinyin": "Qián",
-      "symbol": "☰",
-      "element": "Sky",
-      "nature": "Creative / Strong",
-      "lines": [
-        1,
-        1,
-        1
-      ]
-    },
-    "binary": "111100",
-    "lines": [
-      1,
-      1,
-      1,
-      1,
-      0,
-      0
-    ],
-    "judgment": "Great Power. Perseverance furthers. True power lies in staying aligned with right timing and order.",
-    "image": "Thunder in heaven above: the image of Great Power. Thus the superior person avoids walking down paths that violate harmony."
-  },
-  "000101": {
-    "number": 35,
-    "unicode": "䷢",
-    "chinese": "晉",
-    "pinyin": "Jìn",
-    "english": "Progress",
-    "upperTrigram": {
-      "name": "Fire",
-      "chinese": "離",
-      "pinyin": "Lí",
-      "symbol": "☲",
-      "element": "Sun / Flame",
-      "nature": "Clinging / Clarity",
-      "lines": [
-        1,
-        0,
-        1
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Earth",
-      "chinese": "坤",
-      "pinyin": "Kūn",
-      "symbol": "☷",
-      "element": "Earth",
-      "nature": "Receptive / Devoted",
-      "lines": [
-        0,
-        0,
-        0
-      ]
-    },
-    "binary": "000101",
-    "lines": [
-      0,
-      0,
-      0,
-      1,
-      0,
-      1
-    ],
-    "judgment": "Progress. The virtuous leader is honored and advances into clarity and distinction.",
-    "image": "The sun rises over the earth: the image of Progress. Thus the superior person brightens their inner virtue."
-  },
-  "101000": {
-    "number": 36,
-    "unicode": "䷣",
-    "chinese": "明夷",
-    "pinyin": "Míng Yí",
-    "english": "Darkening of the Light",
-    "upperTrigram": {
-      "name": "Earth",
-      "chinese": "坤",
-      "pinyin": "Kūn",
-      "symbol": "☷",
-      "element": "Earth",
-      "nature": "Receptive / Devoted",
-      "lines": [
-        0,
-        0,
-        0
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Fire",
-      "chinese": "離",
-      "pinyin": "Lí",
-      "symbol": "☲",
-      "element": "Sun / Flame",
-      "nature": "Clinging / Clarity",
-      "lines": [
-        1,
-        0,
-        1
-      ]
-    },
-    "binary": "101000",
-    "lines": [
-      1,
-      0,
-      1,
-      0,
-      0,
-      0
-    ],
-    "judgment": "Darkening of the Light. In adversity it furthers one to be persevering and veil one's brilliance.",
-    "image": "The light has sunk into the earth: the image of Darkening of the Light. Thus the superior person lives with the masses: veiling light, yet shining within."
-  },
-  "101011": {
-    "number": 37,
-    "unicode": "䷤",
-    "chinese": "家人",
-    "pinyin": "Jiā Rén",
-    "english": "The Family",
-    "upperTrigram": {
-      "name": "Wind",
-      "chinese": "巽",
-      "pinyin": "Xùn",
-      "symbol": "☴",
-      "element": "Wood / Wind",
-      "nature": "Gentle / Penetrating",
-      "lines": [
-        0,
-        1,
-        1
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Fire",
-      "chinese": "離",
-      "pinyin": "Lí",
-      "symbol": "☲",
-      "element": "Sun / Flame",
-      "nature": "Clinging / Clarity",
-      "lines": [
-        1,
-        0,
-        1
-      ]
-    },
-    "binary": "101011",
-    "lines": [
-      1,
-      0,
-      1,
-      0,
-      1,
-      1
-    ],
-    "judgment": "The Family. The perseverance of the heart furthers. Order in the core creates peace around.",
-    "image": "Wind comes forth from fire: the image of the Family. Thus the superior person speaks with substance and acts with constancy."
-  },
-  "110101": {
-    "number": 38,
-    "unicode": "䷥",
-    "chinese": "睽",
-    "pinyin": "Kuí",
-    "english": "Opposition",
-    "upperTrigram": {
-      "name": "Fire",
-      "chinese": "離",
-      "pinyin": "Lí",
-      "symbol": "☲",
-      "element": "Sun / Flame",
-      "nature": "Clinging / Clarity",
-      "lines": [
-        1,
-        0,
-        1
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Lake",
-      "chinese": "兌",
-      "pinyin": "Duì",
-      "symbol": "☱",
-      "element": "Marsh / Mist",
-      "nature": "Joyous / Open",
-      "lines": [
-        1,
-        1,
-        0
-      ]
-    },
-    "binary": "110101",
-    "lines": [
-      1,
-      1,
-      0,
-      1,
-      0,
-      1
-    ],
-    "judgment": "Opposition. In small matters, good fortune. Even opposites can cooperate in their distinct roles.",
-    "image": "Above, fire; below, the lake: the image of Opposition. Thus amid all fellowship the superior person retains their individuality."
-  },
-  "001010": {
-    "number": 39,
-    "unicode": "䷦",
-    "chinese": "蹇",
-    "pinyin": "Jiǎn",
-    "english": "Obstruction",
-    "upperTrigram": {
-      "name": "Water",
-      "chinese": "坎",
-      "pinyin": "Kǎn",
-      "symbol": "☵",
-      "element": "Water / Abyss",
-      "nature": "Abysmal / Danger",
-      "lines": [
-        0,
-        1,
-        0
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Mountain",
-      "chinese": "艮",
-      "pinyin": "Gèn",
-      "symbol": "☶",
-      "element": "Mountain",
-      "nature": "Keeping Still / Quiet",
-      "lines": [
-        0,
-        0,
-        1
-      ]
-    },
-    "binary": "001010",
-    "lines": [
-      0,
-      0,
-      1,
-      0,
-      1,
-      0
-    ],
-    "judgment": "Obstruction. The southwest furthers; the northeast does not. It furthers one to see the great leader.",
-    "image": "Water on the mountain: the image of Obstruction. Thus the superior person turns attention inward to mold character."
-  },
-  "010100": {
-    "number": 40,
-    "unicode": "䷧",
-    "chinese": "解",
-    "pinyin": "Xiè",
-    "english": "Deliverance",
-    "upperTrigram": {
-      "name": "Thunder",
-      "chinese": "震",
-      "pinyin": "Zhèn",
-      "symbol": "☳",
-      "element": "Thunder",
-      "nature": "Arousing / Movement",
-      "lines": [
-        1,
-        0,
-        0
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Water",
-      "chinese": "坎",
-      "pinyin": "Kǎn",
-      "symbol": "☵",
-      "element": "Water / Abyss",
-      "nature": "Abysmal / Danger",
-      "lines": [
-        0,
-        1,
-        0
-      ]
-    },
-    "binary": "010100",
-    "lines": [
-      0,
-      1,
-      0,
-      1,
-      0,
-      0
-    ],
-    "judgment": "Deliverance. The tension releases. Forgiveness and untying knots bring good fortune.",
-    "image": "Thunder and rain set in: the image of Deliverance. Thus the superior person pardons mistakes and forgives offenses."
-  },
-  "110001": {
-    "number": 41,
-    "unicode": "䷨",
-    "chinese": "損",
-    "pinyin": "Sǔn",
-    "english": "Decrease",
-    "upperTrigram": {
-      "name": "Mountain",
-      "chinese": "艮",
-      "pinyin": "Gèn",
-      "symbol": "☶",
-      "element": "Mountain",
-      "nature": "Keeping Still / Quiet",
-      "lines": [
-        0,
-        0,
-        1
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Lake",
-      "chinese": "兌",
-      "pinyin": "Duì",
-      "symbol": "☱",
-      "element": "Marsh / Mist",
-      "nature": "Joyous / Open",
-      "lines": [
-        1,
-        1,
-        0
-      ]
-    },
-    "binary": "110001",
-    "lines": [
-      1,
-      1,
-      0,
-      0,
-      0,
-      1
-    ],
-    "judgment": "Decrease combined with sincerity brings supreme good fortune without blame. Two small offerings suffice.",
-    "image": "At the foot of the mountain, the lake: the image of Decrease. Thus the superior person restrains anger and curbs desires."
-  },
-  "100011": {
-    "number": 42,
-    "unicode": "䷩",
-    "chinese": "益",
-    "pinyin": "Yì",
-    "english": "Increase",
-    "upperTrigram": {
-      "name": "Wind",
-      "chinese": "巽",
-      "pinyin": "Xùn",
-      "symbol": "☴",
-      "element": "Wood / Wind",
-      "nature": "Gentle / Penetrating",
-      "lines": [
-        0,
-        1,
-        1
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Thunder",
-      "chinese": "震",
-      "pinyin": "Zhèn",
-      "symbol": "☳",
-      "element": "Thunder",
-      "nature": "Arousing / Movement",
-      "lines": [
-        1,
-        0,
-        0
-      ]
-    },
-    "binary": "100011",
-    "lines": [
-      1,
-      0,
-      0,
-      0,
-      1,
-      1
-    ],
-    "judgment": "Increase. It furthers one to undertake something. It furthers one to cross the great water.",
-    "image": "Wind and thunder: the image of Increase. Thus the superior person: seeing good, imitates it; having faults, sheds them."
-  },
-  "111110": {
-    "number": 43,
-    "unicode": "䷪",
-    "chinese": "夬",
-    "pinyin": "Guài",
-    "english": "Breakthrough",
-    "upperTrigram": {
-      "name": "Lake",
-      "chinese": "兌",
-      "pinyin": "Duì",
-      "symbol": "☱",
-      "element": "Marsh / Mist",
-      "nature": "Joyous / Open",
-      "lines": [
-        1,
-        1,
-        0
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Heaven",
-      "chinese": "乾",
-      "pinyin": "Qián",
-      "symbol": "☰",
-      "element": "Sky",
-      "nature": "Creative / Strong",
-      "lines": [
-        1,
-        1,
-        1
-      ]
-    },
-    "binary": "111110",
-    "lines": [
-      1,
-      1,
-      1,
-      1,
-      1,
-      0
-    ],
-    "judgment": "Breakthrough. Resolutely resolve obstacles with truth and open declaration. Avoid resorting to brute force.",
-    "image": "The lake has risen to heaven: the image of Breakthrough. Thus the superior person dispenses riches downward and stays humble."
-  },
-  "011111": {
-    "number": 44,
-    "unicode": "䷫",
-    "chinese": "姤",
-    "pinyin": "Gòu",
-    "english": "Coming to Meet",
-    "upperTrigram": {
-      "name": "Heaven",
-      "chinese": "乾",
-      "pinyin": "Qián",
-      "symbol": "☰",
-      "element": "Sky",
-      "nature": "Creative / Strong",
-      "lines": [
-        1,
-        1,
-        1
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Wind",
-      "chinese": "巽",
-      "pinyin": "Xùn",
-      "symbol": "☴",
-      "element": "Wood / Wind",
-      "nature": "Gentle / Penetrating",
-      "lines": [
-        0,
-        1,
-        1
-      ]
-    },
-    "binary": "011111",
-    "lines": [
-      0,
-      1,
-      1,
-      1,
-      1,
-      1
-    ],
-    "judgment": "Coming to Meet. An unexpected encounter. Watch for seductive or subtle corrupting influences.",
-    "image": "Under heaven, wind: the image of Coming to Meet. Thus does the leader proclaim directives across the four corners of the land."
-  },
-  "000110": {
-    "number": 45,
-    "unicode": "䷬",
-    "chinese": "萃",
-    "pinyin": "Cuì",
-    "english": "Gathering Together",
-    "upperTrigram": {
-      "name": "Lake",
-      "chinese": "兌",
-      "pinyin": "Duì",
-      "symbol": "☱",
-      "element": "Marsh / Mist",
-      "nature": "Joyous / Open",
-      "lines": [
-        1,
-        1,
-        0
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Earth",
-      "chinese": "坤",
-      "pinyin": "Kūn",
-      "symbol": "☷",
-      "element": "Earth",
-      "nature": "Receptive / Devoted",
-      "lines": [
-        0,
-        0,
-        0
-      ]
-    },
-    "binary": "000110",
-    "lines": [
-      0,
-      0,
-      0,
-      1,
-      1,
-      0
-    ],
-    "judgment": "Gathering Together. Success. Uniting people around a noble core brings fortune.",
-    "image": "Over the earth, the lake: the image of Gathering Together. Thus the superior person prepares defenses against the unforeseen."
-  },
-  "011000": {
-    "number": 46,
-    "unicode": "䷭",
-    "chinese": "升",
-    "pinyin": "Shēng",
-    "english": "Pushing Upward",
-    "upperTrigram": {
-      "name": "Earth",
-      "chinese": "坤",
-      "pinyin": "Kūn",
-      "symbol": "☷",
-      "element": "Earth",
-      "nature": "Receptive / Devoted",
-      "lines": [
-        0,
-        0,
-        0
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Wind",
-      "chinese": "巽",
-      "pinyin": "Xùn",
-      "symbol": "☴",
-      "element": "Wood / Wind",
-      "nature": "Gentle / Penetrating",
-      "lines": [
-        0,
-        1,
-        1
-      ]
-    },
-    "binary": "011000",
-    "lines": [
-      0,
-      1,
-      1,
-      0,
-      0,
-      0
-    ],
-    "judgment": "Pushing Upward has supreme success. Steady organic growth upward brings prosperity.",
-    "image": "Within the earth, wood grows: the image of Pushing Upward. Thus the superior person accumulates small steps to attain great heights."
-  },
-  "010110": {
-    "number": 47,
-    "unicode": "䷮",
-    "chinese": "困",
-    "pinyin": "Kùn",
-    "english": "Oppression",
-    "upperTrigram": {
-      "name": "Lake",
-      "chinese": "兌",
-      "pinyin": "Duì",
-      "symbol": "☱",
-      "element": "Marsh / Mist",
-      "nature": "Joyous / Open",
-      "lines": [
-        1,
-        1,
-        0
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Water",
-      "chinese": "坎",
-      "pinyin": "Kǎn",
-      "symbol": "☵",
-      "element": "Water / Abyss",
-      "nature": "Abysmal / Danger",
-      "lines": [
-        0,
-        1,
-        0
-      ]
-    },
-    "binary": "010110",
-    "lines": [
-      0,
-      1,
-      0,
-      1,
-      1,
-      0
-    ],
-    "judgment": "Oppression. Exhaustion tests endurance. Words may not be believed; stay true to your spirit.",
-    "image": "There is no water in the lake: the image of Oppression. Thus the superior person stakes their life on following their true calling."
-  },
-  "011010": {
-    "number": 48,
-    "unicode": "䷯",
-    "chinese": "井",
-    "pinyin": "Jǐng",
-    "english": "The Well",
-    "upperTrigram": {
-      "name": "Water",
-      "chinese": "坎",
-      "pinyin": "Kǎn",
-      "symbol": "☵",
-      "element": "Water / Abyss",
-      "nature": "Abysmal / Danger",
-      "lines": [
-        0,
-        1,
-        0
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Wind",
-      "chinese": "巽",
-      "pinyin": "Xùn",
-      "symbol": "☴",
-      "element": "Wood / Wind",
-      "nature": "Gentle / Penetrating",
-      "lines": [
-        0,
-        1,
-        1
-      ]
-    },
-    "binary": "011010",
-    "lines": [
-      0,
-      1,
-      1,
-      0,
-      1,
-      0
-    ],
-    "judgment": "The Well. The town may move, but the well remains. Deep spiritual nourishment is inexhaustible.",
-    "image": "Water over wood: the image of the Well. Thus the superior person encourages people to draw from mutual wisdom."
-  },
-  "101110": {
-    "number": 49,
-    "unicode": "䷰",
-    "chinese": "革",
-    "pinyin": "Gé",
-    "english": "Revolution",
-    "upperTrigram": {
-      "name": "Lake",
-      "chinese": "兌",
-      "pinyin": "Duì",
-      "symbol": "☱",
-      "element": "Marsh / Mist",
-      "nature": "Joyous / Open",
-      "lines": [
-        1,
-        1,
-        0
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Fire",
-      "chinese": "離",
-      "pinyin": "Lí",
-      "symbol": "☲",
-      "element": "Sun / Flame",
-      "nature": "Clinging / Clarity",
-      "lines": [
-        1,
-        0,
-        1
-      ]
-    },
-    "binary": "101110",
-    "lines": [
-      1,
-      0,
-      1,
-      1,
-      1,
-      0
-    ],
-    "judgment": "Revolution. On your own day you are believed. Transformation aligned with cosmic cycles brings supreme success.",
-    "image": "Fire in the lake: the image of Revolution. Thus the superior person brings order into the seasons and clarifies the times."
-  },
-  "011101": {
-    "number": 50,
-    "unicode": "䷱",
-    "chinese": "鼎",
-    "pinyin": "Dǐng",
-    "english": "The Caldron",
-    "upperTrigram": {
-      "name": "Fire",
-      "chinese": "離",
-      "pinyin": "Lí",
-      "symbol": "☲",
-      "element": "Sun / Flame",
-      "nature": "Clinging / Clarity",
-      "lines": [
-        1,
-        0,
-        1
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Wind",
-      "chinese": "巽",
-      "pinyin": "Xùn",
-      "symbol": "☴",
-      "element": "Wood / Wind",
-      "nature": "Gentle / Penetrating",
-      "lines": [
-        0,
-        1,
-        1
-      ]
-    },
-    "binary": "011101",
-    "lines": [
-      0,
-      1,
-      1,
-      1,
-      0,
-      1
-    ],
-    "judgment": "The Caldron. Supreme good fortune. Nurturing spiritual culture and elevating life to sacred heights.",
-    "image": "Fire over wood: the image of the Caldron. Thus the superior person consolidates destiny by holding their position right."
-  },
-  "100100": {
-    "number": 51,
-    "unicode": "䷲",
-    "chinese": "震",
-    "pinyin": "Zhèn",
-    "english": "The Arousing Thunder",
-    "upperTrigram": {
-      "name": "Thunder",
-      "chinese": "震",
-      "pinyin": "Zhèn",
-      "symbol": "☳",
-      "element": "Thunder",
-      "nature": "Arousing / Movement",
-      "lines": [
-        1,
-        0,
-        0
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Thunder",
-      "chinese": "震",
-      "pinyin": "Zhèn",
-      "symbol": "☳",
-      "element": "Thunder",
-      "nature": "Arousing / Movement",
-      "lines": [
-        1,
-        0,
-        0
-      ]
-    },
-    "binary": "100100",
-    "lines": [
-      1,
-      0,
-      0,
-      1,
-      0,
-      0
-    ],
-    "judgment": "Shock brings success. Thunder terrifies for a hundred miles, yet one stays composed and steady.",
-    "image": "Thunder repeated: the image of Shock. Thus in awe and reverence the superior person sets life in order."
-  },
-  "001001": {
-    "number": 52,
-    "unicode": "䷳",
-    "chinese": "艮",
-    "pinyin": "Gèn",
-    "english": "Keeping Still Mountain",
-    "upperTrigram": {
-      "name": "Mountain",
-      "chinese": "艮",
-      "pinyin": "Gèn",
-      "symbol": "☶",
-      "element": "Mountain",
-      "nature": "Keeping Still / Quiet",
-      "lines": [
-        0,
-        0,
-        1
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Mountain",
-      "chinese": "艮",
-      "pinyin": "Gèn",
-      "symbol": "☶",
-      "element": "Mountain",
-      "nature": "Keeping Still / Quiet",
-      "lines": [
-        0,
-        0,
-        1
-      ]
-    },
-    "binary": "001001",
-    "lines": [
-      0,
-      0,
-      1,
-      0,
-      0,
-      1
-    ],
-    "judgment": "Keeping Still. Keeping the back still so one feels no attachment to selfish desire. Peace within.",
-    "image": "Mountains standing close together: the image of Keeping Still. Thus the superior person does not let thoughts drift beyond their position."
-  },
-  "001011": {
-    "number": 53,
-    "unicode": "䷴",
-    "chinese": "漸",
-    "pinyin": "Jiàn",
-    "english": "Development",
-    "upperTrigram": {
-      "name": "Wind",
-      "chinese": "巽",
-      "pinyin": "Xùn",
-      "symbol": "☴",
-      "element": "Wood / Wind",
-      "nature": "Gentle / Penetrating",
-      "lines": [
-        0,
-        1,
-        1
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Mountain",
-      "chinese": "艮",
-      "pinyin": "Gèn",
-      "symbol": "☶",
-      "element": "Mountain",
-      "nature": "Keeping Still / Quiet",
-      "lines": [
-        0,
-        0,
-        1
-      ]
-    },
-    "binary": "001011",
-    "lines": [
-      0,
-      0,
-      1,
-      0,
-      1,
-      1
-    ],
-    "judgment": "Development. Gradual progress brings good fortune. Patience and steady cultivation.",
-    "image": "On the mountain, a tree grows: the image of Development. Thus the superior person abides in dignity and virtue to improve customs."
-  },
-  "110100": {
-    "number": 54,
-    "unicode": "䷵",
-    "chinese": "歸妹",
-    "pinyin": "Guī Mèi",
-    "english": "The Marrying Maiden",
-    "upperTrigram": {
-      "name": "Thunder",
-      "chinese": "震",
-      "pinyin": "Zhèn",
-      "symbol": "☳",
-      "element": "Thunder",
-      "nature": "Arousing / Movement",
-      "lines": [
-        1,
-        0,
-        0
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Lake",
-      "chinese": "兌",
-      "pinyin": "Duì",
-      "symbol": "☱",
-      "element": "Marsh / Mist",
-      "nature": "Joyous / Open",
-      "lines": [
-        1,
-        1,
-        0
-      ]
-    },
-    "binary": "110100",
-    "lines": [
-      1,
-      1,
-      0,
-      1,
-      0,
-      0
-    ],
-    "judgment": "The Marrying Maiden. Entering a secondary or impulsive situation brings difficulty. Act with care.",
-    "image": "Thunder over the lake: the image of the Marrying Maiden. Thus the superior person understands the fleeting in the light of the eternal."
-  },
-  "101100": {
-    "number": 55,
-    "unicode": "䷶",
-    "chinese": "豐",
-    "pinyin": "Fēng",
-    "english": "Abundance",
-    "upperTrigram": {
-      "name": "Thunder",
-      "chinese": "震",
-      "pinyin": "Zhèn",
-      "symbol": "☳",
-      "element": "Thunder",
-      "nature": "Arousing / Movement",
-      "lines": [
-        1,
-        0,
-        0
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Fire",
-      "chinese": "離",
-      "pinyin": "Lí",
-      "symbol": "☲",
-      "element": "Sun / Flame",
-      "nature": "Clinging / Clarity",
-      "lines": [
-        1,
-        0,
-        1
-      ]
-    },
-    "binary": "101100",
-    "lines": [
-      1,
-      0,
-      1,
-      1,
-      0,
-      0
-    ],
-    "judgment": "Abundance has success. Zenith of light and movement. Be not sorrowful; be like the sun at noon.",
-    "image": "Both thunder and lightning come: the image of Abundance. Thus the superior person clarifies decisions and dispenses equity."
-  },
-  "001101": {
-    "number": 56,
-    "unicode": "䷷",
-    "chinese": "旅",
-    "pinyin": "Lǚ",
-    "english": "The Wanderer",
-    "upperTrigram": {
-      "name": "Fire",
-      "chinese": "離",
-      "pinyin": "Lí",
-      "symbol": "☲",
-      "element": "Sun / Flame",
-      "nature": "Clinging / Clarity",
-      "lines": [
-        1,
-        0,
-        1
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Mountain",
-      "chinese": "艮",
-      "pinyin": "Gèn",
-      "symbol": "☶",
-      "element": "Mountain",
-      "nature": "Keeping Still / Quiet",
-      "lines": [
-        0,
-        0,
-        1
-      ]
-    },
-    "binary": "001101",
-    "lines": [
-      0,
-      0,
-      1,
-      1,
-      0,
-      1
-    ],
-    "judgment": "The Wanderer. Success through modesty. Traveling through unfamiliar territory with careful respect.",
-    "image": "Fire on the mountain: the image of the Wanderer. Thus the superior person is clear-minded, cautious, and avoids lingering entanglements."
-  },
-  "011011": {
-    "number": 57,
-    "unicode": "䷸",
-    "chinese": "巽",
-    "pinyin": "Xùn",
-    "english": "The Gentle Wind",
-    "upperTrigram": {
-      "name": "Wind",
-      "chinese": "巽",
-      "pinyin": "Xùn",
-      "symbol": "☴",
-      "element": "Wood / Wind",
-      "nature": "Gentle / Penetrating",
-      "lines": [
-        0,
-        1,
-        1
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Wind",
-      "chinese": "巽",
-      "pinyin": "Xùn",
-      "symbol": "☴",
-      "element": "Wood / Wind",
-      "nature": "Gentle / Penetrating",
-      "lines": [
-        0,
-        1,
-        1
-      ]
-    },
-    "binary": "011011",
-    "lines": [
-      0,
-      1,
-      1,
-      0,
-      1,
-      1
-    ],
-    "judgment": "The Gentle. Success through small, penetrating influences. Adaptability and constant gentleness.",
-    "image": "Winds following one upon the other: the image of the Gentle. Thus the superior person spreads influence patiently abroad."
-  },
-  "110110": {
-    "number": 58,
-    "unicode": "䷹",
-    "chinese": "兌",
-    "pinyin": "Duì",
-    "english": "The Joyous Lake",
-    "upperTrigram": {
-      "name": "Lake",
-      "chinese": "兌",
-      "pinyin": "Duì",
-      "symbol": "☱",
-      "element": "Marsh / Mist",
-      "nature": "Joyous / Open",
-      "lines": [
-        1,
-        1,
-        0
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Lake",
-      "chinese": "兌",
-      "pinyin": "Duì",
-      "symbol": "☱",
-      "element": "Marsh / Mist",
-      "nature": "Joyous / Open",
-      "lines": [
-        1,
-        1,
-        0
-      ]
-    },
-    "binary": "110110",
-    "lines": [
-      1,
-      1,
-      0,
-      1,
-      1,
-      0
-    ],
-    "judgment": "The Joyous. Success through joyful communication and openness. Fellowship and shared insight.",
-    "image": "Lakes resting one on the other: the image of the Joyous. Thus the superior person joins with friends for fruitful exchange."
-  },
-  "010011": {
-    "number": 59,
-    "unicode": "䷺",
-    "chinese": "渙",
-    "pinyin": "Huàn",
-    "english": "Dispersion",
-    "upperTrigram": {
-      "name": "Wind",
-      "chinese": "巽",
-      "pinyin": "Xùn",
-      "symbol": "☴",
-      "element": "Wood / Wind",
-      "nature": "Gentle / Penetrating",
-      "lines": [
-        0,
-        1,
-        1
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Water",
-      "chinese": "坎",
-      "pinyin": "Kǎn",
-      "symbol": "☵",
-      "element": "Water / Abyss",
-      "nature": "Abysmal / Danger",
-      "lines": [
-        0,
-        1,
-        0
-      ]
-    },
-    "binary": "010011",
-    "lines": [
-      0,
-      1,
-      0,
-      0,
-      1,
-      1
-    ],
-    "judgment": "Dispersion. Rigid ego dissolves. Unity across divisions. It furthers one to cross the great stream.",
-    "image": "The wind drives over the water: the image of Dispersion. Thus the kings of old united the realm through sacred purpose."
-  },
-  "110010": {
-    "number": 60,
-    "unicode": "䷻",
-    "chinese": "節",
-    "pinyin": "Jié",
-    "english": "Limitation",
-    "upperTrigram": {
-      "name": "Water",
-      "chinese": "坎",
-      "pinyin": "Kǎn",
-      "symbol": "☵",
-      "element": "Water / Abyss",
-      "nature": "Abysmal / Danger",
-      "lines": [
-        0,
-        1,
-        0
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Lake",
-      "chinese": "兌",
-      "pinyin": "Duì",
-      "symbol": "☱",
-      "element": "Marsh / Mist",
-      "nature": "Joyous / Open",
-      "lines": [
-        1,
-        1,
-        0
-      ]
-    },
-    "binary": "110010",
-    "lines": [
-      1,
-      1,
-      0,
-      0,
-      1,
-      0
-    ],
-    "judgment": "Limitation brings success. Boundaries create form and rhythm. Bitter or extreme limitation must not be prolonged.",
-    "image": "Water over lake: the image of Limitation. Thus the superior person creates measure, bounds, and harmonious structure."
-  },
-  "110011": {
-    "number": 61,
-    "unicode": "䷼",
-    "chinese": "中孚",
-    "pinyin": "Zhōng Fú",
-    "english": "Inner Truth",
-    "upperTrigram": {
-      "name": "Wind",
-      "chinese": "巽",
-      "pinyin": "Xùn",
-      "symbol": "☴",
-      "element": "Wood / Wind",
-      "nature": "Gentle / Penetrating",
-      "lines": [
-        0,
-        1,
-        1
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Lake",
-      "chinese": "兌",
-      "pinyin": "Duì",
-      "symbol": "☱",
-      "element": "Marsh / Mist",
-      "nature": "Joyous / Open",
-      "lines": [
-        1,
-        1,
-        0
-      ]
-    },
-    "binary": "110011",
-    "lines": [
-      1,
-      1,
-      0,
-      0,
-      1,
-      1
-    ],
-    "judgment": "Inner Truth. Supreme sincerity moves even pigs and fishes. Good fortune. Cross the great water.",
-    "image": "Wind over lake: the image of Inner Truth. Thus the superior person listens deeply and judges with compassion."
-  },
-  "001100": {
-    "number": 62,
-    "unicode": "䷽",
-    "chinese": "小過",
-    "pinyin": "Xiǎo Guò",
-    "english": "Small Preponderance",
-    "upperTrigram": {
-      "name": "Thunder",
-      "chinese": "震",
-      "pinyin": "Zhèn",
-      "symbol": "☳",
-      "element": "Thunder",
-      "nature": "Arousing / Movement",
-      "lines": [
-        1,
-        0,
-        0
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Mountain",
-      "chinese": "艮",
-      "pinyin": "Gèn",
-      "symbol": "☶",
-      "element": "Mountain",
-      "nature": "Keeping Still / Quiet",
-      "lines": [
-        0,
-        0,
-        1
-      ]
-    },
-    "binary": "001100",
-    "lines": [
-      0,
-      0,
-      1,
-      1,
-      0,
-      0
-    ],
-    "judgment": "Preponderance of the Small. Success in small, attentive steps. Do not strive too high; stay humble and grounded.",
-    "image": "Thunder on the mountain: the image of Preponderance of the Small. Thus the superior person in conduct gives weight to reverence."
-  },
-  "101010": {
-    "number": 63,
-    "unicode": "䷾",
-    "chinese": "既濟",
-    "pinyin": "Jì Jì",
-    "english": "After Completion",
-    "upperTrigram": {
-      "name": "Water",
-      "chinese": "坎",
-      "pinyin": "Kǎn",
-      "symbol": "☵",
-      "element": "Water / Abyss",
-      "nature": "Abysmal / Danger",
-      "lines": [
-        0,
-        1,
-        0
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Fire",
-      "chinese": "離",
-      "pinyin": "Lí",
-      "symbol": "☲",
-      "element": "Sun / Flame",
-      "nature": "Clinging / Clarity",
-      "lines": [
-        1,
-        0,
-        1
-      ]
-    },
-    "binary": "101010",
-    "lines": [
-      1,
-      0,
-      1,
-      0,
-      1,
-      0
-    ],
-    "judgment": "After Completion. Success in small matters. At the beginning good fortune; in the end watchfulness is needed.",
-    "image": "Water over fire: the image of After Completion. Thus the superior person anticipates misfortune and arms against it in advance."
-  },
-  "010101": {
-    "number": 64,
-    "unicode": "䷿",
-    "chinese": "未濟",
-    "pinyin": "Wèi Jì",
-    "english": "Before Completion",
-    "upperTrigram": {
-      "name": "Fire",
-      "chinese": "離",
-      "pinyin": "Lí",
-      "symbol": "☲",
-      "element": "Sun / Flame",
-      "nature": "Clinging / Clarity",
-      "lines": [
-        1,
-        0,
-        1
-      ]
-    },
-    "lowerTrigram": {
-      "name": "Water",
-      "chinese": "坎",
-      "pinyin": "Kǎn",
-      "symbol": "☵",
-      "element": "Water / Abyss",
-      "nature": "Abysmal / Danger",
-      "lines": [
-        0,
-        1,
-        0
-      ]
-    },
-    "binary": "010101",
-    "lines": [
-      0,
-      1,
-      0,
-      1,
-      0,
-      1
-    ],
-    "judgment": "Before Completion. Success. The transition is at hand. Stay alert to step across successfully.",
-    "image": "Fire over water: the image of Before Completion. Thus the superior person differentiates things so each finds its proper place."
-  }
-};
+
+var BY_BINARY = {};
+for (var _bi = 0; _bi < HEXAGRAMS.length; _bi++) {
+  BY_BINARY[HEXAGRAMS[_bi].binary] = HEXAGRAMS[_bi];
+}
+
 var TRIGRAMS = {
   "Heaven": {
     "name": "Heaven",
@@ -5769,6 +6173,10 @@ var LORE = {
   hexagrams: {
     title: "6. Present (Běn Guà) vs Future (Zhī Guà)",
     body: "The first hexagram (本卦, Běn Guà) portrays the present state. Any line cast as 6 or 9 is at its energetic extreme, actively transforming into its opposite. These changing lines bridge the present into the relating hexagram (之卦, Zhī Guà), revealing the emerging future landscape if present momentum continues."
+  },
+  translation: {
+    title: "7. Classical Translation & Commentary (Wilhelm / Baynes)",
+    body: "The judgments, images, line texts (爻辭, Yáo Cí), and commentaries in this oracle are drawn from the Richard Wilhelm translation, translated from German into English by Cary F. Baynes with a foreword by C.G. Jung (Princeton University Press, Bollingen Series XIX). First published in English in 1950, this edition remains the international gold standard for scholarly fidelity and psychological depth."
   }
 };
 
@@ -6005,9 +6413,22 @@ function resolveConsultation(lines) {
 
   var primaryHex = getHexagramByBits(primaryBits);
   var changedHex = null;
-  
-  if (changingLineNumbers.length > 0) {
+  var changingLineDetails = [];
+
+  if (primaryHex && changingLineNumbers.length > 0) {
     changedHex = getHexagramByBits(changedBits);
+    for (var k = 0; k < changingLineNumbers.length; k++) {
+      var lNum = changingLineNumbers[k];
+      if (primaryHex.lineTexts && primaryHex.lineTexts[lNum - 1]) {
+        changingLineDetails.push(primaryHex.lineTexts[lNum - 1]);
+      }
+    }
+    // Special line if all 6 lines change for Hexagram 1 or 2
+    if (primaryHex.number === 1 && changingLineNumbers.length === 6 && primaryHex.specialLine) {
+      changingLineDetails.push(primaryHex.specialLine);
+    } else if (primaryHex.number === 2 && changingLineNumbers.length === 6 && primaryHex.specialLine) {
+      changingLineDetails.push(primaryHex.specialLine);
+    }
   }
 
   return {
@@ -6015,6 +6436,7 @@ function resolveConsultation(lines) {
     transformed: changedHex,
     hasChangingLines: changingLineNumbers.length > 0,
     changingLines: changingLineNumbers,
+    changingLineDetails: changingLineDetails,
     lines: lines
   };
 }

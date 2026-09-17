@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "io.github.layolayo.iching-oracle",
   "name": "I-Ching: Stalks & Sacred Marbles",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Matthew Hudson",
   "license": "MIT",
   "description": "Authentic I-Ching divination using Andrew Kennedy's Revised Yarrow Algorithm and the 38-marble pouch.",
