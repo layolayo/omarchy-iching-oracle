@@ -945,7 +945,7 @@ Panel {
         BorderSurface {
           width: parent.width
           visible: root.activeTab === "reading" && root.castLines.length === 6 && root.consultation && !!root.consultation.primary && (!root.consultation.hasChangingLines || root.readingStage === "present")
-          implicitHeight: primaryResultCol.implicitHeight + Style.space(24)
+          implicitHeight: Math.max(primaryResultCol.implicitHeight + Style.space(24), Style.space(380))
           color: Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.07)
           radius: Style.cornerRadius
           borderSpec: Border.flat(Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.35), 1)
@@ -1010,13 +1010,13 @@ Panel {
               }
             }
 
-            // Aspect Switcher Tabs: Judgment / Image / Trigrams / Both
+            // Aspect Switcher Tabs: Judgment / Image / Trigrams
             Row {
               width: parent.width
-              spacing: Style.space(4)
+              spacing: Style.space(6)
 
               Button {
-                width: (parent.width - Style.space(12)) / 4
+                width: (parent.width - Style.space(12)) / 3
                 text: "📜 Judgment"
                 bordered: true
                 selected: root.hexAspect === "judgment"
@@ -1025,7 +1025,7 @@ Panel {
               }
 
               Button {
-                width: (parent.width - Style.space(12)) / 4
+                width: (parent.width - Style.space(12)) / 3
                 text: "🌊 Image"
                 bordered: true
                 selected: root.hexAspect === "image"
@@ -1034,21 +1034,12 @@ Panel {
               }
 
               Button {
-                width: (parent.width - Style.space(12)) / 4
+                width: (parent.width - Style.space(12)) / 3
                 text: "☯ Trigrams"
                 bordered: true
                 selected: root.hexAspect === "structure"
                 accent: root.accentColor
                 onClicked: root.hexAspect = "structure"
-              }
-
-              Button {
-                width: (parent.width - Style.space(12)) / 4
-                text: "👁 Both"
-                bordered: true
-                selected: root.hexAspect === "overview"
-                accent: root.accentColor
-                onClicked: root.hexAspect = "overview"
               }
             }
 
@@ -1188,63 +1179,30 @@ Panel {
             Column {
               width: parent.width
               visible: root.hexAspect === "structure"
-              spacing: Style.space(10)
-
-              // Explanatory Banner
-              BorderSurface {
-                width: parent.width
-                implicitHeight: pTrigExpCol.implicitHeight + Style.space(12)
-                color: Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.05)
-                radius: Style.cornerRadius
-                borderSpec: Border.flat(Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.2), 1)
-
-                Column {
-                  id: pTrigExpCol
-                  width: parent.width - Style.space(16)
-                  anchors.centerIn: parent
-                  spacing: Style.space(2)
-
-                  Text {
-                    text: "☯ Trigram Dynamics & Structural Polarity"
-                    color: root.accentColor
-                    font.family: root.fontFamily
-                    font.pixelSize: Style.font.bodySmall
-                    font.bold: true
-                  }
-
-                  Text {
-                    width: parent.width
-                    text: "The hexagram is built of two active trigrams: Outer Realm (action in the manifest world) above Inner Realm (heart-mind & root conditions)."
-                    color: root.mutedColor
-                    font.family: root.fontFamily
-                    font.pixelSize: Style.space(11)
-                    wrapMode: Text.WordWrap
-                  }
-                }
-              }
+              spacing: Style.space(8)
 
               // Two side-by-side realm cards
               Row {
                 width: parent.width
-                spacing: Style.space(10)
+                spacing: Style.space(8)
 
                 // Upper Trigram (Outer Realm)
                 BorderSurface {
-                  width: (parent.width - Style.space(10)) * 0.5
-                  implicitHeight: pUpperCol.implicitHeight + Style.space(20)
+                  width: (parent.width - Style.space(8)) * 0.5
+                  implicitHeight: pUpperCol.implicitHeight + Style.space(14)
                   color: Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.08)
                   radius: Style.cornerRadius
                   borderSpec: Border.flat(Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.35), 1)
 
                   Column {
                     id: pUpperCol
-                    width: parent.width - Style.space(18)
+                    width: parent.width - Style.space(16)
                     anchors.centerIn: parent
-                    spacing: Style.space(8)
+                    spacing: Style.space(4)
 
                     // Header Tag
                     Row {
-                      spacing: Style.space(6)
+                      spacing: Style.space(5)
                       Rectangle {
                         anchors.verticalCenter: parent.verticalCenter
                         width: Style.space(6)
@@ -1261,21 +1219,21 @@ Panel {
                       }
                     }
 
-                    // Prominent Large Glyph & Trigram Identification
+                    // Glyph & Identity
                     Row {
                       width: parent.width
-                      spacing: Style.space(12)
+                      spacing: Style.space(8)
 
                       Text {
                         anchors.verticalCenter: parent.verticalCenter
                         text: root.consultation && root.consultation.primary ? root.consultation.primary.upperTrigram.symbol : ""
-                        font.pixelSize: Style.space(42)
+                        font.pixelSize: Style.space(32)
                         color: root.accentColor
                       }
 
                       Column {
                         anchors.verticalCenter: parent.verticalCenter
-                        width: parent.width - Style.space(54)
+                        width: parent.width - Style.space(40)
                         spacing: Style.space(1)
 
                         Text {
@@ -1285,7 +1243,7 @@ Panel {
                             : ""
                           color: root.foreground
                           font.family: root.fontFamily
-                          font.pixelSize: Style.font.bodySmall
+                          font.pixelSize: Style.space(12)
                           font.bold: true
                           wrapMode: Text.WordWrap
                         }
@@ -1303,55 +1261,43 @@ Panel {
                       }
                     }
 
-                    // Key attributes
-                    Column {
+                    Text {
                       width: parent.width
-                      spacing: Style.space(4)
+                      text: root.consultation && root.consultation.primary ? root.consultation.primary.upperTrigram.nature : ""
+                      color: root.foreground
+                      font.pixelSize: Style.space(11)
+                      wrapMode: Text.WordWrap
+                    }
 
-                      Row {
-                        width: parent.width
-                        spacing: Style.space(4)
-                        Text { text: "Quality:"; color: root.mutedColor; font.pixelSize: Style.space(11); font.bold: true }
-                        Text {
-                          width: parent.width - Style.space(55)
-                          text: root.consultation && root.consultation.primary ? root.consultation.primary.upperTrigram.nature : ""
-                          color: root.foreground
-                          font.pixelSize: Style.space(11)
-                          wrapMode: Text.WordWrap
-                        }
-                      }
-
-                      Text {
-                        width: parent.width
-                        text: "Manifest action, outer social realm & emerging conditions"
-                        color: root.mutedColor
-                        font.family: root.fontFamily
-                        font.pixelSize: Style.space(10)
-                        font.italic: true
-                        wrapMode: Text.WordWrap
-                        lineHeight: 1.2
-                      }
+                    Text {
+                      width: parent.width
+                      text: "Manifest action & outer conditions"
+                      color: root.mutedColor
+                      font.family: root.fontFamily
+                      font.pixelSize: Style.space(10)
+                      font.italic: true
+                      wrapMode: Text.WordWrap
                     }
                   }
                 }
 
                 // Lower Trigram (Inner Realm)
                 BorderSurface {
-                  width: (parent.width - Style.space(10)) * 0.5
-                  implicitHeight: pLowerCol.implicitHeight + Style.space(20)
+                  width: (parent.width - Style.space(8)) * 0.5
+                  implicitHeight: pLowerCol.implicitHeight + Style.space(14)
                   color: Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.08)
                   radius: Style.cornerRadius
                   borderSpec: Border.flat(Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.35), 1)
 
                   Column {
                     id: pLowerCol
-                    width: parent.width - Style.space(18)
+                    width: parent.width - Style.space(16)
                     anchors.centerIn: parent
-                    spacing: Style.space(8)
+                    spacing: Style.space(4)
 
                     // Header Tag
                     Row {
-                      spacing: Style.space(6)
+                      spacing: Style.space(5)
                       Rectangle {
                         anchors.verticalCenter: parent.verticalCenter
                         width: Style.space(6)
@@ -1368,21 +1314,21 @@ Panel {
                       }
                     }
 
-                    // Prominent Large Glyph & Trigram Identification
+                    // Glyph & Identity
                     Row {
                       width: parent.width
-                      spacing: Style.space(12)
+                      spacing: Style.space(8)
 
                       Text {
                         anchors.verticalCenter: parent.verticalCenter
                         text: root.consultation && root.consultation.primary ? root.consultation.primary.lowerTrigram.symbol : ""
-                        font.pixelSize: Style.space(42)
+                        font.pixelSize: Style.space(32)
                         color: root.accentColor
                       }
 
                       Column {
                         anchors.verticalCenter: parent.verticalCenter
-                        width: parent.width - Style.space(54)
+                        width: parent.width - Style.space(40)
                         spacing: Style.space(1)
 
                         Text {
@@ -1392,7 +1338,7 @@ Panel {
                             : ""
                           color: root.foreground
                           font.family: root.fontFamily
-                          font.pixelSize: Style.font.bodySmall
+                          font.pixelSize: Style.space(12)
                           font.bold: true
                           wrapMode: Text.WordWrap
                         }
@@ -1410,34 +1356,22 @@ Panel {
                       }
                     }
 
-                    // Key attributes
-                    Column {
+                    Text {
                       width: parent.width
-                      spacing: Style.space(4)
+                      text: root.consultation && root.consultation.primary ? root.consultation.primary.lowerTrigram.nature : ""
+                      color: root.foreground
+                      font.pixelSize: Style.space(11)
+                      wrapMode: Text.WordWrap
+                    }
 
-                      Row {
-                        width: parent.width
-                        spacing: Style.space(4)
-                        Text { text: "Quality:"; color: root.mutedColor; font.pixelSize: Style.space(11); font.bold: true }
-                        Text {
-                          width: parent.width - Style.space(55)
-                          text: root.consultation && root.consultation.primary ? root.consultation.primary.lowerTrigram.nature : ""
-                          color: root.foreground
-                          font.pixelSize: Style.space(11)
-                          wrapMode: Text.WordWrap
-                        }
-                      }
-
-                      Text {
-                        width: parent.width
-                        text: "Inner attitude, heart-mind & foundational root conditions"
-                        color: root.mutedColor
-                        font.family: root.fontFamily
-                        font.pixelSize: Style.space(10)
-                        font.italic: true
-                        wrapMode: Text.WordWrap
-                        lineHeight: 1.2
-                      }
+                    Text {
+                      width: parent.width
+                      text: "Heart-mind & root conditions"
+                      color: root.mutedColor
+                      font.family: root.fontFamily
+                      font.pixelSize: Style.space(10)
+                      font.italic: true
+                      wrapMode: Text.WordWrap
                     }
                   }
                 }
@@ -1459,7 +1393,7 @@ Panel {
 
                 BorderSurface {
                   width: parent.width
-                  implicitHeight: pStructComText.implicitHeight + Style.space(16)
+                  implicitHeight: pStructComText.implicitHeight + Style.space(14)
                   color: Qt.rgba(0, 0, 0, 0.22)
                   radius: Style.cornerRadius
                   borderSpec: Border.flat(Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.2), 1)
@@ -1472,62 +1406,9 @@ Panel {
                     color: root.foreground
                     font.family: root.fontFamily
                     font.pixelSize: Style.font.caption
-                    lineHeight: 1.35
+                    lineHeight: 1.3
                     wrapMode: Text.WordWrap
                   }
-                }
-              }
-            }
-
-            // --- Aspect Content: Overview (Both Judgment & Image) ---
-            Column {
-              width: parent.width
-              visible: root.hexAspect === "overview"
-              spacing: Style.space(8)
-
-              Column {
-                width: parent.width
-                spacing: Style.space(3)
-
-                Text {
-                  text: "The Judgment"
-                  color: root.foreground
-                  font.family: root.fontFamily
-                  font.pixelSize: Style.font.bodySmall
-                  font.bold: true
-                }
-
-                Text {
-                  width: parent.width
-                  text: root.consultation && root.consultation.primary ? root.consultation.primary.judgment : ""
-                  color: root.foreground
-                  font.family: root.fontFamily
-                  font.pixelSize: Style.font.caption
-                  lineHeight: 1.3
-                  wrapMode: Text.WordWrap
-                }
-              }
-
-              Column {
-                width: parent.width
-                spacing: Style.space(3)
-
-                Text {
-                  text: "The Image"
-                  color: root.foreground
-                  font.family: root.fontFamily
-                  font.pixelSize: Style.font.bodySmall
-                  font.bold: true
-                }
-
-                Text {
-                  width: parent.width
-                  text: root.consultation && root.consultation.primary ? root.consultation.primary.image : ""
-                  color: root.mutedColor
-                  font.family: root.fontFamily
-                  font.pixelSize: Style.font.caption
-                  lineHeight: 1.3
-                  wrapMode: Text.WordWrap
                 }
               }
             }
@@ -1548,7 +1429,7 @@ Panel {
         BorderSurface {
           width: parent.width
           visible: root.activeTab === "reading" && root.castLines.length === 6 && root.consultation && root.consultation.hasChangingLines && root.consultation.changingLineDetails && root.consultation.changingLineDetails.length > 0 && root.readingStage === "lines"
-          implicitHeight: changingLinesCol.implicitHeight + Style.space(24)
+          implicitHeight: Math.max(changingLinesCol.implicitHeight + Style.space(24), Style.space(380))
           color: Qt.rgba(245/255, 158/255, 11/255, 0.07)
           radius: Style.cornerRadius
           borderSpec: Border.flat(Qt.rgba(245/255, 158/255, 11/255, 0.35), 1)
@@ -1689,7 +1570,7 @@ Panel {
         BorderSurface {
           width: parent.width
           visible: root.activeTab === "reading" && root.castLines.length === 6 && root.consultation && root.consultation.hasChangingLines && !!root.consultation.transformed && root.readingStage === "future"
-          implicitHeight: futureCol.implicitHeight + Style.space(24)
+          implicitHeight: Math.max(futureCol.implicitHeight + Style.space(24), Style.space(380))
           color: Qt.rgba(245/255, 158/255, 11/255, 0.08)
           radius: Style.cornerRadius
           borderSpec: Border.flat(Qt.rgba(245/255, 158/255, 11/255, 0.4), 1)
@@ -1776,12 +1657,13 @@ Panel {
             }
 
             // Aspect Switcher Tabs for Future Hexagram
+            // Aspect Switcher Tabs for Future Hexagram
             Row {
               width: parent.width
-              spacing: Style.space(4)
+              spacing: Style.space(6)
 
               Button {
-                width: (parent.width - Style.space(12)) / 4
+                width: (parent.width - Style.space(12)) / 3
                 text: "📜 Judgment"
                 bordered: true
                 selected: root.hexAspect === "judgment"
@@ -1790,7 +1672,7 @@ Panel {
               }
 
               Button {
-                width: (parent.width - Style.space(12)) / 4
+                width: (parent.width - Style.space(12)) / 3
                 text: "🌊 Image"
                 bordered: true
                 selected: root.hexAspect === "image"
@@ -1799,21 +1681,12 @@ Panel {
               }
 
               Button {
-                width: (parent.width - Style.space(12)) / 4
+                width: (parent.width - Style.space(12)) / 3
                 text: "☯ Trigrams"
                 bordered: true
                 selected: root.hexAspect === "structure"
                 accent: root.changingLineColor
                 onClicked: root.hexAspect = "structure"
-              }
-
-              Button {
-                width: (parent.width - Style.space(12)) / 4
-                text: "👁 Both"
-                bordered: true
-                selected: root.hexAspect === "overview"
-                accent: root.changingLineColor
-                onClicked: root.hexAspect = "overview"
               }
             }
 
@@ -1953,63 +1826,30 @@ Panel {
             Column {
               width: parent.width
               visible: root.hexAspect === "structure"
-              spacing: Style.space(10)
-
-              // Explanatory Banner
-              BorderSurface {
-                width: parent.width
-                implicitHeight: tTrigExpCol.implicitHeight + Style.space(12)
-                color: Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.05)
-                radius: Style.cornerRadius
-                borderSpec: Border.flat(Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.2), 1)
-
-                Column {
-                  id: tTrigExpCol
-                  width: parent.width - Style.space(16)
-                  anchors.centerIn: parent
-                  spacing: Style.space(2)
-
-                  Text {
-                    text: "☯ Trigram Dynamics & Structural Polarity"
-                    color: root.changingLineColor
-                    font.family: root.fontFamily
-                    font.pixelSize: Style.font.bodySmall
-                    font.bold: true
-                  }
-
-                  Text {
-                    width: parent.width
-                    text: "The hexagram is built of two active trigrams: Outer Realm (action in the manifest world) above Inner Realm (heart-mind & root conditions)."
-                    color: root.mutedColor
-                    font.family: root.fontFamily
-                    font.pixelSize: Style.space(11)
-                    wrapMode: Text.WordWrap
-                  }
-                }
-              }
+              spacing: Style.space(8)
 
               // Two side-by-side realm cards
               Row {
                 width: parent.width
-                spacing: Style.space(10)
+                spacing: Style.space(8)
 
                 // Upper Trigram (Outer Realm)
                 BorderSurface {
-                  width: (parent.width - Style.space(10)) * 0.5
-                  implicitHeight: tUpperCol.implicitHeight + Style.space(20)
+                  width: (parent.width - Style.space(8)) * 0.5
+                  implicitHeight: tUpperCol.implicitHeight + Style.space(14)
                   color: Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.08)
                   radius: Style.cornerRadius
                   borderSpec: Border.flat(Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.35), 1)
 
                   Column {
                     id: tUpperCol
-                    width: parent.width - Style.space(18)
+                    width: parent.width - Style.space(16)
                     anchors.centerIn: parent
-                    spacing: Style.space(8)
+                    spacing: Style.space(4)
 
                     // Header Tag
                     Row {
-                      spacing: Style.space(6)
+                      spacing: Style.space(5)
                       Rectangle {
                         anchors.verticalCenter: parent.verticalCenter
                         width: Style.space(6)
@@ -2026,21 +1866,21 @@ Panel {
                       }
                     }
 
-                    // Prominent Large Glyph & Trigram Identification
+                    // Glyph & Identity
                     Row {
                       width: parent.width
-                      spacing: Style.space(12)
+                      spacing: Style.space(8)
 
                       Text {
                         anchors.verticalCenter: parent.verticalCenter
                         text: root.consultation && root.consultation.transformed ? root.consultation.transformed.upperTrigram.symbol : ""
-                        font.pixelSize: Style.space(42)
+                        font.pixelSize: Style.space(32)
                         color: root.changingLineColor
                       }
 
                       Column {
                         anchors.verticalCenter: parent.verticalCenter
-                        width: parent.width - Style.space(54)
+                        width: parent.width - Style.space(40)
                         spacing: Style.space(1)
 
                         Text {
@@ -2050,7 +1890,7 @@ Panel {
                             : ""
                           color: root.foreground
                           font.family: root.fontFamily
-                          font.pixelSize: Style.font.bodySmall
+                          font.pixelSize: Style.space(12)
                           font.bold: true
                           wrapMode: Text.WordWrap
                         }
@@ -2068,55 +1908,43 @@ Panel {
                       }
                     }
 
-                    // Key attributes
-                    Column {
+                    Text {
                       width: parent.width
-                      spacing: Style.space(4)
+                      text: root.consultation && root.consultation.transformed ? root.consultation.transformed.upperTrigram.nature : ""
+                      color: root.foreground
+                      font.pixelSize: Style.space(11)
+                      wrapMode: Text.WordWrap
+                    }
 
-                      Row {
-                        width: parent.width
-                        spacing: Style.space(4)
-                        Text { text: "Quality:"; color: root.mutedColor; font.pixelSize: Style.space(11); font.bold: true }
-                        Text {
-                          width: parent.width - Style.space(55)
-                          text: root.consultation && root.consultation.transformed ? root.consultation.transformed.upperTrigram.nature : ""
-                          color: root.foreground
-                          font.pixelSize: Style.space(11)
-                          wrapMode: Text.WordWrap
-                        }
-                      }
-
-                      Text {
-                        width: parent.width
-                        text: "Manifest action, outer social realm & emerging conditions"
-                        color: root.mutedColor
-                        font.family: root.fontFamily
-                        font.pixelSize: Style.space(10)
-                        font.italic: true
-                        wrapMode: Text.WordWrap
-                        lineHeight: 1.2
-                      }
+                    Text {
+                      width: parent.width
+                      text: "Manifest action & outer conditions"
+                      color: root.mutedColor
+                      font.family: root.fontFamily
+                      font.pixelSize: Style.space(10)
+                      font.italic: true
+                      wrapMode: Text.WordWrap
                     }
                   }
                 }
 
                 // Lower Trigram (Inner Realm)
                 BorderSurface {
-                  width: (parent.width - Style.space(10)) * 0.5
-                  implicitHeight: tLowerCol.implicitHeight + Style.space(20)
+                  width: (parent.width - Style.space(8)) * 0.5
+                  implicitHeight: tLowerCol.implicitHeight + Style.space(14)
                   color: Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.08)
                   radius: Style.cornerRadius
                   borderSpec: Border.flat(Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.35), 1)
 
                   Column {
                     id: tLowerCol
-                    width: parent.width - Style.space(18)
+                    width: parent.width - Style.space(16)
                     anchors.centerIn: parent
-                    spacing: Style.space(8)
+                    spacing: Style.space(4)
 
                     // Header Tag
                     Row {
-                      spacing: Style.space(6)
+                      spacing: Style.space(5)
                       Rectangle {
                         anchors.verticalCenter: parent.verticalCenter
                         width: Style.space(6)
@@ -2133,21 +1961,21 @@ Panel {
                       }
                     }
 
-                    // Prominent Large Glyph & Trigram Identification
+                    // Glyph & Identity
                     Row {
                       width: parent.width
-                      spacing: Style.space(12)
+                      spacing: Style.space(8)
 
                       Text {
                         anchors.verticalCenter: parent.verticalCenter
                         text: root.consultation && root.consultation.transformed ? root.consultation.transformed.lowerTrigram.symbol : ""
-                        font.pixelSize: Style.space(42)
+                        font.pixelSize: Style.space(32)
                         color: root.changingLineColor
                       }
 
                       Column {
                         anchors.verticalCenter: parent.verticalCenter
-                        width: parent.width - Style.space(54)
+                        width: parent.width - Style.space(40)
                         spacing: Style.space(1)
 
                         Text {
@@ -2157,7 +1985,7 @@ Panel {
                             : ""
                           color: root.foreground
                           font.family: root.fontFamily
-                          font.pixelSize: Style.font.bodySmall
+                          font.pixelSize: Style.space(12)
                           font.bold: true
                           wrapMode: Text.WordWrap
                         }
@@ -2175,34 +2003,22 @@ Panel {
                       }
                     }
 
-                    // Key attributes
-                    Column {
+                    Text {
                       width: parent.width
-                      spacing: Style.space(4)
+                      text: root.consultation && root.consultation.transformed ? root.consultation.transformed.lowerTrigram.nature : ""
+                      color: root.foreground
+                      font.pixelSize: Style.space(11)
+                      wrapMode: Text.WordWrap
+                    }
 
-                      Row {
-                        width: parent.width
-                        spacing: Style.space(4)
-                        Text { text: "Quality:"; color: root.mutedColor; font.pixelSize: Style.space(11); font.bold: true }
-                        Text {
-                          width: parent.width - Style.space(55)
-                          text: root.consultation && root.consultation.transformed ? root.consultation.transformed.lowerTrigram.nature : ""
-                          color: root.foreground
-                          font.pixelSize: Style.space(11)
-                          wrapMode: Text.WordWrap
-                        }
-                      }
-
-                      Text {
-                        width: parent.width
-                        text: "Inner attitude, heart-mind & foundational root conditions"
-                        color: root.mutedColor
-                        font.family: root.fontFamily
-                        font.pixelSize: Style.space(10)
-                        font.italic: true
-                        wrapMode: Text.WordWrap
-                        lineHeight: 1.2
-                      }
+                    Text {
+                      width: parent.width
+                      text: "Heart-mind & root conditions"
+                      color: root.mutedColor
+                      font.family: root.fontFamily
+                      font.pixelSize: Style.space(10)
+                      font.italic: true
+                      wrapMode: Text.WordWrap
                     }
                   }
                 }
@@ -2224,7 +2040,7 @@ Panel {
 
                 BorderSurface {
                   width: parent.width
-                  implicitHeight: tStructComText.implicitHeight + Style.space(16)
+                  implicitHeight: tStructComText.implicitHeight + Style.space(14)
                   color: Qt.rgba(0, 0, 0, 0.22)
                   radius: Style.cornerRadius
                   borderSpec: Border.flat(Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.25), 1)
@@ -2237,62 +2053,9 @@ Panel {
                     color: root.foreground
                     font.family: root.fontFamily
                     font.pixelSize: Style.font.caption
-                    lineHeight: 1.35
+                    lineHeight: 1.3
                     wrapMode: Text.WordWrap
                   }
-                }
-              }
-            }
-
-            // --- Transformed Aspect Content: Overview (Both Judgment & Image) ---
-            Column {
-              width: parent.width
-              visible: root.hexAspect === "overview"
-              spacing: Style.space(8)
-
-              Column {
-                width: parent.width
-                spacing: Style.space(3)
-
-                Text {
-                  text: "The Judgment"
-                  color: root.foreground
-                  font.family: root.fontFamily
-                  font.pixelSize: Style.font.bodySmall
-                  font.bold: true
-                }
-
-                Text {
-                  width: parent.width
-                  text: root.consultation && root.consultation.transformed ? root.consultation.transformed.judgment : ""
-                  color: root.foreground
-                  font.family: root.fontFamily
-                  font.pixelSize: Style.font.caption
-                  lineHeight: 1.3
-                  wrapMode: Text.WordWrap
-                }
-              }
-
-              Column {
-                width: parent.width
-                spacing: Style.space(3)
-
-                Text {
-                  text: "The Image"
-                  color: root.foreground
-                  font.family: root.fontFamily
-                  font.pixelSize: Style.font.bodySmall
-                  font.bold: true
-                }
-
-                Text {
-                  width: parent.width
-                  text: root.consultation && root.consultation.transformed ? root.consultation.transformed.image : ""
-                  color: root.mutedColor
-                  font.family: root.fontFamily
-                  font.pixelSize: Style.font.caption
-                  lineHeight: 1.3
-                  wrapMode: Text.WordWrap
                 }
               }
             }
