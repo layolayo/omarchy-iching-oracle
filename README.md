@@ -46,12 +46,23 @@ Kennedy proved that an opaque pouch of **38 marbles** replicates physical hand-s
 
 ## Features
 
-- **Classical Wilhelm / Baynes Translation Standard**:
-  - Full King Wen judgments, images, line texts (爻辭, *Yáo Cí*), and commentaries from the definitive Richard Wilhelm & Cary F. Baynes translation (*Princeton University Press, Bollingen Series XIX*).
+- **Two-Level Layered Flipping Architecture (New in v1.2.0)**:
+  - Replaces overwhelming vertical scripts with a focused, meditative layered interface.
+  - **Level 1 (Stage Flipping)**: When changing lines occur, sequentially step or jump between:
+    - `[ ☯ Present (#X) ]`: Primary Hexagram.
+    - `[ ⚡ Lines (Y) ]`: The Changing Lines operative counsel.
+    - `[ ➔ Future (#Z) ]`: Relating Hexagram (*Zhī Guà*).
+  - **Level 2 (Aspect Flipping)**: Within any hexagram card, inspect distinct dimensions with instant pill tabs:
+    - `[ 📜 Judgment ]`: King Wen's oracle verse + Wilhelm Commentary on the Judgment.
+    - `[ 🌊 Image ]`: The Great Image verse + Wilhelm Commentary on the Image.
+    - `[ ☯ Trigrams ]`: Dual Trigram polarity breakdown (Outer Realm Lines 4–6 vs Inner Realm Lines 1–3) + Wilhelm's Structural & Elemental Dynamics.
+    - `[ 👁 Both ]`: Condensed at-a-glance view of both Judgment and Image verses.
+- **Definitive Wilhelm / Baynes Translation & Complete Commentary**:
+  - Full King Wen judgments, images, line texts (爻辭, *Yáo Cí*), commentaries on judgments and images, and deep structural trigram dynamics from the authoritative Richard Wilhelm & Cary F. Baynes translation (*Princeton University Press, Bollingen Series XIX*).
   - All 64 hexagrams, 384 individual lines, and special 7th lines for Hexagram 1 (The Creative — *all nines*) and Hexagram 2 (The Receptive — *all sixes*).
 - **The Changing Lines (爻辭 · Operative Counsel)**:
-  - Dedicated amber transformation card illuminating all lines in active motion.
-  - Traditional position titles (*"Nine at the beginning"*, *"Six in the second place"*, etc.), poetic oracle verses, and practical commentary for the turning point.
+  - Focused transformation card isolating all lines in active motion.
+  - Traditional position titles (*"Nine at the beginning"*, *"Six in the second place"*, etc.), poetic oracle verses, and practical counsel for the turning point.
 - **Two Authentic Divination Methods**:
   - **🔮 38 Marbles Pouch**: Rapid blind draw simulating physical hand-sorted stalks with < 0.09% error (the #1 most accurate integer model in existence).
   - **🌿 49 Yarrow Stalks**: Full classical 3-pass ritual sorting (1 stalk set aside for Taiji, 49 divided between Heaven and Earth, counted off in 4s).
@@ -59,12 +70,12 @@ Kennedy proved that an opaque pouch of **38 marbles** replicates physical hand-s
   - Frame your question before casting; the field locks into focus during the bottom-up draw with a stable, zero-shift layout for effortless rapid casting.
 - **Segmented 3-Phase Navigation**:
   - **☯ Chamber**: Interactive bottom-up line casting (Line 1 Earth → Line 6 Heaven) with dynamic lower and upper trigram illumination.
-  - **📖 Reading**: Comprehensive King Wen presentation of Primary Hexagram, Operative Counsel for Changing Lines, and Future Relating Hexagram (*Zhī Guà*).
+  - **📖 Reading**: Comprehensive presentation of Primary Hexagram, Operative Counsel for Changing Lines, and Future Relating Hexagram (*Zhī Guà*).
   - **ℹ Lore & Math**: In-app guide explaining Zhu Xi (1186), Martin Gardner (1974), Andrew Kennedy's Revised Yarrow Algorithm (2006), and the Wilhelm/Baynes classical lineage.
 - **Refined Reading Layout & Typography**:
   - Spacious 510px layout with an isolated right-hand scrollbar gutter that never overlays text or cards.
 - **Desktop Clipboard Export**:
-  - One-click copy (`📋 Copy`) generating a formatted, publication-grade Markdown consultation report ready for journals and notes.
+  - One-click copy (`📋 Copy`) generating a formatted, publication-grade Markdown consultation report complete with Judgment commentaries, Image commentaries, Trigram dynamics, and line counsel.
 - **Zero External Dependencies**:
   - Written in pure QML / QtQuick / Quickshell running natively and lightweight in Omarchy.
 

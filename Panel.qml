@@ -15,6 +15,8 @@ Panel {
 
   property string method: "marbles" // "marbles" (38 marbles) or "yarrow"
   property string activeTab: "chamber" // "chamber", "reading", "lore"
+  property string readingStage: "present" // "present", "lines", "future"
+  property string hexAspect: "judgment" // "judgment", "image", "structure", "overview"
   property var castLines: []
   property var consultation: null
   property var latestLine: null
@@ -63,6 +65,8 @@ Panel {
 
     if (castLines.length === 6) {
       consultation = IChingData.resolveConsultation(castLines)
+      readingStage = "present"
+      hexAspect = "judgment"
       activeTab = "reading"
     }
   }
@@ -79,6 +83,8 @@ Panel {
     latestLine = null
     copyStatusMessage = ""
     inquiryText = ""
+    readingStage = "present"
+    hexAspect = "judgment"
     activeTab = "chamber"
   }
 
@@ -95,8 +101,18 @@ Panel {
     }
     text += "Primary Hexagram: #" + p.number + " " + p.chinese + " (" + p.pinyin + ") — " + p.english + " " + p.unicode + "\n"
     text += "Trigrams: " + p.upperTrigram.name + " (" + p.upperTrigram.symbol + ") above " + p.lowerTrigram.name + " (" + p.lowerTrigram.symbol + ")\n"
+    if (p.structureCommentary) {
+      text += "\nTrigram Dynamics & Structural Analysis:\n" + p.structureCommentary + "\n"
+    }
     text += "\nThe Judgment:\n" + p.judgment + "\n"
-    text += "\nThe Image:\n" + p.image + "\n\n"
+    if (p.judgmentCommentary) {
+      text += "\nWilhelm Commentary on the Judgment:\n" + p.judgmentCommentary + "\n"
+    }
+    text += "\nThe Image:\n" + p.image + "\n"
+    if (p.imageCommentary) {
+      text += "\nWilhelm Commentary on the Image:\n" + p.imageCommentary + "\n"
+    }
+    text += "\n"
 
     if (consultation.hasChangingLines) {
       var changingStr = ""
@@ -123,8 +139,18 @@ Panel {
         var t = consultation.transformed
         text += "Relating Hexagram (Future): #" + t.number + " " + t.chinese + " (" + t.pinyin + ") — " + t.english + " " + t.unicode + "\n"
         text += "Trigrams: " + t.upperTrigram.name + " (" + t.upperTrigram.symbol + ") above " + t.lowerTrigram.name + " (" + t.lowerTrigram.symbol + ")\n"
+        if (t.structureCommentary) {
+          text += "\nTrigram Dynamics & Structural Analysis:\n" + t.structureCommentary + "\n"
+        }
         text += "\nThe Judgment:\n" + t.judgment + "\n"
-        text += "\nThe Image:\n" + t.image + "\n\n"
+        if (t.judgmentCommentary) {
+          text += "\nWilhelm Commentary on the Judgment:\n" + t.judgmentCommentary + "\n"
+        }
+        text += "\nThe Image:\n" + t.image + "\n"
+        if (t.imageCommentary) {
+          text += "\nWilhelm Commentary on the Image:\n" + t.imageCommentary + "\n"
+        }
+        text += "\n"
       }
     }
 
@@ -881,10 +907,44 @@ Panel {
           }
         }
 
-        // ----------------- Primary Hexagram Card -----------------
+        // ----------------- Reading Stage Switcher Bar (Present / Lines / Future) -----------------
+        Row {
+          width: parent.width
+          visible: root.activeTab === "reading" && root.castLines.length === 6 && root.consultation && root.consultation.hasChangingLines
+          spacing: Style.space(6)
+
+          Button {
+            width: (parent.width - Style.space(12)) / 3
+            text: root.consultation && root.consultation.primary ? ("☯ Present (#" + root.consultation.primary.number + ")") : "☯ Present"
+            bordered: true
+            selected: root.readingStage === "present"
+            accent: root.accentColor
+            onClicked: root.readingStage = "present"
+          }
+
+          Button {
+            width: (parent.width - Style.space(12)) / 3
+            text: root.consultation ? ("⚡ Lines (" + root.consultation.changingLines.length + ")") : "⚡ Lines"
+            bordered: true
+            selected: root.readingStage === "lines"
+            accent: root.changingLineColor
+            onClicked: root.readingStage = "lines"
+          }
+
+          Button {
+            width: (parent.width - Style.space(12)) / 3
+            text: root.consultation && root.consultation.transformed ? ("➔ Future (#" + root.consultation.transformed.number + ")") : "➔ Future"
+            bordered: true
+            selected: root.readingStage === "future"
+            accent: root.changingLineColor
+            onClicked: root.readingStage = "future"
+          }
+        }
+
+        // ----------------- Primary Hexagram Card (Present) -----------------
         BorderSurface {
           width: parent.width
-          visible: root.activeTab === "reading" && root.castLines.length === 6 && root.consultation && !!root.consultation.primary
+          visible: root.activeTab === "reading" && root.castLines.length === 6 && root.consultation && !!root.consultation.primary && (!root.consultation.hasChangingLines || root.readingStage === "present")
           implicitHeight: primaryResultCol.implicitHeight + Style.space(24)
           color: Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.07)
           radius: Style.cornerRadius
@@ -950,52 +1010,388 @@ Panel {
               }
             }
 
-            // The Judgment
-            Column {
+            // Aspect Switcher Tabs: Judgment / Image / Trigrams / Both
+            Row {
               width: parent.width
               spacing: Style.space(4)
 
-              Text {
-                text: "The Judgment"
-                color: root.foreground
-                font.family: root.fontFamily
-                font.pixelSize: Style.font.bodySmall
-                font.bold: true
+              Button {
+                width: (parent.width - Style.space(12)) / 4
+                text: "📜 Judgment"
+                bordered: true
+                selected: root.hexAspect === "judgment"
+                accent: root.accentColor
+                onClicked: root.hexAspect = "judgment"
               }
 
-              Text {
-                width: parent.width
-                text: root.consultation && root.consultation.primary ? root.consultation.primary.judgment : ""
-                color: root.foreground
-                font.family: root.fontFamily
-                font.pixelSize: Style.font.caption
-                lineHeight: 1.3
-                wrapMode: Text.WordWrap
+              Button {
+                width: (parent.width - Style.space(12)) / 4
+                text: "🌊 Image"
+                bordered: true
+                selected: root.hexAspect === "image"
+                accent: root.accentColor
+                onClicked: root.hexAspect = "image"
+              }
+
+              Button {
+                width: (parent.width - Style.space(12)) / 4
+                text: "☯ Trigrams"
+                bordered: true
+                selected: root.hexAspect === "structure"
+                accent: root.accentColor
+                onClicked: root.hexAspect = "structure"
+              }
+
+              Button {
+                width: (parent.width - Style.space(12)) / 4
+                text: "👁 Both"
+                bordered: true
+                selected: root.hexAspect === "overview"
+                accent: root.accentColor
+                onClicked: root.hexAspect = "overview"
               }
             }
 
-            // The Image
+            // --- Aspect Content: Judgment ---
             Column {
               width: parent.width
-              spacing: Style.space(4)
+              visible: root.hexAspect === "judgment"
+              spacing: Style.space(8)
+
+              Column {
+                width: parent.width
+                spacing: Style.space(3)
+
+                Text {
+                  text: "The Judgment (彖辭 · Tuàn Cí)"
+                  color: root.accentColor
+                  font.family: root.fontFamily
+                  font.pixelSize: Style.font.bodySmall
+                  font.bold: true
+                }
+
+                Text {
+                  width: parent.width
+                  text: root.consultation && root.consultation.primary ? root.consultation.primary.judgment : ""
+                  color: root.foreground
+                  font.family: root.fontFamily
+                  font.pixelSize: Style.font.caption
+                  font.bold: true
+                  lineHeight: 1.35
+                  wrapMode: Text.WordWrap
+                }
+              }
+
+              // Wilhelm Commentary on Judgment
+              Column {
+                width: parent.width
+                visible: !!(root.consultation && root.consultation.primary && root.consultation.primary.judgmentCommentary)
+                spacing: Style.space(4)
+
+                Text {
+                  text: "📖 Wilhelm Commentary on the Judgment"
+                  color: root.mutedColor
+                  font.family: root.fontFamily
+                  font.pixelSize: Style.font.caption
+                  font.bold: true
+                }
+
+                BorderSurface {
+                  width: parent.width
+                  implicitHeight: pJudgComText.implicitHeight + Style.space(16)
+                  color: Qt.rgba(0, 0, 0, 0.22)
+                  radius: Style.cornerRadius
+                  borderSpec: Border.flat(Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.2), 1)
+
+                  Text {
+                    id: pJudgComText
+                    width: parent.width - Style.space(16)
+                    anchors.centerIn: parent
+                    text: root.consultation && root.consultation.primary ? (root.consultation.primary.judgmentCommentary || "") : ""
+                    color: root.foreground
+                    font.family: root.fontFamily
+                    font.pixelSize: Style.font.caption
+                    lineHeight: 1.35
+                    wrapMode: Text.WordWrap
+                  }
+                }
+              }
+            }
+
+            // --- Aspect Content: Image ---
+            Column {
+              width: parent.width
+              visible: root.hexAspect === "image"
+              spacing: Style.space(8)
+
+              Column {
+                width: parent.width
+                spacing: Style.space(3)
+
+                Text {
+                  text: "The Image (大象 · Dà Xiàng)"
+                  color: root.accentColor
+                  font.family: root.fontFamily
+                  font.pixelSize: Style.font.bodySmall
+                  font.bold: true
+                }
+
+                Text {
+                  width: parent.width
+                  text: root.consultation && root.consultation.primary ? root.consultation.primary.image : ""
+                  color: root.foreground
+                  font.family: root.fontFamily
+                  font.pixelSize: Style.font.caption
+                  font.bold: true
+                  lineHeight: 1.35
+                  wrapMode: Text.WordWrap
+                }
+              }
+
+              // Wilhelm Commentary on Image
+              Column {
+                width: parent.width
+                visible: !!(root.consultation && root.consultation.primary && root.consultation.primary.imageCommentary)
+                spacing: Style.space(4)
+
+                Text {
+                  text: "🌊 Wilhelm Commentary on the Image"
+                  color: root.mutedColor
+                  font.family: root.fontFamily
+                  font.pixelSize: Style.font.caption
+                  font.bold: true
+                }
+
+                BorderSurface {
+                  width: parent.width
+                  implicitHeight: pImgComText.implicitHeight + Style.space(16)
+                  color: Qt.rgba(0, 0, 0, 0.22)
+                  radius: Style.cornerRadius
+                  borderSpec: Border.flat(Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.2), 1)
+
+                  Text {
+                    id: pImgComText
+                    width: parent.width - Style.space(16)
+                    anchors.centerIn: parent
+                    text: root.consultation && root.consultation.primary ? (root.consultation.primary.imageCommentary || "") : ""
+                    color: root.foreground
+                    font.family: root.fontFamily
+                    font.pixelSize: Style.font.caption
+                    lineHeight: 1.35
+                    wrapMode: Text.WordWrap
+                  }
+                }
+              }
+            }
+
+            // --- Aspect Content: Trigrams & Structure ---
+            Column {
+              width: parent.width
+              visible: root.hexAspect === "structure"
+              spacing: Style.space(8)
 
               Text {
-                text: "The Image"
-                color: root.foreground
+                text: "☯ Trigram Dynamics & Structural Polarity"
+                color: root.accentColor
                 font.family: root.fontFamily
                 font.pixelSize: Style.font.bodySmall
                 font.bold: true
               }
 
-              Text {
+              Row {
                 width: parent.width
-                text: root.consultation && root.consultation.primary ? root.consultation.primary.image : ""
-                color: root.mutedColor
-                font.family: root.fontFamily
-                font.pixelSize: Style.font.caption
-                lineHeight: 1.3
-                wrapMode: Text.WordWrap
+                spacing: Style.space(8)
+
+                // Upper Trigram (Outer Realm)
+                BorderSurface {
+                  width: (parent.width - Style.space(8)) * 0.5
+                  implicitHeight: pUpperCol.implicitHeight + Style.space(16)
+                  color: Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.08)
+                  radius: Style.cornerRadius
+                  borderSpec: Border.flat(Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.25), 1)
+
+                  Column {
+                    id: pUpperCol
+                    width: parent.width - Style.space(16)
+                    anchors.centerIn: parent
+                    spacing: Style.space(3)
+
+                    Text {
+                      text: "Outer Realm (Lines 4–6)"
+                      color: root.accentColor
+                      font.family: root.fontFamily
+                      font.pixelSize: Style.space(11)
+                      font.bold: true
+                    }
+
+                    Text {
+                      width: parent.width
+                      text: root.consultation && root.consultation.primary
+                        ? (root.consultation.primary.upperTrigram.symbol + " " + root.consultation.primary.upperTrigram.name + " (" + root.consultation.primary.upperTrigram.chinese + ")")
+                        : ""
+                      color: root.foreground
+                      font.family: root.fontFamily
+                      font.pixelSize: Style.font.caption
+                      font.bold: true
+                    }
+
+                    Text {
+                      width: parent.width
+                      text: root.consultation && root.consultation.primary
+                        ? ("Element: " + root.consultation.primary.upperTrigram.element + "\n" + root.consultation.primary.upperTrigram.nature)
+                        : ""
+                      color: root.mutedColor
+                      font.family: root.fontFamily
+                      font.pixelSize: Style.space(11)
+                      wrapMode: Text.WordWrap
+                    }
+                  }
+                }
+
+                // Lower Trigram (Inner Realm)
+                BorderSurface {
+                  width: (parent.width - Style.space(8)) * 0.5
+                  implicitHeight: pLowerCol.implicitHeight + Style.space(16)
+                  color: Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.08)
+                  radius: Style.cornerRadius
+                  borderSpec: Border.flat(Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.25), 1)
+
+                  Column {
+                    id: pLowerCol
+                    width: parent.width - Style.space(16)
+                    anchors.centerIn: parent
+                    spacing: Style.space(3)
+
+                    Text {
+                      text: "Inner Realm (Lines 1–3)"
+                      color: root.accentColor
+                      font.family: root.fontFamily
+                      font.pixelSize: Style.space(11)
+                      font.bold: true
+                    }
+
+                    Text {
+                      width: parent.width
+                      text: root.consultation && root.consultation.primary
+                        ? (root.consultation.primary.lowerTrigram.symbol + " " + root.consultation.primary.lowerTrigram.name + " (" + root.consultation.primary.lowerTrigram.chinese + ")")
+                        : ""
+                      color: root.foreground
+                      font.family: root.fontFamily
+                      font.pixelSize: Style.font.caption
+                      font.bold: true
+                    }
+
+                    Text {
+                      width: parent.width
+                      text: root.consultation && root.consultation.primary
+                        ? ("Element: " + root.consultation.primary.lowerTrigram.element + "\n" + root.consultation.primary.lowerTrigram.nature)
+                        : ""
+                      color: root.mutedColor
+                      font.family: root.fontFamily
+                      font.pixelSize: Style.space(11)
+                      wrapMode: Text.WordWrap
+                    }
+                  }
+                }
               }
+
+              // Wilhelm Structural Dynamics
+              Column {
+                width: parent.width
+                visible: !!(root.consultation && root.consultation.primary && root.consultation.primary.structureCommentary)
+                spacing: Style.space(4)
+
+                Text {
+                  text: "Wilhelm Structural Dynamics"
+                  color: root.mutedColor
+                  font.family: root.fontFamily
+                  font.pixelSize: Style.font.caption
+                  font.bold: true
+                }
+
+                BorderSurface {
+                  width: parent.width
+                  implicitHeight: pStructComText.implicitHeight + Style.space(16)
+                  color: Qt.rgba(0, 0, 0, 0.22)
+                  radius: Style.cornerRadius
+                  borderSpec: Border.flat(Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.2), 1)
+
+                  Text {
+                    id: pStructComText
+                    width: parent.width - Style.space(16)
+                    anchors.centerIn: parent
+                    text: root.consultation && root.consultation.primary ? (root.consultation.primary.structureCommentary || "") : ""
+                    color: root.foreground
+                    font.family: root.fontFamily
+                    font.pixelSize: Style.font.caption
+                    lineHeight: 1.35
+                    wrapMode: Text.WordWrap
+                  }
+                }
+              }
+            }
+
+            // --- Aspect Content: Overview (Both Judgment & Image) ---
+            Column {
+              width: parent.width
+              visible: root.hexAspect === "overview"
+              spacing: Style.space(8)
+
+              Column {
+                width: parent.width
+                spacing: Style.space(3)
+
+                Text {
+                  text: "The Judgment"
+                  color: root.foreground
+                  font.family: root.fontFamily
+                  font.pixelSize: Style.font.bodySmall
+                  font.bold: true
+                }
+
+                Text {
+                  width: parent.width
+                  text: root.consultation && root.consultation.primary ? root.consultation.primary.judgment : ""
+                  color: root.foreground
+                  font.family: root.fontFamily
+                  font.pixelSize: Style.font.caption
+                  lineHeight: 1.3
+                  wrapMode: Text.WordWrap
+                }
+              }
+
+              Column {
+                width: parent.width
+                spacing: Style.space(3)
+
+                Text {
+                  text: "The Image"
+                  color: root.foreground
+                  font.family: root.fontFamily
+                  font.pixelSize: Style.font.bodySmall
+                  font.bold: true
+                }
+
+                Text {
+                  width: parent.width
+                  text: root.consultation && root.consultation.primary ? root.consultation.primary.image : ""
+                  color: root.mutedColor
+                  font.family: root.fontFamily
+                  font.pixelSize: Style.font.caption
+                  lineHeight: 1.3
+                  wrapMode: Text.WordWrap
+                }
+              }
+            }
+
+            // Step Button: Next to Changing Lines
+            Button {
+              width: parent.width
+              visible: root.consultation && root.consultation.hasChangingLines
+              text: root.consultation ? ("Next: The Changing Lines (" + root.consultation.changingLines.length + ") ➔") : "Next: Changing Lines ➔"
+              accent: root.changingLineColor
+              bordered: true
+              onClicked: root.readingStage = "lines"
             }
           }
         }
@@ -1003,7 +1399,7 @@ Panel {
         // ----------------- Changing Lines (Yáo Cí · The Lines) -----------------
         BorderSurface {
           width: parent.width
-          visible: root.activeTab === "reading" && root.castLines.length === 6 && root.consultation && root.consultation.hasChangingLines && root.consultation.changingLineDetails && root.consultation.changingLineDetails.length > 0
+          visible: root.activeTab === "reading" && root.castLines.length === 6 && root.consultation && root.consultation.hasChangingLines && root.consultation.changingLineDetails && root.consultation.changingLineDetails.length > 0 && root.readingStage === "lines"
           implicitHeight: changingLinesCol.implicitHeight + Style.space(24)
           color: Qt.rgba(245/255, 158/255, 11/255, 0.07)
           radius: Style.cornerRadius
@@ -1117,13 +1513,34 @@ Panel {
                 }
               }
             }
+
+            // Navigation Row: Back to Present / Next to Future
+            Row {
+              width: parent.width
+              spacing: Style.space(8)
+
+              Button {
+                width: (parent.width - Style.space(8)) * 0.5
+                text: root.consultation && root.consultation.primary ? ("← Present (#" + root.consultation.primary.number + ")") : "← Present"
+                bordered: true
+                onClicked: root.readingStage = "present"
+              }
+
+              Button {
+                width: (parent.width - Style.space(8)) * 0.5
+                text: root.consultation && root.consultation.transformed ? ("Next: Future (#" + root.consultation.transformed.number + ") ➔") : "Next: Future ➔"
+                accent: root.changingLineColor
+                bordered: true
+                onClicked: root.readingStage = "future"
+              }
+            }
           }
         }
 
         // ----------------- Transformed Hexagram (if changing lines) -----------------
         BorderSurface {
           width: parent.width
-          visible: root.activeTab === "reading" && root.castLines.length === 6 && root.consultation && root.consultation.hasChangingLines && !!root.consultation.transformed
+          visible: root.activeTab === "reading" && root.castLines.length === 6 && root.consultation && root.consultation.hasChangingLines && !!root.consultation.transformed && root.readingStage === "future"
           implicitHeight: futureCol.implicitHeight + Style.space(24)
           color: Qt.rgba(245/255, 158/255, 11/255, 0.08)
           radius: Style.cornerRadius
@@ -1210,51 +1627,398 @@ Panel {
               }
             }
 
-            // Transformed Judgment
-            Column {
+            // Aspect Switcher Tabs for Future Hexagram
+            Row {
               width: parent.width
               spacing: Style.space(4)
 
-              Text {
-                text: "The Judgment"
-                color: root.foreground
-                font.family: root.fontFamily
-                font.pixelSize: Style.font.bodySmall
-                font.bold: true
+              Button {
+                width: (parent.width - Style.space(12)) / 4
+                text: "📜 Judgment"
+                bordered: true
+                selected: root.hexAspect === "judgment"
+                accent: root.changingLineColor
+                onClicked: root.hexAspect = "judgment"
               }
 
-              Text {
-                width: parent.width
-                text: root.consultation && root.consultation.transformed ? root.consultation.transformed.judgment : ""
-                color: root.foreground
-                font.family: root.fontFamily
-                font.pixelSize: Style.font.caption
-                lineHeight: 1.3
-                wrapMode: Text.WordWrap
+              Button {
+                width: (parent.width - Style.space(12)) / 4
+                text: "🌊 Image"
+                bordered: true
+                selected: root.hexAspect === "image"
+                accent: root.changingLineColor
+                onClicked: root.hexAspect = "image"
+              }
+
+              Button {
+                width: (parent.width - Style.space(12)) / 4
+                text: "☯ Trigrams"
+                bordered: true
+                selected: root.hexAspect === "structure"
+                accent: root.changingLineColor
+                onClicked: root.hexAspect = "structure"
+              }
+
+              Button {
+                width: (parent.width - Style.space(12)) / 4
+                text: "👁 Both"
+                bordered: true
+                selected: root.hexAspect === "overview"
+                accent: root.changingLineColor
+                onClicked: root.hexAspect = "overview"
               }
             }
 
-            // Transformed Image
+            // --- Transformed Aspect Content: Judgment ---
             Column {
               width: parent.width
-              spacing: Style.space(4)
+              visible: root.hexAspect === "judgment"
+              spacing: Style.space(8)
+
+              Column {
+                width: parent.width
+                spacing: Style.space(3)
+
+                Text {
+                  text: "The Judgment (彖辭 · Tuàn Cí)"
+                  color: root.changingLineColor
+                  font.family: root.fontFamily
+                  font.pixelSize: Style.font.bodySmall
+                  font.bold: true
+                }
+
+                Text {
+                  width: parent.width
+                  text: root.consultation && root.consultation.transformed ? root.consultation.transformed.judgment : ""
+                  color: root.foreground
+                  font.family: root.fontFamily
+                  font.pixelSize: Style.font.caption
+                  font.bold: true
+                  lineHeight: 1.35
+                  wrapMode: Text.WordWrap
+                }
+              }
+
+              // Wilhelm Commentary on Judgment
+              Column {
+                width: parent.width
+                visible: !!(root.consultation && root.consultation.transformed && root.consultation.transformed.judgmentCommentary)
+                spacing: Style.space(4)
+
+                Text {
+                  text: "📖 Wilhelm Commentary on the Judgment"
+                  color: root.mutedColor
+                  font.family: root.fontFamily
+                  font.pixelSize: Style.font.caption
+                  font.bold: true
+                }
+
+                BorderSurface {
+                  width: parent.width
+                  implicitHeight: tJudgComText.implicitHeight + Style.space(16)
+                  color: Qt.rgba(0, 0, 0, 0.22)
+                  radius: Style.cornerRadius
+                  borderSpec: Border.flat(Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.25), 1)
+
+                  Text {
+                    id: tJudgComText
+                    width: parent.width - Style.space(16)
+                    anchors.centerIn: parent
+                    text: root.consultation && root.consultation.transformed ? (root.consultation.transformed.judgmentCommentary || "") : ""
+                    color: root.foreground
+                    font.family: root.fontFamily
+                    font.pixelSize: Style.font.caption
+                    lineHeight: 1.35
+                    wrapMode: Text.WordWrap
+                  }
+                }
+              }
+            }
+
+            // --- Transformed Aspect Content: Image ---
+            Column {
+              width: parent.width
+              visible: root.hexAspect === "image"
+              spacing: Style.space(8)
+
+              Column {
+                width: parent.width
+                spacing: Style.space(3)
+
+                Text {
+                  text: "The Image (大象 · Dà Xiàng)"
+                  color: root.changingLineColor
+                  font.family: root.fontFamily
+                  font.pixelSize: Style.font.bodySmall
+                  font.bold: true
+                }
+
+                Text {
+                  width: parent.width
+                  text: root.consultation && root.consultation.transformed ? root.consultation.transformed.image : ""
+                  color: root.foreground
+                  font.family: root.fontFamily
+                  font.pixelSize: Style.font.caption
+                  font.bold: true
+                  lineHeight: 1.35
+                  wrapMode: Text.WordWrap
+                }
+              }
+
+              // Wilhelm Commentary on Image
+              Column {
+                width: parent.width
+                visible: !!(root.consultation && root.consultation.transformed && root.consultation.transformed.imageCommentary)
+                spacing: Style.space(4)
+
+                Text {
+                  text: "🌊 Wilhelm Commentary on the Image"
+                  color: root.mutedColor
+                  font.family: root.fontFamily
+                  font.pixelSize: Style.font.caption
+                  font.bold: true
+                }
+
+                BorderSurface {
+                  width: parent.width
+                  implicitHeight: tImgComText.implicitHeight + Style.space(16)
+                  color: Qt.rgba(0, 0, 0, 0.22)
+                  radius: Style.cornerRadius
+                  borderSpec: Border.flat(Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.25), 1)
+
+                  Text {
+                    id: tImgComText
+                    width: parent.width - Style.space(16)
+                    anchors.centerIn: parent
+                    text: root.consultation && root.consultation.transformed ? (root.consultation.transformed.imageCommentary || "") : ""
+                    color: root.foreground
+                    font.family: root.fontFamily
+                    font.pixelSize: Style.font.caption
+                    lineHeight: 1.35
+                    wrapMode: Text.WordWrap
+                  }
+                }
+              }
+            }
+
+            // --- Transformed Aspect Content: Trigrams & Structure ---
+            Column {
+              width: parent.width
+              visible: root.hexAspect === "structure"
+              spacing: Style.space(8)
 
               Text {
-                text: "The Image"
-                color: root.foreground
+                text: "☯ Trigram Dynamics & Structural Polarity"
+                color: root.changingLineColor
                 font.family: root.fontFamily
                 font.pixelSize: Style.font.bodySmall
                 font.bold: true
               }
 
-              Text {
+              Row {
                 width: parent.width
-                text: root.consultation && root.consultation.transformed ? root.consultation.transformed.image : ""
-                color: root.mutedColor
-                font.family: root.fontFamily
-                font.pixelSize: Style.font.caption
-                lineHeight: 1.3
-                wrapMode: Text.WordWrap
+                spacing: Style.space(8)
+
+                // Upper Trigram (Outer Realm)
+                BorderSurface {
+                  width: (parent.width - Style.space(8)) * 0.5
+                  implicitHeight: tUpperCol.implicitHeight + Style.space(16)
+                  color: Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.08)
+                  radius: Style.cornerRadius
+                  borderSpec: Border.flat(Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.25), 1)
+
+                  Column {
+                    id: tUpperCol
+                    width: parent.width - Style.space(16)
+                    anchors.centerIn: parent
+                    spacing: Style.space(3)
+
+                    Text {
+                      text: "Outer Realm (Lines 4–6)"
+                      color: root.changingLineColor
+                      font.family: root.fontFamily
+                      font.pixelSize: Style.space(11)
+                      font.bold: true
+                    }
+
+                    Text {
+                      width: parent.width
+                      text: root.consultation && root.consultation.transformed
+                        ? (root.consultation.transformed.upperTrigram.symbol + " " + root.consultation.transformed.upperTrigram.name + " (" + root.consultation.transformed.upperTrigram.chinese + ")")
+                        : ""
+                      color: root.foreground
+                      font.family: root.fontFamily
+                      font.pixelSize: Style.font.caption
+                      font.bold: true
+                    }
+
+                    Text {
+                      width: parent.width
+                      text: root.consultation && root.consultation.transformed
+                        ? ("Element: " + root.consultation.transformed.upperTrigram.element + "\n" + root.consultation.transformed.upperTrigram.nature)
+                        : ""
+                      color: root.mutedColor
+                      font.family: root.fontFamily
+                      font.pixelSize: Style.space(11)
+                      wrapMode: Text.WordWrap
+                    }
+                  }
+                }
+
+                // Lower Trigram (Inner Realm)
+                BorderSurface {
+                  width: (parent.width - Style.space(8)) * 0.5
+                  implicitHeight: tLowerCol.implicitHeight + Style.space(16)
+                  color: Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.08)
+                  radius: Style.cornerRadius
+                  borderSpec: Border.flat(Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.25), 1)
+
+                  Column {
+                    id: tLowerCol
+                    width: parent.width - Style.space(16)
+                    anchors.centerIn: parent
+                    spacing: Style.space(3)
+
+                    Text {
+                      text: "Inner Realm (Lines 1–3)"
+                      color: root.changingLineColor
+                      font.family: root.fontFamily
+                      font.pixelSize: Style.space(11)
+                      font.bold: true
+                    }
+
+                    Text {
+                      width: parent.width
+                      text: root.consultation && root.consultation.transformed
+                        ? (root.consultation.transformed.lowerTrigram.symbol + " " + root.consultation.transformed.lowerTrigram.name + " (" + root.consultation.transformed.lowerTrigram.chinese + ")")
+                        : ""
+                      color: root.foreground
+                      font.family: root.fontFamily
+                      font.pixelSize: Style.font.caption
+                      font.bold: true
+                    }
+
+                    Text {
+                      width: parent.width
+                      text: root.consultation && root.consultation.transformed
+                        ? ("Element: " + root.consultation.transformed.lowerTrigram.element + "\n" + root.consultation.transformed.lowerTrigram.nature)
+                        : ""
+                      color: root.mutedColor
+                      font.family: root.fontFamily
+                      font.pixelSize: Style.space(11)
+                      wrapMode: Text.WordWrap
+                    }
+                  }
+                }
+              }
+
+              // Wilhelm Structural Dynamics
+              Column {
+                width: parent.width
+                visible: !!(root.consultation && root.consultation.transformed && root.consultation.transformed.structureCommentary)
+                spacing: Style.space(4)
+
+                Text {
+                  text: "Wilhelm Structural Dynamics"
+                  color: root.mutedColor
+                  font.family: root.fontFamily
+                  font.pixelSize: Style.font.caption
+                  font.bold: true
+                }
+
+                BorderSurface {
+                  width: parent.width
+                  implicitHeight: tStructComText.implicitHeight + Style.space(16)
+                  color: Qt.rgba(0, 0, 0, 0.22)
+                  radius: Style.cornerRadius
+                  borderSpec: Border.flat(Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.25), 1)
+
+                  Text {
+                    id: tStructComText
+                    width: parent.width - Style.space(16)
+                    anchors.centerIn: parent
+                    text: root.consultation && root.consultation.transformed ? (root.consultation.transformed.structureCommentary || "") : ""
+                    color: root.foreground
+                    font.family: root.fontFamily
+                    font.pixelSize: Style.font.caption
+                    lineHeight: 1.35
+                    wrapMode: Text.WordWrap
+                  }
+                }
+              }
+            }
+
+            // --- Transformed Aspect Content: Overview (Both Judgment & Image) ---
+            Column {
+              width: parent.width
+              visible: root.hexAspect === "overview"
+              spacing: Style.space(8)
+
+              Column {
+                width: parent.width
+                spacing: Style.space(3)
+
+                Text {
+                  text: "The Judgment"
+                  color: root.foreground
+                  font.family: root.fontFamily
+                  font.pixelSize: Style.font.bodySmall
+                  font.bold: true
+                }
+
+                Text {
+                  width: parent.width
+                  text: root.consultation && root.consultation.transformed ? root.consultation.transformed.judgment : ""
+                  color: root.foreground
+                  font.family: root.fontFamily
+                  font.pixelSize: Style.font.caption
+                  lineHeight: 1.3
+                  wrapMode: Text.WordWrap
+                }
+              }
+
+              Column {
+                width: parent.width
+                spacing: Style.space(3)
+
+                Text {
+                  text: "The Image"
+                  color: root.foreground
+                  font.family: root.fontFamily
+                  font.pixelSize: Style.font.bodySmall
+                  font.bold: true
+                }
+
+                Text {
+                  width: parent.width
+                  text: root.consultation && root.consultation.transformed ? root.consultation.transformed.image : ""
+                  color: root.mutedColor
+                  font.family: root.fontFamily
+                  font.pixelSize: Style.font.caption
+                  lineHeight: 1.3
+                  wrapMode: Text.WordWrap
+                }
+              }
+            }
+
+            // Navigation Row: Back to Lines / Back to Present
+            Row {
+              width: parent.width
+              spacing: Style.space(8)
+
+              Button {
+                width: (parent.width - Style.space(8)) * 0.5
+                text: "← Back to Lines"
+                bordered: true
+                onClicked: root.readingStage = "lines"
+              }
+
+              Button {
+                width: (parent.width - Style.space(8)) * 0.5
+                text: "☯ Back to Present"
+                accent: root.accentColor
+                bordered: true
+                onClicked: root.readingStage = "present"
               }
             }
           }
