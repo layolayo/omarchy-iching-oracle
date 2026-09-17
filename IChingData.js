@@ -6724,17 +6724,24 @@ function getNuclearTransition(primaryHex, changedHex, changingLines) {
   }
   var hasOuterOnly = !hasHumanShift && !hasInteriorShift; // only lines 1 and/or 6
 
+  var changingLinesLabel = (changingLines.length > 1 ? "Lines " : "Line ") + changingLines.join(", ");
+
   if (hasOuterOnly) {
     return {
       level: 1,
       type: "static",
       badge: "Level 1: Surface Shift (Unchanging Core)",
+      levelTitle: "Level 1: Invariant Core",
       headline: "The exterior circumstance shifts, but the interior engine remains constant.",
-      description: "Changing lines occurred solely on outer thresholds (Line 1 entry or Line 6 exit). While the visible situation transforms into #" + changedHex.number + " " + changedHex.english + ", your subconscious orientation and hidden motives remain anchored in #" + pN.hexagram.number + " " + pN.hexagram.english + " (" + pGate.name + ").",
+      description: "Changing lines occurred solely on outer thresholds (" + changingLinesLabel + "). While the visible situation transforms into #" + changedHex.number + " " + changedHex.english + ", your subconscious orientation and hidden motives remain anchored in #" + pN.hexagram.number + " " + pN.hexagram.english + " (" + pGate.name + ").",
       fromHex: pN.hexagram,
       toHex: tN.hexagram,
       fromGate: pGate,
       toGate: tGate,
+      fromNuclear: pN,
+      toNuclear: tN,
+      changingLines: changingLines,
+      changingLinesLabel: changingLinesLabel,
       isIdentical: true
     };
   } else if (!hasHumanShift && hasInteriorShift) {
@@ -6742,12 +6749,17 @@ function getNuclearTransition(primaryHex, changedHex, changingLines) {
       level: 2,
       type: "realigned",
       badge: "Level 2: Interior Realignment (Steady Gate)",
+      levelTitle: "Level 2: Internal Realignment",
       headline: "The core engine adapts its approach within the same cosmic root (" + pGate.name + ").",
-      description: "Changing lines touched line 2 or line 5, evolving your hidden psychological current from #" + pN.hexagram.number + " " + pN.hexagram.english + " into #" + tN.hexagram.number + " " + tN.hexagram.english + ". However, the central human axis (lines 3 & 4) held firm, preserving your deep foundation in " + pGate.theme + ".",
+      description: "Changing lines touched " + changingLinesLabel + ", evolving your hidden psychological current from #" + pN.hexagram.number + " " + pN.hexagram.english + " into #" + tN.hexagram.number + " " + tN.hexagram.english + ". However, the central human axis (lines 3 & 4) held firm, preserving your deep foundation in " + pGate.theme + ".",
       fromHex: pN.hexagram,
       toHex: tN.hexagram,
       fromGate: pGate,
       toGate: tGate,
+      fromNuclear: pN,
+      toNuclear: tN,
+      changingLines: changingLines,
+      changingLinesLabel: changingLinesLabel,
       isIdentical: false
     };
   } else {
@@ -6755,12 +6767,17 @@ function getNuclearTransition(primaryHex, changedHex, changingLines) {
       level: 3,
       type: "metamorphosis",
       badge: "Level 3: Deep Metamorphosis (Root Gate Shift)",
-      headline: "A tectonic shift in the human heart (Lines 3/4): " + pGate.name + " ➔ " + tGate.name + ".",
-      description: "Changing lines struck the central overlapping axis of human choice (Lines 3 and/or 4). This fundamentally transforms not just your approach, but your entire psychological foundation from #" + pN.hexagram.number + " " + pN.hexagram.english + " (" + pGate.chinese + ") into #" + tN.hexagram.number + " " + tN.hexagram.english + " (" + tGate.chinese + ")—a profound spiritual and character evolution.",
+      levelTitle: "Level 3: Deep Metamorphosis",
+      headline: "A tectonic shift in the human heart (" + changingLinesLabel + "): " + pGate.name + " ➔ " + tGate.name + ".",
+      description: "Changing lines struck the central overlapping axis of human choice (" + changingLinesLabel + "). This fundamentally transforms not just your approach, but your entire psychological foundation from #" + pN.hexagram.number + " " + pN.hexagram.english + " (" + pGate.chinese + ") into #" + tN.hexagram.number + " " + tN.hexagram.english + " (" + tGate.chinese + ")—a profound spiritual and character evolution.",
       fromHex: pN.hexagram,
       toHex: tN.hexagram,
       fromGate: pGate,
       toGate: tGate,
+      fromNuclear: pN,
+      toNuclear: tN,
+      changingLines: changingLines,
+      changingLinesLabel: changingLinesLabel,
       isIdentical: false
     };
   }

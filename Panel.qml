@@ -158,9 +158,13 @@ Panel {
           text += "\nWilhelm Commentary on the Image:\n" + t.imageCommentary + "\n"
         }
         if (consultation.nuclearTransition) {
-          text += "\nInterior Core Transition (" + consultation.nuclearTransition.badge + "):\n"
-          text += consultation.nuclearTransition.headline + "\n"
-          text += consultation.nuclearTransition.description + "\n"
+          var nt = consultation.nuclearTransition
+          text += "\nInterior Core Transition (" + nt.badge + "):\n"
+          text += "  State X (Initial Core):   #" + nt.fromHex.number + " " + nt.fromHex.english + " (" + nt.fromGate.name + ")\n"
+          text += "  State Y (Relating Core):  #" + nt.toHex.number + " " + nt.toHex.english + " (" + nt.toGate.name + ")\n"
+          text += "  Transition Vector:        " + nt.changingLinesLabel + "\n"
+          text += "  Dynamic:                  " + nt.headline + "\n"
+          text += "  Analysis:                 " + nt.description + "\n"
         }
         if (t.nuclear) {
           var tGateName = t.nuclear.rootGate ? (" · " + t.nuclear.rootGate.name) : ""
@@ -1462,15 +1466,20 @@ Panel {
                     }
                     Text {
                       anchors.verticalCenter: parent.verticalCenter
-                      text: "Hidden Core · Nuclear Hexagram (互卦 · Hù Guà)"
+                      text: "Nuclear Core (互卦 · Hù Guà)"
                       color: root.accentColor
                       font.family: root.fontFamily
                       font.pixelSize: Style.space(11)
                       font.bold: true
                     }
+                  }
+
+                  Row {
+                    spacing: Style.space(6)
+                    visible: !!(root.consultation && root.consultation.primary && root.consultation.primary.nuclear && root.consultation.primary.nuclear.rootGate)
+
                     BorderSurface {
                       anchors.verticalCenter: parent.verticalCenter
-                      visible: !!(root.consultation && root.consultation.primary && root.consultation.primary.nuclear && root.consultation.primary.nuclear.rootGate)
                       implicitHeight: Style.space(18)
                       implicitWidth: pGateText.implicitWidth + Style.space(12)
                       radius: Style.space(4)
@@ -1488,6 +1497,17 @@ Panel {
                         font.pixelSize: Style.space(9)
                         font.bold: true
                       }
+                    }
+
+                    Text {
+                      anchors.verticalCenter: parent.verticalCenter
+                      text: root.consultation && root.consultation.primary && root.consultation.primary.nuclear && root.consultation.primary.nuclear.rootGate
+                        ? ("· " + root.consultation.primary.nuclear.rootGate.theme)
+                        : ""
+                      color: root.mutedColor
+                      font.family: root.fontFamily
+                      font.pixelSize: Style.space(9)
+                      font.italic: true
                     }
                   }
 
@@ -2226,7 +2246,7 @@ Panel {
                   id: nTransCol
                   width: parent.width - Style.space(16)
                   anchors.centerIn: parent
-                  spacing: Style.space(5)
+                  spacing: Style.space(8)
 
                   Row {
                     width: parent.width
@@ -2242,16 +2262,20 @@ Panel {
 
                     Text {
                       anchors.verticalCenter: parent.verticalCenter
-                      text: "Interior Core Transition (X ➔ Y Engine Matrix)"
+                      text: "Interior Core Transition Matrix (X ➔ Y)"
                       color: root.changingLineColor
                       font.family: root.fontFamily
                       font.pixelSize: Style.space(11)
                       font.bold: true
                     }
+                  }
+
+                  Row {
+                    spacing: Style.space(6)
+                    visible: !!(root.consultation && root.consultation.nuclearTransition)
 
                     BorderSurface {
                       anchors.verticalCenter: parent.verticalCenter
-                      visible: !!(root.consultation && root.consultation.nuclearTransition)
                       implicitHeight: Style.space(18)
                       implicitWidth: transLvlText.implicitWidth + Style.space(12)
                       radius: Style.space(4)
@@ -2272,6 +2296,174 @@ Panel {
                     }
                   }
 
+                  // State X ➔ State Y Visual Flow Matrix
+                  Row {
+                    width: parent.width
+                    spacing: Style.space(6)
+
+                    // State X Box
+                    BorderSurface {
+                      width: (parent.width - Style.space(32)) / 2
+                      implicitHeight: stateXCol.implicitHeight + Style.space(12)
+                      radius: Style.space(6)
+                      color: Qt.rgba(0, 0, 0, 0.25)
+                      borderSpec: Border.flat(Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.3), 1)
+
+                      Column {
+                        id: stateXCol
+                        width: parent.width - Style.space(12)
+                        anchors.centerIn: parent
+                        spacing: Style.space(2)
+
+                        Text {
+                          text: "STATE X · INITIAL CORE"
+                          color: root.accentColor
+                          font.family: root.fontFamily
+                          font.pixelSize: Style.space(8)
+                          font.bold: true
+                        }
+
+                        Row {
+                          spacing: Style.space(6)
+                          Text {
+                            anchors.verticalCenter: parent.verticalCenter
+                            text: root.consultation && root.consultation.nuclearTransition && root.consultation.nuclearTransition.fromHex
+                              ? root.consultation.nuclearTransition.fromHex.unicode
+                              : ""
+                            color: root.accentColor
+                            font.pixelSize: Style.space(18)
+                          }
+                          Column {
+                            anchors.verticalCenter: parent.verticalCenter
+                            Text {
+                              text: root.consultation && root.consultation.nuclearTransition && root.consultation.nuclearTransition.fromHex
+                                ? ("#" + root.consultation.nuclearTransition.fromHex.number + " " + root.consultation.nuclearTransition.fromHex.english)
+                                : ""
+                              color: root.foreground
+                              font.family: root.fontFamily
+                              font.pixelSize: Style.space(10)
+                              font.bold: true
+                            }
+                            Text {
+                              text: root.consultation && root.consultation.nuclearTransition && root.consultation.nuclearTransition.fromHex
+                                ? (root.consultation.nuclearTransition.fromHex.chinese + " · " + root.consultation.nuclearTransition.fromHex.pinyin)
+                                : ""
+                              color: root.mutedColor
+                              font.family: root.fontFamily
+                              font.pixelSize: Style.space(8)
+                            }
+                          }
+                        }
+
+                        Text {
+                          width: parent.width
+                          text: root.consultation && root.consultation.nuclearTransition && root.consultation.nuclearTransition.fromGate
+                            ? root.consultation.nuclearTransition.fromGate.name
+                            : ""
+                          color: root.accentColor
+                          font.family: root.fontFamily
+                          font.pixelSize: Style.space(8)
+                          font.bold: true
+                          wrapMode: Text.WordWrap
+                        }
+                      }
+                    }
+
+                    // Vector Connector (Middle)
+                    Column {
+                      width: Style.space(20)
+                      anchors.verticalCenter: parent.verticalCenter
+                      spacing: Style.space(2)
+
+                      Text {
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        text: "➔"
+                        color: root.changingLineColor
+                        font.pixelSize: Style.space(14)
+                        font.bold: true
+                      }
+
+                      Text {
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        text: root.consultation && root.consultation.nuclearTransition
+                          ? (root.consultation.nuclearTransition.changingLines.length > 1 ? ("L" + root.consultation.nuclearTransition.changingLines.join(",")) : ("L" + root.consultation.nuclearTransition.changingLines[0]))
+                          : ""
+                        color: root.changingLineColor
+                        font.family: root.fontFamily
+                        font.pixelSize: Style.space(7)
+                        font.bold: true
+                      }
+                    }
+
+                    // State Y Box
+                    BorderSurface {
+                      width: (parent.width - Style.space(32)) / 2
+                      implicitHeight: stateYCol.implicitHeight + Style.space(12)
+                      radius: Style.space(6)
+                      color: Qt.rgba(0, 0, 0, 0.25)
+                      borderSpec: Border.flat(Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.4), 1)
+
+                      Column {
+                        id: stateYCol
+                        width: parent.width - Style.space(12)
+                        anchors.centerIn: parent
+                        spacing: Style.space(2)
+
+                        Text {
+                          text: "STATE Y · RELATING CORE"
+                          color: root.changingLineColor
+                          font.family: root.fontFamily
+                          font.pixelSize: Style.space(8)
+                          font.bold: true
+                        }
+
+                        Row {
+                          spacing: Style.space(6)
+                          Text {
+                            anchors.verticalCenter: parent.verticalCenter
+                            text: root.consultation && root.consultation.nuclearTransition && root.consultation.nuclearTransition.toHex
+                              ? root.consultation.nuclearTransition.toHex.unicode
+                              : ""
+                            color: root.changingLineColor
+                            font.pixelSize: Style.space(18)
+                          }
+                          Column {
+                            anchors.verticalCenter: parent.verticalCenter
+                            Text {
+                              text: root.consultation && root.consultation.nuclearTransition && root.consultation.nuclearTransition.toHex
+                                ? ("#" + root.consultation.nuclearTransition.toHex.number + " " + root.consultation.nuclearTransition.toHex.english)
+                                : ""
+                              color: root.foreground
+                              font.family: root.fontFamily
+                              font.pixelSize: Style.space(10)
+                              font.bold: true
+                            }
+                            Text {
+                              text: root.consultation && root.consultation.nuclearTransition && root.consultation.nuclearTransition.toHex
+                                ? (root.consultation.nuclearTransition.toHex.chinese + " · " + root.consultation.nuclearTransition.toHex.pinyin)
+                                : ""
+                              color: root.mutedColor
+                              font.family: root.fontFamily
+                              font.pixelSize: Style.space(8)
+                            }
+                          }
+                        }
+
+                        Text {
+                          width: parent.width
+                          text: root.consultation && root.consultation.nuclearTransition && root.consultation.nuclearTransition.toGate
+                            ? root.consultation.nuclearTransition.toGate.name
+                            : ""
+                          color: root.changingLineColor
+                          font.family: root.fontFamily
+                          font.pixelSize: Style.space(8)
+                          font.bold: true
+                          wrapMode: Text.WordWrap
+                        }
+                      }
+                    }
+                  }
+
                   Text {
                     width: parent.width
                     text: root.consultation && root.consultation.nuclearTransition
@@ -2279,7 +2471,7 @@ Panel {
                       : ""
                     color: root.foreground
                     font.family: root.fontFamily
-                    font.pixelSize: Style.space(12)
+                    font.pixelSize: Style.space(11)
                     font.bold: true
                     wrapMode: Text.WordWrap
                   }
@@ -2326,16 +2518,20 @@ Panel {
 
                     Text {
                       anchors.verticalCenter: parent.verticalCenter
-                      text: "Nuclear Core (Hidden Core · 互卦 · Hù Guà)"
+                      text: "Nuclear Core (互卦 · Hù Guà)"
                       color: root.changingLineColor
                       font.family: root.fontFamily
                       font.pixelSize: Style.space(11)
                       font.bold: true
                     }
+                  }
+
+                  Row {
+                    spacing: Style.space(6)
+                    visible: !!(root.consultation && root.consultation.transformed && root.consultation.transformed.nuclear && root.consultation.transformed.nuclear.rootGate)
 
                     BorderSurface {
                       anchors.verticalCenter: parent.verticalCenter
-                      visible: !!(root.consultation && root.consultation.transformed && root.consultation.transformed.nuclear && root.consultation.transformed.nuclear.rootGate)
                       implicitHeight: Style.space(18)
                       implicitWidth: tGateText.implicitWidth + Style.space(12)
                       radius: Style.space(4)
@@ -2353,6 +2549,17 @@ Panel {
                         font.pixelSize: Style.space(9)
                         font.bold: true
                       }
+                    }
+
+                    Text {
+                      anchors.verticalCenter: parent.verticalCenter
+                      text: root.consultation && root.consultation.transformed && root.consultation.transformed.nuclear && root.consultation.transformed.nuclear.rootGate
+                        ? ("· " + root.consultation.transformed.nuclear.rootGate.theme)
+                        : ""
+                      color: root.mutedColor
+                      font.family: root.fontFamily
+                      font.pixelSize: Style.space(9)
+                      font.italic: true
                     }
                   }
 
