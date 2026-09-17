@@ -55,7 +55,7 @@ Kennedy proved that an opaque pouch of **38 marbles** replicates physical hand-s
   - **Level 2 (Aspect Flipping)**: Within any hexagram card, inspect distinct dimensions with instant pill tabs:
     - `[ 📜 Judgment ]`: King Wen's oracle verse + Wilhelm Commentary on the Judgment.
     - `[ 🌊 Image ]`: The Great Image verse + Wilhelm Commentary on the Image.
-    - `[ ☯ Trigrams ]`: Dual Trigram polarity breakdown (Outer Realm Lines 4–6 vs Inner Realm Lines 1–3) + Wilhelm's Structural & Elemental Dynamics.
+    - `[ ☯ Trigrams ]`: Dual Trigram polarity breakdown with prominent 42px glyphs, distinct Realm badges (Outer Realm Lines 4–6 vs Inner Realm Lines 1–3), Chinese/Pinyin/Element/Quality cosmological attributes, and Wilhelm's Structural & Elemental Dynamics.
     - `[ 👁 Both ]`: Condensed at-a-glance view of both Judgment and Image verses.
 - **Definitive Wilhelm / Baynes Translation & Complete Commentary**:
   - Full King Wen judgments, images, line texts (爻辭, *Yáo Cí*), commentaries on judgments and images, and deep structural trigram dynamics from the authoritative Richard Wilhelm & Cary F. Baynes translation (*Princeton University Press, Bollingen Series XIX*).
