@@ -762,6 +762,7 @@ Panel {
             width: (parent.width - Style.space(8)) * 0.35
             text: "Cast All"
             iconText: "⚡"
+            bordered: true
             onClicked: root.castAllLines()
           }
 
@@ -782,6 +783,7 @@ Panel {
             width: (parent.width - Style.space(16)) * 0.26
             text: "Reset"
             iconText: "↺"
+            bordered: true
             onClicked: root.resetConsultation()
           }
 
@@ -791,6 +793,7 @@ Panel {
             width: (parent.width - Style.space(16)) * 0.3
             text: root.copyStatusMessage !== "" ? root.copyStatusMessage : "Copy"
             iconText: "📋"
+            bordered: true
             onClicked: root.copyReading()
           }
         }
@@ -938,6 +941,7 @@ Panel {
                 width: (parent.width - Style.space(12)) * 0.35
                 text: "↺ New"
                 tooltipText: "New Consultation"
+                bordered: true
                 onClicked: root.resetConsultation()
               }
 
@@ -953,6 +957,7 @@ Panel {
                 width: (parent.width - Style.space(12)) * 0.3
                 text: "← Chamber"
                 tooltipText: "Review Line History & Math"
+                bordered: true
                 onClicked: root.activeTab = "chamber"
               }
             }
