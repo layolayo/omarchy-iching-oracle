@@ -436,6 +436,7 @@ Panel {
 
           Button {
             width: (parent.width - Style.space(12)) / 3
+            implicitHeight: Style.space(30)
             text: root.castLines.length > 0 ? ("☯ Chamber " + root.castLines.length + "/6") : "☯ Chamber"
             bordered: true
             selected: root.activeTab === "chamber"
@@ -445,6 +446,7 @@ Panel {
 
           Button {
             width: (parent.width - Style.space(12)) / 3
+            implicitHeight: Style.space(30)
             text: root.consultation ? "📖 Reading ✨" : "📖 Reading"
             bordered: true
             selected: root.activeTab === "reading"
@@ -454,6 +456,7 @@ Panel {
 
           Button {
             width: (parent.width - Style.space(12)) / 3
+            implicitHeight: Style.space(30)
             text: "ℹ Lore & Math"
             bordered: true
             selected: root.activeTab === "lore"
@@ -915,6 +918,7 @@ Panel {
 
           Button {
             width: (parent.width - Style.space(12)) / 3
+            implicitHeight: Style.space(32)
             text: root.consultation && root.consultation.primary ? ("☯ Present (#" + root.consultation.primary.number + ")") : "☯ Present"
             bordered: true
             selected: root.readingStage === "present"
@@ -924,6 +928,7 @@ Panel {
 
           Button {
             width: (parent.width - Style.space(12)) / 3
+            implicitHeight: Style.space(32)
             text: root.consultation ? ("⚡ Lines (" + root.consultation.changingLines.length + ")") : "⚡ Lines"
             bordered: true
             selected: root.readingStage === "lines"
@@ -933,6 +938,7 @@ Panel {
 
           Button {
             width: (parent.width - Style.space(12)) / 3
+            implicitHeight: Style.space(32)
             text: root.consultation && root.consultation.transformed ? ("➔ Future (#" + root.consultation.transformed.number + ")") : "➔ Future"
             bordered: true
             selected: root.readingStage === "future"
@@ -1017,6 +1023,7 @@ Panel {
 
               Button {
                 width: (parent.width - Style.space(12)) / 3
+                implicitHeight: Style.space(30)
                 text: "📜 Judgment"
                 bordered: true
                 selected: root.hexAspect === "judgment"
@@ -1026,6 +1033,7 @@ Panel {
 
               Button {
                 width: (parent.width - Style.space(12)) / 3
+                implicitHeight: Style.space(30)
                 text: "🌊 Image"
                 bordered: true
                 selected: root.hexAspect === "image"
@@ -1035,6 +1043,7 @@ Panel {
 
               Button {
                 width: (parent.width - Style.space(12)) / 3
+                implicitHeight: Style.space(30)
                 text: "☯ Trigrams"
                 bordered: true
                 selected: root.hexAspect === "structure"
@@ -1550,6 +1559,7 @@ Panel {
 
               Button {
                 width: (parent.width - Style.space(8)) * 0.5
+                implicitHeight: Style.space(32)
                 text: root.consultation && root.consultation.primary ? ("← Present (#" + root.consultation.primary.number + ")") : "← Present"
                 bordered: true
                 onClicked: root.readingStage = "present"
@@ -1557,6 +1567,7 @@ Panel {
 
               Button {
                 width: (parent.width - Style.space(8)) * 0.5
+                implicitHeight: Style.space(32)
                 text: root.consultation && root.consultation.transformed ? ("Next: Future (#" + root.consultation.transformed.number + ") ➔") : "Next: Future ➔"
                 accent: root.changingLineColor
                 bordered: true
@@ -1657,13 +1668,13 @@ Panel {
             }
 
             // Aspect Switcher Tabs for Future Hexagram
-            // Aspect Switcher Tabs for Future Hexagram
             Row {
               width: parent.width
               spacing: Style.space(6)
 
               Button {
                 width: (parent.width - Style.space(12)) / 3
+                implicitHeight: Style.space(30)
                 text: "📜 Judgment"
                 bordered: true
                 selected: root.hexAspect === "judgment"
@@ -1673,6 +1684,7 @@ Panel {
 
               Button {
                 width: (parent.width - Style.space(12)) / 3
+                implicitHeight: Style.space(30)
                 text: "🌊 Image"
                 bordered: true
                 selected: root.hexAspect === "image"
@@ -1682,6 +1694,7 @@ Panel {
 
               Button {
                 width: (parent.width - Style.space(12)) / 3
+                implicitHeight: Style.space(30)
                 text: "☯ Trigrams"
                 bordered: true
                 selected: root.hexAspect === "structure"
@@ -2067,6 +2080,7 @@ Panel {
 
               Button {
                 width: (parent.width - Style.space(8)) * 0.5
+                implicitHeight: Style.space(32)
                 text: "← Back to Lines"
                 bordered: true
                 onClicked: root.readingStage = "lines"
@@ -2074,7 +2088,8 @@ Panel {
 
               Button {
                 width: (parent.width - Style.space(8)) * 0.5
-                text: "☯ Back to Present"
+                implicitHeight: Style.space(32)
+                text: "↺ Back to Present"
                 accent: root.accentColor
                 bordered: true
                 onClicked: root.readingStage = "present"
