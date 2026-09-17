@@ -1188,108 +1188,256 @@ Panel {
             Column {
               width: parent.width
               visible: root.hexAspect === "structure"
-              spacing: Style.space(8)
+              spacing: Style.space(10)
 
-              Text {
-                text: "☯ Trigram Dynamics & Structural Polarity"
-                color: root.accentColor
-                font.family: root.fontFamily
-                font.pixelSize: Style.font.bodySmall
-                font.bold: true
+              // Explanatory Banner
+              BorderSurface {
+                width: parent.width
+                implicitHeight: pTrigExpCol.implicitHeight + Style.space(12)
+                color: Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.05)
+                radius: Style.cornerRadius
+                borderSpec: Border.flat(Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.2), 1)
+
+                Column {
+                  id: pTrigExpCol
+                  width: parent.width - Style.space(16)
+                  anchors.centerIn: parent
+                  spacing: Style.space(2)
+
+                  Text {
+                    text: "☯ Trigram Dynamics & Structural Polarity"
+                    color: root.accentColor
+                    font.family: root.fontFamily
+                    font.pixelSize: Style.font.bodySmall
+                    font.bold: true
+                  }
+
+                  Text {
+                    width: parent.width
+                    text: "The hexagram is built of two active trigrams: Outer Realm (action in the manifest world) above Inner Realm (heart-mind & root conditions)."
+                    color: root.mutedColor
+                    font.family: root.fontFamily
+                    font.pixelSize: Style.space(11)
+                    wrapMode: Text.WordWrap
+                  }
+                }
               }
 
+              // Two side-by-side realm cards
               Row {
                 width: parent.width
-                spacing: Style.space(8)
+                spacing: Style.space(10)
 
                 // Upper Trigram (Outer Realm)
                 BorderSurface {
-                  width: (parent.width - Style.space(8)) * 0.5
-                  implicitHeight: pUpperCol.implicitHeight + Style.space(16)
+                  width: (parent.width - Style.space(10)) * 0.5
+                  implicitHeight: pUpperCol.implicitHeight + Style.space(20)
                   color: Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.08)
                   radius: Style.cornerRadius
-                  borderSpec: Border.flat(Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.25), 1)
+                  borderSpec: Border.flat(Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.35), 1)
 
                   Column {
                     id: pUpperCol
-                    width: parent.width - Style.space(16)
+                    width: parent.width - Style.space(18)
                     anchors.centerIn: parent
-                    spacing: Style.space(3)
+                    spacing: Style.space(8)
 
-                    Text {
-                      text: "Outer Realm (Lines 4–6)"
-                      color: root.accentColor
-                      font.family: root.fontFamily
-                      font.pixelSize: Style.space(11)
-                      font.bold: true
+                    // Header Tag
+                    Row {
+                      spacing: Style.space(6)
+                      Rectangle {
+                        anchors.verticalCenter: parent.verticalCenter
+                        width: Style.space(6)
+                        height: Style.space(6)
+                        radius: Style.space(3)
+                        color: root.accentColor
+                      }
+                      Text {
+                        text: "Outer Realm · Lines 4–6"
+                        color: root.accentColor
+                        font.family: root.fontFamily
+                        font.pixelSize: Style.space(11)
+                        font.bold: true
+                      }
                     }
 
-                    Text {
+                    // Prominent Large Glyph & Trigram Identification
+                    Row {
                       width: parent.width
-                      text: root.consultation && root.consultation.primary
-                        ? (root.consultation.primary.upperTrigram.symbol + " " + root.consultation.primary.upperTrigram.name + " (" + root.consultation.primary.upperTrigram.chinese + ")")
-                        : ""
-                      color: root.foreground
-                      font.family: root.fontFamily
-                      font.pixelSize: Style.font.caption
-                      font.bold: true
+                      spacing: Style.space(12)
+
+                      Text {
+                        anchors.verticalCenter: parent.verticalCenter
+                        text: root.consultation && root.consultation.primary ? root.consultation.primary.upperTrigram.symbol : ""
+                        font.pixelSize: Style.space(42)
+                        color: root.accentColor
+                      }
+
+                      Column {
+                        anchors.verticalCenter: parent.verticalCenter
+                        width: parent.width - Style.space(54)
+                        spacing: Style.space(1)
+
+                        Text {
+                          width: parent.width
+                          text: root.consultation && root.consultation.primary
+                            ? (root.consultation.primary.upperTrigram.name + " · " + root.consultation.primary.upperTrigram.chinese)
+                            : ""
+                          color: root.foreground
+                          font.family: root.fontFamily
+                          font.pixelSize: Style.font.bodySmall
+                          font.bold: true
+                          wrapMode: Text.WordWrap
+                        }
+
+                        Text {
+                          width: parent.width
+                          text: root.consultation && root.consultation.primary
+                            ? (root.consultation.primary.upperTrigram.pinyin + " · " + root.consultation.primary.upperTrigram.element)
+                            : ""
+                          color: root.accentColor
+                          font.family: root.fontFamily
+                          font.pixelSize: Style.space(11)
+                          font.bold: true
+                        }
+                      }
                     }
 
-                    Text {
+                    // Key attributes
+                    Column {
                       width: parent.width
-                      text: root.consultation && root.consultation.primary
-                        ? ("Element: " + root.consultation.primary.upperTrigram.element + "\n" + root.consultation.primary.upperTrigram.nature)
-                        : ""
-                      color: root.mutedColor
-                      font.family: root.fontFamily
-                      font.pixelSize: Style.space(11)
-                      wrapMode: Text.WordWrap
+                      spacing: Style.space(4)
+
+                      Row {
+                        width: parent.width
+                        spacing: Style.space(4)
+                        Text { text: "Quality:"; color: root.mutedColor; font.pixelSize: Style.space(11); font.bold: true }
+                        Text {
+                          width: parent.width - Style.space(55)
+                          text: root.consultation && root.consultation.primary ? root.consultation.primary.upperTrigram.nature : ""
+                          color: root.foreground
+                          font.pixelSize: Style.space(11)
+                          wrapMode: Text.WordWrap
+                        }
+                      }
+
+                      Text {
+                        width: parent.width
+                        text: "Manifest action, outer social realm & emerging conditions"
+                        color: root.mutedColor
+                        font.family: root.fontFamily
+                        font.pixelSize: Style.space(10)
+                        font.italic: true
+                        wrapMode: Text.WordWrap
+                        lineHeight: 1.2
+                      }
                     }
                   }
                 }
 
                 // Lower Trigram (Inner Realm)
                 BorderSurface {
-                  width: (parent.width - Style.space(8)) * 0.5
-                  implicitHeight: pLowerCol.implicitHeight + Style.space(16)
+                  width: (parent.width - Style.space(10)) * 0.5
+                  implicitHeight: pLowerCol.implicitHeight + Style.space(20)
                   color: Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.08)
                   radius: Style.cornerRadius
-                  borderSpec: Border.flat(Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.25), 1)
+                  borderSpec: Border.flat(Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.35), 1)
 
                   Column {
                     id: pLowerCol
-                    width: parent.width - Style.space(16)
+                    width: parent.width - Style.space(18)
                     anchors.centerIn: parent
-                    spacing: Style.space(3)
+                    spacing: Style.space(8)
 
-                    Text {
-                      text: "Inner Realm (Lines 1–3)"
-                      color: root.accentColor
-                      font.family: root.fontFamily
-                      font.pixelSize: Style.space(11)
-                      font.bold: true
+                    // Header Tag
+                    Row {
+                      spacing: Style.space(6)
+                      Rectangle {
+                        anchors.verticalCenter: parent.verticalCenter
+                        width: Style.space(6)
+                        height: Style.space(6)
+                        radius: Style.space(3)
+                        color: root.accentColor
+                      }
+                      Text {
+                        text: "Inner Realm · Lines 1–3"
+                        color: root.accentColor
+                        font.family: root.fontFamily
+                        font.pixelSize: Style.space(11)
+                        font.bold: true
+                      }
                     }
 
-                    Text {
+                    // Prominent Large Glyph & Trigram Identification
+                    Row {
                       width: parent.width
-                      text: root.consultation && root.consultation.primary
-                        ? (root.consultation.primary.lowerTrigram.symbol + " " + root.consultation.primary.lowerTrigram.name + " (" + root.consultation.primary.lowerTrigram.chinese + ")")
-                        : ""
-                      color: root.foreground
-                      font.family: root.fontFamily
-                      font.pixelSize: Style.font.caption
-                      font.bold: true
+                      spacing: Style.space(12)
+
+                      Text {
+                        anchors.verticalCenter: parent.verticalCenter
+                        text: root.consultation && root.consultation.primary ? root.consultation.primary.lowerTrigram.symbol : ""
+                        font.pixelSize: Style.space(42)
+                        color: root.accentColor
+                      }
+
+                      Column {
+                        anchors.verticalCenter: parent.verticalCenter
+                        width: parent.width - Style.space(54)
+                        spacing: Style.space(1)
+
+                        Text {
+                          width: parent.width
+                          text: root.consultation && root.consultation.primary
+                            ? (root.consultation.primary.lowerTrigram.name + " · " + root.consultation.primary.lowerTrigram.chinese)
+                            : ""
+                          color: root.foreground
+                          font.family: root.fontFamily
+                          font.pixelSize: Style.font.bodySmall
+                          font.bold: true
+                          wrapMode: Text.WordWrap
+                        }
+
+                        Text {
+                          width: parent.width
+                          text: root.consultation && root.consultation.primary
+                            ? (root.consultation.primary.lowerTrigram.pinyin + " · " + root.consultation.primary.lowerTrigram.element)
+                            : ""
+                          color: root.accentColor
+                          font.family: root.fontFamily
+                          font.pixelSize: Style.space(11)
+                          font.bold: true
+                        }
+                      }
                     }
 
-                    Text {
+                    // Key attributes
+                    Column {
                       width: parent.width
-                      text: root.consultation && root.consultation.primary
-                        ? ("Element: " + root.consultation.primary.lowerTrigram.element + "\n" + root.consultation.primary.lowerTrigram.nature)
-                        : ""
-                      color: root.mutedColor
-                      font.family: root.fontFamily
-                      font.pixelSize: Style.space(11)
-                      wrapMode: Text.WordWrap
+                      spacing: Style.space(4)
+
+                      Row {
+                        width: parent.width
+                        spacing: Style.space(4)
+                        Text { text: "Quality:"; color: root.mutedColor; font.pixelSize: Style.space(11); font.bold: true }
+                        Text {
+                          width: parent.width - Style.space(55)
+                          text: root.consultation && root.consultation.primary ? root.consultation.primary.lowerTrigram.nature : ""
+                          color: root.foreground
+                          font.pixelSize: Style.space(11)
+                          wrapMode: Text.WordWrap
+                        }
+                      }
+
+                      Text {
+                        width: parent.width
+                        text: "Inner attitude, heart-mind & foundational root conditions"
+                        color: root.mutedColor
+                        font.family: root.fontFamily
+                        font.pixelSize: Style.space(10)
+                        font.italic: true
+                        wrapMode: Text.WordWrap
+                        lineHeight: 1.2
+                      }
                     }
                   }
                 }
@@ -1302,7 +1450,7 @@ Panel {
                 spacing: Style.space(4)
 
                 Text {
-                  text: "Wilhelm Structural Dynamics"
+                  text: "📖 Wilhelm Structural & Elemental Commentary"
                   color: root.mutedColor
                   font.family: root.fontFamily
                   font.pixelSize: Style.font.caption
@@ -1805,108 +1953,256 @@ Panel {
             Column {
               width: parent.width
               visible: root.hexAspect === "structure"
-              spacing: Style.space(8)
+              spacing: Style.space(10)
 
-              Text {
-                text: "☯ Trigram Dynamics & Structural Polarity"
-                color: root.changingLineColor
-                font.family: root.fontFamily
-                font.pixelSize: Style.font.bodySmall
-                font.bold: true
+              // Explanatory Banner
+              BorderSurface {
+                width: parent.width
+                implicitHeight: tTrigExpCol.implicitHeight + Style.space(12)
+                color: Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.05)
+                radius: Style.cornerRadius
+                borderSpec: Border.flat(Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.2), 1)
+
+                Column {
+                  id: tTrigExpCol
+                  width: parent.width - Style.space(16)
+                  anchors.centerIn: parent
+                  spacing: Style.space(2)
+
+                  Text {
+                    text: "☯ Trigram Dynamics & Structural Polarity"
+                    color: root.changingLineColor
+                    font.family: root.fontFamily
+                    font.pixelSize: Style.font.bodySmall
+                    font.bold: true
+                  }
+
+                  Text {
+                    width: parent.width
+                    text: "The hexagram is built of two active trigrams: Outer Realm (action in the manifest world) above Inner Realm (heart-mind & root conditions)."
+                    color: root.mutedColor
+                    font.family: root.fontFamily
+                    font.pixelSize: Style.space(11)
+                    wrapMode: Text.WordWrap
+                  }
+                }
               }
 
+              // Two side-by-side realm cards
               Row {
                 width: parent.width
-                spacing: Style.space(8)
+                spacing: Style.space(10)
 
                 // Upper Trigram (Outer Realm)
                 BorderSurface {
-                  width: (parent.width - Style.space(8)) * 0.5
-                  implicitHeight: tUpperCol.implicitHeight + Style.space(16)
+                  width: (parent.width - Style.space(10)) * 0.5
+                  implicitHeight: tUpperCol.implicitHeight + Style.space(20)
                   color: Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.08)
                   radius: Style.cornerRadius
-                  borderSpec: Border.flat(Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.25), 1)
+                  borderSpec: Border.flat(Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.35), 1)
 
                   Column {
                     id: tUpperCol
-                    width: parent.width - Style.space(16)
+                    width: parent.width - Style.space(18)
                     anchors.centerIn: parent
-                    spacing: Style.space(3)
+                    spacing: Style.space(8)
 
-                    Text {
-                      text: "Outer Realm (Lines 4–6)"
-                      color: root.changingLineColor
-                      font.family: root.fontFamily
-                      font.pixelSize: Style.space(11)
-                      font.bold: true
+                    // Header Tag
+                    Row {
+                      spacing: Style.space(6)
+                      Rectangle {
+                        anchors.verticalCenter: parent.verticalCenter
+                        width: Style.space(6)
+                        height: Style.space(6)
+                        radius: Style.space(3)
+                        color: root.changingLineColor
+                      }
+                      Text {
+                        text: "Outer Realm · Lines 4–6"
+                        color: root.changingLineColor
+                        font.family: root.fontFamily
+                        font.pixelSize: Style.space(11)
+                        font.bold: true
+                      }
                     }
 
-                    Text {
+                    // Prominent Large Glyph & Trigram Identification
+                    Row {
                       width: parent.width
-                      text: root.consultation && root.consultation.transformed
-                        ? (root.consultation.transformed.upperTrigram.symbol + " " + root.consultation.transformed.upperTrigram.name + " (" + root.consultation.transformed.upperTrigram.chinese + ")")
-                        : ""
-                      color: root.foreground
-                      font.family: root.fontFamily
-                      font.pixelSize: Style.font.caption
-                      font.bold: true
+                      spacing: Style.space(12)
+
+                      Text {
+                        anchors.verticalCenter: parent.verticalCenter
+                        text: root.consultation && root.consultation.transformed ? root.consultation.transformed.upperTrigram.symbol : ""
+                        font.pixelSize: Style.space(42)
+                        color: root.changingLineColor
+                      }
+
+                      Column {
+                        anchors.verticalCenter: parent.verticalCenter
+                        width: parent.width - Style.space(54)
+                        spacing: Style.space(1)
+
+                        Text {
+                          width: parent.width
+                          text: root.consultation && root.consultation.transformed
+                            ? (root.consultation.transformed.upperTrigram.name + " · " + root.consultation.transformed.upperTrigram.chinese)
+                            : ""
+                          color: root.foreground
+                          font.family: root.fontFamily
+                          font.pixelSize: Style.font.bodySmall
+                          font.bold: true
+                          wrapMode: Text.WordWrap
+                        }
+
+                        Text {
+                          width: parent.width
+                          text: root.consultation && root.consultation.transformed
+                            ? (root.consultation.transformed.upperTrigram.pinyin + " · " + root.consultation.transformed.upperTrigram.element)
+                            : ""
+                          color: root.changingLineColor
+                          font.family: root.fontFamily
+                          font.pixelSize: Style.space(11)
+                          font.bold: true
+                        }
+                      }
                     }
 
-                    Text {
+                    // Key attributes
+                    Column {
                       width: parent.width
-                      text: root.consultation && root.consultation.transformed
-                        ? ("Element: " + root.consultation.transformed.upperTrigram.element + "\n" + root.consultation.transformed.upperTrigram.nature)
-                        : ""
-                      color: root.mutedColor
-                      font.family: root.fontFamily
-                      font.pixelSize: Style.space(11)
-                      wrapMode: Text.WordWrap
+                      spacing: Style.space(4)
+
+                      Row {
+                        width: parent.width
+                        spacing: Style.space(4)
+                        Text { text: "Quality:"; color: root.mutedColor; font.pixelSize: Style.space(11); font.bold: true }
+                        Text {
+                          width: parent.width - Style.space(55)
+                          text: root.consultation && root.consultation.transformed ? root.consultation.transformed.upperTrigram.nature : ""
+                          color: root.foreground
+                          font.pixelSize: Style.space(11)
+                          wrapMode: Text.WordWrap
+                        }
+                      }
+
+                      Text {
+                        width: parent.width
+                        text: "Manifest action, outer social realm & emerging conditions"
+                        color: root.mutedColor
+                        font.family: root.fontFamily
+                        font.pixelSize: Style.space(10)
+                        font.italic: true
+                        wrapMode: Text.WordWrap
+                        lineHeight: 1.2
+                      }
                     }
                   }
                 }
 
                 // Lower Trigram (Inner Realm)
                 BorderSurface {
-                  width: (parent.width - Style.space(8)) * 0.5
-                  implicitHeight: tLowerCol.implicitHeight + Style.space(16)
+                  width: (parent.width - Style.space(10)) * 0.5
+                  implicitHeight: tLowerCol.implicitHeight + Style.space(20)
                   color: Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.08)
                   radius: Style.cornerRadius
-                  borderSpec: Border.flat(Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.25), 1)
+                  borderSpec: Border.flat(Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.35), 1)
 
                   Column {
                     id: tLowerCol
-                    width: parent.width - Style.space(16)
+                    width: parent.width - Style.space(18)
                     anchors.centerIn: parent
-                    spacing: Style.space(3)
+                    spacing: Style.space(8)
 
-                    Text {
-                      text: "Inner Realm (Lines 1–3)"
-                      color: root.changingLineColor
-                      font.family: root.fontFamily
-                      font.pixelSize: Style.space(11)
-                      font.bold: true
+                    // Header Tag
+                    Row {
+                      spacing: Style.space(6)
+                      Rectangle {
+                        anchors.verticalCenter: parent.verticalCenter
+                        width: Style.space(6)
+                        height: Style.space(6)
+                        radius: Style.space(3)
+                        color: root.changingLineColor
+                      }
+                      Text {
+                        text: "Inner Realm · Lines 1–3"
+                        color: root.changingLineColor
+                        font.family: root.fontFamily
+                        font.pixelSize: Style.space(11)
+                        font.bold: true
+                      }
                     }
 
-                    Text {
+                    // Prominent Large Glyph & Trigram Identification
+                    Row {
                       width: parent.width
-                      text: root.consultation && root.consultation.transformed
-                        ? (root.consultation.transformed.lowerTrigram.symbol + " " + root.consultation.transformed.lowerTrigram.name + " (" + root.consultation.transformed.lowerTrigram.chinese + ")")
-                        : ""
-                      color: root.foreground
-                      font.family: root.fontFamily
-                      font.pixelSize: Style.font.caption
-                      font.bold: true
+                      spacing: Style.space(12)
+
+                      Text {
+                        anchors.verticalCenter: parent.verticalCenter
+                        text: root.consultation && root.consultation.transformed ? root.consultation.transformed.lowerTrigram.symbol : ""
+                        font.pixelSize: Style.space(42)
+                        color: root.changingLineColor
+                      }
+
+                      Column {
+                        anchors.verticalCenter: parent.verticalCenter
+                        width: parent.width - Style.space(54)
+                        spacing: Style.space(1)
+
+                        Text {
+                          width: parent.width
+                          text: root.consultation && root.consultation.transformed
+                            ? (root.consultation.transformed.lowerTrigram.name + " · " + root.consultation.transformed.lowerTrigram.chinese)
+                            : ""
+                          color: root.foreground
+                          font.family: root.fontFamily
+                          font.pixelSize: Style.font.bodySmall
+                          font.bold: true
+                          wrapMode: Text.WordWrap
+                        }
+
+                        Text {
+                          width: parent.width
+                          text: root.consultation && root.consultation.transformed
+                            ? (root.consultation.transformed.lowerTrigram.pinyin + " · " + root.consultation.transformed.lowerTrigram.element)
+                            : ""
+                          color: root.changingLineColor
+                          font.family: root.fontFamily
+                          font.pixelSize: Style.space(11)
+                          font.bold: true
+                        }
+                      }
                     }
 
-                    Text {
+                    // Key attributes
+                    Column {
                       width: parent.width
-                      text: root.consultation && root.consultation.transformed
-                        ? ("Element: " + root.consultation.transformed.lowerTrigram.element + "\n" + root.consultation.transformed.lowerTrigram.nature)
-                        : ""
-                      color: root.mutedColor
-                      font.family: root.fontFamily
-                      font.pixelSize: Style.space(11)
-                      wrapMode: Text.WordWrap
+                      spacing: Style.space(4)
+
+                      Row {
+                        width: parent.width
+                        spacing: Style.space(4)
+                        Text { text: "Quality:"; color: root.mutedColor; font.pixelSize: Style.space(11); font.bold: true }
+                        Text {
+                          width: parent.width - Style.space(55)
+                          text: root.consultation && root.consultation.transformed ? root.consultation.transformed.lowerTrigram.nature : ""
+                          color: root.foreground
+                          font.pixelSize: Style.space(11)
+                          wrapMode: Text.WordWrap
+                        }
+                      }
+
+                      Text {
+                        width: parent.width
+                        text: "Inner attitude, heart-mind & foundational root conditions"
+                        color: root.mutedColor
+                        font.family: root.fontFamily
+                        font.pixelSize: Style.space(10)
+                        font.italic: true
+                        wrapMode: Text.WordWrap
+                        lineHeight: 1.2
+                      }
                     }
                   }
                 }
@@ -1919,7 +2215,7 @@ Panel {
                 spacing: Style.space(4)
 
                 Text {
-                  text: "Wilhelm Structural Dynamics"
+                  text: "📖 Wilhelm Structural & Elemental Commentary"
                   color: root.mutedColor
                   font.family: root.fontFamily
                   font.pixelSize: Style.font.caption
