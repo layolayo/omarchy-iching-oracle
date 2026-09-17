@@ -2292,7 +2292,7 @@ Panel {
 
                     // State X Box
                     BorderSurface {
-                      width: (parent.width - Style.space(32)) / 2
+                      width: (parent.width - Style.space(60)) / 2
                       implicitHeight: Math.max(stateXCol.implicitHeight, stateYCol.implicitHeight) + Style.space(16)
                       radius: Style.space(6)
                       color: Qt.rgba(0, 0, 0, 0.25)
@@ -2362,7 +2362,7 @@ Panel {
 
                     // Vector Connector (Middle)
                     Column {
-                      width: Style.space(20)
+                      width: Style.space(48)
                       anchors.verticalCenter: parent.verticalCenter
                       spacing: Style.space(2)
 
@@ -2370,25 +2370,26 @@ Panel {
                         anchors.horizontalCenter: parent.horizontalCenter
                         text: "➔"
                         color: root.changingLineColor
-                        font.pixelSize: Style.space(14)
+                        font.pixelSize: Style.space(16)
                         font.bold: true
                       }
 
                       Text {
                         anchors.horizontalCenter: parent.horizontalCenter
                         text: root.consultation && root.consultation.nuclearTransition
-                          ? (root.consultation.nuclearTransition.changingLines.length > 1 ? ("L" + root.consultation.nuclearTransition.changingLines.join(",")) : ("L" + root.consultation.nuclearTransition.changingLines[0]))
+                          ? (root.consultation.nuclearTransition.changingLines.length > 1 ? ("Lines " + root.consultation.nuclearTransition.changingLines.join(",")) : ("Line " + root.consultation.nuclearTransition.changingLines[0]))
                           : ""
                         color: root.changingLineColor
                         font.family: root.fontFamily
                         font.pixelSize: Style.space(7)
                         font.bold: true
+                        horizontalAlignment: Text.AlignHCenter
                       }
                     }
 
                     // State Y Box
                     BorderSurface {
-                      width: (parent.width - Style.space(32)) / 2
+                      width: (parent.width - Style.space(60)) / 2
                       implicitHeight: Math.max(stateXCol.implicitHeight, stateYCol.implicitHeight) + Style.space(16)
                       radius: Style.space(6)
                       color: Qt.rgba(0, 0, 0, 0.25)
