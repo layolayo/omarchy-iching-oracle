@@ -114,7 +114,8 @@ Panel {
       text += "\nWilhelm Commentary on the Image:\n" + p.imageCommentary + "\n"
     }
     if (p.nuclear) {
-      text += "\nNuclear Hexagram (Hidden Core · 互卦): #" + p.nuclear.hexagram.number + " " + p.nuclear.hexagram.chinese + " (" + p.nuclear.hexagram.pinyin + ") — " + p.nuclear.hexagram.english + " " + p.nuclear.hexagram.unicode + "\n"
+      var pGateName = p.nuclear.rootGate ? (" · " + p.nuclear.rootGate.name) : ""
+      text += "\nNuclear Hexagram (Hidden Core · 互卦" + pGateName + "): #" + p.nuclear.hexagram.number + " " + p.nuclear.hexagram.chinese + " (" + p.nuclear.hexagram.pinyin + ") — " + p.nuclear.hexagram.english + " " + p.nuclear.hexagram.unicode + "\n"
       text += "Nuclear Trigrams: " + p.nuclear.upperTrigram.name + " (" + p.nuclear.upperTrigram.symbol + ") above " + p.nuclear.lowerTrigram.name + " (" + p.nuclear.lowerTrigram.symbol + ")\n"
       text += "Nuclear Judgment: " + p.nuclear.hexagram.judgment + "\n"
     }
@@ -156,8 +157,14 @@ Panel {
         if (t.imageCommentary) {
           text += "\nWilhelm Commentary on the Image:\n" + t.imageCommentary + "\n"
         }
+        if (consultation.nuclearTransition) {
+          text += "\nInterior Core Transition (" + consultation.nuclearTransition.badge + "):\n"
+          text += consultation.nuclearTransition.headline + "\n"
+          text += consultation.nuclearTransition.description + "\n"
+        }
         if (t.nuclear) {
-          text += "\nNuclear Hexagram (Hidden Core · 互卦): #" + t.nuclear.hexagram.number + " " + t.nuclear.hexagram.chinese + " (" + t.nuclear.hexagram.pinyin + ") — " + t.nuclear.hexagram.english + " " + t.nuclear.hexagram.unicode + "\n"
+          var tGateName = t.nuclear.rootGate ? (" · " + t.nuclear.rootGate.name) : ""
+          text += "\nRelating Nuclear Hexagram (Hidden Core · 互卦" + tGateName + "): #" + t.nuclear.hexagram.number + " " + t.nuclear.hexagram.chinese + " (" + t.nuclear.hexagram.pinyin + ") — " + t.nuclear.hexagram.english + " " + t.nuclear.hexagram.unicode + "\n"
           text += "Nuclear Trigrams: " + t.nuclear.upperTrigram.name + " (" + t.nuclear.upperTrigram.symbol + ") above " + t.nuclear.lowerTrigram.name + " (" + t.nuclear.lowerTrigram.symbol + ")\n"
           text += "Nuclear Judgment: " + t.nuclear.hexagram.judgment + "\n"
         }
@@ -1443,7 +1450,9 @@ Panel {
                   spacing: Style.space(5)
 
                   Row {
+                    width: parent.width
                     spacing: Style.space(6)
+
                     Rectangle {
                       anchors.verticalCenter: parent.verticalCenter
                       width: Style.space(6)
@@ -1452,11 +1461,33 @@ Panel {
                       color: root.accentColor
                     }
                     Text {
+                      anchors.verticalCenter: parent.verticalCenter
                       text: "Hidden Core · Nuclear Hexagram (互卦 · Hù Guà)"
                       color: root.accentColor
                       font.family: root.fontFamily
                       font.pixelSize: Style.space(11)
                       font.bold: true
+                    }
+                    BorderSurface {
+                      anchors.verticalCenter: parent.verticalCenter
+                      visible: !!(root.consultation && root.consultation.primary && root.consultation.primary.nuclear && root.consultation.primary.nuclear.rootGate)
+                      implicitHeight: Style.space(18)
+                      implicitWidth: pGateText.implicitWidth + Style.space(12)
+                      radius: Style.space(4)
+                      color: Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.12)
+                      borderSpec: Border.flat(Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.35), 1)
+
+                      Text {
+                        id: pGateText
+                        anchors.centerIn: parent
+                        text: root.consultation && root.consultation.primary && root.consultation.primary.nuclear && root.consultation.primary.nuclear.rootGate
+                          ? root.consultation.primary.nuclear.rootGate.name
+                          : ""
+                        color: root.accentColor
+                        font.family: root.fontFamily
+                        font.pixelSize: Style.space(9)
+                        font.bold: true
+                      }
                     }
                   }
 
@@ -2182,6 +2213,91 @@ Panel {
                 }
               }
 
+              // Nuclear Transition Card (X -> Y Matrix)
+              BorderSurface {
+                width: parent.width
+                visible: !!(root.consultation && root.consultation.nuclearTransition)
+                implicitHeight: nTransCol.implicitHeight + Style.space(16)
+                color: Qt.rgba(0, 0, 0, 0.28)
+                radius: Style.cornerRadius
+                borderSpec: Border.flat(Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.35), 1)
+
+                Column {
+                  id: nTransCol
+                  width: parent.width - Style.space(16)
+                  anchors.centerIn: parent
+                  spacing: Style.space(5)
+
+                  Row {
+                    width: parent.width
+                    spacing: Style.space(6)
+
+                    Rectangle {
+                      anchors.verticalCenter: parent.verticalCenter
+                      width: Style.space(6)
+                      height: Style.space(6)
+                      radius: Style.space(3)
+                      color: root.changingLineColor
+                    }
+
+                    Text {
+                      anchors.verticalCenter: parent.verticalCenter
+                      text: "Interior Core Transition (X ➔ Y Engine Matrix)"
+                      color: root.changingLineColor
+                      font.family: root.fontFamily
+                      font.pixelSize: Style.space(11)
+                      font.bold: true
+                    }
+
+                    BorderSurface {
+                      anchors.verticalCenter: parent.verticalCenter
+                      visible: !!(root.consultation && root.consultation.nuclearTransition)
+                      implicitHeight: Style.space(18)
+                      implicitWidth: transLvlText.implicitWidth + Style.space(12)
+                      radius: Style.space(4)
+                      color: Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.15)
+                      borderSpec: Border.flat(Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.4), 1)
+
+                      Text {
+                        id: transLvlText
+                        anchors.centerIn: parent
+                        text: root.consultation && root.consultation.nuclearTransition
+                          ? root.consultation.nuclearTransition.badge
+                          : ""
+                        color: root.changingLineColor
+                        font.family: root.fontFamily
+                        font.pixelSize: Style.space(9)
+                        font.bold: true
+                      }
+                    }
+                  }
+
+                  Text {
+                    width: parent.width
+                    text: root.consultation && root.consultation.nuclearTransition
+                      ? root.consultation.nuclearTransition.headline
+                      : ""
+                    color: root.foreground
+                    font.family: root.fontFamily
+                    font.pixelSize: Style.space(12)
+                    font.bold: true
+                    wrapMode: Text.WordWrap
+                  }
+
+                  Text {
+                    width: parent.width
+                    text: root.consultation && root.consultation.nuclearTransition
+                      ? root.consultation.nuclearTransition.description
+                      : ""
+                    color: root.mutedColor
+                    font.family: root.fontFamily
+                    font.pixelSize: Style.font.caption
+                    lineHeight: 1.3
+                    wrapMode: Text.WordWrap
+                  }
+                }
+              }
+
               // Nuclear Core Card (Hidden Core · 互卦)
               BorderSurface {
                 width: parent.width
@@ -2197,7 +2313,9 @@ Panel {
                   spacing: Style.space(5)
 
                   Row {
+                    width: parent.width
                     spacing: Style.space(6)
+
                     Rectangle {
                       anchors.verticalCenter: parent.verticalCenter
                       width: Style.space(6)
@@ -2205,12 +2323,36 @@ Panel {
                       radius: Style.space(3)
                       color: root.changingLineColor
                     }
+
                     Text {
+                      anchors.verticalCenter: parent.verticalCenter
                       text: "Nuclear Core (Hidden Core · 互卦 · Hù Guà)"
                       color: root.changingLineColor
                       font.family: root.fontFamily
                       font.pixelSize: Style.space(11)
                       font.bold: true
+                    }
+
+                    BorderSurface {
+                      anchors.verticalCenter: parent.verticalCenter
+                      visible: !!(root.consultation && root.consultation.transformed && root.consultation.transformed.nuclear && root.consultation.transformed.nuclear.rootGate)
+                      implicitHeight: Style.space(18)
+                      implicitWidth: tGateText.implicitWidth + Style.space(12)
+                      radius: Style.space(4)
+                      color: Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.12)
+                      borderSpec: Border.flat(Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.35), 1)
+
+                      Text {
+                        id: tGateText
+                        anchors.centerIn: parent
+                        text: root.consultation && root.consultation.transformed && root.consultation.transformed.nuclear && root.consultation.transformed.nuclear.rootGate
+                          ? root.consultation.transformed.nuclear.rootGate.name
+                          : ""
+                        color: root.changingLineColor
+                        font.family: root.fontFamily
+                        font.pixelSize: Style.space(9)
+                        font.bold: true
+                      }
                     }
                   }
 

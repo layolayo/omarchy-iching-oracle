@@ -6369,9 +6369,10 @@ var LORE_SECTIONS = [
     subtitle: "Interior Engine, Subconscious Undercurrents & The 16 Core States",
     paragraphs: [
       "Every 6-line hexagram contains an interior core known as the Nuclear Hexagram (互卦, Hù Guà or 互體, Hù Tǐ). While the outer trigrams (lines 1–3 and 4–6) depict the visible surface circumstances, the nuclear trigrams look into the interior lines (lines 2–5) to reveal the latent psychological engine and hidden undercurrents of the situation.",
-      "The Lower Nuclear Trigram is formed by lines 2, 3, and 4. The Upper Nuclear Trigram is formed by lines 3, 4, and 5. Notice that lines 3 and 4 overlap, interlocking the two trigrams into an organic interior whole. Line 1 is merely the entry point, and Line 6 is the exit point; lines 2 through 5 represent the thick of human struggle and decision.",
-      "Canonical Pedigree:\nNuclear trigrams are not a modern invention. They are recorded in the Spring & Autumn chronicle Zuǒ Zhuàn (左傳, ~600 BCE), affirmed by Confucius in the Great Treatise (Dà Zhuàn, II, 9: 'The second and fourth lines share the same duty... they interlock to form mutual trigrams'), and codified by Han Dynasty scholar Zheng Xuan (127–200 CE).",
-      "The 16 Archetypes & 4 Primordial Roots:\nWhile there are 64 primary hexagrams, all 64 reduce to only 16 possible Nuclear Hexagrams. When those 16 are reduced again, they resolve into just 4 primordial root archetypes: #1 The Creative (Pure Yang), #2 The Receptive (Pure Yin), #63 After Completion (Water over Fire), and #64 Before Completion (Fire over Water)."
+      "The Lower Nuclear Trigram is formed by lines 2, 3, and 4. The Upper Nuclear Trigram is formed by lines 3, 4, and 5. Lines 3 and 4 overlap, interlocking the two trigrams into an organic interior whole. Line 1 is the entry threshold, and Line 6 is the exit threshold; lines 2 through 5 represent the thick of human struggle, choice, and gestation.",
+      "Canonical Pedigree:\nRecorded in the Spring & Autumn chronicle Zuǒ Zhuàn (左傳, ~600 BCE), confirmed by Confucius in the Great Treatise (Dà Zhuàn, II.9: 'The second and fourth lines share the same duty... they interlock to form mutual trigrams'), and codified by Han Dynasty scholar Zheng Xuan (127–200 CE).",
+      "The 4 Primordial Root Gates (The Four Cosmic Pillars):\nAll 64 hexagrams collapse into exactly 16 Nuclear Hexagrams, which in turn resolve into 4 Primordial Root Gates determined strictly by the central human axis (Lines 3 & 4):\n• Gate I: The Creative (乾 · Lines 3 & 4 Yang) — Pure Spirit & Initiative\n• Gate II: The Receptive (坤 · Lines 3 & 4 Yin) — Pure Void & Devotional Vessel\n• Gate III: After Completion (既濟 · Line 3 Yang, Line 4 Yin) — Peak Order & Dynamic Equilibrium\n• Gate IV: Before Completion (未濟 · Line 3 Yin, Line 4 Yang) — Eternal Becoming & Potential",
+      "The Three Levels of Changing Line Impact on the Core (X ➔ Y):\n• Level 1 (Lines 1 or 6 change): Surface Shift Only (X = Y). Outer circumstances change, but the interior nuclear engine remains completely constant.\n• Level 2 (Lines 2 or 5 change): Interior Realignment. The nuclear engine shifts (X ➔ Y), but remains anchored within the same Primordial Root Gate.\n• Level 3 (Lines 3 or 4 change): Deep Metamorphosis. The central human heart mutates, causing a seismic leap from one Primordial Root Gate to another (Gate A ➔ Gate B)."
     ]
   },
   {
@@ -6620,6 +6621,65 @@ function getHexagramByNumber(num) {
   return null;
 }
 
+function getRootGate(hex) {
+  if (!hex || !hex.lines || hex.lines.length !== 6) return null;
+  var l3 = hex.lines[2];
+  var l4 = hex.lines[3];
+  if (l3 === 1 && l4 === 1) {
+    return {
+      gate: 1,
+      id: "creative",
+      name: "Gate I · The Creative (乾 · Qián)",
+      chinese: "乾",
+      pinyin: "Qián",
+      english: "The Creative",
+      hexNumber: 1,
+      unicode: "䷀",
+      theme: "Pure Yang · Creative Initiative & Spiritual Light",
+      color: "#38bdf8"
+    };
+  } else if (l3 === 0 && l4 === 0) {
+    return {
+      gate: 2,
+      id: "receptive",
+      name: "Gate II · The Receptive (坤 · Kūn)",
+      chinese: "坤",
+      pinyin: "Kūn",
+      english: "The Receptive",
+      hexNumber: 2,
+      unicode: "䷁",
+      theme: "Pure Yin · Ground of Devotion & Fertile Vessel",
+      color: "#c084fc"
+    };
+  } else if (l3 === 1 && l4 === 0) {
+    return {
+      gate: 3,
+      id: "after_completion",
+      name: "Gate III · After Completion (既濟 · Jì Jì)",
+      chinese: "既濟",
+      pinyin: "Jì Jì",
+      english: "After Completion",
+      hexNumber: 63,
+      unicode: "䷾",
+      theme: "Water over Fire · Dynamic Equilibrium & Peak of Order",
+      color: "#34d399"
+    };
+  } else {
+    return {
+      gate: 4,
+      id: "before_completion",
+      name: "Gate IV · Before Completion (未濟 · Wèi Jì)",
+      chinese: "未濟",
+      pinyin: "Wèi Jì",
+      english: "Before Completion",
+      hexNumber: 64,
+      unicode: "䷿",
+      theme: "Fire over Water · Eternal Becoming & Creative Potential",
+      color: "#f59e0b"
+    };
+  }
+}
+
 function getNuclearHexagram(hex) {
   if (!hex || !hex.lines || hex.lines.length !== 6) return null;
   var lowerBits = [hex.lines[1], hex.lines[2], hex.lines[3]]; // lines 2, 3, 4
@@ -6628,15 +6688,80 @@ function getNuclearHexagram(hex) {
   var nHex = getHexagramByBits(nuclearBits);
   var lowerTrigram = getTrigramByBits(lowerBits);
   var upperTrigram = getTrigramByBits(upperBits);
+  var rootGate = getRootGate(hex);
   return {
     hexagram: nHex,
     upperTrigram: upperTrigram,
-    lowerTrigram: lowerTrigram
+    lowerTrigram: lowerTrigram,
+    rootGate: rootGate
   };
 }
 
 for (var _nxi = 0; _nxi < HEXAGRAMS.length; _nxi++) {
   HEXAGRAMS[_nxi].nuclear = getNuclearHexagram(HEXAGRAMS[_nxi]);
+  HEXAGRAMS[_nxi].rootGate = getRootGate(HEXAGRAMS[_nxi]);
+}
+
+function getNuclearTransition(primaryHex, changedHex, changingLines) {
+  if (!primaryHex || !changedHex || !changingLines || changingLines.length === 0) {
+    return null;
+  }
+  var pN = primaryHex.nuclear;
+  var tN = changedHex.nuclear;
+  if (!pN || !tN || !pN.rootGate || !tN.rootGate) return null;
+
+  var pGate = pN.rootGate;
+  var tGate = tN.rootGate;
+
+  var hasHumanShift = false;
+  var hasInteriorShift = false;
+  for (var c = 0; c < changingLines.length; c++) {
+    var ln = changingLines[c];
+    if (ln === 3 || ln === 4) hasHumanShift = true;
+    if (ln === 2 || ln === 5) hasInteriorShift = true;
+  }
+  var hasOuterOnly = !hasHumanShift && !hasInteriorShift; // only lines 1 and/or 6
+
+  if (hasOuterOnly) {
+    return {
+      level: 1,
+      type: "static",
+      badge: "Level 1: Surface Shift (Unchanging Core)",
+      headline: "The exterior circumstance shifts, but the interior engine remains constant.",
+      description: "Changing lines occurred solely on outer thresholds (Line 1 entry or Line 6 exit). While the visible situation transforms into #" + changedHex.number + " " + changedHex.english + ", your subconscious orientation and hidden motives remain anchored in #" + pN.hexagram.number + " " + pN.hexagram.english + " (" + pGate.name + ").",
+      fromHex: pN.hexagram,
+      toHex: tN.hexagram,
+      fromGate: pGate,
+      toGate: tGate,
+      isIdentical: true
+    };
+  } else if (!hasHumanShift && hasInteriorShift) {
+    return {
+      level: 2,
+      type: "realigned",
+      badge: "Level 2: Interior Realignment (Steady Gate)",
+      headline: "The core engine adapts its approach within the same cosmic root (" + pGate.name + ").",
+      description: "Changing lines touched line 2 or line 5, evolving your hidden psychological current from #" + pN.hexagram.number + " " + pN.hexagram.english + " into #" + tN.hexagram.number + " " + tN.hexagram.english + ". However, the central human axis (lines 3 & 4) held firm, preserving your deep foundation in " + pGate.theme + ".",
+      fromHex: pN.hexagram,
+      toHex: tN.hexagram,
+      fromGate: pGate,
+      toGate: tGate,
+      isIdentical: false
+    };
+  } else {
+    return {
+      level: 3,
+      type: "metamorphosis",
+      badge: "Level 3: Deep Metamorphosis (Root Gate Shift)",
+      headline: "A tectonic shift in the human heart (Lines 3/4): " + pGate.name + " ➔ " + tGate.name + ".",
+      description: "Changing lines struck the central overlapping axis of human choice (Lines 3 and/or 4). This fundamentally transforms not just your approach, but your entire psychological foundation from #" + pN.hexagram.number + " " + pN.hexagram.english + " (" + pGate.chinese + ") into #" + tN.hexagram.number + " " + tN.hexagram.english + " (" + tGate.chinese + ")—a profound spiritual and character evolution.",
+      fromHex: pN.hexagram,
+      toHex: tN.hexagram,
+      fromGate: pGate,
+      toGate: tGate,
+      isIdentical: false
+    };
+  }
 }
 
 function resolveConsultation(lines) {
@@ -6661,12 +6786,14 @@ function resolveConsultation(lines) {
 
   if (primaryHex) {
     primaryHex.nuclear = getNuclearHexagram(primaryHex);
+    primaryHex.rootGate = getRootGate(primaryHex);
   }
 
   if (primaryHex && changingLineNumbers.length > 0) {
     changedHex = getHexagramByBits(changedBits);
     if (changedHex) {
       changedHex.nuclear = getNuclearHexagram(changedHex);
+      changedHex.rootGate = getRootGate(changedHex);
     }
     for (var k = 0; k < changingLineNumbers.length; k++) {
       var lNum = changingLineNumbers[k];
@@ -6682,12 +6809,18 @@ function resolveConsultation(lines) {
     }
   }
 
+  var nuclearTransition = null;
+  if (primaryHex && changedHex) {
+    nuclearTransition = getNuclearTransition(primaryHex, changedHex, changingLineNumbers);
+  }
+
   return {
     primary: primaryHex,
     transformed: changedHex,
     hasChangingLines: changingLineNumbers.length > 0,
     changingLines: changingLineNumbers,
     changingLineDetails: changingLineDetails,
+    nuclearTransition: nuclearTransition,
     lines: lines
   };
 }
