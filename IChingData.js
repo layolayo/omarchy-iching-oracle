@@ -6338,37 +6338,71 @@ var TRIGRAMS = {
   }
 };
 
+var LORE_SECTIONS = [
+  {
+    id: "ritual",
+    icon: "🌿",
+    title: "1. The 18-Step Yarrow Stalk Ritual",
+    subtitle: "The Ancient Origin, Zhu Xi (1186 CE) & The Great Treatise",
+    paragraphs: [
+      "The stalk ritual first appeared in the Han-era Great Treatise (繫辭傳, Dà Zhuàn): 'The numbers of the Great Expansion are fifty; of these we use forty-nine.' For centuries, the exact physical sorting ritual was handed down through oral tradition until Song Dynasty philosopher Zhu Xi (朱熹, 1130–1200 CE) standardized the 3-pass algorithm in his 1186 CE manual Yixue Qimeng (易學啟蒙).",
+      "In this ceremony, 49 stalks are split blindly between the left and right hands (symbolizing Heaven and Earth). One stalk is placed between the fingers (symbolizing humanity), and each hand's stalks are sorted away in groups of four (symbolizing the four seasons). Repeating this three times generates the final remainder (6, 7, 8, or 9) for a single line.",
+      "Repeating this 18-step procedure six times from the bottom up produces the full hexagram. It is a slow, meditative practice requiring 15 to 20 minutes of quiet, deliberate concentration."
+    ]
+  },
+  {
+    id: "math",
+    icon: "🔮",
+    title: "2. Mathematical Asymmetry & The 38-Marble Model",
+    subtitle: "Martin Gardner (1974), Andrew Kennedy (2006) & Physical Hands",
+    paragraphs: [
+      "Because hand-sorting 49 stalks 18 times takes 15 to 20 minutes, Western popularizers introduced flipping three coins. But in 1974, famed mathematician Martin Gardner proved in Scientific American that coins distort the oracle. Coin tossing gives equal 12.5% chances for both changing lines (Old Yang and Old Yin). In authentic Taoist philosophy, this is fundamentally wrong: Yang (creative initiative, fire) is restless and quick to burn out and transform; while Yin (earth, silence, receptivity) is heavy and slow to alter course.",
+      "In 2006, researcher Andrew Kennedy ('Briefing Leaders: A new look at the I Ching') observed that Gardner's chalkboard math assumed theoretical numbers dividing into quarters. But real human hands cannot divide stalks with zero on either side: when splitting 49 stalks into left and right hands, neither hand can ever be empty, and removing 1 stalk to tuck between fingers leaves the right hand with at least 2. This yields 47 possible physical splits on pass 1—a prime number that does not divide cleanly into quarters!",
+      "The classical 32-marble bag had chalkboard errors of up to 2.4% on every single line. In contrast, when calculating the exact probability of physical hand divisions, a 38-marble pouch matches authentic yarrow stalks to within 0.09%—the #1 most accurate integer model in existence.",
+      "The Sacred 38-Marble Pouch:\n• 17 Pure Black Marbles = Young Yin (8) [44.74%]\n• 11 Pure White Marbles = Young Yang (7) [28.95%]\n• 8 White with Black Specks = Old Yang (9) [21.05% · Changing]\n• 2 Black with White Specks = Old Yin (6) [5.26% · Changing]"
+    ]
+  },
+  {
+    id: "nuclear",
+    icon: "⚛",
+    title: "3. Nuclear Trigrams & Latent Archetypes (互卦 · Hù Guà)",
+    subtitle: "Interior Engine, Subconscious Undercurrents & The 16 Core States",
+    paragraphs: [
+      "Every 6-line hexagram contains an interior core known as the Nuclear Hexagram (互卦, Hù Guà or 互體, Hù Tǐ). While the outer trigrams (lines 1–3 and 4–6) depict the visible surface circumstances, the nuclear trigrams look into the interior lines (lines 2–5) to reveal the latent psychological engine and hidden undercurrents of the situation.",
+      "The Lower Nuclear Trigram is formed by lines 2, 3, and 4. The Upper Nuclear Trigram is formed by lines 3, 4, and 5. Notice that lines 3 and 4 overlap, interlocking the two trigrams into an organic interior whole. Line 1 is merely the entry point, and Line 6 is the exit point; lines 2 through 5 represent the thick of human struggle and decision.",
+      "Canonical Pedigree:\nNuclear trigrams are not a modern invention. They are recorded in the Spring & Autumn chronicle Zuǒ Zhuàn (左傳, ~600 BCE), affirmed by Confucius in the Great Treatise (Dà Zhuàn, II, 9: 'The second and fourth lines share the same duty... they interlock to form mutual trigrams'), and codified by Han Dynasty scholar Zheng Xuan (127–200 CE).",
+      "The 16 Archetypes & 4 Primordial Roots:\nWhile there are 64 primary hexagrams, all 64 reduce to only 16 possible Nuclear Hexagrams. When those 16 are reduced again, they resolve into just 4 primordial root archetypes: #1 The Creative (Pure Yang), #2 The Receptive (Pure Yin), #63 After Completion (Water over Fire), and #64 Before Completion (Fire over Water)."
+    ]
+  },
+  {
+    id: "protocol",
+    icon: "🧘",
+    title: "4. Consultation Protocol & Mindset",
+    subtitle: "Sincerity of Intent (Chéng, 誠), Open Framing & Hexagram 4",
+    paragraphs: [
+      "Sincerity of Intent (誠, Chéng):\nThe Great Treatise teaches: 'In stillness it is without thought, tranquil and unmoving; when stirred, it penetrates all under heaven.' Approach the oracle with a quiet, centered mind, free of distraction or cynical testing.",
+      "Hold the Question Throughout:\nMaintain uninterrupted mental focus on your inquiry as each line is drawn or calculated from the bottom up.",
+      "How to Frame an Inquiry:\nAsk open-ended questions about dynamics, inner attitudes, and wise counsel (e.g. 'What forces are at play in this endeavor?' or 'What mindset should I embody in this transition?') rather than fatalistic or trivial yes/no predictions.",
+      "The Sacred Rule of Hexagram 4 (Youthful Folly · 蒙):\n'The first consultation informs; asking repeatedly out of dissatisfaction is importunity' (初筮告，再三瀆，瀆則不告). Accept the oracle's counsel with an open heart. If you disagree with an answer, do not immediately re-cast the same question; meditate on why that reflection was offered."
+    ]
+  },
+  {
+    id: "wilhelm",
+    icon: "📜",
+    title: "5. The Wilhelm / Baynes Benchmark Translation",
+    subtitle: "The Bollingen Series XIX, C.G. Jung's Foreword & Psychological Depth",
+    paragraphs: [
+      "The judgments, images, line texts (爻辭, Yáo Cí), and structural commentaries in this oracle are drawn from the Richard Wilhelm translation, translated from German into English by Cary F. Baynes with a celebrated foreword by psychologist C.G. Jung (Princeton University Press, Bollingen Series XIX).",
+      "Richard Wilhelm spent 25 years in China during the collapse of the Qing Dynasty, studying the Book of Changes under the guidance of venerable scholar Lao Naixuan. Wilhelm's mission was to capture not merely the archaic Chinese grammar, but the living psychological wisdom of the sages.",
+      "In his landmark foreword, C.G. Jung introduced the concept of synchronicity—meaningful coincidence not explained by linear causality—using the I-Ching as primary empirical evidence for how human consciousness resonates with the cosmic moment."
+    ]
+  }
+];
+
 var LORE = {
   title: "The Wisdom, Origin & Mathematics of the Yarrow Split",
   subtitle: "From Ancient Temple Rituals to Modern Probability: Why 38 Marbles Wins",
-  origin: {
-    title: "1. The Ancient Origin & Zhu Xi (1186 CE)",
-    body: "The stalk ritual first appeared in the Han-era Great Treatise (繫辭傳, Dazhuan): 'The numbers of the Great Expansion are fifty; of these we use forty-nine.' For centuries, the exact physical sorting ritual was handed down through oral tradition until Song Dynasty philosopher Zhu Xi (朱熹, 1130–1200 CE) preserved and standardized the 3-pass algorithm in his 1186 CE manual Yixue Qimeng (易學啟蒙). This 18-step hand-sorting method remains the revered gold standard."
-  },
-  coinsVsGardner: {
-    title: "2. The Flawed 3-Coin Shortcut & Gardner's Discovery (1974)",
-    body: "Because sorting stalks by hand 18 times takes 15 to 20 minutes, Westerners popularized flipping three coins. But in 1974, famed mathematician Martin Gardner proved in Scientific American that coins distort the oracle. Coins give equal 12.5% chances for both changing lines (Old Yang and Old Yin). In authentic Chinese philosophy, this is fundamentally wrong: Yang (creative energy, fire, initiative) is restless and quick to burn out and transform; while Yin (earth, silence, receptivity) is heavy and slow to alter course. Gardner worked out the first modern mathematical model of stalks, establishing a 16-part ratio where Yang changes three times faster than Yin (3/16 vs 1/16)."
-  },
-  kennedyPhysical: {
-    title: "3. Andrew Kennedy's Revised Yarrow Algorithm (2006)",
-    body: "In 2006, researcher Andrew Kennedy (author of 'Briefing Leaders: A new look at the I Ching and the Tao De Ching') observed a crucial detail: Gardner's 1974 math was idealized 'chalkboard theory'. Gardner assumed stalks behave like pure abstract numbers dividing evenly into quarters. But real human hands don't divide stalks on a chalkboard:\n\n• When you split 49 stalks into your left and right hands, neither hand can ever be empty.\n• You immediately remove one stalk from the right hand to tuck between your fingers—meaning the right hand must hold at least 2 stalks initially, or it would be left empty.\n• On the first pass, this leaves 47 possible physical split points. 47 is a prime number—it does not divide into clean quarters!\n• On subsequent passes, dividing 44, 40, 36, or 32 stalks introduces the same physical hand boundaries."
-  },
-  why38Wins: {
-    title: "4. Why 38 Marbles Replaces 32 (The Real Math)",
-    body: "Because physical hands cannot hold zero stalks, real-world yarrow probabilities subtly shift away from Gardner's chalkboard 16/32 model:\n\n• In the old 32-marble bag, line probabilities are off by as much as 2.4% on every single line (e.g., Young Yang is off by +2.38%, and Old Yang by -2.37%).\n• In contrast, when you calculate the exact probability of physical hand splits, the true odds match a pouch of 38 marbles to within less than a tenth of one percent (0.09%)!\n• Mathematical optimization across all possible pouch sizes from 10 to 100 marbles proves that 38 is the single most accurate integer model in existence.\n\n32 marbles was an abstract paper theory; 38 marbles is what yarrow stalks actually do in human hands."
-  },
-  the38Bag: {
-    title: "5. The Sacred 38-Marble Pouch",
-    body: "To consult the oracle with 100% fidelity to physical yarrow stalks without the 15-minute arithmetic:\n\n• 17 Pure Black Marbles = Young Yin (8) [44.74%]\n• 11 Pure White Marbles = Young Yang (7) [28.95%]\n• 8 White with Black Specks = Old Yang (9) [21.05% · Changing to Yin]\n• 2 Black with White Specks = Old Yin (6) [5.26% · Changing to Yang]\n\nDraw one marble blindly, note the line, return it to the pouch, and repeat 6 times from the bottom up."
-  },
-  hexagrams: {
-    title: "6. Present (Běn Guà) vs Future (Zhī Guà)",
-    body: "The first hexagram (本卦, Běn Guà) portrays the present state. Any line cast as 6 or 9 is at its energetic extreme, actively transforming into its opposite. These changing lines bridge the present into the relating hexagram (之卦, Zhī Guà), revealing the emerging future landscape if present momentum continues."
-  },
-  translation: {
-    title: "7. Classical Translation & Commentary (Wilhelm / Baynes)",
-    body: "The judgments, images, line texts (爻辭, Yáo Cí), and commentaries in this oracle are drawn from the Richard Wilhelm translation, translated from German into English by Cary F. Baynes with a foreword by C.G. Jung (Princeton University Press, Bollingen Series XIX). First published in English in 1950, this edition remains the international gold standard for scholarly fidelity and psychological depth."
-  }
+  sections: LORE_SECTIONS
 };
 
 // Divination methods: 'marbles' (38-marble sacred pouch) | 'yarrow' (49 stalks)
@@ -6586,6 +6620,25 @@ function getHexagramByNumber(num) {
   return null;
 }
 
+function getNuclearHexagram(hex) {
+  if (!hex || !hex.lines || hex.lines.length !== 6) return null;
+  var lowerBits = [hex.lines[1], hex.lines[2], hex.lines[3]]; // lines 2, 3, 4
+  var upperBits = [hex.lines[2], hex.lines[3], hex.lines[4]]; // lines 3, 4, 5
+  var nuclearBits = [hex.lines[1], hex.lines[2], hex.lines[3], hex.lines[2], hex.lines[3], hex.lines[4]];
+  var nHex = getHexagramByBits(nuclearBits);
+  var lowerTrigram = getTrigramByBits(lowerBits);
+  var upperTrigram = getTrigramByBits(upperBits);
+  return {
+    hexagram: nHex,
+    upperTrigram: upperTrigram,
+    lowerTrigram: lowerTrigram
+  };
+}
+
+for (var _nxi = 0; _nxi < HEXAGRAMS.length; _nxi++) {
+  HEXAGRAMS[_nxi].nuclear = getNuclearHexagram(HEXAGRAMS[_nxi]);
+}
+
 function resolveConsultation(lines) {
   if (!lines || lines.length !== 6) return null;
   
@@ -6606,8 +6659,15 @@ function resolveConsultation(lines) {
   var changedHex = null;
   var changingLineDetails = [];
 
+  if (primaryHex) {
+    primaryHex.nuclear = getNuclearHexagram(primaryHex);
+  }
+
   if (primaryHex && changingLineNumbers.length > 0) {
     changedHex = getHexagramByBits(changedBits);
+    if (changedHex) {
+      changedHex.nuclear = getNuclearHexagram(changedHex);
+    }
     for (var k = 0; k < changingLineNumbers.length; k++) {
       var lNum = changingLineNumbers[k];
       if (primaryHex.lineTexts && primaryHex.lineTexts[lNum - 1]) {

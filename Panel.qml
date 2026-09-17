@@ -16,7 +16,8 @@ Panel {
   property string method: "marbles" // "marbles" (38 marbles) or "yarrow"
   property string activeTab: "chamber" // "chamber", "reading", "lore"
   property string readingStage: "present" // "present", "lines", "future"
-  property string hexAspect: "judgment" // "judgment", "image", "structure", "overview"
+  property string hexAspect: "judgment" // "judgment", "image", "structure"
+  property string loreSection: "ritual" // "ritual", "math", "nuclear", "protocol", "wilhelm"
   property var castLines: []
   property var consultation: null
   property var latestLine: null
@@ -112,6 +113,11 @@ Panel {
     if (p.imageCommentary) {
       text += "\nWilhelm Commentary on the Image:\n" + p.imageCommentary + "\n"
     }
+    if (p.nuclear) {
+      text += "\nNuclear Hexagram (Hidden Core · 互卦): #" + p.nuclear.hexagram.number + " " + p.nuclear.hexagram.chinese + " (" + p.nuclear.hexagram.pinyin + ") — " + p.nuclear.hexagram.english + " " + p.nuclear.hexagram.unicode + "\n"
+      text += "Nuclear Trigrams: " + p.nuclear.upperTrigram.name + " (" + p.nuclear.upperTrigram.symbol + ") above " + p.nuclear.lowerTrigram.name + " (" + p.nuclear.lowerTrigram.symbol + ")\n"
+      text += "Nuclear Judgment: " + p.nuclear.hexagram.judgment + "\n"
+    }
     text += "\n"
 
     if (consultation.hasChangingLines) {
@@ -150,6 +156,11 @@ Panel {
         if (t.imageCommentary) {
           text += "\nWilhelm Commentary on the Image:\n" + t.imageCommentary + "\n"
         }
+        if (t.nuclear) {
+          text += "\nNuclear Hexagram (Hidden Core · 互卦): #" + t.nuclear.hexagram.number + " " + t.nuclear.hexagram.chinese + " (" + t.nuclear.hexagram.pinyin + ") — " + t.nuclear.hexagram.english + " " + t.nuclear.hexagram.unicode + "\n"
+          text += "Nuclear Trigrams: " + t.nuclear.upperTrigram.name + " (" + t.nuclear.upperTrigram.symbol + ") above " + t.nuclear.lowerTrigram.name + " (" + t.nuclear.lowerTrigram.symbol + ")\n"
+          text += "Nuclear Judgment: " + t.nuclear.hexagram.judgment + "\n"
+        }
         text += "\n"
       }
     }
@@ -169,6 +180,33 @@ Panel {
       return castLines[index]
     }
     return null
+  }
+
+  function getLoreSectionTitle() {
+    for (var i = 0; i < IChingData.LORE_SECTIONS.length; i++) {
+      if (IChingData.LORE_SECTIONS[i].id === root.loreSection) {
+        return IChingData.LORE_SECTIONS[i].title
+      }
+    }
+    return IChingData.LORE_SECTIONS[0].title
+  }
+
+  function getLoreSectionSubtitle() {
+    for (var i = 0; i < IChingData.LORE_SECTIONS.length; i++) {
+      if (IChingData.LORE_SECTIONS[i].id === root.loreSection) {
+        return IChingData.LORE_SECTIONS[i].subtitle
+      }
+    }
+    return IChingData.LORE_SECTIONS[0].subtitle
+  }
+
+  function getLoreSectionParagraphs() {
+    for (var i = 0; i < IChingData.LORE_SECTIONS.length; i++) {
+      if (IChingData.LORE_SECTIONS[i].id === root.loreSection) {
+        return IChingData.LORE_SECTIONS[i].paragraphs
+      }
+    }
+    return IChingData.LORE_SECTIONS[0].paragraphs
   }
 
   IpcHandler {
@@ -1390,6 +1428,105 @@ Panel {
                 }
               }
 
+              // Nuclear Core (Hù Guà / 互卦)
+              BorderSurface {
+                width: parent.width
+                implicitHeight: pNuclearCol.implicitHeight + Style.space(16)
+                color: Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.05)
+                radius: Style.cornerRadius
+                borderSpec: Border.flat(Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.25), 1)
+
+                Column {
+                  id: pNuclearCol
+                  width: parent.width - Style.space(20)
+                  anchors.centerIn: parent
+                  spacing: Style.space(5)
+
+                  Row {
+                    spacing: Style.space(6)
+                    Rectangle {
+                      anchors.verticalCenter: parent.verticalCenter
+                      width: Style.space(6)
+                      height: Style.space(6)
+                      radius: Style.space(3)
+                      color: root.accentColor
+                    }
+                    Text {
+                      text: "Hidden Core · Nuclear Hexagram (互卦 · Hù Guà)"
+                      color: root.accentColor
+                      font.family: root.fontFamily
+                      font.pixelSize: Style.space(11)
+                      font.bold: true
+                    }
+                  }
+
+                  Text {
+                    width: parent.width
+                    text: "Latent interior engine & psychological undercurrent gestating inside lines 2–5:"
+                    color: root.mutedColor
+                    font.family: root.fontFamily
+                    font.pixelSize: Style.space(10)
+                    font.italic: true
+                    wrapMode: Text.WordWrap
+                  }
+
+                  Row {
+                    width: parent.width
+                    spacing: Style.space(10)
+
+                    Text {
+                      anchors.verticalCenter: parent.verticalCenter
+                      text: root.consultation && root.consultation.primary && root.consultation.primary.nuclear
+                        ? root.consultation.primary.nuclear.hexagram.unicode
+                        : ""
+                      font.pixelSize: Style.space(28)
+                      color: root.accentColor
+                    }
+
+                    Column {
+                      anchors.verticalCenter: parent.verticalCenter
+                      width: parent.width - Style.space(42)
+                      spacing: Style.space(1)
+
+                      Text {
+                        width: parent.width
+                        text: root.consultation && root.consultation.primary && root.consultation.primary.nuclear
+                          ? ("#" + root.consultation.primary.nuclear.hexagram.number + " " + root.consultation.primary.nuclear.hexagram.english + " · " + root.consultation.primary.nuclear.hexagram.chinese + " (" + root.consultation.primary.nuclear.hexagram.pinyin + ")")
+                          : ""
+                        color: root.foreground
+                        font.family: root.fontFamily
+                        font.pixelSize: Style.space(12)
+                        font.bold: true
+                        wrapMode: Text.WordWrap
+                      }
+
+                      Text {
+                        width: parent.width
+                        text: root.consultation && root.consultation.primary && root.consultation.primary.nuclear
+                          ? ("Upper Core (3–5): " + root.consultation.primary.nuclear.upperTrigram.symbol + " " + root.consultation.primary.nuclear.upperTrigram.name + " (" + root.consultation.primary.nuclear.upperTrigram.nature + ")  •  Lower Core (2–4): " + root.consultation.primary.nuclear.lowerTrigram.symbol + " " + root.consultation.primary.nuclear.lowerTrigram.name + " (" + root.consultation.primary.nuclear.lowerTrigram.nature + ")")
+                          : ""
+                        color: root.mutedColor
+                        font.family: root.fontFamily
+                        font.pixelSize: Style.space(10)
+                        wrapMode: Text.WordWrap
+                      }
+                    }
+                  }
+
+                  Text {
+                    width: parent.width
+                    text: root.consultation && root.consultation.primary && root.consultation.primary.nuclear
+                      ? root.consultation.primary.nuclear.hexagram.judgment
+                      : ""
+                    color: root.foreground
+                    font.family: root.fontFamily
+                    font.pixelSize: Style.font.caption
+                    lineHeight: 1.25
+                    wrapMode: Text.WordWrap
+                  }
+                }
+              }
+
               // Wilhelm Structural Dynamics
               Column {
                 width: parent.width
@@ -2045,6 +2182,105 @@ Panel {
                 }
               }
 
+              // Nuclear Core Card (Hidden Core · 互卦)
+              BorderSurface {
+                width: parent.width
+                implicitHeight: tNuclearCol.implicitHeight + Style.space(16)
+                color: Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.06)
+                radius: Style.cornerRadius
+                borderSpec: Border.flat(Qt.rgba(root.changingLineColor.r, root.changingLineColor.g, root.changingLineColor.b, 0.25), 1)
+
+                Column {
+                  id: tNuclearCol
+                  width: parent.width - Style.space(16)
+                  anchors.centerIn: parent
+                  spacing: Style.space(5)
+
+                  Row {
+                    spacing: Style.space(6)
+                    Rectangle {
+                      anchors.verticalCenter: parent.verticalCenter
+                      width: Style.space(6)
+                      height: Style.space(6)
+                      radius: Style.space(3)
+                      color: root.changingLineColor
+                    }
+                    Text {
+                      text: "Nuclear Core (Hidden Core · 互卦 · Hù Guà)"
+                      color: root.changingLineColor
+                      font.family: root.fontFamily
+                      font.pixelSize: Style.space(11)
+                      font.bold: true
+                    }
+                  }
+
+                  Text {
+                    width: parent.width
+                    text: "Latent interior engine & psychological undercurrent gestating inside lines 2–5:"
+                    color: root.mutedColor
+                    font.family: root.fontFamily
+                    font.pixelSize: Style.space(10)
+                    font.italic: true
+                    wrapMode: Text.WordWrap
+                  }
+
+                  Row {
+                    width: parent.width
+                    spacing: Style.space(10)
+
+                    Text {
+                      anchors.verticalCenter: parent.verticalCenter
+                      text: root.consultation && root.consultation.transformed && root.consultation.transformed.nuclear
+                        ? root.consultation.transformed.nuclear.hexagram.unicode
+                        : ""
+                      font.pixelSize: Style.space(28)
+                      color: root.changingLineColor
+                    }
+
+                    Column {
+                      anchors.verticalCenter: parent.verticalCenter
+                      width: parent.width - Style.space(42)
+                      spacing: Style.space(1)
+
+                      Text {
+                        width: parent.width
+                        text: root.consultation && root.consultation.transformed && root.consultation.transformed.nuclear
+                          ? ("#" + root.consultation.transformed.nuclear.hexagram.number + " " + root.consultation.transformed.nuclear.hexagram.english + " · " + root.consultation.transformed.nuclear.hexagram.chinese + " (" + root.consultation.transformed.nuclear.hexagram.pinyin + ")")
+                          : ""
+                        color: root.foreground
+                        font.family: root.fontFamily
+                        font.pixelSize: Style.space(12)
+                        font.bold: true
+                        wrapMode: Text.WordWrap
+                      }
+
+                      Text {
+                        width: parent.width
+                        text: root.consultation && root.consultation.transformed && root.consultation.transformed.nuclear
+                          ? ("Upper Core (3–5): " + root.consultation.transformed.nuclear.upperTrigram.symbol + " " + root.consultation.transformed.nuclear.upperTrigram.name + " (" + root.consultation.transformed.nuclear.upperTrigram.nature + ")  •  Lower Core (2–4): " + root.consultation.transformed.nuclear.lowerTrigram.symbol + " " + root.consultation.transformed.nuclear.lowerTrigram.name + " (" + root.consultation.transformed.nuclear.lowerTrigram.nature + ")")
+                          : ""
+                        color: root.mutedColor
+                        font.family: root.fontFamily
+                        font.pixelSize: Style.space(10)
+                        wrapMode: Text.WordWrap
+                      }
+                    }
+                  }
+
+                  Text {
+                    width: parent.width
+                    text: root.consultation && root.consultation.transformed && root.consultation.transformed.nuclear
+                      ? root.consultation.transformed.nuclear.hexagram.judgment
+                      : ""
+                    color: root.foreground
+                    font.family: root.fontFamily
+                    font.pixelSize: Style.font.caption
+                    lineHeight: 1.25
+                    wrapMode: Text.WordWrap
+                  }
+                }
+              }
+
               // Wilhelm Structural Dynamics
               Column {
                 width: parent.width
@@ -2135,28 +2371,122 @@ Panel {
             id: loreCol
             width: parent.width - Style.space(24)
             anchors.centerIn: parent
-            spacing: Style.space(12)
+            spacing: Style.space(10)
 
-            Text {
-              text: "☯ Origin, Mathematics & Philosophy"
-              color: root.accentColor
-              font.family: root.fontFamily
-              font.pixelSize: Style.font.bodySmall
-              font.bold: true
+            // Lore Section Switcher Tabs (5 selectable sections)
+            Row {
+              width: parent.width
+              spacing: Style.space(4)
+
+              Button {
+                width: (parent.width - Style.space(16)) / 5
+                implicitHeight: Style.space(30)
+                text: "🌿 Ritual"
+                bordered: true
+                selected: root.loreSection === "ritual"
+                accent: root.accentColor
+                onClicked: root.loreSection = "ritual"
+              }
+
+              Button {
+                width: (parent.width - Style.space(16)) / 5
+                implicitHeight: Style.space(30)
+                text: "🔮 Math"
+                bordered: true
+                selected: root.loreSection === "math"
+                accent: root.accentColor
+                onClicked: root.loreSection = "math"
+              }
+
+              Button {
+                width: (parent.width - Style.space(16)) / 5
+                implicitHeight: Style.space(30)
+                text: "⚛ Nuclear"
+                bordered: true
+                selected: root.loreSection === "nuclear"
+                accent: root.accentColor
+                onClicked: root.loreSection = "nuclear"
+              }
+
+              Button {
+                width: (parent.width - Style.space(16)) / 5
+                implicitHeight: Style.space(30)
+                text: "🧘 Mind"
+                bordered: true
+                selected: root.loreSection === "protocol"
+                accent: root.accentColor
+                onClicked: root.loreSection = "protocol"
+              }
+
+              Button {
+                width: (parent.width - Style.space(16)) / 5
+                implicitHeight: Style.space(30)
+                text: "📜 Wilhelm"
+                bordered: true
+                selected: root.loreSection === "wilhelm"
+                accent: root.accentColor
+                onClicked: root.loreSection = "wilhelm"
+              }
             }
 
-            Text {
+            // Lore Content Display Card
+            BorderSurface {
               width: parent.width
-              text: "• Zhu Xi (朱熹, 1186 CE):\nPreserved the authentic 18-step physical yarrow stalk algorithm in his manual 'Yixue Qimeng' from the ancient Han-era Great Treatise (Dazhuan).\n\n• Flawed 3-Coin Shortcut & Gardner (1974):\nWestern coin-tossing gives equal 12.5% chances to both changing lines. Martin Gardner showed in Scientific American that authentic yarrow division produces a dynamic asymmetry: restless Yang transforms 3 to 4 times more readily than Yin. Gardner's chalkboard math suggested a 16/32 ratio.\n\n• Andrew Kennedy's Revised Yarrow Algorithm (2006):\nGardner's math assumed theoretical numbers dividing into quarters. But real human hands cannot divide stalks with zero on either side: when splitting 49 stalks into left and right hands, neither hand can ever be empty, and removing 1 stalk to hold between fingers means the right hand must hold at least 2. Dividing 49 stalks with physical non-zero hands yields 47 possible physical splits—a prime number that doesn't divide cleanly into quarters.\n\n• Why 38 Marbles Replaces 32:\nThe classical 32-marble bag had chalkboard errors of up to 2.4% on every line. By contrast, a 38-marble pouch matches the exact physical hand division of yarrow stalks to within 0.09%—the #1 most accurate integer model in existence.\n\n• Sacred 38-Marble Pouch:\n  • 17 Pure Black = Young Yin (8) [44.7%]\n  • 11 Pure White = Young Yang (7) [28.9%]\n  • 8 White with Black Specks = Old Yang (9) [21.1% · Changing]\n  • 2 Black with White Specks = Old Yin (6) [5.3% · Changing]\n\n• Present vs Future:\nChanging lines (Old Yang ● and Old Yin ✕) indicate points of active transformation, evolving the Present Hexagram into the Future Relating Hexagram.\n\n• Classical Consultation Protocol (Mind, Intent & Hexagram 4):\n  - Sincerity of Intent (Chéng, 誠): The Great Treatise teaches: 'In stillness it is without thought, tranquil and unmoving; when stirred, it penetrates all under heaven.' Approach with a quiet, centered mind.\n  - Hold the Question Throughout: Maintain uninterrupted focus on your inquiry as each line is drawn from the bottom up.\n  - How to Frame an Inquiry: Ask open-ended questions about dynamics, counsel, and attitude (e.g. 'What forces are at play in this situation?' or 'How should I navigate this conflict?') rather than testing or trivial yes/no predictions.\n  - The Rule of Hexagram 4 (Youthful Folly): 'The first consultation informs; asking repeatedly out of dissatisfaction is importunity' (初筮告，再三瀆，瀆則不告). Accept the oracle's counsel with an open, meditative heart.\n\n• Classical Translation & Commentary (Wilhelm / Baynes):\nThe judgments, images, line texts (爻辭, Yáo Cí), and commentaries in this oracle are drawn from the Richard Wilhelm translation, translated from German into English by Cary F. Baynes with a foreword by C.G. Jung (Princeton University Press, Bollingen Series XIX). First published in English in 1950, this edition remains the international benchmark for both scholarly fidelity and psychological depth."
-              color: root.foreground
-              font.family: root.fontFamily
-              font.pixelSize: Style.font.caption
-              lineHeight: 1.25
-              wrapMode: Text.WordWrap
+              implicitHeight: loreContentCol.implicitHeight + Style.space(20)
+              color: Qt.rgba(0, 0, 0, 0.22)
+              radius: Style.cornerRadius
+              borderSpec: Border.flat(Qt.rgba(root.accentColor.r, root.accentColor.g, root.accentColor.b, 0.25), 1)
+
+              Column {
+                id: loreContentCol
+                width: parent.width - Style.space(20)
+                anchors.centerIn: parent
+                spacing: Style.space(8)
+
+                Column {
+                  width: parent.width
+                  spacing: Style.space(2)
+
+                  Text {
+                    width: parent.width
+                    text: root.getLoreSectionTitle()
+                    color: root.accentColor
+                    font.family: root.fontFamily
+                    font.pixelSize: Style.font.bodySmall
+                    font.bold: true
+                    wrapMode: Text.WordWrap
+                  }
+
+                  Text {
+                    width: parent.width
+                    text: root.getLoreSectionSubtitle()
+                    color: root.mutedColor
+                    font.family: root.fontFamily
+                    font.pixelSize: Style.space(10)
+                    font.italic: true
+                    wrapMode: Text.WordWrap
+                  }
+                }
+
+                Repeater {
+                  model: root.getLoreSectionParagraphs()
+                  delegate: Text {
+                    required property string modelData
+                    width: loreContentCol.width
+                    text: modelData
+                    color: root.foreground
+                    font.family: root.fontFamily
+                    font.pixelSize: Style.font.caption
+                    lineHeight: 1.3
+                    wrapMode: Text.WordWrap
+                  }
+                }
+              }
             }
 
             Button {
               width: parent.width
+              implicitHeight: Style.space(32)
               text: "← Return to Casting Chamber"
               accent: root.accentColor
               bordered: true
