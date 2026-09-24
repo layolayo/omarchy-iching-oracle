@@ -89,6 +89,22 @@ Panel {
     activeTab = "chamber"
   }
 
+  Process {
+    id: clipProc
+    command: ["/usr/bin/wl-copy"]
+    stdinEnabled: true
+    property string payload: ""
+    onStarted: {
+      write(payload)
+      stdinEnabled = false
+    }
+    onExited: function(code) {
+      if (code === 0) {
+        copyStatusMessage = "Reading copied to clipboard!"
+      }
+    }
+  }
+
   function copyReading() {
     if (!consultation || !consultation.primary) return
     var p = consultation.primary
@@ -182,8 +198,14 @@ Panel {
       text += "  Line " + l.lineNumber + ": " + l.title + " [" + l.symbol + "] — " + l.description + "\n"
     }
 
-    Quickshell.execDetached(["bash", "-c", "printf %s " + Util.shellQuote(text) + " | wl-copy"])
-    copyStatusMessage = "Reading copied to clipboard!"
+    if (!text || text.trim().length === 0) return
+    try {
+      clipProc.payload = text
+      clipProc.stdinEnabled = true
+      clipProc.running = true
+    } catch (e) {
+      copyStatusMessage = "Clipboard copy failed"
+    }
   }
 
   function getLineAt(index) {
