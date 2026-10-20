@@ -19,3 +19,26 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+------------------------------------------------------------------------------
+Dataset & Textual Provenance Notice (IChingData.js)
+------------------------------------------------------------------------------
+All English translations of the Zhouyi (the 64 Judgments / Guàcí, the 64 Great
+Images / Dà Xiàng, and the 386 Line Texts / Yáocí) and all accompanying
+commentaries (Judgment, Image, Structural, Nuclear, and Operative Line Counsel)
+bundled in `IChingData.js` are original British-English translations and
+scholarly syntheses authored by Matthew Hudson, derived directly from:
+
+1. Public-domain Classical Chinese primary texts: the Western Zhou core text
+   (Zhōuyì, 周易) and the Confucian Ten Wings (Shí Yì, 十翼: Tuàn Zhuàn,
+   Dà Xiàng, Xiǎo Xiàng, Wényán Zhuàn, and Xìcí Zhuàn), alongside Song Dynasty
+   commentaries by Cheng Yi (1099 CE) and Zhu Xi (1177 / 1186 CE).
+2. Pre-1929 public-domain European sinological scholarship: James Legge's
+   1882/1899 Oxford translation ("The Yi King", Sacred Books of the East,
+   Vol. XVI) and Richard Wilhelm's 1923 German edition ("I Ging: Das Buch der
+   Wandlungen", Eugen Diederichs Verlag, Jena, 1923; in the public domain
+   worldwide following the author's death in 1930).
+
+No third-party copyrighted translation text (such as Cary F. Baynes's 1950/1967
+English rendering) is included in this repository. The entire codebase and the
+bundled `IChingData.js` dataset are licensed under the MIT License above.

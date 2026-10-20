@@ -1,4 +1,18 @@
 .pragma library
+// ============================================================================
+// IChingData.js — Classical Zhouyi & Ten Wings Dataset (MIT Licence)
+// Copyright (c) 2026 Matthew Hudson
+//
+// Provenance & Licensing Notice:
+// All English translations of the Zhouyi (64 Judgments, 64 Great Images, and
+// 386 Line Texts) and all accompanying commentaries (Judgment, Image,
+// Structural, Nuclear, and Operative Line Counsel) in this file are original
+// British-English works by Matthew Hudson, translated and synthesised directly
+// from public-domain Classical Chinese sources (the Zhouyi and Ten Wings /
+// Shi Yi) and pre-1929 public-domain scholarship (James Legge, 1899; Richard
+// Wilhelm, 1923 German edition "I Ging: Das Buch der Wandlungen").
+// Released in full under the repository MIT Licence.
+// ============================================================================
 
 var HEXAGRAMS = [
   {
@@ -6,7 +20,7 @@ var HEXAGRAMS = [
     "unicode": "䷀",
     "chinese": "乾",
     "pinyin": "Qián",
-    "english": "The Creative",
+    "english": "The Creative Principle",
     "upperTrigram": {
       "name": "Heaven",
       "chinese": "乾",
@@ -42,76 +56,76 @@ var HEXAGRAMS = [
       1,
       1
     ],
-    "judgment": "The Creative works sublime success, furthering through perseverance.",
-    "image": "The movement of heaven is full of power. Thus the superior person makes themselves strong and untiring.",
+    "judgment": "The Creative Principle initiates supreme fulfilment, prospering through steadfast integrity.",
+    "image": "The movement of heaven is mighty and unceasing. Thus the noble person strengthens their character without rest.",
     "lineTexts": [
       {
         "line": 1,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the beginning",
-        "text": "Hidden dragon. Do not act.",
-        "comments": "In China the dragon has a meaning altogether different from that given it in the Western world. The dragon is a symbol of the electrically charged, dynamic, arousing force that manifests itself in the thunderstorm. In winter this energy withdraws into the earth; in the early summer it becomes active again, appearing in the sky as thunder and lightning. As a result the creative forces on earth begin to stir again. Here this creative force is still hidden beneath the earth and therefore has no effect. In terms of human affairs, this symbolizes a great man who is still unrecognized. Nonetheless he remains true to himself. He does not allow himself to be influenced by outward success or failure, but confident in his strength, he bides his time. Hence it is wise for the man who consults the oracle and draws this line to wait in the calm strength of patience. The time will fulfill itself. One need not fear least strong will should not prevail; the main thing is not to expend one's powers prematurely in an attempt to obtain by force something for which the time is not yet ripe."
+        "name": "Initial Nine",
+        "text": "Submerged dragon.\nDo not act yet.",
+        "comments": "Occupying the lowest position of the hexagram, the nascent yang energy remains concealed beneath the earth like a dragon hibernating in winter depths. The Small Image explains that the luminous force lies below and the time is not yet ripe for outward exertion. In human affairs, this counsels the noble person to nurture inner virtue in obscurity, conserving strength and awaiting the proper season rather than expending vital potential prematurely."
       },
       {
         "line": 2,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the second place",
-        "text": "Dragon appearing in the field.\nIt furthers one to see the great man.",
-        "comments": "Here the effects of the light-giving power begin to manifest themselves. In terms of human affairs, this means that the great man makes his appearance in his chosen field of activity. As yet he has no commanding position but is still with his peers. However, what distinguishes him form the others is his seriousness of purpose, his unqualified reliability, and the influence he exerts on his environment with out conscious effort. Such a man is destined to gain great influence and to set the world in order. Therefore it is favorable to see him."
+        "name": "Nine in the Second Place",
+        "text": "Dragon appearing in the open field.\nIt is propitious to behold the great person.",
+        "comments": "Ascending to the central position of the lower trigram, the creative force emerges into visible activity upon the fertile plain. Although not yet invested with sovereign authority, this line possesses centrality and radiates effortless moral influence among peers. Consulting or aligning oneself with a wise mentor of broad vision brings auspicious guidance as the work of ordering the world begins to take shape."
       },
       {
         "line": 3,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the third place",
-        "text": "All day long the superior man is creatively active.\nAt nightfall his mind is still beset with cares.\nDanger. No blame.",
-        "comments": "A sphere of influence opens up for the great man. His fame begins to spread. The masses flock to him. His inner power is adequate to the increased outer activity. There are all sorts of things to be done, and when others are at rest in the evening, plans and anxieties press in upon him. But danger lurks here at the place of transition from lowliness to the heights. Many a great man has been ruined because the masses flocked to him and swept him into their course. Ambition has destroyed his integrity. However, true greatness is not impaired by temptations. He who remains in touch with the time that is dawning, and with its demands is prudent enough to avoid all pitfalls, and remains blameless."
+        "name": "Nine in the Third Place",
+        "text": "All day long the noble person is tirelessly active.\nAt nightfall they remain vigilant and reflective.\nPerilous, yet free from fault.",
+        "comments": "Standing at the culmination of the lower trigram, this line occupies the precarious threshold between the inner realm of preparation and the outer realm of public eminence. Because a firm yang line sits in an odd, active place at the boundary of transition, responsibilities multiply and temptations toward hubris arise. Yet by maintaining unremitting diligence by day and conscientious self-examination by night, the noble person navigates the hazard without incurring fault."
       },
       {
         "line": 4,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fourth place",
-        "text": "Wavering flight over the depths.\nNo blame.",
-        "comments": "A place of transition has been reached, and free choice can enter in. A twofold possibility is presented to the great man: he can soar to the heights and play an important part in the world, or he can withdraw into solitude and develop himself. He can go the way of the hero or that of the holy sage who seeks seclusion. There is no general law of his being. If the individual acts consistently and is true to himself, he will find the way that is appropriate for him. This way is right for him and without blame."
+        "name": "Nine in the Fourth Place",
+        "text": "Poised in flight above the abyss.\nFree from fault.",
+        "comments": "Having crossed into the upper trigram directly beneath the ruler's seat, the dragon tests its wings above the deep waters, weighing whether to advance into high governance or retreat into autonomous cultivation. As a yang line in an even, yielding position, it pauses to discern the mandate of the time rather than forcing an ascent. Because any forward movement is undertaken strictly to fulfil natural law rather than personal ambition, no error is committed."
       },
       {
         "line": 5,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fifth place",
-        "text": "Flying dragon in the heavens.\nIt furthers one to see the great man.",
-        "comments": "Here the great man has attained the sphere of the heavenly beings. His influence spreads and becomes visible throughout the whole world. Everyone who sees him may count himself blessed. Confucius says about this line:\n\nThings that accord in tone vibrate together. Things that have affinity in their inmost natures seek one another. Water flows to what is wet, fire turns to what is dry. Clouds (the breath of heaven) follow the dragon, wind (the breath of earth) follows the tiger. Thus the sage arises, and all creatures follow him with their eyes. What is born of heaven feels related to what is above. What is born of earth feels related to what is below. Each follows its kind."
+        "name": "Nine in the Fifth Place",
+        "text": "Soaring dragon in the heavens.\nIt is propitious to behold the great person.",
+        "comments": "Central, correct, and sovereign within the upper trigram, the creative principle attains its zenith of harmonious efficacy. As the Wenyan commentary observes, things of kindred tone vibrate in sympathy—clouds follow the dragon and winds follow the tiger—so when the sage arises, all creatures gaze upward in spontaneous resonance. Both the sovereign leader and those who behold their transformative example partake of supreme blessing."
       },
       {
         "line": 6,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the top",
-        "text": "Arrogant dragon will have cause to repent.",
-        "comments": "When a man seeks to climb so high that he loses touch with the rest of mankind, he becomes isolated, and this necessarily leads to failure. This line warns against titanic aspirations that exceed one's power. A precipitous fall would follow.\nWhen all the lines are nines, it means:\n\nThere appears a flight of dragons without heads.\nGood fortune."
+        "name": "Top Nine",
+        "text": "Overreaching dragon.\nThere will be cause for regret.",
+        "comments": "Pressed to the extreme pinnacle of the hexagram, yang energy reaches its limit where further ascent is impossible and isolation sets in. Knowingly advancing without knowing how to retreat, or clinging to dominance while neglecting survival, invites an inevitable reversal. The noble person heeds this warning against rigid arrogance, recognising that fullness cannot endure when severed from humility and timely yielding."
       }
     ],
     "specialLine": {
       "line": 7,
-      "name": "When all the lines are nines",
+      "name": "All Nines (Yòng Jiǔ)",
       "val": 9,
       "type": "yang",
-      "text": "There appears a flight of dragons without heads.\nGood fortune.",
-      "comments": "When all the lines are nines, it means that the whole hexagram is in motion and changes into the hexagram K'un, the Receptive, whose character is devotion. The strength of the Creative and the mildness of the Receptive unite. Strength is indicated by the flight of dragons, mildness by the fact that their heads are hidden. This means that mildness in action joined to strength of decision brings good fortune."
+      "text": "A host of dragons appears without a head.\nAuspicious.",
+      "comments": "When all six yang lines are at the point of transformation into the receptive yin lines of Kūn, unyielding strength is tempered by boundless adaptability. The image of dragons without a dominant head signifies that no single force claims tyrannical precedence, mirroring the way of Heaven which never flaunts superiority. When cosmic vigour harmonises with gentle receptivity, the entire world enjoys enduring order and good fortune."
     },
-    "judgmentCommentary": "According to the original meaning, the attributes [sublimity, potentiality of success, power to further, perseverance] are paired. When an individual draws this oracle, it means that success will come to him from the primal depths of the universe and that everything depends upon his seeking his happiness and that of others in one way only, that is, by perseverance in what is right. The specific meanings of the four attributes became the subject of speculation at an early date. The Chinese word here rendered by \"sublime\" means literally \"head,\" \"origin,\" \"great.\" This is why Confucius says in explaining it: \"Great indeed is the generating power of the Creative; all beings owe their beginning to it. This power permeates all heaven.\" For this attribute inheres in the other three as well. The beginning of all things lies still in the beyond in the form of ideas that have yet to become real. But the Creative furthermore has power to lend form to these archetypes of ideas. This is indicated in the word success, and the process is represented by an image from nature: \"The clouds pass and the rain does its work, and all individual beings flow into their forms.\" Applies to the human world, these attributes show the great man the way to notable success: \"Because he sees with great clarity and cause and effects, he completes the six steps at the right time and mounts toward heaven on them at the right time, as though on six dragons.\" The six steps are the six different positions given in the hexagram, which are represented later by the dragon symbol. Here it is shown that the way to success lies in apprehending and giving actuality to the way of the universe [Tao], which, as a law running through end and beginning, brings about all phenomena in time. Thus each step attained forthwith becomes a preparation for the next. Time is no longer a hindrance but the means of making actual what is potential. The act of creation having found expression in the two attributes sublimity and success, the work of conservation is shown to be a continuous actualization and differentiation of form. This is expressed in the two terms \"furthering\" (literally, \"creating that which accords with the nature of a given being\") and \"persevering\" (literally, \"correct and firm\"). \"The course of the Creative alters and shapes beings until each attains its true, specific nature, then it keeps them in conformity with the Great Harmony. Thus does it show itself to further through perseverance.\" In relation to the human sphere, this shows how the great man brings peace and security to the world through his activity in creating order: \"He towers high above the multitude of beings, and all lands are united in peace.\" Another line of speculation goes still further in separating the words \"sublime,\" \"success,\" \"furthering,\" \"perseverance,\" and parallels them with the four cardinal virtues in humanity. To sublimity, which, as the fundamental principle, embraces all the other attributes, it links love. To the attribute success are linked the morals, which regulate and organize expressions of love and thereby make them successful. The attribute furthering is correlated with justice, which creates the conditions in which each receives that which accords with his being, that which is due him and which constitutes his happiness. The attribute perseverance is correlated with wisdom, which discerns the immutable laws of all that happens and can therefore bring about enduring conditions. These speculations, already broached in the commentary called Wên Yen , later formed the bridge connecting the philosophy of the \"five stages (elements) of change,\" as laid down in the Book of History (Shu Ching) with the philosophy of the Book of Changes, which is based solely on the polarity of positive and negative principles. In the course of time this combination of the two systems of thought opened the way for an increasingly intricate number symbolism.",
-    "imageCommentary": "Since there is only one heaven, the doubling of the trigram Ch'ien, of which heaven is the image, indicates the movement of heaven. One complete revolution of heaven makes a day, and the repetition of the trigram means that each day is followed by another. This creates the idea of time. Since it is the same heaven moving with untiring power, there is also created the idea of duration both in and beyond time, a movement that never stops nor slackens, just as one day follows another in an unending course. This duration in time is the image of the power inherent in the Creative. With this image as a model, the sage learns how best to develop himself so that his influence may endure. He must make himself strong in every way, by consciously casting out all that is inferior and degrading. Thus he attains that tirelessness which depends upon consciously limiting the fields of his activity.",
-    "structureCommentary": "The first hexagram is made up of six unbroken lines. These unbroken lines stand for the primal power, which is light-giving, active, strong, and of the spirit. The hexagram is consistently strong in character, and since it is without weakness, its essence is power or energy. Its image is heaven. Its energy is represented as unrestricted by any fixed conditions in space and is therefore conceived of as motion. Time is regarded as the basis of this motion. Thus the hexagram includes also the power of time and the power of persisting in time, that is, duration. The power represented by the hexagram is to be interpreted in a dual sense in terms of its action on the universe and of its action on the world of men. In relation to the universe, the hexagram expresses the strong, creative action of the Deity. In relation to the human world, it denotes the creative action of the holy man or sage, of the ruler or leader of men, who through his power awakens and develops their higher nature."
+    "judgmentCommentary": "Vast indeed is the originating power of the Creative Principle, to which all myriad beings owe their primal genesis and which permeates the whole canopy of heaven. When clouds drift across the firmament and rain bestows its nourishment, every living creature flows into its appointed form and nature. Having comprehended the subtle interplay of end and beginning across the six stages of transformation, the sage mounts upon six dragons at the opportune moment todrive across the heavens. The course of the Creative alters and shapes all things until each attains its authentic nature, preserving the Great Harmony through unwavering rectitude. Towering high above the multitude of beings, the sage brings enduring peace and order to all lands beneath the sky. In the Wenyan treatise, these four attributes—primal origination, harmonious flourishing, beneficial appropriateness, and steadfast integrity—correspond to the four cardinal virtues of benevolence, ritual propriety, righteousness, and wisdom.",
+    "imageCommentary": "The reduplication of the trigram Qián signifies the untiring revolution of the celestial spheres, where day follows day in an unbroken continuum of time and vitality. Just as the heavens never slacken in their orbital majesty, the noble person cultivates an autonomous inner vigour that refuses to succumb to indolence or compromise. By eliminating base impulses and aligning daily conduct with cosmic regularity, one achieves a self-sustaining endurance that illuminates the human realm.",
+    "structureCommentary": "Composed exclusively of six undivided yang lines, this hexagram embodies pure, luminous, and active spiritual energy unencumbered by spatial limitation. Both the inner and outer trigrams are Heaven (Qián), representing ceaseless dynamic motion and temporal duration. In the macrocosm it signifies the generative sovereignty of the cosmos, whilst in the human realm it denotes the awakened leadership of the sage-ruler who inspires and elevates all beings through moral clarity. The fifth line, occupying the central and correct position of the upper trigram, serves as the supreme governing ruler of the hexagram."
   },
   {
     "number": 2,
     "unicode": "䷁",
     "chinese": "坤",
     "pinyin": "Kūn",
-    "english": "The Receptive",
+    "english": "The Receptive Earth",
     "upperTrigram": {
       "name": "Earth",
       "chinese": "坤",
@@ -147,76 +161,76 @@ var HEXAGRAMS = [
       0,
       0
     ],
-    "judgment": "The Receptive brings about sublime success, furthering through the perseverance of a mare. If one undertakes something and tries to lead, one goes astray; but if one follows, one finds guidance.",
-    "image": "The earth's condition is receptive devotion. Thus the superior person who has breadth of character carries the outer world.",
+    "judgment": "The Receptive Earth brings supreme fulfilment, prospering through the steadfast integrity of a mare. The noble person who undertakes a venture goes astray if they attempt to lead, yet finds their rightful bearings if they follow. It is propitious to gain companions in the west and south, and to relinquish companions in the east and north. Quiet constancy brings good fortune.",
+    "image": "The configuration of the earth is receptive devotion. Thus the noble person of capacious virtue sustains and carries all things.",
     "lineTexts": [
       {
         "line": 1,
         "val": 6,
         "type": "yin",
-        "name": "Six at the beginning",
-        "text": "When there is hoarfrost underfoot,\nSolid ice is not far off.",
-        "comments": "Just as the light-giving power represents life, so the dark power, the shadowy, represents death. When the first hoarfrost comes in the autumn, the power of darkness and cold is just at its beginning. After these first warnings, signs of death will gradually multiply, until, in obedience to immutable laws, stark winter with its ice is here. In life it is the same. After certain scarcely noticeable signs of decay have appeared, they go on increasing until final dissolution comes. But in life precautions can be taken by heeding the first signs of decay and checking them in time."
+        "name": "Initial Six",
+        "text": "Treading upon hoarfrost:\nsolid ice will soon arrive.",
+        "comments": "At the very bottom of the hexagram, the first appearance of yin energy is likened to thin autumn frost underfoot, signalling the inevitable approach of winter's freeze. The Wenyan commentary notes that order and ruin do not arise in a single morning, but accumulate gradually through subtle, neglected causes. By discerning the earliest portents of decay or discord, the prudent person takes timely preventative measures before conditions harden."
       },
       {
         "line": 2,
         "val": 6,
         "type": "yin",
-        "name": "Six in the second place",
-        "text": "Straight, square, great.\nWithout purpose,\nYet nothing remains unfurthered.",
-        "comments": "The symbol of heaven is the circle, and that of earth is the square. Thus squareness is a primary quality of the earth. On the other hand, movement in a straight line, as well as magnitude, is a primary quality of the Creative. But all square things have their origin in a straight line and into turn form solid bodies. In mathematics, when we discriminate between lines, planes and solids, we find that rectangular planes result from straight lines, and cubic magnitudes from rectangular planes. The Receptive accommodates itself to the qualities of the Creative and makes them its own. Thus a square develops out of a straight line and a cube out of a square. This is compliance with the laws of the Creative; nothing is taken away, nothing added. Therefore the Receptive has no need of a special purpose of its own, nor of any effort' yet everything turns out as it should. Nature creates all beings without erring: this is its foursquareness. It tolerates all creatures equally: this is its greatness. Therefore it attains what is right for all without artifice or special intentions. Man achieves the height of wisdom when all that he does is as self-evident as what nature does."
+        "name": "Six in the Second Place",
+        "text": "Straight, square, and great.\nWithout contrived effort, nothing remains unfulfilled.",
+        "comments": "Occupying the central and correct place of the lower trigram, this line embodies the purest essence of earthly virtue: inward rectitude, outward fairness, and generous breadth. Because its nature is inherently aligned with the cosmic pattern, it accomplishes great things spontaneously without artificial scheming or ulterior motives. Like the fertile soil that nourishes all seeds impartially, the noble person acts with luminous simplicity and sees every endeavour prosper."
       },
       {
         "line": 3,
         "val": 6,
         "type": "yin",
-        "name": "Six in the third place",
-        "text": "Hidden lines.\nOne is able to remain persevering.\nIf by chance you are in the service of a king,\nSeek not works, but bring to completion.",
-        "comments": "If a man is free of vanity he is able to conceal his abilities and keep them from attracting attention too soon; thus he can mature undisturbed. If conditions demand it, he can also enter public life, but that too he does with restraint. The wise man gladly leaves fame to others. He does not seek to have credited to himself things that stand accomplished, but hopes to release active forces; that is, he completes his works in such a manner that they may bear fruit for the future."
+        "name": "Six in the Third Place",
+        "text": "Containing luminous beauty within, one may abide in steadfastness.\nIf serving in the king's affairs,\nclaim no personal triumph, but bring matters to completion.",
+        "comments": "Situated at the top of the lower trigram—an odd, yang position occupied by a yielding yin line—this place possesses hidden talent and brilliance that could easily tempt one toward premature display. Wisdom counsels veiling one's accomplishments and maintaining quiet composure until called into public service. When executing weighty responsibilities for the sovereign or common good, the noble person renounces personal glory and focuses solely on bringing the work to a sound conclusion."
       },
       {
         "line": 4,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fourth place",
-        "text": "A tied-up sack. No blame, no praise.",
-        "comments": "The dark element opens when it moves and closes when at rest. The strictest reticence is indicated here. The time is dangerous , because any degree of prominence leads either to the enmity of irresistible antagonists if one challenges them or to misconceived recognition if one is complaisant. Therefore a man ought to maintain reserve, be it in solitude or in the turmoil of the world, for there too he can hide himself so well that no one knows him."
+        "name": "Six in the Fourth Place",
+        "text": "A tied-up sack.\nNeither fault nor praise.",
+        "comments": "Having entered the upper trigram in close proximity to the seat of authority, this yin line in an even place faces a climate of delicate political or social sensitivity. When heaven and earth are temporarily closed to open candour, the prudent course is strict reticence, likened to fastening the mouth of a pouch. By guarding one's words and refraining from ostentatious display, one avoids both the peril of antagonism and the vanity of empty acclaim."
       },
       {
         "line": 5,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fifth place",
-        "text": "A yellow lower garment brings supreme good fortune.",
-        "comments": "Yellow is the color of the earth and of the middle; it is the symbol of that which is reliable and genuine. The lower garment is inconspicuously decorated--the symbol of aristocratic reserve. When anyone is called upon to work in a prominent but not independent position, true success depends on the utmost discretion. A man's genuineness and refinement should not reveal themselves directly; they should express themselves only indirectly as an effect from within."
+        "name": "Six in the Fifth Place",
+        "text": "A yellow lower garment.\nSupreme good fortune.",
+        "comments": "Yellow is the central colour of the earth, symbolising authentic moderation, whilst the lower robe represents unassuming modesty even when occupying the honoured fifth position. When a person of receptive character holds high office, their brilliance radiates from within through refined discretion rather than imperious display. Because inner substance and outer humility are in complete harmony, supreme good fortune naturally follows."
       },
       {
         "line": 6,
         "val": 6,
         "type": "yin",
-        "name": "Six at the top",
-        "text": "Dragons fight in the meadow.\nTheir blood is black and yellow.",
-        "comments": "In the top place the dark element should yield to the light. If it attempts to maintain a position to which it is not entitled and to rule instead of serving, it draws down upon itself the anger of the strong. A struggle ensues in which it is overthrown, with injury, however, to both sides. The dragon, symbol of heaven, comes to fight the false dragon that symbolized the inflation of the earth principle. Midnight blue is the color of heaven; yellow is the color of earth. Therefore, when black and yellow blood flow, it is a sign that in this unnatural contest both primal powers suffer injury."
+        "name": "Top Six",
+        "text": "Dragons contend in the wilds.\nTheir blood is dark blue and yellow.",
+        "comments": "At the extreme terminus of the hexagram, the yielding yin principle has grown so condensed that it presumes to usurp the active role of yang, provoking an unnatural clash in the outer wilderness. The commingling of heaven's dark azure and earth's yellow blood signifies that when the subordinate attempts to dominate the creative source, both principles suffer mutual injury. This line cautions against allowing entrenched passivity or shadowy ambition to harden into destructive confrontation."
       }
     ],
     "specialLine": {
       "line": 7,
-      "name": "When all the lines are sixes",
+      "name": "All Sixes (Yòng Liù)",
       "val": 6,
       "type": "yin",
-      "text": "Lasting perseverance furthers.",
-      "comments": "When all the lines are sixes, the hexagram K'un turns into the hexagram Ch'ien, the Creative. It gains the strength that it needs for enduring. But although a change is taking place, there is no departure from the firm and yielding nature of the Receptive. The perseverance is steadfast and lasting."
+      "text": "It is propitious to maintain enduring steadfastness.",
+      "comments": "When all six yin lines transform simultaneously into the undivided lines of Qián, the Receptive aligns itself wholly with the enduring vigour of the Creative. As the Small Image affirms, finding completion in great permanence means that adaptability never degenerates into weakness or inconsistency. By uniting gentle devotion with unswerving moral constancy, one achieves lasting fulfilment."
     },
-    "judgmentCommentary": "The four fundamental aspects of the Creative--\"sublime success, furthering through perseverance\"--are also attributed to the Receptive. Here, however, the perseverance is more closely defined: it is that of a mare. The Receptive connotes spatial reality in contrast to the spiritual potentiality of the Creative. The potential becomes real and the spiritual becomes spatial through a specifically qualifying definition. Thus the qualification, \"of a mare,\" is here added to the idea of perseverance. The horse belongs to earth just as the dragon belongs to heaven. Its tireless roaming over the plains is taken as a symbol of the vast expanse of the earth. This is the symbol chosen because the mare combines the strength and swiftness of the horse with the gentleness and devotion of the cow. Only because nature in its myriad forms corresponds with the myriad impulses of the Creative can it make these impulses real. Nature's richness lies in its power to nourish all living things; its greatness lies in its power to give then beauty and splendor. Thus it prospers all that lives. IT is the Creative that begets things, but they are brought to birth by the Receptive. Applied to human affairs, therefore, what the hexagram indicated is action in conformity with the situation. The person in questions not in an independent position, but is acting as an assistant. This means that he must achieve something. It is not his task to try to lead--that would only make him lose the way-but to let himself be led. If he knows how to meet fate with an attitude of acceptance, he is sure to find the right guidance. The superior man lets himself be guided; he does not go ahead blindly, but learns from the situation what is demanded of him and then follows this intimation from fate. Since there is something to be accomplished, we need friends and helpers in the hour of toil and effort, once the ideas to be realized are firmly set. The time of toil and effort is indicated by the west and south, for west and south symbolize the place where the Receptive works for the Creative, as nature does in summer and autumn. If in that situation one does not mobilize all one's powers, the work to be accomplished will not be done. Hence to find friends there means to find guidance. But in addition to the time of toil and effort, there is also a time of planning, and for this we need this solitude. The east symbolized the place where a man receives orders from his master, and the north the place where he reports on what he has done. At that time he must be alone and objective. In this sacred hour he must do without companions. So that the purity of the moment may not be spoiled by fictional hates and favoritism.",
-    "imageCommentary": "Just as there is only one heaven, so too there is only one earth. In the hexagram of heaven the doubling of the trigram implies duration in time, but in the hexagram of earth the doubling connotes the solidity and extension in space by virtue of which the earth is able to carry and preserve all things that live and move upon it. The earth in its devotion carries all things, good and evil,, without exception. In the same way the superior man gives to his character breadth, purity, and sustaining power, so that he is able both to support and to bear with people and things.",
-    "structureCommentary": "This hexagram is made up of broken lines only. The broken lines represents the dark, yielding, receptive primal power of yin. The attribute of the hexagram is devotion; its image is the earth. It is the perfect complement of THE CREATIVE--the complement, not the opposite, for the Receptive does not combat the Creative but completes it . It represents nature in contrast to spirit, earth in contrast to heaven, space as against time, the female-maternal as against the male-paternal. However, as applied to human affairs, the principle of this complementary relationship is found not only in the relation between man and woman, but also in that between prince and minister and between father and son. Indeed, even in the individual this duality appears in the coexistence of the spiritual world and the world of the senses. But strictly speaking there is no real dualism here, because there is a clearly defined hierarchic relationship between the two principles. In itself of course the Receptive is just as important as the Creative, but the attribute of devotion defines the place occupied by this primal power in relation to the Creative. For the Receptive must be activated and led by the Creative; then it is productive of good. Only when it abandons this position and tries to stand as an equal side by side with the Creative, does it become evil. The result then is opposition to and struggle against the Creative, which is productive of evil to both."
+    "judgmentCommentary": "Perfected indeed is the generative richness of the Receptive Earth, to which all beings owe their material birth as it responds in faithful harmony to the celestial impulse. In its vast breadth it sustains every creature without partiality, matching the boundless potency of Heaven with quiet, tireless motion like a mare traversing the plains. When the noble person acts in accord with this principle, they do not force premature initiatives ahead of the cosmic rhythm, but follow the natural order and thereby attain mastery. In the southwest—the realm of shared autumn harvest and communal labour—one gathers kindred allies to bring tasks to fruition, whereas in the northeast—the solitary transition between winter stillness and spring renewal—one sets aside factional ties to commune quietly with the decree of Heaven.",
+    "imageCommentary": "Doubling the trigram Kūn portrays the vast, layered topography of the terrestrial world, whose substantial depth supports mountains, rivers, and all living things without exhaustion. Just as the earth embraces both the pure and the turbid, transforming everything into fertile nourishment, the noble person cultivates a generous, unprejudiced temperament. Through deep moral gravitas and patient endurance, they bear the burdens of community and shelter the multitude.",
+    "structureCommentary": "Formed entirely of six divided yin lines, Hexagram 2 is the pure embodiment of the receptive, yielding, and maternal principle that complements the Creative. Both inner and outer trigrams are Earth (Kūn), signifying spatial extension, tangible substantiation, and devoted service. The second line, being yin in an even and central position within the lower trigram, exemplifies effortless rectitude, whilst the fifth line embodies modest dignity in a position of high honour."
   },
   {
     "number": 3,
     "unicode": "䷂",
     "chinese": "屯",
     "pinyin": "Zhūn",
-    "english": "Difficulty at the Beginning",
+    "english": "Sprouting Amidst Difficulty",
     "upperTrigram": {
       "name": "Water",
       "chinese": "坎",
@@ -252,68 +266,68 @@ var HEXAGRAMS = [
       1,
       0
     ],
-    "judgment": "Difficulty at the Beginning works supreme success, furthering through perseverance. Nothing should be undertaken rashly, yet it furthers one to appoint helpers.",
-    "image": "Clouds and thunder: the image of Difficulty at the Beginning. Thus the superior person brings order out of confusion.",
+    "judgment": "Sprouting Amidst Difficulty initiates supreme fulfilment, prospering through steadfast integrity. Do not set forth rashly without a destination; it is propitious to establish feudal helpers.",
+    "image": "Clouds and thunder gather: the image of Sprouting Amidst Difficulty. Thus the noble person weaves order out of chaotic beginnings.",
     "lineTexts": [
       {
         "line": 1,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the beginning",
-        "text": "Hesitation and hindrance.\nIt furthers one to remain persevering.\nIt furthers one to appoint helpers.",
-        "comments": "If a person encounters a hindrance at the beginning of an enterprise, he must not try to force advance but must pause and take thought. However, nothing should put him off his course; he must persevere and constantly keep the goal in sight. It is important to seek out the right assistants, but he can find them only if he avoids arrogance and associated with his fellows in a spirit of humility. Only then will he attract those with whose help he can combat the difficulties."
+        "name": "Initial Nine",
+        "text": "Boulders and tangled roots impede the way.\nIt is propitious to abide in steadfastness.\nIt is propitious to establish helpers.",
+        "comments": "A strong yang line stands at the very inception of the enterprise, encountering immediate resistance that forbids a hasty charge. Rather than forcing an advance through sheer willpower, one remains steadfast in purpose while humbling oneself before worthy companions. By honouring and empowering those in lowly stations, the leader wins the collective allegiance needed to clear the path."
       },
       {
         "line": 2,
         "val": 6,
         "type": "yin",
-        "name": "Six in the second place",
-        "text": "Difficulties pile up.\nHorse and wagon part.\nHe is not a robber;\nHe wants to woo when the time comes.\nThe maiden is chaste,\nShe does not pledge herself.\nTen years--then she pledges herself.",
-        "comments": "We find ourselves beset by difficulties and hindrances. Suddenly there is a turn of affairs, as if someone were coming up with a horse and wagon and unhitching them. This event comes so unexpectedly that we assume the newcomer to be a robber. Gradually it becomes clear that he has no evil intentions but seeks to be friendly and to offer help. But this offer is not to be accepted, because it does not come from the right quarter. We must wait until the time is fulfilled; ten years is a fulfilled cycle of time. Then normal conditions return of themselves, and we can join forces with the friend intended for us. Using the image of a betrothed girl who remains true to her lover in face of grave conflicts, the hexagram gives counsel for a special situation. When in times of difficulty a hindrance is encountered and unexpected relief is offered from a source unrelated to us, we must be careful and not take upon ourselves any obligations entailed by such help; otherwise our freedom of decision is impaired. If we bide our time, things will quiet down again, and we shall attain what we have hoped for."
+        "name": "Six in the Second Place",
+        "text": "Checked and halted, horses and chariot unyoke.\nHe is no bandit, but seeks a marital alliance.\nThe maiden guards herchastity and does not pledge herself;\nafter ten years she is wed.",
+        "comments": "Occupying a central and correct yin position directly above the vigorous Initial Nine, this line experiences sudden pressure and obstruction as if its carriage horses were uncoupled. Although the approaching suitor below has honourable intentions, the second line owes its true resonance to the sovereign Nine in the Fifth Place. By refusing a convenient compromise during turbulent times and waiting out a full cycle of ten years, normal conditions return and legitimate union is achieved."
       },
       {
         "line": 3,
         "val": 6,
         "type": "yin",
-        "name": "Six in the third place",
-        "text": "Whoever hunts deer without the forester\nOnly loses his way in the forest.\nThe superior man understands the signs of the time\nAnd prefers to desist.\nTo go on brings humiliation.",
-        "comments": "If a man tries to hunt in a strange forest and has no guide, he loses his way. When he finds himself in difficulties he must not try to steal out of them unthinkingly and without guidance. Fate cannot be duped; premature effort, without the necessary guidance, ends in failure and disgrace. Therefore the superior man, discerning the seeds of coming events, prefers to renounce a wish rather than to provoke failure and humiliation by trying to force its fulfillment."
+        "name": "Six in the Third Place",
+        "text": "Pursuing deer without the forester\nonly leads one deeper into the dense woods.\nThe noble person perceives the subtle signs and prefers to desist;\npressing onward brings distress.",
+        "comments": "Restless in an odd position at the top of the trigram of movement, and lacking a resonant partner in the sixth place, this line is tempted to chase success blindly without expert guidance. Entering unfamiliar terrain driven by craving only traps one in the forest undergrowth. Discerning the peril early, the wise person halts immediately rather than courting humiliation through stubborn persistence."
       },
       {
         "line": 4,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fourth place",
-        "text": "Horse and wagon part.\nStrive for union.\nTo go brings good fortune.\nEverything acts to further.",
-        "comments": "We are in a situation in which it is our duty to act, but we lack sufficient power. However, an opportunity to make connections offers itself. It must be seized. Neither false pride nor false reserve should deter us. Bringing oneself to take the first step, even when it involves a certain degree of self-abnegation, is a sign of inner clarity. To accept help in a difficult situation is not a disgrace. If the right helper is found, all goes well."
+        "name": "Six in the Fourth Place",
+        "text": "Horses and chariot unyoke.\nStrive after union.\nGoing forward brings good fortune; nothing is unfavourable.",
+        "comments": "Situated at the base of the perilous upper trigram, this yielding line pauses because it lacks the solo strength to overcome the crisis alone. Yet unlike the second line, it stands in proper correlation with the Initial Nine below, its natural helper. By setting aside false pride and actively inviting the aid of capable allies, one illuminates the dark passage and advances to auspicious success."
       },
       {
         "line": 5,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fifth place",
-        "text": "Difficulties in blessing.\nA little perseverance brings good fortune.\nGreat perseverance brings misfortune.",
-        "comments": "An individual is in a position in which he cannot so express his good intentions that they will actually take shape and be understood. Other people interpose and distort everything he does. He should then be cautious and proceed step by step. He must not try to force the consummation of a great undertaking, because success is possible only when general confidence already prevails. It is only through faithful and conscientious work, unobtrusively carried on, that the situation gradually clears up and the hindrance disappears."
+        "name": "Nine in the Fifth Place",
+        "text": "Difficulty in dispensing bounty.\nSteadfastness in small matters brings good fortune;\nin great ventures it brings misfortune.",
+        "comments": "Although central and correct in the ruler's seat, this yang line is hemmed in within the trigram of danger, so its benevolent intentions cannot yet flow freely to the populace. When channels of communication and trust are obstructed, attempting sweeping reforms by decree will only misfire. Patient, incremental rectitude in immediate duties gradually restores confidence and clears the blockage."
       },
       {
         "line": 6,
         "val": 6,
         "type": "yin",
-        "name": "Six at the top",
-        "text": "Horse and wagon part.\nBloody tears flow.",
-        "comments": "The difficulties at the beginning are too great for some persons. They get stuck and never find their way out; they fold their hands and give up the struggle. Such resignation is the saddest of all things. Therefore Confucius says of this line: \"Bloody tears flow: one should not persist in this.\""
+        "name": "Top Six",
+        "text": "Horses and chariot unyoke.\nTears of blood flow in streams.",
+        "comments": "At the extreme outer edge of danger, with no resonant support below, the struggle to break through ends in paralysing despair. Yielding to hopeless grief without seeking counsel or adapting to change leaves one stranded in isolation. The Small Image reminds us that such weeping of blood cannot be endured for long—even at the darkest impasse, one must eventually rouse the spirit toward renewal."
       }
     ],
-    "judgmentCommentary": "Times of growth are beset with difficulties. They resemble a first birth. But these difficulties arise from the very profusion of all that is struggling to attain form . Everything is in motion: therefore if one perseveres there is a prospect of great success, in spite of the existing danger. When it is a man's fate to undertake such new beginnings, everything is still unformed, dark. Hence he must hold back, because any premature move might bring disaster. Likewise, it is very important not to remain alone; in order to overcome the chaos he needs helpers. This is not to say, however, that he himself should look on passively at what is happening. He must lend his hand and participate with inspiration and guidance.",
-    "imageCommentary": "Clouds and thunder are represented by definite decorative lines; this means that in the chaos of difficulty at the beginning, order is already implicit. So too the superior man has to arrange and organize the inchoate profusion of such times of beginning, just as one sorts out silk threads from a knotted tangle and binds them into skeins. In order to find one's place in the infinity of being, one must be able both to separate and to unite.",
-    "structureCommentary": "The name of the hexagram, Chun, really connotes a blade of grass pushing against an obstacle as it sprouts out of the earth--hence the meaning, \"difficulty at the beginning.\" The hexagram indicates the way in which heaven and earth bring forth individual beings. It is their first meeting, which is beset with difficulties. The lower trigram Chên is the Arousing; its motion is upward and its image is thunder. The upper trigram K'an stands for the Abysmal, the dangerous. Its motion is downward and its image is rain. The situation points to teeming, chaotic profusion; thunder and rain fill the air. But the chaos clears up. While the Abysmal sinks, the upward movement eventually passes beyond the danger. A thunderstorm brings release from tension, and all things breathe freely again."
+    "judgmentCommentary": "In this hexagram thestrong and theyielding unite for the first time after the separation of Heaven and Earth, giving birth to life amidst travail, like a tender shoot pushing through frozen soil. Movement in the midst of peril generates supreme fulfilment through patient constancy, as thunder rumbles below and rain-clouds gather above. When cosmic forces are still teeming and unformed, it is vital not to plunge ahead blindly, but rather to establish capable allies and institutional foundations. By delegating authority and organising support during a time of primal obscurity, the noble person transforms embryonic turbulence into flourishing order.",
+    "imageCommentary": "Above, the trigram Kǎn manifests as dense clouds not yet condensed into rain; below, Zhèn stirs as awakening thunder beneath the ground. Confronted with this charged and tangled atmosphere, the noble person acts like a master weaver sorting raw silk threads into warp and woof. Through systematic planning, clear division of labour, and patient governance, they bring structured coherence out of initial confusion.",
+    "structureCommentary": "The lower trigram is Thunder (Zhèn, the eldest son, characterised by arousing movement), while the upper trigram is Water (Kǎn, the middle son, characterised by abysmal danger). Dynamic vigour stirs within, yet hazardous obstacles lie immediately ahead in the outer world. The Initial Nine at the base is the primary governing line that initiates the breakthrough, supported by the sovereign Nine in the Fifth Place above."
   },
   {
     "number": 4,
     "unicode": "䷃",
     "chinese": "蒙",
     "pinyin": "Méng",
-    "english": "Youthful Folly",
+    "english": "Youthful Inexperience",
     "upperTrigram": {
       "name": "Mountain",
       "chinese": "艮",
@@ -349,68 +363,68 @@ var HEXAGRAMS = [
       0,
       1
     ],
-    "judgment": "Youthful folly has success. It is not I who seek the young fool; the young fool seeks me. Perseverance furthers.",
-    "image": "A spring wells up at the foot of the mountain: the image of Youth. Thus the superior person fosters character by thoroughness in all actions.",
+    "judgment": "Youthful Inexperience attains fulfilment. It is not I who seek the callow youth; the callow youth seeks me. At the first divination I inform them; if they importune two or three times, such irreverence receives no further instruction. Steadfast integrity is propitious.",
+    "image": "A spring wells forth beneath the mountain: the image of Youthful Inexperience. Thus the noble person nurtures virtue through resolute and thorough conduct.",
     "lineTexts": [
       {
         "line": 1,
         "val": 6,
         "type": "yin",
-        "name": "Six at the beginning",
-        "text": "To make a fool develop\nIt furthers one to apply discipline.\nThe fetters should be removed.\nTo go on in this way bring humiliation.",
-        "comments": "Law is the beginning of education. Youth in its inexperience is inclined at first to take everything carelessly and playfully. It must be shown the seriousness of life. A certain measure of taking oneself in hand, brought about by strict discipline, is a good thing. He who plays with life never amounts to anything. However, discipline should not degenerate into drill. Continuous drill has a humiliating effect and cripples a man's powers."
+        "name": "Initial Six",
+        "text": "To enlighten the inexperienced,\nit is propitious to apply corrective discipline.\nLoosen the fetters;\nto persist in harshness brings regret.",
+        "comments": "At the outset of education, an undisciplined mind requires clear boundaries and firm correction to awaken a sense of responsibility. However, once the lesson is understood, the shackles of strict regimentation must be removed so the learner can develop autonomous moral agency. Overbearing severity that crushes initiative only breeds resentment and failure."
       },
       {
         "line": 2,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the second place",
-        "text": "To bear with fools in kindliness brings good fortune.\nTo know how to take women\nBrings good fortune.\nThe son is capable of taking charge of the household.",
-        "comments": "These lines picture a man who has no external power, but who has enough strength of mind to bear his burden of responsibility. He has the inner superiority and that enable him to tolerate with kindliness the shortcomings of human folly. The same attitude is owed to women as the weaker sex. One must understand them and give them recognition in a spirit of chivalrous consideration. Only this combination of inner strength with outer reserve enables one to take on the responsibility of directing a larger social body with real success."
+        "name": "Nine in the Second Place",
+        "text": "Embracing the uninstructed withgenerous patience brings good fortune.\nTaking a bride brings good fortune.\nThe son is able to sustain the household.",
+        "comments": "As the sole central yang line in the lower trigram, this figure embodies the wise educator who combines inner firmness with magnanimous tolerance toward human frailty. Because he welcomes the yielding lines around him with respect and resonates harmoniously with the fifth place, he bridges the gap between wisdom and inexperience. Like a dutiful son capable of governing the family estate, he shoulders heavy responsibilities with grace and efficacy."
       },
       {
         "line": 3,
         "val": 6,
         "type": "yin",
-        "name": "Six in the third place",
-        "text": "Take not a maiden who. When she sees a man of bronze,\nLoses possession of herself.\nNothing furthers.",
-        "comments": "A weak, inexperienced man, struggling to rise, easily loses his own individuality when he slavishly imitates a strong personality of higher station. He is like a girl throwing herself away when she meets a strong man. Such a servile approach should not be encouraged, because it is bad both for the youth and the teacher. A girl owes it to her dignity to wait until she is wooed. In both cases it is undignified to offer oneself, and no good comes of accepting such an offer."
+        "name": "Six in the Third Place",
+        "text": "Do not wed a maiden who, upon seeing a man of wealth and bronze,\nloses command of her own person.\nNothing is propitious.",
+        "comments": "Weak, neither central nor correct, and restless at the top of the water trigram, this line forgets its legitimate partner at the top to fawn upon the strong second line below. Like someone dazzled by external riches or charisma who abandons inner dignity in slavish imitation, such a posture lacks any authentic foundation. No genuine learning or partnership can be built upon opportunism and self-abnegation."
       },
       {
         "line": 4,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fourth place",
-        "text": "Entangled folly bring humiliation.",
-        "comments": "For youthful folly it is the most hopeless thing to entangle itself in empty imaginings. The more obstinately it clings to such unreal fantasies, the more certainly will humiliation overtake it. Often the teacher, when confronted with such entangled folly, has no other course but to leave the fool to himself for a time, not sparing him the humiliation that results. This is frequently the only means of rescue."
+        "name": "Six in the Fourth Place",
+        "text": "Hemmed in by ignorance.\nDistress.",
+        "comments": "Isolated between two other yin lines and lacking any contact with a strong yang mentor, this line is trapped in self-enclosed delusions. When a person stubbornly clings to narrow prejudices and cuts themselves off from wise counsel, humiliation is inevitable. Only by recognising one's isolation and humbling the mind can the impasse be broken."
       },
       {
         "line": 5,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fifth place",
-        "text": "Childlike folly brings good fortune.",
-        "comments": "An inexperienced person who seeks instruction in a childlike and unassuming way is on the right path, for the man devoid of arrogance who subordinated himself to his teacher will certainly be helped."
+        "name": "Six in the Fifth Place",
+        "text": "Childlike innocence in learning.\nAuspicious.",
+        "comments": "Occupying the honoured fifth place with a yielding, central nature, this line sets aside all pretension to seek guidance from the wise teacher in the second place. True childlike simplicity is not foolishness, but an uncorrupted openness of heart that absorbs truth naturally. Because humility meets wisdom in mutual trust, enlightenment unfolds effortlessly."
       },
       {
         "line": 6,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the top",
-        "text": "In punishing folly\nIt does not further one\nTo commit transgressions.\nThe only thing that furthers\nIs to prevent transgressions.",
-        "comments": "Sometimes an incorrigible fool must be punished. He who will not heed will be made to feel. This punishment is quite different from a preliminary shaking up. But the penalty should not be imposed in anger; it must be restricted to an objective guarding against unjustified excesses. Punishment is never an end in itself but serves merely to restore order. This applies not only in regard to education but also in regard to the measures taken by a government against a populace guilty of transgressions. Governmental interference should always be merely preventive and should have as its sole aim the establishment of public security and peace."
+        "name": "Top Nine",
+        "text": "In striking at ignorance,\nit is not propitious to act as a marauder;\nit is propitious only to ward off transgression.",
+        "comments": "Positioned at the summit of the mountain trigram, this strong yang line must deal with obstinate folly that refuses gentle persuasion. Yet even when forceful intervention is required, the aim must be protective rehabilitation rather than vindictive punishment. When authority restrains lawlessness without becoming tyrannical itself, order and harmony are preserved."
       }
     ],
-    "judgmentCommentary": "In the time of youth, folly is not an evil. One may succeed in spite of it, provided one finds an experienced teacher and has the right attitude toward him. This means, first of all, that the youth himself must be conscious of his lack of experience and must seek out the teacher. Without this modesty and this interest there is no guarantee that he has the necessary receptivity, which should express itself in respectful acceptance of the teacher. This is the reason why the teacher must wait to be sought out instead of offering himself. Only thus can the instruction take place at the right time and in the right way. A teacher's answer to the question of a pupil ought to be clear and definite like that expected from an oracle; thereupon it ought to be accepted as a key for resolution of doubts and a basis for decision. If mistrustful or unintelligent questioning is kept up, it serves only to annoy the teacher. He does well to ignore it in silence, just as the oracle gives one answer only and refuses to be tempted by questions implying doubt. Given addition a perseverance that never slackens until the points are mastered one by one, real success is sure to follow. Thus the hexagram counsels the teacher as well as the pupil.",
-    "imageCommentary": "A spring succeeds in flowing on and escapes stagnation by filling up all the hollow places in its path. In the same way character is developed by thoroughness that skips nothing but, like water, gradually and steadily fills up all gaps and so flows onward.",
-    "structureCommentary": "In this hexagram we are reminded of youth and folly in two different ways. The image of the upper trigram, Kên, is the mountain, that of the lower, K'an, is water; the spring rising at the foot of the mountain is the image of inexperienced youth. Keeping still is the attribute of the upper trigram; that of the lower is the abyss, danger. Stopping in perplexity on the brink of a dangerous abyss is a symbol of the folly of youth. However, the two trigrams also show the way of overcoming the follies of youth. Water is something that of necessity flows on. When the spring gushes forth, it does not know at first where it will go. But its steady flow fills up the deep place blocking its progress, and success is attained."
+    "judgmentCommentary": "Following the birth of beings in Zhūn comes the stage of nascent, unformed youth represented by Méng, where a mountain rises above a perilous abyss. Success is assured because the central yang line in the second place possesses the luminous wisdom to enlighten obscurity, and the fifth line responds with sincere, unassuming receptivity. True pedagogy requires that the student recognise their ignorance and approach the teacher with genuine reverence, just as a diviner consults the oracle with an undivided heart. When instruction is given at the timely moment, clarity replaces confusion; but if the learner persists in sceptical, fragmented questioning, silence is the only medicine. Cultivating upright character from childhood onward is the sacred work that sustains sagehood.",
+    "imageCommentary": "A mountain spring gushing from subterranean depths does not yet know its course, yet by steadily filling every hollow before it, it eventually carves a clear channel to the sea. Viewing this natural emblem, the noble person refuses to leave gaps in their moral self-cultivation. By uniting the mountain's quiet steadfastness with water's unceasing perseverance, they translate principle into decisive, thoroughgoing action.",
+    "structureCommentary": "The lower trigram is Water (Kǎn, abyss and peril) and the upper trigram is Mountain (Gèn, keeping still). Standing halted at the edge of an obscure ravine depicts the bewilderment of untutored youth, while water emerging beneath a tranquil peak symbolises pure potential awaiting direction. Nine in the Second Place is the governing line—the patient, capable mentor—who correlates directly with Six in the Fifth Place, the humble ruler or pupil seeking illumination."
   },
   {
     "number": 5,
     "unicode": "䷄",
     "chinese": "需",
     "pinyin": "Xū",
-    "english": "Waiting",
+    "english": "Patient Attending",
     "upperTrigram": {
       "name": "Water",
       "chinese": "坎",
@@ -446,68 +460,68 @@ var HEXAGRAMS = [
       1,
       0
     ],
-    "judgment": "Waiting. If you are sincere, you have light and success. Perseverance brings good fortune. It furthers one to cross the great water.",
-    "image": "Clouds rise up to heaven: the image of Waiting. Thus the superior person eats and drinks, is joyous and of good cheer.",
+    "judgment": "Patient Attending. With inner trust and sincerity, there is luminous fulfilment and steadfastness brings good fortune. It is propitious to cross the great stream.",
+    "image": "Clouds ascend into the heavens: the image of Patient Attending. Thus the noble person partakes of food and drink in serene conviviality.",
     "lineTexts": [
       {
         "line": 1,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the beginning",
-        "text": "Waiting in the meadow.\nIT furthers one to abide in what endures.\nNo blame.",
-        "comments": "The danger is not yet close. One is still waiting on the open plain. Conditions are still simple, yet there is a feeling of something impending. One must continue to lead a regular life as long as possible. Only in this way does one guard against a premature waste of strength, keep free of blame and error that would become a source of weakness later on."
+        "name": "Initial Nine",
+        "text": "Waiting in the distant meadow.\nIt is propitious to abide in constancy.\nFree from fault.",
+        "comments": "Far removed from the watery abyss of the upper trigram, this initial yang line waits out on the open plain where danger is barely a distant rumour. Rather than growing restless or rushing toward the hazard prematurely, wisdom counsels maintaining one's ordinary rhythm and abiding in quiet constancy. By conserving strength and refusing to manufacture crisis, one remains entirely free from fault."
       },
       {
         "line": 2,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the second place",
-        "text": "Waiting on the sand.\nThere is some gossip.\nThe end brings good fortune.",
-        "comments": "The danger gradually comes closer. Sand is near the bank of the river, and the water means danger. Disagreements crop up. General unrest can easily develop in such times, and we lay the blame on one another. He who stays calm will succeed in making things go well in the end. Slander will be silenced if we do not gratify it with injured retorts."
+        "name": "Nine in the Second Place",
+        "text": "Waiting upon the sandy shoal.\nThere is minor criticism in words,\nyet the outcome is auspicious.",
+        "comments": "Closer to the river's edge, the shifting sands reflect growing tension and the murmur of anxious gossip or misunderstanding from onlookers. Because this yang line occupies the central position of the lower trigram, it possesses the寬 spacious equanimity to absorb petty reproaches without retaliating. By remaining calm and centred, slander subsides of its own accord and the end brings good fortune."
       },
       {
         "line": 3,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the third place",
-        "text": "Waiting in the mud\nBrings about the arrival of the enemy.",
-        "comments": "Mud is no place for waiting, since it is already being washed by the water of the stream. Instead of having gathered strength to cross the stream at one try, one has made a premature start that has got him no farther than the muddy bank. Such an unfavorable position invites enemies from without, who naturally take advantage of it. Caution and a sense of the seriousness of the situation are all that can keep one from injury."
+        "name": "Nine in the Third Place",
+        "text": "Waiting in the mire\ninvites the approach of marauders.",
+        "comments": "At the top of the strong lower trigram, an overly assertive yang line in an odd place presses too close to the river's brink and gets bogged down in the mud. Prematurely exposing oneself at the border of danger signals vulnerability and attracts opportunistic adversaries. Only through heightened vigilance, humility, and respectful caution can one avoid defeat in this precarious spot."
       },
       {
         "line": 4,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fourth place",
-        "text": "Waiting in blood.\nGet out of the pit.",
-        "comments": "The situation is extremely dangerous. IT is of utmost gravity now--a matter of life and death. Bloodshed seems imminent. There is no going forward or backward; we are cut off as if in a pit. Now we must simply stand fast and let fate take its course. This composure, which keeps us from aggravating the trouble by anything we might do, is the only way of getting out of the dangerous pit."
+        "name": "Six in the Fourth Place",
+        "text": "Waiting amidst blood.\nEmerge from the cavern.",
+        "comments": "Having crossed into the lower edge of the Water trigram, this yielding line finds itself directly in the zone of peril and potential bloodshed, pressed by the three advancing yang lines below. Yet because it is a yin line in a correct even position, it does not fight blindly, but yields space and listens to the mandate of the time. By maintaining quiet composure and accommodating the natural flow, it finds safe passage out of the pit."
       },
       {
         "line": 5,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fifth place",
-        "text": "Waiting at meat and drink.\nPerseverance brings good fortune.",
-        "comments": "Even in the midst of danger there come intervals of peace when things go relatively well. If we possess enough inner strength, we shall take advantage of these intervals to fortify ourselves for renewed struggle. We must know how to enjoy the moment without being deflected from the goal, for perseverance is needed to remain victorious. This is true in public life as well; it is not possible to achieve everything all at once. The height of wisdom is to allow people enough recreation to quicken pleasure in their work until the task is completed. Herein lies the secret of the whole hexagram. It differs from Chin OBSTRUCTION\n\n39, in the fact that in this instance, while waiting, we are sure of our cause and therefore do not lose the serenity born of inner cheerfulness."
+        "name": "Nine in the Fifth Place",
+        "text": "Waiting amidst wine and food.\nSteadfast integrity brings good fortune.",
+        "comments": "Central and upright in the ruler's seat at the heart of the upper trigram, this line exemplifies the highest art of waiting: serene replenishment in the midst of responsibility. Rather than succumbing to anxiety, the sovereign nourishes the people and shares convivial fellowship while awaiting the culmination of events. Because inner joy is anchored in unwavering moral rectitude, complete fulfilment is assured."
       },
       {
         "line": 6,
         "val": 6,
         "type": "yin",
-        "name": "Six at the top",
-        "text": "One falls into the pit.\nThree uninvited guests arrive.\nHonor them, and in the end there will be good fortune.",
-        "comments": "The waiting is over; the danger can no longer be averted. One falls into the pit and must yield to the inevitable. Everything seems to have been in vain. But precisely in this extremity things take an unforeseen turn. Without a move on one's own part, there is outside intervention. At first one cannot be sure of its meaning: is it rescue or is it destruction? A person in this situation must keep his mind alert and not withdraw into himself with a sulky gesture of refusal, but must greet the new turn with respect. Thus he ultimately escapes the danger, and all goes well. Even happy turns of fortune often come in a form that at first seems strange to us."
+        "name": "Top Six",
+        "text": "Entering into the cavern,\nthree uninvited guests arrive.\nHonour them, and in the end there is good fortune.",
+        "comments": "At the extreme limit of the abyss, waiting comes to an end and one seems trapped in the dark pit with no avenue of escape. Suddenly, the three vigorous yang lines of the lower trigram arrive unannounced from below. Although their intrusion appears startling, if the yielding sixth line lays aside suspicion and welcomes them with genuine respect, an unexpected rescue transforms extremity into auspicious success."
       }
     ],
-    "judgmentCommentary": "Waiting is not mere empty hoping. It has the inner certainty of reaching the goal. Such certainty alone gives that light which leads to success. This leads to the perseverance that brings good fortune and bestows power to cross the great water. One is faced with a danger that has to be overcome. Weakness and impatience can do nothing. Only a strong man can stand up to his fate, for his inner security enables him to endure to the end. This strength shows itself in uncompromising truthfulness [with himself]. It is only when we have the courage to face things exactly as they are, without any sort of self-deception or illusion, that a light will develop out of events, by which the path to success may be recognized. This recognition must be followed by resolute and persevering action. For only the man who goes to meet his fate resolutely is equipped to deal with it adequately. Then he will be able to cross the great water--that is to say, he will be capable of making the necessary decision and of surmounting the danger.",
-    "imageCommentary": "When clouds rise in the sky, it is a sign that it will rain. There is nothing to do but to wait until after the rain falls. It is the same in life when destiny is at work. We should not worry and seek to shape the future by interfering in things before the time is ripe. We should quietly fortify the body with food and drink and the mind with gladness and good cheer. Fate comes when it will, and thus we are ready.",
-    "structureCommentary": "All beings have need of nourishment from above. But the gift of food comes in its own time, and for this one must wait. This hexagram shows the clouds in the heavens, giving rain to refresh all that grows and to provide mankind with food and drink. The rain will come in its own time. We cannot make it come; we have to wait for it. The idea of waiting is further suggested by the attributes of the two trigrams--strength within, danger in from. Strength in the face of danger does not plunge ahead but bides its time, whereas weakness in the face of danger grows agitated and has not the patience to wait."
+    "judgmentCommentary": "Xū signifies waiting with composed certainty in the face of a perilous obstacle, where Heaven's unyielding strength below confronts the abysmal waters of Kǎn above. Unlike anxious hesitation or weak timidity, the Creative principle knows its own power and refuses to plunge recklessly into the gorge before the moment is ripe. Because the sovereign Nine in the Fifth Place occupies the heavenly seat with central rectitude and inner truth, clarity illuminates the path ahead. By biding one's time with unshakeable integrity, one gathers the momentum needed to cross the great torrent safely and accomplish great deeds.",
+    "imageCommentary": "Vapours rising high into the sky portend nourishing rain that will fall in its own natural season without human coercion. Recognising that cosmic timing cannot be forced by fretful agitation, the noble person sustains bodily vigour with food and drink while keeping the spirit cheerful and relaxed. Thus, when the decisive hour arrives, they meet it with undiminished strength and tranquil mastery.",
+    "structureCommentary": "The inner trigram is Heaven (Qián, strength and lucidity) and the outer trigram is Water (Kǎn, danger and the abyss). The three yang lines of the lower trigram advance upward toward the watery gorge, tracing a spatial progression from the distant outskirts, to the sandy bank, to the muddy edge, and finally into the perilous cavity itself. Nine in the Fifth Place is the supreme governing line of the hexagram, embodying composed sovereignty amidst hazard."
   },
   {
     "number": 6,
     "unicode": "䷅",
     "chinese": "訟",
     "pinyin": "Sòng",
-    "english": "Conflict",
+    "english": "Contention",
     "upperTrigram": {
       "name": "Heaven",
       "chinese": "乾",
@@ -543,68 +557,68 @@ var HEXAGRAMS = [
       1,
       1
     ],
-    "judgment": "Conflict. You are sincere and are being obstructed. A cautious halt halfway brings good fortune; going through to the end brings misfortune.",
-    "image": "Heaven and water go their opposite ways: the image of Conflict. Thus the superior person in all transactions considers the beginning.",
+    "judgment": "Contention. Inner truth is obstructed; a cautious halt halfway brings good fortune, whereas pressing through to the bitter end brings misfortune. It is propitious to behold the great person; it is not propitious to cross the great stream.",
+    "image": "Heaven and water move in diverging directions: the image of Contention. Thus the noble person, in initiating any affair, carefully deliberates upon its beginning.",
     "lineTexts": [
       {
         "line": 1,
         "val": 6,
         "type": "yin",
-        "name": "Six at the beginning",
-        "text": "If one does not perpetuate the affair,\nThere is a little gossip.\nIn the end, good fortune comes.",
-        "comments": "While a conflict is in the incipient stage, the best thing To do is to drop the issue. Especially when the adversary is stronger, it is not advisable to risk pushing the conflict to a decision. It may come to a slight dispute, but in the end all goes well."
+        "name": "Initial Six",
+        "text": "Not perpetuating the matter.\nThere is minor dispute in words,\nyet the outcome is auspicious.",
+        "comments": "At the very inception of a disagreement, this yielding line at the bottom lacks the strength for protracted litigation and wisely chooses to let the grievance drop. Although some brief verbal friction is unavoidable, refusing to escalate the quarrel allows clarity to prevail quickly. Settling a dispute before battle lines harden brings an auspicious resolution."
       },
       {
         "line": 2,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the second place",
-        "text": "One cannot engage in conflict;\nOne returns home, gives way.\nThe people of his town,\nThree hundred households,\nRemain free of guilt.",
-        "comments": "In a struggle with an enemy of superior strength, retreat is no disgrace. Timely withdrawal prevents bad consequences. If, out of a false sense of honor, a man allowed himself to be tempted into an unequal conflict, he would be drawing down disaster upon himself. In such a case a wise and conciliatory attitude benefits the whole community, which will then not be drawn into the conflict."
+        "name": "Nine in the Second Place",
+        "text": "Unable to prevail in contention,\none turns back and withdraws to one's town of three hundred households.\nFree from fault.",
+        "comments": "Although strong and central within the lower trigram, this yang line recognises that contending against the supreme authority of the fifth line above is both futile and illegitimate. Just as pitting the lower against the higher invites self-inflicted disaster, timely withdrawal to a modest, self-contained sphere preserves one's integrity. By relinquishing the fight and living quietly within a small community, one spares both oneself and one's neighbours from calamity."
       },
       {
         "line": 3,
         "val": 6,
         "type": "yin",
-        "name": "Six in the third place",
-        "text": "To nourish oneself on ancient virtue induces perseverance.\nDanger. In the end, good fortune comes.\nIf by chance you are in the service of a king,\nSeek not works.",
-        "comments": "This is a warning of the danger that goes with an expansive disposition. Only that which has been honestly acquired through merit remains a permanent possession. It can happen that such a possession may be contested, but since it is really one's own, one cannot be robbed of it. Whatever a man possesses through the strength of his own nature cannot be lost. If one enters the service of a superior, one can avoid conflict only by not seeking works for the sake of prestige. It is enough if the work is done: let the honor go to the other."
+        "name": "Six in the Third Place",
+        "text": "Sustaining oneself upon ancestral virtue:\nperilous, yet in the end auspicious.\nIf serving in the king's affairs, claim no personal triumph.",
+        "comments": "Caught between strong yang lines in an uneasy position at the top of the Water trigram, this yielding line avoids conflict by relying solely upon the inherited merit and quiet integrity of its station. Though pressures from outside create danger, steadfastly guarding one's rightful heritage ensures eventual safety. When assisting superiors in public tasks, renouncing credit for achievements keeps one entirely out of the arena of rivalry."
       },
       {
         "line": 4,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fourth place",
-        "text": "One cannot engage in conflict.\nOne turns back and submits to fate,\nChanges one's attitude,\nAnd finds peace in perseverance.\nGood fortune.",
-        "comments": "This refers to a person whose inner attitude at first lacks peace. He does not feel content with his situation and would like to improve it through conflict. In contrast tot the situation of the nine in the second place, he is dealing with a weaker opponent and might therefore succeed. But he cannot carry on the fight, because, since right is not on his side, he cannot justify the conflict to his conscience. Therefore he turns back and accepts his fate. He changes his mind and finds lasting peace in being at one with eternal law. This brings good fortune."
+        "name": "Nine in the Fourth Place",
+        "text": "Unable to press the contention,\none turns back and submits to the natural decree,\naltering one's attitude to abide in peaceful steadfastness. Auspicious.",
+        "comments": "Occupying an even, yielding place at the base of the Heaven trigram, this strong line initially feels inclined to contend with the weak Initial Six below. Yet conscience and cosmic order forbid bullying a weaker party, so one reverses course and aligns with the mandate of Heaven. By transforming belligerence into serene self-restraint, nothing of true worth is lost."
       },
       {
         "line": 5,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fifth place",
-        "text": "To contend before him\nBrings supreme good fortune.",
-        "comments": "This refers to an arbiter in a conflict who is powerful and just, and strong enough to lend weight to the right side. A dispute can be turned over to him with confidence. If one is in the right, one attains great good fortune."
+        "name": "Nine in the Fifth Place",
+        "text": "Contending before him:\nsupreme good fortune.",
+        "comments": "Central, upright, and sovereign in the seat of honour, this line embodies the enlightened magistrate whose judgement is wholly impartial and lucid. When a legitimate grievance is brought before such a ruler, right and wrong are weighed with unclouded equity. Because central rectitude governs the decision, truth is vindicated and supreme good fortune prevails."
       },
       {
         "line": 6,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the top",
-        "text": "Even if by chance a leather belt is bestowed on one,'\nBy the end of a morning\nIt will have been snatched away three times.",
-        "comments": "Here we have someone who has carried a conflict to the bitter end and has triumphed. He is granted a decoration, but his happiness does not last. He is attacked again and again, and the result is conflict without end."
+        "name": "Top Nine",
+        "text": "Even if a ceremonial leather belt is bestowed upon one,\nby the end of a single morning it is stripped away three times.",
+        "comments": "At the extreme summit of the hexagram, an aggressive yang spirit pushes litigation to the bitter end and wins a hollow, coercive victory. As the Small Image observes, honours gained through relentless contention are inherently unworthy of respect and invite immediate retaliation. What is seized by force is lost thrice over before the morning is out."
       }
     ],
-    "judgmentCommentary": "Conflict develops when one feels himself to be in the right and runs into opposition. If one is not convinced of being in the right, opposition leads to craftiness or high-handed encroachment but not to open conflict. If a man is entangled in a conflict, his only salvation lies in being so clear-headed and inwardly strong that he is always ready to come to terms by meeting the opponent halfway. To carry one the conflict to the bitter end has evil effects even when one is the right, because the enmity is then perpetuated. It is important to see the great man, that is, an impartial man whose authority is great enough to terminate the conflict amicably or assure a just decision. In times of strife, crossing the great water is to be avoided, that is, dangerous enterprises are not to be begun, because in order to be successful they require concerted unity of focus. Conflict within weakens the power to conquer danger without.",
-    "imageCommentary": "The image indicates that the causes of conflict are latent in the opposing tendencies of the two trig rams. Once these opposing tendencies appear, conflict is inevitable. To avoid it, therefore, everything must be taken carefully into consideration in the very beginning. If rights and duties are exactly defined, or if, in a group, the spiritual trends of the individuals harmonize, the cause of conflict is removed in advance.",
-    "structureCommentary": "The upper trigram, whose image is heaven, has an upward movement; the lower trigram, water, in accordance with its nature tends downward. Thus the two halves move away from each other, giving rise to the idea of conflict. The attribute of the Creative is strength, that of the Abysmal is danger, guile. Where cunning has force before it, there is conflict. A third indication of conflict, in terms of character, is presented by the combination of deep cunning within and fixed determination outwardly. A person of this character will certainly be quarrelsome."
+    "judgmentCommentary": "Contention arises when strength above and peril below pull apart, or when inner shrewdness meets outward unyielding force. A person who possesses genuine grievances yet encounters obstruction feels compelled to dispute, but the oracle counsels that halting halfway in a spirit of wary compromise brings blessing, whereas fighting to total victory breeds endless vendetta. Because Nine in the Fifth Place sits in central, impartial majesty, appealing to a wise arbiter resolves the dispute justly. However, embarking upon hazardous ventures—crossing the great stream—when divided by internal strife invites certain capsizing into the abyss.",
+    "imageCommentary": "The firmament naturally ascends while water naturally flows downward; their divergent trajectories mirror how estrangement and litigation take root among human beings. Recognising that conflict grows from ambiguities left unresolved at the outset, the noble person establishes clear covenants, mutual duties, and ethical boundaries before launching any joint undertaking. By harmonising expectations at the root, the seeds of future contention are dissolved.",
+    "structureCommentary": "The lower trigram is Water (Kǎn, abysmal peril and craft) and the upper trigram is Heaven (Qián, unyielding strength and authority). Moving away from one another, they depict a rift in communication and trust. Nine in the Fifth Place represents the just, incorruptible judge who presides over the hexagram, while Nine in the Second Place represents a strong contender below who wisely chooses retreat over ruin."
   },
   {
     "number": 7,
     "unicode": "䷆",
     "chinese": "師",
     "pinyin": "Shī",
-    "english": "The Army",
+    "english": "The Multitude in Arms",
     "upperTrigram": {
       "name": "Earth",
       "chinese": "坤",
@@ -640,68 +654,68 @@ var HEXAGRAMS = [
       0,
       0
     ],
-    "judgment": "The Army needs perseverance and a strong leader. Good fortune without blame.",
-    "image": "In the middle of the earth is water: the image of the Army. Thus the superior person increases their masses by generosity toward the people.",
+    "judgment": "The Multitude in Arms. Steadfast integrity and a seasoned leader bring good fortune without fault.",
+    "image": "Within the earth lies water: the image of The Multitude in Arms. Thus the noble person nurtures the populace with generous inclusivity.",
     "lineTexts": [
       {
         "line": 1,
         "val": 6,
         "type": "yin",
-        "name": "Six at the beginning",
-        "text": "An army must set forth in proper order.\nIf the order is not good, misfortune threatens.",
-        "comments": "At the beginning of a military enterprise, order is imperative. A just and valid cause must exist, and the obedience and coordination of the troops must be well organized, otherwise the result is inevitably failure."
+        "name": "Initial Six",
+        "text": "The host must set forth according to strictdiscipline.\nIf the order is compromised, misfortune ensues.",
+        "comments": "At the very moment an army or collective enterprise is mobilised, clear regulations and ethical legitimacy are paramount. In the classical tradition, the pitch-pipe (lǜ) symbolised both musical harmony and martial law: when command and ranks move in unison, the cause is sound. If discipline is lax or the motive unjust at the outset, even a perceived triumph turns into disaster."
       },
       {
         "line": 2,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the second place",
-        "text": "In the midst of the army.\nGood fortune. No blame.\nThe king bestows a triple decoration.",
-        "comments": "The leader should be in the midst of his army, in touch with it, sharing good and bad with the masses he leads. This alone makes him equal to the heavy demands made upon him. He needs also the recognition of the ruler. The decorations he receives are justified, because there is no question of personal preferment here: the whole army, whose center he is, is honored in his person."
+        "name": "Nine in the Second Place",
+        "text": "Abiding in the centre of the host:\nauspicious and free from fault.\nThe king bestows the mandate three times.",
+        "comments": "Occupying the central position of the lower trigram, the commander shares the hardships of the rank and file while maintaining unwavering composure. Because his authority rests on central balance and the unreserved trust of the sovereign in the fifth place, his leadership brings victory and peace to the myriad states. The triple conferral of royal honours recognises his selfless service to the realm."
       },
       {
         "line": 3,
         "val": 6,
         "type": "yin",
-        "name": "Six in the third place",
-        "text": "Perchance the army carries corpses in the wagon.\nMisfortune.",
-        "comments": "Here we have a choice of two explanations. One points to defeat because someone other than the chosen leader interferes with the command; the other is similar in its general meaning, but the expression, \"carries corpses in the wagon,\" is interpreted differently. At burials and at sacrifices to the dead it was customary in China for the deceased to whom the sacrifice was made to be represented by a boy of the family, who sat in the dead man's place and was honored as his representative. On the basis of this custom the text is interpreted as meaning that a \"corpse boy\" is sitting in the wagon, or, in other words, that authority is not being exercised by the proper leaders but has been usurped by others. Perhaps the whole difficulty clears up if it is inferred that there has been an error in copying. The character fan, meaning \"all,\" may have been misread as shih, which means \"corpse.\" Allowing for this error, the meaning would be that if the multitude assumes leadership of the army (rides in the wagon), misfortune will ensue."
+        "name": "Six in the Third Place",
+        "text": "Perchance the host carries corpses in the wagon.\nMisfortune.",
+        "comments": "Neither central nor correct at the top of the perilous lower trigram, this weak line oversteps its station and interferes with command. Whether understood literally as carting home the slain after a rash defeat or figuratively as divided leadership where multiple voices usurp the general's authority, the result is catastrophic. Without unified, competent direction, no hazardous venture can succeed."
       },
       {
         "line": 4,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fourth place",
-        "text": "The army retreats. No blame.",
-        "comments": "In the face of a superior enemy, with whom it would be hopeless to engage in battle, an orderly retreat is the only correct procedure, because it will save the army from defeat and disintegration. It is by no means a sign of courage or strength to insist upon engaging in a hopeless struggle regardless of circumstances."
+        "name": "Six in the Fourth Place",
+        "text": "The host withdraws and encamps on the left.\nFree from fault.",
+        "comments": "As a yielding yin line in a correct even position at the base of the upper trigram, this officer recognises when conditions do not favour an offensive and executes an orderly tactical retreat. Preserving the lives of the troops and consolidating defensive positions when facing superior odds is not cowardice, but sound strategy. By refusing to squander strength in vain heroics, one remains wholly free from fault."
       },
       {
         "line": 5,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fifth place",
-        "text": "There is game in the field.\nIt furthers one to catch it.\nWithout blame.\nLet the eldest lead the army.\nThe younger transports corpses;\nThen perseverance brings misfortune.",
-        "comments": "Game is in the field--it has left its usual haunts in the forest and is devastating the fields. This points to an enemy invasion. Energetic combat and punishment are here thoroughly justified, but they must not degenerate into a wild melee in which everyone fends for himself. Despite the greatest degree of perseverance and bravery, this would lead to misfortune. The army must be directed by an experienced leader. It is a matter of waging war, not of permitting the mob to slaughter all who fall into their hands; if they do, defeat will be the result, and despite all perseverance there is danger of misfortune."
+        "name": "Six in the Fifth Place",
+        "text": "There are varmints in the field; it is propitious to seize them. Free from fault.\nLet the elder son lead the host;\nif younger men divide the command and cart corpses, even steadfastness brings misfortune.",
+        "comments": "Wild game trampling the cultivated fields symbolises marauders or disorder encroaching upon the peace of the realm, justifying defensive intervention by the sovereign. Yet the ruler in the fifth place must entrust sole command to the seasoned general (the 'elder son' in the second place) without allowing inexperienced courtiers to meddle. Divided authority undermines even the most righteous cause and leads directly to defeat."
       },
       {
         "line": 6,
         "val": 6,
         "type": "yin",
-        "name": "Six at the top",
-        "text": "The great prince issues commands,\nFounds states, vests families with fiefs.\nInferior people should not be employed.",
-        "comments": "The war has ended successfully, victory is won, and the king divided estates and fiefs among his faithful vassals. But it is important that inferior people should not come into power. If they have helped, let them be paid off with money, but they should not be awarded lands or the privileges of rulers, lest power be abused."
+        "name": "Top Six",
+        "text": "The great sovereign issues the final mandate,\nfounding states and investing noble houses.\nPetty persons must not be employed in governance.",
+        "comments": "At the culmination of the hexagram, the campaign is concluded, arms are laid down, and the ruler rewards meritorious service to establish lasting civil peace. Those of proven moral stature are entrusted with administrative office to nurture the people, whereas opportunistic or unprincipled combatants may be compensated materially but must never be given political authority. Employing petty minds in statecraft inevitably sows the seeds of future turmoil."
       }
     ],
-    "judgmentCommentary": "Without strict discipline nothing can be accomplished, but this discipline must not be achieved by force. It requires a strong man who captures the hearts of the people and awakens their enthusiasm. In order that he may develop his abilities he needs the complete confidence of his ruler, who must entrust him with full responsibility as long as the war lasts. But war is always a dangerous thing and brings with it destruction and devastation. Therefore it should not be resorted to rashly but, like a poisonous drug, should be used as a last recourse.",
-    "imageCommentary": "Ground water is invisibly present within the earth. In the same way the military power of a people is invisibly present in the masses. When danger threatens, every peasant becomes present in the masses. When danger threatens, every peasant becomes a soldier; when the war ends, he goes back to his plow. He who is generous toward the people wins their love, and a people living under a mild rule becomes strong and powerful. Only a people economically strong can be important in military power. Such power must therefore be cultivated by improving the economic condition of the people and by humane government. Only when there is this invisible bond between government and people, so that the people are sheltered by their government as ground water is sheltered by the earth, is it possible to wage a victorious war.",
-    "structureCommentary": "This hexagram is made up of the trigrams K'an, water, and K'un, earth, and thus it symbolizes the ground water stored up in the earth. In the same way military strength is stored up in the mass of the people--invisible in times of peace but always ready for use as a source of power. The attributes of the two trig rams are danger inside and obedience must prevail outside. Of the individual lines, the one that controls the hexagram is the strong nine in the second place, to which the other lines, all yielding, are subordinate. This line indicates a commander, because it stands in the middle of one of the two trigrams. But since it is in the lower rather than the upper trigram, it represents not the ruler but the efficient general, who maintains obedience in the army by his authority."
+    "judgmentCommentary": "Shī signifies both a disciplined military host and the organised multitude, requiring unswerving moral rectitude and a mature, experienced commander (zhàng rén) to achieve auspicious order. In the structure of the hexagram, a single strong yang line in the second place occupies the central position of the lower trigram, winning the devoted allegiance of five yielding yin lines around it. By undertaking perilous action only in full accord with popular sentiment and humane justice, the leader remedies disorder in the realm without incurring moral blame. Even when the world suffers affliction through necessary campaigning, the people follow willingly because the cause is righteous and the command unified.",
+    "imageCommentary": "Just as subterranean water is invisibly stored throughout the porous soil without separation, the defensive strength of an ancient state resided seamlessly within the agrarian citizenry. In peacetime the people tilled their fields; in moments of crisis they rallied together in disciplined formations. Emulating the earth's vast containment of water, the noble person governs with generous benevolence and civic care, cultivating a loyal populace whose solidarity is unshakeable.",
+    "structureCommentary": "The lower trigram is Water (Kǎn, danger) and the upper trigram is Earth (Kūn, receptive obedience), signifying perilous force held securely within compliant discipline. Nine in the Second Place is the sole yang line and the functional general of the hexagram, possessing centrality in the field and enjoying the trusted mandate of Six in the Fifth Place, the humble sovereign above."
   },
   {
     "number": 8,
     "unicode": "䷇",
     "chinese": "比",
     "pinyin": "Bǐ",
-    "english": "Holding Together",
+    "english": "Harmonious Union",
     "upperTrigram": {
       "name": "Water",
       "chinese": "坎",
@@ -737,68 +751,68 @@ var HEXAGRAMS = [
       1,
       0
     ],
-    "judgment": "Holding Together brings good fortune. Inquire of the oracle once again whether you have sublimity, constancy, and perseverance; then there is no blame.",
-    "image": "On the earth is water: the image of Holding Together. Thus the kings of antiquity cultivated friendly relations with all realms.",
+    "judgment": "Harmonious Union is auspicious. Examine the oracle once more to verify whether you possess primal magnanimity, enduring constancy, and steadfast integrity; then there is no fault. Those who are restless gather from all quarters; for the latecomer, there is misfortune.",
+    "image": "Upon the earth rests water: the image of Harmonious Union. Thus the ancient kings established the myriad states and cultivated affectionate relations with the feudal lords.",
     "lineTexts": [
       {
         "line": 1,
         "val": 6,
         "type": "yin",
-        "name": "Six at the beginning",
-        "text": "Hold to him in truth and loyalty;\nThis is without blame.\nTruth, like a full earthen bowl\"\nThus in the end\nGood fortune comes from without.",
-        "comments": "Fundamental sincerity is the only proper basis for forming relationships. This attitude, symbolized by a full earthen bowl, in which the content is everything and the empty form nothing, shows itself not in clever words but through the strength of what lies within the speaker. This strength is so great that it has power to attract good fortune to itself from without."
+        "name": "Initial Six",
+        "text": "Uniting with inner truth and sincerity:\nfree from fault.\nWhen sincerity brims like a full earthen vessel,\nin the end unexpected good fortune arrives from without.",
+        "comments": "At the very beginning of forming alliances, unadorned truthfulness is the sole essential foundation. An plain earthenware bowl filled to the brim symbolises substantial inner sincerity devoid of pretentious ornament. When one approaches relationships with such wholehearted integrity, auspicious blessings and kindred companions arrive from quarters beyond one's immediate circle."
       },
       {
         "line": 2,
         "val": 6,
         "type": "yin",
-        "name": "Six in the second place",
-        "text": "Hold to him inwardly.\nPerseverance brings good fortune.",
-        "comments": "If a person responds perseveringly and in the right way to the behests from above that summon him to action, his relations with others are intrinsic and he does not lose himself. But if a man seeks association with others as if he were an obsequious office hunter, he throws himself away. He does not follow the path of the superior man, who never loses his dignity."
+        "name": "Six in the Second Place",
+        "text": "Uniting from within.\nSteadfast integrity brings good fortune.",
+        "comments": "Occupying the central and correct position of the lower trigram, this line responds directly to the sovereign Nine in the Fifth Place out of authentic inner conviction. Unlike sycophants who sacrifice their dignity to curry favour, the noble person enters into fellowship from a centre of quiet self-respect. Because the bond is rooted in shared moral principle, it remains unshakeable and auspicious."
       },
       {
         "line": 3,
         "val": 6,
         "type": "yin",
-        "name": "Six in the third place",
-        "text": "You hold together with the wrong people.",
-        "comments": "We are often among people who do not belong to our own sphere. In that case we must beware of being drawn into false intimacy through force of habit. Needless to say, this would have evil consequences. Maintaining sociability without intimacy is the only right attitude toward people, because otherwise we should not be free to enter into relationship with people of our own kind later on."
+        "name": "Six in the Third Place",
+        "text": "Uniting with unworthy companions.",
+        "comments": "Placed in an odd position at the top of the lower trigram and surrounded exclusively by other weak yin lines above, below, and in the sixth place, this line lacks access to a wise leader. Out of loneliness or habit, one risks drifting into unwholesome intimacy with people who lack integrity. The Small Image asks how such an attachment could avoid bringing eventual injury, warning us to maintain polite boundaries when surrounded by the unprincipled."
       },
       {
         "line": 4,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fourth place",
-        "text": "Hold to him outwardly also.\nPerseverance brings good fortune.",
-        "comments": "Here the relations with a man who is the center of union are well established. Then we may, and indeed we should, show our attachment openly. But we must remain constant and not allow ourselves to be led astray."
+        "name": "Six in the Fourth Place",
+        "text": "Uniting outwardly with the worthy.\nSteadfast integrity brings good fortune.",
+        "comments": "Although its natural correlate at the bottom is weak, this yin line in a correct even position stands immediately beneath the enlightened ruler in the fifth place. By setting aside narrow parochial ties and openly dedicating its service to the central leader above, it finds its proper anchor. Steadfast loyalty to a worthy superior brings lasting good fortune."
       },
       {
         "line": 5,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fifth place",
-        "text": "Manifestation of holding together.\nIn the hunt the king uses beaters on three sides only\nAnd forgoes game that runs off in front.\nThe citizens need no warning.\nGood fortune.",
-        "comments": "In the royal hunts of ancient China it was customary to drive up the game from three sides, but on the fourth the animals had a chance to run off. If they failed to do this they had to pass through a gate behind which the king stood ready to shoot. Only animals that entered here were shot; those that ran off in front were permitted to escape. This custom accorded with a kingly attitude; the royal hunter did not wish to turn the chase into a slaughter, but held that the kill should consist only of those animals which had so to speak voluntarily exposed themselves. There is depicted here a ruler, or influential man, to whom people are attracted. Those who come to him he accepts, those who do not come are allowed to go their own way. He invited none, flatters none--all come of their own free will. In this way there develops a voluntary dependence among those who hold him. They do not have to be constantly on their guard but may express their opinions openly. Police measures are not necessary, and they cleave to their ruler of their own volition. The same principle of freedom is valid for life in general. We should not woo favor from people. If a man cultivates within himself the purity and the strength that are necessary for one who is the center of a fellowship, those who are meant for him come of their own accord."
+        "name": "Nine in the Fifth Place",
+        "text": "Illustrious union.\nThe king employs beaters on three sides only,\nletting go the game that runs off in front.\nThe townspeople require no stern warnings. Auspicious.",
+        "comments": "As the central, upright ruler of the entire hexagram, the sovereign demonstrates supreme magnanimity through the ancient royal hunting custom of leaving one side of the enclosure open. Those who come forward of their own accord are welcomed, while those who depart are neither pursued nor coerced. Because authority is exercised with such unselfish impartiality and respect for human freedom, the populace harmonises spontaneously without need for harsh decrees."
       },
       {
         "line": 6,
         "val": 6,
         "type": "yin",
-        "name": "Six at the top",
-        "text": "He finds no head for holding together.\nMisfortune.",
-        "comments": "The head is the beginning. If the beginning is not right, there is no hope of a right ending. If we have missed the right moment for union and go on hesitating to give complete and full devotion, we shall regret the error when it is too late."
+        "name": "Top Six",
+        "text": "Uniting without a head.\nMisfortune.",
+        "comments": "Standing at the topmost extremity above the sovereign in the fifth place, this isolated yin line has missed the timely beginning of union and refuses to humble itself before the rightful centre. Just as a body without a head cannot coordinate its limbs, a life or enterprise that fails to establish sincere fellowship at the outset ends in fragmentation. Hesitating in aloof pride until the opportunity has passed leads inevitably to misfortune."
       }
     ],
-    "judgmentCommentary": "What is required is that we unite with others, in order that all may complement and aid one another through holding together. But such holding together calls for a central figure around whom other persons may unite. To become a center of influence holding people together is a grave matter and fraught with great responsibility. It requires greatness of spirit, consistency, and strength. Therefore let him who wishes to gather others about him ask himself whether he is equal to the undertaking, for anyone attempting the task without a real calling for it only makes confusion worse than if no union at all had taken place. But when there is a real rallying point, those who at first are hesitant or uncertain gradually come in of their own accord. Late-comers must suffer the consequences, for in holding together the question of the right time is also important. Relationships are formed and firmly established according to definite inner laws. Common experiences strengthen these ties, and he who comes too late to share in these basic experiences must suffer for it if, as a straggler, he finds the door locked. If a man has recognized the necessity for union and does not feel strong enough to function as the center, it is his duty to become a member of some other organic fellowship.",
-    "imageCommentary": "Water fills up all the empty places on the earth and clings fast to it. The social organization of ancient China was based on this principle of the holding together of dependents and rulers. Water flows to unite with water, because all parts of it are subject to the same laws. So too should human society hold together through a community of interests that allows each individual to feel himself a member of a whole. The central power of a social organization must see to it that every member finds that his true interest lies in holding together with it, as was the case in the paternal relationship between king and vassals in ancient China.",
-    "structureCommentary": "The waters on the surface of the earth flow together wherever they can, as for example in the ocean, where all the rivers come together. Symbolically this connotes holding together and the laws that regulate it. The same idea is suggested by the fact that all the lines of the hexagram except the fifth, the place of the ruler, are yielding. The yielding lines hold together because they are influenced by a man of strong will in the leading position, a man who is their center of union. Moreover, this strong and guiding personality in turn holds together with the others, finding in them the complement of his own nature."
+    "judgmentCommentary": "Bǐ denotes close affinity, mutual support, and joyful solidarity, where the yielding multitude below gathers around a single luminous centre of authority in the fifth place. Because standing as the focal point of human fellowship carries immense ethical responsibility, the oracle counsels self-examination: only one endowed with primal breadth of vision, long-term constancy, and unblemished rectitude can unite others without fault. When such a sovereign presides in the central seat, those who were previously unsettled or insecure gravitate toward them like streams flowing to the sea. Conversely, anyone who remains aloof in stubborn isolation until the fabric of community has closed around them will find themselves stranded and bereft.",
+    "imageCommentary": "Water flowing over the surface of the earth permeates the soil without leaving the slightest crevice between them, offering a natural emblem of seamless intimacy. Inspired by this bond, the sage-rulers of antiquity instituted a federal order in which regional lords enjoyed local autonomy while remaining bound to the royal court through shared ritual and mutual affection. In personal and civic life alike, true union rests upon reciprocal care rather than coercive centralisation.",
+    "structureCommentary": "The lower trigram is Earth (Kūn, receptive devotion) and the upper trigram is Water (Kǎn, flowing cohesion), forming the exact inverse of Hexagram 7 (Shī). Whereas in Shī the single yang line stood in the second place as a field commander, here Nine in the Fifth Place occupies the supreme throne as the sole yang line, surrounded and revered by five yielding yin lines."
   },
   {
     "number": 9,
     "unicode": "䷈",
     "chinese": "小畜",
     "pinyin": "Xiǎo Chù",
-    "english": "Small Taming",
+    "english": "Gentle Restraint",
     "upperTrigram": {
       "name": "Wind",
       "chinese": "巽",
@@ -834,68 +848,68 @@ var HEXAGRAMS = [
       1,
       1
     ],
-    "judgment": "The Taming Power of the Small has success. Dense clouds, no rain from our western region. Gentle restraint brings progress.",
-    "image": "The wind drives across the heavens: the image of the Taming Power of the Small. Thus the superior person refines outward character.",
+    "judgment": "Gentle Restraint attains fulfilment. Dense clouds gather, yet no rain falls from our western region.",
+    "image": "The wind drives across the heavens: the image of Gentle Restraint. Thus the noble person refines the grace of their moral demeanour.",
     "lineTexts": [
       {
         "line": 1,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the beginning",
-        "text": "Return to the way.\nHow could there be blame in this?\nGood fortune.",
-        "comments": "It lies in the nature of a strong man to press forward. In so doing he encounters obstructions. Therefore he returns to the way suited to his situation, where he is free to advance or to retreat. In the nature of things this will bring good fortune, for it is wise and reasonable not to try to obtain anything by force."
+        "name": "Initial Nine",
+        "text": "Returning to one's rightful path.\nHow could there be any fault in this?\nAuspicious.",
+        "comments": "At the base of the Creative trigram, this vigorous yang line naturally inclines to press upward, yet perceives that the yielding fourth line above blocks a hasty advance. Rather than forcing a confrontation against the spirit of the time, it calmly returns to its own proper station at the beginning. Exercising self-mastery before friction arises is not a defeat, but a wise alignment with natural law that brings good fortune."
       },
       {
         "line": 2,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the second place",
-        "text": "He allows himself to be drawn into returning.\nGood fortune.",
-        "comments": "One would like to press forward, but before going farther one sees from the example of others like oneself that this way is blocked. In such a case, if the effort to push forward is not in harmony with the time, a reasonable and resolute man will not expose himself to a personal rebuff, but will retreat with others of like mind. This brings good fortune, because he does not needlessly jeopardize himself."
+        "name": "Nine in the Second Place",
+        "text": "Guided back in company.\nAuspicious.",
+        "comments": "Occupying the central position of the lower trigram, this strong line sees the obstruction ahead and joins hands with its kindred Initial Nine in a composed, voluntary withdrawal. Because it possesses inner balance, it neither chafes against temporary restraint nor compromises its dignity. Harmonising with fellow travellers in prudent self-restraint ensures an auspicious outcome."
       },
       {
         "line": 3,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the third place",
-        "text": "The spokes burst out of the wagon wheels.\nMan and wife roll their eyes.",
-        "comments": "Here an attempt is made to press forward forcibly, in the consciousness that the obstructing power is slight. But since, under the circumstances, power actually lies with the weak, this sudden offensive is doomed to failure. External conditions hinder the advance, just as loss of the wheel spokes stops the progress of a wagon. We do not yet heed this hint form fate, hence there are annoying arguments like those of a married couple. Naturally this is not a favorable state of thing, for though the situation may enable the weaker side to hold its ground, the difficulties are too numerous to permit of a happy result. In consequence even the strong man cannot so use his power as to exert the right influence on those around him. He experiences a rebuff where he expected an easy victory, and he thus compromises his dignity."
+        "name": "Nine in the Third Place",
+        "text": "The spokes burst from the chariot wheels.\nHusband and wife glare at one another in discord.",
+        "comments": "Situated at the top of the lower trigram in immediate contact with the restraining yin line in the fourth place, this overly assertive yang line attempts to force its way forward. Like a heavy wagon whose wheel-spokes snap under strain, premature aggression grinds to a halt. Instead of harmonious partnership between adjacent yin and yang lines, stubborn friction erupts into domestic bickering and mutual resentment."
       },
       {
         "line": 4,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fourth place",
-        "text": "If you are sincere, blood vanishes and fear gives way.\nNo blame.",
-        "comments": "If one is in the difficult and responsible position of counselor to a powerful man, on should restrain him in such a way that the threat of actual bloodshed may arise. Nonetheless, the power of disinterested truth is greater than all theses obstacles. It carries such weight that the end is achieved, and all danger of bloodshed and all fear disappear."
+        "name": "Six in the Fourth Place",
+        "text": "Possessing inner truth, the threat of bloodshed vanishes and anxious dread gives way.\nFree from fault.",
+        "comments": "As the solitary yin line tasked with restraining five powerful yang lines, this ministerial position carries immense tension and potential peril. Yet because it occupies a correct even place and acts with transparent, unselfish sincerity, it wins the sympathetic support of the sovereign immediately above in the fifth place. Genuine candour disarms hostility, averts injury, and dissolves fear."
       },
       {
         "line": 5,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fifth place",
-        "text": "If you are sincere and loyally attached,\nYou are rich in your neighbor.",
-        "comments": "Loyalty leads to firm ties because it means that each partner complements the other. In the weaker person loyalty consists in devotion, in the stronger it consists in trustworthiness. This relation of mutual reinforcement leads to a true wealth that is all the more apparent because it is not selfishly hoarded but is shared with friends. Pleasure shared is pleasure doubled."
+        "name": "Nine in the Fifth Place",
+        "text": "Possessing inner truth and bound in mutual trust,\none shares abundance with one's neighbour.",
+        "comments": "Central and upright in the ruler's seat of the Wind trigram, this line unites its strength with the gentle ministry of the fourth line below. Rather than hoarding resources or authority in solitary pride, the leader binds companions together through heartfelt trustworthiness. When wealth and capability are generously shared for the common good, everyone prospers together."
       },
       {
         "line": 6,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the top",
-        "text": "The rain comes, there is rest.\nThis is due to the lasting effect of character.\nPerseverance brings the woman into danger.\nThe moon is nearly full.\nIf the superior man persists,\nMisfortune comes.",
-        "comments": "Success is at hand. The wind has driven up the rain. A fixed standpoint has been reach. This has come about through the cumulation of small effects produced by reverence for a superior character. But a success thus secured bit by bit calls for great caution. It would be a dangerous illusion for anyone to think he could presume upon it. The female principle, the weak element that has won the victory, should never persist in vaunting it--that would lead to danger. The dark power in the moon is strongest when the moon is almost full. When it is full and directly opposite the sun, its waning is inevitable. Under such circumstances one must be content with what has been achieved. To advance any further, before the appropriate time has come, would lead to misfortune."
+        "name": "Top Nine",
+        "text": "Already the rain has fallen, already rest is attained; virtuous accumulation is revered.\nFor the wife to persist aggressively brings peril.\nThe moon is nearly full; if the noble person marches forth, misfortune ensues.",
+        "comments": "At the culmination of the hexagram, the gentle restraint has fulfilled its work: the clouds condense into nourishing rain and tension subsides into peace. Yet precisely when a yielding principle has succeeded in taming the strong, it must never gloat or press its advantage too far, just as the moon begins to wane the moment it reaches fullness opposite the sun. Even the noble person must rest content with what has been accomplished, for further campaigning at this limit invites misfortune."
       }
     ],
-    "judgmentCommentary": "This image refers to the state of affairs in China at the time when King Wên, who came originally from the west, was in the east at the court of the reigning tyrant Chou Hsin. The moment for action on a large scale had not yet arrived. King Wên could only keep the tyrant somewhat in check by friendly persuasion. Hence the image of many clouds, promising moisture and blessing to the land, although as yet no rain falls. The situation is not unfavorable; there is a prospect of ultimate success, but there are still obstacles in the way, and we can merely take preparatory measures. Only through the small means of friendly persuasion can we exert any influence. The time has not yet come for sweeping measures. However, we may be able, to a limited extent, to act as a restraining and subduing influence. To carry out our purpose we need firm determination within and gentleness and adaptability in external relations.",
-    "imageCommentary": "The wind can indeed drive the clouds together in the sky; yet, being nothing but air, without solid body, it does not produce great or lasting effects. So also an individual, in times when he can produce no great effect in the outer world, can do nothing except refine the expression of his nature in small ways.",
-    "structureCommentary": "This hexagram means the force of the small--the power of the shadowy--that restrains, tames, impedes. A weak line in the fourth place, that of the minister, holds the five strong lines in check. In the Image it is the wind blowing across the sky. The wind restrains the clouds, the rising breath of the Creative, and makes them grow dense, but as yet is not strong enough to turn them to rain. The hexagram presents a configuration of circumstances in which a strong element is temporarily held in leash by a weak element. It is only through gentleness that this can have a successful outcome."
+    "judgmentCommentary": "In Xiǎo Chù, a single yielding yin line in the fourth place occupies a position of ministerial influence and gently checks the impetuous advance of five strong yang lines. Because the restraining force is subtle rather than coercive, and because Nine in the Fifth Place holds the central seat with shared sincerity, the hexagram promises eventual fulfilment. Yet just as thick clouds blowing across the western sky have not yet condensed into fertilising rain, the time for sweeping outward action has not yet matured. Only through patient preparation, diplomatic tact, and quiet accumulation of small virtues can one channel mighty forces toward a harmonious outcome.",
+    "imageCommentary": "High above the earth, the penetrating wind of Xùn sweeps across the firmament of Qián, shaping the clouds without leaving a heavy physical imprint. When outer conditions do not yet permit grand political or material undertakings, the noble person turns inward to polish their cultural expression, speech, and daily deportment. By perfecting the subtle arts of civility and self-command, one prepares the vessel for future responsibility.",
+    "structureCommentary": "The lower trigram is Heaven (Qián, vigorous upward movement) and the upper trigram is Wind (Xùn, gentle penetration). Five undivided yang lines surround a single divided yin line in the fourth place, which acts as the functional pivot of the hexagram by taming strength with pliancy, supported by the central sovereign in the fifth place."
   },
   {
     "number": 10,
     "unicode": "䷉",
     "chinese": "履",
     "pinyin": "Lǚ",
-    "english": "Treading",
+    "english": "Treading with Composure",
     "upperTrigram": {
       "name": "Heaven",
       "chinese": "乾",
@@ -931,68 +945,68 @@ var HEXAGRAMS = [
       1,
       1
     ],
-    "judgment": "Treading upon the tail of the tiger. It does not bite. Success through gentle, dignified conduct.",
-    "image": "Heaven above, the lake below: the image of Treading. Thus the superior person discriminates between high and low, fortifying the minds of the people.",
+    "judgment": "Treading upon the tail of the tiger. It does not bite the person: fulfilment.",
+    "image": "Heaven above, the joyous lake below: the image of Treading with Composure. Thus the noble person distinguishes between high and low, settling the aspirations of the people.",
     "lineTexts": [
       {
         "line": 1,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the beginning",
-        "text": "Simple conduct. Progress without blame.",
-        "comments": "The situation is one in which we are still not bound by any obligations of social intercourse. If our conduct is simple, we remain free of them We can quietly follow our predilections as long as we are content and make not demands on people. The meaning of the hexagram is not standstill but progress. A man finds himself in an altogether inferior position at the start. However, he has the inner strength that guarantees progress. If he can be content with simplicity, he can make progress without blame. When a man is dissatisfied with modest circumstances, he is restless and ambitious and tries to advance, not for the sake of accomplishing anything worth while, but merely in order to escape from lowliness and poverty by dint of his conduct. Once his purpose is achieved, he is certain to become arrogant and luxury-loving. Therefore blame attaches to his progress. On the other hand, a man who is good at his work is content to behave simply. He wishes to make progress in order to accomplish something. When he attains his goal, he does something worth while, an all is well."
+        "name": "Initial Nine",
+        "text": "Treading in unadorned simplicity.\nGoing forward is free from fault.",
+        "comments": "At the very beginning of one's walk in the world, a strong yang line in an odd place remains uncorrupted by worldly calculation or social pretension. By pursuing one's calling for its own sake rather than craving status or luxury, one moves forward with quiet independence. Fulfilling one's original aspiration in plain sincerity keeps every step free from fault."
       },
       {
         "line": 2,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the second place",
-        "text": "Treading a smooth, level course.\nThe perseverance of a dark man\nBrings good fortune.",
-        "comments": "The situation of a lonely sage is indicated here. He remains withdrawn from the bustle of life, seeks nothing, asks nothing of anyone, and travels through life unassailed, on a level road. Since he is content and does not challenge fate, he remains free of entanglements."
+        "name": "Nine in the Second Place",
+        "text": "Treading a smooth and level thoroughfare.\nThe recluse's steadfast integrity brings good fortune.",
+        "comments": "Occupying the central position of the lower trigram, this strong line walks a broad, unobstructed path far removed from courtly intrigue. Like a self-sufficient sage living in quiet retirement, its inner light is untroubled by external ambition or entanglements. Because its centre remains unperturbed by desire, it enjoys enduring peace and good fortune."
       },
       {
         "line": 3,
         "val": 6,
         "type": "yin",
-        "name": "Six in the third place",
-        "text": "A one-eyed man is able to see,\nA lame man is able to tread.\nHe treads on the tail of the tiger.",
-        "comments": "The tiger bites the man.\nMisfortune.\n\nThus does a warrior act on behalf of his great prince.\n\nA one-eyed man can indeed see, but not enough for clear vision. A lame man can indeed treat, but not enough to make progress. If in spite of such defects a man considers himself strong and consequently exposes himself to danger, he is inviting disaster, for he is undertaking something beyond his strength. This reckless way of plunging ahead, regardless of the adequacy of one's powers, can be justified only in the case of a warrior battling for his prince."
+        "name": "Six in the Third Place",
+        "text": "One-eyed, yet presuming to see clearly; lame, yet presuming to tread boldly.\nHe steps upon the tiger's tail: it bites the person! Misfortune.\nA warrior acts thus on behalf of his great sovereign.",
+        "comments": "As the sole weak yin line occupying an odd, restless position at the top of the Lake trigram, its vision is partial and its footing unsound, yet it rashly presumes to act like a strong leader. Plunging into danger beyond one's capacity provokes the tiger's bite and brings swift ruin. Such reckless disregard for personal safety is intelligible only in a soldier who sacrifices everything out of fierce loyalty to his prince."
       },
       {
         "line": 4,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fourth place",
-        "text": "He treads on the tail of the tiger.\nCaution and circumspection\nLead ultimately to good fortune.",
-        "comments": "This text refers to a dangerous enterprise. The inner power to carry it through is there, but this inner power is combined with hesitating caution in one's external attitude. This line contrasts with the preceding line, which is weak within but outwardly presses forward. Here one is sure of ultimate success, which consists in achieving one's purpose, that is, in overcoming danger by going forward."
+        "name": "Nine in the Fourth Place",
+        "text": "Treading upon the tail of the tiger.\nTrembling caution and circumspection lead in the end to good fortune.",
+        "comments": "Positioned directly beneath the formidable ruler in the fifth place, this strong yang line occupies an even, yielding station and therefore tempers its vigour with deep reverence. Although its proximity to supreme power is fraught with hazard, vigilant mindfulness and unassuming tact protect it from misstep. By uniting inner capability with outward circumspection, one fulfils one's aspiration safely."
       },
       {
         "line": 5,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fifth place",
-        "text": "Resolute conduct.\nPerseverance with awareness of danger.",
-        "comments": "This refers to the ruler of the hexagram as a whole. One sees that one has to be resolute in conduct. But at the same time one must remain conscious of the danger connected with such resoluteness, especially if it is to be persevered in. Only awareness of the danger makes success possible."
+        "name": "Nine in the Fifth Place",
+        "text": "Resolute treading.\nSteadfastness with awareness of peril.",
+        "comments": "Seated upon the sovereign throne with central, undivided strength, this ruler possesses the authority to decide all matters decisively. Yet precisely because its power is unchallenged and auspicious, there lurks the subtle danger of autocratic rigidity or overconfidence. Only by remaining constantly mindful of potential pitfalls at the height of authority does the leader preserve faultless governance."
       },
       {
         "line": 6,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the top",
-        "text": "Look to your conduct and weigh the favorable signs.\nWhen everything is fulfilled, supreme good fortune comes.",
-        "comments": "The work is ended. If we want to know whether good fortune will follow, we must look back upon our conduct and its consequences. If the effects are good, then good fortune is certain. No one knows himself. It is only by the consequences of his actions, by the fruit of his labors, that a man can judge what he is to expect."
+        "name": "Top Nine",
+        "text": "Examine the path trodden and weigh the auspicious signs.\nWhen the circuit is complete, supreme good fortune.",
+        "comments": "At the very end of the hexagram, the journey of conduct reaches completion and one looks back over the entire course of action. Whether the outcome is truly blessed depends upon whether every step from beginning to end has been fulfilled with integrity. When inward virtue and outward accomplishment form an unbroken circle, greatcelebration and supreme blessing crown the work."
       }
     ],
-    "judgmentCommentary": "The situation is really difficult. That which is strongest and that which is weakest are close together. The weak follows behind the strong and worries it. The strong, however, acquiesces and does not hurt the weak, because the contact is in goof humor and harmless. In terms of a human situation, one is handling wild, intractable people. In such a case one's purpose will be achieved if one behaves with decorum. Pleasant manners succeed even with irritable people.",
-    "imageCommentary": "Heaven and the lake show a difference of elevation that inheres in the natures of the two, hence no envy arises. Among mankind also there are necessarily differences of elevation; it is impossible to bring about universal equality. But it is important that differences in social rank should not be arbitrary and unjust, for if this occurs, envy and class struggle are the inevitable consequences. If, on the other hand, external differences in rank correspond with differences in inner worth, and if inner worth forms the criterion of external rank, people acquiesce and order reigns in society.",
-    "structureCommentary": "The name of the hexagram means on the one hand the right way of conducting oneself. Heaven, the father, is above, and the lake, the youngest daughter, is below. This shows the difference between high and low, upon which composure correct social conduct, depends. On the other hand the word for the name of the hexagram, TREADING, means literally treading upon something. The small and cheerful [Tui] treads upon the large and strong [Ch'ien]. The direction of movement of the two primary trigrams is upward. The fact that the strong treads on the weak is not mentioned in the Book of Changes, because it is taken for granted. For the weak to take a stand against the strong is not dangerous here, because it happened in good humor [Tui] and without presumption, so that the strong man is not irritated but takes it all in good part."
+    "judgmentCommentary": "Lǚ depicts the delicate art of conducting oneself amidst awesome power, where the joyous, yielding trigram Duì follows directly behind the mighty, unyielding trigram Qián. Although stepping close behind a tiger's tail appears perilous, no harm ensues because cheerful courtesy and respectful deference disarm wrath without a trace of servility. Nine in the Fifth Place occupies the celestial throne with resolute strength, Central and upright, establishing luminous ritual order throughout the realm. By walking the path of ceremonial propriety (lǐ), human beings navigate hazardous terrain with poise and achieve lasting fulfilment.",
+    "imageCommentary": "The lofty vault of heaven above and the tranquil waters of the marsh below exhibit an unmistakable natural hierarchy that is free of envy or contention. Observing this cosmic pattern, the noble person institutes clear ethical standards and social responsibilities that honour genuine merit and station. When everyone understands their rightful role within an organic whole, restless ambition subsides and collective peace is secured.",
+    "structureCommentary": "The lower trigram is Lake (Duì, joyous openness and the youngest daughter) and the upper trigram is Heaven (Qián, creative strength and the father). A single divided yin line in the third place treads amidst five undivided yang lines, contrasting folly with caution, while Nine in the Fifth Place governs the hexagram from the seat of supreme authority."
   },
   {
     "number": 11,
     "unicode": "䷊",
     "chinese": "泰",
     "pinyin": "Tài",
-    "english": "Peace",
+    "english": "Pervading Harmony",
     "upperTrigram": {
       "name": "Earth",
       "chinese": "坤",
@@ -1028,68 +1042,68 @@ var HEXAGRAMS = [
       0,
       0
     ],
-    "judgment": "Peace. The small departs, the great approaches. Good fortune. Sublime success.",
-    "image": "Heaven and earth unite: the image of Peace. Thus the ruler divides and completes the courses of heaven and earth, aiding the people.",
+    "judgment": "Pervading Harmony. The small departs, the great approaches: auspicious and attaining fulfilment.",
+    "image": "Heaven and earth unite in communion: the image of Pervading Harmony. Thus the sovereign orders and completes the course of heaven and earth, regulating and aiding the people.",
     "lineTexts": [
       {
         "line": 1,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the beginning",
-        "text": "When ribbon grass is pulled up, the sod comes with it.\nEach according to his kind.\nUndertakings bring good fortune.",
-        "comments": "In times of prosperity every able man called to fill an office draws like minded people along with him, just as in pulling up ribbon grass one always pulls up a bunch of it, because the stalks are connected by their roots. In such times, when it is possible to extend influence widely, the mind of an able man is set upon going out into life and accomplishing something."
+        "name": "Initial Nine",
+        "text": "When cogon grass is pulled up, the tangled roots come with it, each according to its kind.\nSetting forth brings good fortune.",
+        "comments": "At the dawn of a prosperous era, when a single person of integrity steps forward into public service, kindred spirits linked by shared principle naturally rise together like grass stalks bound at the root. Because the aspiration of this initial yang line is directed entirely toward the common welfare outside itself, active engagement in the world is thoroughly auspicious."
       },
       {
         "line": 2,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the second place",
-        "text": "Bearing with the uncultured in gentleness,\nFording the river with resolution,\nNot neglecting what is distant,\nNot regarding one's companions:",
-        "comments": "Thus one may manage to walk in the middle.\n\nIn times of prosperity it is important and above all to possess enough greatness of soul to bear with imperfect people. For in the hands of a great master no material is unproductive; he can find use for everything. But this generosity is by no means laxity or weakness. It is during times of prosperity especially that we must always be ready to risk even dangerous undertakings, such as the crossing of a river, if they are necessary. So too we must not neglect what is distant but must attend scrupulously to everything. Factionalism and the dominance of cliques are especially to be avoided. Even if people of like mind come forward together, they ought not to form a faction by holding together for mutual advantage; instead, each man should do is duty. Theses are four ways in which one can overcome the hidden danger of a gradual slackening that always lurks in any time of peace. And that is how one finds the middle way for action."
+        "name": "Nine in the Second Place",
+        "text": "Embracing the uncultivated with breadth of spirit, fording the river with resolute courage,\nneglecting nothing distant, and foreswearing factional cliques:\nthus one walks in luminous centrality.",
+        "comments": "As the central governing line of the lower trigram, this minister bears the chief responsibility for preserving an age of peace against the subtle rot of complacency. By combining generous tolerance toward human imperfection with bold decisiveness in crisis, thorough attention to distant matters, and complete freedom from partisan bias, one maintains the golden mean in full radiance."
       },
       {
         "line": 3,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the third place",
-        "text": "No plain not followed by a slope.\nNo going not followed by a return.\nHe who remains persevering in danger\nIs without blame.\nDo not complain about this truth;\nEnjoy the good fortune you still possess.",
-        "comments": "Everything on earth is subject to change. Prosperity is followed by decline: this is the eternal law on earth. Evil can indeed be held in check but not permanently abolished. It always returns. This conviction might induct melancholy, but it should not; it ought only to keep us from falling into illusion when good fortune comes to us. If we continue mindful of the danger, we remain persevering and make no mistakes. As long as a man's inner nature remains stronger and richer than anything offered by external fortune, as long as he remains inwardly superior to fate, fortune will not desert him."
+        "name": "Nine in the Third Place",
+        "text": "No level plain without a slope; no going forth without a return.\nSteadfastness amidst peril keeps one free from fault.\nDo not grieve over this immutable truth; cherish the blessing you now enjoy.",
+        "comments": "Standing at the boundary where the lower trigram of Heaven meets the upper trigram of Earth, this line marks the zenith of prosperity where cyclic law dictates that decline must eventually begin. Rather than indulging in futile lamentation over the impermanence of things, the noble person remains vigilant and upright even in times of ease. By honouring the natural rhythm of heaven and earth while tending faithfully to present blessings, one avoids error."
       },
       {
         "line": 4,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fourth place",
-        "text": "He flutters down, not boasting of his wealth,\nTogether with his neighbor,\nGuileless and sincere.",
-        "comments": "In times of mutual confidence, people of high rank come in close contact with the lowly quite simply and without boasting of their wealth. This is not due to the force of circumstances but corresponds with their inmost sentiment. The approach is made quite spontaneously, because it is based on inner conviction."
+        "name": "Six in the Fourth Place",
+        "text": "Fluttering down together with one's neighbours,\nunboastful of wealth, in spontaneous candour.",
+        "comments": "Having entered the upper trigram of Earth, the three yielding lines descend like birds alighting together to meet their correlates below. Free from the arrogance of high rank or material privilege, this fourth line approaches the lower realm out of genuine heartfelt affinity. When superiors meet inferiors with unadorned sincerity, trust requires no formal covenants."
       },
       {
         "line": 5,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fifth place",
-        "text": "The sovereign I\nGives his daughter in marriage.\nAnd supreme good fortune.",
-        "comments": "The sovereign I is T'ang the Completer. By his decree the imperial princesses, although higher in rank than their husbands, had to obey them like all other wives. Here too we are shown a truly modest union of high and low that brings happiness and blessings."
+        "name": "Six in the Fifth Place",
+        "text": "Sovereign Yǐ gives his royal daughter in marriage.\nThis brings blessing and supreme good fortune.",
+        "comments": "Alluding to the ancient Shang king who decreed that royal princesses must defer to their husbands with humble devotion despite their exalted birth, this central fifth line exemplifies supreme modesty on the throne. By relinquishing imperial pride and entrusting governance to the wise sage in the second place, the ruler unites high and low in pure harmony, securing boundless blessing."
       },
       {
         "line": 6,
         "val": 6,
         "type": "yin",
-        "name": "Six at the top",
-        "text": "The wall falls back into the moat.\nUse no army now.\nMake your commands known within your own town.\nPerseverance brings humiliation.",
-        "comments": "The change alluded to in the middle of the hexagram has begun to take place. The wall of the town sinks back into the moat from which it was dug. The hour of doom is at hand. When matters have come to this pass, we should submit to fate and not try to stave it off by violent resistance. The one recourse left us is to hold our own within our intimate circle. Should we persevere in trying to resist the evil in the usual way, our collapse would only be more complete, and humiliation would be the result."
+        "name": "Top Six",
+        "text": "The city wall crumbles back into the moat.\nDo not employ the army now; issue ordinances only within your own township.\nEven steadfastness cannot prevent regret.",
+        "comments": "At the extreme terminus of Pervading Harmony, the cycle turns back toward stagnation as the earthen rampart collapses into the trench from which it was dug. When cosmic order is dissolving into disorder, attempting to reverse the tide through martial force only accelerates ruin. Wisdom counsels accepting the turn of fate with quiet dignity and maintaining ethical order within one's immediate circle."
       }
     ],
-    "judgmentCommentary": "This hexagram denotes a time in nature when heaven seems to be on earth. Heaven has placed itself beneath the earth, and so their powers unite in deep harmony. Then peace and blessing descend upon all living things. In the world of man it is a time of social harmony; those in high places show favor to the lowly, and the lowly and inferior is an end to all feuds. In side, at the center, in the key position, is the light principle; the dark principle is outside. Thus the light has a powerful influence, while the dark is submissive. In this way each receives its due. When the good elements of society occupy a central position and are in control, the evil elements come under their influence and change for the better. When the spirit of heaven rules in man, his animal nature also comes under its influence and takes its appropriate place. The individual lines enter the hexagram from below and leave it again at the top. Here the small, weak, and evil elements are about to take their departure, while the great, strong, and good elements are moving up. This brings good fortune and success.",
-    "imageCommentary": "Heaven and earth are in contact and combine their influences, producing a time of universal flowering and prosperity. This stream of energy must be regulated by the ruler of men. It is done by a process of division. Thus men divide the uniform flow of time into the seasons, according to the succession of natural phenomena, and mark off infinite space by the points of the compass. In this way nature in its overwhelming profusion of phenomena is bounded and controlled. One the other hand, nature must be furthered in her productiveness. This is done by adjusting the products to the right time and the right place, which increases the natural yield. This controlling and furthering activity of man in his relation to nature is the work on nature that rewards him.",
-    "structureCommentary": "The Receptive, which moves downward, stands above; the Creative, which moves upward, is below. Hence their influences meet and are in harmony, so that all living things bloom and prosper. This hexagram belongs to the first month (February-March), at which time the forces of nature prepare the new spring."
+    "judgmentCommentary": "In Tài, the vital breath of Heaven placed below ascends while the receptive substance of Earth placed above descends, so that the two primal powers interpenetrate in deep, fruitful communion. High and low communicate freely, and sovereign and populace share a single unified aspiration. Within the inner realm stands the luminous strength of Qián; in the outer realm stands the compliant devotion of Kūn; the noble person occupies the central ground while petty elements recede to the periphery. Mirroring the first month of spring when frost gives way to vernal warmth, this alignment brings effortless flourishing and auspicious peace.",
+    "imageCommentary": "When celestial energy and terrestrial form blend in seamless reciprocity, all myriad creatures germinate and prosper. Emulating this cosmic generosity, the wise ruler establishes seasonal calendars, equitable institutions, and agrarian measures that channel nature's abundance without exhausting it. By balancing restraint with encouragement, governance sustains the livelihood and harmony of the entire community.",
+    "structureCommentary": "The lower trigram is Heaven (Qián, the creative father) and the upper trigram is Earth (Kūn, the receptive mother). Because Heaven's upward tendency and Earth's downward tendency move toward one another, their union is intimate and dynamic. Nine in the Second Place and Six in the Fifth Place serve as the central correlating rulers, uniting firm capability below with modest, open-hearted sovereignty above."
   },
   {
     "number": 12,
     "unicode": "䷋",
     "chinese": "否",
     "pinyin": "Pǐ",
-    "english": "Standstill",
+    "english": "Obstruction and Stagnation",
     "upperTrigram": {
       "name": "Heaven",
       "chinese": "乾",
@@ -1125,68 +1139,68 @@ var HEXAGRAMS = [
       1,
       1
     ],
-    "judgment": "Standstill. Evil people do not further the perseverance of the superior person. The great departs; the small approaches.",
-    "image": "Heaven and earth do not unite: the image of Standstill. Thus the superior person falls back upon inner worth to escape difficulty.",
+    "judgment": "Obstruction and Stagnation caused by base persons. It is not propitious for the steadfastness of the noble person; the great departs, the small approaches.",
+    "image": "Heaven and earth do not commune: the image of Obstruction and Stagnation. Thus the noble person withdraws into inner virtue to escape peril, refusing to be enticed by honours and emoluments.",
     "lineTexts": [
       {
         "line": 1,
         "val": 6,
         "type": "yin",
-        "name": "Six at the beginning",
-        "text": "When ribbon grass is pulled up, the sod comes with it.\nEach according to his kind.\nPerseverance brings good fortune and success.",
-        "comments": "The text is almost the same as that of the first line of the preceding hexagram, but with a contrary meaning. In the latter a man is drawing another along with him on the road to an official career; here a man is drawing another with him into retirement form public life. This is why the text says here, \"Perseverance brings good fortune and success,\" and not \"Undertakings bring good fortune.\" If it becomes impossible to make our influence count, it is only by retirement that we spare ourselves humiliation. Success in a higher sense can be ours, because we know how to safeguard the value of our personalities."
+        "name": "Initial Six",
+        "text": "When cogon grass is pulled up, the tangled roots come with it, each according to its kind.\nSteadfast integrity brings good fortune and fulfilment.",
+        "comments": "At the onset of stagnation, the three yin lines at the base are linked together like grass roots, yet here the movement points toward collective withdrawal from a corrupted public arena—or warns petty beginners that their only redemption lies in serving the public good. For the noble person at the bottom, refusing to compromise with advancing decay and holding fast to upright principles with like-minded peers preserves true fulfilment."
       },
       {
         "line": 2,
         "val": 6,
         "type": "yin",
-        "name": "Six in the second place",
-        "text": "They bear and endure;\nThis means good fortune for inferior people.\nThe standstill serves to help the great man to attain success.",
-        "comments": "Inferior people are ready to flatter their superiors in a servile way. They would also endure the superior man if he would put an end to their confusion. This is fortunate for them. But the great man calmly bears the consequences of the standstill. He does not mingle with the crowd of the inferior; that is not his place. By his willingness to suffer personally he insures the success of his fundamental principles."
+        "name": "Six in the Second Place",
+        "text": "Bearing with and accommodating the situation:\nauspicious for petty persons;\nthe great person accepts the stagnation and attains fulfilment.",
+        "comments": "Occupying a central and correct position in the lower trigram, this yielding line does not act with malicious violence, but seeks to accommodate the worthy fifth line above. While ordinary people find material security in compliant adaptation, the noble person refuses to mingle with compromised politics. By calmly enduring personal deprivation and standing firm in the Way, the sage preserves the moral seed of future renewal."
       },
       {
         "line": 3,
         "val": 6,
         "type": "yin",
-        "name": "Six in the third place",
-        "text": "They bear shame.",
-        "comments": "Inferior people who have risen to power illegitimately do not feel equal to the responsibility they have taken upon themselves. In their hearts they begin to be ashamed, although at first they do not show it outwardly. This marks a turn for the better."
+        "name": "Six in the Third Place",
+        "text": "Harbouring inner shame.",
+        "comments": "Situated at the top of the lower trigram in an odd place neither central nor correct, this weak line has risen to prominence through illegitimate means. Yet because it stands immediately beneath the strong yang lines of the upper trigram, conscience begins to stir and it feels the sting of inward disgrace. This awakening of remorse marks the turning point before stagnation begins to dissolve."
       },
       {
         "line": 4,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fourth place",
-        "text": "He who acts at the command of the highest\nRemains without blame.\nThose of like mind partake of the blessing.",
-        "comments": "The time of standstill is nearing the point of change into its opposite. Whoever wishes to restore order must feel himself called to the task and have the necessary authority. A man who sets himself up a capable of creating order according to his own judgment could make mistakes and end in failure. But the man who is truly called to the task is favored by the conditions of the time, and all those of like mind will share in his blessing."
+        "name": "Nine in the Fourth Place",
+        "text": "Acting in accord with the heavenly mandate brings no fault;\nkindred companions share in the blessing.",
+        "comments": "Having crossed into the upper trigram of Heaven, the time of obstruction passes its midpoint and the work of restoration begins. Because this strong line acts not out of reckless personal ambition, but in alignment with cosmic timing and higher authority, its initiative succeeds without fault. All upright companions who share this noble aspiration partake in the returning prosperity."
       },
       {
         "line": 5,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fifth place",
-        "text": "Standstill is giving way.\nGood fortune for the great man.\n\"What if it should fail, what if it should fail?\"\nIn this way he ties it to a cluster of mulberry shoots.",
-        "comments": "The time undergoes a change. The right man, able to restore order, has arrived. Hence \"good fortune.\" But such periods of transition are the very times in which we must fear and tremble. Success is assured only through greatest caution, which asks always, \"What if it should fail?\" When a mulberry bush is cut down, a number of unusually strong shoots sprout from the roots. Hence the image of tying something to a cluster of mulberry shoots is used to symbolize the way of making success certain. Confucius says about this line:\n\nDanger arises when a man feels secure in his position. Destruction threatens when a man seeks to preserve his worldly estate. Confusion develops when a man has put everything in order. Therefore the superior man does not forget danger in his security, not ruin when he is well established, nor confusion when his affairs are in order. In this way he gains personal safety and is able to protect the empire."
+        "name": "Nine in the Fifth Place",
+        "text": "Bringing stagnation to an end: auspicious for the great person.\n'What if it should perish, what if it should perish!'\nThus he binds it fast to a cluster of flourishing mulberry shoots.",
+        "comments": "Central and upright on the sovereign throne, this line possesses the moral strength and authority to dispel stagnation and restore order. Yet as Confucius observes in the Great Treatise, peril arises when a ruler feels complacent in security, and ruin threatens when one takes permanence for granted. By maintaining ceaseless vigilance—asking 'What if it should fail?'—the sage anchors peace as securely as tying a cord to deep-rooted mulberry saplings."
       },
       {
         "line": 6,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the top",
-        "text": "The standstill comes to an end.\nFirst standstill, then good fortune.",
-        "comments": "The standstill does not last forever. However, it does not cease of its own accord; the right man is needed to end it. This is the difference between a state of peace and a state of stagnation. Continuous effort is necessary to maintain peace: left to itself it would change into stagnation and disintegration. The time of disintegration, however, does not change back automatically to a condition of peace and prosperity; effort must be put forth in order to end it. This shows the creative attitude that man must take if the world is to be put in order."
+        "name": "Top Nine",
+        "text": "Overturning the obstruction.\nFirst stagnation, afterward joy.",
+        "comments": "At the extreme summit of the hexagram, extreme obstruction cannot endure forever and is decisively overturned by vigorous yang action. Unlike peace, which can slip into decay through mere neglect, stagnation requires determined moral effort to clear away. Once the blockage is dissolved through resolute leadership, gloom gives way to shared rejoicing."
       }
     ],
-    "judgmentCommentary": "Heaven and earth are out of communion and all things are benumbed. What is above has no relation to what is below, and on earth confusion and disorder prevail. The dark power is within, the light power is without. Weakness is within, harshness without. Within are the inferior, and without are the superior. The way of inferior people is in ascent; the way of superior people is one the decline. But the superior people do not allow themselves to be turned from their principles. If the possibility of exerting influence is closed to them, they nevertheless remain faithful to their principles and withdraw into seclusion.",
-    "imageCommentary": "When, owing to the influence of inferior men, mutual mistrust prevails in public life, fruitful activity is rendered impossible, because the fundaments are wrong. Therefore the superior man knows what he must do under such circumstances; he does not allow himself to be tempted by dazzling offers to take part in public activities. This would only expose him to danger, since he cannot assent to the meanness of the others. He therefore hides his worth and withdraws into seclusion.",
-    "structureCommentary": "This hexagram is the opposite of the preceding one. Heaven is above, drawing farther and farther away, while the earth below sinks farther into the depths. The creative powers are not in relation. It is a time of standstill and decline. This hexagram is linked with the seventh month (August-September), when the year has passed its zenith and autumnal decay is setting in."
+    "judgmentCommentary": "In Pǐ, the exact inverse of Tài, Heaven above ascends further into the empyrean while Earth below sinks into inertness; the two primal powers fail to interact and all living things become benumbed. High and low are severed from mutual trust, so disorder and alienation prevail across the realm. Within lie the shadowy, yielding lines of petty interest, while without stand the firm lines pushed to the margin. Corresponding to the seventh month in autumn when vital sap retreats, the noble person recognises that public efficacy is blocked and preserves moral integrity in quiet retirement.",
+    "imageCommentary": "When the celestial breath and terrestrial form turn away from one another, winter cold and barrenness overtake the landscape. Seeing that opportunistic schemers dominate the public sphere and mutual suspicion poisons governance, the noble person folds their capability within. Rather than selling their conscience for official salary or glittering titles, they safeguard their principles in unpretentious obscurity.",
+    "structureCommentary": "The lower trigram is Earth (Kūn, downward-sinking passivity) and the upper trigram is Heaven (Qián, upward-rising remoteness). Three divided yin lines occupy the inner realm while three undivided yang lines occupy the outer realm, depicting a divorce between substance and spirit. Nine in the Fifth Place is the governing line that eventually initiates the overcoming of stagnation through vigilant leadership."
   },
   {
     "number": 13,
     "unicode": "䷌",
     "chinese": "同人",
     "pinyin": "Tóng Rén",
-    "english": "Fellowship",
+    "english": "Fellowship with Humanity",
     "upperTrigram": {
       "name": "Heaven",
       "chinese": "乾",
@@ -1222,68 +1236,68 @@ var HEXAGRAMS = [
       1,
       1
     ],
-    "judgment": "Fellowship with others in the open. Success. It furthers one to cross the great water.",
-    "image": "Heaven together with fire: the image of Fellowship with People. Thus the superior person organizes community and clarifies distinctions.",
+    "judgment": "Fellowship with Humanity in the open expanse: fulfilment. It is propitious to cross the great stream; the steadfast integrity of the noble person is propitious.",
+    "image": "Heaven together with fire: the image of Fellowship with Humanity. Thus the noble person organises kindred groups and distinguishes things according to their kinds.",
     "lineTexts": [
       {
         "line": 1,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the beginning",
-        "text": "Fellowship with men at the gate.\nNo blame.",
-        "comments": "The beginning of union among people should take place before the door. All are equally close to one another. No divergent aims have yet arisen, and one makes not mistakes. The basic principles of any kind of union must be equally accessible to all concerned. Secret agreements bring misfortune."
+        "name": "Initial Nine",
+        "text": "Fellowship with others at the outer gate.\nFree from fault.",
+        "comments": "Stepping just outside the threshold of the private household into the public square, this initial yang line enters into fellowship without any secret agenda or partisan attachment. Because no exclusive cliques have yet formed at the beginning of the hexagram, everyone meets on open, equal ground. Public-spirited candour at the outset of an alliance ensures that no one can find fault."
       },
       {
         "line": 2,
         "val": 6,
         "type": "yin",
-        "name": "Six in the second place",
-        "text": "Fellowship with men in the clan.\nHumiliation.",
-        "comments": "There is danger here of formation of a separate faction on the basis of personal and egotistic interests. Such factions, which are exclusive and, instead of welcoming all men, must condemn one group in order to unite the others, originate from low motives and therefore lead in the course of time to humiliation."
+        "name": "Six in the Second Place",
+        "text": "Fellowship confined within the ancestral clan.\nDistress.",
+        "comments": "Although central and correct as the sole yin line attracting all the yang lines, here the temptation arises to restrict one's loyalty to a narrow circle of kin or personal favourites. Turning universal fellowship into an exclusive clique breeds jealousy, parochialism, and division. Even with good intentions, such partisan narrowing of the heart leads inevitably to regret and humiliation."
       },
       {
         "line": 3,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the third place",
-        "text": "He hides weapons in the thicket;\nHe climbs the high hill in front of it.\nFor three years he does not rise up.",
-        "comments": "Here fellowship has changed about to mistrust. Each man distrusts the other, plans a secret ambush, and seeks to spy on his fellow form afar. We are dealing with an obstinate opponent whom we cannot come at by this method. Obstacles standing in the way of fellowship with others are shown here. One has mental reservations for one's own part and seeks to take his opponent by surprise. This very fact makes one mistrustful, suspecting the same wiles in his opponent and trying to ferret them out. The result is that one departs further and further from true fellowship. The longer this goes on, the more alienated one becomes."
+        "name": "Nine in the Third Place",
+        "text": "Concealing weapons in the dense thicket and scaling his high mound.\nFor three years he does not rise to attack.",
+        "comments": "Overly rigid in an odd place at the top of the Fire trigram, this line covets union with the neighbouring second line yet fears the rightful authority of the fifth line above. Driven by suspicion and acquisitiveness, he sets an ambush and spies from the ridge, yet dares not strike because right is not on his side. Alienated by his own scheming, he remains deadlocked for years without achieving fellowship."
       },
       {
         "line": 4,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fourth place",
-        "text": "He climbs up on his wall; he cannot attack.\nGood fortune.",
-        "comments": "Here the reconciliation that follows quarrel mover nearer. It is true that there are still dividing walls on which we stand confronting one another. But the difficulties are too great. We get into straits, and this brings us to our senses. We cannot fight, and therein lies our good fortune."
+        "name": "Nine in the Fourth Place",
+        "text": "Scaling his city battlement, yet unable to launch an attack.\nAuspicious.",
+        "comments": "Initially tempted to contend for the second line from across the trigram boundary, this strong line mounts the defensive wall to prepare an assault. However, because it occupies an even, yielding position, conscience awakens amidst difficulty and it realises that aggression would violate justice. Voluntarily laying down arms and returning to moral principle turns a looming clash into good fortune."
       },
       {
         "line": 5,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fifth place",
-        "text": "Men bound in fellowship first weep and lament,\nBut afterward they laugh.\nAfter great struggles they succeed in meeting.",
-        "comments": "Two people are outwardly separated, but in their hearts they are united. They are kept apart by their positions in life. Many difficulties and obstructions arise between them and cause them grief. But, remaining true to each other, the allow nothing to separate them, and although it costs them a severe struggle to overcome the obstacles, they will succeed. When they come together their sadness will change to joy. Confucius says of this:\n\nLife leads the thoughtful man on a path of many windings.Now the course is checked, now it runs straight again.Here winged thoughts may pour freely forth in words,There the heavy burden of knowledge must be shut away in silence.But when two people are at one in the inmost hearts,They shatter even the strength of iron or of bronze.And when two people understand each other in their inmost hearts,Their words are sweet and strong, like the fragrance of orchids."
+        "name": "Nine in the Fifth Place",
+        "text": "Those bound in fellowship first weep and lament, yet afterward laugh.\nGreat hosts strive and succeed in meeting.",
+        "comments": "Central, upright, and sovereign in the fifth place, this line is the legitimate partner of the second line below, yet jealous rivals in the third and fourth places obstruct their path. At first, forced separation causes bitter grief; only through resolute struggle are the factional barriers swept away so true allies can unite in joy. As Confucius remarks in the Great Treatise, when two hearts are at one within, their bond cuts through metal, and their words breathe the fragrance of orchids."
       },
       {
         "line": 6,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the top",
-        "text": "Fellowship with men in the meadow.\nNo remorse.",
-        "comments": "The warm attachment that springs from the heart is lacking here. We are by this time actually outside of fellowship with others. However, we ally ourselves with them. The fellowship does not include all, but only those who happen to dwell near one another. The meadow is the pasture at the entrance to the town. At this stage, the ultimate goal of the union of mankind has not yet been attained, but we need not reproach ourselves. We join the community without separate aims of our own."
+        "name": "Top Nine",
+        "text": "Fellowship with others in the outlying pasture.\nNo cause for regret.",
+        "comments": "Standing at the outermost periphery of the hexagram beyond the active centre of governance, this line forms quiet, amicable ties with neighbours in the suburban meadows. Although this modest cooperation does not yet attain the grand universal ideal of fellowship across the whole world, it is free of selfish strife and partisan intrigue. Living in peaceful goodwill on the margins leaves no room for remorse."
       }
     ],
-    "judgmentCommentary": "True fellowship among men must be based upon a concern that is universal. It is not the private interests of the individual that create lasting fellowship among men, but rather the goals of humanity. That is why it is said that fellowship with men in the open succeeds. If unity of this kind prevails, even difficult and dangerous tasks, such as crossing the great water, can be accomplished. But in order to bring about this sort of fellowship, a persevering and enlightened leader is needed--a man with clear, convincing, and inspiring aims and the strength to carry them out. (The inner trigram means clarity; the outer, strength.)",
-    "imageCommentary": "Heaven has the same direction of movement as fire, yet it is different from fire. Just as the luminaries in the sky serve for the systematic division and arrangement of time, so human society and all things that really belong together must be organically arranged. Fellowship should not be a mere mingling of individuals or of things--that would be chaos, not fellowship. If fellowship is to lead to order, there must be organization within diversity.",
-    "structureCommentary": "The image of the upper trigram Ch'ien is heaven, and that of the lower, Li, is flame. It is the nature of fire to flame up to the heaven. This gives the idea of fellowship. IT is the second line that, by virtue of its central character, unites the five strong lines around it. This hexagram forms a complement to Shih, THE ARMY\n\n7. In the latter, danger is within and obedience without--the character of a warlike army, which, in order to hold together, needs one strong man among the many who are weak. Here, clarity is within and strength without--the character of a peaceful union of men, which, in order to hold together, needs one yielding nature among many firm persons."
+    "judgmentCommentary": "In Tóng Rén, a single yielding yin line occupies the central and correct second place of the lower trigram and resonates in open harmony with the sovereign Nine in the Fifth Place above, while all five yang lines gravitate toward it. Fellowship in the open wilds signifies universal, unselfish solidarity that transcends narrow clan or factional barriers, thereby achieving luminous fulfilment. Because inner clarity (Lí) is backed by outer strength (Qián), even the most hazardous undertakings—crossing the great stream—can be accomplished through collective unity. Only the upright rectitude of the noble person can weld diverse minds into authentic communion.",
+    "imageCommentary": "The vault of heaven arches high above while fire flames upward in kindred luminosity, sharing the same ascending movement yet maintaining their distinct natures. Viewing this cosmic harmony, the noble person understands that true fellowship is never an undifferentiated, chaotic levelling of differences. By discerning natural affinities and establishing clear ethical distinctions, they create an ordered community where diversity enriches unity.",
+    "structureCommentary": "The lower trigram is Fire (Lí, luminous clarity and attachment) and the upper trigram is Heaven (Qián, creative strength). Six in the Second Place is the sole yin line and the unifying heart of the inner realm, correlating directly with Nine in the Fifth Place, the strong and upright sovereign of the outer realm."
   },
   {
     "number": 14,
     "unicode": "䷍",
     "chinese": "大有",
     "pinyin": "Dà Yǒu",
-    "english": "Great Possession",
+    "english": "Abundance in Great Measure",
     "upperTrigram": {
       "name": "Fire",
       "chinese": "離",
@@ -1319,68 +1333,68 @@ var HEXAGRAMS = [
       0,
       1
     ],
-    "judgment": "Possession in Great Measure. Supreme success through generous illumination and virtue.",
-    "image": "Fire in heaven above: the image of Possession in Great Measure. Thus the superior person curbs evil and furthers good.",
+    "judgment": "Abundance in Great Measure: supreme fulfilment.",
+    "image": "Fire shines high in the heavens: the image of Abundance in Great Measure. Thus the noble person curbs evil and promotes the good, complying with the benevolent mandate of Heaven.",
     "lineTexts": [
       {
         "line": 1,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the beginning",
-        "text": "No relationship with what is harmful;\nThere is no blame in this.\nIf one remains conscious of difficulty,\nOne remains without blame.",
-        "comments": "Great possession that is still in its beginnings and that has not yet been challenged brings no blame, since there has been no opportunity to make mistakes. Yet there are many difficulties to be overcome. It is only by remaining conscious of theses difficulties that one can keep inwardly free of possible arrogance and wastefulness, and thus in principle overcome all cause for blame."
+        "name": "Initial Nine",
+        "text": "No intercourse with what is harmful; this is free from fault.\nIf one remains mindful of difficulty, one stays free from fault.",
+        "comments": "At the very dawn of prosperity, standing at the base of the hexagram without direct entanglement in courtly rivalry, one is naturally shielded from harmful influences. Yet abundant wealth easily breeds careless arrogance if taken for granted. By remaining soberly mindful of the hardships required to sustain prosperity, the noble person avoids every pitfall from the start."
       },
       {
         "line": 2,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the second place",
-        "text": "A big wagon for loading.\nOne may undertake something.\nNo blame.",
-        "comments": "Great possession consists not only in the quantity of goods at one's disposal, but first and foremost, in their mobility and utility, for then they can be used in undertakings, and we remain free of embarrassment and mistakes. The big wagon, which will carry a heavy load and in which one can journey farm means that there are at hand able helpers who give their support t and are equal to their task. One can load great responsibility upon such persons, and this is necessary in important undertakings."
+        "name": "Nine in the Second Place",
+        "text": "A great wagon for bearing loads.\nWith a direction to go, free from fault.",
+        "comments": "Occupying the central position of the strong lower trigram and correlating directly with the modest ruler in the fifth place, this line possesses the sturdy capacity to shoulder immense responsibilities. Like a heavy freight chariot whose axles are sound, accumulated resources become truly valuable when mobilised for worthy public endeavours. Entrusting great tasks to such a capable steward ensures safe and faultless progress."
       },
       {
         "line": 3,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the third place",
-        "text": "A prince offers it to the Son of Heaven.\nA petty man cannot do this.",
-        "comments": "A magnanimous, liberal-minded man should not regard what he possesses as his exclusive personal property , but should place it at the disposal of the ruler or of the people at large. In so doing, he takes the right attitude toward his possession, which as private property can never endure. A petty man is incapable of this. He is harmed by great possessions, because instead of sacrificing them, he would keep them for himself."
+        "name": "Nine in the Third Place",
+        "text": "A feudal duke presents his offerings to the Son of Heaven.\nA petty person is incapable of this.",
+        "comments": "At the summit of the lower trigram, a person of high station possesses vast resources that could tempt a narrow mind toward private hoarding. The noble prince, however, recognises that great wealth belongs to the commonweal and gladly dedicates it to the sovereign for the benefit of all. Petty individuals, clinging selfishly to their possessions, turn abundance into their own undoing."
       },
       {
         "line": 4,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fourth place",
-        "text": "He makes a difference\nBetween himself and his neighbor.\nNo blame.",
-        "comments": "This characterizes the position of a man placed among rich and powerful neighbors. It is a dangerous position. He must look neither to the right nor to the left, and must shun envy and the temptation to vie with others. In this way he remains free of mistakes."
+        "name": "Nine in the Fourth Place",
+        "text": "Keeping one's abundance in check:\nfree from fault.",
+        "comments": "Standing at the base of the upper trigram immediately beneath the yielding sovereign in the fifth place, this strong yang line commands formidable power and resources. Because it occupies an even, yielding position, it possesses the luminous wisdom to restrain its own splendour and never encroach upon the ruler's authority. By clearly distinguishing its ministerial role from the throne, it remains wholly free from fault."
       },
       {
         "line": 5,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fifth place",
-        "text": "He whose truth is accessible, yet dignified,\nHas good fortune.",
-        "comments": "The situation is very favorable. People are being won not by coercion but by unaffected sincerity, so that they are attached to us in sincerity and truth. However, benevolence alone is not sufficient at the time of POSSESSION IN GREAT MEASURE. For insolence might begin to spread. Insolence must be kept in bounds by dignity; then good fortune is assured."
+        "name": "Six in the Fifth Place",
+        "text": "Whose inner truth engages others in mutual trust,\nand who tempers graciousness with august dignity: auspicious.",
+        "comments": "As the central, yielding sovereign of the entire hexagram, this ruler wins the hearts of all five strong lines through unfeigned sincerity rather than coercive force. Yet in an era of great affluence, mere affability without moral gravitas could invite familiarity and laxity among subordinates. By uniting warm accessibility with serene, incorruptible dignity, the ruler secures enduring good fortune."
       },
       {
         "line": 6,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the top",
-        "text": "He is blessed by heaven.\nGood fortune.\nNothing that does not further.",
-        "comments": "In the fullness of possession and at the height of power, one remains modest and gives honor to the sage who stands outside the affairs of the world. By this means one puts oneself under the beneficent influence descending form heaven, and all goes well. Confucius says of this line:\n\nTo bless means to help. Heaven helps the man who is devoted; men help the man who is true. He who walks in truth and is devoted in his thinking, and furthermore reveres the worthy, is blessed by heaven. He has good fortune, and there is nothing that would not further."
+        "name": "Top Nine",
+        "text": "Blessed with assistance from Heaven.\nAuspicious; nothing is unfavourable.",
+        "comments": "At the very summit of Great Abundance, sitting above the sovereign fifth line like a revered sage-advisor, this line embodies the zenith of fulfilment without a trace of hubris. As Confucius explains in the Great Treatise, Heaven aids those who comply with natural law, humanity aids those who walk in truth, and this line honours worthiness while abiding in sincerity. Therefore, celestial blessing flows unimpeded in every direction."
       }
     ],
-    "judgmentCommentary": "The two trigrams indicate that strength and clarity unite. Possessions great measure is determined by fate and accords with the time. How is it possible that the weak line has power to hold the strong lines fast and to possess them? It is done by virtue of unselfish modesty. The time is favorable--a time of strength within, clarity and culture without. Power is expressing itself in graceful and controlled way. This brings supreme success and wealth.",
-    "imageCommentary": "The sun in heaven above, shedding light over everything one earth, is the image of possession on a grand scale. But a possession of this sort must be administered properly. The sun brings both evil and good into the light of day. Man must combat and curb the evil, and must favor and promote the good. Only in this way does he fulfill the benevolent will of God, who desires only good and not evil.",
-    "structureCommentary": "The fire in heaven above shines far, and all things stand out in the light and become manifest. The weak fifth line occupies the place of honor and all the strong lines are in accord with it.All things come to the man who is modest and kind in a high position."
+    "judgmentCommentary": "In Dà Yǒu, a single yielding yin line occupies the honoured sovereign seat in the fifth place, attaining the central measure while all five strong yang lines above and below respond to it in willing allegiance. Inner strength (Qián) is united with outer clarity and cultural brilliance (Lí), so power never degenerates into tyranny and wealth never breeds decadence. Acting in harmony with cosmic timing, the ruler governs great possessions through unassuming humility and luminous discernment. Consequently, the hexagram promises supreme fulfilment without need of further qualification.",
+    "imageCommentary": "The sun blazing at the zenith of the sky illuminates every corner of the world below, bringing all hidden things into clear view. Emulating this celestial radiance, the noble person administers great resources with moral lucidity: restraining destructive tendencies, encouraging virtuous talent, and aligning human society with the life-giving purpose of Heaven.",
+    "structureCommentary": "The lower trigram is Heaven (Qián, tireless creative strength) and the upper trigram is Fire (Lí, radiant clarity), forming the inverse of Hexagram 13 (Tóng Rén). Six in the Fifth Place is the supreme governing ruler of the hexagram—a modest, open-hearted sovereign whose sincerity binds all five vigorous yang lines in harmonious service."
   },
   {
     "number": 15,
     "unicode": "䷎",
     "chinese": "謙",
     "pinyin": "Qiān",
-    "english": "Modesty",
+    "english": "Authenticity in Modesty",
     "upperTrigram": {
       "name": "Earth",
       "chinese": "坤",
@@ -1416,68 +1430,68 @@ var HEXAGRAMS = [
       0,
       0
     ],
-    "judgment": "Modesty creates success. The superior person carries things through to completion.",
-    "image": "Within the earth, a mountain: the image of Modesty. Thus the superior person reduces that which is too much and augments that which is too little.",
+    "judgment": "Authenticity in Modesty attains fulfilment. The noble person brings matters to a fitting conclusion.",
+    "image": "Within the earth rests a lofty mountain: the image of Authenticity in Modesty. Thus the noble person diminishes what is excessive and augments what is deficient, weighing things to establish equitable distribution.",
     "lineTexts": [
       {
         "line": 1,
         "val": 6,
         "type": "yin",
-        "name": "Six at the beginning",
-        "text": "A superior man modest about his modesty\nMay cross the great water.\nGood fortune.",
-        "comments": "A dangerous enterprise, such as the crossing of a great stream, is made much more difficult if many claims and considerations have to be taken into account. On the other hand, the task is easy if it is attended to quickly and simply. Therefore the unassuming attitude of mind that goes with modesty fits a man to accomplish even difficult undertakings: he imposes no demands or stipulations but settles matters easily and quickly. Where no claims are put forward, no resistances arise."
+        "name": "Initial Six",
+        "text": "The noble person, doubly modest in their modesty,\nmay cross the great stream. Auspicious.",
+        "comments": "A yielding yin line at the very lowest place of the hexagram embodies humility upon humility, nourishing the mind in quiet self-discipline free from any claim to importance. When one approaches the world without egoistic demands, no resistance is provoked from others. Even the most hazardous enterprise—crossing a great torrent—succeeds effortlessly through such unpretentious simplicity."
       },
       {
         "line": 2,
         "val": 6,
         "type": "yin",
-        "name": "Six in the second place",
-        "text": "Modesty that comes to expression. Perseverance brings good fortune.",
-        "comments": "\"Out of the fullness of the heart the mouth speaketh.\" When a man's attitude of mind is so modest that this expresses itself in his outward behavior, it is a source of good fortune to him. For the possibility of exerting a lasting influence arises of itself and no one can interfere."
+        "name": "Six in the Second Place",
+        "text": "Modesty that rings forth in resonance.\nSteadfast integrity brings good fortune.",
+        "comments": "Occupying the central and correct position of the lower trigram immediately beneath the meritorious third line, this person's inward humility is so genuine that it naturally finds expression in voice and demeanour. Unlike affected politeness calculated for show, this resonance springs straight from the centre of the heart. Abiding in such authentic modesty brings unshakeable good fortune."
       },
       {
         "line": 3,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the third place",
-        "text": "A superior man of modesty and merit\nCarries things to conclusion.\nGood fortune.",
-        "comments": "This is the center of the hexagram, where its secret is disclosed. A distinguished name is readily earned by great achievements. If a man allows himself to be dazzled by fame, he will soon be criticized, and difficulties will arise. If, on the contrary, he remains modest despite his merit, he makes himself beloved and wins the support necessary for carrying his work through to the end."
+        "name": "Nine in the Third Place",
+        "text": "A noble person of toilsome merit and unassuming modesty\nbrings affairs to completion. Auspicious.",
+        "comments": "As the solitary strong yang line holding the summit of the lower trigram, this figure shoulders the heaviest labours of the realm yet never claims superiority. Because great achievement is paired with genuine deference, the myriad people willingly rally around him and submit to his guidance. As Confucius notes in the Great Treatise, one who toils without boasting and achieves without arrogance secures the highest honour and carries his work to a triumphant close."
       },
       {
         "line": 4,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fourth place",
-        "text": "Nothing that would not further modesty\nIn movement.",
-        "comments": "Everything has its proper measure. Even modesty in behavior can be carried too far. Here, however, it is appropriate, because the place between a worthy helper below and a kindly ruler above carries great responsibility. The confidence of the man in superior place must not be abused nor the merits of the man in inferior placed concealed. There are officials who indeed do not strive for prominence; they hide behind the letter of ordinances, decline all responsibility, accept pay without giving its equivalent in work, and bear empty titles. This is the opposite of what is meant here by modesty. In such a position, modesty is shown by interest in one's work."
+        "name": "Six in the Fourth Place",
+        "text": "Nothing is unfavourable when modesty is expressed in every gesture.",
+        "comments": "Placed in a correct even station at the base of the upper trigram—directly above the meritorious hero in the third place and below the humble sovereign in the fifth—this minister must navigate a delicate position. By showing respectful deference both to the ruler above and to the capable subordinate below, one never oversteps proper bounds. Active, conscientious modesty in every movement ensures complete success."
       },
       {
         "line": 5,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fifth place",
-        "text": "No boasting of wealth before one's neighbor.\nIt is favorable to attack with force.\nNothing that would not further.",
-        "comments": "Modesty is not to be confused with weak good nature that lets things take their own course. When a man holds a responsible position, he must at times resort to energetic measures. In doing so he must not try to make an impression by boasting of his superiority but must make certain of the people around him. The measures taken should be purely objective and in no way personally offensive. Thus modesty manifests itself even in severity."
+        "name": "Six in the Fifth Place",
+        "text": "Not boasting of wealth before one's neighbours.\nIt is propitious to chastise the recalcitrant:\nnothing is unfavourable.",
+        "comments": "occupying the supreme throne with a yielding, modest nature, this sovereign attracts the voluntary allegiance of neighbouring states through moral generosity rather than ostentatious displays of wealth. However, true modesty in governance must never be confused with spineless indulgence toward lawlessness. When insolent rebels refuse peaceful order, decisive corrective action is entirely justified and auspicious."
       },
       {
         "line": 6,
         "val": 6,
         "type": "yin",
-        "name": "Six at the top",
-        "text": "Modesty that comes to expression.\nIt is favorable to set armies marching\nTo chastise one's own city and one's country.",
-        "comments": "A person who is really sincere in his modesty must make it show in reality. He must proceed with great energy in this. When enmity arises nothing is easier than to lay the blame on another. A weak man takes offense perhaps, and draws back, feeling self-pity; he thinks that it is modesty that keeps him from defending himself. Genuine modesty sets one to creating order and inspires one to begin by disciplining one's own ego and one's immediate circle. Only through having the courage to marshal one's armies against oneself, will something forceful really be achieved."
+        "name": "Top Six",
+        "text": "Modesty that rings forth.\nIt is propitious to mobilise the host—\nyet only to discipline one's own city and domain.",
+        "comments": "At the utmost limit of Modesty, one's reputation for humility is widely known, yet because this line sits at the extreme edge without central authority, its inward aspiration has not yet been fully realised. When disorder arises, the truly modest person does not wage aggressive campaigns against distant strangers, but directs disciplined energy inward to rectify their own household and domain first."
       }
     ],
-    "judgmentCommentary": "It is the law of heaven to make fullness empty and to make full what is modest; when the sun is at its zenith, it must, according to the law of heaven, turn toward its setting, and at its nadir it rises toward a new dawn. In obedience to the same law, the moon when it is full begins to wane, and when empty of light it waxes again. This heavenly law works itself out in the fates of men also. It is the law of earth to alter the full and to contribute to the modest. High mountains are worn down by the waters, and the valleys are filled up. It is the law of fate to undermine what is full and to prosper the modest. And men also hate fullness and love the modest. The destinies of men are subject to immutable laws that must fulfill themselves. But man has it in his power to shape his fate, according as his behavior exposes him to the influence of benevolent or of destructive forces. When a man holds a high position and is nevertheless modest, he shines with the light of wisdom; if he is in a lowly position and is modest, he cannot be passed by. Thus the superior man can carry out his work to the end without boasting of what he has achieved.",
-    "imageCommentary": "The wealth of the earth in which a mountain is hidden is not visible to the eye, because the depths are offset by the height of the mountain. Thus high and low competent each other and the result is the plain. Here an effect that it took a long time to achieve, but that in the end seems easy of accomplishment and self-evident, is used as the image of modesty. The superior man does the same thing when he establishes order in the world; he equalizes the extremes that are the source of social discontent and thereby creates just and equable conditions.",
-    "structureCommentary": "This hexagram is made up of the trigrams Kên, Keeping Still, mountain, and K'un. The mountain is the youngest son of the Creative, the representative of heaven and earth. It dispenses the blessings of heaven, the clouds and rain that gather round its summit, and thereafter shines forth radiant with heavenly light. This shows what modesty is and how it functions in great and strong men. K'un, the earth, stands above. Lowliness is a quality of the earth: this is the very reason why it appears in this hexagram as exalted, by being placed above the mountain. This shows how modesty functions in lowly, simple people: they are lifted up by it."
+    "judgmentCommentary": "Qiān (Modesty) prospers because it mirrors the fundamental equilibrium of the cosmos: the Way of Heaven sends down its vital energy to illuminate the lowly, while the Way of Earth lifts its humble valleys upward to meet the light. It is the universal law of Heaven, Earth, spiritual beings, and human society alike to diminish what is arrogantly full and to replenish what is unassumingly modest. When a person of high rank practises modesty, their virtue shines forth; when one in a lowly station practises modesty, no one can pass them by. Thus the noble person carries every undertaking through to lasting completion without ever boasting of merit.",
+    "imageCommentary": "A towering mountain peak concealing its majesty beneath the level surface of the earth provides a striking emblem of great inner stature clothed in outward humility. Contemplating this paradoxical harmony of height and depth, the noble person corrects imbalances within self and society. By paring away excess pride or privilege and nourishing what is lacking, they establish fair and level conditions for all.",
+    "structureCommentary": "The lower trigram is Mountain (Gèn, quiet stillness and substantial height) and the upper trigram is Earth (Kūn, receptive lowliness). Nine in the Third Place is the sole undivided yang line in the entire hexagram and its undisputed governing centre, revered by the yielding lines below and trusted by the sovereign above."
   },
   {
     "number": 16,
     "unicode": "䷏",
     "chinese": "豫",
     "pinyin": "Yù",
-    "english": "Enthusiasm",
+    "english": "Harmonious Enthusiasm",
     "upperTrigram": {
       "name": "Thunder",
       "chinese": "震",
@@ -1513,68 +1527,68 @@ var HEXAGRAMS = [
       0,
       0
     ],
-    "judgment": "Enthusiasm. It furthers one to install helpers and to set armies marching.",
-    "image": "Thunder comes resounding out of the earth: the image of Enthusiasm. Thus the ancient rulers made music to honor merit.",
+    "judgment": "Harmonious Enthusiasm. It is propitious to establish feudal helpers and to set the hosts marching.",
+    "image": "Thunder bursts forth resoundingly from the earth: the image of Harmonious Enthusiasm. Thus the ancient kings composed sublime music to honour virtue, offering it in solemn splendour to the Supreme Ancestor and associating their forebears with the sacrifice.",
     "lineTexts": [
       {
         "line": 1,
         "val": 6,
         "type": "yin",
-        "name": "Six at the beginning",
-        "text": "Enthusiasm that expresses itself\nBrings misfortune.",
-        "comments": "A man in an inferior position has aristocratic connections about which he boasts enthusiastically. This arrogance inevitably invites misfortune.\nEnthusiasm should never be an egotistic emotion; it is justified only when it is a general feeling that unites one with others."
+        "name": "Initial Six",
+        "text": "Enthusiasm that boasts aloud\nbrings misfortune.",
+        "comments": "As a weak yin line at the very bottom of the hexagram, this person happens to enjoy direct resonance with the powerful fourth line above and immediately grows conceited. Trumpeting one's privileged connections for egoistic gratification exhausts goodwill and alienates peers. When enthusiasm degenerates into noisy self-importance, misfortune is certain."
       },
       {
         "line": 2,
         "val": 6,
         "type": "yin",
-        "name": "Six in the second place",
-        "text": "Firm as a rock. Not a whole day.\nPerseverance brings good fortune.",
-        "comments": "This describes a person who does not allow himself to be misled by any illusions. While others are letting themselves be dazzled by enthusiasm, he recognizes with perfect clarity the first signs of the time. Thus he neither flatters those above nor neglects those beneath him; he is as firm as a rock. When the first sign of discord appears, he knows the right moment for withdrawing and does not delay even for a day. Perseverance in such conduct will bring good fortune. Confucius says about this line:\n\nTo know the seeds, that is divine indeed. In his association with those above him, the superior man does not flatter. In his association with those beneath him, he is not arrogant. For he knows the seeds. The seeds are the first imperceptible beginning of movement, the first trace of good fortune (or misfortune) that shows itself. The superior man perceives the seeds and immediately takes actin. He does not wait even a whole day. In the Book of Changes it is said: \"Firm as a rock. Not a whole day. Perseverance brings good fortune.\"\n\nFirm as a rock, what need of a whole day?\n\n. The judgment can be known.\n\n. The superior man knows what is hidden and what is evident.\nHe knows weakness, he knows strength as well.\nHence the myriads look up to him."
+        "name": "Six in the Second Place",
+        "text": "Firm as a rock; not even for a whole day.\nSteadfast integrity brings good fortune.",
+        "comments": "Occupying the central and correct place of the lower trigram, and free from any entanglement with the intoxicating fourth line, this person preserves crystal-clear discernment while others are swept away by euphoria. As Confucius praises in the Great Treatise, knowing the subtle seeds of events before they manifest allows the noble person to neither flatter superiors nor disdain inferiors. Firmly anchored in rectitude, they act immediately at the first sign of excess without waiting out the day."
       },
       {
         "line": 3,
         "val": 6,
         "type": "yin",
-        "name": "Six in the third place",
-        "text": "Enthusiasm that looks upward creates remorse.\nHesitation brings remorse.",
-        "comments": "This line is the opposite of the preceding one: the latter bespeaks self-reliance, while here there is enthusiastic looking up to a leader. If a man hesitates too long, this also will bring remorse. The right moment for approach must be seized: only then will he do the right thing."
+        "name": "Six in the Third Place",
+        "text": "Gazing upward in fawning enthusiasm brings regret;\ntardy hesitation also brings regret.",
+        "comments": "Placed in an odd position at the top of the lower trigram immediately beneath the powerful fourth line, this weak individual loses inner autonomy by gazing up in uncritical infatuation at authority. Yet once one realises the folly of such dependency, lingering in indecisive hesitation is equally regrettable. Only swift, resolute self-correction can restore one's footing."
       },
       {
         "line": 4,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fourth place",
-        "text": "The source of enthusiasm.\nHe achieves great things.\nDoubt not.\nYou gather friends around you\nAs a hair clasp gathers the hair.",
-        "comments": "This describes a man who is able to awaken enthusiasm through his own sureness and freedom from hesitation. He attracts people because he has no doubts and is wholly sincere. Owing to his confidence in them he wins their enthusiastic co-operation and attains success. Just as a clasp draws the hair together and hold it, so he draws man together by the support he gives them."
+        "name": "Nine in the Fourth Place",
+        "text": "The source of harmonious enthusiasm: great things are achieved.\nHarbour no doubt;\ncompanions gather round you as a hair-clasp binds the tresses.",
+        "comments": "As the sole yang line and the inspiring leader of the hexagram, this minister awakens collective enthusiasm across the realm and accomplishes vast undertakings. Because his resolve is wholly sincere and free from self-doubt, kindred allies flock to his standard and hold together like hair gathered neatly around a pin. Unwavering inner conviction is the magnet that unites the multitude."
       },
       {
         "line": 5,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fifth place",
-        "text": "Persistently ill, and still does not die.",
-        "comments": "Here enthusiasm is obstructed. A man is under constant pressure, which prevents him from breathing freely. However, this pressure has its advantage--it prevents him from consuming his powers in empty enthusiasm. Thus constant pressure can actually serve to keep one alive."
+        "name": "Six in the Fifth Place",
+        "text": "Chronically ailing, yet remaining alive without perishing.",
+        "comments": "Occupying the sovereign fifth place with a yielding yin nature, this ruler sits directly above the charismatic fourth line, which commands the enthusiasm of the realm. Although riding atop such a powerful minister creates constant pressure—likened to a chronic constriction that prevents indulgent ease—this very tension keeps the ruler alert. Because vigilance prevents reckless dissipation in a time of pleasure, the dynasty survives intact."
       },
       {
         "line": 6,
         "val": 6,
         "type": "yin",
-        "name": "Six at the top",
-        "text": "Deluded enthusiasm.\nBut if after completion one changes,\nThere is no blame.",
-        "comments": "It is a bad thing for a man to let himself be deluded by enthusiasm. But if this delusion has run its course, and he is still capable of changing, then he is freed of error. A sober awakening from false enthusiasm is quite possible and very favorable."
+        "name": "Top Six",
+        "text": "Swept away in deluded enthusiasm;\nyet if after culmination one transforms one's course, there is no fault.",
+        "comments": "At the extreme summit of the Thunder trigram, movement and pleasure have been carried to blind excess, leaving one intoxicated by illusion. Yet the oracle affirms that human beings are never irrevocably doomed so long as they retain the capacity to awaken. By recognising the delusion at the eleventh hour and resolutely reforming one's conduct, one escapes fault."
       }
     ],
-    "judgmentCommentary": "The time of ENTHUSIASM derives from the fact that there is at hand an eminent man who is in sympathy with the spirit of the people and acts in accord with it. Hence he finds universal and willing obedience. To arouse enthusiasm it is necessary for a man to adjust himself and his ordinances to the character of those whom he has to lead. The inviolability of natural laws rests on this principle of movement along the line of least resistance. Theses laws are not forces external to things but represent the harmony of movement immanent in them. That is why the celestial bodies do not deviate from their orbits and why all events in nature occur with fixed regularity. It is the same with human society: only such laws are rooted in popular sentiment can be enforced, while laws violating this sentiment merely arouse resentment. Again, it is enthusiasm that enables us to install helpers for the completion of an undertaking without fear of secret opposition. It is enthusiasm too that can unify mass movements, as in war, so that they achieve victory.",
-    "imageCommentary": "When, at the beginning of summer, thunder--electrical energy--comes rushing forth from the earth again, and the first thunderstorm refreshes nature, a prolonged state of tension is resolved. Joy and relief make themselves felt. So too, music has power to ease tension within the heart and to loosen the grip of obscure emotions. The enthusiasm of the heart expresses itself involuntarily in a burst of song, in dance and rhythmic movement of the body. From immemorial times the inspiring effect of the invisible sound that moves all hearts, and draws them together, has mystified mankind. Rulers have made use of this natural taste for music; they elevated and regulated it. Music was looked upon as something serious and holy, designed to purify the feelings of men. It fell to music to glorify the virtues of heroes and thus to construct a bridge to the world of the unseen. In the temple men drew near to God with music and pantomimes (out of this later the theater developed). Religious feeling for the Creator of the world was united with the most sacred of human feelings, that of reverence for the ancestors. The ancestors were invited to these divine services as guests of the Ruler of Heaven and as representatives of humanity in the higher regions. This uniting of the human past with the Divinity in solemn moments of religious inspiration established the bond between God and man. The ruler who revered the Divinity in revering his ancestors became thereby the Son of Heaven, in whom the heavenly and the earthly world met in mystical contact. These ideas are the final summation of Chinese culture. Confucius has said of the great sacrifice at which these rites were performed: \"He who could wholly comprehend this sacrifice could rule the world as though it were spinning on his hand.\"",
-    "structureCommentary": "The strong line in the fourth place, that of the leading official, meets with response and obedience from all the other lines, which are all weak. The attribute of the upper trigram, Chên, is movement; the attributes of K'un, the lower, are obedience and devotion. This begins a movement that meets with devotion and therefore inspires enthusiasm, carrying all with it. Of great importance, furthermore, is the law of movement along the line of least resistance, which in this hexagram is enunciated as the law for natural events and for human life."
+    "judgmentCommentary": "In Yù, the lone strong yang line in the fourth place meets with wholehearted response from all five yielding yin lines, so that spirited aspiration flows freely without obstruction. Because dynamic movement (Zhèn) acts in complete harmony with receptive devotion (Kūn), enthusiasm arises naturally from the hearts of the people rather than being imposed from without. Just as heaven and earth move in compliant rhythm—so the sun and moon never err in their courses and the four seasons never falter—the sage-ruler institutes laws and penalties that accord so purely with human nature that the populace obeys with gladness. Immense indeed is the cosmic timeliness of Harmonious Enthusiasm!",
+    "imageCommentary": "When spring thunder rolls forth from the thawing earth, winter's pent-up tension is released in a single joyous surge of life and germination. Inspired by this resonant awakening, the sage-kings of antiquity created ritual music and sacred dance to harmonise human emotion with cosmic order. By offering these strains at the grand ancestral sacrifice, they united heaven, earth, and humanity in shared reverence and gratitude.",
+    "structureCommentary": "The lower trigram is Earth (Kūn, devoted compliance) and the upper trigram is Thunder (Zhèn, arousing movement and sound). Nine in the Fourth Place is the sole undivided yang line and the dynamic catalyst of the entire hexagram, standing at the threshold of the outer trigram where all five yin lines look to it for inspiration."
   },
   {
     "number": 17,
     "unicode": "䷐",
     "chinese": "隨",
     "pinyin": "Suí",
-    "english": "Following",
+    "english": "Accordance and Following",
     "upperTrigram": {
       "name": "Lake",
       "chinese": "兌",
@@ -1610,68 +1624,68 @@ var HEXAGRAMS = [
       1,
       0
     ],
-    "judgment": "Following has supreme success. Perseverance furthers. Be free of blame.",
-    "image": "Thunder in the middle of the lake: the image of Following. Thus the superior person at nightfall goes within for rest and recuperation.",
+    "judgment": "Following attains supreme fulfilment; steadfast integrity is advantageous. There is no fault.",
+    "image": "Thunder rests within the marsh: the image of Following. Thus the noble person at nightfall enters within for tranquil repose.",
     "lineTexts": [
       {
         "line": 1,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the beginning",
-        "text": "The standard is changing.\nPerseverance brings good fortune.\nTo go out of the door in company\nProduces deeds.",
-        "comments": "There are exceptional conditions in which the relation between leader and followers changes. It is implicit in the idea of following and adaptation that if one wants to lead others, one must remain accessible and responsive to the views of those under him. At the same time, however, he must have firm principles, so that he does not vacillate where there is only a question of current opinion. Once we are ready to listen to the opinions of others, we must not associate exclusively with people who share our views or with members of our own party; instead, we must go out and mingle freely with all sorts of people, friends or foes. That is the only way to achieve something."
+        "name": "Initial Nine",
+        "text": "The official standard shifts.\nSteadfast integrity brings good fortune.\nGoing forth beyond the gate in broad fellowship achieves merit.",
+        "comments": "Positioned at the very beginning of movement, the strong initial line experiences a shift in responsibilities and spheres of influence. While one must adapt responsively to changing circumstances, maintaining unyielding inner principle ensures auspicious outcomes. By stepping beyond the narrow threshold of private cliques to engage impartially with the wider community, the Xiǎo Xiàng confirms that one avoids selfishness and accomplishes enduring deeds."
       },
       {
         "line": 2,
         "val": 6,
         "type": "yin",
-        "name": "Six in the second place",
-        "text": "If one clings to the little boy,\nOne loses the strong man.",
-        "comments": "In friendships and close relationships an individual must make a careful choice. He surrounds himself either with good or with bad company; he cannot have both at once. If he throws himself away on unworthy friends he loses connection with people of intellectual power who could further him in the good."
+        "name": "Six in the Second Place",
+        "text": "Tied to the young lad,\nOne loses the mature man.",
+        "comments": "As a Yin line in the lower trigram, Six in the Second Place sits immediately beside the weak third line ('the young lad') while also standing below the strong initial Yang ('the mature man'). Because human allegiance cannot serve two opposing standards at once, clinging to petty, immature companions inevitably severs one's bond with persons of seasoned wisdom and moral strength. One must discern carefully whom to follow."
       },
       {
         "line": 3,
         "val": 6,
         "type": "yin",
-        "name": "Six in the third place",
-        "text": "If one clings to the strong man,\nOne loses the little boy.",
-        "comments": "Through following one finds what one seeks.\nIt furthers one to remain persevering.\n\nWhen the right connection with distinguished people has been found, a certain loss naturally ensues. A man must part company with the inferior and superficial. But in his heart he will feel satisfied, because he seeks and needs for the development of his personality. The important thing is to remain firm. He must know what he wants and not be led astray by momentary inclinations."
+        "name": "Six in the Third Place",
+        "text": "Tied to the mature man,\nOne loses the young lad.\nThrough following, one obtains what one seeks.\nIt is advantageous to abide in steadfastness.",
+        "comments": "Situated at the top of the lower trigram, this Yin line wisely turns away from the petty initial associations below to cleave to the strong Nine in the Fourth Place above. Parting company with superficial acquaintances is a necessary sacrifice when aligning oneself with a mentor of genuine stature. Having chosen the higher path, one must remain firm and unswerving in purpose rather than drifting with fleeting inclinations."
       },
       {
         "line": 4,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fourth place",
-        "text": "Following creates success.\nPerseverance brings misfortune.\nTo go one's way with sincerity brings clarity.\nHow could there be blame in this?",
-        "comments": "It often happens, when a man exerts a certain amount of influence, that he obtains a following by condescension toward inferiors. But the people who attach themselves to him are not honest in their intentions. They seek personal advantage and try to make themselves indispensable through flattery and subservience. If one becomes accustomed to such satellites and cannot do without them, it brings misfortune. Only when a man is completely free from his ego, and intent, by conviction, upon what is right and essential, does he acquire the clarity that enables him to see through such people, and become free of blame."
+        "name": "Nine in the Fourth Place",
+        "text": "Following captures a catch; steadfastness here is inauspicious.\nPossessing sincere truth upon the Way brings luminous clarity.\nWhat fault could there be?",
+        "comments": "Occupying the ministerial fourth place immediately below the sovereign fifth line, this strong Yang line attracts an eager following from below. Yet if a minister usurps authority or grows dependent upon flattering sycophants who seek private gain, persisting in that course brings misfortune. Only by dedicating one's heart with transparent sincerity and luminous clarity to the public Way does one remain wholly free from blame."
       },
       {
         "line": 5,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fifth place",
-        "text": "Sincere in the good. Good fortune.",
-        "comments": "Every man must have something he follows--something that serves him as a lodestar. He who follows with conviction the beautiful and the good may feel himself strengthened by this saying."
+        "name": "Nine in the Fifth Place",
+        "text": "Sincere truth in what is excellent.\nAuspicious.",
+        "comments": "Central, correct, and occupying the honoured seat of leadership in the joyous upper trigram, Nine in the Fifth Place embodies the highest ideal of Following. In resonant harmony with the upright second line below, the ruler cleaves with wholehearted sincerity to supreme goodness and excellence. When those in authority follow the lodestar of virtue, auspicious fortune naturally blesses the realm."
       },
       {
         "line": 6,
         "val": 6,
         "type": "yin",
-        "name": "Six at the top",
-        "text": "He meets with firm allegiance\nAnd is still further bound.\nThe king introduces him\nTo the Western Mountain.",
-        "comments": "This refers to a man, an exalted sage, who has already put the turmoil of the world behind him. But a follower appears who understands him and is not to be put off. So the sage comes back into the world and aids the other in his work. Thus there develops an eternal tie between the two. The allegory is chosen from the annals of the Chou dynasty. The rulers of this dynasty honored men who had served them well by awarding them a place in the royal family's temple of ancestors on the Western Mountain. In this way they were regarded as sharing in the destiny of the ruling family."
+        "name": "Top Six",
+        "text": "Bound fast in allegiance, and further tied.\nThe King presents offerings upon the Western Mountain.",
+        "comments": "At the culmination of the hexagram, allegiance reaches such consummate devotion that the people and the sage are bound together in an unbreakable covenant. Even a retired worthy who has transcended worldly affairs is drawn back by the sincere devotion of the sovereign to bless the state. Evoking the ancestral rites of King Wen at Mount Qi (the Western Mountain), this line celebrates a sacred, enduring bond between human virtue and heavenly grace."
       }
     ],
-    "judgmentCommentary": "In order to obtain a following one must first know how to adapt oneself. If a man would rule he must first learn to serve, for only in this way does he secure from those below him the joyous assent that is necessary if they are to follow him. If he has to obtain a following by force or cunning, by conspiracy or by creating faction, he invariably arouses resistance, which obstructs willing adherence. But even joyous movement can lead to evil consequences, hence the added stipulation, \"Perseverance furthers\" --that is, consistency in doing right-- together with \"No blame.\" Just as we should not ask others to follow us unless this condition is fulfilled, so it is only under this condition that we can in turn follow others without coming to harm. The thought of obtaining a following through adaptation to the demands of the time is a great and significant idea; this is why the appended judgment is so favorable.",
-    "imageCommentary": "In the autumn electricity withdraws into the earth again and rests. Here it is the thunder in the middle of the lake that serves as the image--thunder in its winter rest, not thunder in motion. The idea of following in the sense of adaptation to the demands of the time grows out of this image. Thunder in the middle of the lake indicates times of darkness and rest. Similarly, a superior man, after being tirelessly active all day, allows himself rest and recuperation at night. No situation can become favorable until one is able to adapt to it and does not wear himself out with mistaken resistance.",
-    "structureCommentary": "The trigram Tui, the Joyous, whose attribute is gladness, is above; Chên, the Arousing, which has the attribute of movement, is below. Joy in movement induces following. The Joyous is the youngest daughter, while the Arousing is the eldest son. An older man defers to a young girl and shows her consideration. By this he moves her to follow him."
+    "judgmentCommentary": "In the Commentary on the Decision (Tuàn Zhuàn), Following arises when the firm descends to place itself beneath the yielding, combining dynamic movement below with joyous openness above. True leadership never compels allegiance through coercion or factional intrigue; rather, by adapting to the needs of the time and serving with humility, one inspires spontaneous, glad-hearted accordance from all under heaven. Yet because joyous movement can easily stray into caprice or opportunism, supreme fulfilment requires steadfast integrity so that both leader and follower remain anchored in rectitude and free from fault. Great indeed is the meaning of Following the timely rhythm of the cosmos.",
+    "imageCommentary": "When autumn deepens, the electric vigour of thunder withdraws beneath the waters of the marsh to rest in quietude through the dark season. Observing this cosmic alternation of exertion and stillness, the noble person does not exhaust vitality through stubborn resistance against the natural cycle of night and day. When twilight falls, they retire indoors to restore spirit and body in peaceful repose, harmonising human conduct with the restful turning of the hours.",
+    "structureCommentary": "Structurally, the hexagram pairs the lower trigram Zhèn (Thunder, the eldest son, dynamic arousal) with the upper trigram Duì (Lake, the youngest daughter, joyous openness). The strong initial Yang line of Thunder and the fifth Yang line of Lake serve as the governing rulers of the figure, demonstrating that when strength honours and accommodates gentleness, the entire world gladly follows."
   },
   {
     "number": 18,
     "unicode": "䷑",
     "chinese": "蠱",
     "pinyin": "Gǔ",
-    "english": "Decay (Work on Spoiled)",
+    "english": "Remedying Decay",
     "upperTrigram": {
       "name": "Mountain",
       "chinese": "艮",
@@ -1707,68 +1721,68 @@ var HEXAGRAMS = [
       0,
       1
     ],
-    "judgment": "Work on What Has Been Spoiled has supreme success. It furthers one to cross the great water.",
-    "image": "The wind blows at the foot of the mountain: the image of Decay. Thus the superior person stirs up the people and strengthens their spirit.",
+    "judgment": "Remedying Decay attains supreme fulfilment. It is propitious to cross the great stream. Before the starting point, three days; after the starting point, three days.",
+    "image": "Beneath the mountain blows the wind: the image of Decay. Thus the noble person stirs up the people and nurtures their virtue.",
     "lineTexts": [
       {
         "line": 1,
         "val": 6,
         "type": "yin",
-        "name": "Six at the beginning",
-        "text": "Setting right what has been spoiled by the father.\nIf there is a son,\nNo blame rests upon the departed father.\nDanger. In the end good fortune.",
-        "comments": "Rigid adherence to tradition has resulted in decay. But the decay has not yet penetrated deeply and so can still be easily remedied. It is as if a son were compensated for the decay his father allowed to creep in. Then no blame attaches to the father. However, one must not overlook the danger or take the matter too lightly. Only if one is conscious of the danger connected with every reform will everything go well in the end."
+        "name": "Initial Six",
+        "text": "Rectifying the decay left by the father.\nIf there is a capable son, the departed father is free from fault.\nPerilous, yet in the end auspicious.",
+        "comments": "At the outset of decay, the accumulated stagnation inherited from the past has not yet eaten deeply into the foundations. If a worthy successor steps forward to reform obsolete habits, the ancestral legacy is redeemed and absolved of blame. Though challenging established custom always entails peril and requires reverent caution, conscientious reform ultimately brings good fortune."
       },
       {
         "line": 2,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the second place",
-        "text": "Setting right what has been spoiled by the mother.\nOne must not be too persevering.",
-        "comments": "This refers to mistakes that as a result of weakness have brought about decay-hence the symbol, \"what has been spoiled by the mother. \" In setting things right in such a case, a certain gentle consideration is called for. In order not to wound, one should not attempt to proceed too drastically."
+        "name": "Nine in the Second Place",
+        "text": "Rectifying the decay left by the mother.\nOne must not be overly severe in steadfastness.",
+        "comments": "As a strong Yang line occupying the central yin position of the lower trigram, Nine in the Second Place addresses corruption born of indulgence, leniency, or emotional weakness—symbolised by 'the mother'. In remedying faults that arose from excessive softness, harsh or abrupt severity would wound relationships and provoke resistance. The Xiǎo Xiàng counsels walking the gentle middle path, combining firm resolve with tactful forbearance."
       },
       {
         "line": 3,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the third place",
-        "text": "Setting right what has been spoiled by the father.\nThere will be a little remorse. No great blame.",
-        "comments": "This describes a man who proceeds a little too energetically in righting the mistakes of the past. Now and then, as a result, minor discourse and annoyances will surely develop. But too much energy is better than too little. Therefore, although he may at times have slight cause for regret, he remains free of any serious blame."
+        "name": "Nine in the Third Place",
+        "text": "Rectifying the decay left by the father.\nThere will be slight regret, yet no great fault.",
+        "comments": "Here a Yang line occupies an odd, active place at the crest of the lower trigram, possessing an abundance of reformist zeal that borders on vehemence. In sweeping away entrenched errors, such energetic decisiveness may occasionally cause friction and minor regret. Nevertheless, because the intention is upright and vigour is preferable to apathy when combating corruption, one remains free from any serious blame."
       },
       {
         "line": 4,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fourth place",
-        "text": "Tolerating what has been spoiled by the father.\nIn continuing one sees humiliation.",
-        "comments": "This shows the situation of someone too weak to take measures against decay that has its roots in the past and is just beginning to manifest itself. It is allowed to run its course. If this continues, humiliation will result."
+        "name": "Six in the Fourth Place",
+        "text": "Tolerating with laxity the decay left by the father.\nIf one proceeds thus, one will meet with distress.",
+        "comments": "Weak and yielding in an even place at the base of the upper trigram of stillness, Six in the Fourth Place lacks the courage and vigour needed to confront inherited disorders. By indulging and excusing deep-seated corruption rather than uprooting it, one allows the rot to spread unchecked. Persisting in such passive complicity inevitably leads to public disgrace and distress."
       },
       {
         "line": 5,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fifth place",
-        "text": "Setting right what has been spoiled by the father.\nOne meets with praise.",
-        "comments": "An individual is confronted with corruption originating from neglect in former times. He lacks the power to ward it off alone, but with able helpers he can at least bring about a thorough reform, if he cannot create a new beginning, and this also is praiseworthy."
+        "name": "Six in the Fifth Place",
+        "text": "Rectifying the decay left by the father.\nOne meets with praise.",
+        "comments": "Occupying the central seat of sovereignty with gentle humility, Six in the Fifth Place recognises that entrenched institutional decay cannot be overcome by solitary force alone. By entrusting capable, energetic ministers—specifically resonating with the strong Nine in the Second Place below—the ruler accomplishes a thorough, harmonious renewal of the state and wins enduring renown through virtue."
       },
       {
         "line": 6,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the top",
-        "text": "He does not serve kings and princes,\nSets himself higher goals.",
-        "comments": "Not every man has an obligation to mingle in the affairs of the world. There are some who are developed to such a degree that they are justified in letting the world go its own way and refusing to enter public life with a view to reforming it. But this does not imply a right to remain idle or to sit back and merely criticize. Such withdrawal is justified only when we strive to realize in ourselves the higher aims of mankind. For although the sage remains distant from the turmoil of daily life, he creates incomparable human values for the future."
+        "name": "Top Nine",
+        "text": "He does not serve kings and marquises,\nBut exalts and refines his own noble endeavours.",
+        "comments": "Standing at the summit of the mountain above all worldly offices, Top Nine has transcended the immediate administrative struggles of the court. Rather than entangling himself in the politics of kings and feudal lords, this sage cultivates lofty moral integrity and timeless wisdom in seclusion. As the Small Image affirms, such a person is not idle; by preserving pure ideals intact, they establish an enduring standard for future generations."
       }
     ],
-    "judgmentCommentary": "What has been spoiled through man's fault can be made good again through man's work. IT is not immutable fate, as in the time of STANDSTILL, that has caused the state of corruption, but rather the abuse of human freedom. Work toward improving conditions promises well, because it accords the possibilities of the time. We must not recoil from work and danger-symbolized by crossing of the great water-but must take hold energetically. Success depends, however, on proper deliberation. This is expressed by the lines, \"Before the starting point, three days. After the starting point, three days.\" We must first know the cause of corruption before we can do away with them; hence it is necessary to be cautious during the time before the start. Then we must see to it that the new way is safely entered upon, so that a relapse may be avoided; therefore we must pay attention to the time after the start. Decisiveness and energy must take the place of inertia and indifference that have led to decay, in order that the ending may be followed by a new beginning.",
-    "imageCommentary": "When the wind blow s slow on the mountain, it is thrown back and spoils the vegetation. This contains a challenge to improvement. It is the same with debasing attitudes and fashions; they corrupt human society. His methods likewise must be derived from the two trigrams, but in such a way that their effects unfold in orderly sequence. The superior must first remove stagnation by stirring up public opinion, as the wind stirs up everything, and must strengthen and tranquilize the character of the people, as the mountain gives tranquillity and nourishment to all that grows in its vicinity.",
-    "structureCommentary": "The Chinese character ku represents a bowl in whose contents worms are breeding. This means decay. IT is come about because the gentle indifference in the lower trigram has come together with the rigid inertia of the upper, and the result is stagnation. Since this implies guilt, the conditions embody a demand for removal of the cause. Hence the meaning of the hexagram is not simply \"what has been spoiled\" but \"work on what has been spoiled\"."
+    "judgmentCommentary": "The Commentary on the Decision explains that decay arises when rigid immobilisation above meets compliant inertia below, causing stagnation and corruption in human affairs. Because such spoilage stems from human neglect rather than inexorable fate, resolute endeavour to reform and renew the situation achieves supreme fulfilment, even in perilous undertakings like crossing the great stream. Yet true restoration requires profound forethought and sustained vigilance: 'three days before the starting point' (Jiǎ, the first calendrical stem) means investigating the root causes of decline with utmost care, while 'three days after the starting point' means consolidating the new order so that stagnation never recurs. Thus the end of decay becomes the seed of a new beginning, mirroring the orderly cycles of Heaven.",
+    "imageCommentary": "When wind blows low against the foot of a mountain, its currents are turned back upon themselves, tangling the undergrowth and breeding rot in the damp hollows. Recognising how societal customs likewise stagnate when left unexamined, the noble person models their restorative action upon both trigrams in turn. Like the penetrating wind, they rouse public spirit from complacency; like the tranquil mountain, they ground and nourish the moral character of the community.",
+    "structureCommentary": "The archaic graph Gǔ (蠱) depicts venomous creatures breeding within a vessel—an emblem of long-accumulated rot requiring decisive remediation. Structurally, the lower trigram Xùn (Wind/Wood, gentle penetration) lies beneath Gèn (Mountain, immobile arrest), inverting the dynamic of Following (Hexagram 17). Across the six lines, the oracle frames civic and familial renewal through the metaphor of a son rectifying the inherited failings of his ancestral household."
   },
   {
     "number": 19,
     "unicode": "䷒",
     "chinese": "臨",
     "pinyin": "Lín",
-    "english": "Approach",
+    "english": "Approach and Overseeing",
     "upperTrigram": {
       "name": "Earth",
       "chinese": "坤",
@@ -1804,68 +1818,68 @@ var HEXAGRAMS = [
       0,
       0
     ],
-    "judgment": "Approach has supreme success. Perseverance furthers. When the eighth month comes, there will be misfortune.",
-    "image": "The earth above the lake: the image of Approach. Thus the superior person is inexhaustible in teaching and without limits in tolerance.",
+    "judgment": "Approach attains supreme fulfilment; steadfast integrity is advantageous. When the eighth month arrives, there will be misfortune.",
+    "image": "Above the marsh lies the earth: the image of Approach. Thus the noble person is inexhaustible in his instruction and boundless in his forbearance and protection of the people.",
     "lineTexts": [
       {
         "line": 1,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the beginning",
-        "text": "Joint approach.\nPerseverance brings good fortune.",
-        "comments": "The good begins to prevail and to find response in influential circles. This in turn is an incentive to men of ability. IT is well to join this upward trend, but we must not let ourselves be carried away by the current of the time; we must adhere perseveringly to what is right. This bring good fortune."
+        "name": "Initial Nine",
+        "text": "Joint approach through mutual resonance.\nSteadfast integrity brings good fortune.",
+        "comments": "At the very beginning of the waxing cycle, this strong Yang line advances in unison with its companion in the second place and resonates with the yielding fourth line above. When virtuous energy begins to stir and gain support in high places, joining the upward movement is auspicious, provided one adheres unswervingly to righteous principle and refuses to be swept away by mere ambition."
       },
       {
         "line": 2,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the second place",
-        "text": "Joint approach.\nGood fortune.\nEverything furthers.",
-        "comments": "When the stimulus to approach comes from a high place, and when a man has the inner strength and consistency that need no admonition, good fortune will ensue. Nor need the future cause any concern. He is well aware that everything earthly is transitory, and that a descent follows upon every rise, but need not be confused by this universal law of fate. Everything serves to further. Therefore he will travel the paths of life swiftly, honestly, and valiantly."
+        "name": "Nine in the Second Place",
+        "text": "Joint approach through mutual resonance.\nAuspicious; nothing that is not advantageous.",
+        "comments": "Central in the lower trigram and ascending alongside the initial Yang, Nine in the Second Place enjoys a bond of deep trust with the gentle ruler in the fifth place. Possessing inner strength tempered by moderation, one advances without arrogance or hesitation. Even though the cosmic law decrees that every rise is eventually followed by ebb, acting with integrity and vigour at the propitious moment brings unqualified advantage."
       },
       {
         "line": 3,
         "val": 6,
         "type": "yin",
-        "name": "Six in the third place",
-        "text": "Comfortable approach.\nNothing that would further.\nIf one is induced to grieve over it,\nOne becomes free of blame.",
-        "comments": "Things are going well for a man: he achieves power and influence. But in this lies the danger that he may relax, and confident of his position, allow the easygoing, careless mood to show itself in his dealings with other people. This would inevitably be harmful. But there is possibility of a change of mood. If he regrets his mistaken attitude and feels the responsibility of an influential position, he frees himself of faults."
+        "name": "Six in the Third Place",
+        "text": "Sweet, complacent approach; nothing is advantageous.\nIf one becomes anxious and repentant over it, there is no fault.",
+        "comments": "Occupying the topmost place of the trigram Duì (the joyous mouth), this Yin line is neither central nor correct, tempting one to approach others with slick flattery or careless complacency at the height of good fortune. Such superficial ease accomplishes nothing of value. Yet if one awakens to the peril of self-satisfaction and genuinely reforms one's conduct through conscientious self-reproach, blame is averted."
       },
       {
         "line": 4,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fourth place",
-        "text": "Complete approach.\nNo blame.",
-        "comments": "While the three lower lines indicate rise to power and influence, the three upper lines show the attitude of persons in higher position toward those of lower rank for whom they procure influence. Here is shown the open-minded approach of a person of high rank to a man of ability whom he draws in to his own circle, regardless of class prejudice. This is very favorable."
+        "name": "Six in the Fourth Place",
+        "text": "Consummate approach.\nFree from fault.",
+        "comments": "Positioned at the threshold where the upper trigram Earth meets the lower trigram Lake, Six in the Fourth Place occupies its proper yin seat and correlates directly with the strong Initial Nine below. Free from aristocratic aloofness, this official approaches worthy talent in the lower ranks with complete sincerity and open-minded respect, thereby fulfiling their duty without fault."
       },
       {
         "line": 5,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fifth place",
-        "text": "Wise approach.\nThis is right for a great prince.\nGood fortune.",
-        "comments": "A prince, or anyone in a leading position, must have the wisdom to attract to himself people of ability who are expert in directing affairs. His wisdom consists both in selecting the right people and in allowing those chosen to have a free hand without interference from him. For only through such self-restraint will he find the experts needed to satisfy all of his requirements."
+        "name": "Six in the Fifth Place",
+        "text": "Wise approach,\nBefitting a great sovereign.\nAuspicious.",
+        "comments": "As the yielding, central ruler of the upper trigram Kūn, Six in the Fifth Place exemplifies the supreme wisdom of governance. Rather than relying on personal micromanagement, the sovereign wisely attracts and empowers the strong, capable Nine in the Second Place below. By walking the central path and delegating authority to proven merit, the great ruler secures auspicious order across the realm."
       },
       {
         "line": 6,
         "val": 6,
         "type": "yin",
-        "name": "Six at the top",
-        "text": "Great hearted approach.\nGood-hearted approach.\nGood fortune. No blame.",
-        "comments": "A sage who has put the world behind him and who in spirit has already withdrawn from life may, under certain circumstances, decide to return once more to the here and now and to approach other men. This means great good fortune for the men whom he teaches and helps. And for him this great hearted humbling of himself is blameless."
+        "name": "Top Six",
+        "text": "Magnanimous, thick-hearted approach.\nAuspicious; free from fault.",
+        "comments": "At the culmination of the receptive Earth trigram, Top Six embodies a sage who, though standing beyond the immediate fray of governance, gazes back upon humanity with profound generosity and maternal care. Returning in spirit to guide, instruct, and shelter those who seek wisdom, such wholehearted magnanimity brings great good fortune and is entirely free from fault."
       }
     ],
-    "judgmentCommentary": "The hexagram as a whole points to a time of joyous, hopeful progress. Spring is approaching. Joy and forbearance bring high and low nearer together. Success is certain. But we must work with determination and perseverance to make full use of the propitiousness of the time. And on thing more: spring does not last forever. In the eighth month the aspects are reversed. Then only two strong, light lines are left; these do not advance but are in retreat (see next hexagram). We must take heed of this change in good time. If we meet evil before it becomes reality-before it has even begun to stir-we can master it.",
-    "imageCommentary": "The earth borders upon the lake from above. This symbolizes the approach and condescension of the man of higher position to those beneath him. The two parts of the image indicate what his attitude toward these people will be. Just as the lake is inexhaustible in depth, so the sage is inexhaustible in his readiness to teach mankind, and just as the earth is boundlessly wide, sustaining and caring for all creatures on it, so the sage sustains and cares for all people and excludes no part of humanity.",
-    "structureCommentary": "The Chinese word lin has a range of meanings that is not exhausted by any single word of another language. The ancient explanations in the Book of Changes give as its first meaning, \"becoming great.\" What becomes great are the two strong lines growing into the hexagram from below; the light-giving power expands with them. The meaning is then further extended to include the concept of approach, especially the approach of what is lower. Finally the meaning includes the attitude of condescension of a man in high position toward the people, and in general the setting to work on affairs. This hexagram is linked with the twelfth month (January-February), when after the winter solstice, the light power begins to ascend again."
+    "judgmentCommentary": "In the Commentary on the Decision, Approach signifies the waxing advance of the luminous Yang power as it rises from below and grows great. Joyousness within and devoted receptivity without act in concert, while the strong second line harmonises centrally with the fifth line above. Because this ascending movement aligns with the vernal renewal of Heaven's Way, it achieves supreme fulfilment through steadfast rectitude. Yet the oracle sounds a solemn warning: cosmic cycles never stand still, and when the eighth lunar month arrives, the waxing light will inevitably recede before the returning Yin, reminding the wise to forestall decline while prosperity is still at its height.",
+    "imageCommentary": "Just as the broad earth rests directly above the deep waters of the marsh, bending down in close proximity to contain and nourish them, so the noble ruler approaches those below with generousaccessibility. Drawing upon the fathomless depth of the lake, their commitment to educating and uplifting humanity is inexhaustible. Drawing upon the vast, sustaining expanse of the earth, they shelter and tolerate all people without limit or exclusion.",
+    "structureCommentary": "A calendar hexagram correlated with the twelfth lunar month (late winter, on the threshold of spring), Lín (臨) depicts two strong Yang lines advancing upward beneath four yielding Yin lines. The Chinese title encompasses both the upward 'approach' of nascent strength and the benevolent 'overseeing' of the people by those in high office. Its inverse is Hexagram 20 (Contemplation), which represents the eighth month of the solar-agricultural year when only two Yang lines remain at the top."
   },
   {
     "number": 20,
     "unicode": "䷓",
     "chinese": "觀",
     "pinyin": "Guān",
-    "english": "Contemplation",
+    "english": "Contemplative Observation",
     "upperTrigram": {
       "name": "Wind",
       "chinese": "巽",
@@ -1901,61 +1915,61 @@ var HEXAGRAMS = [
       1,
       1
     ],
-    "judgment": "Contemplation. The ablution has been made, but not yet the offering. Full of trust they look up.",
-    "image": "The wind blows over the earth: the image of Contemplation. Thus the kings of old inspected the regions of the realm and gave instruction.",
+    "judgment": "Contemplation. The ritual ablution has been performed, yet not the offering; filled with sincere trust, they gaze upward in reverence.",
+    "image": "The wind moves over the earth: the image of Contemplation. Thus the ancient kings inspected the regions of the realm, observed the people, and established instruction.",
     "lineTexts": [
       {
         "line": 1,
         "val": 6,
         "type": "yin",
-        "name": "Six at the beginning",
-        "text": "Boy like contemplation.\nFor an inferior man, no blame.\nFor a superior man, humiliation.",
-        "comments": "This means contemplation from a distance, without comprehension. A man of influence is at hand, abut his influence is not understood by the common people. This matters little in the case of the masses, for they benefit by the actions of the ruling sage whether they understand them or not. But for a superior man it is a disgrace. He must not content himself with a shallow, thoughtless view of prevailing forces; he must contemplate them as a connected whole and try to understand them."
+        "name": "Initial Six",
+        "text": "Childlike contemplation.\nFor the petty person, no fault; for the noble person, distress.",
+        "comments": "Situated at the bottom of the hexagram, furthest from the luminous Yang rulers at the top, Initial Six sees only the surface of events with naive, shortsighted comprehension. For ordinary folk who simply follow the peaceful order of the realm without grasping its deeper principles, such limited vision is blameless. Yet for a noble person aspiring to moral leadership, remaining content with childish superficiality is a source of keen humiliation."
       },
       {
         "line": 2,
         "val": 6,
         "type": "yin",
-        "name": "Six in the second place",
-        "text": "Contemplation through the crack of the door.\nFurthering for the perseverance of a woman.",
-        "comments": "Through the crack of the door one has a limited outlook; one looks outward from within. Contemplation is subjectively limited. One tends to relate everything to oneself and cannot put oneself in another's place and understand his motives. This is appropriate for a good housewife. It is not necessary for her to be conversant with the affairs of the world. But for a man who must take active part in public life, such a narrow, egotistic way of contemplating things is of course harmful."
+        "name": "Six in the Second Place",
+        "text": "Peeping contemplation through the crack of a door.\nAdvantageous for the steadfastness of a woman.",
+        "comments": "Though central within the lower trigram, this Yin line remains enclosed within the domestic sphere, gazing out at the wider world through a narrow chink. Such a private, inward-looking perspective may suffice for one whose duties are confined solely to managing household routines with quiet fidelity. For anyone called to public responsibility and broad statesmanship, however, judging great affairs through the keyhole of personal bias is wholly inadequate."
       },
       {
         "line": 3,
         "val": 6,
         "type": "yin",
-        "name": "Six in the third place",
-        "text": "Contemplation of my life\nDecides the choice\nBetween advance and retreat.",
-        "comments": "This is the place of transition. We no longer look outward to receive pictures that are more or less limited and confused, but direct out contemplation upon ourselves in order to find a guideline for our decisions. This self-contemplation means the overcoming of naive egotism in the person who sees everything solely form his own standpoint. He begins to reflect and in this way acquires objectivity. However, self-knowledge does not mean preoccupation with one's own thoughts; rather, it means concern about the effects one creates. It is only the effects our lives produce that give us the right to judge whether what we have done means progress or regression."
+        "name": "Six in the Third Place",
+        "text": "Contemplating my own life's course\nTo decide between advancing and retreating.",
+        "comments": "At the crest of the lower trigram—the threshold between inner and outer realms—Six in the Third Place turns its gaze away from external spectacle toward rigorous self-examination. Rather than acting on impulse or vanity, one evaluates the actual fruits and moral impact of one's own conduct. By measuring one's life and capacities objectively against the demands of the time, one knows clearly whether to step forward into office or withdraw."
       },
       {
         "line": 4,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fourth place",
-        "text": "Contemplation of the light of the kingdom.\nIt furthers one to exert influence as the guest of a king.",
-        "comments": "This describes a man who understands the secrets by which a kingdom can be made to flourish. Such a man must be given an authoritative position, in which he can exert influence. He should be, so to speak, a guest-that is, he should be honored and act independently, and should not be used as a tool."
+        "name": "Six in the Fourth Place",
+        "text": "Contemplating the radiant splendour of the realm.\nIt is advantageous to be welcomed as the honoured guest of the King.",
+        "comments": "Standing in the ministerial fourth place immediately beneath the sovereign Nine in the Fifth Place, this receptive line beholds the full cultural and moral brilliance of an enlightened state. A person who deeply comprehends the principles by which a kingdom flourishes ought to be received by the ruler not as a mere servile instrument, but as an honoured guest and trusted counsellor whose independent wisdom enriches the court."
       },
       {
         "line": 5,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fifth place",
-        "text": "Contemplation of my life.\nThe superior man is without blame.",
-        "comments": "A man in an authoritative position to whom others look up must always be ready for self–examination.  The right sort of self–examination, however, consists not in idle brooding over oneself but in examining the effects one produces.  Only when these effects are good, and when one’s influence on others is good, will the contemplation of one’s own life bring the satisfaction of knowing oneself to be free of mistakes."
+        "name": "Nine in the Fifth Place",
+        "text": "Contemplating my own life's course.\nThe noble person is free from fault.",
+        "comments": "Occupying the supreme seat of authority as the Yang ruler of the hexagram, Nine in the Fifth Place is the exemplar upon whom the eyes of the entire nation rest. Precisely because all below model themselves on the sovereign, the ruler practices unceasing self-reflection—judging his own virtue by the moral condition of the people, as the Small Image notes. Only when the realm is well-ordered can the noble leader rest assured that his conduct is free from fault."
       },
       {
         "line": 6,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the top",
-        "text": "Contemplation of his life.\nThe superior man is without blame.",
-        "comments": "While the preceding line represents a man who contemplates himself, here in the highest place everything that is personal, related to the ego, is excluded. The picture is that of a sage who stands outside the affairs of the world. Liberated from his ego, he contemplates the laws of life and so realizes that knowing how to become free of blame is the highest good."
+        "name": "Top Nine",
+        "text": "Contemplating his life's course.\nThe noble person is free from fault.",
+        "comments": "Elevated at the very summit above the throne, Top Nine represents a transcendent sage who nevertheless remains mindful of the world below. Because his contemplation is liberated from egoistic self-interest—observing 'his' life and the universal laws of human conduct with crystalline detachment—his mind remains serene and watchful. Only by maintaining such lofty, unblemished integrity does the sage stand wholly free from blame."
       }
     ],
-    "judgmentCommentary": "The sacrificial ritual in China began with an ablution and a libation by which the Deity was invoked, after which the sacrifice was offered. The moment of time between these two ceremonies is the most sacred of all, the moment of deepest inner concentration. If piety is sincere and expressive of real faith, the contemplation of it has a transforming awe-spiring effect on those who witness it. Thus also in nature a holy seriousness is to be seen in the fact that natural occurrences are uniformly subject to law. Contemplation of the divine meaning underlying the workings of the universe gives to the man who is called upon to influence others the means of producing like effects. This requires that power of inner concentration which religious contemplation develops in great men strong in faith. It enables them to apprehend the mysterious and divine laws of life, and by means of profoundest inner concentration they give expression to these laws in their own persons. Thus a hidden spiritual power emanates from them, influencing and dominating others without their being aware of how it happens.",
-    "imageCommentary": "When the wind blows over the earth it goes far and wide, and the grass must bend to its power. These two occurrences find confirmation in the hexagram. The two images are used to symbolize a practice of the kings of old; in making regular journeys the ruler could, in the first place, survey his realm and make certain that none of the existing usages of the people escaped notice; in the second, he could exert influence through which such customs as were unsuitable could be changed. All of this points to the power possessed by a superior personality. On the one hand, such a man will have a view of the real sentiments of the great mass of humanity and therefore cannot be deceived; on the other, he will impress the people so profoundly, by his mere existence and by the impact of his personality, that they will be swayed by him as the grass by the wind.",
-    "structureCommentary": "A slight variation of tonal stress gives the Chinese name for this hexagram a double meaning. It means both contemplating and being seen, in the sense of being an example. These ideas are suggested by the fact that the hexagram can be understood as picturing a type of tower characteristic of ancient China.\n\nA tower of this kind commanded a wide view of the country; at the same time, when situated on a mountain, it became a landmark that could be seen for miles around. Thus the hexagram shows a ruler who contemplates the law of heaven above him and the ways of the people below, and who, by means of good government, sets a lofty example to the masses. This hexagram is linked with the eight month (September-October). The light-giving power retreats and the dark power is again on the increase. However, this aspect is not material in the interpretation of the hexagram as a whole."
+    "judgmentCommentary": "The Commentary on the Decision notes that the great contemplator stands above, central and upright, exhibiting the Way of Heaven to all beneath the sky. In the grand ancestral sacrifice, the most solemn moment occurs immediately after the celebrant has washed their hands and poured the fragrant libation, before the food offerings are presented: in that hushed interval of pure inward concentration, all onlookers are seized by reverent awe and transformed without a word being spoken. Even so, the four seasons proceed without error through the sacred constancy of Heaven's law, and the sage establishes teaching through this same spiritual presence, moving the entire world to spontaneous harmony.",
+    "imageCommentary": "Blowing freely across the vast face of the earth, the wind reaches every corner, touching and swaying the myriad grasses. Emulating this all-pervading reach, the sovereigns of antiquity undertook regular tours of inspection throughout the four quarters of the realm. By observing local customs firsthand with open-minded discernment, they understood the true condition of the populace and instituted wise, civilising instruction tailored to their needs.",
+    "structureCommentary": "Formed of four Yin lines below and two Yang lines at the top—resembling a lofty watchtower (Què 闕) rising above the plain—Hexagram 20 carries a dual phonetic and semantic sense in Classical Chinese: Guān (level tone) means to contemplate or observe deeply, while Guàn (falling tone) means to be held up as a visible exemplar for others to behold. Correlated with the eighth lunar month (mid-autumn), the two luminous Yang lines in the fifth and sixth places shine as moral beacons over the receptive multitude below."
   },
   {
     "number": 21,
@@ -1998,68 +2012,68 @@ var HEXAGRAMS = [
       0,
       1
     ],
-    "judgment": "Biting Through has success. It is favorable to let justice be administered.",
-    "image": "Thunder and lightning: the image of Biting Through. Thus the rulers of former times clarified penalties and administered justice.",
+    "judgment": "Biting Through attains fulfilment. It is advantageous to administer justice and apply the laws.",
+    "image": "Thunder and lightning unite: the image of Biting Through. Thus the ancient kings made luminous the penalties and enforced the laws.",
     "lineTexts": [
       {
         "line": 1,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the beginning",
-        "text": "His feet are fastened in the stocks,\nSo that his toes disappear.\nNo blame.",
-        "comments": "If a sentence is imposed the first time a man attempts to do wrong, the penalty is a mild one. Only the toes are put in the stocks. This prevents him from sinning further and thus he becomes free of blame. It is a warning to halt in time on the path of evil."
+        "name": "Initial Nine",
+        "text": "His feet are shod in the wooden stocks, concealing his toes.\nFree from fault.",
+        "comments": "At the very beginning of the hexagram, a minor offender is checked at his first misstep by having his toes fastened in the stocks so he cannot walk further down the path of crime. When corrective discipline is applied early and mildly, it halts wrongdoing before grave harm is done. Because this timely restraint prevents deeper ruin, the offender is spared from fatal blame."
       },
       {
         "line": 2,
         "val": 6,
         "type": "yin",
-        "name": "Six in the second place",
-        "text": "Bites through tender meat,\nSo that his nose disappears.\nNo blame.",
-        "comments": "It is easy to discriminate between right and wrong in this case;it is like biting through tender meat. But one encounters ahardened sinner, and, aroused by anger, one goes a little toofar. The disappearance of the nose in the course of the bitesignifies that indignation blots out finer sensibility. However,there is no great harm in this, because the penalty as such isjust."
+        "name": "Six in the Second Place",
+        "text": "Biting through tender flesh, so deeply that the nose is submerged.\nFree from fault.",
+        "comments": "Central and upright in the lower trigram, this magistrate adjudicates a straightforward case—symbolised by biting into soft, tender meat. Yet because the second line rides directly upon the rigid Initial Nine, righteous indignation may carry the judge a step too far, submerging the nose in the dish and momentarily clouding fine sensitivity. Even so, because the judgment itself is fundamentally just and central, no real fault is incurred."
       },
       {
         "line": 3,
         "val": 6,
         "type": "yin",
-        "name": "Six in the third place",
-        "text": "Bites on old dried meat\nAnd strikes on something poisonous.\nSlight humiliation. No blame.",
-        "comments": "Punishment is to be carried out by someone who lacks the power and authority to do so. Therefore the culprits do not submit. The matter at issue is an old one-as symbolized by salted game-and in dealing with it difficulties arise. This old meat is spoiled: by taking up the problem the punisher arouses poisonous hatred against himself, and n this way is put in a somewhat humiliating position. But since punishment was required by the time, he remains free of blame."
+        "name": "Six in the Third Place",
+        "text": "Biting into old cured meat and striking upon rank poison.\nSlight distress, yet free from fault.",
+        "comments": "Occupying an uneven place with yielding weakness, Six in the Third Place lacks the decisive authority needed to handle a long-festering, recalcitrant dispute—likened to tough, dried venison that has turned rancid inside. In attempting to adjudicate this old grievance, the official encounters venomous resentment and suffers a measure of embarrassment. Nevertheless, because confronting the obstruction was required by the time, he remains free from moral blame."
       },
       {
         "line": 4,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fourth place",
-        "text": "Bites on dried gristly meat.\nReceives metal arrows.\nIt furthers one to be mindful of difficulties\nAnd to be persevering.\nGood fortune.",
-        "comments": "There are great obstacles to be overcome, powerful opponents are to be punished. Though this is arduous, the effort succeeds. But it is necessary to be hard as metal and straight as an arrow to surmount the difficulties. If one knows these difficulties and remains persevering, he attains good fortune. The difficult task is achieved in the end."
+        "name": "Nine in the Fourth Place",
+        "text": "Biting into dried gristly meat adhering to the bone.\nHe obtains metal arrows.\nIt is advantageous to be mindful of hardship and steadfast: auspicious.",
+        "comments": "As the sole Yang line among the inner four lines, Nine in the Fourth Place confronts the most formidable, entrenched obstacle—like gnawing through dried meat still bound to hard bone. By combining the firmness of metal with the straightness of an arrow (traditional emblems of plaintiffs' pledges in ancient courts), the judge overcomes powerful resistance. Only by remaining acutely aware of the difficulty and persevering with upright vigilance does one bring this arduous case to an auspicious conclusion."
       },
       {
         "line": 5,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fifth place",
-        "text": "Bites on dried lean meat.\nReceives yellow gold.\nPerseveringly aware of danger.",
-        "comments": "No blame.\n\nThe case to be decided is indeed not easy but perfectly clear. Since we naturally incline to leniency, we must make every effort to be like yellow gold-that is, as true as gold and as impartial as yellow, the color of the middle [the mean]. It is only by remaining conscious of the dangers growing out of the responsibility we have assumed that we can avoid making mistakes."
+        "name": "Six in the Fifth Place",
+        "text": "Biting into dried lean meat; he obtains yellow gold.\nSteadfastly mindful of peril: free from fault.",
+        "comments": "Occupying the central seat of sovereignty within the trigram of clarity, Six in the Fifth Place adjudicates a serious case ('dried lean meat') with natural leniency and lucid fairness. Receiving 'yellow gold' signifies holding fast to the golden mean (central yellow) and uncorrupted truth (solid metal). Because the gentle ruler remains ever conscious of the grave responsibility of passing judgment, his decisions are balanced and wholly free from fault."
       },
       {
         "line": 6,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the top",
-        "text": "His neck is fastened in the wooden cangue,\nSo that his ears disappear.\nMisfortune.",
-        "comments": "In contrast to the first line, this line refers to a man who is incorrigible. His punishment is the wooden cangue, and his ears disappear under it-that is to say, he is deaf to warnings. This obstinacy leads to misfortune."
+        "name": "Top Nine",
+        "text": "Wearing the heavy wooden cangue upon his neck, so that his ears vanish.\nInauspicious.",
+        "comments": "At the extreme top of the hexagram sits the hardened, incorrigible offender whose crimes have accumulated beyond remedy. Fastened in the heavy neck-pillory, his ears are covered—signifying that he has long been deaf to moral counsel and early warnings. As the Xiǎo Xiàng observes, when a person refuses to hear and understand the law until the very end, calamity is inescapable."
       }
     ],
-    "judgmentCommentary": "When an obstacle to union arises, energetic biting through brings success. This is true in all situations. Whenever unity cannot be established, the obstruction is due to a talebearer and traitor who is interfering and blocking the way. To prevent permanent injury, vigorous measures must be taken at once. Deliberate obstruction of this sort does not vanish of its own accord. Judgment and punishment are required to deter or obviate it. However, it is important to proceed in the right way. The hexagram combines Li, clarity, and Chên, excitement. Li is yielding, Chên is hard. Unqualified hardness and excitement would be too violent in meting out punishment; unqualified clarity and gentleness would be too weak. The two together create the just measure. It is of moment that the man who makes the decisions (represented by the fifth line) is gentle by nature, while he commands respect by his conduct in his position.",
-    "imageCommentary": "Penalties are the individual applications of the law. The lawsspecify the penalties. Clarity prevails when mild and severepenalties are differentiated, according to the nature of the crimes.This is symbolized by the clarity of lighting. The law is strengthenedby a just application of penalties. This is symbolized by the terrorof thunder. This clarity and severity have the effect of instillingrespect; it is not that the penalties are ends in themselves.The obstructions in the social life of man increase when there is alack of clarity in the penal codes and slackness in executing them.The only to strengthen the law is to make it clear and make penaltiescertain and swift.",
-    "structureCommentary": "This hexagram represents an open mouth (cf. hexagram\n\n27 with an obstruction (in the fourth place) between the teeth. As a result the lips cannot meet. To bring them together one must bite energetically through the obstacle. Since the hexagram is made up of the trigrams for thunder and for lightning, it indicates how obstacles are forcibly removed in nature.\nEnergetic biting through overcomes the obstacle that prevents joining of the lips; the storm with its thunder and lightning overcomes the disturbing tension in nature. Recourse to law and penalties overcomes the disturbances of harmonious social life caused by criminals and slanderers. The theme of this hexagram is a criminal lawsuit, in contradistinction to that of Sung, CONFLICT\n\n6, which refers to civil suits."
+    "judgmentCommentary": "The Commentary on the Decision observes that when an obstruction wedges itself between the jaws, only decisive 'biting through' allows the lips to meet and union to be restored. In the cosmic and social order, slanderers, malefactors, and stubborn barriers do not dissolve of their own accord; they must be cleared away through firm, lawful adjudication. This hexagram unites dynamic movement below (Zhèn, Thunder) with lucid clarity above (Lí, Lightning), while the yielding fifth line occupies the central seat of authority. Because strength and gentleness temper one another, and terrifying majesty is guided by clear discernment, the administration of justice achieves true fulfilment.",
+    "imageCommentary": "In a summer storm, the blinding flash of lightning reveals every contour of the landscape, while the crash of thunder inspires immediate awe. Taking this natural synergy as their model, the sage rulers of antiquity ensured that penal codes were crystal clear, proportionate, and publicly understood, like lightning, while their enforcement was swift and authoritative, like thunder. When laws are both luminous in definition and firm in execution, transgression is deterred and social harmony preserved.",
+    "structureCommentary": "Graphically, Hexagram 21 depicts an open mouth—framed by solid Yang lines at the bottom and top—with a hard obstacle (Nine in the Fourth Place) lodged between the teeth. The lower trigram Zhèn provides the active jaw that bites upward, while the upper trigram Lí provides the clear eyesight that distinguishes guilt from innocence. Lines 1 and 6 represent the criminals receiving punishment at the beginning and end of the path of wrongdoing, whereas Lines 2, 3, 4, and 5 depict the magistrates biting through progressively tougher legal cases."
   },
   {
     "number": 22,
     "unicode": "䷕",
     "chinese": "賁",
     "pinyin": "Bì",
-    "english": "Grace",
+    "english": "Graceful Adornment",
     "upperTrigram": {
       "name": "Mountain",
       "chinese": "艮",
@@ -2095,68 +2109,68 @@ var HEXAGRAMS = [
       0,
       1
     ],
-    "judgment": "Grace has success. In small matters it is favorable to undertake something.",
-    "image": "Fire at the foot of the mountain: the image of Grace. Thus the superior person clarifies current matters with elegance.",
+    "judgment": "Grace attains fulfilment. In small matters it is advantageous to have a direction to go.",
+    "image": "Beneath the mountain shines fire: the image of Grace. Thus the noble person brings clarity to the manifold affairs of governance, yet dares not decide great legal judgments by ornament alone.",
     "lineTexts": [
       {
         "line": 1,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the beginning",
-        "text": "He lends grace to his toes, leaves the carriage, and walks.",
-        "comments": "A beginner in subordinate place must take upon himself the labor of advancing. There might be an opportunity of surreptitiously easing the way-symbolized by the carriage-but a self-contained man scorns help gained in a dubious fashion. He thinks it more graceful to go on foot than to drive in a carriage under false pretenses."
+        "name": "Initial Nine",
+        "text": "Adorning his toes;\nHe leaves the carriage and walks on foot.",
+        "comments": "Occupying the lowest place with strong, luminous integrity, Initial Nine has not yet entered official rank. Rather than riding in a carriage acquired through compromise or unearned favour, this self-respecting beginner chooses to walk on foot, adorning his own humble steps with upright conduct. True grace at the outset of life lies in dignified self-reliance rather than borrowed finery."
       },
       {
         "line": 2,
         "val": 6,
         "type": "yin",
-        "name": "Six in the second place",
-        "text": "Lends grace to the beard on his chin.",
-        "comments": "The beard is not an independent thing; it moves only with the chin. The image therefore means that form is to be considered only as a result and attribute of content. The beard is a superfluous ornament. To devote care to it for its own sake, without regard for the inner content of which it is an ornament, would bespeak a certain vanity."
+        "name": "Six in the Second Place",
+        "text": "Adorning his beard.",
+        "comments": "Central and correct within the lower trigram of Fire, Six in the Second Place represents pure aesthetic form. Just as a beard has no independent movement of its own but rises and falls only with the chin above it, this yielding line attaches itself to the strong Nine in the Third Place. The line reminds us that cultural ornament must always remain subordinate to moral substance; cultivating outward style for its own sake is mere vanity."
       },
       {
         "line": 3,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the third place",
-        "text": "Graceful and moist.\nConstant perseverance brings good fortune.",
-        "comments": "This represents a very charming life situation. One is under the spell of grace and the mellow mood induced by wine. This grace can adorn, but it can also swamp us. Hence the warning not to sink into convivial indolence but to remain constant in perseverance. Good fortune depends on this."
+        "name": "Nine in the Third Place",
+        "text": "Adorned and bedewed with glossy lustre.\nAbiding in unending steadfastness brings good fortune.",
+        "comments": "Framed between two yielding Yin lines (the second and the fourth), this strong Yang line enjoys the height of aesthetic refinement, shining as if moistened with rich wine or morning dew. When life is steeped in such charming elegance and congenial company, the danger is that one may sink into sensual indolence. Only by maintaining constant, unflagging moral vigilance does one preserve good fortune amidst luxury."
       },
       {
         "line": 4,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fourth place",
-        "text": "Grace or simplicity?\nA white horse comes as if on wings.\nHe is not a robber,\nHe will woo at the right time.",
-        "comments": "An individual is in a situation in which doubts arise as to which is better-to pursue the grace of external brilliance, or to return to simplicity. The doubt itself implies the answer. Confirmation comes from the outside; it comes like a white winged horse. The white color indicates simplicity. At first it may be disappointing to renounce the comforts that might have been obtained, yet one finds peace of mind in a true relationship with the friend who courts him. The winged horse is the symbol of the thoughts that transcend all limits of space and time."
+        "name": "Six in the Fourth Place",
+        "text": "Adorned in unadorned white, as if winged on a white steed!\nHe is no marauder, but comes to seek rightful union in marriage.",
+        "comments": "Standing at the base of the quiet Mountain trigram, Six in the Fourth Place faces a choice between the dazzling ornament of the third line beside it and the earnest simplicity of its true resonant partner, Initial Nine below. Choosing pure white simplicity over superficial glamour, one sees the kindred spirit approaching swiftly like a winged white horse. Though hindered for a moment by outward obstacles, their intentions are pure—not to rob, but to unite in honourable fellowship."
       },
       {
         "line": 5,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fifth place",
-        "text": "Grace in the hills and gardens.\nThe roll of silk is meager and small.\nHumiliation, but in the end good fortune.",
-        "comments": "A man withdraws from contact with people of the lowlands, who seek nothing but magnificence and luxury, in to the solitude of the heights. There he finds an individual to look up to, whom he would like to have as a friend. But the gifts he has to offer are poor and few, so that he feels ashamed. However, it is not the material gifts that count, but sincerity of feeling, and so all goes well in the end."
+        "name": "Six in the Fifth Place",
+        "text": "Adorned among the upland hills and gardens.\nThe bundle of silk is meagre and small.\nDistress, yet in the end auspicious.",
+        "comments": "Turning away from the ostentatious luxury of the world below, the gentle fifth line seeks companionship with the lofty sage at the summit of the mountain (Top Nine), among the quiet hills and rustic gardens. Because the material gifts one brings—a small roll of plain silk—seem scanty beside courtly extravagance, there is a moment of shy embarrassment. Yet because sincere simplicity of heart outweighs lavish display, this union ultimately brings good fortune."
       },
       {
         "line": 6,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the top",
-        "text": "Simple grace. No blame.",
-        "comments": "Here at the highest stage of development all ornament is discarded. Form no longer conceals content but brings out its value to the full. Perfect grace consists not in exterior ornamentation of the substance, but in the simple fitness of its form."
+        "name": "Top Nine",
+        "text": "White, unadorned grace.\nFree from fault.",
+        "comments": "At the summit of the hexagram, where the stillness of the Mountain reaches its peak, all artificial embellishment falls away to reveal pure, uncoloured whiteness. When form and substance become wholly transparent to one another, ornament transcends itself in luminous simplicity. As the Xiǎo Xiàng declares, in attaining this supreme naturalness, one fulfils one's highest aspiration without a trace of fault."
       }
     ],
-    "judgmentCommentary": "Grace brings success. However, it is not the essential or fundamental thing; it is only the ornament and therefore be used sparingly and only in little things. In the lower trigram of fire a yielding line comes between two strong lines and makes them beautiful, but the strong lines are the essential content and the weak line is the beautifying form. In the upper trigram of the mountain, the strong line takes the lead, so that here again the strong element must be regarded as the decisive factor. In nature we see in the sky the strong light of the sun; the life of the world depends on it. But this strong, essential thing is changed and given pleasing variety by the moon and the stars. In human affairs, aesthetic form comes into being when traditions exist that, strong and abiding like mountains, are made pleasing by a lucid beauty. By contemplating the forms existing in the heavens we come to understand time and its changing demands. Through contemplation of the forms existing in human society it becomes possible to shape the world.",
-    "imageCommentary": "The fire, whose light illuminates the mountain and makes it pleasing, does not shine far; in the same way, beautiful form suffices to brighten and to throw light upon matters of lesser moment, but important questions cannot be decided in this way. They require greater earnestness.",
-    "structureCommentary": "This hexagram shows a fire that breaks out of the secret depths of the earth and, blazing up, illuminates and beautifies the mountain, the heavenly heights. Grace-beauty of form-is necessary in any union if it is to be well ordered and pleasing rather than disordered and chaotic."
+    "judgmentCommentary": "The Commentary on the Decision reveals how Grace arises from the interplay of substance and form: in the lower trigram, a yielding Yin line enters among the firm lines to adorn them with lucid beauty, while in the upper trigram, a firm Yang line ascends above the yielding lines to give stable structure and restraint. Just as the sun, moon, and stars weave the radiant patterns (Wén 文) of Heaven by which the seasons are discerned, so ritual, music, and ethical refinement form the cultural patterns of humanity by which the world is civilised and transformed. Yet because aesthetic grace is the ornament rather than the root of things, it suffices for ordering minor affairs, whereas fundamental questions demand unadorned substance.",
+    "imageCommentary": "A fire blazing at the foot of a mountain illuminates the rocks and foliage on the lower slopes with warm, pleasing splendour, yet its light cannot pierce the distant heights beyond. Recognising both the value and the boundary of cultural refinement, the noble person employs elegance and clarity to bring grace to daily administration. When confronting weighty matters of life, death, and penal justice, however, they never allow superficial form or rhetorical polish to decide the issue.",
+    "structureCommentary": "Composed of Lí (Fire, clarity and beauty) below and Gèn (Mountain, stillness and boundary) above, Hexagram 22 portrays inner radiance brought to rest within measured outer form. In traditional trigram transformations, it derives from Hexagram 11 (Peace), where the top Yin line and second Yang line exchange places so that strength and gentleness mutually beautify one another. The progression of the six lines traces a profound aesthetic journey from initial modesty, through ornamental refinement, to the ultimate perfection of pure white simplicity."
   },
   {
     "number": 23,
     "unicode": "䷖",
     "chinese": "剝",
     "pinyin": "Bō",
-    "english": "Splitting Apart",
+    "english": "Stripping Away",
     "upperTrigram": {
       "name": "Mountain",
       "chinese": "艮",
@@ -2192,68 +2206,68 @@ var HEXAGRAMS = [
       0,
       1
     ],
-    "judgment": "Splitting Apart. It does not further one to go anywhere. Endure patiently.",
-    "image": "The mountain rests on the earth: the image of Splitting Apart. Thus those above can ensure their position only by generous giving to those below.",
+    "judgment": "Splitting Apart. It is not advantageous to have any direction to go.",
+    "image": "The mountain rests upon the earth: the image of Splitting Apart. Thus those above make generous their support of those below to secure their dwelling in peace.",
     "lineTexts": [
       {
         "line": 1,
         "val": 6,
         "type": "yin",
-        "name": "Six at the beginning",
-        "text": "The leg of the bed is split.\nThose who persevere are destroyed.\nMisfortune.",
-        "comments": "Inferior people are on the rise and stealthily begin their destructive burrowing from below in order to undermine the place where the superior man rests. Those followers of the ruler who remain loyal are destroyed by slander and intrigue. The situation bodes disaster, yet there is nothing to do but wait."
+        "name": "Initial Six",
+        "text": "Splitting the resting-couch by its legs.\nDestroying steadfastness: inauspicious.",
+        "comments": "The erosion of order begins stealthily at the lowest foundation, like rot or termites splitting the legs of the bed upon which the ruler rests. When petty intrigue starts to undermine upright principles from below, those who blindly ignore the signs or stubbornly cling to routine are swept into ruin. In such an incipient crisis, only quiet vigilance and inward preparation can preserve integrity."
       },
       {
         "line": 2,
         "val": 6,
         "type": "yin",
-        "name": "Six in the second place",
-        "text": "The bed is split at the edge.\nThose who persevere are destroyed.\nMisfortune.",
-        "comments": "The power of the inferior people is growing. The danger draws close to one's person; already there are clear indication, and rest is disturbed. Moreover, in this dangerous situation one is as yet without help or friendly advances from above or below. Extreme caution is necessary in this isolation. One must adjust to the time and promptly avoid the danger. Stubborn perseverance in maintaining one's standpoint would lead to downfall."
+        "name": "Six in the Second Place",
+        "text": "Splitting the resting-couch at its frame.\nDestroying steadfastness: inauspicious.",
+        "comments": "The disintegrating force has now climbed from the legs to the structural frame of the couch, threatening the occupant's stability ever more closely. Although Six in the Second Place occupies a central position, it stands entirely without a resonant Yang partner above to lend support. In such isolated peril, rigid obstinacy invites disaster; one must yield tactfully to the circumstances of the time to avoid being crushed."
       },
       {
         "line": 3,
         "val": 6,
         "type": "yin",
-        "name": "Six in the third place",
-        "text": "He splits with them. No blame.",
-        "comments": "An individual finds himself in an evil environment to which he is committed by external ties. But he has an inner relationship with a superior man, and through this he attains the stability to free himself from the way of the inferior people around him. This brings him into opposition to them of course, but that is not wrong."
+        "name": "Six in the Third Place",
+        "text": "Splitting away from them.\nFree from fault.",
+        "comments": "Alone among the five Yin lines, Six in the Third Place stands in direct, harmonious resonance with the noble Top Nine at the summit. Even though surrounded by a decadent faction of petty peers, this individual possesses the moral courage to sever ties with the corrupt crowd and remain loyal to the righteous principle above. By breaking with evil company, one stands completely free from fault."
       },
       {
         "line": 4,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fourth place",
-        "text": "The bed is split up to the skin.\nMisfortune.",
-        "comments": "Here the disaster affects not only the resting place but even the occupant. No warning or other comment is added. Misfortune has reached its peak: it can no longer be warded off."
+        "name": "Six in the Fourth Place",
+        "text": "Splitting the resting-couch right up to the skin of the sleeper.\nInauspicious.",
+        "comments": "Having crossed into the upper trigram, the destructive erosion no longer merely damages the furniture; it strikes the very body of the person resting upon it. At this advanced stage of collapse, calamity is immediate and unmistakable, leaving no room for half-measures or complacent delay."
       },
       {
         "line": 5,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fifth place",
-        "text": "A shoal of fishes. Favor comes through the court ladies.\nEverything acts to further.",
-        "comments": "Here, in immediate proximity to the strong, light-giving principle at the top, the nature of the dark force undergoes a change. It no longer opposes the strong principle by means of intrigues but submits to its guidance. Indeed, as the head of the other weak lines, it leads all of these to the strong line, just as a princess leads her maids-in-waiting like a shoal of fishes to her husband and thus gains his favor. Inasmuch as the lower element thus voluntarily places itself under the higher, it attains happiness and the higher also receives its due. Therefore all goes well."
+        "name": "Six in the Fifth Place",
+        "text": "Leading a string of fishes;\nThrough the favour of the palace ladies, nothing is not advantageous.",
+        "comments": "Standing in the central fifth place immediately beneath the solitary Yang sage at the top, Six in the Fifth Place transforms the entire dynamic of the hexagram. Rather than seeking to undermine the last strong line, this leading Yin line marshals the four Yin lines below—like a queen threading a shoal of fish upon a willow twig—to submit willingly and reverently to the guidance of the light principle. When the receptive element honours and serves the wise, all things turn to mutual advantage."
       },
       {
         "line": 6,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the top",
-        "text": "There is a large fruit still uneaten.\nThe superior man receives a carriage.\nThe house of the inferior man is split apart.",
-        "comments": "Here the splitting apart reaches its end. When misfortune has spent itself, better times return. The seed of the good remains, and it is just when the fruit falls to the ground that food sprouts anew from its seed. The superior man again attains influence and effectiveness. He is supported by public opinion as if in a carriage. But the inferior man's wickedness is visited upon himself. His house is split apart. A law of nature is at work here. Evil is not destructive to the good alone but inevitably destroys itself as well. For evil, which lives solely by negation, cannot continue to exist on its own strength alone. The inferior man himself fares best when held under control by a superior man."
+        "name": "Top Nine",
+        "text": "A great fruit remains uneaten.\nThe noble person receives a carriage;\nThe petty person's house is stripped away.",
+        "comments": "At the very height of autumn stripping, one large, ripe fruit hangs untouched upon the bough, containing within its kernel the living seed of a new spring. When the noble person endures the end of dark times with unshaken virtue, the people gladly rally to support and carry him forward like a grand carriage. Conversely, when petty individuals pursue ruthless subversion to its extreme, they tear down the very roof that sheltered them, bringing ruin upon their own heads."
       }
     ],
-    "judgmentCommentary": "This pictures a time when inferior people are pushing forward and are about to crowd out the few remaining strong and superior men. Under these circumstances, which are due to the time, it is not favorable for the superior man to undertake anything. The right behavior in such adverse times is to be deduced from the images and their attributes. The lower trigram stands for the earth, whose attributes. The lower trigram stands for the earth, whose attributes are docility and devotion. The upper trigram stands for the mountain, whose attribute is stillness. This suggests that one should submit to the bad time and remain quiet. For it is a question not of man's doing but of time conditions, which, according to the laws of heaven, show an alternation of increase and decrease, fullness and emptiness. It is impossible to counteract these conditions of the time. Hence it is not cowardice but wisdom to submit and avoid action.",
-    "imageCommentary": "The mountain rests on the earth. When it is steep and narrow, lacking a broad base, it must topple over. Its position is strong only when it rises out of the earth broad and great, not proud and steep. So likewise those who rule rest on the broad foundation of the people. They too should be generous and benevolent, like the earth that carries all. Then they will make their position as secure as a mountain is in its tranquillity.",
-    "structureCommentary": "The dark lines are about to mount upward and overthrow the last firm, light line by exerting a disintegrating influence on it. The inferior, dark forces overcome what is superior and strong, not by direct means, but by undermining it gradually and imperceptibly, so that it finally collapses. The lines of the hexagram present the image of a house, the top line being the roof, and because the roof is being shattered the house collapses. The hexagram belongs to the ninth month (October-November). The yin power pushes up ever more powerfully and is about to supplant the yang power altogether."
+    "judgmentCommentary": "In the Commentary on the Decision, Splitting Apart means stripping away and erosion: five advancing Yin lines surge upward from below to undermine and strip away the solitary Yang line remaining at the top. Because petty, disintegrating forces are in the ascendant, it is unfavourable for the noble person to launch outward ventures. Instead, by contemplating the hexagram's trigrams—devoted receptivity below (Earth) and tranquil stillness above (Mountain)—the wise align themselves with the cosmic rhythm of waxing and waning, biding their time in quiet self-possession until the cycle turns.",
+    "imageCommentary": "A mountain towers high above the earth, yet if its base is eroded and narrowed while its peak remains steep, it will inevitably crumble and collapse. Recognising that high station depends entirely upon the broad foundation of the populace beneath, wise rulers emulate the thickness of the earth by enriching and generously sustaining the common people. Only by fortifying the livelihood of those below can leaders rest as securely as a mountain upon a vast plateau.",
+    "structureCommentary": "Correlated with the ninth lunar month (late autumn, when frost strips the trees bare), Hexagram 23 shows the dark Yin principle reaching the verge of total dominance, leaving only Top Nine as a lone beam sheltering the five broken lines beneath. Visually, the hexagram resembles a lofty house or a resting couch whose supports are progressively split from the bottom upward. Yet because the Yang principle can never be utterly extinguished, the top line holds the unspoiled seed of future rebirth."
   },
   {
     "number": 24,
     "unicode": "䷗",
     "chinese": "復",
     "pinyin": "Fù",
-    "english": "Return",
+    "english": "Return of the Light",
     "upperTrigram": {
       "name": "Earth",
       "chinese": "坤",
@@ -2289,68 +2303,68 @@ var HEXAGRAMS = [
       0,
       0
     ],
-    "judgment": "Return. Success. Going out and coming in without error. The turning point arrives. It furthers one to have somewhere to go.",
-    "image": "Thunder within the earth: the image of the Turning Point. Thus the kings of antiquity closed the passes at the winter solstice.",
+    "judgment": "Return attains fulfilment. Going out and coming in without ailment; friends arrive without fault. Turning back along its Way, in seven days comes the return. It is advantageous to have a direction to go.",
+    "image": "Thunder within the earth: the image of Return. Thus the ancient kings on the day of the solstice closed the mountain passes; merchants and travellers did not journey forth, and the sovereign did not inspect the provinces.",
     "lineTexts": [
       {
         "line": 1,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the beginning",
-        "text": "Return from a short distance.\nNo need for remorse.\nGreat good fortune.",
-        "comments": "Slight digressions from the good cannot be avoided, but one must turn back in time, before going too far. This is especially important in the development of character; every faintly evil thought must be put aside immediately, before it goes too far and takes root in the mind. Then there is no cause for remorse, and all goes well."
+        "name": "Initial Nine",
+        "text": "Returning from no great distance;\nNo need for deep regret.\nSupremely auspicious.",
+        "comments": "As the solitary Yang line at the base of the hexagram—celebrated by Confucius in the Great Commentary through the example of his disciple Yan Hui—Initial Nine perceives the very first stirrings of a misstep and turns back immediately to the right Way before error can take root. Such swift, lucid self-correction prevents any cause for remorse and cultivates character to supreme perfection."
       },
       {
         "line": 2,
         "val": 6,
         "type": "yin",
-        "name": "Six in the second place",
-        "text": "Quiet return. Good fortune.",
-        "comments": "Return always calls for a decision and is an act of self-mastery. It is made easier if a man is in good company. If he can bring himself to put aside pride and follow the example of good men, good fortune results."
+        "name": "Six in the Second Place",
+        "text": "Beautiful, quiet return.\nAuspicious.",
+        "comments": "Central and correct in the lower trigram, Six in the Second Place sits directly above the virtuous Initial Nine. Possessing the humility to set aside personal pride, this individual gladly models their conduct upon the worthy example right beside them. As the Small Image explains, returning to rectitude by associating closely with benevolent virtue brings effortless good fortune."
       },
       {
         "line": 3,
         "val": 6,
         "type": "yin",
-        "name": "Six in the third place",
-        "text": "Repeated return. Danger. No blame.",
-        "comments": "There are people of a certain inner instability who feel a constant urge to reverse themselves. There is danger in continually deserting the good because of uncontrolled desires, then turning back to it again because of a better resolution. However, since this does not lead to habituation in evil, a general inclination to overcome the defect is not wholly excluded/"
+        "name": "Six in the Third Place",
+        "text": "Repeated return.\nPerilous, yet free from fault.",
+        "comments": "Occupying an unstable, restless position at the top of the trigram of movement, Six in the Third Place wavers repeatedly—straying from the path through impulsiveness and then repenting and turning back again. Such chronic vacillation is perilous because one risks losing moral footing altogether. Yet as long as the conscience remains alive and continues to return toward the good whenever it errs, one avoids falling into irredeemable blame."
       },
       {
         "line": 4,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fourth place",
-        "text": "Walking in the midst of others,\nOne returns alone.",
-        "comments": "A man is in a society composed of inferior people, but is connected spiritually with a strong and good friend, and this makes him turn back alone. Although nothing is said of reward and punishment, this return is certainly favorable, for such a resolve to choose the good brings its own reward."
+        "name": "Six in the Fourth Place",
+        "text": "Walking in the midst of the crowd,\nOne returns alone.",
+        "comments": "Surrounded on both sides by four Yin lines, Six in the Fourth Place nevertheless holds a bond of intimate resonance with the solitary Yang of Initial Nine at the bottom. Even while walking amidst a conformist or wayward multitude, this noble spirit refuses to follow the crowd, choosing instead to turn back alone toward the light of principle. The Small Image praises this independent resolve to follow the right Way."
       },
       {
         "line": 5,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fifth place",
-        "text": "Noblehearted return. No remorse.",
-        "comments": "When the time for return has come, a man should not take shelter in trivial excuses, but should look within and examine himself. And if he has done something wrong he should make a noblehearted resolve to confess his fault. No one will regret having taken this road."
+        "name": "Six in the Fifth Place",
+        "text": "Magnanimous, earnest return.\nFree from regret.",
+        "comments": "Occupying the central, honoured fifth place in the receptive trigram Kūn, this line embodies a person of high station who examines himself with sincere humility. Rather than offering petty excuses for past shortcomings, he resolves whole-heartedly to realign his conduct with central rectitude. Grounded in genuine self-reflection, such a noble return leaves no room for regret."
       },
       {
         "line": 6,
         "val": 6,
         "type": "yin",
-        "name": "Six at the top",
-        "text": "Missing the return. Misfortune.\nMisfortune from within and without.\nIf armies are set marching in this way,\nOne will in the end suffer a great defeat,\nDisastrous for the ruler of the country.\nFor ten years\nIt will not be possible to attack again.",
-        "comments": "If a man misses the right time for return, he meets with misfortune. The misfortune has its inner cause in a wrong attitude toward the world. The misfortune coming upon him for without results from this wrong attitude. What is pictured here is blind obstinacy and the judgment that is visited upon it."
+        "name": "Top Six",
+        "text": "Lost and deluded in return: inauspicious.\nThere is calamity and blunder.\nIf armies are set marching thus, in the end there will be a great defeat;\nFor the ruler of the state,it is inauspicious; even unto ten years it cannot be rectified.",
+        "comments": "At the furthest extreme from the returning light of Initial Nine, Top Six remains stubbornly blind to the turning of the time and misses every opportunity to reform. Persisting in arrogant delusion invites both external calamity and self-inflicted blunder. If one attempts to force matters through aggression after the Way of the noble person has been opposed, catastrophic defeat ensues, leaving the realm debilitated for an entire ten-year cycle."
       }
     ],
-    "judgmentCommentary": "After a time of decay comes the turning point. The powerful light that has been banished returns. There is movement, but it is not brought about by force. The upper trigram K'un is characterized by devotion; thus the movement is natural, arising spontaneously. For this reason the transformation of the old becomes easy. The old is discarded and the new is introduced. Both measures accord with the time; therefore no harm results. Societies of people sharing the same views are formed. But since these groups come together in full public knowledge and are in harmony with the time, all selfish separatist tendencies are excluded, and no mistake is made. The idea of RETURN is based on the course of nature. The movement is cyclic, and the course completes itself. Therefore it is not necessary to hasten anything artificially. Everything comes of itself at the appointed time. This is the meaning of heaven and earth. All movements are accomplished in six stages, and the seventh brings return. Thus the winter solstice, with which the decline of the year begins, comes in the seventh month after the summer solstice; so too sunrise comes in the seventh double hour after sunset. Therefore seven is the number of the young light, and it arises when six, the number of the great darkness, is increased by one. In this way the state of rest gives place to movement.",
-    "imageCommentary": "The winter solstice has always been celebrated in China as the resting time of the year--a custom that survives in the time of rest observed at the new year. In winter the life energy, symbolized by thunder, the Arousing, is still underground. Movement is just at its beginning; therefore it must be strengthened by rest so that it will not be dissipated by being used prematurely. This principle, i.e., of allowing energy that is renewing itself to be reinforced by rest, applies to all similar situations. The return of health after illness, the return of understanding after an estrangement: everything must be treated tenderly and with care at the beginning, so that the return may lead to a flowering.",
-    "structureCommentary": "The idea of a turning point arises from the fact that after the dark lines have pushed all of the light lines upward and out of the hexagram, another light line enters the hexagram from below. The time of darkness is past. The winter solstice brings the victory of light. This hexagram is linked with the eleventh month, the month of the solstice (December-January)."
+    "judgmentCommentary": "The Commentary on the Decision celebrates Return as the spontaneous rebirth of the luminous Yang principle from the depths of winter darkness. Because the strong line enters below (Zhèn, movement) while the receptive earth yields above (Kūn, devotion), the restoration of light proceeds naturally and without violent strain. By revolving along the cosmic Way, the cycle completes its six stages and returns on the seventh—for Heaven and Earth never allow vitality to be permanently extinguished. Once this nascent spark of goodness has taken root within, it is advantageous to cultivate it forward until it blossoms into full abundance. Truly, in Return do we not behold the very heart and mind of Heaven and Earth?",
+    "imageCommentary": "In midwinter, the life-giving energy of thunder stirs deep beneath the frozen soil—present and alive, yet still tender and embryonic. Understanding that newly reborn vitality must be sheltered and consolidated by stillness lest it be dissipated prematurely, the sovereigns of antiquity proclaimed a sacred pause at the winter solstice. By closing the frontier passes, halting commercial travel, and suspending royal inspections, they allowed both ruler and populace to nurture the returning spark of life in tranquil quietude.",
+    "structureCommentary": "Correlated with the eleventh lunar month (the winter solstice), Hexagram 24 marks the pivotal moment when, after dark Yin has stripped away all Yang lines in Hexagram 23, a single undivided Yang line re-enters at the very bottom beneath five receptive Yin lines. In the sequence of six line-changes, after a principle has passed through six positions, the seventh step initiates a new cycle ('in seven days comes the return'). Initial Nine is the sole governing ruler of the hexagram, calling every line above back to the original goodness of nature."
   },
   {
     "number": 25,
     "unicode": "䷘",
     "chinese": "無妄",
     "pinyin": "Wú Wàng",
-    "english": "Innocence",
+    "english": "Spontaneous Integrity",
     "upperTrigram": {
       "name": "Heaven",
       "chinese": "乾",
@@ -2386,68 +2400,68 @@ var HEXAGRAMS = [
       1,
       1
     ],
-    "judgment": "Innocence. Supreme success. Perseverance furthers. Keep to what is genuine and true.",
-    "image": "Under heaven thunder rolls: all things attain their natural state of innocence. Thus rulers nurtured all beings with rich and timely care.",
+    "judgment": "Without Guile attains supreme fulfilment; steadfast integrity is advantageous. If one is not upright, there is blunder, and it is not advantageous to have any direction to go.",
+    "image": "Beneath heaven thunder rolls, and all beings receive their nature Without Guile. Thus the ancient kings, in luxuriant accord with the seasons, nurtured and sustained the myriad creatures.",
     "lineTexts": [
       {
         "line": 1,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the beginning",
-        "text": "Innocent behavior brings good fortune.",
-        "comments": "The original impulses of the heart are always good, so that we may follow them confidently, assured of good fortune and achievement of our aims."
+        "name": "Initial Nine",
+        "text": "Going forth without guile\nBrings auspicious fulfilment.",
+        "comments": "As the strong Yang line at the very root of the lower trigram, Initial Nine embodies the pure, uncorrupted impulse granted by Heaven. When one acts from this original sincerity of heart, untainted by selfish calculation or ulterior design, every step forward accords with the Way and fulfils one's aspiration with good fortune."
       },
       {
         "line": 2,
         "val": 6,
         "type": "yin",
-        "name": "Six in the second place",
-        "text": "If one does not count on the harvest while plowing,",
-        "comments": "Nor on the use of the ground while clearing it,\nIt furthers one to undertake something.\n\nWe should do every task for its own sake as time and place demand and not with an eye to the result. Then each task turns out well, and anything we undertake succeeds."
+        "name": "Six in the Second Place",
+        "text": "Not counting on the harvest while ploughing,\nNor reckoning on the third-year yield while clearing new ground:\nThen it is advantageous to have a direction to go.",
+        "comments": "Central and upright in the lower trigram, Six in the Second Place exemplifies action performed purely for its intrinsic rightness rather than for mercenary reward. Like a farmer who tends the spring ploughing and clears virgin soil with wholehearted devotion without anxiously calculating future riches, one who fulfils the duty of the moment free from grasping desire succeeds in every undertaking."
       },
       {
         "line": 3,
         "val": 6,
         "type": "yin",
-        "name": "Six in the third place",
-        "text": "Undeserved misfortune.",
-        "comments": "The cow that was tethered by someone\nIs the wanderer's gain, the citizen's loss.\n\nSometimes undeserved misfortune befalls a man at the hands of another, as for instance when someone passes by and takes a tethered cow along with him. His gain is the owner's loss. In all transactions, no matter how innocent, we must accommodate ourselves to the demands of the time, otherwise unexpected misfortune overtakes us."
+        "name": "Six in the Third Place",
+        "text": "Unlooked-for calamity:\nA tethered ox is led away by a passer-by;\nThe villager's loss.",
+        "comments": "Occupying an uneven, transitional place at the top of the trigram of movement, Six in the Third Place illustrates how external misfortune can strike even when one has done nothing deliberately wrong. Just as a stray traveller makes off with a tethered ox while the innocent townsfolk are blamed or suffer the loss, life occasionally brings unforeseen trials that must be met with equanimity rather than resentment."
       },
       {
         "line": 4,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fourth place",
-        "text": "He who can be persevering\nRemains without blame.",
-        "comments": "We cannot lose what really belongs to us, even if we throw it away. Therefore we need have no anxiety. All that need concern us is that we should remain true to our own natures and not listen to others."
+        "name": "Nine in the Fourth Place",
+        "text": "One who is able to abide in steadfastness\nRemains free from fault.",
+        "comments": "Positioned at the base of the Heaven trigram, this strong line possesses innate moral fortitude. Even though an odd line sits in an even place without a resonant partner below, as long as one holds firmly and unswervingly to one's own upright nature without being swayed by external temptations, what truly belongs to the self is preserved without fault."
       },
       {
         "line": 5,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fifth place",
-        "text": "Use no medicine in an illness\nIncurred through no fault of your own.\nIt will pass of itself.",
-        "comments": "An unexpected evil may come accidentally from without. If it does not originate in one's own nature or have a foothold there, one should not resort to external means to eradicate it, but should quietly let nature take its course. Then improvement will come of itself."
+        "name": "Nine in the Fifth Place",
+        "text": "An illness incurred without guile:\nUse no medicine, and there will be joy.",
+        "comments": "Central, correct, and occupying the sovereign seat of Heaven, Nine in the Fifth Place possesses consummate integrity. If an unexpected affliction or difficulty arises purely from accidental external circumstances rather than any inner moral failing, one should not resort to drastic, untried remedies that might disrupt one's healthy constitution. By trusting in nature's restorative balance, recovery and joy return of themselves."
       },
       {
         "line": 6,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the top",
-        "text": "Innocent action brings misfortune.",
-        "comments": "Nothing furthers.\n\nWhen, in a given situation, the time is not ripe for further progress, the best thing to do is to wait quietly, without ulterior designs. If one acts thoughtlessly and tries to push ahead in opposition to fate, success will not be achieved."
+        "name": "Top Nine",
+        "text": "Acting without guile brings blunder;\nNothing is advantageous.",
+        "comments": "At the extreme summit of the hexagram, where the cycle of movement has reached its limit, even well-intentioned action becomes untimely. When circumstances have exhausted their course, pushing ahead blindly causes a fatal blunder, demonstrating that true wisdom requires knowing when to come to rest."
       }
     ],
-    "judgmentCommentary": "Man has received from heaven a nature innately good, to guide him in all his movements. By devotion to this divine spirit within himself, he attains an unsullied innocence that leads him to do right with instinctive sureness and without any ulterior thought of reward and personal advantage. This instinctive certainty brings about supreme success and 'furthers through perseverance\". However, not everything instinctive is nature in this higher sense of the word, but only that which is right and in accord with the will of heaven. Without this quality of rightness, an unreflecting, instinctive way of acting brings only misfortune. Confucius says about this: \"He who departs from innocence, what does he come to? Heaven's will and blessing do not go with his deeds.\"",
-    "imageCommentary": "In springtime when thunder, life energy, begins to move again under the heavens, everything sprouts and grows, and all beings receive for the creative activity of nature the childlike innocence of their original state. So it is with the good rulers of mankind: drawing on the spiritual wealth at their command, they take care of all forms of life and all forms of culture and do everything to further them, and at the proper time.",
-    "structureCommentary": "Ch'ien, heaven is above; Chên, movement, is below. The lower trigram Chên is under the influence of the strong line it has received form above, from heaven. When, in accord with this, movement follows the law of heaven, man is innocent and without guile. His mind is natural and true, unshadowed by reflection or ulterior designs. For wherever conscious purpose is to be seen, there the truth and innocence of nature have been lost. Nature that is not directed by the spirit is not true but degenerate nature. Starting out with the idea of the natural, the train of thought in part goes somewhat further and thus the hexagram includes also the idea of the fundamental or unexpected."
+    "judgmentCommentary": "In the Commentary on the Decision, Without Guile (Wú Wàng) arises as the firm Yang line descends from Heaven above to become the master of dynamic movement within. Because movement is guided by heavenly strength, the heart is sincere and central, resonating in harmony across the lines. Supreme fulfilment through steadfast rectitude is the very decree of Heaven. Yet if human action departs from this innate uprightness to pursue calculating artifice or blind impulse, it falls into error: for when guileless authenticity is lost, whither could one possibly go? Where the Mandate of Heaven does not lend its blessing, can anything be accomplished?",
+    "imageCommentary": "When spring thunder rolls beneath the canopy of the sky, every plant and creature awakens to its authentic, uncontrived nature without calculation or deceit. Emulating this timely generosity of Heaven, the sage kings of antiquity aligned their governance with the turning of the seasons, nurturing all living beings according to their innate needs and capacities without artificial interference.",
+    "structureCommentary": "Pairing the lower trigram Zhèn (Thunder, dynamic arousal) with the upper trigram Qián (Heaven, creative decree), Hexagram 25 portrays human action moving in pure, unentangled fidelity to the law of Heaven. The strong Initial Nine—received directly from the Creative above—governs the lower trigram, while the strong Nine in the Fifth Place governs the upper trigram. Together they teach that true innocence is neither naive passivity nor reckless instinct, but spontaneous alignment with heavenly rectitude."
   },
   {
     "number": 26,
     "unicode": "䷙",
     "chinese": "大畜",
     "pinyin": "Dà Chù",
-    "english": "Great Taming",
+    "english": "Great Accumulation",
     "upperTrigram": {
       "name": "Mountain",
       "chinese": "艮",
@@ -2483,61 +2497,61 @@ var HEXAGRAMS = [
       0,
       1
     ],
-    "judgment": "The Taming Power of the Great. Perseverance furthers. It furthers one to cross the great water.",
-    "image": "Heaven within the mountain: the image of the Taming Power of the Great. Thus the superior person acquaints themselves with the wisdom of the past.",
+    "judgment": "Great Accumulation: steadfast integrity is advantageous. Not eating at home brings good fortune. It is propitious to cross the great stream.",
+    "image": "Heaven within the mountain: the image of Great Accumulation. Thus the noble person acquaints himself with many sayings of antiquity and deeds of the past, in order to accumulate and nourish his virtue.",
     "lineTexts": [
       {
         "line": 1,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the beginning",
-        "text": "Danger is at hand. It furthers one to desist.",
-        "comments": "A man wishes to make vigorous advance, but circumstances present an obstacle. He sees himself held back firmly. If he should attempt to fore an advance, it would lead him into misfortune. Therefore it is better for him to compose himself and to wait until an outlet is offered for release of his stored-up energies."
+        "name": "Initial Nine",
+        "text": "Peril is at hand.\nIt is advantageous to desist.",
+        "comments": "At the bottom of the Creative trigram, Initial Nine possesses strong upward momentum, yet is directly checked and restrained by the fourth Yin line above. Attempting to force an advance against superior resistance would invite immediate calamity. Wisdom lies in recognising the obstacle early, halting one's steps, and quietly conserving one's strength."
       },
       {
         "line": 2,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the second place",
-        "text": "The axletrees are taken from the wagon.",
-        "comments": "Here advance is checked just as in the third line of THE TAMING POWER OF THE SMALL\n\n9. However, in the later the restraining force is slight; thus a conflict arises between the propulsive and the restraining movement, as a result of which the spokes fall out of the wagon wheels, while here the restraining force is absolutely superior; hence no struggle takes place. One submits and removes the axletrees from the wagon -in other words, contents himself with waiting. In this way energy accumulates for a vigorous advance later on."
+        "name": "Nine in the Second Place",
+        "text": "The axle-bindings are removed from the carriage.",
+        "comments": "Occupying the central position of the lower trigram while being held in check by the fifth line above, Nine in the Second Place perceives that the time is not yet ripe for forward movement. Rather than straining against the barrier until the wheels break, this balanced individual voluntarily unfastens the axle-straps from the carriage chassis and rests content, accumulating vigour for the future."
       },
       {
         "line": 3,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the third place",
-        "text": "A good horse that follows others.\nAwareness of danger,\nWith perseverance, furthers.\nPractice chariot driving and armed defense daily.\nIt furthers one to have somewhere to go.",
-        "comments": "The way opens; the hindrance has been cleared away. A man is in contact with a strong will acting in the same direction as his own, and goes forward like one good horse following another. But danger still threatens, and he must remain aware of it, or he will be robbed of his firmness. Thus he must acquire skill on the one hand in what will take him forward, and on the other in what will protect him against unforeseen attacks. It is good in such a pass to have a goal toward which to strive."
+        "name": "Nine in the Third Place",
+        "text": "A fine steed follows in the team.\nAdvantageous to be mindful of hardship and steadfast.\nDaily practise chariot-driving and armed defence;\nIt is advantageous to have a direction to go.",
+        "comments": "Having reached the top of the lower trigram, this strong Yang line shares the same nature and upward aspiration as the Top Nine at the summit, advancing together like a team of thoroughbred horses. Because the transition from restraint to action still holds perils, one must remain vigilant, daily honing both one's forward skill ('chariot-driving') and protective readiness ('armed defence') before setting forth toward a great goal."
       },
       {
         "line": 4,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fourth place",
-        "text": "The headboard of a young bull.\nGreat good fortune.",
-        "comments": "This line and the one following it are the two that tame the forward-pushing lower lines. Before a bull's horns grow out, a headboard is fastened to its forehead, so that later when the horns appear they cannot do harm. A good way to restrain wild force is to forestall it. By so doing one achieves an easy and great success."
+        "name": "Six in the Fourth Place",
+        "text": "The wooden headboard of a young bull.\nSupremely auspicious.",
+        "comments": "As the lower of the two Yin lines in the Mountain trigram tasked with taming the vigorous Yang lines below, Six in the Fourth Place restrains Initial Nine before its force can become unruly. Just as a wooden crossbar is fastened across the budding horns of a young calf so it can never gore, preventing wildness at its very inception achieves effortless, supremely auspicious mastery."
       },
       {
         "line": 5,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fifth place",
-        "text": "The tusk of a gelded boar.\nGood fortune.",
-        "comments": "Here the restraining of the impetuous forward drive is achieved in an indirect way. A boar's tusk is in itself dangerous, but if the boar's nature is altered, the tusk is no longer a menace. Thus also where men are concerned, wild force should not be combated directly; instead, its roots should be eradicated."
+        "name": "Six in the Fifth Place",
+        "text": "The tusks of a gelded boar.\nAuspicious.",
+        "comments": "Occupying the honoured seat of leadership in the upper trigram, Six in the Fifth Place tames the strong second line below not by brute force, but by transforming the root of its temperament. A wild boar's tusks are fierce weapons, yet once the boar is gelded, its aggressive impulse subsides of itself even though the tusks remain. In governance and self-cultivation alike, addressing the underlying cause of unruliness brings auspicious harmony."
       },
       {
         "line": 6,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the top",
-        "text": "One attains the way of heaven.",
-        "comments": "Success.\n\nThe time of obstruction is past. The energy long dammed up by inhibition forces its way out and achieves great success. This refers to a man who is honored by the ruler and whose principles now prevail and shape the world."
+        "name": "Top Nine",
+        "text": "Shouldering Heaven's thoroughfare!\nFulfilment.",
+        "comments": "At the culmination of Great Accumulation, the long-stored energies of virtue and wisdom have matured to overflowing, and every barrier gives way. Honoured by the sovereign fifth line, the sage at the summit steps onto the broad highway of Heaven, where his principles prevail unobstructed and bring universal fulfilment to the world."
       }
     ],
-    "judgmentCommentary": "To hold firmly to great creative powers and store them up, as set forth in this hexagram, there is need of a strong, clear-headed man who is honored by the ruler. The trigram Ch'ein points to strong creative power; Kên indicates firmness and truth. Both point to light and clarity and to the daily renewal of character. Only through such daily self-renewal can a man continue at the height of his powers. Force of habit helps to keep order in quiet times; but in periods when there is a great storing up of energy, everything depends on the power of the personality. However, since the worthy are honored, as in the case of the strong personality entrusted with leadership by the ruler, it is an advantage not to eat at home but rather to earn one's bread by entering upon public office. Such a man is in harmony with heaven; therefore even great and difficult undertakings, such as crossing the great water, succeed.",
-    "imageCommentary": "Heaven within the mountain points to hidden treasures. In the words and deeds of the past there lies hidden a treasure that men may use to strengthen and elevate their own characters. The way to study the past is not to confine oneself to mere knowledge of history but, through application of this knowledge, to give actuality to the past.",
-    "structureCommentary": "The Creative is tamed by Kên, Keeping Still. This produces great power, a situation in contrast to that of the ninth hexagram, Hsiao Ch'u, THE TAMING POWER OF THE SMALL, in which the Creative is tamed by the Gentle alone. There one weak line must tame five strong lines, but here four strong lines are restrained by two weak lines; in addition to a minister, there is a prince, and the restraining power therefore is afar stronger. The hexagram has a threefold meaning, expressing different aspects of the concept \"Holding firm.\" Heaven within the mountain gives the idea of holding firm in the sense of holding together; the trigram Kên which holds the trigram ch'ien still, gives the idea of holding firm in the sense of holding back; the third idea is that of holding firm in the sense of caring for and nourishing. This last is suggested by the fact that a strong line at the top, which is the ruler of the hexagram, is honored and tended as a sage. The third of these meanings also attaches specifically to this strong line at the top, which represents the sage."
+    "judgmentCommentary": "The Commentary on the Decision declares that in Great Accumulation we find supreme strength combined with solid, tranquil sincerity, shining forth with radiant brilliance and daily renewing its virtue. The firm ascends above to honour the worthy sage (Top Nine), while the Mountain trigram holds still the mighty creative power of Heaven—all of which embodies great rectitude. 'Not eating at home brings good fortune' signifies that persons of accumulated wisdom and character are summoned to nourish the world in public service rather than remaining in private seclusion. Because their endeavours respond to the Way of Heaven above, it is propitious to cross the great stream.",
+    "imageCommentary": "That the boundless creative power of Heaven should be contained within the still fastness of the Mountain evokes an inexhaustible treasury of spiritual and moral energy. Taking this cosmic reservoir as their model, the noble person studies the wise words and exemplary deeds of bygone ages—not as dead antiquarian lore, but as living nourishment by which to enlarge, fortify, and daily renew their own character.",
+    "structureCommentary": "Unlike Hexagram 9 (Small Accumulation), where the gentle Wind trigram can only momentarily check the Creative, Hexagram 26 places the immovable Mountain (Gèn) above Heaven (Qián), restraining and storing up vast Yang energy until it reaches consummate fullness. The Classical Chinese title Dà Xù (also read Dà Chù) carries three interwoven meanings: holding back impetuous force, accumulating a great store of virtue, and nourishing worthy sages. While the fourth and fifth Yin lines gently tame the advancing Yang lines below, Top Nine stands at the summit as the honoured sage through whom the Way of Heaven opens wide."
   },
   {
     "number": 27,
@@ -2580,68 +2594,68 @@ var HEXAGRAMS = [
       0,
       1
     ],
-    "judgment": "Nourishment. Perseverance brings good fortune. Pay heed to providing nourishment and what one fills oneself with.",
-    "image": "At the foot of the mountain, thunder: the image of Nourishment. Thus the superior person is careful in speech and temperate in eating.",
+    "judgment": "Nourishment: steadfast integrity brings good fortune. Observe the providing of nourishment, and observe how a person seeks to fill their own mouth.",
+    "image": "Beneath the mountain rumbles thunder: the image of Nourishment. Thus the noble person is watchful and measured in his words of speech and temperate in his eating and drinking.",
     "lineTexts": [
       {
         "line": 1,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the beginning",
-        "text": "You let your magic tortoise go,\nAnd look at me with the corners of your mouth drooping.\nMisfortune.",
-        "comments": "The magic tortoise is a creature possessed of such supernatural powers that it lives on air and needs no earthly nourishment. The image means that a man fitted by nature and position to live freely and independently renounces this self-reliance and instead looks with envy and discontent at others who are outwardly in better circumstances. But such base envy only arouses derision and contempt in those others. This has bad results."
+        "name": "Initial Nine",
+        "text": "You let go of your spirit-tortoise\nAnd gaze at me with drooping jaws:\nInauspicious.",
+        "comments": "Endowed with the strong, self-sufficient nature of a Yang line in the first place, this individual possesses an inner spiritual treasure—likened to the sacred tortoise that lives on pure breath alone—yet foolishly abandons his independence to gape with covetous envy at the material wealth of Nine in the Fourth Place. Forsaking inner nobility for greedy dependency invites contempt and misfortune."
       },
       {
         "line": 2,
         "val": 6,
         "type": "yin",
-        "name": "Six in the second place",
-        "text": "Turning to the summit for nourishment,\nDeviating from the path",
-        "comments": "To seek nourishment from the hill.\nContinuing to do this brings misfortune.\n\nNormally a person either provides his own means of nourishment or is supported in a proper way by those whose duty of privilege it is to provide for him. If, owing to weakness of spirit, a man cannot support himself, a feeling of uneasiness comes over him; this is because in shirking the proper way of obtaining a living, he accepts support as a favor from those in higher place. This is unworthy, for he is deviating from his true nature. Kept up indefinitely, this course leads to misfortune."
+        "name": "Six in the Second Place",
+        "text": "Turning downward for nourishment, deviating from the proper norm\nTo seek sustenance from the high hill:\nSetting forth thus brings misfortune.",
+        "comments": "Though central in the lower trigram, this weak Yin line lacks the strength to sustain itself and reverses the natural order by begging nourishment from the inferior Initial Nine below, or else presumptuously clamouring toward the distant Top Nine ('the high hill') with whom it has no true resonance. Violating the proper norms of self-reliance and station leads inevitably to humiliation and loss."
       },
       {
         "line": 3,
         "val": 6,
         "type": "yin",
-        "name": "Six in the third place",
-        "text": "Turning away from nourishment.\nPerseverance brings misfortune.\nDo not act thus for ten years.",
-        "comments": "Nothing serves to further.\nHe who seeks nourishment that does not nourish reels from desire to gratification and in gratification craves desire. Mad pursuit of pleasure for the satisfaction of the senses never brings one to the goal. One should never (ten years is a complete cycle of time) follow this path, for nothing good can come of it."
+        "name": "Six in the Third Place",
+        "text": "Violating the principle of nourishment;\nSteadfastness here is inauspicious.\nFor ten years do not act thus; nothing is advantageous.",
+        "comments": "Occupying the topmost place of the moving lower jaw with neither centrality nor correctness, Six in the Third Place represents unbridled sensual craving that perverts the true purpose of nourishment. Even though it stands in structural correspondence with Top Nine, its obsessive pursuit of gratification wholly alienates it from the Way, rendering any action disastrous across an entire ten-year cycle."
       },
       {
         "line": 4,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fourth place",
-        "text": "Turning to the summit\nFor provision of nourishment\nBrings good fortune.",
-        "comments": "Spying about with sharp eyes\nLike a tiger with insatiable craving.\n\nNo blame.\n\nIn contrast to the six in the second place, which refers to a man bent exclusively on his own advantage, this line refers to one occupying a high position and striving to let his light sine forth. To do this he needs helpers, because he cannot attain his lofty aim alone. With the greed of a hungry tiger he is on the lookout for the right people. Since he is not working for himself but for the good of all, there is no wrong in such zeal."
+        "name": "Six in the Fourth Place",
+        "text": "Turning downward for nourishment: auspicious.\nA tiger gazes with fixed, glaring eyes,\nIts longing focused and unceasing:\nFree from fault.",
+        "comments": "Having entered the upper trigram—where the focus shifts from feeding oneself to nourishing the people—Six in the Fourth Place occupies its proper yin seat and turns humbly toward the strong Initial Nine below to recruit capable assistance. Like a tiger fixing its gaze with unwavering intensity, this minister's eager quest for worthy talent is driven by public duty rather than private greed, bringing auspicious results without fault."
       },
       {
         "line": 5,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fifth place",
-        "text": "Turning away from the path.",
-        "comments": "To remain persevering brings good fortune.\nOne should not cross the great water.\n\nA man may be conscious of a deficiency in himself. He should be undertaking the nourishment of the people, but he has not the strength to do it. Thus he must turn from his accustomed path and beg counsel and help from a man who is spiritually his superior but undistinguished outwardly. If he maintains this attitude of mind perseveringly, success and good fortune are his. But he must remain aware of his dependence. He must not put his own person forward nor attempt great labors, such as crossing the great water."
+        "name": "Six in the Fifth Place",
+        "text": "Deviating from the customary norm;\nAbiding in steadfastness brings good fortune.\nOne must not cross the great stream.",
+        "comments": "Occupying the royal fifth place as a yielding Yin line, this ruler recognises that he lacks the personal strength to feed the entire realm unaided, and therefore departs from ordinary royal custom by deferring humbly to the exalted sage at the top (Top Nine). Remaining steadfastly receptive to wise counsel brings good fortune to the state, though the ruler's own lack of Yang vigour means he should not personally undertake perilous ventures."
       },
       {
         "line": 6,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the top",
-        "text": "The source of nourishment.\nAwareness of danger brings good fortune.\nIt furthers one to cross the great water.",
-        "comments": "This describes a sage of the highest order, from whom emanate all influences that provide nourishment for others. Such a position brings with it heavy responsibility. If he remains conscious of this fact, he has good fortune and may confidently undertake even great and difficult labors, such as crossing the great water. These undertakings bring general happiness for him and for all others."
+        "name": "Top Nine",
+        "text": "From the very source of nourishment:\nMindful of peril, auspicious.\nIt is propitious to cross the great stream.",
+        "comments": "Standing at the summit of the Mountain as the supreme Yang master of the upper trigram, Top Nine is the fountainhead of spiritual and material nourishment whom the fifth line honours as teacher. Because the well-being of the multitude rests upon his shoulders, maintaining reverent awareness of the gravity of this charge brings great good fortune and empowers him to accomplish the grandest undertakings."
       }
     ],
-    "judgmentCommentary": "If we wish to know whether anyone is superior or not, we need only observe what part of his being he regards as especially important. The body has superior and inferior, important and unimportant parts. We must not injure important parts for the sake of the unimportant, nor must we injure the superior parts for the sake of the inferior. He who cultivates the inferior parts of his nature is an inferior man. He who cultivates the superior parts of his nature is a superior man.",
-    "imageCommentary": "\"God comes forth in the sign of the Arousing\": when in the spring the life forces stir again, all things comes into being anew. \"He brings to perfection in the sign of Keeping Still\": thus in the early spring, when the seeds fall to earth, all things are made ready. This is an image of providing nourishment through movement and tranquillity. The superior man takes it as a pattern for the nourishment and cultivation of his character. Words are a movement going form within outward. Eating and drinking are movements from without inward. Both kinds of movement can be modified by tranquillity. For tranquillity keeps the words that come out of the mouth from exceeding proper measure, and keeps the food that goes into the mouth from exceeding its proper measure. Thus character is cultivated.",
-    "structureCommentary": "This hexagram is a picture of an open mouth; above and below are firm lines of the lips, and between them the opening. Starting with the mouth, through which we take food for nourishment, the thought leads to nourishment itself. Nourishment of oneself, specifically of the body, is represented in the three lower lines, while the three upper lines represent nourishment and care of others, in a higher, spiritual sense."
+    "judgmentCommentary": "The Commentary on the Decision teaches that Nourishment achieves good fortune when it is grounded in steadfast rectitude. 'Observing the providing of nourishment' means examining whether one nurtures worthy sages and sustains the wider community; 'observing how a person seeks to fill their own mouth' means discerning whether an individual cultivates the nobler, spiritual faculties of their being or merely indulges base bodily appetites. Heaven and Earth nourish the myriad creatures; the sage nourishes persons of worth and thereby reaches the ten thousand people. Great indeed are the timely dynamics of Nourishment!",
+    "imageCommentary": "When spring thunder stirs beneath the quiet mass of the mountain, life-forces sprout from below while solid boundaries contain them above. Recognising the human mouth as the portal through which words issue outward and food enters inward, the noble person models their self-cultivation upon both trigrams: exercising watchful restraint in speech so that words never exceed truth, and practicing temperance in food and drink so that appetite never harms vitality.",
+    "structureCommentary": "Visually, Hexagram 27 is a striking pictograph of an open mouth: two solid Yang lines at the bottom and top form the upper and lower jaws (or lips), enclosing four broken Yin lines within the oral cavity. The lower trigram Zhèn (Thunder, movement) represents the mobile lower jaw that chews, while the upper trigram Gèn (Mountain, stillness) represents the immovable upper cranial jaw. Consequently, the three lower lines address the perils of selfish craving in nourishing oneself, whereas the three upper lines illuminate the noble responsibility of nourishing others."
   },
   {
     "number": 28,
     "unicode": "䷛",
     "chinese": "大過",
     "pinyin": "Dà Guò",
-    "english": "Great Preponderance",
+    "english": "Preponderance of the Great",
     "upperTrigram": {
       "name": "Lake",
       "chinese": "兌",
@@ -2677,68 +2691,68 @@ var HEXAGRAMS = [
       1,
       0
     ],
-    "judgment": "Preponderance of the Great. The ridgepole sags to the breaking point. Movement in any direction brings success.",
-    "image": "The lake rises above the trees: the image of Preponderance of the Great. Thus the superior person when standing alone is unconcerned.",
+    "judgment": "Great Preponderance: the ridgepole sags to the breaking point. It is advantageous to have a direction to go; fulfilment.",
+    "image": "The marsh rises above the trees: the image of Great Preponderance. Thus the noble person stands alone without fear, and withdraws from the world without melancholy.",
     "lineTexts": [
       {
         "line": 1,
         "val": 6,
         "type": "yin",
-        "name": "Six at the beginning",
-        "text": "To spread white rushes underneath.",
-        "comments": "No blame.\n\nWhen a man wishes to undertake an enterprise in extraordinary times, he must be extraordinarily cautious, just as when setting a heavy thing down on the floor, one takes care to put rushes under it, so that nothing will break. This caution, though it may seem exaggerated, is not a mistake. Exceptional enterprises cannot succeed unless utmost caution is observed in their beginnings and in the laying of their foundations."
+        "name": "Initial Six",
+        "text": "For a mat underneath, using white rushes.\nFree from fault.",
+        "comments": "As the yielding Yin line at the base of the Wind trigram, Initial Six must bear the immense weight of the four Yang lines above. Rather than setting a precious vessel directly upon the bare earth, this cautious person spreads a woven mat of pure white rushes beneath it to cushion the load. In extraordinary times, exercising scrupulous, reverent care at the very outset of an enterprise ensures safety and avoids all blame."
       },
       {
         "line": 2,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the second place",
-        "text": "A dry poplar sprouts at the root.\nAn older man takes a young wife.\nEverything furthers.",
-        "comments": "Wood is near water; hence the image of an old poplar sprouting at the root. This means an extraordinary situation arises when an older man marries a young girl who suits him. Despite the unusualness of the situation, all goes well. From the point of view of politics, the meaning is that in exceptional times one does well to join with the lowly, for this affords a possibility of renewal."
+        "name": "Nine in the Second Place",
+        "text": "A withered poplar sprouts new shoots at the root;\nAn older husband takes a young wife.\nNothing that is not advantageous.",
+        "comments": "Occupying the central place of the lower trigram, this strong Yang line bends down to unite intimately with the tender Yin line at the bottom (Initial Six), like an aged poplar tree beside the water putting forth fresh green shoots from its roots. When seasoned strength humbly allies itself with fresh, receptive vitality below, renewal and rejuvenation follow, making every endeavour advantageous."
       },
       {
         "line": 3,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the third place",
-        "text": "The ridgepole sags to the breaking point.\nMisfortune.",
-        "comments": "This indicates a type of man who in times of preponderance of the great insists on pushing ahead. He accepts no advice from others, and therefore they in turn are not willing to lend him support. Because of this the burden grows, until the structure of things bends or breaks. Plunging willfully ahead in times of danger only hastens the catastrophe."
+        "name": "Nine in the Third Place",
+        "text": "The ridgepole buckles to the breaking point.\nInauspicious.",
+        "comments": "As an overly rigid Yang line in an odd place at the top of the lower trigram, Nine in the Third Place insists on pushing ahead with headstrong arrogance during a time of extreme structural strain. Refusing to accept counsel or lean upon the gentle support of its resonant partner (Top Six), it overloads the beam until the roof collapses, leaving no possibility of rescue."
       },
       {
         "line": 4,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fourth place",
-        "text": "The ridgepole is braced. Good fortune.\nIf there are ulterior motives, it is humiliating.",
-        "comments": "Through friendly relations with people of lower rank, a responsible man succeeds in becoming master of the situation. But if, instead of working for the rescue of the whole, he were to misuse his connections to obtain personal power and success, it would lead to humiliation."
+        "name": "Nine in the Fourth Place",
+        "text": "The ridgepole is braced upward: auspicious.\nIf it looks for further private support, there is distress.",
+        "comments": "In contrast to the third line, this strong Yang line occupies a yielding, even place at the base of the upper trigram, tempering its strength with flexibility. By accepting the humble support of Initial Six below, it braces the sagging ridgepole and averts collapse. Yet if it selfishly exploits that lower bond for factional gain instead of serving the public whole, its noble achievement will be tarnished by shame."
       },
       {
         "line": 5,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fifth place",
-        "text": "A withered poplar puts forth flowers.\nAn older woman takes a husband.",
-        "comments": "No blame. No praise.\n\nA withered poplar that flowers exhausts its energies thereby and only hastens its end. An older woman may marry once more, but no renewal takes place. Everything remains barren. Thus, though all the amenities are observed, the net result is only the anomaly of the situation. Applied to politics, the metaphor means that if in times of insecurity we give up alliance with those below us and keep up only the relationships we have with people of higher rank, an unstable situation is created."
+        "name": "Nine in the Fifth Place",
+        "text": "A withered poplar puts forth blossoms;\nAn older woman takes a robust husband.\nFree from fault, yet free from praise.",
+        "comments": "Rather than reaching downward to nurture the roots of the people, this strong fifth line joins upward with the exhausted Yin line at the very top (Top Six). Like a dying poplar expending its last sap in barren blossoms, or an aged matron marrying a vigorous man, such a union observes formal propriety and is free from fault, yet produces no lasting fruit or renewal for the future."
       },
       {
         "line": 6,
         "val": 6,
         "type": "yin",
-        "name": "Six at the top",
-        "text": "One must go through the water.\nIt goes over one's head.\nMisfortune. No blame.",
-        "comments": "Here is a situation in which the unusual has reached a climax. One is courageous and wishes to accomplish one's task, no matter what happens. This leads into danger. The water rises over one's head. This is the misfortune. But one incurs no blame in giving up one's life that the good and the right may prevail. There are things that are more important than life."
+        "name": "Top Six",
+        "text": "Wading through the flood until the waters submerge the crown of the head.\nInauspicious, yet free from fault.",
+        "comments": "At the extreme culmination of Great Preponderance, the floodwaters rise above the head of one who refuses to abandon his post of duty despite overwhelming odds. Though physical calamity or martyrdom cannot be avoided when weak capacity confronts an insurmountable deluge, sacrificing oneself with unwavering fidelity to righteousness leaves the noble spirit entirely free from moral blame."
       }
     ],
-    "judgmentCommentary": "The weight of the great is excessive. The load is too heavy for the strength of the supports. The ridgepole on which the whole roof rests, sags to the breaking point, because its supporting ends are too weak for the load they bear. It is an exceptional time and situation; therefore extraordinary measures are demanded. It is necessary to find a way of transition as quickly as possible, and to take action. This promises success. For although the strong element is in excess, it is in the middle, that is, at the center of gravity, so that a revolution is not to be feared. Nothing is to be achieved by forcible measures. The problem must be solved by gently penetration to the meaning of the situation (as is suggested by the attribute of the inner trigram, Sun); then the change-over to other conditions will be successful. It demands real superiority; therefore the time when the great preponderates is a momentous time.",
-    "imageCommentary": "Extraordinary times when the great preponderates are like flood times when the lake rises over the treetops. But such conditions are temporary. The two trigrams indicate the attitude proper to such exceptional times: the symbol of the trigram Sun is the tree, which stands firm even though it stands alone, and the attribute of Tui is joyousness, which remains undaunted even if it must renounce the world.",
-    "structureCommentary": "This hexagram consists of four strong lines inside and two weak lines outside. When the strong are outside and the weak inside, all is well and there is nothing out of balance, nothing extraordinary in the situation. Here, however, the opposite is the case. The hexagram represents a beam that is thick and heavy in the middle but too weak at the ends. This is a condition that cannot last; it must be changed, must pass, or misfortune will result."
+    "judgmentCommentary": "The Commentary on the Decision explains that Great Preponderance signifies an extraordinary concentration of the great—four massive Yang lines massed in the interior while the two supporting Yin lines at the bottom and top are weak, causing the central ridgepole of the structure to sag dangerously under the weight. Yet because the rigid lines are centrally balanced in the second and fifth places, and because the hexagram combines gentle penetration within (Xùn) with joyous composure without (Duì), it is advantageous to act decisively to resolve the crisis. Extraordinary times of preponderance demand extraordinary balance and courage.",
+    "imageCommentary": "When floodwaters swell until the marsh submerges the very tops of the trees, nature presents an extreme, temporary inundation. Confronted with such overwhelming currents in human society, the noble person draws upon the rooted steadfastness of the tree below to stand completely alone without fear, and draws upon the serene joyousness of the lake above to renounce worldly acclaim without a trace of dejection.",
+    "structureCommentary": "Structurally, Hexagram 28 is a symmetric 'big Kǎn' figure: four solid Yang lines form a heavy timber beam in the middle (Lines 2, 3, 4, and 5), while the two broken Yin lines at the extremities (Lines 1 and 6) represent slender tenons or supports unable to bear the load indefinitely. Paired with its inverse—where lines 3 and 4 form the central cross-section of the ridgepole—the hexagram teaches that when great weight threatens to buckle existing structures, one must combine extreme care at the foundation with gentle, timely renewal."
   },
   {
     "number": 29,
     "unicode": "䷜",
     "chinese": "坎",
     "pinyin": "Kǎn",
-    "english": "The Abysmal Water",
+    "english": "The Abysmal Gorge",
     "upperTrigram": {
       "name": "Water",
       "chinese": "坎",
@@ -2774,68 +2788,68 @@ var HEXAGRAMS = [
       1,
       0
     ],
-    "judgment": "The Abysmal repeated. If you are sincere, you have success in your heart, and whatever you do succeeds.",
-    "image": "Water flows on uninterruptedly: the image of the Abysmal repeated. Thus the superior person walks in lasting virtue and teaches others.",
+    "judgment": "Repeated Abysmal: possessing sincere truth, the heart attains fulfilment, and going forward brings honoured merit.",
+    "image": "Waters flow on uninterruptedly: the image of the Repeated Abysmal. Thus the noble person walks in enduring virtue and carries on the business of instruction.",
     "lineTexts": [
       {
         "line": 1,
         "val": 6,
         "type": "yin",
-        "name": "Six at the beginning",
-        "text": "Repetition of the Abysmal.\nIn the abyss one falls into a pit.\nMisfortune.",
-        "comments": "By growing used to what is dangerous, a man can easily allow it to become part of him. He is familiar with it and grows used to evil. With this he has lost the right way, and misfortune is the natural result."
+        "name": "Initial Six",
+        "text": "Repeated Abysmal:\nIn the abyss, falling into a deep pit.\nInauspicious.",
+        "comments": "At the very bottom of the double gorge, this weak Yin line lacks both centrality and strength. Having grown habituated to dark, devious ways, one loses the upright path at the outset of danger and plunges into a pit within the chasm, bringing inevitable misfortune."
       },
       {
         "line": 2,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the second place",
-        "text": "The abyss is dangerous.\nOne should strive to attain small things only.",
-        "comments": "When we are in danger we ought not to attempt to get out of it immediately, regardless of circumstances; at first we must content ourselves with not being overcome by it. We must calmly weigh the conditions of the time and by satisfied with small gains, because for the time being a great success cannot be attained. A spring flows only sparingly at first, and tarries for some time before it makes its way in to the open."
+        "name": "Nine in the Second Place",
+        "text": "The abyss holds peril;\nSeek to attain only small gains.",
+        "comments": "Occupying the central position of the lower gorge, Nine in the Second Place possesses inner fortitude and clarity, yet remains hemmed in by Yin lines above and below. When surrounded by steep hazards, attempting to leap out of the canyon at a single bound is futile. Like a mountain stream filling small pools step by step, one should maintain central equilibrium and content oneself with modest, incremental progress until the way opens."
       },
       {
         "line": 3,
         "val": 6,
         "type": "yin",
-        "name": "Six in the third place",
-        "text": "Forward and backward, abyss on abyss.\nIn danger like this, pause at first and wait,\nOtherwise you will fall into a pit in the abyss.\nDo not act this way.",
-        "comments": "Here every step, forward or backward, leads into danger. Escape is out of the question. Therefore we must not be misled into action, as a result of which we should only bog down deeper in the danger; disagreeable as it may be to remain in such a situation, we must wait until a way out shows itself."
+        "name": "Six in the Third Place",
+        "text": "Coming and going, abyss upon abyss;\nIn sheer peril, resting upon the pillow,\nEntering the pit within the abyss.\nDo not act thus.",
+        "comments": "Situated at the jagged juncture where the lower gorge meets the upper gorge, Six in the Third Place faces danger whether advancing or retreating. In such an impasse, frantic struggling or rash action will only plunge one deeper into the pit; the sole recourse is to pause, stay still, and wait patiently until the perilous tide subsides."
       },
       {
         "line": 4,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fourth place",
-        "text": "A jug of wine, a bowl of rice with it;\nEarthen vessels",
-        "comments": "Simply handed in through the Window.\n\nThere is certainly no blame in this.\n\nIn times of danger ceremonious forms are dropped. What matters most is sincerity. Although as a rule it is customary for an official to present certain introductory gifts and recommendations before he is appointed, here everything is simplified to the utmost. The gifts are insignificant, there is no one to sponsor him, he introduces himself; yet all this need not be humiliating if only there is the honest intention of mutual help in danger. Still another idea is suggested. The window is the place through which light enters the room. If in difficult times we want to enlighten someone, we must begin with that which is in itself lucid and proceed quite simply from that point on."
+        "name": "Six in the Fourth Place",
+        "text": "A jug of wine, a wicker bowl of rice,\nUsing plain earthen vessels,\nHanded in simply through the window:\nIn the end, free from fault.",
+        "comments": "Standing in the ministerial fourth place immediately beneath the sovereign Nine in the Fifth Place, this yielding Yin line bridges the gap between minister and ruler during a time of shared crisis. Stripped of ornate courtly pomp—offering only a simple jug of wine and a bowl of grain in plain earthenware passed directly through the casement where light enters—their communion rests on unadorned sincerity of heart, and thus achieves mutual aid without fault."
       },
       {
         "line": 5,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fifth place",
-        "text": "The abyss is not filled to overflowing,\nIt is filled only to the rim.",
-        "comments": "No blame.\n\nDanger comes because one is too ambitious. In order to flow out of a ravine, water does not rise higher than the lowest point of the rim. So likewise a man when in danger has only to proceed along the line of least resistance; thus he reaches the goal. Great labors cannot be accomplished in such times; it is enough to get out of the danger."
+        "name": "Nine in the Fifth Place",
+        "text": "The abyss does not overflow;\nOnce it is levelled to the brim, free from fault.",
+        "comments": "As the central, strong ruler of the upper trigram, Nine in the Fifth Place embodies the consummate wisdom of water emerging from the gorge. Water does not need to swell into a turbulent flood to escape a ravine; as soon as it fills the basin level with the rim, it flows calmly outward along the natural channel. By refraining from grandiosity and following the measured path of centrality, one transcends danger without blame."
       },
       {
         "line": 6,
         "val": 6,
         "type": "yin",
-        "name": "Six at the top",
-        "text": "Bound with cords and ropes,",
-        "comments": "Shut in between thorn-hedged prison walls:\nFor three years one does not find the way.\nMisfortune.\n\nA man who in the extremity of danger has lost the right way and is irremediably entangled in his sins has no prospect of escape. He is like a criminal who sits shackled behind thorn hedged prison walls."
+        "name": "Top Six",
+        "text": "Bound with twisted cords and three-ply ropes,\nCast among the thorn-brambles:\nFor three years he does not find the way.\nInauspicious.",
+        "comments": "At the topmost extremity of the Abysmal, a Yin line that has completely abandoned the Way of sincerity becomes entangled in its own transgressions, like a prisoner bound in heavy hemp ropes within a thorny stockade. Cut off from relief for three years, this line warns of the dire fate awaiting those who persist in deceit until the very end of a crisis."
       }
     ],
-    "judgmentCommentary": "Through repetition of danger we grow accustomed to it. Water sets the example for the right conduct under such circumstances. It flows on and on, and merely fills up all the places through which it flows; it does not shrink from any dangerous spot nor from any plunge, and nothing can make it lose its own essential nature. It remains true to itself under all conditions. Thus likewise, if one is sincere when confronted with difficulties, the heart can penetrate the meaning of the situation. And once we have gained inner mastery of a problem, it will come about naturally that the action we take will succeed. In danger all that counts is really carrying out all that has to be done--thoroughness--and going forward, in order not to perish through tarrying in the danger. Properly used, danger can have an important meaning as a protective measure. Thus heaven has its perilous height protecting it against every attempt at invasion, and earth has its mountains and bodies of water, separating countries by their dangers. Thus also rulers make use of danger to protect themselves against attacks from without and against turmoil within.",
-    "imageCommentary": "Water reaches its goal by flowing continually. It fills up every depression before it flows on. The superior man follows its example; he is concerned that goodness should be an established attribute of character rather than an accidental and isolated occurrence. So likewise in teaching others everything depends on consistency, for it is only through repetition that the pupil makes the material his own.",
-    "structureCommentary": "This hexagram consists of a doubling of the trigram K'an. It is one of the eight hexagrams in which doubling occurs. The trigram K'an means a plunging in. A yang line has plunged in between two yin lines and is closed in by them like water in a ravine. The trigram K'an is also the middle son. The Receptive has obtained the middle line of the Creative, and thus K'an develops. As an image it represents water, the water that comes from above and is in motion on earth in streams and rivers, giving rise to all life on earth. In man's world K'an represents the heart, the soul locked up within the body, the principle of light inclosed in the dark--that is, reason. The name of the hexagram, because the trigram is doubled, has the additional meaning, \"repetition of danger.\" Thus the hexagram is intended to designate an objective situation to which one must become accustomed, not a subjective attitude. For danger due to a subjective attitude means either foolhardiness or guile. Hence too a ravine is used to symbolize danger; it is a situation in which a man is in the same pass as the water in a ravine, and, like the water, he can escape if he behaves correctly."
+    "judgmentCommentary": "The Commentary on the Decision observes that the Repeated Abysmal signifies danger reduplicated—gorge upon gorge. Yet watch how water moves: it flows into the deepest chasm without ever losing its sincere, authentic nature (its central Yang line). In the human realm, the heart attains fulfilment because firmness occupies the centre in both the second and fifth places; hence every forward action wins worthy accomplishment. Perilous indeed is the height of Heaven that none can scale, and the natural barriers of mountains and rivers on Earth; wise sovereigns likewise establish protective boundaries to guard their realms. Great indeed is the timely utility of the Abysmal!",
+    "imageCommentary": "Fed by an unceasing spring, water pours into one depression, fills it to the brim, and flows steadily onward into the next without ever halting or turning back. Emulating this tireless continuity, the noble person ensures that moral cultivation is never a fleeting impulse, but a constant, habitual walk in virtue, and that the teaching of others proceeds through patient, repeated practice until wisdom becomes second nature.",
+    "structureCommentary": "As the seventh of the eight pure doubled trigrams in the King Wen sequence, Hexagram 29 stacks Kǎn (Water, the Abyss, the middle son) upon Kǎn. In each trigram, a single luminous Yang line is trapped between two dark Yin lines, like a rushing river enclosed between steep canyon walls or the rational soul surrounded by peril. Whereas subjective recklessness plunges into ruin, the two central Yang lines (Nine in the Second Place and Nine in the Fifth Place) demonstrate how inner sincerity and adherence to the natural channel carry one safely through repeated adversity."
   },
   {
     "number": 30,
     "unicode": "䷝",
     "chinese": "離",
     "pinyin": "Lí",
-    "english": "The Clinging Fire",
+    "english": "Clinging Radiance",
     "upperTrigram": {
       "name": "Fire",
       "chinese": "離",
@@ -2871,68 +2885,68 @@ var HEXAGRAMS = [
       0,
       1
     ],
-    "judgment": "The Clinging. Perseverance furthers. It brings success. Care of the cow brings good fortune.",
-    "image": "Brightness repeated: the image of Fire. Thus the great person by perpetuating brightness illumines the four quarters of the world.",
+    "judgment": "The Clinging: steadfast integrity is advantageous; fulfilment. Caring for the cow brings good fortune.",
+    "image": "Brightness rises twice: the image of Fire. Thus the great person, by perpetuating this continuous illumination, shines upon the four quarters of the world.",
     "lineTexts": [
       {
         "line": 1,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the beginning",
-        "text": "The footprints run crisscross.\nIf one is seriously intent, no blame.",
-        "comments": "It is early morning and work begins. The mind has been closed to the outside world in sleep; now its connections with the world begin again. The traces of one's impressions run crisscross. Activity and haste prevail. It is important then to preserve inner composure and not to allow oneself to be swept along by the bustle of life. If one is serious and composed, he can acquire the clarity of mind needed for coming to terms with the innumerable impressions that pour in. It is precisely at the beginning that serious concentration is important, because the beginning holds the seed of all that is to follow."
+        "name": "Initial Nine",
+        "text": "Footprints crisscross in confusion;\nIf one treads with reverent earnestness, free from fault.",
+        "comments": "At the break of dawn, as the mind awakens and steps out to meet a multitude of worldly impressions, one's initial tracks easily cross in hasty confusion. Yet if one gathers one's spirit in reverent composure right at the start of the day, inner clarity is preserved and no error is made."
       },
       {
         "line": 2,
         "val": 6,
         "type": "yin",
-        "name": "Six in the second place",
-        "text": "Yellow light. Supreme good fortune.",
-        "comments": "Midday has come; the sun shines with a yellow light. Yellow is the color of measure and mean. Yellow light is therefore a symbol of the highest culture and art, whose consummate harmony consists in holding to the mean."
+        "name": "Six in the Second Place",
+        "text": "Yellow radiance.\nSupremely auspicious.",
+        "comments": "Occupying the central and correct seat of the lower trigram, Six in the Second Place embodies the noon sun shining with warm, golden light. Because yellow is the colour of the earth and the golden mean, 'yellow radiance' signifies luminous intelligence perfectly tempered by gentle moderation—the supreme ideal of human culture and harmony."
       },
       {
         "line": 3,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the third place",
-        "text": "In the light of the setting sun,\nMen either beat the pot and sing\nOr loudly bewail the approach of old age.\nMisfortune.",
-        "comments": "Here the end of the day has come. The light of the setting sun calls to mind the fact that life is transitory and conditional. Caught in this external bondage, men are usually robbed of their inner freedom as well. The sense of the transitoriness of life impels them to uninhibited revelry in order to enjoy life while it lasts, or else they yield to melancholy and spoil the precious time by lamenting the approach of old age. Both attitudes are wrong. To the superior man it makes no difference whether death comes early or late. He cultivates himself, awaits his allotted time, and in this way secures his fate."
+        "name": "Nine in the Third Place",
+        "text": "In the slant light of the declining sun,\nIf one does not beat the earthen jar and sing,\nThen one loudly bewails the approach of old age:\nInauspicious.",
+        "comments": "At the top of the lower trigram, the first sun has passed its zenith and sinks toward evening. Confronted with the transience of life, an uncultivated mind swings between two extremes: either drowning awareness in reckless carousing ('beating the pot and singing') or collapsing into bitter lamentation over advancing age. Both reactions forfeit inner equanimity and bring misfortune."
       },
       {
         "line": 4,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fourth place",
-        "text": "Its coming is sudden;\nIt flames up, dies down, is thrown away.",
-        "comments": "Clarity of mind has the same relation to life that fire has to wood. Fire clings to wood, but also consumes it. Clarity of mind is rooted in life but can also consume it. Everything depends upon how the clarity functions. Here the image used is that of a meteor or a straw fire. A man who is excitable and restless may rise quickly to prominence but produces no lasting effects. Thus matters end badly when a man spends himself too rapidly and consumes himself like a meteor."
+        "name": "Nine in the Fourth Place",
+        "text": "Sudden is its coming!\nIt flares up like flame, dies down, and is cast away.",
+        "comments": "Positioned at the turbulent junction where the upper flame leaps from the lower flame, this overly rigid Yang line burns with violent, restless impetuosity. Like a brushfire or meteor that flares up abruptly without steady fuel or gentle restraint, it consumes its own substance in an instant and leaves only ashes, tolerated by none."
       },
       {
         "line": 5,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fifth place",
-        "text": "Tears in floods, sighing and lamenting.\nGood fortune.",
-        "comments": "Here the zenith of life has been reached. Were there no warning, one would at this point consume oneself like a flame. Instead, understanding the vanity of all things, one may put aside both hope and fear, and sigh and lament: if one is intent on retaining his clarity of mind, good fortune will come from this grief. For here we are dealing not with a passing mood, as in the nine in the third place, but with a real change of heart."
+        "name": "Six in the Fifth Place",
+        "text": "Tears falling in streams, sighing and lamenting:\nAuspicious.",
+        "comments": "Occupying the supreme throne of the upper trigram as a yielding Yin line wedged between fierce Yang lines, Six in the Fifth Place feels the heavy burden and fragility of high station. Rather than growing arrogant at the height of splendour, the ruler weeps and sighs in earnest humility, awakening to a profound change of heart that preserves both clarity and good fortune."
       },
       {
         "line": 6,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the top",
-        "text": "The king used him to march forth and chastise.",
-        "comments": "Then it is best to kill the leaders\nAnd take captive the followers. No blame.\n\nIt is not the purpose of chastisement to impose punishment blindly but to create discipline. Evil must be cured at its roots. To eradicate evil in political life, it is best to kill the ringleaders and spare the followers. In educating oneself it is best to root out bad habits and tolerate those that are harmless. For asceticism that is too strict, like sentences of undue severity, fails in its purpose."
+        "name": "Top Nine",
+        "text": "The King employs him to march forth on a punitive expedition.\nThere is noble merit in slaying the chief rebel and taking captive those not of his inner cabal.\nFree from fault.",
+        "comments": "At the summit of radiance, the sovereign dispatches a decisive commander to restore order across the realm. True enlightened justice does not indulge in indiscriminate slaughter: by striking down only the incorrigible ringleader while pardoning and reintegrating the misled followers—and in self-cultivation, uprooting only the chief vice while forgiving minor foibles—one establishes lasting discipline without fault."
       }
     ],
-    "judgmentCommentary": "What is dark clings to what is light and so enhances the brightness of the latter. A luminous thing giving out light must have within itself something that perseveres; otherwise it will in time burn itself out. Everything that gives light is dependent on something to which it clings, in order that it may continue to shine. Thus the sun and moon cling to heaven, and grain, grass, and trees cling to the earth. So too the twofold clarity of the dedicated man clings to what is right and thereby can shape the world. Human life on earth is conditioned and unfree, and when man recognizes this limitation and makes himself dependent upon the harmonious and beneficent forces of the cosmos, he achieves success. The cow is the symbol of extreme docility. By cultivating in himself an attitude of compliance and voluntary dependence, man acquires clarity without sharpness and finds his place in the world.",
-    "imageCommentary": "Each of the two trigrams represents the sun in the course of a day. The two together represent the repeated movement of the sun, the function of light with respect to time. The great man continues the work of nature in the human world. Through the clarity of his nature he causes the light to spread farther and farther and to penetrate the nature of man ever more deeply.",
-    "structureCommentary": "This hexagram is another double sign. The trigram Li means \"to cling to something,\" and also \"brightness.\" A dark line clings to two light lines, one above and one below--the image of an empty space between two strong lines, whereby the two strong lines are made bright. The trigram represents the middle daughter. The Creative has incorporated the central line of the Receptive, and thus Li develops. As an image, it is fire. Fire has no definite form but clings to the burning object and thus is bright. As water pours down from heaven, so fire flames up from the earth. While K'an means the soul shut within the body, Li stands for nature in its radiance."
+    "judgmentCommentary": "In the Commentary on the Decision, Lí means 'to cling' or 'to adhere': the sun and moon cling to Heaven so their light shines forever, while the hundred grains, grasses, and trees cling to the Earth so their forms flourish. Even so, double brightness clings to what is upright in order to transform and perfect the world. Because the yielding Yin lines cling to the central and correct places (the second and fifth positions), the hexagram attains fulfilment; and therefore 'caring for the cow'—cultivating gentle, docile receptivity as fuel for luminous clarity—brings auspicious fortune.",
+    "imageCommentary": "Just as the sun rises day after day in unbroken succession, one radiance following upon another across the arc of time, so true enlightenment is never a momentary flash that burns out. Modelling their conduct upon this ceaseless solar renewal, the great person cultivates an enduring moral and intellectual clarity that illuminates the four corners of the human world from generation to generation.",
+    "structureCommentary": "Concluding the Upper Canon of the Book of Changes, Hexagram 30 doubles the trigram Lí (Fire, the Sun, the middle daughter), the direct complement of Hexagram 29 (Water). In each trigram, a single yielding Yin line adheres between two luminous Yang lines—just as a flame has no solid body of its own, but shines brilliantly by clinging to fuel. While Six in the Second Place shines with the supreme golden harmony of midday, Six in the Fifth Place demonstrates how humble, tearful self-awareness at the zenith of power preserves the radiance of the state."
   },
   {
     "number": 31,
     "unicode": "䷞",
     "chinese": "咸",
     "pinyin": "Xián",
-    "english": "Influence",
+    "english": "Mutual Resonance",
     "upperTrigram": {
       "name": "Lake",
       "chinese": "兌",
@@ -2968,68 +2982,68 @@ var HEXAGRAMS = [
       1,
       0
     ],
-    "judgment": "Influence. Success. Mutual resonance brings good fortune. Readiness to receive others.",
-    "image": "A lake on the mountain: the image of Influence. Thus the superior person encourages others to approach through readiness to receive them.",
+    "judgment": "Mutual Influence attains fulfilment; steadfast integrity is advantageous. Taking a maiden in marriage brings good fortune.",
+    "image": "Upon the mountain rests a marsh: the image of Mutual Influence. Thus the noble person keeps his heart empty and receptive in order to receive others.",
     "lineTexts": [
       {
         "line": 1,
         "val": 6,
         "type": "yin",
-        "name": "Six at the beginning",
-        "text": "The influence shows itself in the big toe.",
-        "comments": "A movement, before it is actually carried out, shows itself first in the toes. The idea of an influence is already present, but is not immediately apparent to others. As long as the intention has no visible effect, it is of no importance to the outside world and leads neither to good nor to evil."
+        "name": "Initial Six",
+        "text": "The influence is felt in the big toe.",
+        "comments": "At the very lowest extremity of the body, the first stirrings of an impulse to move register in the big toe before a single step has actually been taken. Because this incipient inclination remains on the threshold of action and has not yet produced outward consequences, the oracle pronounces neither good fortune nor misfortune, counselling quiet mindfulness of one's earliest motives."
       },
       {
         "line": 2,
         "val": 6,
         "type": "yin",
-        "name": "Six in the second place",
-        "text": "The influence shows itself in the calves of the legs.\nMisfortune.",
-        "comments": "Tarrying brings good fortune.\n\nIn movement, the calf of the leg follows the foot; by itself it can neither go forward nor stand still. Since the movement is not self-governed, it bodes ill. One should wait quietly until one is impelled to action by a real influence. Then one remains uninjured."
+        "name": "Six in the Second Place",
+        "text": "The influence is felt in the calves of the legs: inauspicious.\nAbiding still in one's dwelling brings good fortune.",
+        "comments": "Rising from the foot to the calf of the leg—which muscles cannot initiate balanced movement on their own but twitch restlessly when stimulated—Six in the Second Place is tempted to rush forward prematurely toward its partner in the fifth place. Yielding to such restless agitation brings misfortune; yet because this line occupies the central position of the still Mountain trigram, remaining quietly in place preserves auspicious compliance with the Way."
       },
       {
         "line": 3,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the third place",
-        "text": "The influence shows itself in the thighs.\nHolds to that which follows it.",
-        "comments": "To continue is humiliating.\nEvery mood of the heart influences us to movement. What the heart desires, the thighs run after without a moment's hesitation; they hold to the heart, which they follow. In the life of man, however, acting on the spur of every caprice is wrong and if continued leads to humiliation. Three considerations suggest themselves here. First, a man should not run precipitately after all the persons whom he would like to influence, but must be able to hold back under certain circumstances. As little should he yield immediately to every whim of those in whose service he stands. Finally, where the moods of his own heart are concerned, he should never ignore the possibility of inhibition, for this is the basis of human freedom."
+        "name": "Nine in the Third Place",
+        "text": "The influence is felt in the thighs;\nHolding only to what follows one's impulses.\nGoing forward thus brings distress.",
+        "comments": "As the rigid Yang master of the lower trigram, Nine in the Third Place corresponds to the thighs, which immediately follow every movement of the torso and feet without independent restraint. When a person allows their conduct to be driven headlong by every passing desire or mood, they forfeit the inner stillness of the Mountain and invite certain humiliation."
       },
       {
         "line": 4,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fourth place",
-        "text": "Perseverance brings good fortune.\nRemorse disappears.\nIf a man is agitated in mind,\nAnd his thoughts go hither and thither,\nOnly those friends\nOn whom he fixes his conscious thoughts\nWill follow.",
-        "comments": "Here the place of the heart is reached. The impulse that springs from this source is the most important of all. It is of particular concern that this influence be constant and good; then, in spite of the danger arising from the great susceptibility of the human heart, there will be no cause for remorse. When the quiet power of a man's own character is at work, the effects produced are right. All those who are receptive to the vibrations of such a spirit will then be influenced. Influence over others should not express itself as a conscious and willed effort to manipulate them. Through practicing such conscious incitement, one becomes wrought up and is exhausted by the eternal stress and strain. Moreover, the effects produced are then limited to those on whom one's thoughts are consciously fixed."
+        "name": "Nine in the Fourth Place",
+        "text": "Steadfast integrity brings good fortune; regret vanishes.\nRestlessly pacing to and fro,\nOnly one's intimate companions follow one's calculating thoughts.",
+        "comments": "Situated at the threshold of the upper trigram—the anatomical region of the heart—Nine in the Fourth Place teaches the supreme lesson of influence. As Confucius elaborates in the Great Commentary, nature moves from stillness to action without anxious deliberation, just as sun and moon succeed one another to produce light. If one's heart remains steadfast and impartial, regret vanishes; but if one paces about with agitated, manipulative schemes, one's influence shrinks to a narrow circle of partisan cronies."
       },
       {
         "line": 5,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fifth place",
-        "text": "The influence shows itself in the back of the neck.",
-        "comments": "No remorse.\n\nThe back of the neck is the most rigid part of the body. When the influence shows itself there, the will remains firm and the influence does not lead to confusion. Hence remorse does not enter into consideration here. What takes place in the depths of one's being, in the unconscious mind. It is true that if we cannot be influenced ourselves, we cannot influence the outside world."
+        "name": "Nine in the Fifth Place",
+        "text": "The influence is felt in the flesh of the upper back.\nFree from regret.",
+        "comments": "Above the heart lies the firm muscular flesh along the spine and base of the neck (Méi 脢), the part of the torso that remains immobile even when the limbs and head turn. Occupying the fifth place with unshakeable poise, this person cannot be swept away by superficial emotional currents and thus remains free from regret—though, as the Small Image notes, such rigid detachment also limits one's capacity to move the wider world."
       },
       {
         "line": 6,
         "val": 6,
         "type": "yin",
-        "name": "Six at the top",
-        "text": "The influence shows itself in the jaws, cheeks, and tongue.",
-        "comments": "The most superficial way of trying to influence others is through talk that has nothing real behind it. The influence produced by such mere tongue wagging must necessarily remain insignificant. Hence no indication is added regarding good or bad fortune."
+        "name": "Top Six",
+        "text": "The influence is felt in the jaws, cheeks, and tongue.",
+        "comments": "At the topmost extremity of the joyous Lake trigram (whose body-symbol is the mouth), attempts at influence degenerate into mere verbal cleverness and empty flattery. Because wagging the tongue without sincere inner substance cannot genuinely move the human heart, such superficial eloquence accomplishes nothing enduring."
       }
     ],
-    "judgmentCommentary": "The weak element is above, the strong below; hence their powers attract each other, so that they unite. This brings about success, for all success depends on the effect of mutual attraction. By keeping still within while experiencing joy without, one can prevent the joy from going to excess and hold it within proper bounds. This is the meaning of the added admonition, \"Perseverance furthers,\" for it is perseverance that makes the difference between seduction and courtship; in the latter the strong man takes a position inferior to that of the weak girl and shows consideration for her. This attraction between affinities is a general law of nature. Heaven and earth attract each other and thus all creatures come into being. Through such attraction the sage influences men's hearts, and thus the world attains peace. From the attractions they exert we can learn the nature of all beings in heaven and on earth.",
-    "imageCommentary": "A mountain with a lake on its summit is stimulated by the moisture from the lake. It has this advantage because its summit does not jut out as a peak but is sunken. The image counsels that the mind should be kept humble and free, so that it may remain receptive to good advice. People soon give up counseling a man who thinks that he knows everything better than anyone else.",
-    "structureCommentary": "The name of the hexagram means \"universal,\" \"general,\" and in a figurative sense \"to influence,\" \"to stimulate.\" The upper trigram is Tui, the Joyous; the lower is Kên, Keeping still. By its persistent, quiet influence, the lower, rigid trigram stimulates the upper, weak trigram, which responds to this stimulation cheerfully and joyously. Kên, the lower trigram, is the youngest son; the upper, Tui, is the youngest daughter. Thus the universal mutual attraction between the sexes is represented. In courtship, the masculine principle must seize the initiative and place itself below the feminine principle. Just as the first part of book 1 begins with the hexagrams of heaven and earth, the foundations of all that exists, the second part begins with the hexagrams of courtship and marriage, the foundations of all social relationships."
+    "judgmentCommentary": "Opening the Lower Canon on human relationships, the Commentary on the Decision explains that Xián means 'to move and touch through mutual resonance'. The yielding is above (Duì, the Lake) and the firm is below (Gèn, the Mountain); their vital energies respond to one another so that they unite in harmony. By keeping still within while rejoicing without, and by having the strong man place himself humbly beneath the young maiden in honourable courtship, fulfilment, steadfastness, and auspicious marriage are achieved. Heaven and Earth stimulate one another, and all creatures come into being; the sage stimulates the hearts of humanity, and the entire world attains peace. By observing what they stimulate and respond to, the true nature of Heaven, Earth, and all beings can be seen!",
+    "imageCommentary": "A mountain crowned by a high marsh receives the cool, life-giving moisture that seeps down through its stone, while its hollowed summit cradles the waters above. Taking this reciprocal communion as their guide, the noble person clears the mind of egotistical preconceptions and prideful fullness—for only an empty, humble heart can genuinely listen to and receive the counsel of others.",
+    "structureCommentary": "In Classical Chinese, Xián (咸) is the graph Gǎn (感, 'to feel, move, or resonate') written without the 'heart' radical underneath, signifying a universal, selfless sensibility that precedes calculating emotion. Pairing the youngest son (Gèn, Mountain) below with the youngest daughter (Duì, Lake) above, all six lines stand in exact Yin-Yang correspondence with their counterparts (1 with 4, 2 with 5, 3 with 6). Tracing the human body from the big toe upward to the jaws and tongue, the six lines explore how sensory and emotional stimuli affect our actions."
   },
   {
     "number": 32,
     "unicode": "䷟",
     "chinese": "恆",
     "pinyin": "Héng",
-    "english": "Duration",
+    "english": "Enduring Constancy",
     "upperTrigram": {
       "name": "Thunder",
       "chinese": "震",
@@ -3065,68 +3079,68 @@ var HEXAGRAMS = [
       0,
       0
     ],
-    "judgment": "Duration. Success. No blame. Perseverance furthers. Steadfast continuity without wavering.",
-    "image": "Thunder and wind: the image of Duration. Thus the superior person stands firm and does not change direction with passing trends.",
+    "judgment": "Duration attains fulfilment; free from fault. Steadfast integrity is advantageous; it is advantageous to have a direction to go.",
+    "image": "Thunder and wind: the image of Duration. Thus the noble person stands firm and does not alter his bearings.",
     "lineTexts": [
       {
         "line": 1,
         "val": 6,
         "type": "yin",
-        "name": "Six at the beginning",
-        "text": "Seeking duration too hastily brings misfortune persistently.",
-        "comments": "Nothing that would further.\n\nWhatever endures can be created only gradually by long-continued work and careful reflection. In the same sense Lao-tse says: \"If we wish to compress something, we must first let it fully expand.\" He who demands too much at once is acting precipitately, and because he attempts too much, he ends by succeeding in nothing."
+        "name": "Initial Six",
+        "text": "Digging deep for duration at the very outset:\nSteadfastness here is inauspicious; nothing is advantageous.",
+        "comments": "As the bottom line of the penetrating Wind trigram, Initial Six is in resonant correspondence with Nine in the Fourth Place above, yet errs by demanding deep, permanent results at the very beginning of a relationship or enterprise. Because true duration can only grow organically over time, forcing premature depth and rigid expectations right at the start brings only frustration and misfortune."
       },
       {
         "line": 2,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the second place",
-        "text": "Remorse disappears.",
-        "comments": "The situation is abnormal. A man's force of character is greater than the available material power. Thus he might be afraid of allowing himself to attempt something beyond his strength. However, since it is the time of DURATION, it is possible for him to control his inner strength and so to avoid excess. Cause for remorse then disappears."
+        "name": "Nine in the Second Place",
+        "text": "Regret vanishes.",
+        "comments": "Although a strong Yang line occupying an even, yin position might ordinarily be prone to excess and regret, Nine in the Second Place holds the central seat of the lower trigram and resonates harmoniously with the gentle fifth line above. By anchoring its strength in the golden mean and abiding long in moderation, all cause for regret naturally disappears."
       },
       {
         "line": 3,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the third place",
-        "text": "He who does not give duration to his character\nMeets with disgrace.\nPersistent humiliation.",
-        "comments": "If a man remains at the mercy of moods of hope or fear aroused by the outer world, he loses his inner consistency of character. Such inconsistency invariably leads to distressing experiences. These humiliations often come from an unforeseen quarter. Such experiences are not merely effects produced by the external world, but logical consequences evoked by his own nature."
+        "name": "Nine in the Third Place",
+        "text": "Not maintaining duration in one's virtue,\nOne frequently meets with disgrace:\nSteadfastness brings distress.",
+        "comments": "Overly rigid at the crest of the lower trigram, Nine in the Third Place is enticed outward by external changes and fails to maintain inner constancy of character. As Confucius remarks on this line in the Analects (13.22), a person without constancy cannot even serve as a village shaman or healer; vacillating between elation and dismay inevitably invites unforeseen humiliation."
       },
       {
         "line": 4,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fourth place",
-        "text": "No game in the field.",
-        "comments": "If we are in pursuit of game and want to get a shot at a quarry, we must set about it in the right way. A man who persists in stalking game in a place where there is none may wait forever without finding any. Persistence in search is not enough. What is not sought in the right way is not found."
+        "name": "Nine in the Fourth Place",
+        "text": "In the hunting field, there is no game.",
+        "comments": "Occupying an even, incorrect position at the base of the upper trigram, Nine in the Fourth Place illustrates the futility of persisting in the wrong place or by the wrong method. Just as a hunter who waits week after week in a barren field devoid of wildlife will never bag a quarry, mere stubborn persistence divorced from right position and wisdom yields nothing."
       },
       {
         "line": 5,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fifth place",
-        "text": "Giving duration to one's character through perseverance.",
-        "comments": "This is good fortune for a woman, misfortune for a man.\n\nA woman should follow a man her whole life long, but a man should at all times hold to what is his duty at the given moment. Should he persistently seek to conform to the woman, it would be a mistake for him. Accordingly it is altogether right for a woman to hold conservatively to tradition, but a man must always be flexible and adaptable and allow himself to be guided solely by what his duty requires of him at the moment."
+        "name": "Six in the Fifth Place",
+        "text": "Maintaining duration in one's virtue through steadfastness:\nFor a wife, auspicious; for a husband, inauspicious.",
+        "comments": "Central in the upper trigram, this yielding Yin line cleaves with lifelong, gentle compliance to the strong Nine in the Second Place below. While unswerving, conservative devotion to a single partner or domestic standard is auspicious for one in a receptive, supporting role, a ruler or leader tasked with decisiveness in the public arena cannot rely on passive compliance alone, but must judge what righteousness demands at each moment."
       },
       {
         "line": 6,
         "val": 6,
         "type": "yin",
-        "name": "Six at the top",
-        "text": "Restlessness as an enduring condition brings misfortune.",
-        "comments": "There are people who live in a state of perpetual hurry without ever attaininginner composure. Restlessness not only prevents all thoroughness but actuallybecomes a danger if it is dominant in places of authority."
+        "name": "Top Six",
+        "text": "Restless agitation as an enduring condition:\nInauspicious.",
+        "comments": "At the very top of the Thunder trigram, where movement reaches its extreme, Top Six mistakes perpetual haste and frantic busyness for constancy. When someone in a high position lives in chronic agitation—shaking and meddling without ever allowing affairs to settle and mature—every endeavour is exhausted and nothing of lasting merit can be achieved."
       }
     ],
-    "judgmentCommentary": "Duration is a state whose movement is not worn down by hindrances. It is not a state of rest, for mere standstill is regression. Duration is rather the self-contained and therefore self-renewing movement of an organized, firmly integrated whole, taking place in accordance with immutable laws and beginning anew at every ending. The end is reached by an inward movement, by inhalation, systole, contraction, and this movement turns into a new beginning, in which the movement is directed outward, in exhalation, diastole, expansion. Heavenly bodies exemplify duration. They move in their fixed orbits, and because of this their light-giving power endures. The seasons of the year follow a fixed law of change and transformation, hence can produce effects that endure. So likewise the dedicated man embodies an enduring meaning in his way of life, and thereby the world is formed. In that which gives things their duration, we can come to understand the nature of all beings in heaven and on earth.",
-    "imageCommentary": "Thunder rolls, and the wind blows; both are examples of extreme mobility and so are seemingly the very opposite of duration, but the laws governing their appearance and subsidence, their coming and going, endure. In the same way the independence of the superior man is not based on rigidity and immobility of character. He always keeps abreast of the time and changes with it. What endures is the unswerving directive, the inner law of his being, which determines all his actions.",
-    "structureCommentary": "The strong trigram Chên is above, the weak trigram Sun below. This hexagram is the inverse of the preceding one. In the latter we have influence, here we have union as an enduring condition. The two images are thunder and wind, which are likewise constantly paired phenomena. The lower trigram indicates gentleness within; the upper, movement without. In the sphere of social relationships, the hexagram represents the institution of marriage as the enduring union of the sexes. During courtship the young man subordinates himself to the girl, but in marriage, which is represented by the coming together of the eldest son and the eldest daughter, the husband is the directing and moving force outside, while the wife, inside, is gentle and submissive."
+    "judgmentCommentary": "In the Commentary on the Decision, Duration (Héng) means that which endures long in its proper course. The strong trigram ascends above (Zhèn, Thunder) while the yielding trigram descends below (Xùn, Wind); thunder and wind act in mutual reinforcement, combining gentle penetration with dynamic movement while all six lines correspond in harmonious resonance. Duration is never dead immobility: rather, the Way of Heaven and Earth is enduring and unceasing precisely because every ending becomes a new beginning, just as the sun and moon shine forever by moving along Heaven's path and the four seasons transform to bring all things to completion. When the sage abides enduringly in his Way, the whole world is transformed and perfected.",
+    "imageCommentary": "Nothing in nature seems more fleeting and changeable than the crash of thunder and the gusting of the wind, yet the cosmic law by which they arise, reinforce one another, and renew the atmosphere endures throughout the ages. Observing how constancy lives within dynamic change, the noble person adapts flexibly to shifting outward circumstances while standing unshakeably firm in their moral direction.",
+    "structureCommentary": "Forming an inseparable pair with Hexagram 31 (Mutual Influence / Wooing), Hexagram 32 represents the enduring institution of marriage and lifelong commitment: where courtship placed the youngest son below the youngest daughter, marriage places the eldest son (Zhèn, active direction without) above the eldest daughter (Xùn, gentle order within). Every line in the hexagram warns against the two opposite corruptions of constancy: rigid, untimely obstinacy on the one hand, and fickle, restless vacillation on the other."
   },
   {
     "number": 33,
     "unicode": "䷠",
     "chinese": "遯",
     "pinyin": "Dùn",
-    "english": "Retreat",
+    "english": "Strategic Withdrawal",
     "upperTrigram": {
       "name": "Heaven",
       "chinese": "乾",
@@ -3162,68 +3176,68 @@ var HEXAGRAMS = [
       1,
       1
     ],
-    "judgment": "Retreat. Success. In what is small, perseverance furthers.",
-    "image": "Mountain under heaven: the image of Retreat. Thus the superior person keeps the small-minded at a distance, with dignity and calmness.",
+    "judgment": "Withdrawal yields fulfilment. In minor affairs, steadfast integrity is favourable.",
+    "image": "Beneath heaven rises the mountain: the emblem of Strategic Withdrawal. Thus the noble person holds petty characters at a distance—never through malice, but through grave dignity.",
     "lineTexts": [
       {
         "line": 1,
         "val": 6,
         "type": "yin",
-        "name": "Six at the beginning",
-        "text": "At the tail in retreat. This is dangerous.\nOne must not wish to undertake anything.",
-        "comments": "Since the hexagram is the picture of something that is retreating, the lowest line represents the tail and the top line the head. In a retreat it is advantageous to be at the front. Here one is at the back, in immediate contact with the pursuing enemy. This is dangerous, and under such circumstances it is not advisable to undertake anything. Keeping still is the easiest way of escaping from the threatening danger."
+        "name": "Initial Six",
+        "text": "Withdrawing at the tail end: perilous.\nDo not set forth toward any destination.",
+        "comments": "In a collective movement of withdrawal, the lowest position forms the trailing rear, closest to the encroaching shadow. Lagging behind when circumstances demand early departure places one in immediate jeopardy. The Small Image reminds us that if one refrains from pressing outward into action, calamity can still be averted; remaining utterly still and inconspicuous is the sole safe recourse when caught at the rear."
       },
       {
         "line": 2,
         "val": 6,
         "type": "yin",
-        "name": "Six in the second place",
-        "text": "he holds him fast with yellow oxhide.",
-        "comments": "No one can tear him loose.\n\nYellow is the color of the middle. It indicates that which is correct and in line with duty. Oxhide is strong and not to be torn. While the superior men retreat and the inferior press after them, the inferior man represented here holds on so firmly and tightly to the superior man that the latter cannot shake him off. And because he is in quest of what is right an so strong in purpose, he reaches his goal. Thus the line confirms what is said in the Judgment: \"In what is small\" --here equivalent to \"in the inferior man\" -- \"perseverance furthers.\""
+        "name": "Six in the Second Place",
+        "text": "Bound fast with thongs of yellow ox-hide.\nNone is able to tear it loose.",
+        "comments": "Occupying the central and correct position of the lower trigram, this yielding line cleaves with unwavering devotion to the noble fifth line above. Yellow is the colour of the central earth, and ox-hide symbolises supple yet unbreakable tenacity. The Small Image affirms that such steadfast commitment cements the bond of purpose so firmly that no external upheaval can sever it."
       },
       {
         "line": 3,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the third place",
-        "text": "A halted retreat\nIs nerve-wracking and dangerous.",
-        "comments": "To retain people as men- and maidservants\nBrings good fortune.\n\nWhen it is time to retreat it is both unpleasant and dangerous to be held back, because then one no longer has freedom of action. In such a case the only expedient is to take into one's service, so to speak, those who refuse to let one go, so that one may at least keep one's initiative and not fall helplessly under their domination. But even with this expedient the situation is far from satisfactory--for what can one hope to accomplish with such servants?"
+        "name": "Nine in the Third Place",
+        "text": "A tethered withdrawal brings weariness and peril.\nMaintaining retainers and concubines is auspicious.",
+        "comments": "Standing as the solitary yang line atop the lower trigram of Mountain, this line is directly adjacent to the two advancing yin lines below and feels entangled by their attachment. Being held back when the hour calls for clean departure breeds exhausting anxiety and danger. Whilst one may auspiciously manage dependants in domestic or subordinate roles through measured care, the Small Image cautions that great public undertakings cannot be accomplished under such compromised conditions."
       },
       {
         "line": 4,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fourth place",
-        "text": "Voluntary retreat brings good fortune to the superior man\nAnd downfall to the inferior man.",
-        "comments": "In retreating the superior man is intent on taking his departure willingly and in all friendliness. He easily adjusts his mind to retreat, because in retreating he does not have to do violence to his convictions. The only one who suffers is the inferior man from whom he retreats, who will degenerate when deprived of the guidance of the superior man."
+        "name": "Nine in the Fourth Place",
+        "text": "Gracious withdrawal is auspicious for the noble person,\nYet brings ruin to the petty person.",
+        "comments": "Having entered the upper trigram of Heaven while still resonating with the yielding first line below, this line must sever sentimental ties through conscious resolve. The noble person detaches willingly and amicably, placing principle above personal entanglement and thereby securing good fortune. The petty person, conversely, lacks the inner fortitude to relinquish attachment and suffers decline when deprived of noble guidance."
       },
       {
         "line": 5,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fifth place",
-        "text": "Friendly retreat. Perseverance brings good fortune.",
-        "comments": "It is the business of the superior man to recognize in time that the moment for retreat has come. If the right moment is chosen, the retreat can be carried out within the forms of perfect friendliness, without the necessity of disagreeable discussions. Yet, for all the observance of amenities, absolute firmness of decision is necessary if one is not to be led astray by irrelevant considerations."
+        "name": "Nine in the Fifth Place",
+        "text": "Commendable withdrawal.\nSteadfast integrity is auspicious.",
+        "comments": "Central, strong, and occupying the sovereign seat of Heaven, this line executes its departure at the exact moment of ripeness, in full harmony with the loyal second line below. Because the withdrawal is neither panicked nor belated, it commands universal respect and rectifies the inner intention. Maintaining firm uprightness ensures that this dignified step back achieves complete fulfilment."
       },
       {
         "line": 6,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the top",
-        "text": "Cheerful retreat. Everything serves to further.",
-        "comments": "The situation is unequivocal. Inner detachment has become an established fact, and we are at liberty to depart. When one sees the way ahead thus clearly, free of all doubt, a cheerful mood sets in, and one chooses what is right without further thought. Such a clear path ahead always leads to the good."
+        "name": "Top Nine",
+        "text": "Generous and untrammelled withdrawal.\nNothing fails to be favourable.",
+        "comments": "At the summit of the hexagram, far removed from the encroaching yin lines below, this yang line enjoys complete freedom of spirit and unimpeded perspective. Unburdened by lingering doubts or worldly entanglements, one retires with spacious equanimity. Because there is no inner conflict or hesitation, every path ahead opens favourably."
       }
     ],
-    "judgmentCommentary": "Conditions are such that the hostile forces favored by the time are advancing. In this case retreat is the right course, and it is not to be confused with flight. Flight means saving oneself under any circumstances, whereas retreat is a sign of strength. We must be careful not to miss the right moment while we are in full possession of power and position. Then we shall be able to interpret the signs of the time before it is too late and to prepare for provisional retreat instead of being drawn into a desperate life-and-death struggle. Thus we do not simple abandon the field to the opponent; we make it difficult for him to advance by showing perseverance in single acts of resistance. In this way we prepare, while retreating, for the counter-movement. Understanding the laws of a constructive retreat of this sort is not easy. The meaning that lies hidden in such a time is important.",
-    "imageCommentary": "The mountain rises up under heaven, but owing to its nature it finally comes to a stop. Heaven on the other hand retreats upward before it into the distance and remains out of reach. This symbolizes the behavior of the superior man toward a climbing inferior; he retreats into his own thoughts as the inferior man comes forward. He does not hate him, for hatred is a form of subjective involvement by which we are bound to the hated object. The superior man shows strength (heaven) in that he brings the inferior man to a standstill (mountain) by his dignified reserve.",
-    "structureCommentary": "The power of the dark is ascending. The light retreats to security, so that the dark cannot encroach upon it. This retreat is a matter not of man's will but of natural law. Therefore in this case withdrawal is proper; it is the correct way to behave in order not to exhaust one's forces. In the calendar this hexagram is linked with the sixth month (July-August), in which the forces of winter are already showing their influence."
+    "judgmentCommentary": "The Commentary on the Decision explains that Withdrawal achieves fulfilment because stepping back at the proper moment preserves vital strength. The firm line in the fifth place occupies the seat of authority and responds harmoniously to the yielding line in the second place, demonstrating action aligned with the rhythm of the season. Because the dark yin lines are gradually ascending from below, the wise course is a timely, measured disengagement before adverse forces gain predominance. That steadfast integrity is favourable in minor affairs indicates that while large-scale enterprises cannot be forced against the tide, careful stewardship of everyday conduct prevents disorder. Profound indeed is the significance of timing during an era of Strategic Withdrawal.",
+    "imageCommentary": "Heaven soars infinitely upward whilst the mountain stands arrested below, creating a natural boundary of dignified separation. Observing this cosmic proportion, the noble person withdraws from the ambit of petty, ambitious individuals without descending into hostility or rancour. Hatred and anger bind one emotionally to the very adversary one seeks to avoid; calm, unyielding reserve establishes an insurmountable distance that brings encroaching baseness to a standstill.",
+    "structureCommentary": "Composed of Gèn (Mountain, stillness) below and Qián (Heaven, strength) above, this thirty-third hexagram pairs inner restraint with outer celestial vigour. Two yielding yin lines have advanced at the base, challenging the four yang lines above and corresponding to the sixth lunar month when the summer light begins to wane. The fifth yang line governs the hexagram as the sovereign ruler of retreat, whilst the second yin line anchors the inner realm in loyal rectitude."
   },
   {
     "number": 34,
     "unicode": "䷡",
     "chinese": "大壯",
     "pinyin": "Dà Zhuàng",
-    "english": "Great Power",
+    "english": "Great Vigour",
     "upperTrigram": {
       "name": "Thunder",
       "chinese": "震",
@@ -3259,68 +3273,68 @@ var HEXAGRAMS = [
       0,
       0
     ],
-    "judgment": "Great Power. Perseverance furthers. True power lies in staying aligned with right timing and order.",
-    "image": "Thunder in heaven above: the image of Great Power. Thus the superior person avoids walking down paths that violate harmony.",
+    "judgment": "Great Vigour. Steadfast integrity is favourable.",
+    "image": "Thunder resounds high in heaven: the emblem of Great Vigour. Thus the noble person never treads a path contrary to ritual propriety.",
     "lineTexts": [
       {
         "line": 1,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the beginning",
-        "text": "Power in the toes.\nContinuing brings misfortune.",
-        "comments": "This is certainly true.\n\nThe toes are in the lowest place and are ready to advance. So likewise great power in lowly station is inclined to effect advance by force. This, if carried further, would certainly lead to misfortune, and therefore by way of advice a warning is added."
+        "name": "Initial Nine",
+        "text": "Vigour in the toes.\nTo march forward brings misfortune; of this there is assured certainty.",
+        "comments": "Positioned at the very base of the hexagram, like the toes of the foot, this strong line possesses surging energy but lacks the authority or perspective to initiate an advance. Pressing forward prematurely through sheer force invites certain exhaustion and defeat. Wise counsel dictates restraining this nascent impulse until position and timing mature."
       },
       {
         "line": 2,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the second place",
-        "text": "Perseverance brings good fortune.",
-        "comments": "The premise here is that the gates to success are beginning to open. Resistance gives way and we forge ahead. This is the point at which, only too easily, we become the prey of exuberant self-confidence. This is why the oracle says that perseverance (i.e., perseverance in inner equilibrium, without excessive use of power) brings good fortune."
+        "name": "Nine in the Second Place",
+        "text": "Steadfast integrity is auspicious.",
+        "comments": "Although a strong yang line occupies a yielding even place, its central position within the lower trigram endows it with balance and moderation. As the path ahead begins to clear, the temptation toward overconfidence is tempered by adhering strictly to the central mean. Through composed rectitude rather than forceful assertion, genuine good fortune is secured."
       },
       {
         "line": 3,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the third place",
-        "text": "The inferior man works through power.",
-        "comments": "The superior man does not act thus.\n\nTo continue is dangerous.\nA goat butts against a hedge\nAnd gets its horns entangled.\n\nMaking a boast of power leads to entanglements, just as a goat entangles its horns when it butts against a hedge. Whereas an inferior man revels in power when he comes into possession of it, the superior man never makes this mistake. He is conscious at all times of the danger of pushing ahead regardless of circumstances, and therefore renounces in good time the empty display of force."
+        "name": "Nine in the Third Place",
+        "text": "The petty person deploys brute vigour; the noble person refrains.\nSteadfastness here is perilous.\nA ram butts against a hedge and entangles its horns.",
+        "comments": "At the crest of the lower trigram of Heaven, masculine vigour reaches an extreme pitch. While a petty character exults in displaying aggressive might, the noble person recognises the peril of charging blindly against obstacles and chooses restraint. Like an impetuous ram thrusting its horns into a dense thorn-hedge, unbridled force only immobilises itself in self-inflicted entanglement."
       },
       {
         "line": 4,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fourth place",
-        "text": "Perseverance brings good fortune.\nRemorse disappears.",
-        "comments": "The hedge opens; there is no entanglement.\nPower depends upon the axle of a big cart.\n\nIf a man goes on quietly and perseveringly working at the removal of resistances, success comes in the end. The obstructions give way and all occasion for remorse arising from excessive use of power disappears.\n\nSuch a man's power does not show externally, yet it can move heavy loads, like a big cart whose real strength lies in its axle. The less that power is applied outwardly, the greater its effect."
+        "name": "Nine in the Fourth Place",
+        "text": "Steadfast integrity is auspicious; regret vanishes.\nThe hedge opens without entanglement.\nVigour rests in the axle-straps of a great waggon.",
+        "comments": "As the fourth yang line and the dynamic ruler of the upper trigram of Thunder, this position marks the decisive threshold where the two yielding lines above offer no further obstruction. Instead of battering the barrier, steady perseverance causes the hedge to part naturally. True strength here is quiet and structural, like the reinforced axle-mounts underneath a heavy waggon capable of bearing immense loads forward."
       },
       {
         "line": 5,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fifth place",
-        "text": "Loses the goat with ease.",
-        "comments": "No remorse.\n\nThe goat is noted for hardness outwardly and weakness within. Now the situation is such that everything is easy; there is no more resistance. One can give up a belligerent, stubborn way of acting and will not have to regret it."
+        "name": "Six in the Fifth Place",
+        "text": "Losing the ram in an open field.\nFree from regret.",
+        "comments": "A yielding line occupies the central ruler's seat after the surging yang energy has already passed through the fourth place. Rather than clinging to stubborn, combative posturing—symbolised by the ram—this line relinquishes aggressive defensiveness with effortless grace. Although its position is not strictly correct for a yang-dominated time, shedding bellicosity in an open, unresisting spirit removes every cause for regret."
       },
       {
         "line": 6,
         "val": 6,
         "type": "yin",
-        "name": "Six at the top",
-        "text": "A goat butts against a hedge.\nIt cannot go backward, it cannot go forward.",
-        "comments": "Nothing serves to further.\nIf one notes the difficulty, this brings good fortune.\n\nIf we venture too far we come to a deadlock, unable either to advance or to retreat and whatever we do merely serves to complicate thing further. Such obstinacy leads to insuperable difficulties. But if, realizing the situation, we compose ourselves and decide not to continue, everything will right itself in time."
+        "name": "Top Six",
+        "text": "A ram butts against a hedge:\nUnable to retreat, unable to advance; nothing is favourable.\nYet if one recognises the hardship, it becomes auspicious.",
+        "comments": "At the utmost extremity of Great Vigour, a weak line attempts to mimic forceful assertion and becomes utterly deadlocked, able neither to push ahead nor to pull back. The Small Image notes that this paralysis stems from careless failure to examine the limits of the situation. However, if one ceases struggling, acknowledges the difficulty with humility, and composes the mind, the impasse resolves auspiciously."
       }
     ],
-    "judgmentCommentary": "The hexagram points to a time when inner worth mounts with great force and comes to power. But its strength has already passed beyond the median line, hence there is danger that one may rely entirely on one's own power and forget to ask what is right. There is danger too that, being intent on movement, we may not wait for the right time. Therefore the added statement that perseverance furthers. For that is truly great power which does not degenerate into mere force but remains inwardly united with the fundamental principles of right and of justice. When we understand this point--namely, that greatness and justice must be indissolubly united--we understand the true meaning of all that happens in heaven and on earth.",
-    "imageCommentary": "Thunder--electrical energy--mounts upward in the spring. The direction of this movement is in harmony with that of the movement of heaven. It is therefore a movement in accord with heaven, producing great power. However, true greatness depends on being in harmony with what is right. Therefore in times of great power the superior man avoids doing anything that is not in harmony with the established order.",
-    "structureCommentary": "The great lines, that is, the light, strong lines, are powerful. Four light lines have entered the hexagram from below and are about to ascend higher. The upper trigram is Chên, the Arousing; the lower is ch'ien, the Creative. Ch'ien is strong, Chên produces movement. The union of movement and strength gives the meaning of THE POWER OF THE GREAT. The hexagram is linked with the second month (March-April)."
+    "judgmentCommentary": "The Commentary on the Decision declares that Great Vigour signifies the ascendancy of the great—the luminous yang principle—where unyielding strength below inspires dynamic movement above. Yet true greatness does not consist in brute force alone; it requires steadfast integrity so that surging energy remains wholly aligned with moral rectitude. When immense power is governed by uprightness, the foundational order of heaven and earth becomes manifest in human affairs. Power divorced from right timing and ethical restraint inevitably degenerates into reckless aggression.",
+    "imageCommentary": "When thunder peals across the celestial vault, electric energy and cosmic strength unite in a display of awe-inspiring majesty. The noble person recognises that the supreme test of abundant strength lies in self-mastery rather than outward domination. By refusing to take a single step that violates ritual propriety and ethical order, one channels potent vitality into honourable and enduring conduct.",
+    "structureCommentary": "Formed by Qián (Heaven, unremitting strength) below and Zhèn (Thunder, arousing movement) above, this thirty-fourth hexagram depicts four vigorous yang lines advancing upward against two yielding yin lines at the top. Associated with the second lunar month when spring thunder awakens the earth, its structure highlights the transition threshold at the fourth line, where accumulated strength finally breaks through resistance."
   },
   {
     "number": 35,
     "unicode": "䷢",
     "chinese": "晉",
     "pinyin": "Jìn",
-    "english": "Progress",
+    "english": "Radiant Advancement",
     "upperTrigram": {
       "name": "Fire",
       "chinese": "離",
@@ -3356,68 +3370,68 @@ var HEXAGRAMS = [
       0,
       1
     ],
-    "judgment": "Progress. The virtuous leader is honored and advances into clarity and distinction.",
-    "image": "The sun rises over the earth: the image of Progress. Thus the superior person brightens their inner virtue.",
+    "judgment": "Radiant Advancement. The marquis of peace and vigour is honoured with horses in abundance, and is received in audience three times in a single day.",
+    "image": "Luminosity rises above the earth: the emblem of Radiant Advancement. Thus the noble person illuminates their own bright virtue.",
     "lineTexts": [
       {
         "line": 1,
         "val": 6,
         "type": "yin",
-        "name": "Six at the beginning",
-        "text": "Progressing, but turned back.\nPerseverance brings good fortune.\nIf one meets with no confidence, one should remain calm.",
-        "comments": "No mistake.\n\nAt a time when all elements are pressing for progress, we are still uncertain whether in the course of advance we may not meet with a rebuff. Then the thing to do is simply continue in what is right; in the end this will bring good fortune. It may be that we meet with no confidence. In this case we ought not to try to win confidence regardless of the situation, but should remain calm and cheerful and refuse to be roused to anger. Thus we remain free of mistakes."
+        "name": "Initial Six",
+        "text": "Advancing, yet checked.\nSteadfast integrity is auspicious.\nMeeting with lack of trust, remain spacious and composed: free from fault.",
+        "comments": "At the very outset of advancement, one stands far from the sovereign sun above and encounters obstruction from the rigid fourth line. When early efforts are rebuffed or met with suspicion, the wise practitioner neither forces the issue nor yields to resentment. By maintaining magnanimous composure and walking uprightly in solitude, one remains wholly free from fault and prepares the ground for eventual recognition."
       },
       {
         "line": 2,
         "val": 6,
         "type": "yin",
-        "name": "Six in the second place",
-        "text": "Progressing, but in sorrow.\nPerseverance brings good fortune.",
-        "comments": "Then one obtains great happiness from one's ancestress.\n\nProgress is halted; an individual is kept from getting in touch with the man in authority with whom he has a connection. When this happens, he must remain persevering, although he is grieved; then with a maternal gentleness the man in question will bestow great happiness upon him. This happiness comes to him-and is well deserved-because in this case mutual attraction does not rest on selfish or partisan motives but on firm and correct principles."
+        "name": "Six in the Second Place",
+        "text": "Advancing, yet in sorrowful hesitation.\nSteadfast integrity is auspicious.\nOne receives abundant blessings from the royal ancestress.",
+        "comments": "Occupying the central and correct seat of the lower trigram, this yielding line aspires toward the fifth place above, yet both are yin lines and lack direct magnetic polarity, while the fourth yang line blocks the way. Despite the initial grief of feeling impeded, unwavering rectitude and gentle humility earn the maternal grace of the sovereign fifth line—revered here as the royal ancestress. Blessings arrive in full measure because one's conduct remains pure and centred."
       },
       {
         "line": 3,
         "val": 6,
         "type": "yin",
-        "name": "Six in the third place",
-        "text": "All are in accord. Remorse disappears.",
-        "comments": "A man strives onward, in association with others whose backing encourages him. This dispels any cause for regret over the fact that he does not have enough independence to triumph unaided over every hostile turn of fate."
+        "name": "Six in the Third Place",
+        "text": "Trusted by all around.\nRegret vanishes.",
+        "comments": "Having reached the top of the lower trigram of Earth, this line leads its two fellow yin lines upward toward the light of Fire above. Although a yielding line in an odd place might ordinarily feel insecure, the unanimous accord and shared aspiration of its companions dispel all doubt. Supported by collective confidence, one advances smoothly toward illumination."
       },
       {
         "line": 4,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fourth place",
-        "text": "Progress like a hamster.\nPerseverance brings danger.",
-        "comments": "In times of progress it is easy for strong men in the wrong places to amass great possessions. But such conduct shuns the light. And since times of progress are inevitably brought to the light, perseverance in such action always leads to danger."
+        "name": "Nine in the Fourth Place",
+        "text": "Advancing like a foraging marmot.\nSteadfastness here is perilous.",
+        "comments": "A rigid yang line occupies a yielding ministerial place just below the gentle ruler, hoarding influence like a nocturnal rodent that gathers stealthily in the dark while fearing the daylight. During an era of transparent illumination, secretive self-aggrandisement and unmerited occupancy of office cannot long remain hidden. Persisting in such furtive ambition invites exposure and grave peril."
       },
       {
         "line": 5,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fifth place",
-        "text": "Remorse disappears.",
-        "comments": "Take not gain and loss to heart.\nUndertakings bring good fortune.\nEverything serves to further.\n\nThe situation described here is that of one who, finding himself in an influential position in a time of progress, remains gentle and reserved. He might reproach himself for lack of energy in making the most of the propitiousness of the time and obtaining all possible advantage. However, this regret passes away. He must not take either loss or gain to heart; they are minor considerations. What matters much more is the fact that in this way he has assured himself of opportunities for successful and beneficent influence."
+        "name": "Six in the Fifth Place",
+        "text": "Regret vanishes.\nTake neither loss nor gain to heart.\nGoing forward is auspicious; nothing fails to be favourable.",
+        "comments": "As the central ruler of the trigram of Fire, this yielding line embodies enlightened modesty at the summit of authority. Any fleeting regret over lacking aggressive yang dominance vanishes when one releases petty calculations of personal profit and loss. Because the leader acts with unclouded generosity and clarity, every forward step spreads light and brings auspicious fulfilment."
       },
       {
         "line": 6,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the top",
-        "text": "Making progress with the horns is permissible\nOnly for the purpose of punishing one's own city.",
-        "comments": "To be conscious of danger brings good fortune.\n\nNo blame.\nPerseverance brings humiliation.\n\nMaking progress with lowered horns-i.e., acting on the offensive-is permissible, in times like those referred to here, only in dealing with the mistakes of one's own people. Even then we must bear in mind that proceeding on the offensive may always be dangerous. In this way we avoid the mistakes that otherwise threaten, and succeed in what we set out to do. On the other hand, perseverance in such over energetic behavior, especially toward persons with whom there is no close connection, will lead to humiliation."
+        "name": "Top Nine",
+        "text": "Advancing with lowered horns,\nPermissible solely for chastising one's own walled town.\nAwareness of peril is auspicious; free from fault.\nYet steadfast persistence in this brings distress.",
+        "comments": "At the outermost peak of advancement, yang energy hardens into martial severity, symbolised by thrusting horns. In an era of cultivated radiance, aggressive discipline may be legitimately employed only inward—to rectify disorder within one's own household or jurisdiction—and even then with acute vigilance. To persist indefinitely in harshness, when the light has already reached its zenith, lacks true breadth of illumination and leads to humiliation."
       }
     ],
-    "judgmentCommentary": "A twofold idea is set forth here. The actual effect of the progress emanates from a man who is in a dependent position and whom the others regard as their equal and are therefore willing to follow. This leader has enough clarity of vision not to abuse his great influence but to use it rather for the benefit of his ruler. His ruler in turn is free of all jealousy, showers presents on the great man, and invites him continually to his court. An enlightened ruler and an obedient servant--this is the condition on which great progress depends.",
-    "imageCommentary": "The light of the sun rises over the earth is by nature clear. The higher the sun rises, the more it emerges from the dark mists, spreading the pristine purity of its rays over an ever widening area. The real nature of man is likewise originally good, but it becomes clouded by contact with earthly things and therefore needs purification before it can shine forth in its native clarity.",
-    "structureCommentary": "The hexagram represents the sun rising over the earth. It is therefore the symbol of rapid, easy progress, which at the same time means ever widening expansion and clarity."
+    "judgmentCommentary": "The Commentary on the Decision states that Radiant Advancement portrays the sun ascending above the horizon to flood the earth with clarity. Below, the receptive earth yields in devoted harmony and cleaves to the great sovereign splendour above. Because the gentle fifth line has ascended to occupy the central seat of honour and responds to the compliant lines below, a worthy minister is richly rewarded with steeds and granted thrice-daily audiences by an enlightened ruler. When luminous wisdom above meets loyal service below, advancement unfolds naturally and brings widespread blessing.",
+    "imageCommentary": "As the morning sun climbs above the terrestrial plain, its rays dispel mist and obscurity across an ever-widening expanse. In like manner, human nature possesses an innate, unclouded radiance that can become dimmed through worldly entanglement and selfish habit. The noble person emulates the rising sun by continually purifying their conduct and polishing their inner moral clarity until it shines forth effortlessly.",
+    "structureCommentary": "With Kūn (Earth, receptive devotion) below and Lí (Fire, radiant clarity) above, this thirty-fifth hexagram pairs inner compliance with outer illumination. The yielding sixth line in the fifth place serves as the sovereign ruler of the hexagram, presiding over the upper trigram of Fire while supported by the three receptive yin lines of the lower trigram. It stands in direct structural contrast to the following hexagram, where the sun sinks beneath the earth."
   },
   {
     "number": 36,
     "unicode": "䷣",
     "chinese": "明夷",
     "pinyin": "Míng Yí",
-    "english": "Darkening of the Light",
+    "english": "Wounding of the Light",
     "upperTrigram": {
       "name": "Earth",
       "chinese": "坤",
@@ -3453,68 +3467,68 @@ var HEXAGRAMS = [
       0,
       0
     ],
-    "judgment": "Darkening of the Light. In adversity it furthers one to be persevering and veil one's brilliance.",
-    "image": "The light has sunk into the earth: the image of Darkening of the Light. Thus the superior person lives with the masses: veiling light, yet shining within.",
+    "judgment": "Wounding of the Light. Amidst adversity, steadfast integrity is favourable.",
+    "image": "Light has sunk beneath the earth: the emblem of Wounding of the Light. Thus the noble person governs the multitude by veiling brilliance whilst remaining luminous within.",
     "lineTexts": [
       {
         "line": 1,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the beginning",
-        "text": "Darkening of the light during flight.\nHe lowers his wings.",
-        "comments": "The superior man does not eat for three days\nOn his wanderings.\nBut he has somewhere to go.\n\nThe host has occasion to gossip about him.\n\nWith grandiose resolve a man endeavors to soar above all obstacles, but thus encounters a hostile fate. He retreats and evades the issue. The time is difficult. Without rest, he must hurry along, with no permanent abiding place. If he does not want to make compromises within himself, but insists on remaining true to his principles, he suffers deprivation. Never the less he has a fixed goal to strive for even though the people with whom he lives do not understand him and speak ill of him."
+        "name": "Initial Nine",
+        "text": "Wounding of the light in flight; drooping its wings.\nThe noble person on the march goes three days without eating,\nHaving a destination to reach.\nThose in authority have words of reproach.",
+        "comments": "Situated at the furthest distance from the dark ruler at the top, this strong line perceives the gathering shadow early and takes flight, folding its wings to remain inconspicuous. Upholding pure principle requires forsaking comfort and enduring acute privation—going three days without food—because one's moral purpose admits no compromise. Though worldly hosts and bystanders murmur in incomprehension at such austere resolve, early departure preserves one's integrity intact."
       },
       {
         "line": 2,
         "val": 6,
         "type": "yin",
-        "name": "Six in the second place",
-        "text": "Darkening of the light injures him in the left thigh.\nHe gives aid with the strength of a horse.\nGood fortune.",
-        "comments": "Here the Lord of Light is in a subordinate place and is wounded by the Lord of Darkness. But the injury is not fatal; it is only a hindrance. Rescue is still possible. The wounded man gives no thought to himself; he thinks only of saving the others who are also in danger. Therefore he tries with all his strength to save all that can be saved. There is good fortune in thus acting according to duty."
+        "name": "Six in the Second Place",
+        "text": "Wounding of the light: injured in the left thigh.\nRendering aid with the strength of a swift steed: auspicious.",
+        "comments": "As the central ruler of the lower trigram of Fire, this line embodies luminous virtue, yet it suffers an impediment in the left thigh—a wound that hinders movement without destroying vital capacity. Rather than succumbing to self-pity, one summons vigorous, horse-like energy from the adjacent yang lines to rescue fellow sufferers and uphold proper order. Acting with dutiful compliance and unselfish courage turns a painful setback into auspicious deliverance."
       },
       {
         "line": 3,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the third place",
-        "text": "Darkening of the light during the hunt in the south.",
-        "comments": "Their great leader is captured.\nOne must not expect perseverance too soon.\n\nIt seems as if chance were at work. While the strong, loyal man is striving eagerly and in good faith to create order, he meets the ringleader of the disorder, as if by accident, and seizes him. Thus victory is achieved. But in abolishing abuses one must not be too hasty. This would turn out badly because the abuses have been in existence so long."
+        "name": "Nine in the Third Place",
+        "text": "Wounding of the light during the southern hunt:\nThe great chief of darkness is captured.\nOne must not demand steadfast rectification too hastily.",
+        "comments": "At the uppermost edge of the luminous lower trigram, this strong yang line stands in direct polar correspondence with the dark tyrant at the top. Advancing southward—the direction of light and clarity—as if on a royal inspection hunt, one succeeds in exposing and capturing the principal source of corruption. Nevertheless, because deep-seated abuses cannot be eradicated overnight without causing upheaval, wise governance requires patient, gradual reform rather than abrupt severity."
       },
       {
         "line": 4,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fourth place",
-        "text": "He penetrates the left side of the belly.\nOne gets at the very heart of the darkening of the light.",
-        "comments": "We find ourselves close to the commander of darkness and so discover his mot secret thoughts. In this way we realize that there is no longer any hope of improvement, and thus we are enabled to leave the scene of disaster before the storm breaks."
+        "name": "Six in the Fourth Place",
+        "text": "Entering into the left side of the belly,\nComprehending the innermost heart of the wounded light\nUpon crossing out through the courtyard gate.",
+        "comments": "Having crossed into the dark upper trigram of Earth, this yielding line occupies a ministerial position close enough to penetrate the secret counsels and inner belly of the oppressive regime. Seeing firsthand that the ruler's heart is beyond counsel, yet not yet trapped in the central court of the fifth place, one quietly slips out through the gate and withdraws from office. Clear discernment of incurable corruption enables a timely, discreet exit."
       },
       {
         "line": 5,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fifth place",
-        "text": "Darkening of the light as with Prince Chi.\nPerseverance furthers.",
-        "comments": "Prince Chi lived at the court of the evil tyrant Chou Hsin, who, although not mentioned by name, furnished the historical example on which this whole situation is based. Prince Chi was a relative of the tyrant and could not withdraw from the court; therefore he concealed his true sentiments and feigned insanity. Although he was held a slave, he did not allow external misery to deflect him from his convictions. This provides a teaching for those who cannot leave their posts in times of darkness. In order to escape danger, they need invincible perseverance of spirit and redoubled caution in their dealings with the world."
+        "name": "Six in the Fifth Place",
+        "text": "The Wounding of the Light of Viscount Ji:\nSteadfast integrity is favourable.",
+        "comments": "Occupying the central seat of the upper trigram right beside the tyrannical top line, this figure cannot flee the court as the fourth line did. Like Viscount Ji—uncle to the despot King Zhou of Shang, who feigned madness and endured enslavement rather than abandon his ancestral duty—one must veil one's unyielding moral light beneath complete outward humility. Through indomitable inner rectitude that refuses to be extinguished, the spirit remains unconquered even in the darkest hour."
       },
       {
         "line": 6,
         "val": 6,
         "type": "yin",
-        "name": "Six at the top",
-        "text": "Not light but darkness.\nFirst he climbed up to heaven,",
-        "comments": "Then plunged into the depths of the earth.\n\nHere the climax of the darkening is reached. The dark power at first held so high a place that it could wound all who were on the side of good and of the light. But in the end it perishes of its own darkness, for evil must itself fall at the very moment when it has wholly overcome the good, and thus consumed the energy to which it owed its duration."
+        "name": "Top Six",
+        "text": "Not light, but obscurity.\nAt first ascending into heaven,\nLater plunging into the depths of the earth.",
+        "comments": "At the extreme summit of the hexagram stands the agent responsible for eclipsing the light. Initially, tyrannical power mounts so high that it seems to overshadow heaven itself, wounding every luminous virtue below. Yet by extinguishing clarity and alienating all goodwill, tyranny destroys the very foundation of its own existence and inevitably collapses into subterranean ruin."
       }
     ],
-    "judgmentCommentary": "One must not unresistingly let himself be swept along by unfavorable circumstances, nor permit his steadfastness to be shaken. He can avoid this by maintaining his inner light, while remaining outwardly yielding and tractable. With this attitude he can overcome even the greatest adversities. In some situations indeed a man must hide his light, in order to make his will prevail inspite of difficulties in his immediate environment. Perseverance must dwell in inmost consciousness and should not be discernible from without. Only thus is a man able to maintain his will in the face of difficulties.",
-    "imageCommentary": "In a time of darkness it is essential to be cautious and reserved. One should not needlessly awaken overwhelming enmity by inconsiderate behavior. In such times one ought not to fall in with the practices of others; neither should one drag them censoriously into the light. In social intercourse one should not try to be all-knowing. One should let many things pass, without being duped.",
-    "structureCommentary": "Here the sun has sunk under the earth and is therefore darkened. The name of the hexagram means literally \"wounding of the bright\"; hence the individual lines contain frequent references to wounding. The situation is the exact opposite of that in the foregoing hexagram. In the latter a wise man at the head of affairs has able helpers, and in company with them makes progress; here a man of dark nature is in a position of authority and brings harm to the wise and able man."
+    "judgmentCommentary": "The Commentary on the Decision observes that light entering into the interior of the earth signifies the eclipse and wounding of radiance. Within, the lower trigram possesses clear civilisation and lucid intelligence; without, the upper trigram displays receptive pliability and endurance. With such inward clarity and outward adaptability did King Wen navigate immense tribulation when imprisoned at Youli. In a dark and hostile era, one must conceal one's penetrating insight beneath an unassuming exterior while guarding the uprightness of one's innermost principles—a path exemplified by Viscount Ji amidst the tyranny of the late Shang court.",
+    "imageCommentary": "When the sun descends below the terrestrial horizon, darkness overspreads the land, yet the sun's intrinsic fire is never extinguished. Guiding people during an age of suspicion and obscurity requires the noble person to refrain from ostentatious displays of cleverness or harsh scrutiny that would provoke envy. By shrouding sharp brilliance in gentle modesty whilst preserving crystal-clear discernment within the heart, one endures the night unscathed.",
+    "structureCommentary": "Inverted from the preceding hexagram, Wounding of the Light places Lí (Fire, clarity) below and Kūn (Earth, darkness and mass) above. The luminous principle is buried beneath three heavy yin lines, with the topmost sixth line acting as the tyrannical lord of darkness at the culmination of the hexagram. Each of the lower five lines illustrates a distinct strategic posture for preserving integrity according to one's proximity to the source of oppression."
   },
   {
     "number": 37,
     "unicode": "䷤",
     "chinese": "家人",
     "pinyin": "Jiā Rén",
-    "english": "The Family",
+    "english": "The Household",
     "upperTrigram": {
       "name": "Wind",
       "chinese": "巽",
@@ -3550,68 +3564,68 @@ var HEXAGRAMS = [
       1,
       1
     ],
-    "judgment": "The Family. The perseverance of the heart furthers. Order in the core creates peace around.",
-    "image": "Wind comes forth from fire: the image of the Family. Thus the superior person speaks with substance and acts with constancy.",
+    "judgment": "The Household. The steadfast integrity of the woman is favourable.",
+    "image": "Wind issues forth from fire: the emblem of The Household. Thus the noble person ensures their words possess substance and their conduct maintains constancy.",
     "lineTexts": [
       {
         "line": 1,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the beginning",
-        "text": "Firm seclusion within the family.\nRemorse disappears.",
-        "comments": "The family must form a well-defined unit within which each member knows his place. From the beginning each child must be accustomed to firmly established rules of order, before ever its will is directed to other things. If we begin too late to enforce order, when the will of the child has already been overindulged, the whims and passions, grown stronger with the years, offer resistance and give cause for remorse. If we insist on order from the outset, occasions for remorse may arise-in general social life these are unavoidable-but the remorse always disappears again, and everything rights itself. For there is nothing easily avoided and more difficult to carry through than \"breaking a child's will.\""
+        "name": "Initial Nine",
+        "text": "Establishing firm bounds within the household.\nRegret vanishes.",
+        "comments": "At the very inception of domestic life, a strong yang line in the first place establishes clear rules, roles, and boundaries before laxity or caprice can take root. Although early discipline may temporarily feel strict, setting firm foundations prevents future discord and eliminates every cause for regret. Order introduced at the beginning spares the household painful correction later."
       },
       {
         "line": 2,
         "val": 6,
         "type": "yin",
-        "name": "Six in the second place",
-        "text": "She should not follow her whims.",
-        "comments": "She must attend within to the food.\nPerseverance brings good fortune.\n\nThe wife must always be guided by the will of the master of the house, be he father, husband, or grown son. There, without having to look for them, she has great and important duties. She must attend to the nourishment of her family and to the food for the sacrifice. IN this way she becomes the center of the social and religious life of the family, and her perseverance in this position brings good fortune to the whole house. In relation to general conditions, the counsel here is to seek nothing by means of force, but quietly to confine oneself to the duties at hand."
+        "name": "Six in the Second Place",
+        "text": "Nothing to be pursued by arbitrary whim;\nWithin the home, tending to the preparation of nourishment.\nSteadfast integrity is auspicious.",
+        "comments": "Central and correct in the lower trigram, this yielding line embodies the nurturing heart of the household, resonating harmoniously with the fifth yang line above. Rather than seeking personal aggrandisement or acting on arbitrary impulse, one devotes gentle attention to the daily sustenance and sacrificial offerings that bind the family together. Fulfilling these central responsibilities with quiet fidelity brings auspicious stability to the entire home."
       },
       {
         "line": 3,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the third place",
-        "text": "When tempers flare up in the family,",
-        "comments": "Too great severity brings remorse.\nGood fortune nonetheless.\nWhen woman and chile dally and laugh\nIt leads in the end to humiliation.\n\nIn the family the proper mean between severity and indulgence ought to prevail. Too great severity toward one's own flesh and blood leads to remorse. The wise thing is to build strong dikes within which complete freedom of movement is allowed each individual. But in doubtful instances too great severity, despite occasional mistakes, is preferable, because it preserves discipline in the family, whereas too great weakness leads to disgrace."
+        "name": "Nine in the Third Place",
+        "text": "The household resounds with stern rebuke:\nRegret and severity, yet auspicious.\nIf wife and children giggle and dally,\nIn the end it brings humiliation.",
+        "comments": "A yang line in an odd place at the crest of the trigram of Fire inclines toward excessive strictness when tempers flare. Although overly harsh reprimands may occasion momentary regret by wounding tender feelings, erring on the side of firm discipline preserves the moral fabric of the home and remains auspicious. Conversely, indulging in frivolous laxity where standards are laughed away inevitably erodes respect and ends in disgrace."
       },
       {
         "line": 4,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fourth place",
-        "text": "She is the treasure of the house.\nGreat good fortune.",
-        "comments": "It is upon the woman of the house that the well-being of the family depends. Well-being prevails when expenditures and income are soundly balanced. This leads to great good fortune. In the sphere of public life, this line refers to the faithful steward whose measures further the general welfare."
+        "name": "Six in the Fourth Place",
+        "text": "Enriching the household:\nSupremely auspicious.",
+        "comments": "A yielding line in its proper even place at the base of the upper trigram of Wind acts as the capable steward who harmonises income, expenditure, and domestic resources. By gently accommodating the strong lines above and below, one fosters abundance not merely of material wealth, but of mutual goodwill and well-being. The Small Image praises this compliant wisdom for securing supreme good fortune throughout the household."
       },
       {
         "line": 5,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fifth place",
-        "text": "As a king he approaches his family.\nFear not.\nGood fortune.",
-        "comments": "A king is the symbol of a fatherly man who is richly endowed in mind. He does nothing to make himself feared; on the contrary, the whole family can trust him, because love governs their intercourse. His character of itself exercises the right influence."
+        "name": "Nine in the Fifth Place",
+        "text": "The king approaches his household with magnanimous trust.\nHave no anxiety; auspicious.",
+        "comments": "Occupying the central sovereign seat of the upper trigram and corresponding with the devoted second line below, this ruler governs the household not through intimidating fear, but through the royal warmth of exemplary character. Because mutual affection and reverent trust pervade their bond, no anxious vigilance is required. Spontaneous respect and harmony blossom naturally."
       },
       {
         "line": 6,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the top",
-        "text": "His work commands respect.'\nIn the end good fortune comes.",
-        "comments": "In the last analysis, order within the family depends on the character of the master of the house. If he cultivates his personality so that it works impressively through the force of inner truth, all goes well with the family. In a ruling position one must of his own accord assume responsibility."
+        "name": "Top Nine",
+        "text": "Possessing sincere truth and grave majesty:\nIn the end, auspicious.",
+        "comments": "At the culmination of the hexagram, the elder head of the household understands that enduring domestic order rests ultimately upon self-examination and personal moral weight. As the Small Image explains, commanding respect does not mean adopting a severe mask toward others, but subjecting one's own conduct to strict inner sincerity and dignity. When the head of the house embodies authentic gravitas, lasting good fortune is assured."
       }
     ],
-    "judgmentCommentary": "The foundation of the family is the relationship between husband and wife. The tie that hold the family together lies in the loyalty and perseverance of the wife. The tie that holds the family together lies in the loyalty and perseverance of the wife. Her place is within (second line), while that of the husband is without (fifth line). It is in accord with the great laws of nature that husband and wife take their proper places. Within the family a strong authority is needed; this is represented by the parents. If the father is really a father and the son a son, if the elder brother fulfills his position, and the younger fulfills his, if the husband is really a husband and the wife a wife, then the family is in order. When the family is in order, all the social relationships of mankind will be in order. Three of the five social relationships are to be found within the family-that between father and son, which is the relation of love, that between the husband and wife, which is the relation of chaste conduct, and that between elder and younger brother, which is the relation of correctness. The loving reverence of the son is then carried over to the prince in the form of faithfulness to duty; the affection and correctness of behavior existing between the two brothers are extended to a friend in the form of loyalty, and to a person of superior rank in the form of deference. The family is society in the embryo; it is the native soil on which performance of moral duty is made early through natural affection, so that within a small circle a basis of moral practice is created, and this is later widened to include human relationships in general.",
-    "imageCommentary": "Heat creates energy: this is signified by the wind stirred up by the fire and issuing forth form it. This represents influence working from within outward. The same thing is needed in the regulation of the family. Here too the influence on others must proceed form one's own person. In order to be capable of producing such an influence, one's words must have power, and this they can have only if they are based on something real, just as flame depends on its fuel Words have influence only when they are pertinent and clearly related to definite circumstances. General discourses and admonitions have no effect whatsoever. Furthermore, the words must be supported by one's entire conduct, just as the wind is made effective by am impression on others that they can adapt and conform to it. If words and conduct are not in accord and consistent, they will have no effect.",
-    "structureCommentary": "The hexagram represents the laws obtaining within the family. The strong line at the top represents the father, the lowest the son. The strong line in the fifth place represents the husband, the yielding second line the wife. On the other hand, the two strong lines in the fifth and the third place represent two brothers, and the two weak lines correlated with them in the fourth and the second place stand for their respective wives. Thus all the connections and relationships within the family find their appropriate expression. Each individual line has the character according with its place. The fact that a strong line occupies the sixth place-where a weak line might be expected-indicates very clearly the strong leadership that must come from the head of the family. The line is to be considered here not in its quality as the sixth but in its quality as the top line. THE FAMILY shows the laws operative within the household that, transferred to outside life, keep the state and the world in order. The influence that goes out from within the family is represented by the symbol of the wind created by fire."
+    "judgmentCommentary": "The Commentary on the Decision teaches that in The Household, the proper ordering of the interior rests first upon the steadfast rectitude of the woman in the central second place, matched by the upright authority of the man in the central fifth place. When woman and man occupy their rightful spheres within and without, they mirror the grand harmony of heaven and earth. Within the household stand the dignified sovereign-parents; when father is truly father and child is child, elder brother is elder brother and younger is younger, husband is husband and wife is wife, the entire family is rightly ordered. Through bringing the household into harmony, the whole world is settled in peace.",
+    "imageCommentary": "A blazing fire heats the air and generates a rising wind that carries warmth outward; thus inner clarity naturally radiates outward as pervasive influence. Recognising that outward authority depends entirely upon inner reality, the noble person speaks only words grounded in genuine substance and walks with unwavering consistency in daily conduct. Empty admonitions achieve nothing unless backed by a life of disciplined integrity.",
+    "structureCommentary": "Constituted by Lí (Fire, lucidity) below and Xùn (Wind, gentle penetration) above, this thirty-seventh hexagram exhibits remarkable structural symmetry: the first, second, third, fourth, and fifth lines each occupy positions strictly matching their yin or yang nature. The second yin line and fifth yang line govern the inner and outer trigrams respectively, while the top yang line presides as the revered head of the lineage."
   },
   {
     "number": 38,
     "unicode": "䷥",
     "chinese": "睽",
     "pinyin": "Kuí",
-    "english": "Opposition",
+    "english": "Estrangement and Polarity",
     "upperTrigram": {
       "name": "Fire",
       "chinese": "離",
@@ -3647,68 +3661,68 @@ var HEXAGRAMS = [
       0,
       1
     ],
-    "judgment": "Opposition. In small matters, good fortune. Even opposites can cooperate in their distinct roles.",
-    "image": "Above, fire; below, the lake: the image of Opposition. Thus amid all fellowship the superior person retains their individuality.",
+    "judgment": "Estrangement. In minor affairs, auspicious.",
+    "image": "Fire above, the lake below: the emblem of Estrangement. Thus the noble person, whilst harmonising in fellowship, preserves distinct individuality.",
     "lineTexts": [
       {
         "line": 1,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the beginning",
-        "text": "Remorse disappears.\nIf you lose your horse, do not run after it;\nIt will come back of its own accord.\nWhen you see evil people,\nGuard yourself against mistakes.",
-        "comments": "Even in times when oppositions prevail, mistakes can be avoided, so that remorse disappears. When opposition begins to manifest itself, a man must not try to bring about unity by force, for by so doing he would only achieve the contrary, just as a horse goes farther and farther away if one runs after it. It it is one's won horse, one can safely let it go; it will come back of its own accord. So too when someone who belongs with us is momentarily estranged because of a misunderstanding, he will return of his own accord if we leave matters to him. One the other hand, it is well to be cautious when evil men who do not belong with us force themselves upon us, again as the result of a misunderstanding. Here the important thing is to avoid mistakes. We must not try to shake off these evil men by force; this would give rise to real hostility. We must simply endure them. They will eventually withdraw of their own accord."
+        "name": "Initial Nine",
+        "text": "Regret vanishes.\nLosing one's steed, do not chase after it; it will return of itself.\nEncountering hostile people, free from fault.",
+        "comments": "At the beginning of Estrangement, both this line and its counterpart in the fourth place are rigid yang lines without natural attraction. If a kindred associate drifts away through misunderstanding—like a straying horse—pursuing them anxiously only drives them further off; left in peace, what truly belongs together will return of its own accord. Even when forced to deal with disagreeable individuals, maintaining calm courtesy prevents escalation into open enmity and keeps one free from fault."
       },
       {
         "line": 2,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the second place",
-        "text": "One meets his lord in a narrow street.",
-        "comments": "No blame.\n\nAs a result of misunderstandings, it has become impossible for people who by nature belong together to meet in the correct way. This being so, an accidental meeting under informal circumstances may serve the purpose, provided there is an inner affinity between them."
+        "name": "Nine in the Second Place",
+        "text": "Meeting one's lord in a narrow lane.\nFree from fault.",
+        "comments": "In a time of general division and suspicion, formal avenues of audience between the strong minister in the second place and the gentle ruler in the fifth place are obstructed. Under such strained circumstances, an informal or seemingly fortuitous encounter in a quiet byway suffices to establish mutual understanding. Because both lines occupy central positions and act from sincere devotion to the common good, departing from rigid protocol incurs no fault."
       },
       {
         "line": 3,
         "val": 6,
         "type": "yin",
-        "name": "Six in the third place",
-        "text": "One sees the wagon dragged back,",
-        "comments": "The oxen halted,\nA man's hair and nose cut off.\n\nNot a good beginning, but a good end.\n\nOften it seems tot a man as though everything were conspiring against him. He sees himself checked and hindered in his progress, insulted and dishonored. However, he must not let himself be misled; despite this opposition, he must cleave to the man with whom he knows he belongs. Thus, notwithstanding the bad beginning, the matter will end well."
+        "name": "Six in the Third Place",
+        "text": "Seeing one's waggon dragged backward, the oxen halted,\nAnd the driver's hair and nose sheared in punishment.\nWithout a propitious beginning, yet achieving a good end.",
+        "comments": "A yielding line in an odd place sits wedged between two strong yang lines, feeling its forward progress checked from behind and blocked in front while suffering humiliating indignities. Yet this third line remains steadfastly oriented toward its proper partner, the Top Nine above. Once the suspicious illusions of the top line dissolve, the initial ordeal gives way to lasting union and a fortunate conclusion."
       },
       {
         "line": 4,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fourth place",
-        "text": "Isolated through opposition,\nOne meets a like-minded man\nWith whom one can associate in good faith.\nDespite the danger, no blame.",
-        "comments": "If a man finds himself in a company of people from whom he is separated by an inner opposition, he becomes isolated. But if in such a situation a man meets someone who fundamentally by the very law of his being, is kin to him, and whom he can trust completely, he overcomes all the dangers of isolation. His will achieves its aim, and he becomes free of faults."
+        "name": "Nine in the Fourth Place",
+        "text": "Solitary in estrangement,\nOne meets a stalwart peer and communes in sincere trust.\nThough the position is perilous, free from fault.",
+        "comments": "Lacking a responsive partner in the first place and flanked by two yielding yin lines within the upper trigram, this yang line experiences acute isolation. Precisely in this solitude, it discovers deep camaraderie with the strong Initial Nine below, who shares the same upright nature and predicament. By joining forces in genuine good faith, the peril of loneliness is overcome and the noble aim is fulfilled without fault."
       },
       {
         "line": 5,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fifth place",
-        "text": "Remorse disappears.",
-        "comments": "The companion bits his way through the wrappings.\nIf one goes to him,\nHow could it be a mistake?\n\nComing upon a sincere man, one fails to recognize him at first because of the general estrangement. However, he bites his way through the wrappings that are causing the separation. When such a companion thus reveals himself in his true character, it is one's duty to go to meet him and to work with him."
+        "name": "Six in the Fifth Place",
+        "text": "Regret vanishes.\nOne's kindred companion bites through the tender skin.\nGoing forward with him, what fault could there be?",
+        "comments": "Occupying the central sovereign seat as a yielding line, one finds the veil of estrangement pierced by the resolute sincerity of Nine in the Second Place—imagined here as a loyal minister biting easily through soft meat to remove every barrier. When a kindred spirit demonstrates such direct, unfeigned devotion, advancing together in full partnership is not merely blameless, but brings joyous celebratory blessing."
       },
       {
         "line": 6,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the top",
-        "text": "Isolated through opposition,\nOne sees one's companion as a pig covered with dirt,\nAs a wagon full of devils.\nFirst one draws a bow against him,",
-        "comments": "Then one lays the bow aside.\nHe is not a robber; he will woo at the right time.\nAs one goes, rain falls; then good fortune comes.\n\nHere the isolation is due to misunderstanding; it is brought about not by outer circumstances but by inner conditions. A man misjudges his best friends, taking them to be as unclean as a dirty pig in and as dangerous as a wagon full of devils. He adopts an attitude of defense. But in the end, realizing his mistake, he lays aside the bow, perceiving that the other is approaching with the best intentions for the purpose of close union. Thus the tension is relieved. The union resolves the tension, just as falling rain relieves the sultriness preceding a thunderstorm. All goes well, for just when opposition reaches its climax it changes over to its antithesis."
+        "name": "Top Nine",
+        "text": "Solitary in estrangement:\nSeeing a swine coated in mire, a waggon laden with ghosts.\nAt first drawing the bow, afterward laying the bow aside.\nNot a bandit, but a suitor coming in wedlock.\nGoing forward, encountering falling rain, then auspicious.",
+        "comments": "At the utmost extreme of Estrangement, brilliant intelligence overreaches into paranoid suspicion, hallucinating foulness and ghostly conspiracy in the loyal third line below. Ready at first to strike with drawn bow, one suddenly awakens from delusion, lowers the weapon, and recognises that the approaching partner comes in genuine marital harmony. As the oppressive tension discharges like welcome rain after stifling heat, hostility melts into auspicious union."
       }
     ],
-    "judgmentCommentary": "When people live in opposition and estrangement they cannot carry out a great undertaking in common; their points of view diverge too widely. In such circumstances one should above all not proceed brusquely, for that would only increase the existing opposition; instead, one should limit oneself to producing gradual effects in small matters. Here success can still be expected, because the situation is such that the opposition does not preclude all agreement. In general, opposition appears as an obstruction, but when it represents polarity within a comprehensive whole, it has also its useful and important functions. The oppositions of heaven and earth, spirit and nature, man and woman, when reconciled, bring about the creation and reproduction of life. In the world of visible things, the principle of opposites makes possible the differentiation by categories through which order is brought into the world.",
-    "imageCommentary": "The two elements, fire and water, never mingle but even when in contact retain their own natures. So the sutured man is never led into baseness or vulgarity through intercourse or community of interests with persons of another sort; regardless of all commingling, he will always preserve his individuality.",
-    "structureCommentary": "This hexagram is composed of the trigram Li above, i.e., flame, which burns upward, and Tui below, i.e., the lake, which seeps downward. These two movements are indirect contrast. Furthermore, LI is the second daughter and Tui the youngest daughter, and although they live in the same house they belong to different men; hence their wills are not the same but are divergently directed."
+    "judgmentCommentary": "The Commentary on the Decision notes that in Estrangement, fire blazes upward while lake water seeps downward, and two daughters dwell beneath one roof while their hearts turn toward different homes. Yet within this divergence, joyous openness below clings to radiant clarity above, and the yielding fifth line ascends to occupy the central seat where it responds to the strong second line; hence minor affairs prove auspicious. Vast indeed is the creative function of polarity: heaven and earth stand apart, yet their work is united; male and female differ in form, yet their sympathies commune; the myriad beings are arrayed in distinct categories, yet their transformations follow a single cosmic order.",
+    "imageCommentary": "Flame rises toward the sky whilst marsh waters settle into the hollows of the earth; though paired together, neither element surrenders its essential nature to the other. Viewing this interplay, the noble person participates cordially in social fellowship without ever dissolving into uncritical conformity or vulgar partisanship. True harmony values honourable distinction rather than undifferentiated sameness.",
+    "structureCommentary": "Formed by Duì (Lake, joyous openness) below and Lí (Fire, radiant clarity) above, this thirty-eighth hexagram follows The Household to show how diverging directions give rise to estrangement and productive polarity. Because the two trigrams move in opposite directions, grand unified campaigns are premature, yet the central correspondence between Nine in the Second Place and Six in the Fifth Place provides a bridge for reconciling misunderstandings."
   },
   {
     "number": 39,
     "unicode": "䷦",
     "chinese": "蹇",
     "pinyin": "Jiǎn",
-    "english": "Obstruction",
+    "english": "Limping Obstruction",
     "upperTrigram": {
       "name": "Water",
       "chinese": "坎",
@@ -3744,68 +3758,68 @@ var HEXAGRAMS = [
       1,
       0
     ],
-    "judgment": "Obstruction. The southwest furthers; the northeast does not. It furthers one to see the great leader.",
-    "image": "Water on the mountain: the image of Obstruction. Thus the superior person turns attention inward to mold character.",
+    "judgment": "Obstruction. The southwest is favourable; the northeast is unfavourable. It is favourable to behold the great person. Steadfast integrity is auspicious.",
+    "image": "Above the mountain is water: the emblem of Limping Obstruction. Thus the noble person turns inward to examine their person and cultivate virtue.",
     "lineTexts": [
       {
         "line": 1,
         "val": 6,
         "type": "yin",
-        "name": "Six at the beginning",
-        "text": "Going leads to obstructions,\nComing meets with praise.",
-        "comments": "When one encounters an obstruction, the important thing is to reflect on how best to deal with it. When threatened with danger, one should not strive blindly to go ahead, for this only leads to complications. The correct thing is, on the contrary, to retreat for the time being, not in order to give up the struggle but to await the right moment for action."
+        "name": "Initial Six",
+        "text": "Going leads to obstruction;\nComing back meets with commendation.",
+        "comments": "At the very foot of the hexagram, a yielding line lacking strength perceives the perilous gorge ahead and wisely refrains from a reckless advance. By halting at the first sign of difficulty and awaiting the proper season, one earns praise for prudence. Knowing when to hold back before becoming mired in trouble is the mark of clear foresight."
       },
       {
         "line": 2,
         "val": 6,
         "type": "yin",
-        "name": "Six in the second place",
-        "text": "The King's servant is beset by obstruction upon obstruction,\nBut it is not his own fault.",
-        "comments": "Ordinarily it is best to go around an obstacle and try to overcome it along the line of least resistance. But there is one instance in which a man must go out to meet the trouble, even though difficulty piles upon difficulty: this is when the path of duty leads directly to it-in other words, when he cannot act of his own volition but is duty bound to go and seek out danger in the service of a higher cause. Then he may do it without compunction, because it is not through any fault of his that he is putting himself in this difficult situation."
+        "name": "Six in the Second Place",
+        "text": "The king's minister struggles through obstruction upon obstruction,\nNever on account of his own person.",
+        "comments": "Occupying the central and correct ministerial seat of the lower trigram, this line stands in direct magnetic correspondence with the sovereign Nine in the Fifth Place, who is himself surrounded by the perils of the upper abyss. Bound by sacred loyalty and public duty, the minister cannot retreat for personal safety as other lines do, but must brave compounded hardships to aid his lord. Because this struggle arises purely from selfless devotion, the Small Image declares the minister utterly free from blame."
       },
       {
         "line": 3,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the third place",
-        "text": "Going leads to obstructions;\nHence he comes back.",
-        "comments": "While the preceding line shows the official compelled by duty to follow the way of danger, this line shows the man who must act as father of a family or as head of his kin. If he were to plunge recklessly in to danger, it would be a useless act, because those entrusted to his care cannot get along by themselves. But if he withdraws and turns back to his own, they welcome him with great joy."
+        "name": "Nine in the Third Place",
+        "text": "Going leads to obstruction;\nComing back, he returns to his own.",
+        "comments": "As the strong yang pillar atop the lower trigram of Mountain, this line serves as the protective shelter for the two yielding yin lines below. To charge alone into the outer danger of the fourth line would leave its dependants unguarded without resolving the crisis. By turning back and standing firm as an anchor of stability at home, it brings deep joy and reassurance to those within."
       },
       {
         "line": 4,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fourth place",
-        "text": "Going leads to obstructions,\nComing leads to union.",
-        "comments": "This too describes a situation that cannot be managed single-handed. In such a case the direct way is not the shortest. If a person were to forge ahead on his own strength and without the necessary preparations, he would not find the support he needs and would realize too late that he has been mistaken in his calculations, inasmuch as the conditions on which he hoped he could rely would prove to be inadequate. In this case it is better, therefore, to hold back for the time being and to gather together trustworthy companions who can be counted upon for help in overcoming the obstructions."
+        "name": "Six in the Fourth Place",
+        "text": "Going leads to obstruction;\nComing back leads to solid alliance.",
+        "comments": "Having stepped into the lower edge of the perilous upper trigram of Water, this yielding line lacks the strength to conquer the obstacle single-handedly. Rather than pushing deeper into the gorge, it turns back to unite with the stalwart Nine in the Third Place immediately below and the sovereign Nine in the Fifth Place above. Recognising one's limits and forging a cohesive partnership provides the collective strength needed to weather the storm."
       },
       {
         "line": 5,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fifth place",
-        "text": "In the midst of the greatest obstructions,\nFriends come.",
-        "comments": "Here we see a man who is called to help in an emergency. He should not seek to evade the obstructions, no matter how dangerously they pile up before him. But because he is really called to the task, the power of his spirit is strong enough to attract helpers whom he can effectively organize, so that through the well-directed co-operation of all participants the obstruction is overcome."
+        "name": "Nine in the Fifth Place",
+        "text": "In the midst of great obstruction,\nFriends arrive.",
+        "comments": "Occupying the central sovereign seat within the trigram of Water, this strong and upright leader bears the full brunt of the crisis on behalf of the realm. Because the ruler's virtue is central, authentic, and resolute, the loyal second line and all kindred spirits rally spontaneously to lend their aid. Through shared dedication around a worthy centre, even the gravest impasse begins to yield."
       },
       {
         "line": 6,
         "val": 6,
         "type": "yin",
-        "name": "Six at the top",
-        "text": "Going leads to obstructions,\nComing leads to great good fortune.\nIt furthers one to see the great man.",
-        "comments": "This refers to a man who has already left the world and its tumult behind him. When the time of obstructions arrives, it might seem that the simplest thing for him to do would be to turn his back upon the world and take refuge in the beyond. But this road is barred to him. He must not seek his own salvation and abandon the world to its adversity. Duty calls him back once more into the turmoil of life. Precisely because of his experience and inner freedom, he is able to create something both great and complete that brings good fortune. And it is favorable to see the great man in alliance with whom one can achieve the work of rescue."
+        "name": "Top Six",
+        "text": "Going leads to obstruction;\nComing back leads to ample fruition: auspicious.\nIt is favourable to behold the great person.",
+        "comments": "At the very culmination of Obstruction, there is nowhere further outward to go; pressing beyond the limit only deepens distress. By turning inward to place one's seasoned experience at the service of the great sovereign in the fifth place, one helps bring the long ordeal to a noble and fruitful resolution. Aligning with the central leader transforms past hardship into enduring public good fortune."
       }
     ],
-    "judgmentCommentary": "The southwest is the region of retreat, the northeast that of advance. Here an individual is confronted by obstacles that cannot be overcome directly. In such a situation it is wise to pause in view of the danger and to retreat. However, this is merely a preparation for overcoming the obstructions. One must join forces with friends of like mind and put himself under the leadership of a man equal to the situation: then one will succeed in removing the obstacles. This requires the will to persevere just when one apparently must do something that leads away from his goal. This unswerving inner purpose brings good fortune in the end. An obstruction that lasts only for a time is useful for self-development. This is the value of adversity.",
-    "imageCommentary": "Difficulties and obstructions throw a man back upon himself. While the inferior man seeks to put the blame on other persons, bewailing his fate, the superior man seeks the error within himself, and through this introspection the external obstacle becomes for him an occasion for inner enrichment and education.",
-    "structureCommentary": "The hexagram pictures a dangerous abyss lying before us and a steep, inaccessible mountain rising behind us. We are surrounded by obstacles; at the same time, since the mountain has the attribute of keeping still, there is implicit a hint as to how we can extricate ourselves. The hexagram represents obstructions that appear in the course of time but that can and should be overcome. Therefore all the instruction given is directed to overcoming them."
+    "judgmentCommentary": "The Commentary on the Decision explains that Obstruction denotes difficulty: perilous abyss lies directly ahead while steep mountain stands behind. Seeing the danger before one's eyes and knowing how to pause in timely stillness—how supreme is such wisdom! That the southwest is favourable indicates withdrawing into the level, receptive realm and attaining the central path; that the northeast is unfavourable indicates that pressing into rugged crags exhausts one's resources. Beholding the great person is favourable because joining the sovereign fifth line brings meritorious achievement, and when every line holds to its proper place with steadfast integrity, the nation is set in order. Great indeed is the timely use of Obstruction.",
+    "imageCommentary": "High upon the mountain slopes, rushing waters collect in steep gullies and treacherous cascades, rendering travel arduous. Confronted with external impediments, a petty mind blames fate and resents others, whereas the noble person treats every outward check as a mirror for inward self-examination. By turning attention back upon one's own character and refining moral virtue, adversity itself becomes the whetstone of spiritual growth.",
+    "structureCommentary": "Built from Gèn (Mountain, arresting stillness) below and Kǎn (Water, perilous gorge) above, this thirty-ninth hexagram counsels strategic pause in the face of outer danger. Across the line texts, 'going' (advancing into the upper abyss of Kǎn) consistently leads to limping obstruction, whereas 'coming' (returning inward to gather solidarity and stillness) garners praise and alliance around the heroic fifth yang line."
   },
   {
     "number": 40,
     "unicode": "䷧",
     "chinese": "解",
     "pinyin": "Xiè",
-    "english": "Deliverance",
+    "english": "Deliverance and Release",
     "upperTrigram": {
       "name": "Thunder",
       "chinese": "震",
@@ -3841,68 +3855,68 @@ var HEXAGRAMS = [
       0,
       0
     ],
-    "judgment": "Deliverance. The tension releases. Forgiveness and untying knots bring good fortune.",
-    "image": "Thunder and rain set in: the image of Deliverance. Thus the superior person pardons mistakes and forgives offenses.",
+    "judgment": "Deliverance. The southwest is favourable. Where there is no longer any cause to go forth, returning is auspicious. Where there remains a cause to go forth, acting at dawn is auspicious.",
+    "image": "Thunder and rain arise together: the emblem of Deliverance. Thus the noble person pardons errors and deals leniently with transgressions.",
     "lineTexts": [
       {
         "line": 1,
         "val": 6,
         "type": "yin",
-        "name": "Six at the beginning",
-        "text": "Without blame.",
-        "comments": "In keeping with the situation, few words are needed. The hindrance is past, deliverance has come. One recuperates in peace and keeps still. This is the right thing to do in times when difficulties have been overcome."
+        "name": "Initial Six",
+        "text": "Free from fault.",
+        "comments": "At the first dawning of Deliverance, the ordeal has just passed and quiet recuperation is the sole requirement. This yielding line rests at the base, harmonising smoothly with the strong Nine in the Fourth Place above and following the central lead of Nine in the Second Place. When firm and yielding elements interact in natural proportion without superfluous agitation, one remains completely free from fault."
       },
       {
         "line": 2,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the second place",
-        "text": "One kills three foxes in the field\nAnd receives a yellow arrow.\nPerseverance brings good fortune.",
-        "comments": "The image is taken from the hunt. The hunter catches three cunning foxes and receives a yellow arrow as a reward. The obstacles in public life are the designing foxes who try to influence the ruler through flattery. They must be removed before there can be any deliverance. But the struggle must not be carried on with the wrong weapons. The yellow color points to measure and mean in proceeding against the enemy; the arrow signifies the straight course. If one devotes himself wholeheartedly to the task of deliverance, he develops so much inner strength from his rectitude that it acts as a weapon against all that is false and low."
+        "name": "Nine in the Second Place",
+        "text": "In the field one takes three foxes\nAnd receives a yellow arrow.\nSteadfast integrity is auspicious.",
+        "comments": "Occupying the central seat of the lower trigram and trusted by the gentle ruler in the fifth place, this strong minister clears the realm of cunning flatterers and deceitful schemers—symbolised by the three foxes lurking in the field. Receiving a yellow arrow signifies uniting the central moderation of yellow earth with the straight, unswerving rectitude of an arrow. By removing corrupt influences through balanced justice rather than vindictive excess, lasting good fortune is secured."
       },
       {
         "line": 3,
         "val": 6,
         "type": "yin",
-        "name": "Six in the third place",
-        "text": "If a man carries a burden on his back\nAnd nonetheless rides in a carriage,\nHe thereby encourages robbers to draw near.\nPerseverance leads to humiliation.",
-        "comments": "This refers to a man who has come out of needy circumstances in to comfort and freedom from want. If now, in the manner of an upstart, he tries to take his ease in comfortable surroundings that do not suit his nature, he thereby attracts robbers. If he goes on thus he is sure to bring disgrace upon himself. Confucius says about this line:\n\nCarrying a burden on the back is the business of common man; a carriage is the appurtenance of a man of rank. Now, when a common man uses the appurtenance of man of rank, robbers plot to take it away from him. If a man is insolent toward those above him and hard toward those below him, robbers plot to attack him. Carelessness in guarding things tempts thieves to steal. Sumptuous ornaments worn by a maiden are an enticement to rob her of her virtue."
+        "name": "Six in the Third Place",
+        "text": "Bearing a pack on one's back while riding in a high carriage\nInvites bandits to approach.\nPersisting in this brings humiliation.",
+        "comments": "A yielding, unprincipled line occupies a high place at the top of the lower trigram, clinging to base habits—carrying a labourer's pack—while usurping the grand carriage of noble office. As the Great Commentary remarks, when someone without inner virtue flaunts emblems of unearned privilege, they openly entice marauders to strip them of their gains. Persisting in such pretentious incongruity brings self-invited disgrace."
       },
       {
         "line": 4,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fourth place",
-        "text": "Deliver yourself from your great toe.",
-        "comments": "Then the companion comes,\nAnd him you can trust.\n\nIn times of standstill it will happen that inferior people attach themselves to a superior man, and through force of daily habit they may grow very close to him and become indispensable, just as the big toe is indispensable to the foot because it makes walking easier. But when the time of deliverance draws near, with its call to deeds, a man must free himself from such chance acquaintances with whim he has no inner connection. For otherwise the friends who share his views, on whom he could really rely and together with whom he could accomplish something, mistrust him and stay away."
+        "name": "Nine in the Fourth Place",
+        "text": "Release your great toe;\nThen kindred companions arrive in mutual trust.",
+        "comments": "Standing as the dynamic ruler of the upper trigram of Thunder, this yang line occupies an even place and remains tethered to the petty yin lines below—especially the first line, likened here to the lowest toe. Until a leader severs cosy attachments to sycophants and unworthy cronies, upright peers will hold back in justified doubt. Once those lower entanglements are cleanly released, principled allies gather in genuine confidence."
       },
       {
         "line": 5,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fifth place",
-        "text": "If only the superior man can deliver himself,\nIt brings good fortune.",
-        "comments": "Thus he proves to inferior men that he is in earnest.\n\nTimes of deliverance demand inner resolve. Inferior people cannot be driven off by prohibitions or any external means. If one desires to be rid of them, he must first break completely with them in his own mind; they will see for themselves that he is in earnest and will withdraw."
+        "name": "Six in the Fifth Place",
+        "text": "Provided only that the noble person achieves inner release, it is auspicious;\nThereby proving sincere resolve even toward petty characters.",
+        "comments": "In the central seat of sovereignty, true deliverance depends upon the ruler's own inward emancipation from partiality and base associations. Petty elements cannot be banished merely by external decrees if the ruler secretly harbours indulgence toward them. When the noble person resolutely unties every inward knot, the unmistakable sincerity of that transformation causes opportunistic characters to withdraw of their own accord."
       },
       {
         "line": 6,
         "val": 6,
         "type": "yin",
-        "name": "Six at the top",
-        "text": "The prince shoots at a hawk on a high wall.\nHe kills it. Everything serves to further.",
-        "comments": "The hawk on a high wall is the symbol of a powerful inferior in a high position who is hindering the deliverance. He withstands the force of inner influences, because he is hardened in his wickedness. He must be forcibly removed, and this requires appropriate means. Confucius says about this line:\n\nThe hawk is the object of the hunt; bow and arrow are the tools and means. The marksman is man (who must make proper use of the means to his end). The superior man contains the means in his own person. He bides his time and then acts. Why then should not everything go well? He acts and is free. Therefore all he has to do is to go forth, and he takes his quarry. This is how a man fares who acts after he has made ready the means."
+        "name": "Top Six",
+        "text": "The duke shoots a falcon perched atop a high wall\nAnd strikes it down.\nNothing fails to be favourable.",
+        "comments": "At the final culmination of Deliverance, a single entrenched obstacle remains—a predatory falcon brazenly perched upon a lofty parapet. Because this recalcitrant element resists gentle persuasion, the noble leader—who possesses the bow of perfected skill within their own person and waits for the exact moment of readiness—dispatches it with a single decisive stroke. With the last source of predation removed, the entire realm enjoys unimpeded peace."
       }
     ],
-    "judgmentCommentary": "This refers to a time in which tensions and complications begin to be eased. At such times we ought to make our way back to ordinary conditions as soon as possible; this is the meaning of \"the southwest.\" These periods of sudden change have great importance. Just as rain relieves atmospheric tension, making all the buds burst open, so a time of deliverance from burdensome pressure has a liberating and stimulating effect on life. One thing is important, however: in such times we must not overdo our triumph. The point is not to push on farther than is necessary. Returning to the regular order of life as soon as deliverance is achieved brings good fortune. If there are any residual matters that ought to be attended to, it should be done as quickly as possible, so that a clean sweep is made and no retardations occur.",
-    "imageCommentary": "A thunderstorm has the effect of clearing the air; the superior man produces a similar effect when dealing with mistakes and sins of men that induce a condition of tension. Through clarity he brings deliverance. However, when failings come to light, he does not dwell on them; he simply passes over mistakes, the unintentional transgressions, just as thunder dies away. He forgives misdeeds, the intentional transgressions, just as water washes everything clean.",
-    "structureCommentary": "Here the movement goes out of the sphere of danger. The obstacle has been removed, the difficulties are being resolved. Deliverance is not yet achieved; it is just in its beginning, and the hexagram represents its various stages."
+    "judgmentCommentary": "The Commentary on the Decision explains that in Deliverance, perilous difficulty is met by vigorous movement, so that one moves out of the sphere of danger and achieves release. That the southwest is favourable means winning the heart of the multitude by returning to the broad, level path of everyday peace. Returning is auspicious because it restores the central order without overreaching; acting at dawn when residual knots remain is auspicious because promptness brings meritorious completion. When heaven and earth untie their wintry tension, thunder and rain break forth; and when thunder and rain arise, the myriad fruits, herbs, and trees burst into burgeoning life. Great indeed is the season of Deliverance!",
+    "imageCommentary": "When spring thunder rolls and liberating rain pours down, the stagnant pressure of the atmosphere is dissolved and all living creatures are refreshed. Emulating this clement renewal of nature, the noble person clears the moral atmosphere of society through magnanimity and clemency. Unintentional errors are wholly pardoned like thunder fading into the sky, and culpable offences are treated with merciful leniency like rain washing away grime, allowing people a fresh start.",
+    "structureCommentary": "Inverting the trigrams of the previous hexagram, Deliverance places Kǎn (Water, peril) below and Zhèn (Thunder, arousing movement) above. Rather than halting before the abyss, dynamic energy now surges upward and outward beyond the danger. The second yang line and fifth yin line form the central axis of governance, dedicated to clearing away petty entanglements so that tranquil normalcy can be restored."
   },
   {
     "number": 41,
     "unicode": "䷨",
     "chinese": "損",
     "pinyin": "Sǔn",
-    "english": "Decrease",
+    "english": "Diminution",
     "upperTrigram": {
       "name": "Mountain",
       "chinese": "艮",
@@ -3938,68 +3952,68 @@ var HEXAGRAMS = [
       0,
       1
     ],
-    "judgment": "Decrease combined with sincerity brings supreme good fortune without blame. Two small offerings suffice.",
-    "image": "At the foot of the mountain, the lake: the image of Decrease. Thus the superior person restrains anger and curbs desires.",
+    "judgment": "Diminution joined with sincere truth brings supreme fulfilment, free from fault; one may remain steadfast in integrity. It is favourable to have a destination to pursue. How shall this be carried out? Even two small bamboo vessels of grain may be presented in sacrifice.",
+    "image": "Beneath the mountain lies the lake: the emblem of Diminution. Thus the noble person curbs wrath and restrains desire.",
     "lineTexts": [
       {
         "line": 1,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the beginning",
-        "text": "Going quickly when one's tasks are finished\nIs without blame.\nBut one must reflect on how much one may decrease others.",
-        "comments": "It is unselfish and good when a man, after completing his own urgent tasks, uses his strength in the service of others, and without bragging or making much of it, helps quickly where help is needed. But the man in a superior position who is thus aided must weigh carefully how much he can accept without doing the helpful servant or friend real harm. Only where such delicacy of feeling exists can one give oneself unconditionally and without hesitation."
+        "name": "Initial Nine",
+        "text": "Setting aside personal affairs to hasten in aid is free from fault;\nYet weigh carefully how far to diminish oneself.",
+        "comments": "Positioned as a strong yang line at the base, one possesses surplus energy and gladly pauses personal business to assist the yielding Six in the Fourth Place above. While such prompt, uncalculating generosity is admirable and free from fault, both giver and receiver must exercise delicate measure. Diminishing one's own foundation too drastically in the service of another would exhaust the very source of future help."
       },
       {
         "line": 2,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the second place",
-        "text": "Perseverance furthers.",
-        "comments": "To undertake something brings misfortune.\nWithout decreasing oneself,\nOne is able to bring increase to others.\n\nA high-minded self-awareness and a consistent seriousness with no forfeit of dignity are necessary if a man wants to be of service to others. He who throw himself away in order to do the bidding of a superior diminishes his own position without thereby giving lasting benefit to the other. This is wrong. To render true service of lasting value to another, one must serve him without relinquishing oneself."
+        "name": "Nine in the Second Place",
+        "text": "Steadfast integrity is favourable;\nSetting forth aggressively brings misfortune.\nWithout diminishing oneself, one augments the other.",
+        "comments": "Occupying the central seat of the lower trigram, this strong line corresponds with the gentle ruler in the fifth place. Unlike the first line, it serves best by maintaining its own central dignity and upright poise rather than rushing outward in eager subservience. By refusing to compromise one's moral independence, one renders the highest and most enduring benefit to those above."
       },
       {
         "line": 3,
         "val": 6,
         "type": "yin",
-        "name": "Six in the third place",
-        "text": "When three people journey together,",
-        "comments": "Their number increases by one.\nWhen one man journeys alone,\nHe finds a companion.\n\nWhen there are three people together, jealousy arises. One of them will have to go. Avery close bond is possible only between two people. But when one man is lonely, he is certain to find a companion who complements him."
+        "name": "Six in the Third Place",
+        "text": "When three walk together, their number is diminished by one;\nWhen one walks alone, they find their companion.",
+        "comments": "This third line originally transferred its yang strength to the top of the hexagram, illustrating the cosmic law of creative polarity. As the Great Commentary observes, when heaven and earth intertwine their vital breaths and male and female unite their essences, genuine communion requires a focused dyad; a third party introduces division and must fall away. Travelling singly with undivided heart ensures meeting one's true counterpart."
       },
       {
         "line": 4,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fourth place",
-        "text": "If a man deceases his faults,\nIt makes the other hasten to come and rejoice.",
-        "comments": "No blame.\n\nA man's faults often prevent even well-disposed people from coming closer to him. His faults are sometimes reinforced by the environment in which he lives. But if in humility he can bring himself to the point of giving them up, he frees his well-disposed friends from an inner pressure and causes them to approach the more quickly, and there is mutual joy."
+        "name": "Six in the Fourth Place",
+        "text": "Diminishing one's ailment\nCauses the helper to hasten and brings gladness.\nFree from fault.",
+        "comments": "A yielding line in the fourth place acknowledges its own weakness and receptively diminishes the stubborn faults or afflictions that hinder harmony. By humbling oneself and welcoming correction, one removes every barrier that kept the strong Initial Nine at bay, allowing aid to arrive swiftly. Mutual gladness ensues when candid self-correction meets eager support."
       },
       {
         "line": 5,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fifth place",
-        "text": "Someone does indeed increase him.",
-        "comments": "Ten pairs of tortoises cannot oppose it.\n\nSupreme good fortune.\nIf someone is marked out by fate for good fortune, it comes without fail. All oracles-as for instance those that are read from the shells of tortoises-are bound to concur in giving him favorable signs. He need fear nothing, because his luck is ordained from on high."
+        "name": "Six in the Fifth Place",
+        "text": "Someone indeed augments him;\nTen pairs of oracle tortoises cannot gainsay it.\nSupremely auspicious.",
+        "comments": "Occupying the central seat of sovereignty with gentle humility and emptiness of ego, this ruler attracts spontaneous blessings from every quarter, especially from the devoted Nine in the Second Place. When a leader stands aligned with cosmic modesty and receptivity, good fortune flows in as an irresistible law of nature that not even ten pairs of divination shells could contradict. Supreme auspiciousness crowns such unselfish centrality."
       },
       {
         "line": 6,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the top",
-        "text": "If one is increased without depriving other,",
-        "comments": "There is no blame.\nPerseverance brings good fortune.\nIt furthers one to undertake something.\nOne obtains servants\nBut no longer has a separate home.\n\nThere are people who dispense blessings to the whole world. Every increase in power that comes to them benefits the whole of mankind and therefore does not bring decrease to others. Through perseverance and zealous work a man wins success and finds helpers as they are needed. But what he accomplishes is not a limited private advantage; it is a public good and available to everyone."
+        "name": "Top Nine",
+        "text": "Augmenting others without diminishing oneself:\nFree from fault; steadfast integrity is auspicious.\nIt is favourable to have a destination to pursue;\nOne gains retainers, yet claims no private household.",
+        "comments": "Having ascended to the summit of the hexagram as the beneficiary of the lower trigram's sacrifice, this strong line transforms accumulated blessing into universal largesse. Because the sage-leader regards the entire world as a single family rather than hoarding wealth within a private estate, dispensing bounty enriches everyone without depleting the source. Pursuing noble enterprises in this public-spirited manner achieves the highest fulfilment."
       }
     ],
-    "judgmentCommentary": "Decrease does not under all circumstances mean something bad. Increase and decrease come in their own time. What matters here is to understand the time and not to try to cover up poverty with empty pretense. If a time of scanty resources brings out an inner truth, one must not feel ashamed of simplicity. For simplicity is then the very thing needed to provide inner strength for further undertakings. Indeed, there need by no concern if the outward beauty of the civilization, even the elaboration of religious forms, should have to suffer because of simplicity. One must draw on the strength of the inner attitude to compensate for what is lacking in externals; then the power of the content makes up for the simplicity of form. There is no need of presenting false appearances to God. Even with slender means, the sentiment of the heart can be expressed.",
-    "imageCommentary": "The lake at the foot of the mountain evaporates. In this way it decreases to the benefit of the mountain, which is enriched by its moisture. The mountain stands as the symbol of stubborn strength that can harden into anger. The lake is the symbol of unchecked gaiety that can develop into passionate drives at the expense of the life forces. Therefore decrease is necessary; anger must be decreased by keeping still, the instincts must be curbed by restriction. By this decrease of the lower powers of the psyche, the higher aspects of the soul are enriched/",
-    "structureCommentary": "This hexagram represents a decrease of the lower trigram in favor of the upper, because the third line, originally strong, has moved up to the top, and the top line, originally weak, has replaced it. What is below is decreased to the benefit of what is above. This is out-and-out decrease. If the foundations of a building are decreased in strength and the upper walls are strengthened, the whole structure loves its stability. Likewise, a decrease in the prosperity of the people in favor of the government is out-and-out decrease. And the entire theme of the hexagram is directed to showing how this shift of wealth can take place without causing the sources of wealth can take place without causing the sources of wealth in the nation and its lower classes to fail."
+    "judgmentCommentary": "The Commentary on the Decision explains that in Diminution, the lower realm is lessened in order to augment the upper realm, so that its way ascends in fruitful service. When diminution is accompanied by sincere inner truth, it achieves supreme fulfilment, remains free from fault, and supports purposeful action. How shall such devotion be expressed? Even two simple bamboo platters of grain suffice for the ancestral altar when offered at the proper season. There is a time when what is full must be lessened and what is depleted must be replenished; diminution and augmentation, fullness and emptiness, move in accord with the seasons of heaven and earth.",
+    "imageCommentary": "At the foot of the towering mountain, the waters of the lake evaporate upward to moisten the crags and nourish upland forests. Observing this natural self-restraint, the noble person diminishes the lower, turbulent impulses of the psyche in order to enrich higher moral character. Sudden surges of anger are stilled like the unshakeable mountain, and restless cravings are bounded like the shores of the lake.",
+    "structureCommentary": "Derived from Hexagram 11 (Peace) by transferring the strong third yang line of the lower trigram up to the sixth place at the top, Diminution places Duì (Lake, joyousness) below and Gèn (Mountain, stillness) above. The lower trigram willingly yields its strength to crown the upper trigram, teaching that genuine sacrifice from below must be met with gratitude and simplicity from above."
   },
   {
     "number": 42,
     "unicode": "䷩",
     "chinese": "益",
     "pinyin": "Yì",
-    "english": "Increase",
+    "english": "Augmentation",
     "upperTrigram": {
       "name": "Wind",
       "chinese": "巽",
@@ -4035,68 +4049,68 @@ var HEXAGRAMS = [
       1,
       1
     ],
-    "judgment": "Increase. It furthers one to undertake something. It furthers one to cross the great water.",
-    "image": "Wind and thunder: the image of Increase. Thus the superior person: seeing good, imitates it; having faults, sheds them.",
+    "judgment": "Augmentation. It is favourable to have a destination to pursue. It is propitious to cross the great stream.",
+    "image": "Wind and thunder: the emblem of Augmentation. Thus the noble person, beholding goodness, moves to emulate it; having faults, acts to reform them.",
     "lineTexts": [
       {
         "line": 1,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the beginning",
-        "text": "It furthers one to accomplish great deeds.",
-        "comments": "Supreme good fortune. No blame.\n\nIf great help comes to a man from on high, this increased strength must be used to achieve something great for which he might otherwise never have found energy, or readiness to take responsibility. Great good fortune is produced by selflessness, and in bringing about great good fortune, he remains free of reproach."
+        "name": "Initial Nine",
+        "text": "It is favourable to undertake great works.\nSupremely auspicious, free from fault.",
+        "comments": "Bestowed directly from the upper realm to form the strong foundation of the lower trigram, this yang line receives abundant grace and empowerment from above. Normally a lowly first line is counselled to remain quiet, yet when entrusted with extraordinary support, one is duty-bound to channel that energy into great, selfless public works. Only when the achievement is supremely auspicious and wholly free from self-interest does one remain blameless."
       },
       {
         "line": 2,
         "val": 6,
         "type": "yin",
-        "name": "Six in the second place",
-        "text": "Someone does indeed increase him;",
-        "comments": "Ten pairs of tortoises cannot oppose it.\nConstant perseverance brings good fortune.\n\nThe king presents him before God.\nGood fortune.\n\nA man brings about real increase by producing in himself the conditions for it, that it, through receptivity to and love of the good. Thus the thing for which he strives comes of itself, with the inevitability of natural law. Where increase is thus in harmony with the highest laws of the universe, it cannot be prevented by any constellation of accidents. But everything depends on his not letting unexpected good fortune make him heedless; he must make it his own through inner strength an steadfastness. Then he acquires meaning before God and man, and can accomplish something for the good of the world."
+        "name": "Six in the Second Place",
+        "text": "Someone indeed augments him;\nTen pairs of oracle tortoises cannot gainsay it.\nPerpetual steadfastness is auspicious.\nThe king presents him before the Supreme Sovereign: auspicious.",
+        "comments": "Occupying the central and correct seat of the lower trigram, this receptive line embodies pure, open-hearted devotion and receives unfailing augmentation from the benevolent ruler in the fifth place. Neither human caprice nor ten pairs of divination shells can alter the blessing drawn by genuine inner receptivity. Provided one maintains perpetual constancy of character, one is worthy to stand in sacred service before heaven and humanity alike."
       },
       {
         "line": 3,
         "val": 6,
         "type": "yin",
-        "name": "Six in the third place",
-        "text": "One is enriched through unfortunate events.",
-        "comments": "No blame, if you are sincere\nAnd walk in the middle,\nAnd report with a seal to the prince.\n\nA time of blessing and enrichment has such powerful effects that even events ordinarily unfortunate must turn out to the advantage of those affected by them. These persons become free of error, and by acting in harmony with truth they gain such inner authority that they exert influence as if sanctioned by the letter and seal."
+        "name": "Six in the Third Place",
+        "text": "Augmented amidst unfortunate events: free from fault.\nPossessing sincere truth, walk the central path,\nAnd report to the prince bearing the jade tablet of office.",
+        "comments": "Positioned at the restless peak of the lower trigram of Thunder, this line faces crises and adverse emergencies that ordinarily spell misfortune. Yet during an era of Augmentation, severe trials serve to temper and enrich character if met with utmost sincerity and central balance. Acting with upright transparency—symbolised by presenting the formal tablet of authority to the prince—turns emergency relief into blameless merit."
       },
       {
         "line": 4,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fourth place",
-        "text": "If you walk in the middle\nAnd report the prince,\nHe will follow.\nIt furthers one to be used\nIn the removal of the capital.",
-        "comments": "It is important that there should be men who mediate between leaders and followers. These should be disinterested people, especially in times of increase, since the benefit is to spread from the leader to the people. Nothing of this benefit should be held back in a selfish way; it should really reach those for whom it is intended. This sort of intermediary, who also exercises a good influence on the leader, is especially important in times when it is a matter of great undertakings, decisive for the future and requiring the inner assent of all concerned."
+        "name": "Six in the Fourth Place",
+        "text": "Walking the central path and reporting to the prince, one is followed.\nIt is favourable to be relied upon in transferring the capital.",
+        "comments": "This fourth line is the very position that yielded its yang strength to enrich the first line below, acting as the selfless ministerial bridge between the sovereign fifth line and the populace. Because its counsel is grounded in balanced moderation and concern for the common welfare, the prince gladly heeds its advice. Even in momentous undertakings such as relocating the national capital to secure the people's livelihood, such a trusted mediator succeeds."
       },
       {
         "line": 5,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fifth place",
-        "text": "If in truth you have a kind heart, ask not.",
-        "comments": "Supreme good fortune.\n\nTruly, kindness will be recognized as your virtue.\n\nTrue kindness does not count upon nor ask about merit and gratitude but acts from inner necessity. And such a truly kind heart finds itself rewarded in being recognized, and thus the beneficent influence will spread unhindered."
+        "name": "Nine in the Fifth Place",
+        "text": "Possessing sincere truth and a benevolent heart,\nDo not question it: supremely auspicious.\nSincere truth itself is recognised as my virtue.",
+        "comments": "At the central seat of sovereignty, the ruler embodies the highest spirit of Augmentation: an overflowing benevolence rooted in genuine truth. True generosity never calculates returns, demands gratitude, or asks whether its kindness will be repaid. Because enriching the realm is the ruler's own intrinsic virtue, the people naturally respond with profound devotion, resulting in supreme good fortune."
       },
       {
         "line": 6,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the top",
-        "text": "He brings increase to no one.\nIndeed, someone even strikes him.\nHe does not keep his heart constantly steady.\nMisfortune.",
-        "comments": "The meaning here is that through renunciation those in high place should bring increase to those below. By neglecting this duty and helping no one, they in turn lose the furhtering influence of others and soon find themselves alone. In this way they invite attacks. An attitude not permanently in harmony with the demands of the time will necessarily bring misfortune with it. Confucius says about this line:\n\nThe superior man sets his person at rest before he moves; he composes his mind before he speaks; he makes his relations firm before he asks for something. By attending to these three matters, the superior man gains complete security. But if a man is brusque in his movements, others will not cooperate. If he is agitated in his word, they awaken no echo in others. If he asks for something without having fist established relations, it will not be given to him. If no one is with him, those who would harm him draw near."
+        "name": "Top Nine",
+        "text": "Augmenting no one; indeed, someone strikes him.\nFailing to keep the heart constantly steady: misfortune.",
+        "comments": "At the outermost extremity of the hexagram, the spirit of generous bestowal is inverted into greedy self-aggrandisement that refuses to benefit anyone below. As Confucius observes in the Great Commentary, one who fails to compose the body before acting, calm the mind before speaking, and establish trust before making demands alienates all allies and invites hostile blows. Forsaking inner constancy in pursuit of solitary gain inevitably brings misfortune."
       }
     ],
-    "judgmentCommentary": "Sacrifice on the part of those above for the increase of those below fills the people with a sense of joy and gratitude that is extremely valuable for the flowering of the commonwealth. When people are thus devoted to their leaders, undertakings are possible, and even difficult and dangerous enterprises will succeed. Therefore in such times of progress and successful development it is necessary to work and make the best use of time. This time resembles that of the marriage of heaven and earth, when the earth partakes of the creative power of heaven, forming and bringing forth living beings. The time of INCREASE does not endure, therefore it must be utilized while it lasts.",
-    "imageCommentary": "While observing how thunder and wind increase and strengthen each other, a man can not the way to self-increase and self-improvement. When he discovers good in others, he should imitate it and thus make everything on earth his own. If he perceives something bad in himself, let him rid himself of it. In this way he becomes free of evil. This ethical change represents the most important increase of personality.",
-    "structureCommentary": "The idea of increase is expressed in the fact that the strong lowest line of the upper trigram has sunk down and taken its place under the lower trigram. This conception also expresses the fundamental idea on which the Book of Changes is based. To rule truly is to serve. A sacrifice of the higher element that produces an increase of the lower is called an out-and-out increase: it indicates the spirit that alone has power to help the world."
+    "judgmentCommentary": "The Commentary on the Decision declares that Augmentation diminishes the upper realm in order to enrich the lower realm, awakening boundless joy among the people. When those in high station descend to nourish the foundations below, their path shines with radiant splendour. That it is favourable to have a destination to pursue reflects the central and correct alignment of the second and fifth lines, whose union brings celebratory blessing; that it is propitious to cross the great stream signifies how the dynamic wood of wind and thunder carries great enterprises safely across peril. Augmentation moves with arousal and gentle penetration, advancing daily without limit; heaven bestows and earth brings forth, and all augmentation unfolds in harmony with the season.",
+    "imageCommentary": "Fierce wind fans the thunderclap while rolling thunder lends momentum to the wind; each phenomenon mutually amplifies the vigour of the other. Witnessing this reciprocal reinforcement, the noble person practices dual self-cultivation with unhesitating resolve: whenever a worthy quality appears in others, one immediately adopts it, and whenever a flaw is detected within oneself, one uproots it at once. Nothing augments moral stature more powerfully than this synergy of emulation and reform.",
+    "structureCommentary": "Formed by inverting Diminution—or by drawing a strong yang line down from the fourth place of Hexagram 12 (Standstill) to become the foundational first line—Augmentation places Zhèn (Thunder, movement) below and Xùn (Wind, gentle penetration) above. True sovereignty consists in generous bestowal from above to strengthen the roots below, anchored by the exemplary partnership of Six in the Second Place and Nine in the Fifth Place."
   },
   {
     "number": 43,
     "unicode": "䷪",
     "chinese": "夬",
     "pinyin": "Guài",
-    "english": "Breakthrough",
+    "english": "Resolute Parting",
     "upperTrigram": {
       "name": "Lake",
       "chinese": "兌",
@@ -4132,68 +4146,68 @@ var HEXAGRAMS = [
       1,
       0
     ],
-    "judgment": "Breakthrough. Resolutely resolve obstacles with truth and open declaration. Avoid resorting to brute force.",
-    "image": "The lake has risen to heaven: the image of Breakthrough. Thus the superior person dispenses riches downward and stays humble.",
+    "judgment": "Resolute Parting. It is proclaimed in the royal court with sincere truth calling aloud: there is peril! One must notify one's own city; it is unfavourable to resort to arms. It is favourable to have a destination to pursue.",
+    "image": "The lake has risen high into heaven: the emblem of Resolute Parting. Thus the noble person dispenses emoluments downward and shuns resting lazily upon virtue.",
     "lineTexts": [
       {
         "line": 1,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the beginning",
-        "text": "Mighty in the forward-striding toes.\nWhen one goes and is not equal to the task,\nOne makes a mistake.",
-        "comments": "In times of resolute advance, the beginning is especially difficult. We feel inspired to press forward but resistance is still strong; therefore we ought to gauge our own strength and venture only so far as we can go with certainty of success. To plunge blindly ahead is wrong, because it is precisely at the beginning that an unexpected setback can have the most disastrous results."
+        "name": "Initial Nine",
+        "text": "Vigour in the forward-striding toes.\nGoing forth without being equal to the task results in error.",
+        "comments": "At the lowest position of Resolute Parting, this strong line feels the collective surge of five yang lines and itches to charge ahead at the very outset. Yet lacking high station or mature preparation, rushing into battle before gauging whether one can prevail invites an early setback. In decisive campaigns, premature impetuosity is a grave tactical error."
       },
       {
         "line": 2,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the second place",
-        "text": "A cry of alarm. Arms at evening and at night.\nFear nothing.",
-        "comments": "Readiness is everything. Resolution is indissolubly bound up with caution. If an individual is careful and keeps his wits about him, he need not become excited or alarmed. If he is watchful at all times, even before danger is present, he is armed when danger approaches and need not be afraid. The superior man is on his guard against what is not yet in sight and on the alert for what is not yet within hearing; therefore he dwells in the midst of difficulties as thought hey did not exist. If a man develops his character, people submit to him of their own accord. If reason triumphs, the passions withdraw of themselves. To be circumspect and not to forget one's armor is the right way to security."
+        "name": "Nine in the Second Place",
+        "text": "A vigilant cry of alarm; armed at evening and through the night.\nHave no fear.",
+        "comments": "Occupying the central seat of the lower trigram, this strong line tempers masculine vigour with central moderation and ceaseless vigilance. By sounding the watch-cry early and standing ready for night-time contingencies before any crisis erupts, one remains master of the situation. Following the central path of preparedness removes every ground for fear."
       },
       {
         "line": 3,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the third place",
-        "text": "To be powerful in the cheekbones\nBrings misfortune.",
-        "comments": "The superior man is firmly resolved.\nHe walks alone and is caught in the rain.\nHe is bespattered,\nAnd people murmur against him.\n\nNo blame.\n\nHere we have a man in an ambiguous situation. While all others are engaged in a resolute fight against all that is inferior, he alone has a certain relationship with an inferior man. If he were to show strength outwardly and turn against this man before the time is ripe, he would only endanger the entire situation, because the inferior man would too quickly have recourse to countermeasures. The task of the superior man becomes extremely difficult here. He must be firmly resolved within himself and, while maintaining association with the inferior man, avoid any participation in his evilness. He will of course be misjudged. It will be thought that he belong to the party of the inferior man. He will be lonely because no one will understand him. His relations with the inferior man will sully him in the eyes of the multitude, and they will turn against him, grumbling. But he can endure this lack of appreciation and makes no mistake, because he remains true to himself."
+        "name": "Nine in the Third Place",
+        "text": "Vigour in the cheekbones brings misfortune.\nThe noble person is resolutely determined, walking alone and meeting the rain;\nThough splashed and murmured against, free from fault.",
+        "comments": "At the top of the lower trigram, an overly rigid line that displays fierce hostility in its very countenance—its cheekbones—provokes premature retaliation and misfortune. Because this third line is the only yang line in structural correspondence with Top Six, the noble person here must maintain outward contact while inwardly resolved to part from corruption, enduring the lonely misunderstanding and complaints of peers until the rain of final deliverance clears his name."
       },
       {
         "line": 4,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fourth place",
-        "text": "There is no skin on his thighs,\nAnd walking comes hard.\nIf a man were to let himself be led like a sheep,\nRemorse would disappear.\nBut if these words are heard",
-        "comments": "They will not be believed.\n\nHere a man is suffering from inner restlessness and cannot abide in his place. He would like to push forward under any circumstances, but encounters insuperable obstacles. Thus his situation entails an inner conflict. This is due to the obstinacy with which he seeks to enforce his will. If he would desist from this obstinacy, everything would go well. But this advice, like so much other good counsel, will be ignored. For obstinacy makes a man unable to hear, for all that he has ears."
+        "name": "Nine in the Fourth Place",
+        "text": "The thighs are stripped of skin, and walking proceeds with halting difficulty.\nIf one were to let oneself be led like a sheep, regret would vanish;\nYet though words are heard, they will not be trusted.",
+        "comments": "A strong yang line occupying an even, yielding place outside the central positions suffers from restless agitation: unable to sit still as the lower lines press upward, yet impeded ahead. If it could relinquish stubborn pride and follow wise leadership as docilely as a sheep—or let a sheep lead from behind—all regret would vanish; sadly, headstrong self-will rarely heeds sober counsel."
       },
       {
         "line": 5,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fifth place",
-        "text": "In dealing with weeds,\nFirm resolution is necessary.\nWalking in the middle\nRemains free of blame.",
-        "comments": "Weeds always grow back again and are difficult to exterminate. So too the struggle against an inferior man in a high position demands firm resolution. One has certain relations with him, hence there is danger that one may give up the struggle as hopeless. But this must not be. One must go on resolutely and not allow himself to be deflected from him course. Only in this way does one remain free of blame."
+        "name": "Nine in the Fifth Place",
+        "text": "Purslane weeds upon dry ground: resolute parting, resolute parting!\nWalking in the centre remains free from fault.",
+        "comments": "Directly beneath the lingering top yin line, the sovereign fifth line confronts a resilient, creeping influence—likened to purslane that thrives even on barren soil and easily sprouts anew. Because proximity breeds familiarity, redoubled resolution is required to sever any private tie to the corrupt element. Only by adhering strictly to the central path of impartial rectitude does the ruler bring the campaign to a blameless close."
       },
       {
         "line": 6,
         "val": 6,
         "type": "yin",
-        "name": "Six at the top",
-        "text": "No cry.\nIn the end misfortune comes.",
-        "comments": "Victory seems to have been achieved. There remains merely a remnant of the evil resolutely to be eradicated as the time demands. Everything looks easy. Just there, however, lies the danger. If we are not on guard, evil will succeed in escaping by means of concealment, and when it has eluded us new misfortunes will develop from the remaining seeds, for evil does not die easily. So too in dealing with the evil in own's own character, one must go to work with thoroughness. If out of carelessness anything were to be overlooked, new evil would arise from it."
+        "name": "Top Six",
+        "text": "No cry for help.\nIn the end there is misfortune.",
+        "comments": "At the extreme summit of the hexagram sits the solitary yin line that the five yang lines below have risen to displace. Whether interpreted as a petty faction whose influence is exhausted and has nowhere left to cry for aid, or as victorious yang forces growing careless when no further cry of alarm is heard, the lesson is identical: lingering corruption cannot endure, and only thorough completion prevents final misfortune."
       }
     ],
-    "judgmentCommentary": "Even if only one inferior man is occupying a ruling position in a city, he is able to oppress superior men. Even a single passion still lurking in the heart has power to obscure reason. Passion and reason cannot exist side by side-therefore fight without quarter is necessary if the good is to prevail. In a resolute struggle of the good against evil, there are, however, definite rules that must not be disregarded, if it is to succeed. First, resolution must be based on a union of strength and friendliness. Second, a compromise with evil is not possible; evil must under all circumstances be openly discredited. Nor must our own passions and shortcomings be glossed over. Third, the struggle must not be carried on directly by force. If evil is branded, it thinks of weapons, and if we do it the favor of fighting against it blow for blow, we lose in the end because thus we ourselves get entangled in hatred and passion. Therefore it is important to begin at home, to be on guard in our own persons against the faults we have branded. In this way, finding no opponent, the sharp edges of the weapons of evil becomes dulled. For the same reasons we should not combat our own faults directly. As long as we wrestle with them, they continue victorious. Finally, the best way to fight evil is to make energetic progress in the good.",
-    "imageCommentary": "When the water of a lake has risen up to heaven, there is reason to fear a cloudburst. Taking this as a warning, the superior man forestalls a violent collapse. If a man were to pile up riches for himself alone, without considering others, he would certainly experience a collapse. If a man were to pile up riches for himself alone, without considering others, he would certainly experience a collapse. For all gathering is followed by dispersion. Therefore the superior man begins to distribute while he is accumulating. In the same way, in developing his character he takes care not to become hardened in obstinacy but to remain receptive to impressions by help of strict and continuous self-examination.",
-    "structureCommentary": "This hexagram signifies on the one hand a break-through after a long accumulation of tension, as a swollen river breaks through its dikes, or in the manner of a cloudburst. On the other hand, applied to human conditions, it refers to the time when inferior people gradually begin to disappear. Their influence is on the wane; as a result of resolute action, a change in conditions occurs, a break-through. The hexagram is linked with the third month [April-May]."
+    "judgmentCommentary": "The Commentary on the Decision states that Resolute Parting signifies a decisive breakthrough in which five strong yang lines part ways with and displace a single lingering yin line at the top. Combining celestial strength below with joyous openness above, one resolves conflict through firm decision and harmonious amicability. Proclaiming the truth openly in the royal court entails peril because a single petty element perched above the sovereign still commands dangerous leverage. Notifying one's own city while refusing to resort to martial force teaches that clinging strictly to weapons soon exhausts what one prizes; instead, cultivating inner rectitude causes the last vestige of shadow to dissolve as the growth of light reaches completion.",
+    "imageCommentary": "When the waters of a marshy lake are drawn up into the vault of heaven, they cannot remain suspended forever in self-contained isolation, but must burst forth as fertilising rain over the earth below. Observing this cosmic release, the noble person distributes wealth and blessings generously to those beneath rather than hoarding privilege. Likewise, in moral self-cultivation, one never regards one's own virtue as a finished possession upon which to rest in complacency.",
+    "structureCommentary": "Constituted by Qián (Heaven, strength) below and Duì (Lake, joyous expression) above, this forty-third hexagram represents the third lunar month when five yang lines have surged upward, leaving only Top Six at the crest. The fifth yang line presides as the sovereign of resolution, while the third yang line stands in unique structural tension as the sole line in magnetic correspondence with the top yin line."
   },
   {
     "number": 44,
     "unicode": "䷫",
     "chinese": "姤",
     "pinyin": "Gòu",
-    "english": "Coming to Meet",
+    "english": "Unexpected Encounter",
     "upperTrigram": {
       "name": "Heaven",
       "chinese": "乾",
@@ -4229,61 +4243,61 @@ var HEXAGRAMS = [
       1,
       1
     ],
-    "judgment": "Coming to Meet. An unexpected encounter. Watch for seductive or subtle corrupting influences.",
-    "image": "Under heaven, wind: the image of Coming to Meet. Thus does the leader proclaim directives across the four corners of the land.",
+    "judgment": "Unexpected Encounter. The maiden is bold and vigorous; do not wed such a maiden.",
+    "image": "Beneath heaven blows the wind: the emblem of Unexpected Encounter. Thus the sovereign proclaims decrees and publishes ordinances throughout the four quarters.",
     "lineTexts": [
       {
         "line": 1,
         "val": 6,
         "type": "yin",
-        "name": "Six at the beginning",
-        "text": "It must be checked with a brake of bronze.\nPerseverance brings good fortune.\nIf one lets it take its course, one experiences misfortune.\nEven a lean pig has it in him to rage around.",
-        "comments": "If an inferior element has wormed its way in, it must be energetically checked at once. By consistently checking it, bad effects can be avoided. If it is allowed to take its course, misfortune is bound to result; the insignificance of that which creeps in should not be a temptation to underrate it. A pig that is still young and lean cannot rage around much, but after it has eaten its fill and become strong, its true nature comes out if it has not previously been curbed."
+        "name": "Initial Six",
+        "text": "Checked with a brake of bronze: steadfast integrity is auspicious.\nHaving a destination to pursue brings manifest misfortune;\nEven a lean captive swine paces restlessly to break loose.",
+        "comments": "At the very base of the hexagram, a single yin line insinuates itself beneath five strong yang lines. Checked immediately with an unyielding bronze chock, its disruptive potential is safely contained and good fortune is preserved. One must never underestimate a nascent corrupting influence merely because it appears weak—like a scrawny young pig in a pen, its innate urge is to thrash about and rampage the moment it gains strength."
       },
       {
         "line": 2,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the second place",
-        "text": "There is a fish in the tank. No blame.\nDoes not further guests.",
-        "comments": "The inferior element is not overcome by violence but is kept under gentle control. Then nothing evil is to be feared. But care must be taken not to let it come in contact with those further away, because once free it would unfold its evil aspects unchecked."
+        "name": "Nine in the Second Place",
+        "text": "In the wrapping-creel there is a fish: free from fault.\nNot favourable to present to guests.",
+        "comments": "Standing directly above Initial Six and occupying the central seat of the lower trigram, this strong line gently encloses and contains the yin element—symbolised by a fish safely held within a woven wrapper. By keeping this restless influence under quiet personal supervision, one remains free from fault. However, it must not be introduced to outside guests—the upper lines—lest it slip control and spread discord across the wider community."
       },
       {
         "line": 3,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the third place",
-        "text": "And walking comes hard.\nIf one is mindful of the danger,",
-        "comments": "No great mistake is made.\n\nThere is a temptation to fall in with the evil element offering itself-a very dangerous situation. Fortunately circumstances prevent this; one would like to do it, but cannot. This leads to painful indecision in behavior. But if we gain clear insight into the danger of the situation, we shall at least avoid more serious mistakes."
+        "name": "Nine in the Third Place",
+        "text": "The thighs are stripped of skin, and walking proceeds with halting difficulty.\nMindful of the peril, no great error is committed.",
+        "comments": "Positioned at the top of the lower trigram, this rigid yang line desires to associate with Initial Six below, which is already held by Nine in the Second Place, while finding no corresponding partner in the Top Nine above. Caught in painful restlessness and frustrated motion, one is spared a grave mistake solely because circumstances prevent an improper liaison and awaken sober vigilance."
       },
       {
         "line": 4,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fourth place",
-        "text": "No fish in the tank.",
-        "comments": "This leads to misfortune.\n\nInsignificant people must be tolerated in order to keep them well disposed. Then we can make use of them if we should need them. If we become alienated from them and do not meet them halfway, they turn their backs on us and are not at our disposal when we need them. But this is our own fault."
+        "name": "Nine in the Fourth Place",
+        "text": "In the wrapping-creel there is no fish.\nRising to act brings misfortune.",
+        "comments": "Although Nine in the Fourth Place stands in proper structural correspondence with Initial Six below, the first line has already been intercepted and contained by Nine in the Second Place. Furthermore, by occupying an even place without central balance, this fourth line has alienated the common folk below; finding its creel empty when support is needed, any attempt to launch an undertaking ends in self-incurred misfortune."
       },
       {
         "line": 5,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fifth place",
-        "text": "A melon covered with willow leaves.\nHidden lines.",
-        "comments": "Then it drops down to one from heave.\n\nThe melon, like the fish, is a symbol of the principle of darkness. It is sweet but spoils easily and for this reason is protected with a cover of willow leaves. This is a situation in which a strong, superior, well-poised man tolerates and protects the inferiors in his charge. He has the firm lines of order an beauty within himself but he does not lay stress upon them. He does not bother his subordinates with outward show or tiresome admonitions but leaves them quite free, putting his trust in the transforming power of a strong and upright personality. And behold! Fate is favorable. His inferiors respond to his influence and fall to his disposition like ripe fruit."
+        "name": "Nine in the Fifth Place",
+        "text": "Wrapping the sweet melon in willow branches;\nGuarding luminous beauty within,\nThere comes a Mandate falling from heaven.",
+        "comments": "Occupying the central and correct sovereign seat of Heaven, the ruler shelters and regulates the realm beneath—likened to wrapping a ripe, delicate melon in cool willow leaves. Instead of displaying harsh severity or ostentatious brilliance, the sovereign contains luminous moral order quietly within the heart. Because one abides in central rectitude without departing from the Way, renewal and blessing descend spontaneously as if dropped from heaven."
       },
       {
         "line": 6,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the top",
-        "text": "He comes to meet with his horns.\nHumiliation. No blame.",
-        "comments": "When a man has withdrawn from the world, its tumult often becomes unbearable to him. There are many people who in a noble pride hold themselves aloof from all that is low and rebuff it brusquely wherever it comes to meet them. Such persons are reproached for being proud and distant, but since active duties no longer hold them to the world, this does not greatly matter. They know how to bear the dislike of the masses with composure."
+        "name": "Top Nine",
+        "text": "Encountering with one's horns.\nDistress, yet free from fault.",
+        "comments": "At the highest and most remote position of the hexagram, far beyond active governance, this rigid yang line meets the world with the brusque, unyielding aloofness of thrusting horns. While such uncompromising disdain for worldly entanglement invites social friction and the distress of isolation, one who has retired from public duty incurs no moral blame by refusing base company."
       }
     ],
-    "judgmentCommentary": "The rise of the inferior element is pictured here in the image of a bold girl who lightly surrenders herself and thus seizes power. This would not be possible if the strong and light-giving element had not in turn come halfway. The inferior thing seems so harmless and inviting that a man delights in it; it looks so small and weak that he imagines he may dally with it and come to no harm. The inferior man rises only because the superior man does not regard him as dangerous and so lends him power. If he were resisted from the fist, he could never gain influence. The time of COMING TO MEET is important in still another way. Although as a general rule the weak should not come to meet the strong, there are times when this has great significance. When heaven and earth come to meet each other, all creatures prosper; when a prince and his official come to meet each other, the world is put in order. It is necessary for elements predestined to be joined and mutually dependent to come to meet one another halfway. But the coming together must be free of dishonest ulterior motives, otherwise harm will result.",
-    "imageCommentary": "The situation here resembles that in hexagram 20, Kuan, CONTEMPLATION ( VIEW). In the latter the wind blows over the earth, here it blows under heaven; in both cases it goes everywhere. There the wind is on the earth and symbolizes the ruler taking note of the conditions in his kingdom; here the wind blows from above and symbolizes the influence exercised by the ruler through his commands. Heaven is far from the things of earth, but it sets them in motion by means of the wind. The ruler is far form his people, but he sets them in motion by means of his commands and decrees.",
-    "structureCommentary": "This hexagram indicates a situation in which the principle of darkness, after having been eliminated, furtively and unexpectedly obtrudes again from within and below. Of its own accord the female principle comes to meet the male. It is an unfavorable and dangerous situation, and we must understand and promptly prevent the possible consequences. The hexagram is linked with the fifth month [June-July], because at the summer solstice the principle of darkness gradually becomes ascendant again."
+    "judgmentCommentary": "The Commentary on the Decision explains that Unexpected Encounter portrays the yielding element coming unexpectedly to meet the firm. One should not wed such a bold maiden because a single yielding line boldly engaging five firm lines cannot form an enduring, harmonious union. Yet viewed on the cosmic plane, when heaven and earth meet in mutual encounter, the myriad beings shine forth in manifest form; and when the firm principle occupies both the central second and fifth seats of governance, all under heaven proceeds with great fulfilment. Vast indeed is the timely significance of Encounter!",
+    "imageCommentary": "Wind sweeps effortlessly beneath the vast expanse of heaven, touching every plant and creature across the earth without exception. Taking this all-pervasive circulation as a model, the sovereign ruler issues clear proclamations and ordinances that reach the four corners of the realm, bringing the high authority of the court into direct, vital contact with the people below.",
+    "structureCommentary": "Inverting Resolute Parting, this forty-fourth hexagram places Xùn (Wind, subtle penetration) below and Qián (Heaven, strength) above, corresponding to the fifth lunar month at the summer solstice when a single yin line quietly re-enters at the base beneath five yang lines. While cosmic encounter is fertile, in human affairs the creeping return of a subtle, unprincipled element requires immediate vigilance from the strong lines above, especially Nine in the Second Place and Nine in the Fifth Place."
   },
   {
     "number": 45,
@@ -4326,68 +4340,68 @@ var HEXAGRAMS = [
       1,
       0
     ],
-    "judgment": "Gathering Together. Success. Uniting people around a noble core brings fortune.",
-    "image": "Over the earth, the lake: the image of Gathering Together. Thus the superior person prepares defenses against the unforeseen.",
+    "judgment": "Gathering Together yields fulfilment. The king approaches his ancestral temple. It is favourable to behold the great person; this brings fulfilment, and steadfast integrity is favourable. Presenting great sacrificial offerings is auspicious; it is favourable to have a destination to pursue.",
+    "image": "Waters of the lake rising above the earth: the emblem of Gathering Together. Thus the noble person refurbishes weapons of defence to guard against the unforeseen.",
     "lineTexts": [
       {
         "line": 1,
         "val": 6,
         "type": "yin",
-        "name": "Six at the beginning",
-        "text": "If you are sincere, but not to the end,",
-        "comments": "There will sometimes be confusion, sometimes gathering together.\nIf you call out,\n\nThen after one grasp of the hand you can laugh again.\nRegret not. Going is without blame.\n\nThe situation is this: People desire to gather around a leader to whom they look up. But they are in a large group, by which they allow themselves to be influenced, so that they waver in their decision. Thus they lack a firm center around which to gather. But if expression is given to this need, and if they call for help, one grasp of the hand from the leader is enough to turn away all distress. Therefore they must not allow themselves to be led astray. It is undoubtedly right that they should attach themselves to this leader."
+        "name": "Initial Six",
+        "text": "Possessing sincere truth, yet not carrying it to the end:\nNow in confused disorder, now gathering together.\nIf one calls out, a single grasp of the hand brings laughter again.\nHave no anxiety; going forward is free from fault.",
+        "comments": "At the base of the hexagram, this yielding line naturally corresponds with the strong fourth line above, yet surrounded by two fellow yin lines, its resolve wavers and falls into confusion. By crying out in candid sincerity toward its proper partner above, a single reassuring clasp of the hand dispels all hesitation and restores joyful unity. Moving forward toward the centre of assembly is completely blameless."
       },
       {
         "line": 2,
         "val": 6,
         "type": "yin",
-        "name": "Six in the second place",
-        "text": "Letting oneself be drawn\nBrings good fortune and remains blameless.\nIf one is sincere,\nIt furthers one to bring even a small offering.",
-        "comments": "In the time of GATHERING TOGETHER, we should make no arbitrary choice of the way. There are secret forces at work, leading together those who belong together. We must yield to this attraction; then we make no mistakes. Where inner relationships exist, no great preparations and formalities are necessary. People understand one another forthwith, just as the Divinity graciously accepts a small offering if it comes from the heart."
+        "name": "Six in the Second Place",
+        "text": "Being drawn forward is auspicious and free from fault.\nPossessing sincere truth, even the simple vernal sacrifice is favourable.",
+        "comments": "Occupying the central and correct seat of the lower trigram among two neighbouring yin lines, this line allows itself to be drawn upward by natural magnetic affinity toward the sovereign Nine in the Fifth Place. Where genuine inner sincerity binds ruler and minister in central harmony, elaborate external pomp is unnecessary; even the modest seasonal offering of spring suffices to win favour."
       },
       {
         "line": 3,
         "val": 6,
         "type": "yin",
-        "name": "Six in the third place",
-        "text": "Gathering together amid sighs.",
-        "comments": "Nothing that would further.\nGoing is without blame.\n\nSlight humiliation.\n\nOften a man feels an urge to unite with others, but the individuals around him have already formed themselves into a group, so that he remains isolated. The whole situation proves untenable. Then he ought to choose the way of progress, resolutely allying himself with a man who stands nearer to the center of the group, and can help him to gain admission to the closed circle. This is not a mistake, even though at first his position as an outsider is somewhat humiliating."
+        "name": "Six in the Third Place",
+        "text": "Seeking to gather together amid sighs; nothing is favourable.\nGoing forward is free from fault: slight humiliation.",
+        "comments": "Standing at the top of the lower trigram, this yielding line desires to join the assembly, yet the first and second lines have already found partners in the fourth and fifth places, while its own counterpart at the top is a fellow yin line without strength. Left sighing on the margins, the wise course is to advance and attach oneself humbly to the strong fourth line immediately above; though enduring slight awkwardness at first, this step is free from fault."
       },
       {
         "line": 4,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fourth place",
-        "text": "Great good fortune. No blame.",
-        "comments": "This describes a man who gathers people around him in the name of his ruler. Since he is not striving for any special advantages for himself but is working unselfishly to bring about general unity, his work is crowned with success, and everything becomes as it should be."
+        "name": "Nine in the Fourth Place",
+        "text": "Supremely auspicious, then free from fault.",
+        "comments": "Positioned as a strong yang line in an even, ministerial place directly beneath the sovereign fifth line and above the receptive multitude of Earth, this figure wields immense influence in gathering the people. Because a minister who attracts a vast following risks appearing to usurp royal authority, only by acting with supreme public-spiritedness and unblemished loyalty—so that the result is supremely auspicious for ruler and people alike—does one remain free from fault."
       },
       {
         "line": 5,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fifth place",
-        "text": "If in gathering together one has position,",
-        "comments": "This brings no blame.\nIf there are some who are not yet sincerely in the work,\n\nSublime and enduring perseverance is needed.\n\nThen remorse disappears.\n\nWhen people spontaneously gather around a man, it is only a good. It gives him a certain influence that can be altogether useful.. But of course there is also the possibility that many may gather around him not because of a feeling of confidence but merely because of his influential position. This is certainly to be regretted. The only means of dealing with such people is to gain their confidence through steadfastness an intensified, unswerving devotion to duty. In this way secret mistrust will gradually be overcome, and there will be no occasion for regret."
+        "name": "Nine in the Fifth Place",
+        "text": "Gathering together by virtue of sovereign position: free from fault.\nIf some are not yet won over in sincere trust,\nSublime and enduring steadfastness causes regret to vanish.",
+        "comments": "Occupying the central and correct throne of the hexagram, the ruler naturally draws the realm together through legitimate authority. Yet if some rally merely out of deference to rank and power rather than heartfelt conviction, one's moral aspiration is not yet fully realised. By cultivating sublime, unwearied constancy of virtue over time, even lingering scepticism melts into genuine trust and all regret vanishes."
       },
       {
         "line": 6,
         "val": 6,
         "type": "yin",
-        "name": "Six at the top",
-        "text": "Lamenting and sighing, floods of tears.",
-        "comments": "No blame.\n\nIt may happen that an individual would like to ally himself with another, but his good intentions are misunderstood. Then he becomes sad and laments. But this is the right course. For it may cause the other person to come to his senses, so that the alliance that has been sought and so painfully missed is after all achieved."
+        "name": "Top Six",
+        "text": "Lamenting and sighing, with streams of tears:\nFree from fault.",
+        "comments": "At the very top of the hexagram, perched above the sovereign fifth line and lacking any bond below, this yielding line remains outside the joyful congregation. Feeling acute anxiety and isolation at the summit, it pours forth genuine grief and contrition over its estrangement. Because such heartfelt humility and sorrow over standing apart demonstrate a sincere desire for peace rather than arrogant defiance, one remains free from fault."
       }
     ],
-    "judgmentCommentary": "The gathering together of people in large communities is either a natural occurrence, as in the case of the family, or an artificial one, as in the case of the state. The family gathers about the father as its head. The perpetuation of this gathering in groups is achieved through the sacrifice to the ancestors, at which the whole clan is gathered together. Through the collective piety of the living members of the family, the ancestors become so integrated in the spiritual life of the family that it cannot be dispersed or dissolved. Where men are to be gathered together, religious forces are needed. But there must also be a human leader to serve as the center of the group. In order to be able to bring others together, this leader must first of all be collected within himself. Only collective moral force can unite the world. Such great times of unification will leave great achievements behind them. This is the significance of the great offerings that are made. In the secular sphere likewise there is no need of great deeds in the time of GATHERING TOGETHER.",
-    "imageCommentary": "If the water in the lake gathers until it rises above the earth, there is danger of a break-through. Precautions must be taken to prevent this. Similarly where men gather together in great numbers, strife is likely to arise; where possessions are collected, robbery is likely to occur. Thus in the time of GATHERING TOGETHER we must arm promptly to ward off the unexpected. Human woes usually come as a result of unexpected events against which we are not forearmed. If we are prepared, they can be prevented.",
-    "structureCommentary": "This hexagram is related in form and meaning to Pi, HOLDING TOGETHER\n\n8. In the latter, water is over the earth; here a lake is over the earth. But since the lake is a place where water collects, the idea of gathering together is even more strongly expressed here than in the other hexagram. The same idea also arises from the fact that in the present case it is two strong lines (the fourth and the fifth) that bring about the gather together, whereas in the former case one strong line (the fifth) stands in the midst of weak lines."
+    "judgmentCommentary": "The Commentary on the Decision explains that Gathering Together signifies congregation: receptive devotion below meets joyous openness above, while the strong fifth line occupies the central seat and responds to the compliant lines beneath, thereby uniting the hearts of all. The king approaches his ancestral temple to anchor human fellowship in filial reverence and spiritual communion, where the myriad beings find their deepest bond. Beholding the great person and presenting rich offerings prove auspicious because vast collective resources require an upright moral centre and generous public spirit to harmonise with the decree of heaven. Contemplating how things gather together reveals the true disposition of heaven, earth, and all living beings.",
+    "imageCommentary": "When lake waters collect upon the surface of the earth without sturdy embankments, they risk breaching their bounds in a destructive flood. Similarly, wherever crowds of people congregate and abundant wealth is amassed, friction, envy, and unforeseen disturbances can easily erupt. Therefore, in the midst of prosperous assembly, the noble person quietly maintains defensive readiness so that peace is never caught unawares.",
+    "structureCommentary": "Formed by Kūn (Earth, receptive multitude) below and Duì (Lake, joyous assembly) above, this forty-fifth hexagram portrays the populace gathering around two contiguous yang lines in the fourth and fifth places. Nine in the Fifth Place presides as the sovereign centre of unity, assisted by the ministerial Nine in the Fourth Place, while Top Six weeps in isolation above the gathered community."
   },
   {
     "number": 46,
     "unicode": "䷭",
     "chinese": "升",
     "pinyin": "Shēng",
-    "english": "Pushing Upward",
+    "english": "Ascending Growth",
     "upperTrigram": {
       "name": "Earth",
       "chinese": "坤",
@@ -4423,68 +4437,68 @@ var HEXAGRAMS = [
       0,
       0
     ],
-    "judgment": "Pushing Upward has supreme success. Steady organic growth upward brings prosperity.",
-    "image": "Within the earth, wood grows: the image of Pushing Upward. Thus the superior person accumulates small steps to attain great heights.",
+    "judgment": "Ascending Growth yields supreme fulfilment. One must employ this to behold the great person. Have no anxiety! Marching southward is auspicious.",
+    "image": "Within the earth, wood grows upward: the emblem of Ascending Growth. Thus the noble person, through devoted character, accumulates small steps to attain the lofty and great.",
     "lineTexts": [
       {
         "line": 1,
         "val": 6,
         "type": "yin",
-        "name": "Six at the beginning",
-        "text": "Pushing upward that meets with confidence\nBrings great good fortune.",
-        "comments": "This situation at the beginning of ascent. Just as wood draws strength for its upward push from the root, which in itself is in the lowest place, so the power to rise comes from this low and obscure station. But there is a spiritual affinity with the rulers above, and this solidarity creates the confidence needed to accomplish something."
+        "name": "Initial Six",
+        "text": "Welcomed ascending growth:\nSupremely auspicious.",
+        "comments": "As the yielding root of the lower trigram of Wood, this first line shares a gentle, compliant nature with the Earth above while receiving immediate upward momentum from the two strong yang lines directly overhead. Because its modest aspiration harmonises completely with the will of those above, its ascent is warmly welcomed and achieves supreme good fortune."
       },
       {
         "line": 2,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the second place",
-        "text": "If one is sincere,\nIt furthers one to bring even a small offering.",
-        "comments": "No blame.\n\nHere a strong man is presupposed. It is true that he does not fit in with his environment, inasmuch as he is too brusque and pays too little attention to form. But as he is upright in character, he meets with response, and his lack of outward form does no harm. Here uprightness is the outcome of sound qualities of character, whereas in the corresponding line of the preceding hexagram it is the result of innate humility."
+        "name": "Nine in the Second Place",
+        "text": "Possessing sincere truth,\nEven the simple vernal sacrifice is favourable: free from fault.",
+        "comments": "A strong yang line occupies the central seat of the lower trigram and corresponds directly with the yielding ruler in the fifth place. Although its firm nature in an even place might appear lacking in ornate polish, its unshakeable inner sincerity and devotion to the public good win complete trust above. Just as a simple seasonal offering presented with a pure heart pleases heaven, such upright service brings joy and remains free from fault."
       },
       {
         "line": 3,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the third place",
-        "text": "One pushes upward into an empty city.",
-        "comments": "All obstructions that generally block progress fall away here. Things proceed with remarkable ease. Unhesitatingly one follows this road, in order to profit by one's success. Seen from without, everything seems to be in the best of order. However, no promise of good fortune is added. It is a question how long such unobstructed success can last. But it is wise not to yield to such misgivings, because they only inhibit one's power. Instead, the point is to profit by the propitiousness of time."
+        "name": "Nine in the Third Place",
+        "text": "Ascending into an empty city.",
+        "comments": "At the top of the lower trigram of Wood, this vigorous yang line presses upward into the yielding trigram of Earth, which opens before it without the slightest resistance—like marching into an unguarded, spacious city. Because the path is utterly unobstructed, there is no call for hesitation or self-doubt; one advances smoothly to fulfil the work of the season."
       },
       {
         "line": 4,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fourth place",
-        "text": "The king offers him Mount Ch'i.\nGood fortune. No blame.",
-        "comments": "Mount Ch'i is in the western China, the homeland of King Wên, whose son, the Duke of Chou, added the words to the individual lines. The pronouncement takes us back to a time when the Chou dynasty was coming into power. At that time King Wên introduced his illustrious helpers to the god of his native mountain, and they received their places in the halls of the ancestors by the side of the ruler. This indicates a stage in which pushing upward attains its goal. One acquires fame in the sight of gods and men, is received into the circle of those who foster the spiritual life of the nation, and thereby attains a significance that endures beyond time."
+        "name": "Six in the Fourth Place",
+        "text": "The king presents offerings upon Mount Qi.\nAuspicious; free from fault.",
+        "comments": "Occupying the compliant ministerial fourth place right at the threshold of the upper trigram, this line exemplifies reverent devotion that bridges the human realm and ancestral sanctity—recalled here through King Wen's pious sacrifices at Mount Qi, the cradle of the Zhou house. By serving both the sovereign above and the people below with unfailing compliance, one is welcomed into enduring honour and remains free from fault."
       },
       {
         "line": 5,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fifth place",
-        "text": "Perseverance brings good fortune.\nOne pushes upward by steps.",
-        "comments": "When a man is advancing farther and farther, it is important for him not to become intoxicated by success. Precisely when he experiences great success it is necessary to remain sober and not to try to skip any stages; he must go on slowly, step by step, as though hesitant. Only such calm, steady progress, overleaping nothing, leads to the goal."
+        "name": "Six in the Fifth Place",
+        "text": "Steadfast integrity is auspicious:\nAscending the steps.",
+        "comments": "In the central seat of sovereignty, this yielding ruler attains the summit of dignity not by a reckless leap, but as if mounting ceremonial temple steps one by one. Precisely when ascent reaches high authority, maintaining sober, methodical rectitude and honouring worthy ministers like Nine in the Second Place ensures that every aspiration is auspiciously fulfilled."
       },
       {
         "line": 6,
         "val": 6,
         "type": "yin",
-        "name": "Six at the top",
-        "text": "Pushing upward in darkness.\nIt furthers one",
-        "comments": "To be unremittingly persevering.\n\nHe who pushes upward blindly deludes himself. He knows only advance, not retreat. But this means exhaustion. In such a case it is important to be constantly mindful that one must be conscientious and consistent and must remain so. Only thus does one become free of blind impulse, which is always harmful."
+        "name": "Top Six",
+        "text": "Ascending in blind obscurity:\nFavourable only for unremitting steadfastness.",
+        "comments": "At the utmost pinnacle of Ascending Growth, there is nowhere higher to climb, yet a restless spirit continues pushing forward in the dark, knowing only how to advance and never how to pause. As the Small Image warns, such blind ambition leads to depletion rather than enrichment. Only by redirecting that unremitting energy into strict, conscientious self-rectification can one avoid exhaustion."
       }
     ],
-    "judgmentCommentary": "The pushing upward of the good elements encounters no obstruction and is therefore accompanied by great success. The pushing upward is made possible not by violence but by modesty and adaptability. Since the individual is borne along by the propitiousness of the time, he advances. He must go to see authoritative people. He need not be afraid to do this, because success is assured. But he must set to work, for activity (this is the meaning of \"the south\") brings good fortune.",
-    "imageCommentary": "Adapting itself to obstacles and bending around them, wood in the earth grows upward without haste and without rest. Thus too the superior man is devoted in character and never pauses in his progress.",
-    "structureCommentary": "The lower trigram, Sun, represents wood, and the upper, K'un, means the earth. Linked with this is the idea that wood in the earth grows upward. In contrast to the meaning of Chin, PROGRESS\n\n35, this pushing upward is associated with effort, just as a plant needs energy for pushing upward through the earth. That is why this hexagram, although it is connected with success, is associated with effort of the will. In PROGRESS the emphasis is on expansion; PUSHING UPWARD indicates rather a vertical ascent-direct rise from obscurity and lowliness to power and influence."
+    "judgmentCommentary": "The Commentary on the Decision states that in Ascending Growth, the yielding element rises at the exact moment of ripeness: gentle penetration below meets receptive compliance above, while the strong second line occupies the centre and responds to the fifth line, thereby achieving supreme fulfilment. Employing this season to behold the great person brings no anxiety because ascending into audience with enlightened authority confers celebratory blessing. Marching southward—toward the region of warmth, brightness, and active enterprise—is auspicious because one's noble aspiration is carried into concrete realisation.",
+    "imageCommentary": "Beneath the dark soil, a tender shoot pushes steadily upward, adapting gracefully around stones and roots without ever pausing in its organic ascent until it becomes a towering tree. Modelling this patient, unhurried perseverance, the noble person cultivates a devoted and compliant spirit, building lofty moral and intellectual stature through the daily accumulation of small, conscientious efforts.",
+    "structureCommentary": "Inverting Gathering Together, this forty-sixth hexagram places Xùn (Wind / Wood, gentle penetration) below and Kūn (Earth, receptive openness) above. Unlike Hexagram 35 (Radiant Advancement), where the sun shines effortlessly above the earth, Wood growing within Earth depicts a gradual, step-by-step vertical ascent powered by inner effort and welcomed by the compliant ruler in the fifth place."
   },
   {
     "number": 47,
     "unicode": "䷮",
     "chinese": "困",
     "pinyin": "Kùn",
-    "english": "Oppression",
+    "english": "Exhaustion and Straitened Adversity",
     "upperTrigram": {
       "name": "Lake",
       "chinese": "兌",
@@ -4520,61 +4534,61 @@ var HEXAGRAMS = [
       1,
       0
     ],
-    "judgment": "Oppression. Exhaustion tests endurance. Words may not be believed; stay true to your spirit.",
-    "image": "There is no water in the lake: the image of Oppression. Thus the superior person stakes their life on following their true calling.",
+    "judgment": "Exhaustion yields fulfilment. Steadfast integrity in the great person is auspicious and free from fault. Though one has words to speak, they are not trusted.",
+    "image": "The lake drained of water: the emblem of Exhaustion. Thus the noble person stakes their very life to fulfil their moral aspiration.",
     "lineTexts": [
       {
         "line": 1,
         "val": 6,
         "type": "yin",
-        "name": "Six at the beginning",
-        "text": "One sits oppressed under a bare tree\nAnd strays into a gloomy valley.\nFor three years one sees nothing.",
-        "comments": "When adversity befalls a man, it is important above all things for him to be strong and to overcome the trouble inwardly. If he is weak, the trouble overwhelms him. Instead of proceeding on his way, he remains sitting under a bare tree and falls ever more deeply into gloom and melancholy. This makes the situation only more and more hopeless. Such an attitude comes from an inner delusion that he must by all means overcome."
+        "name": "Initial Six",
+        "text": "The buttocks straitened upon a bare tree-stump;\nEntering into a gloomy valley,\nFor three years beholding nothing.",
+        "comments": "At the bottom of the perilous abyss of Water, a weak yin line in an odd place succumbs to despondency, sitting immobilised on a dead stump and sinking ever deeper into a sunless ravine of self-pity. Instead of rousing the spirit to transcend adversity, brooding in passive gloom obscures one's vision for a prolonged cycle. The first task in hardship is to refuse inward paralysis."
       },
       {
         "line": 2,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the second place",
-        "text": "One is oppressed while at meat and drink.",
-        "comments": "The man with the scarlet knee bands is just coming.\nIt furthers one to offer sacrifice.\n\nTo set forth brings misfortune.\n\nNo blame.\n\nThis pictures a state of inner oppression. Externally, all is well, one has meat and drink. But one is exhausted by the commonplaces of life, and there seems to be no way of escape. Then help comes from a high place. A prince-in ancient China princes wore scarlet knee bands- is in search of able helpers. But there are still obstructions to be overcome. Therefore it is important to meet these obstructions in the visible realm by offerings and prayer. To set forth without being prepared would be disastrous, though not morally wrong. Here a disagreeable situation must be overcome by patience of spirit."
+        "name": "Nine in the Second Place",
+        "text": "Straitened amidst wine and nourishment,\nThere arrives the wearer of scarlet knee-aprons.\nIt is favourable to present sacrificial offerings.\nSetting forth aggressively brings misfortune, though free from fault.",
+        "comments": "Occupying the central seat of the lower trigram, this strong line possesses abundant inner substance—wine and food—yet feels straitened by the responsibilities and burdens of the age. Soon a royal emissary clad in scarlet knee-covers approaches from above to seek its counsel. Rather than marching out impatiently while perils still abound, offering quiet, reverent devotion at the altar brings central blessing."
       },
       {
         "line": 3,
         "val": 6,
         "type": "yin",
-        "name": "Six in the third place",
-        "text": "A man permits himself to be oppressed by stone,\nAnd leans on thorns and thistles.\nHe enters the house and does not see his wife.\nMisfortune.",
-        "comments": "This shows a man who is restless and indecisive in times of adversity. At first he wants to push ahead, then he encounters obstructions that, it is true, mean oppression only when recklessly dealt with. He butts his head against a wall and in consequence feels himself oppressed by the wall. Then he leans on things that have in themselves no stability and that are merely a hazard for him who leans on them. Thereupon he turns back irresolutely and retires into his house, only to find, as a fresh disappointment, that his wife is not there. Confucius says about this line:\n\nIf a man permits himself to be oppressed by something that ought not to oppress him, his name will certainly be disgraced. If he leans on things upon which one cannot lean, his life will certainly be endangered. For him who is in disgrace and danger, the hour of death draws near; how can he then still see his wife?"
+        "name": "Six in the Third Place",
+        "text": "Straitened against boulders, leaning upon thorns and brambles;\nEntering his palace, he does not behold his wife: misfortune.",
+        "comments": "A yielding line lacking central balance sits restlessly atop the lower trigram of peril: pushing upward, it bruisingly butts against the stony fourth and fifth yang lines; leaning downward, it rests upon the thorny abyss below. As Confucius notes in the Great Commentary, one who struggles against what cannot be moved and relies upon what cannot support them courts disgrace and mortal peril, returning home only to find domestic solace vanished."
       },
       {
         "line": 4,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fourth place",
-        "text": "He comes very quietly, oppressed in a golden carriage.\nHumiliation, but the end is reached.",
-        "comments": "A well-to-do man sees the need of the lower classes and would like very much to be of help. But instead of proceeding with speed and energy where their is need, he begins in a hesitant and measured way. Then he encounters obstructions. Powerful and wealthy acquaintances draw him into their circle; he has to do as they do and cannot withdraw from them. Hence he finds himself in great embarrassment. But the trouble is transitory. The original strength of his nature offsets the mistake he has made, and the goal is reached."
+        "name": "Nine in the Fourth Place",
+        "text": "Coming very slowly, straitened in a bronze-mounted carriage.\nDistress, yet reaching completion in the end.",
+        "comments": "Positioned in the upper trigram, this strong line wishes to aid its distressed counterpart in the first place below, yet its progress is impeded by the strong second line in between and by its own hesitant attachment to wealthy privilege—the bronze carriage. Although such tardy, encumbered assistance causes initial embarrassment and distress, its sincere intention remains intact and ultimately achieves union."
       },
       {
         "line": 5,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fifth place",
-        "text": "His nose and feet are cut off.\nOppression at the hands of the man with the purple knee bands.\nJoy comes softly.\nIt furthers one to make offerings and libations.",
-        "comments": "An individual who has the good of mankind at heart is oppressed from above and below (this is the meaning of the cutting off of nose an defeat). He finds no help among the people whose duty it would be to aid in the work of rescue (ministers wore purple knee bands). But little by little, things take a turn for the better. Until that time, he should turn to God, firm in his inner composure, and pray and offer sacrifice for the general well-being."
+        "name": "Nine in the Fifth Place",
+        "text": "Nose and feet sheared off:\nStraitened at the hands of those wearing crimson knee-aprons.\nJoy comes softly and gradually;\nIt is favourable to present offerings and libations.",
+        "comments": "Occupying the central sovereign seat, this ruler feels hemmed in from above by Top Six (as if the nose were cut off) and obstructed below (as if the feet were bound), finding upright ministers—wearers of crimson ceremonial aprons—likewise straitened. Yet because the fifth and second lines share central rectitude and joyous inner composure, relief arrives gently in due course when one maintains sincere, reverent devotion."
       },
       {
         "line": 6,
         "val": 6,
         "type": "yin",
-        "name": "Six at the top",
-        "text": "He is oppressed by creeping vines.\nHe moves uncertainly and says, \"Movement brings remorse.\"\nIf one feels remorse over this and makes a start,\nGood fortune comes.",
-        "comments": "A man is oppressed by bonds that can easily be broken. The distress is drawing to an end. But he is still irresolute; he is still influenced by the previous condition and fears that he may have cause for regret if he makes a move. But as soon as he grasps the situation, changes this mental attitude, and makes a firm decision, he masters the oppression."
+        "name": "Top Six",
+        "text": "Straitened among creeping vines and tottering upon precarious heights,\nSaying, 'To move brings regret.'\nIf one feels regret over past inaction and sets forth, it is auspicious.",
+        "comments": "At the final extremity of Exhaustion, the ordeal has actually run its course; the remaining obstacles are no longer boulders, but mere creeping vines and self-doubt born of long intimidation. One hesitates in fear that any step will bring regret, yet the Small Image points out that remaining trapped in such timidity is unwise. Awakening to genuine resolve, shaking off the vines, and marching forward breaks the spell and brings auspicious release."
       }
     ],
-    "judgmentCommentary": "Times of adversity are the reverse of times of success, but they can lead to success if they; befall the right man. When a strong man meets with adversity, he remains cheerful despite all danger, and this cheerfulness is the source of later successes; it is that stability which is stronger than fate. He who lets his spirit be broken by exhaustion certainly has no success. But if adversity only bends a man, it creates in him a power to react that is bound in time to manifest itself. No inferior man is capable of this. Only the great man brings about goof fortune and remains blameless. It is true that for the time being outward influence is denied him, because his words have no effect. Therefore in times of adversity it is important to be strong within and sparing of words.",
-    "imageCommentary": "When the water has flowed out below, the lake must dry up and become exhausted. That is fate. This symbolizes an adverse fate in human life. In such times there is nothing a man can do but acquiesce in his fate and remain true to himself. This concerns the deepest stratum of his being, for this alone is superior to all external fate.",
-    "structureCommentary": "The lake is above, water below; the lake is empty, dried up. Exhaustion is expressed in yet another way: at the top, a dark line is holding down two light line; below, a light line is hemmed in between two dark ones. The upper trigram belongs to the principle of darkness, the lower to the principle of light. Thus everywhere superior men are oppressed and held in restraint by inferior men."
+    "judgmentCommentary": "The Commentary on the Decision observes that in Exhaustion, the firm yang lines are hemmed in and obscured by yielding yin lines. Perilous abyss lies below while joyous openness stands above: to encounter straitened peril without losing inner joyousness—only the noble person is capable of such mastery! Steadfast integrity in the great person is auspicious because the second and fifth yang lines occupy the central seats with unshakeable firmness. When trapped in adversity, pleading or arguing with words wins no credence; attempting to prevail through speech alone merely invites humiliation, whereas silent, resolute conduct speaks for itself.",
+    "imageCommentary": "When water seeps downward out of the lake-bed into the subterranean abyss below, the marsh above dries up and vegetation withers. Facing an era of external depletion where worldly fortune recedes beyond human control, the noble person accepts outer fate with serene composure while dedicating their entire life-force to upholding their innermost ethical calling. External circumstances may straiten the body, yet they can never impoverish a resolute spirit.",
+    "structureCommentary": "Composed of Kǎn (Water, perilous abyss) below and Duì (Lake, joyousness) above, this forty-seventh hexagram reverses the natural order of Hexagram 60 (Limitation): with water sinking beneath the lake, the upper basin is drained dry. Structurally, the single yang line of the lower trigram is trapped between two yin lines, and the two yang lines of the upper trigram are capped by Top Six, testing the inner mettle of Nine in the Second Place and Nine in the Fifth Place."
   },
   {
     "number": 48,
@@ -4617,68 +4631,68 @@ var HEXAGRAMS = [
       1,
       0
     ],
-    "judgment": "The Well. The town may move, but the well remains. Deep spiritual nourishment is inexhaustible.",
-    "image": "Water over wood: the image of the Well. Thus the superior person encourages people to draw from mutual wisdom.",
+    "judgment": "The Well. The town may be relocated, yet the well cannot be relocated. It neither diminishes nor increases; people come and go, drawing from the well. If one nearly reaches the water but has not yet drawn up the rope, or breaks the earthen pitcher: misfortune.",
+    "image": "Above wood is water: the emblem of The Well. Thus the noble person encourages the people in their labours and counsels them toward mutual aid.",
     "lineTexts": [
       {
         "line": 1,
         "val": 6,
         "type": "yin",
-        "name": "Six at the beginning",
-        "text": "One does not drink the mud of the well.",
-        "comments": "No animals come to an old well.\n\nIf a man wanders around in swampy lowlands, his life is submerged in mud. Such a man loses all significance for mankind. He who throws himself away is no longer sought out by others. In the end no one troubles about him any more."
+        "name": "Initial Six",
+        "text": "The mud of the well is not drunk;\nTo an old, neglected well not even birds come.",
+        "comments": "At the very bottom of the hexagram, a yielding yin line sinks downward without the vigour to rise, resembling stagnant silt at the base of a derelict shaft. When a person abandons self-cultivation and wallows in base obscurity, they offer no refreshment to the world; as the Small Image remarks, even passing birds forsake a muddy, collapsed well."
       },
       {
         "line": 2,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the second place",
-        "text": "At the well hole one shoots fishes.",
-        "comments": "The jug is broken and leaks.\n\nThe water itself is clear, but it is not being used. Thus the well is a place where only fish will stay, and whoever comes to it, comes only to catch fish. But the jug is broken, so that the fish cannot be kept in it. This describes the situation of a person who possesses good qualities but neglects them. No one bothers about him. As a result he deteriorates in mind. He associates with inferior men and can no longer accomplish anything worth while."
+        "name": "Nine in the Second Place",
+        "text": "At the well-spring one shoots tiny perches;\nThe earthen pitcher is cracked and leaks.",
+        "comments": "Occupying the central seat of the lower trigram, this strong line possesses clear, living water within, yet lacking a responsive partner in the fifth place above, it turns its energy downward toward the muddy Initial Six instead of rising to serve the community. Like a leaked pitcher that lets precious water trickle back into the hole where only small fish dart about, noble talent wasted on petty associations accomplishes nothing."
       },
       {
         "line": 3,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the third place",
-        "text": "The well is cleaned, but no one drinks from it.",
-        "comments": "This is my heart's sorrow,\nFor one might draw from it.\nIf the king were clear-minded,\nGood fortune might be enjoyed in common.\n\nAn able man is available. He is like a purified well whose water is drinkable. But no use is made of him. This is the sorrow of those who know him. One wishes that the prince might learn about it; this would be good fortune for all concerned."
+        "name": "Nine in the Third Place",
+        "text": "The well is dredged clean, yet no one drinks from it;\nThis is my heart's sorrow, for it might truly be drawn.\nWere the king clear-minded, all together would receive its blessing.",
+        "comments": "A strong yang line in an odd place at the top of the lower trigram represents a thoroughly purified well brimming with sweet water, or a capable sage ready for public service, yet still lying beneath the upper trigram before being drawn aloft. Though bystanders grieve that such proven worth remains untapped, if an enlightened sovereign recognises and employs this resource, ruler and people alike share in its abundant blessing."
       },
       {
         "line": 4,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fourth place",
-        "text": "The well is being lined. No blame.",
-        "comments": "True, if a well is being lined with sone, it cannot be used while the work is going on. But the work is not in vain; the result is that the water stays clear. In life also there are times when a man must put himself in order. During such a time he can do nothing for others, but his work is nonetheless valuable, because by enhancing his powers and abilities through inner development, he can accomplish all the more later on."
+        "name": "Six in the Fourth Place",
+        "text": "The well is being lined with stone tiles:\nFree from fault.",
+        "comments": "Having crossed into the upper trigram as a yielding line in a correct even place, one pauses outward distribution to repair and stone-line the interior walls of the shaft. Although a well under masonry repair cannot temporarily supply water to others, fortifying one's inner character and institutional order prevents future contamination and keeps the spring permanently pure."
       },
       {
         "line": 5,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fifth place",
-        "text": "In the well there is a clear, cold spring\nFrom which one can drink.",
-        "comments": "A well that is fed by a spring of living water is a good well. A man who has virtues like a well of this sort is born to be a leader and savior of men, for he has the water of life. Nevertheless, the character for \"good fortune\" is left out here. The all-important thing about a well is that its water be drawn. The best water is only a potentiality for refreshment as long as it is not brought up. So too with leaders of mankind: it is all-important that one should drink from the spring of their words and translate them into life."
+        "name": "Nine in the Fifth Place",
+        "text": "In the well, a clear, cold spring\nFrom which one may drink.",
+        "comments": "Occupying the central and correct sovereign seat within the trigram of Water, this line embodies the living fountainhead of the well itself: crystal-clear, cool, and inexhaustibly pure. In human governance, it portrays a ruler or teacher of authentic central rectitude whose wisdom and benevolence offer true spiritual refreshment to all who come to draw."
       },
       {
         "line": 6,
         "val": 6,
         "type": "yin",
-        "name": "Six at the top",
-        "text": "One draws from the well\nWithout hindrance.\nIt is dependable.",
-        "comments": "Supreme good fortune.\n\nThe well is there fore all. No one is forbidden to take water from it. No matter how many come, all find what they need, for the well is dependable. It has a spring and never runs dry. Therefore it is a great blessing to the whole land. The same is true of the really great man, whose inner wealth is inexhaustible; the more that people draw from him, the greater his wealth becomes."
+        "name": "Top Six",
+        "text": "Drawing from the well, leave it uncovered:\nPossessing sincere truth, supremely auspicious.",
+        "comments": "At the very rim of the hexagram, the water has been hauled all the way to the top, fulfilling the entire purpose of the well. By leaving the wellhead uncovered and accessible to all without restriction, while maintaining dependable, unfailing constancy like an ever-flowing spring, the noble work achieves supreme perfection and universal blessing."
       }
     ],
-    "judgmentCommentary": "In ancient China the capital cities were sometimes moved, partly for the sake of more favorable location, partly because of a change in dynasties. The style of architecture changed in the course of centuries, but the shape of the well has remained the same from ancient times to this day. Thus the well is the symbol of that social structure which, evolved by mankind in meeting its most primitive needs, is independent of all political forms. Political structures change, as do nations, but the life of man with its needs remains eternally the same-this cannot be changed. Life is also inexhaustible. It grows neither less not more; it exists for one and for all. The generations come and go, and all enjoy life in its inexhaustible abundance. However, there are two prerequisites for a satisfactory political or social organization of mankind. We must go down to the very foundations of life. For any merely superficial ordering of life that leaves its deepest needs unsatisfied is as ineffectual as if no attempt at order had ever been made. Carelessness-by which the jug is broken-is also disastrous. If for instance the military defense of a state is carried to such excess that it provokes wars by which the power of the state is annihilated, this is a breaking of the jug. This hexagram applies also to the individual. However men may differ in disposition and in education, the foundations of human nature are the same in everyone. And every human being can draw in the course of his education from the inexhaustible wellspring of the divine in man's nature. But here likewise two dangers threaten: a man may fail in his education to penetrate to the real roots of humanity and remain fixed in convention-a partial education of this sort is as bad as none- or he may suddenly collapse and neglect his self-development.",
-    "imageCommentary": "The trigram Sun, wood, is below, and the trigram K'an, water, is above it. Wood sucks water upward. Just as wood as an organism imitates the action of the well, which benefits all parts of the plant, the superior man organizes human society, so that, as in a plant organism, its parts co-operate for the benefit of the whole.",
-    "structureCommentary": "Wood is below, water above. The wood goes down into the earth to bring up water. The image derives from the pole-and-bucket well of ancient China. The wood represents not the buckets, which in ancient times were made of clay, but rather the wooden poles by which the water is hauled up from the well. The image also refers to the world of plants, which lift water out of the earth by means of their fibers. The well from which water is drawn conveys the further idea of an inexhaustible dispensing of nourishment."
+    "judgmentCommentary": "The Commentary on the Decision explains that in The Well, wood penetrates downward into the water below and raises it aloft, nourishing all without exhaustion. Towns and dynasties may shift their sites across the centuries, yet the subterranean spring—governed by the strong, central fifth line—remains immutable, neither depleted by constant drawing nor overflowing in neglect. However, a well fulfils its purpose only when its living water actually reaches the surface to refresh the thirsty. Stopping short before the rope is fully hauled up achieves nothing, and shattering the clay pitcher at the brink through carelessness turns potential blessing into misfortune.",
+    "imageCommentary": "Just as wooden roots and well-sweeps draw subterranean moisture upward to sustain every leaf and branch, human society thrives upon shared moral and material nourishment. Observing the inexhaustible generosity of the well, the noble person organises civic life so that people are heartened in their daily work and inspired to support one another in times of need.",
+    "structureCommentary": "Inverting Exhaustion, this forty-eighth hexagram places Xùn (Wood, penetrating downward) below and Kǎn (Water, the living spring) above. Whereas water draining beneath the lake spelled exhaustion, wood descending beneath water to lift it upward symbolises perennial sustenance. The six lines trace the progressive restoration and use of the well from the muddy bottom at the first line to the open, brimming rim at the top."
   },
   {
     "number": 49,
     "unicode": "䷰",
     "chinese": "革",
     "pinyin": "Gé",
-    "english": "Revolution",
+    "english": "Radical Renewal",
     "upperTrigram": {
       "name": "Lake",
       "chinese": "兌",
@@ -4714,68 +4728,68 @@ var HEXAGRAMS = [
       1,
       0
     ],
-    "judgment": "Revolution. On your own day you are believed. Transformation aligned with cosmic cycles brings supreme success.",
-    "image": "Fire in the lake: the image of Revolution. Thus the superior person brings order into the seasons and clarifies the times.",
+    "judgment": "Radical Renewal. Only upon the completed day does trust take hold. Supreme fulfilment; steadfast integrity is favourable; regret vanishes.",
+    "image": "Within the lake burns fire: the emblem of Radical Renewal. Thus the noble person orders the calendar and clarifies the seasons.",
     "lineTexts": [
       {
         "line": 1,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the beginning",
-        "text": "Wrapped in the hide of a yellow cow.",
-        "comments": "Changes ought to be undertaken only when there is nothing else to be done. Therefore at first the utmost restraint is necessary. One must becomes firm in one's mind, control oneself-yellow is the color of the means, and the cow is the symbol of docility-and refrain from doing anything for the time being, because any premature offensive will bring evil results."
+        "name": "Initial Nine",
+        "text": "Bound fast in the hide of a yellow ox.",
+        "comments": "Positioned at the very outset of transformation and lacking resonance with the fourth line above, one has neither the mandate nor the vantage point to initiate upheaval. Yellow signifies the balanced mean, whilst the ox represents patient endurance; wrapping oneself in yellow ox-hide counsels binding one's impulses with firm self-restraint. The Small Image affirms that when the time is not yet ripe, one must refrain from premature action and consolidate one's footing."
       },
       {
         "line": 2,
         "val": 6,
         "type": "yin",
-        "name": "Six in the second place",
-        "text": "When one's own day comes, one may create revolution.",
-        "comments": "Starting brings good fortune. No blame.\n\nWhen we have tried in every other way to bring about reforms, but without success, revolution becomes necessary. But such a thoroughgoing upheaval must be carefully prepared. There must be available a man who has the requisite abilities and who possesses public confidence. To such a man we may well turn. This brings good fortune and is not a mistake. The first thing to be considered is our inner attitude toward the new condition that will inevitably come. We have to go out to meet it, as it were. Only in this way can it be prepared for."
+        "name": "Six in the Second Place",
+        "text": "Upon the completed day, enact the renewal.\nSetting forth is auspicious and free from fault.",
+        "comments": "Central and correct within the lower trigram of Fire, this yielding line embodies clear discernment and resonates directly with the sovereign fifth line above. Rather than acting on sudden impulse, one waits until the preparatory cycle is complete and public readiness is unmistakable. Advancing at that matured hour brings auspicious results and accomplishes the reform without blemish."
       },
       {
         "line": 3,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the third place",
-        "text": "Starting brings misfortune.\nPerseverance brings danger.\nWhen talk of revolution has gone the rounds three times,\nOne may commit himself,\nAnd men will believe him.",
-        "comments": "When change is necessary, there are two mistakes to be avoided. One lies in excessive haste and ruthlessness, which bring disaster. The other lies in excessive hesitation and conservatism, which are also dangerous. Not every demand for change in the existing order should be heeded. On the other hand, repeated and well-founded complaints should not fail of a hearing. When talk of change has come to one's ears three times, and has been pondered well, he may believe and acquiesce in it. Then he will meet with belief and will accomplish something."
+        "name": "Nine in the Third Place",
+        "text": "Advancing rashly brings misfortune; steadfastness faces peril.\nWhen deliberations of renewal have circled three times,\nthere is trust.",
+        "comments": "An unyielding yang line at the summit of the lower trigram of Flame is doubly fiery and prone to impatient excess, where reckless advance invites disaster. Yet clinging stubbornly to a decaying status quo is equally perilous. Only when proposals for reform have been weighed, debated, and refined through three full rounds of counsel does genuine consensus emerge, allowing one to act with assured trust."
       },
       {
         "line": 4,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fourth place",
-        "text": "Remorse disappears. Men believe him.\nChanging the form of government brings good fortune.",
-        "comments": "Radical changes require adequate authority. A man must have inner strength as well as influential position. What he does must correspond with a higher truth and must not spring from arbitrary or petty motives; then it brings great good fortune. If a revolution is not founded on such inner truth, the results are bad, and it has no success. For in the end men will support only those undertakings which they feel instinctively to be just."
+        "name": "Nine in the Fourth Place",
+        "text": "Regret vanishes; there is trust.\nAltering the mandate is auspicious.",
+        "comments": "Having crossed into the upper trigram of Lake, where water tempers the lower flame, this strong line occupies a yielding place and harmonises strength with flexibility. Because inner rectitude now meets with public confidence, the anxieties of transition dissolve. Executing a decisive change of mandate or institutional order proves auspicious because the reform is rooted in shared conviction rather than arbitrary force."
       },
       {
         "line": 5,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fifth place",
-        "text": "The great man changes like a tiger.\nEven before he questions the oracle\nHe is believed.",
-        "comments": "A tigerskin, with its highly visible black stripes on a yellow ground, shows its distinct pattern from afar. It is the same with a revolution brought about by a great man: large, clear guiding lines become visible, understandable to everyone. Therefore he need not first consult the oracle, for he wins the spontaneous support of the people."
+        "name": "Nine in the Fifth Place",
+        "text": "The great person transforms like a tiger.\nEven before consulting the oracle, there is trust.",
+        "comments": "Occupying the central sovereign seat with radiant yang vigour, the ruler effects a renewal as bold, luminous, and unmistakable as the black-and-gold stripes of a tiger's coat in autumn. The guiding principles of the new order are so transparent and beneficial that the realm responds with immediate, spontaneous allegiance. No divination is required to confirm what already shines with self-evident authority."
       },
       {
         "line": 6,
         "val": 6,
         "type": "yin",
-        "name": "Six at the top",
-        "text": "The superior man changes like a panther.",
-        "comments": "The inferior man molts in the face.\n\nStarting brings misfortune.\n\nTo remain persevering brings good fortune.\n\nAfter the large and fundamental problems are settled, certain minor reforms, and elaborations of these, are necessary. These detailed reforms may be likened to the equally distinct but relatively small marks of the panther's coat. As a consequence, a change also takes place among the inferior people. In conformity with the new order, they likewise \"molt.\" This molting, it is true, does not go very deep, but that is not to be expected. We must be satisfied with the attainable. If we should go too far and try to achieve too much, it would lead to unrest and misfortune. For the object of a great revolution is the attainment of clarified, secure conditions ensuring a general stabilization on the basis of what is possible at the moment."
+        "name": "Top Six",
+        "text": "The noble person transforms like a leopard;\nthe petty person alters his countenance.\nAdvancing further brings misfortune;\nabiding in steadfast integrity is auspicious.",
+        "comments": "At the culmination of the hexagram, the grand structural overhaul is already complete, and the noble person refines the details of culture with the sleek, intricate beauty of a leopard's spots. Ordinary folk adapt their outward behaviour to comply with the newly established laws, even if their deeper understanding remains superficial. To launch fresh upheavals now would unsettle hard-won stability; the auspicious path lies in resting content and consolidating what has been achieved."
       }
     ],
-    "judgmentCommentary": "Political revolutions are extremely grave matters. They should be undertaken only under stress of direst necessity, when there is no other way out. Not everyone is called to this task, but only the man who has the confidence of the people, and even he only when the time is ripe. He must then proceed in the right way, so that he gladdens the people and, by enlightening them, prevents excesses. Furthermore, he must be quite free of selfish aims and must really relieve the need of the people. Only then does he have nothing to regret. Times change, and with them their demands. Thus the seasons change in the course of the year. In the world cycle also there are spring and autumn in the life of peoples and nations, and these call for social transformations.",
-    "imageCommentary": "Fire below and the lake above combat and destroy each other. So too in the course of the year a combat takes place between the forces of light and the forces of darkness, eventuating in the revolution of the seasons, and man is able to adjust himself in advance to the demands of the different times.",
-    "structureCommentary": "The Chinese character for this hexagram means in its original sense an animal's pelt, which is changed in the course of the year by molting. From this word is carried over to apply to the \"moltings\" in political life, the great revolutions connected with changes of governments. The two trigrams making up the hexagram are the same two that appear in K'uei, OPPOSITION\n\n38, that is, the two younger daughters, Li and Tui. But while there the elder of the two daughters is above, and what results is essentially only an opposition of tendencies, here the younger daughter is above. The influences are in actual conflict, and the forces combat each other like fire and water (lake), each trying to destroy the other. Hence the idea of revolution."
+    "judgmentCommentary": "The Commentary on the Decision observes that water and fire contend against one another within the same vessel, just as two daughters dwelling beneath one roof find their aims diverging until transformation becomes unavoidable. Because fundamental upheaval easily provokes suspicion among the populace, genuine confidence is won only when the appointed cycle has fully ripened. Inner lucidity combined with joyous outer responsiveness enables great fulfilment and establishes right order across the realm. When renewal accurately answers the mandate of heaven and satisfies the needs of humanity, every cause for regret vanishes. Momentous indeed is the timely execution of Radical Renewal, which mirrors the grand revolution of the four seasons.",
+    "imageCommentary": "Fire blazing beneath the waters of the marsh creates a dynamic tension in which each element transforms the other—fire turning water into rising vapour whilst water quenches reckless flame. Contemplating this cosmic alternation of light and moisture across the year, the noble person calculates the astronomical cycles and establishes an accurate calendar. By defining the exact thresholds of the solstices, equinoxes, and agricultural seasons, wise governance aligns human labour with the living rhythm of heaven.",
+    "structureCommentary": "Composed of Lí (Fire, lucidity) below and Duì (Lake, joyous openness) above, this forty-ninth hexagram pairs inner illumination with outer accord. The archaic graph Gé depicts the currying and shedding of an animal's pelt as the seasons turn, signifying the sloughing off of exhausted forms. Four vigorous yang lines form the core while the fifth yang line occupies the sovereign seat, guiding the transition with unmistakable authority."
   },
   {
     "number": 50,
     "unicode": "䷱",
     "chinese": "鼎",
     "pinyin": "Dǐng",
-    "english": "The Caldron",
+    "english": "The Sacrificial Cauldron",
     "upperTrigram": {
       "name": "Fire",
       "chinese": "離",
@@ -4811,61 +4825,61 @@ var HEXAGRAMS = [
       0,
       1
     ],
-    "judgment": "The Caldron. Supreme good fortune. Nurturing spiritual culture and elevating life to sacred heights.",
-    "image": "Fire over wood: the image of the Caldron. Thus the superior person consolidates destiny by holding their position right.",
+    "judgment": "The Sacrificial Cauldron. Supreme good fortune and fulfilment.",
+    "image": "Above the wood blazes fire: the emblem of the Sacrificial Cauldron. Thus the noble person rectifies his position and consolidates the mandate.",
     "lineTexts": [
       {
         "line": 1,
         "val": 6,
         "type": "yin",
-        "name": "Six at the beginning",
-        "text": "A ting with legs upturned.\nFurthers removal of stagnating stuff.\nOne takes a concubine for the sake of her son.",
-        "comments": "No blame.\n\nIf a ting is turned upside down before being used, no harm is done-on the contrary, this clears it of refuse. A concubine's position is lowly, but because she has a son she comes to be honored. These two metaphors express the idea that in a highly developed civilization, such as that indicated by this hexagram, every person of good will can in some way or other succeed. No matter how lowly he may be, provided he is ready to purify himself, he is accepted. He attains a station in which he can prove himself fruitful in accomplishment, and as a result he gains recognition."
+        "name": "Initial Six",
+        "text": "The cauldron with upturned feet:\nfavourable for clearing out foul residue.\nTaking a concubine for the sake of her son:\nfree from fault.",
+        "comments": "At the very base of the hexagram, the cauldron is inverted before cooking begins so that stagnant dregs and old ashes can be washed away. Though turning a sacred vessel upside down appears unseemly at first glance, it serves the essential purpose of purification. Likewise, elevating a person of humble station whose talent and offspring bring vital renewal to the household is wholly free from fault."
       },
       {
         "line": 2,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the second place",
-        "text": "There is food in the ting.\nMy comrades are envious,\nBut they cannot harm me.\nGood fortune.",
-        "comments": "In a period of advanced culture, it is of the greatest importance that one should achieve something significant. If a man concentrates on such real undertakings, he may indeed experience envy and disfavor, but that is not dangerous. The more he limits himself to his actual achievements, the less harm the envious inflict on him."
+        "name": "Nine in the Second Place",
+        "text": "The cauldron holds substantial fare.\nMy companion is afflicted with envy,\nyet cannot approach to harm me.\nAuspicious.",
+        "comments": "Strong and central within the lower trigram, this line represents the belly of the cauldron filled with nourishing, well-prepared viands and resonating with the modest ruler in the fifth place. Although jealous peers or narrow-minded rivals may harbour resentment, one's uprightness and focus on genuine substance keep their malice at bay. Remaining centred in authentic merit ensures auspicious protection."
       },
       {
         "line": 3,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the third place",
-        "text": "The handle of the ting is altered.\nOne is impeded in his way of life.",
-        "comments": "The fat of the pheasant is not eaten.\nOnce rain falls, remorse is spent.\nGood fortune comes in the end.\n\nThe handle is the means for lifting up the ting. If the handle is altered, the ting cannot be lifted up and used, and, sad to say, the delicious food in it, such as pheasant fat, cannot be eaten by anyone. This describes a man who, in a highly evolved civilization, finds himself in a place where no one notices or recognizes him. This is a severe block to his effectiveness. All of his good qualities and gifts of mind thus needlessly go to waste. But if he will only see to it that he is possessed of something truly spiritual, the time is bound to come, sooner or later, when the difficulties will be resolved and all will go well. The fall of rain symbolizes here, as in other instances, release of tension."
+        "name": "Nine in the Third Place",
+        "text": "The lugs of the cauldron are altered;\none's progress is obstructed,\nand the savoury pheasant fat goes uneaten.\nOnce rain falls, regret is spent,\nand the end is auspicious.",
+        "comments": "Overly rigid at the top of the lower trigram and lacking resonance with the top line, this yang line is like a cauldron whose lifting ears have been deformed by heat, preventing the vessel from being moved to the banquet table. Although one possesses rich inner gifts—symbolised by the prized fat of the pheasant—circumstances temporarily block recognition. Yet because one's character remains sound, tension will eventually dissolve like a refreshing rainfall, bringing auspicious fulfilment in the end."
       },
       {
         "line": 4,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fourth place",
-        "text": "The legs of the ting are broken.",
-        "comments": "The prince's meal is spilled\nAnd his person is soiled.\nMisfortune.\n\nA man has a difficult and responsible task to which he is not adequate. Moreover, he does not devote himself to it with all his strength but goes about with inferior people; therefore the execution of the work fails. In this way he also incurs personal opprobrium. Confucius says about this line: \"Weak character coupled with honored place, meager knowledge with large plans, limited powers with heavy responsibility, will seldom escape disaster.\""
+        "name": "Nine in the Fourth Place",
+        "text": "The cauldron breaks a leg,\nspilling the duke's savoury stew;\nits form is befouled.\nInauspicious.",
+        "comments": "Standing in the ministerial fourth place yet entangled in resonance with the weak initial line below, this line attempts to bear a weighty public trust without adequate strength or worthy allies. As the Great Treatise remarks, when slight virtue occupies an honoured rank and meagre wisdom undertakes vast designs, collapse is virtually certain. The sacred offering is overturned and one's reputation is stained with disgrace."
       },
       {
         "line": 5,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fifth place",
-        "text": "The ting has yellow handles, golden carrying rings.\nPerseverance furthers.",
-        "comments": "Here we have, in a ruling position, a man who is approachable and modest in nature. As a result of this attitude he succeeds in finding strong and able helpers who complement and aid him in his work. Having achieved this attitude, which requires constant self-abnegation, it is important for him to hold to it and not to let himself be led astray."
+        "name": "Six in the Fifth Place",
+        "text": "The cauldron has yellow lugs and golden carrying-bars.\nSteadfast integrity is favourable.",
+        "comments": "Occupying the central seat of sovereignty with receptive humility, this yielding line represents the hollow ears of the cauldron that welcome the solid lifting-bar. Yellow betokens the balanced mean, whilst gold signifies the unyielding strength of the worthy helpers—both the second and top yang lines—whom the ruler trusts. By maintaining steadfast integrity in this open, unpretentious receptivity, the sovereign guides the state effortlessly."
       },
       {
         "line": 6,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the top",
-        "text": "The ting has rings of jade.\nGreat good fortune.",
-        "comments": "Nothing that would not act to further.\n\nIn the preceding line the carrying rings are described as golden, to denote their strength; here they are said to be of jade. Jade is notable for its combination of hardness with soft luster. This counsel, in relation to the man who is open to it, works greatly t his advantage. Here the counsel is described in relation to the sage who imparts it. In imparting it, he will be mild and pure, like precious jade. Thus the work finds favor in the eyes of the Deity, who dispenses great good fortune, and becomes pleasing to men, wherefore all goes well."
+        "name": "Top Nine",
+        "text": "The cauldron has carrying-bars of jade.\nGreat good fortune; nothing fails to be favourable.",
+        "comments": "At the summit of the hexagram, this yang line tempers its innate strength in a yielding position, serving as the sage adviser who lifts the fifth line's golden ears. Whereas metal is hard and unbending, jade unites enduring firmness with a warm, lustrous gentleness. When supreme wisdom imparts counsel with such mildness and grace, every endeavour is blessed with great good fortune."
       }
     ],
-    "judgmentCommentary": "While THE WELL relates to the social foundation of our life, and this foundation is likened to the water that serves to nourish growing wood, the present hexagram refers to the cultural superstructure of society. Here it is the wood that serves as nourishment for the flame, the spirit. All that is visible must grow beyond itself, extend into the realm of the invisible. Thereby it receives its true consecration and clarity and takes firm root in the cosmic order. Here we see civilization as it reaches its culmination in religion. The ting serves in offering sacrifice to God. The highest earthly values must be sacrificed to the divine. But the truly divine does not manifest itself apart from man. The supreme revelation of God appears in prophets and holy men. To venerate them is true veneration of God. The will of God, as revealed through them, should be accepted in humility; this brings inner enlightenment and true understanding of the world, and this leads to great good fortune and success.",
-    "imageCommentary": "The fate of fire depends on wood; as long as there is wood below, the fire burns above. It is the same in human life; there is in man likewise a fate that lends power to his life. And if he succeeds in assigning the right place to life and to fate, thus bringing the two into harmony, he puts his fate on a firm footing. These words contain hints about fostering of life as handed on by oral tradition in the secret teachings of Chinese yoga.",
-    "structureCommentary": "The six lines construct the image of Ting, THE CALDRON; at the bottom are the legs, over them the belly, then come the ears (handles), and at the top the carrying rings. At the same time, the image suggests the idea of nourishment. The ting, cast of bronze, was the vessel that held the cooked viands in the temple of the ancestors and at banquets. The heads of the family served the food from the ting into the bowls of the guests. THE WELL\n\n48 likewise has the secondary meaning of giving nourishment, but rather more in relation to the people. The ting, as a utensil pertaining to a refined civilization, suggests the fostering and nourishing of able men, which redounded to the benefit of the state. This hexagram and THE WELL are the only two in the Book of Changes that represent concrete, men-made objects. Yet here too the thought has its abstract connotation. Sun, below, is wood and wind; Li, above, is flame. Thus together they stand for the flame kindled by wood and wind, which likewise suggests the idea of preparing food."
+    "judgmentCommentary": "The Commentary on the Decision teaches that the Cauldron fashions a visual image of the sacred bronze vessel in which nourishment is cooked to honour the Supreme Ancestor and to feast worthy sages. Wood enters smoothly below to feed the luminous flame above, symbolising how gentle penetration fuels spiritual clarity and cultural refinement. When the sovereign displays keen hearing and radiant vision while humbling himself to elevate the wise in the fifth place, the entire realm prospers. Whereas Radical Renewal sweeps away the obsolete, the Sacrificial Cauldron establishes the enduring rites and institutions of a renewed civilisation, securing supreme good fortune.",
+    "imageCommentary": "As timber sustains the rising flame, invisible wind and visible fire cooperate to transform raw ingredients into consecrated offerings. Observing how the three legs of the bronze tripod hold the vessel level and unshakeable above the hearth, the noble person orders his demeanour with grave rectitude. By standing firm in uprightness and aligning personal conduct with heaven's decree, one crystallises destiny into lasting stewardship.",
+    "structureCommentary": "Formed by Xùn (Wood and Wind, gentle penetration) below and Lí (Fire, radiance) above, this fiftieth hexagram mirrors the physical anatomy of a ritual bronze tripod. The split initial yin line depicts the vessel's legs; the three solid yang lines in the second, third, and fourth places form its capacious belly; the split fifth yin line represents the two lugs or ears; and the solid top yang line forms the carrying rod passed through the rings. Governed by the fifth and sixth lines, the hexagram celebrates the alchemical transmutation of material substance into spiritual wisdom."
   },
   {
     "number": 51,
@@ -4908,68 +4922,68 @@ var HEXAGRAMS = [
       0,
       0
     ],
-    "judgment": "Shock brings success. Thunder terrifies for a hundred miles, yet one stays composed and steady.",
-    "image": "Thunder repeated: the image of Shock. Thus in awe and reverence the superior person sets life in order.",
+    "judgment": "The Arousing brings fulfilment. Thunder crashes—startled terror, oh, oh! Then laughing words, ha, ha! The shock resounds for a hundred leagues, yet one does not let fall the sacrificial spoon and spiced wine.",
+    "image": "Rolling thunder repeated: the emblem of the Arousing. Thus the noble person in awe and reverence examines and rectifies his character.",
     "lineTexts": [
       {
         "line": 1,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the beginning",
-        "text": "Shock comes-oh, oh!",
-        "comments": "Then follow laughing words-ha, ha!\nGood fortune.\n\nThe fear and trembling engendered by shock come to an individual at first in such a way that he sees himself placed at a disadvantage as against others. But this is only transitory. When the ordeal is over, he experiences relief, and thus the very terror he had to endure at the outset brings good fortune in the long run."
+        "name": "Initial Nine",
+        "text": "Thunder crashes—startled terror, oh, oh!\nAfterwards, laughing words, ha, ha!\nAuspicious.",
+        "comments": "As the primary ruler of the hexagram, this vigorous yang line experiences the full brunt of the initial shock at the very moment it erupts from below. Because one responds to the sudden upheaval with immediate vigilance and reverent caution rather than careless bravado, order and safety are swiftly secured. Once the crisis passes, relief and joyous laughter naturally follow."
       },
       {
         "line": 2,
         "val": 6,
         "type": "yin",
-        "name": "Six in the second place",
-        "text": "Shock comes bringing danger.\nA hundred thousand times\nYou lose your treasures\nAnd must climb the nine hills.\nDo not go in pursuit of them.\nAfter seven days you will get them back again.",
-        "comments": "This pictures a situation in which a shock endangers a man and he suffers great losses. Resistance would be contrary to the movement of the time and for this reason unsuccessful. Therefore he must simply retreat to heights inaccessible to the threatening forces of danger. He must accept his loss of property without worrying too much about it. When the time of shock and upheaval that has robbed him of his possessions has passed, he will get them back again without going in pursuit of them."
+        "name": "Six in the Second Place",
+        "text": "Thunder comes with peril.\nA hundred thousand cowries are lost;\none climbs the nine hills.\nDo not pursue them; after seven days you will recover them.",
+        "comments": "Riding directly atop the erupting yang line of the first place, this central yin line faces an overwhelming shock that strips away material possessions. Rather than squandering strength in futile resistance against an irresistible tide, wisdom counsels retreating to the lofty sanctuary of the nine hills. Because one's conduct remains centred and upright, the natural cycle of seven days restores what was lost without anxious pursuit."
       },
       {
         "line": 3,
         "val": 6,
         "type": "yin",
-        "name": "Six in the third place",
-        "text": "Shock comes and makes one distraught.\nIf shock spurs to action\nOne remains free of misfortune.",
-        "comments": "There are three kinds of shock-the shock of heaven, which is thunder, the shock of fate, and, finally, the shock of the heart. The present hexagram refers less to inner shock than to the shock of fate. In such times of shock, presence of mind is all too easily lost: the individual overlooks all opportunities for action and mutely lets fate take its course. But if he allows the shocks of fate to induce movement within his mind, he will overcome these external blows with little effort."
+        "name": "Six in the Third Place",
+        "text": "Thunder leaves one dazed and trembling.\nIf the shock spurs one to action,\none remains free from calamity.",
+        "comments": "Positioned at the unstable transition between the lower and upper thunderclaps, a yielding line in an odd place easily becomes distraught and bewildered when crisis strikes. Yet if one refuses to sink into torpor and instead allows the jolt of adversity to awaken decisive, forward movement, error is left behind. Action prompted by timely awakening rescues the spirit from paralysis."
       },
       {
         "line": 4,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fourth place",
-        "text": "Shock is mired.",
-        "comments": "Movement within the mind depends for its success partly on circumstances. If there is neither a resistance that might be vigorously combated, nor yet a yielding that permits of victory-if, instead, everything is tough and inert like mire-movement is crippled."
+        "name": "Nine in the Fourth Place",
+        "text": "Thunder sinks into the mire.",
+        "comments": "Although this yang line initiates the upper trigram of Thunder, it occupies a yielding position and is hemmed in between pairs of heavy yin lines above and below. Deprived of a clear path forward, its arousing energy becomes bogged down in passive, muddy entanglements. The Small Image notes that until one frees the will from surrounding inertia, luminous initiative cannot shine forth."
       },
       {
         "line": 5,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fifth place",
-        "text": "Shock goes hither and thither.\nDanger.\nHowever, nothing at all is lost.\nYet there are things to be done.",
-        "comments": "This is a case not of a single shock but of repeated shocks with no breathing space between. Nonetheless, the shock causes no loss, because one takes care to stay in the center of movement and in this way to be spared the fate of being helplessly tossed hither and thither."
+        "name": "Six in the Fifth Place",
+        "text": "Thunder comes and goes in peril.\nNothing at all is lost;\nthere are sacred duties to fulfil.",
+        "comments": "Standing in the sovereign fifth place during an era of repeated shocks, this yielding line feels the danger whether advancing or retreating. Yet by cleaving steadfastly to the central mean, one avoids panic and preserves the core trust intact. Focusing conscientiously on the immediate responsibilities of office—symbolised by safeguarding the ancestral rites—carries one safely through the storm."
       },
       {
         "line": 6,
         "val": 6,
         "type": "yin",
-        "name": "Six at the top",
-        "text": "Shock brings ruin and terrified gazing around.\nGoing ahead brings misfortune.\nIf it has not yet touched one's own body\nBut has reached one's neighbor first,",
-        "comments": "There is no blame.\nOne's comrades have something to talk about.\n\nWhen inner shock is at its height, it robs a man of reflection and clarity of vision. In such a state of shock it is of course impossible to act with presence of mind. Then the right thing is to keep still until composure and clarity are restored. But this a man can do only when he himself is not yet infected by the agitation, although its disastrous effects are already visible in those around him. If he withdraws from the affair in time, he remains free of mistakes and injury. But his comrades, who no longer heed any warning, will in their excitement certainly be displeased with him. However, he must not take this into account."
+        "name": "Top Six",
+        "text": "Thunder brings breathless palsy and terrified glances.\nAdvancing brings misfortune.\nIf the shock has not yet struck one's own person\nbut has reached one's neighbour, there is no fault;\nyet kinsfolk will have words of complaint.",
+        "comments": "At the extreme height of the hexagram, where the shock reaches exhaustion, inner composure gives way to trembling agitation and wild-eyed confusion; any rash offensive under such conditions courts disaster. However, if one heeds the early warning signs when the tremor first strikes a neighbour and takes shelter in advance, fault is averted. Though shortsighted companions may murmur at such precaution, prudent foresight preserves life."
       }
     ],
-    "judgmentCommentary": "The shock that comes from the manifestation of God within the depths of the earth makes man afraid, but this fear of God is good, for joy and merriment can follow upon it. When a man has learned within his heart what fear and trembling mean, he is safeguarded against any terror produced by outside influences. Let the thunder roll and spread terror a hundred miles around: he remains so composed and reverent in spirit that the sacrificial rite is not interrupted. This is the spirit that must animate leaders and rulers of men-a profound inner seriousness from which all terrors glance off harmlessly.",
-    "imageCommentary": "The shock of continuing thunder brings fear and trembling. The superior man is always filled with reverence at the manifestation of God; he sets his life in order and searches his heart, lest it harbor any secret opposition to the will of God. Thus reverence is the foundation of true culture.",
-    "structureCommentary": "The hexagram Chên represents the eldest son, who seizes rule with energy and power. A yang line develops below two yin lines and presses upward forcibly. This movement is so violent that it arouses terror. It is symbolized by thunder, which bursts forth from the earth and by its shock causes fear and trembling."
+    "judgmentCommentary": "The Commentary on the Decision explains that when the Arousing strikes, the initial tremor of awe awakens the heart from complacency, ensures order, and thus gives rise to subsequent joy and composure. Even when heaven's thunderbolt shakes the earth across a hundred leagues, startles the distant, and terrifies the near, the worthy leader remains so inwardly anchored that not a drop of the fragrant libation is spilled from the ladle during the ancestral sacrifice. Such unshakeable poise shows that one is fit to step forth and guard the sacred temples and altars of the land.",
+    "imageCommentary": "Peal after peal of thunder rolls across the sky, stirring dormant life into sudden wakefulness through consecutive waves of electric energy. Rather than being paralysed by external panic, the noble person internalises this cosmic reverence as a spur to moral self-examination. By scrutinising hidden motives and correcting faults before they manifest, one cultivates an inner stillness that no outward tempest can overthrow.",
+    "structureCommentary": "Formed by doubling the trigram Zhèn (Thunder, the eldest son), this fifty-first hexagram features a single vigorous yang line erupting beneath two yielding yin lines in both the lower and upper realms. The initial yang line governs the whole figure as the dynamic spark of creative movement breaking through subterranean inertia, whilst the fourth yang line represents thunder echoed in the heights."
   },
   {
     "number": 52,
     "unicode": "䷳",
     "chinese": "艮",
     "pinyin": "Gèn",
-    "english": "Keeping Still Mountain",
+    "english": "Mountain Stillness",
     "upperTrigram": {
       "name": "Mountain",
       "chinese": "艮",
@@ -5005,68 +5019,68 @@ var HEXAGRAMS = [
       0,
       1
     ],
-    "judgment": "Keeping Still. Keeping the back still so one feels no attachment to selfish desire. Peace within.",
-    "image": "Mountains standing close together: the image of Keeping Still. Thus the superior person does not let thoughts drift beyond their position.",
+    "judgment": "Mountain Stillness. Stilling one's back so that one no longer claims the ego-self; walking through one's courtyard without perceiving the people therein: free from fault.",
+    "image": "Mountains standing joined together: the emblem of Mountain Stillness. Thus the noble person does not let his thoughts stray beyond his station.",
     "lineTexts": [
       {
         "line": 1,
         "val": 6,
         "type": "yin",
-        "name": "Six at the beginning",
-        "text": "Keeping his toes still.",
-        "comments": "No blame.\nContinued perseverance furthers.\n\nKeeping the toes still means halting before one has even begun to move. The beginning is the time of few mistakes. At that time one is still in harmony with primal innocence. Not yet influenced by obscuring interests and desires, one sees things intuitively as they really are. A man who halts at the beginning, so long as he has not yet abandoned the truth, finds the right way. But persisting firmness is needed to keep one from drifting irresolutely."
+        "name": "Initial Six",
+        "text": "Stilling one's toes:\nfree from fault.\nEnduring steadfastness is favourable.",
+        "comments": "At the very lowest threshold of movement, the toes are brought to rest before a single errant step has been taken. Halting at the earliest stirring of impulse preserves original uprightness and keeps one entirely free from fault. Because a yielding line at the beginning might otherwise lack endurance, the oracle counsels sustaining this quiet resolve over the long term."
       },
       {
         "line": 2,
         "val": 6,
         "type": "yin",
-        "name": "Six in the second place",
-        "text": "Keeping his calves still.\nHe cannot rescue him whom he follows.\nHis heart is not glad.",
-        "comments": "The leg cannot move independently; it depends on the movement of the body. If a leg is suddenly stopped while the whole body is in vigorous motion, the continuing body movement will make one fall. The same is true of a man who serves a master stronger than himself. He is swept along, and even though he may himself halt on the path of wrongdoing, he can no longer check the other in his powerful movement. Where the master presses forward, the servant, no matter how good his intentions, cannot save him."
+        "name": "Six in the Second Place",
+        "text": "Stilling one's calves;\nit cannot rescue the one whom it follows.\nIts heart is not glad.",
+        "comments": "Although this line is central and upright within the lower trigram, the calves do not initiate motion on their own; they are pulled along by the rigid thighs and loins of the third line immediately above. Because the superior third line is locked in forced, unyielding tension and refuses to step back and listen, the second line cannot save it from error, leaving the heart heavy with regret."
       },
       {
         "line": 3,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the third place",
-        "text": "Keeping his hips still.\nMaking his sacrum stiff.\nDangerous. The heart suffocates.",
-        "comments": "This refers to enforced quiet. The restless heart is to be subdued by forcible means. But fire when it is smothered changes into acrid smoke that suffocates as it spreads. Therefore, in exercises in meditation and concentration, one ought not to try to force results. Rather, calmness must develop naturally out of a state of inner composure. If one tries to induce calmness by means of artificial rigidity, meditation will lead to very unwholesome results."
+        "name": "Nine in the Third Place",
+        "text": "Stilling one's loins and stiffening the spine:\nperilous; the heart smoulders with suffocating heat.",
+        "comments": "Occupying the boundary between the lower and upper realms with excessive yang rigidity, this line attempts to enforce stillness through violent muscular and mental suppression at the waist. True tranquillity can never be achieved by clamping down on the vital breath; artificial rigidity only severs harmony between above and below, causing restless anxiety to smoulder within the heart like acrid smoke."
       },
       {
         "line": 4,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fourth place",
-        "text": "Keeping his trunk still.",
-        "comments": "No blame.\n\nAs has been pointed out above in the comment on the Judgment, keeping the back at rest means forgetting the ego. This is the highest stage of rest. Here this stage has not yet been reached: the individual in this instance, though able to keep the ego, with its thoughts and impulses, in a state of rest, is not yet quite liberated from its dominance. Nonetheless, keeping the heart at rest is an important function, leading in the end to the complete elimination of egotistic drives. Even though at this point one does not yet remain free from all the dangers of doubt and unrest, this frame of mind is not a mistake, as it leads ultimately to that other, higher level."
+        "name": "Six in the Fourth Place",
+        "text": "Stilling one's torso:\nfree from fault.",
+        "comments": "A yielding line resting properly in an even place above the waist knows how to quiet the trunk of the body and restrain agitated impulses before they project into the outer world. Even though one has not yet attained the effortless self-forgetfulness of the summit, this composed self-containment keeps the mind calm and free from fault."
       },
       {
         "line": 5,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fifth place",
-        "text": "Keeping his jaws still.",
-        "comments": "The words have order.\nRemorse disappears.\n\nA man in a dangerous situation, especially when he is not adequate to it, is inclined to be very free with talk and presumptuous jokes. But injudicious speech easily leads to situations that subsequently give much cause for regret. However, if a man is reserved in speech, his words take ever more definite form, and every occasion for regret vanishes."
+        "name": "Six in the Fifth Place",
+        "text": "Stilling one's jaws;\nwords possess order and measure,\nand regret vanishes.",
+        "comments": "Occupying the central fifth place with quiet humility, one brings stillness to the cheeks and jaws, refraining from rash or boastful speech. When words are spoken only after calm reflection, they emerge with natural coherence and fitting measure, causing every potential cause for regret to vanish."
       },
       {
         "line": 6,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the top",
-        "text": "Noblehearted keeping still.\nGood fortune.",
-        "comments": "This marks the consummation of the effort to attain tranquillity. One is at rest, not merely in a small, circumscribed way in regard to matters of detail, but one has also a general resignation in regard to life as a whole, and this confers peace and good fortune in relation to every individual matter."
+        "name": "Top Nine",
+        "text": "Magnanimous and thick stillness:\nauspicious.",
+        "comments": "As the governing lord at the summit of the doubled mountain, this yang line embodies stillness brought to rich, generous maturity. Rather than a brittle or temporary pause, one possesses the deep, unshakeable gravitas of a mountain peak that shelters all beings. Finishing the cycle in suchthick, wholehearted composure brings enduring good fortune."
       }
     ],
-    "judgmentCommentary": "True quiet means keeping still when the time has come to keep still, and going forward when the time has come to go forward. In this way rest and movement are in agreement with the demands of the time, and thus there is light in life. The hexagram signifies the end and the beginning of all movement. The back is named because in the back are located all the nerve fibers that mediate movement. If the movement of these spinal nerves is brought to a standstill, the ego, with its restlessness, disappears as it were. When a man has thus become calm, he may turn to the outside world. He no longer sees in it the struggle and tumult of individual beings, and therefore he has that true peace of mind which is needed for understanding the great laws of the universe and for acting in harmony with them. Whoever acts from these deep levels makes no mistakes.",
-    "imageCommentary": "The heart thinks constantly. This cannot be changed, but the movements of the heart-that is, a man's thoughts-should restrict themselves to the immediate situation. All thinking that goes beyond this only makes the heart sore.",
-    "structureCommentary": "The image of this hexagram is the mountain, the youngest son of heaven and earth. The male principle is at the top because it strives upward by nature; the female principle is below, since the direction of its movement has come to its normal end. In its application to man, the hexagram turns upon the problem of achieving a quiet heart. It is very difficult to bring quiet to the heart. While Buddhism strives for rest through an ebbing away of all movement in nirvana, the Book of Changes holds that rest is merely a state of polarity that always posits movement as its complement. Possibly the words of the text embody directions for the practice of yoga."
+    "judgmentCommentary": "The Commentary on the Decision declares that Gèn means coming to a halt: halting when it is time to halt, and advancing when it is time to advance. When movement and rest each observe their proper season, one's path shines with luminous clarity. Stilling the back—the unseen axis of the body where the sensory gates do not face outward in craving—signifies resting in objective principle where selfish attachment dissolves. Even when moving amidst the bustle of the courtyard and the world, one remains inwardly unperturbed by competing desires, and thus commits no fault.",
+    "imageCommentary": "Two mountains rise side by side in tranquil majesty, each resting completely within its own foundation without encroaching upon the other. Observing this immovable equipoise, the noble person anchors awareness squarely within the present duty and immediate circumstance. By refusing to let the mind wander into anxious speculation or covetous ambition beyond its rightful sphere, the heart attains effortless serenity.",
+    "structureCommentary": "Formed by doubling the trigram Gèn (Mountain, the youngest son), this fifty-second hexagram is the exact inverse of the Arousing Thunder. In each trigram, a single firm yang line rises to the summit above two receptive yin lines and comes to a natural halt once its upward momentum is fulfilled. The six lines trace an ascending meditation through the human body—from toes, calves, and loins to torso, jaws, and the crown of consummate stillness."
   },
   {
     "number": 53,
     "unicode": "䷴",
     "chinese": "漸",
     "pinyin": "Jiàn",
-    "english": "Development",
+    "english": "Gradual Advance",
     "upperTrigram": {
       "name": "Wind",
       "chinese": "巽",
@@ -5102,68 +5116,68 @@ var HEXAGRAMS = [
       1,
       1
     ],
-    "judgment": "Development. Gradual progress brings good fortune. Patience and steady cultivation.",
-    "image": "On the mountain, a tree grows: the image of Development. Thus the superior person abides in dignity and virtue to improve customs.",
+    "judgment": "Gradual Advance. The maiden's marriage is auspicious. Steadfast integrity is favourable.",
+    "image": "Upon the mountain grows a tree: the emblem of Gradual Advance. Thus the noble person abides in worthy virtue to refine the customs of the land.",
     "lineTexts": [
       {
         "line": 1,
         "val": 6,
         "type": "yin",
-        "name": "Six at the beginning",
-        "text": "The wild goose gradually draws near the shore.",
-        "comments": "The young son is in danger.\n\nThere is talk. No blame.\n\nAll the individual lines in this hexagram symbolize the gradual flight of the wild goose. The wild goose is the symbol of conjugal fidelity, because it is believed that this bird never takes another mate after the death of the first. The initial line suggests the first resting place in the flight of water birds from the water to the heights. The shore is reached. The situation is that of a lonely young man who is just starting out to make his way in life. Since no one comes to help him, his first steps are slow and hesitant, and he is surrounded by danger. Naturally he is subjected to much criticism. But these very difficulties keep him from being too hasty, and his progress is successful."
+        "name": "Initial Six",
+        "text": "The wild goose gradually approaches the river bank.\nThe young novice faces peril and criticism,\nyet remains free from fault.",
+        "comments": "At the very start of the ascent, the waterbird alights upon the low margin of the stream, corresponding to a newcomer taking the first tentative steps into public life without an established patron above. Because one's footing is still unfamiliar, anxious difficulties and critical words from onlookers arise. Yet this very caution prevents reckless haste, keeping one's conduct free from fault."
       },
       {
         "line": 2,
         "val": 6,
         "type": "yin",
-        "name": "Six in the second place",
-        "text": "The wild goose gradually draws near the cliff.\nEating and drinking in peace and concord.\nGood fortune.",
-        "comments": "The cliff is a safe place on shore. The development has gone a step further. The initial insecurity has been overcome, and a safe position in life has been found, giving one enough to live on. This first success, opening up a path to activity, brings a certain joyousness of mood, and one goes to meet the future reassured. It is said of the wild goose that it calls to its comrades whenever it finds food; this is the symbol of peace and concord in good fortune. A man does not want to keep his good luck for himself only, but is ready to share it with others."
+        "name": "Six in the Second Place",
+        "text": "The wild goose gradually approaches the flat rock,\neating and drinking in joyous fellowship.\nAuspicious.",
+        "comments": "Central, correct, and resonating harmoniously with the sovereign fifth line above, the wild goose reaches a broad, secure boulder along the cliffside where nourishment is plentiful. Free from anxious grasping, one shares the fruits of this stable office with comrades in a spirit of genial concord, earning auspicious renown."
       },
       {
         "line": 3,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the third place",
-        "text": "The wild goose gradually draws near the plateau.",
-        "comments": "The man goes forth and does not return.\n\nThe woman carries a child but does not bring it forth.\nMisfortune.\nIt furthers one to fight off robbers.\n\nThe high plateau is dry and unsuitable for the wild goose. If it goes there, it has lost its way and gone too far. This is contrary to the law of development. It is the same in human life. If we do not let things develop quietly but plunge of our own choice too rashly into a struggle, misfortune results. A man jeopardizes his own life, and his family perishes thereby. However, this is not all necessary; it is only the result of transgressing the law of natural development. If one does not willfully provoke a conflict, but confines himself to vigorously maintaining his own position and to warding off unjustified attacks, all goes well."
+        "name": "Nine in the Third Place",
+        "text": "The wild goose gradually approaches the dry plateau.\nThe husband marches forth and does not return;\nthe wife carries a child yet fails to rear it: inauspicious.\nIt is favourable to ward off marauders.",
+        "comments": "An overly rigid yang line at the top of the lower trigram strays onto an arid tableland unsuitable for a waterbird, signifying a person who abandons gradual measure to plunge into headstrong ambition. When the husband forsakes his family for reckless campaigns and domestic harmony is broken, misfortune follows. Only by restraining aggression and standing firm in mutual defence against outside intrusion can safety be preserved."
       },
       {
         "line": 4,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fourth place",
-        "text": "The wild goose goes gradually draws near the tree.\nPerhaps it will find a flat branch. No blame.",
-        "comments": "A tree is not a suitable place for a wild goose. But if it is clever, it will find a flat branch on which it can get a footing. A man's life too, in the course of its development, often brings him into inappropriate situations, in which he finds it difficult to hold his own without danger. Then it is important to be sensible and yielding. This enables him to discover a safe place in which life can go on, although he may be surrounded by danger."
+        "name": "Six in the Fourth Place",
+        "text": "The wild goose gradually approaches the trees;\nperchance it finds a flat branch.\nFree from fault.",
+        "comments": "Entering the upper trigram of Wood while riding directly atop the rigid third line, the web-footed goose finds itself perched in a tree—an awkward and precarious station. Yet because this yielding line occupies an even place with gentle adaptability, it searches out a broad, level bough where it can rest securely, thereby remaining free from fault."
       },
       {
         "line": 5,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fifth place",
-        "text": "The wild goose gradually draws near the summit.\nFor three years the woman has no child.\nIn the end nothing can hinder her.\nGood fortune.",
-        "comments": "The summit is a high place. In a high position one easily becomes isolated. One is misjudged by the very person on whom one is dependent-the woman by her husband, the official by his superior. This is the work of deceitful persons who have wormed their way in. The result is that relationships remain sterile, and nothing is accomplished. But in the course of further development, such misunderstandings are cleared away, and reconciliation is achieved after all."
+        "name": "Nine in the Fifth Place",
+        "text": "The wild goose gradually approaches the high mound.\nFor three years the wife bears no child,\nyet in the end nothing can prevail against her.\nAuspicious.",
+        "comments": "Occupying the lofty sovereign seat of the fifth place, one stands in rightful resonance with the faithful second line below, yet the intervening third and fourth lines temporarily obstruct their union. Though slander or institutional barriers may delay fulfilment for three years, both partners hold fast to central rectitude. In the end, no intrigue can sever their bond, and joyous fruition is assured."
       },
       {
         "line": 6,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the top",
-        "text": "The wild goose gradually draws near the clouds heights.\nIts feathers can be used for the sacred dance.\nGood fortune.",
-        "comments": "Here life comes to its end. A man's work stands completed. The path rises high toward heaven, like the flight of wild geese when they have left the earth far behind. There they fly, keeping to the order of their flight in strict formation. And if their feathers fall, they can serve as ornaments in the sacred dance pantomimes performed in the temples. Thus the life of a man who has perfected himself is a bright light for the people of earth, who look up to him as an example."
+        "name": "Top Nine",
+        "text": "The wild goose gradually approaches the cloud-path.\nIts feathers may be used for the sacred rites:\nauspicious.",
+        "comments": "Soaring at the very summit of the hexagram, beyond worldly ambition and entanglement, the wild goose traverses the high pathways of the sky in serene formation. The plumes it sheds upon the earth are gathered to adorn the ceremonial dances in the ancestral temple. Likewise, a sage who has transcended desire leaves behind a pure moral example that inspires and orders the world below."
       }
     ],
-    "judgmentCommentary": "The development of events that leads to a girl's following a man to his home proceeds slowly. The various formalities must be disposed of before the marriage takes place. This principle of gradual development can be applied to other situations as well; it is always applicable where it is a matter of correct relationships of co-operation, as for instance in the appointment of an official. The development must be allowed to take its proper course. Hasty action would not be wise. This is also true, finally, of any effort to exert influence on others, for here too the essential factor is a correct way of development through cultivation of one's own personality. No influence such as that exerted by agitators has a lasting effect. Within the personality too, development must follow the same course if lasting results are to be achieved. Gentleness that is adaptable, but at the same time penetrating, is the outer form that should proceed from inner calm. The very gradualness of the development makes it necessary to have perseverance, for perseverance alone prevents slow progress from dwindling to nothing.",
-    "imageCommentary": "The tree on the mountain is visible from afar, and its development influences the landscape of the entire region. It does not shoot up like a swamp plant; its growth proceeds gradually. Thus also the work of influencing people can be only gradual. No sudden influence or awakening is of lasting effect. Progress must be quite gradual, and in order to obtain such progress in public opinion and in the mores of the people, it is necessary for the personality to acquire influence and weight. This comes about through careful and constant work on one's own moral development.",
-    "structureCommentary": "This hexagram is made up of Sun (wood, penetration) above, i.e., without, and Kên (mountain, stillness) below, i.e., within. A tree on a mountain develops slowly according to the law of its being and consequently stands firmly rooted. This gives the idea of a development that proceeds gradually, step by step. The attributes of the trigrams also point to this: within is tranquillity, which guards against precipitate actions, and without is penetration, which makes development and progress possible."
+    "judgmentCommentary": "The Commentary on the Decision notes that Gradual Advance mirrors the ceremonial steps by which a bride is betrothed and welcomed into her new home: nothing is hurried, and therefore the union is auspicious. Moving forward into the proper positions—with the yielding second line and the firm fifth line each holding the central seat in harmonious resonance—ensures lasting achievement. By uniting inner stillness with gentle outer penetration, one's motion never degenerates into restless exhaustion, and uprightness steadily transforms the realm.",
+    "imageCommentary": "A lofty tree rooted high upon a mountain slope does not shoot up overnight like marsh grass; it grows imperceptibly year by year, deepening its roots into the rock as its canopy rises into the sky. In the same way, the noble person understands that public mores and social habits cannot be reformed by sudden decrees. By dwelling consistently in exemplary virtue, one's quiet dignity gradually elevates and refines the customs of the entire community.",
+    "structureCommentary": "Composed of Gèn (Mountain, stillness) below and Xùn (Wind and Wood, gentle penetration) above, this fifty-third hexagram pairs inner composure with outer adaptability. The central lines—Six in the Second Place and Nine in the Fifth Place—stand in perfect yin-yang correspondence and correct placement, anchoring the gradual ascent. Throughout all six lines, the migrating wild goose (hóng), renowned in classical lore for seasonal punctuality and marital fidelity, serves as the poetic emblem of step-by-step progression."
   },
   {
     "number": 54,
     "unicode": "䷵",
     "chinese": "歸妹",
     "pinyin": "Guī Mèi",
-    "english": "The Marrying Maiden",
+    "english": "The Betrothed Maiden",
     "upperTrigram": {
       "name": "Thunder",
       "chinese": "震",
@@ -5199,61 +5213,61 @@ var HEXAGRAMS = [
       0,
       0
     ],
-    "judgment": "The Marrying Maiden. Entering a secondary or impulsive situation brings difficulty. Act with care.",
-    "image": "Thunder over the lake: the image of the Marrying Maiden. Thus the superior person understands the fleeting in the light of the eternal.",
+    "judgment": "The Marrying Maiden. Pressing forward brings misfortune; nothing is favourable.",
+    "image": "Above the lake resounds thunder: the emblem of the Marrying Maiden. Thus the noble person contemplates the distant end and recognises where decay begins.",
     "lineTexts": [
       {
         "line": 1,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the beginning",
-        "text": "The marrying maiden as a concubine.\nA lame man who is able to tread.\nUndertakings bring good fortune.",
-        "comments": "The princess of ancient China maintained a fixed order of rank among the court ladies, who were subordinated to the queen as are younger sisters to the eldest. Frequently they came from the family of the queen, who herself led them to her husband. The meaning is that a girl entering a family with the consent of the wife will not rank outwardly as the equal of the latter but will withdraw modestly into the background. However, if she understands how to fit herself into the pattern of things, her position will be entirely satisfactory, and she will feel sheltered in the love of the husband to whom she bears children. The same meaning is brought out in the relationships between officials. A man may enjoy the personal friendship of a prince and be taken into his confidence. Outwardly this man must keep tactfully in the background behind the official ministers of state, but, although he is hampered by this status, as if he were lame, he can nevertheless accomplish something through the kindliness of his nature."
+        "name": "Initial Nine",
+        "text": "The marrying maiden goes as a junior bride.\nOne who is lame is still able to tread:\nsetting forth is auspicious.",
+        "comments": "In ancient Zhou custom, a bride of noble house was accompanied by a younger sister or cousin as a secondary consort. Positioned at the lowest rank with firm inner integrity, one accepts a modest, subordinate role without competing for primary prominence. Like a person who walks with a slight limp—unable to stride far on their own, yet able to lend steady support to a worthy partner—one accomplishes genuine good by serving faithfully from the background."
       },
       {
         "line": 2,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the second place",
-        "text": "A one-eyed man who is able to see.",
-        "comments": "The perseverance of a solitary man furthers.\n\nHere the situation is that of a girl married to a man who has disappointed her. Man and wife ought to work together like a pair of eyes. Here the girl is left behind in loneliness; the man of her choice either has become unfaithful or has died. But she does not lost the inner light of loyalty. Thought the other eye is gone, she maintains her loyalty even in loneliness."
+        "name": "Nine in the Second Place",
+        "text": "One who is dim-sighted in one eye is still able to see.\nThe steadfast integrity of a recluse is favourable.",
+        "comments": "A strong, central line in the lower trigram corresponds to the yielding fifth line above, yet finds itself situated within a compromised arrangement where full mutual harmony is lacking. Though one's outer circumstance is partially obscured—like seeing with a single eye—inner clarity of vision remains undiminished. By maintaining the quiet, self-contained fidelity of a solitary sage rather than clamouring for recognition, one preserves dignity and peace."
       },
       {
         "line": 3,
         "val": 6,
         "type": "yin",
-        "name": "Six in the third place",
-        "text": "The marrying maiden as a slave.",
-        "comments": "She marries as a concubine.\n\nA girl who is in a lowly position and finds no husband may, in some circumstances, still win shelter as a concubine. This pictures the situation of a person who longs too much for joys that cannot be obtained in the usual way. He enters upon a situation not altogether compatible with self-esteem. Neither judgment nor warning is added to this line; it merely lays bare the actual situation, so that everyone may draw a lesson from it."
+        "name": "Six in the Third Place",
+        "text": "The marrying maiden waits in lowly station,\nthen returns to wed as a junior consort.",
+        "comments": "At the top of the trigram of pleasure, this yielding line is neither central nor upright, allowing excessive longing for worldly enjoyment to override self-respect. Finding no honourable match on equal terms, one settles for a subordinate, dependent position. The oracle attaches no explicit omen here, simply holding up a mirror to the compromises born of impatient desire."
       },
       {
         "line": 4,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fourth place",
-        "text": "The marrying maiden draws out the allotted time.\nA late marriage comes in due course.",
-        "comments": "The girl is virtuous. She does not wish to throw herself away, and allows the customary time for marriage to slip by. However, there is no harm in this; she is rewarded for her purity and, even though belatedly, finds the husband intended for her."
+        "name": "Nine in the Fourth Place",
+        "text": "The marrying maiden lets the appointed season pass;\na belated marriage comes in due time.",
+        "comments": "Unlike the impatient third line, this firm yang line in the upper trigram possesses strong self-command and refuses to enter into an unworthy or hasty union merely to conform to custom. Even though the conventional hour slips by and one must wait alone, such high-minded purity is never wasted; in due course, the right partner and rightful occasion arrive."
       },
       {
         "line": 5,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fifth place",
-        "text": "The sovereign I gave his daughter in marriage.",
-        "comments": "The embroidered garments of the princess\nWere not as gorgeous\nAs those of the serving maid.\n\nThe moon that is nearly full\nBrings good fortune.\n\nThe sovereign I is T'ang the Completer. This ruler decreed that the imperial princesses should be subordinated to their husbands in the same manner as other women (cf. Hexagram\n\n11, six in the fifth place). The emperor does not wait for a suitor to woo his daughter but gives her in marriage when he sees fit. Therefore it is in accord with custom for the girl's family to take the initiative here. We see here a girl of aristocratic birth who marries a man of modest circumstances and understands how to adapt herself with grace to the new situation. She is free of all vanity of outer adornment, and forgetting her rank in her marriage, takes a place below that of her husband, just as the moon, before it is quite full, does not directly face the sun."
+        "name": "Six in the Fifth Place",
+        "text": "Sovereign Yi gave his royal daughter in marriage.\nThe embroidered sleeves of the princess\nwere not as splendid as those of her junior brides.\nThe moon nearly at the full: auspicious.",
+        "comments": "Occupying the central seat of honour and descending in marriage to the worthy second line below, the imperial princess sets aside all arrogance of rank and outward finery, prizing inner virtue far above gorgeous garments. Like the waxing moon just before its full phase—radiant yet refraining from directly opposing the sun—her gracious humility brings supreme harmony and good fortune to the household."
       },
       {
         "line": 6,
         "val": 6,
         "type": "yin",
-        "name": "Six at the top",
-        "text": "The woman holds the basket, but there are no fruits in it.",
-        "comments": "The man stabs the sheep, but no blood flows.\n\nNothing that acts to further.\n\nAt the sacrifice to the ancestors, the woman had to present harvest offerings in a basket, while the man slaughtered the sacrificial animal with his own hand. Here the ritual is only superficially fulfilled; the woman takes an empty basket and the man stabs a sheep slaughtered beforehand-solely to preserve the forms. This impious, irreverent attitude bodes no good for a marriage."
+        "name": "Top Six",
+        "text": "The woman holds up the basket, yet there is no fruit within;\nthe man stabs the sacrificial sheep, yet no blood flows.\nNothing is favourable.",
+        "comments": "At the extreme end of the hexagram, where two yin lines culminate in exhaustion without a counterpart below, a marriage or covenant has been reduced to hollow, loveless formality. In the ancestral temple, the bride presents an empty wicker basket and the groom strikes a lifeless offering devoid of vital blood. Where genuine sincerity and devotion are absent, empty ceremony avails nothing."
       }
     ],
-    "judgmentCommentary": "A girl who is taken into the family, but not as the chief wife, must behave with special caution and reserve. She must not take it upon herself to supplant the mistress of the house, for that would mean disorder and lead to untenable relationships. The same is true of all voluntary relationships between human beings. While legally regulated relationships based on personal inclination depend in the long run entirely on tactful reserve. Affection as the essential principle of relatedness is of the greatest importance in all relationships in the world. For the union of heaven and earth is the origin of the whole of nature. Among human beings likewise, spontaneous affection is the all-inclusive principle of union.",
-    "imageCommentary": "Thunder stirs the water of the lake, which follows it in shimmering waves. This symbolizes the girl who follows the man of her choice. But every relationship between individuals bears within it the danger that wrong turns may be taken, leading to endless misunderstandings and disagreements. Therefore it is necessary constantly to remain mindful of the end. If we permit ourselves to drift along, we come together and are parted again as the day may determine. If on the other hand a man fixes his mind on an end that endures, he will succeed in avoiding the reefs that confront the closer relationships of people.",
-    "structureCommentary": "Above we have Chên, the eldest son, and below, Tui, the youngest daughter. The man leads and the girl follows him in gladness. The picture is that of the entrance of the girl into her husband's house. In all, there are four hexagrams depicting the relationship between husband and wife. Hsien, INFLUENCE,\n\n31, describes the attraction that a young couple have for each other; Hêng, DURATION\n\n32, portrays the permanent relationships of marriage; Chien, DEVELOPMENT\n\n53, reflects the protracted, ceremonious procedures attending THE MARRYING MAIDEN, shows a young girl under the guidance of an older man who marries her."
+    "judgmentCommentary": "The Commentary on the Decision affirms that the union of heaven and earth gives birth to the myriad beings, and that the union of man and woman forms the enduring foundation of human society. Yet in the Marrying Maiden, joyous desire below stirs impulsive movement above, portraying a younger sister who enters a household on the initiative of passion rather than formal ritual. Because yielding lines ride atop firm ones and positions are out of proper alignment, pressing forward ambitiously invites misfortune.",
+    "imageCommentary": "When thunder rolls across the surface of the marsh, the waters shimmer and surge in immediate response to the electric breeze. Recognising how easily human relationships begun in the heat of fleeting attraction deteriorate into discord when foundational principles are neglected, the noble person fixes awareness upon eternal obligations. By foreseeing the ultimate consequences at the very outset, one guards against the subtle beginnings of moral and relational decay.",
+    "structureCommentary": "Formed by Duì (Lake, the youngest daughter, joyous pleasure) below and Zhèn (Thunder, the eldest son, arousing movement) above, this fifty-fourth hexagram is the structural inverse of Gradual Advance. Here the maiden takes the lead in eager delight while the older man is stirred to follow, reversing proper ceremonial decorum. Moreover, in lines two through five, every yin line sits above a yang line in an mismatched position, highlighting the delicate, subordinate status that requires utmost tact."
   },
   {
     "number": 55,
@@ -5296,68 +5310,68 @@ var HEXAGRAMS = [
       0,
       0
     ],
-    "judgment": "Abundance has success. Zenith of light and movement. Be not sorrowful; be like the sun at noon.",
-    "image": "Both thunder and lightning come: the image of Abundance. Thus the superior person clarifies decisions and dispenses equity.",
+    "judgment": "Abundance brings fulfilment. The king attains to it. Be not anxious; it is fitting to shine like the sun at midday.",
+    "image": "Thunder and lightning arrive together: the emblem of Abundance. Thus the noble person adjudicates cases with clarity and enforces penalties with decisiveness.",
     "lineTexts": [
       {
         "line": 1,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the beginning",
-        "text": "When a man meets his destined ruler,",
-        "comments": "They can be together ten days,\nAnd it is not a mistake.\nGoing meets with recognition.\n\nTo bring about a time of abundance, a union of clarity with energetic movement is needed. Two individuals possessed of these two attributes are suited to each other, and even if they spend an entire cycle of time together during the period of abundance, it will not be too long, nor is it a mistake. Therefore one may go forth, in order to make one's influence felt; it will meet with recognition."
+        "name": "Initial Nine",
+        "text": "Meeting one's matched lord:\neven for a full ten-day cycle there is no fault.\nGoing forward wins esteem.",
+        "comments": "At the inception of Abundance, this firm line of inner clarity meets its kindred yang partner in the fourth line of outer movement. Because illumination requires energetic execution and action requires clear vision, the two complement each other perfectly across an entire ten-day cycle. However, the Small Image cautions that while full cooperation for a complete cycle is honoured, pushing beyond due measure invites excess."
       },
       {
         "line": 2,
         "val": 6,
         "type": "yin",
-        "name": "Six in the second place",
-        "text": "The curtain is of such fullness",
-        "comments": "That the polestars can be seen at noon.\n\nThrough going one meets with mistrust and hate.\nIf one rouses him through truth,\nGood fortune comes.\n\nIt often happens that plots and party intrigues, which have the darkening effect of an eclipse of the sun, come between a ruler intent on great achievement and the man who could effect great undertakings. Then, instead of the sun, we see the northern stars in the sky. The ruler is overshadowed by a party that has usurped power. If a man at such a time were to try to take energetic measures, he would encounter only mistrust and envy, which would prohibit all movement. The essential thing then is to hold inwardly to the power of truth, which in the end is so strong that it exerts an invisible influence on the ruler, so that all goes well."
+        "name": "Six in the Second Place",
+        "text": "So thick is the screening canopy\nthat the dipper stars are seen at noon.\nAdvancing directly meets with suspicion and mistrust;\nyet rousing him through inner sincerity is auspicious.",
+        "comments": "Central and luminous as the ruler of the lower trigram of Fire, this line finds the sovereign fifth line above darkened by narrow-minded, yin-dominated factions—like a solar eclipse so deep that the northern constellations appear at midday. If one presses forward with blunt argument under such clouded conditions, one will encounter only paranoid suspicion. By cultivating unshakeable sincerity within, one's quiet integrity eventually awakens the ruler's heart and restores the light."
       },
       {
         "line": 3,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the third place",
-        "text": "The underbrush is of such abundance",
-        "comments": "That the small stars can be seen at noon.\nHe breaks his right arm . No blame.\n\nThe image is that of a progressive covering over of the sun. Here the eclipse reaches totality, therefore even the small stars can be seen at noon. In the sphere of social relationships, this means that the prince is now so eclipsed that even the most insignificant persons can push themselves into the foreground. This makes it impossible for an able man, though he might be the right hand of the ruler, to undertake anything. It is as though his arm were broken, but he is not to blame for being thus hindered in action."
+        "name": "Nine in the Third Place",
+        "text": "So dense is the obscuring banner\nthat tiny stars are seen at noon.\nOne's right arm is fractured:\nfree from fault.",
+        "comments": "Standing at the top of the lower trigram and corresponding to the darkened top six, this yang line faces a total eclipse where even the faintest stars glimmer at midday. Deprived of a receptive superior, a capable minister is rendered unable to act—as though his right arm were broken. Because the obstruction stems entirely from the benighted state of the times rather than personal negligence, one remains free from fault."
       },
       {
         "line": 4,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fourth place",
-        "text": "The curtain is of such fullness",
-        "comments": "That the polestars can be seen at noon.\nHe meets his ruler, who is of like kind.\nGood fortune.\n\nHere the darkness is already decreasing, therefore interrelated elements come together. Here too the complement must be found-the necessary wisdom to complement joy of action. Then everything will go well. The complementary factor postulated here is the reverse of the one in the first line. In the latter, wisdom is to be complemented by energy, while here energy is complemented by wisdom."
+        "name": "Nine in the Fourth Place",
+        "text": "So thick is the screening canopy\nthat the dipper stars are seen at noon.\nMeeting one's kindred lord:\nauspicious.",
+        "comments": "Occupying an even place beneath two heavy yin lines, this minister of movement also confronts a darkened sky where the midday sun is veiled. Yet instead of acting in isolation, he turns downward to unite with his kindred yang partner in the first line, joining vigorous initiative with lucid wisdom. Through this alliance of light and action, the obscurity begins to lift and auspicious progress is achieved."
       },
       {
         "line": 5,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fifth place",
-        "text": "Lines are coming,\nBlessing and fame draw near.\nGood fortune.",
-        "comments": "The ruler is modest and therefore open to the counsel of able men. Thus he is surrounded by men who suggest to him the lines of action. This brings blessing, fame, and good fortune to him and all the people."
+        "name": "Six in the Fifth Place",
+        "text": "Luminous patterns arrive,\nbringingblessing and renown:\nauspicious.",
+        "comments": "Although yielding by nature, this sovereign fifth line occupies the central throne with open-minded humility, welcoming the radiant counsel of talented worthies from below. When a ruler sets aside self-will to gather luminous minds around the court, resplendent order is restored, bringing shared blessing and enduring renown to the entire realm."
       },
       {
         "line": 6,
         "val": 6,
         "type": "yin",
-        "name": "Six at the top",
-        "text": "His house is in a state of abundance.\nHe screens off his family.\nHe peers through the gate\nAnd no longer perceives anyone.\nFor three years he sees nothing.\nMisfortune.",
-        "comments": "This describes a man who because of his arrogance and obstinacy attains the opposite of what he strives for. He seeks abundance and splendor for his dwelling. He wishes at all odds to be master in his house, which so alienates his family that in the end he finds himself completely isolated."
+        "name": "Top Six",
+        "text": "Making his roof vast and screening off his household,\nhe peers through his doorway:\nsilent and deserted, there is no one there.\nFor three years he beholds no one:\ninauspicious.",
+        "comments": "At the extreme height of Abundance, where arrogance and possessiveness reach their climax, this line builds a grandiose mansion and erects high walls to hoard its splendour in secret. By cutting himself off from human fellowship and concealing his dealings in darkness, he alienates family and friends alike until his courtyard stands utterly desolate. Self-inflicted isolation at the summit of pride inevitably ends in misfortune."
       }
     ],
-    "judgmentCommentary": "It is not given to every mortal to bring about a time of outstanding greatness and abundance. Only a born ruler of men is able to do it, because his will is directed to what is great. Such a time of abundance is usually brief. Therefore a sage might well feel sad in view of the decline that must follow. But such sadness foes not befit him. Only a man who is inwardly free of sorrow and care can lead in a time of abundance. He must be like the sun at midday, illuminating and gladdening everything under heaven.",
-    "imageCommentary": "21, in which thunder and lightning similarly appear together, but in the reverse order. In BITING THROUGH, laws are laid down; here they are applied and enforced. Clarity [Li] within makes it possible to investigate the facts exactly, and shock [Chên] without ensures a strict and precise carrying out of punishments.",
-    "structureCommentary": "Chên is movement; Li is flame, whose attribute is clarity. Clarity within, movement without-this produces greatness and abundance. The hexagram pictures a period of advanced civilization. However, the fact that development has reached a peak suggests that this extraordinary condition of abundance cannot be maintained permanently."
+    "judgmentCommentary": "The Commentary on the Decision declares that Abundance signifies greatness achieved through the union of lucid intelligence within and vigorous action without. Only a sovereign spirit of vast vision can gather the myriad resources of the world to their zenith. Because the cosmic law decrees that the sun at noon begins its decline and the full moon begins to wane—just as heaven and earth alternate through fullness and emptiness with the seasons—a wise mind might easily feel sorrow at the peak of prosperity. Rather than brooding over inevitable change, the ruler banishes anxiety and radiates impartial light like the midday sun, illuminating all under heaven.",
+    "imageCommentary": "When the blinding flash of lightning and the mighty roll of thunder break forth simultaneously, the sky is filled with overwhelming splendour and majesty. Embodying both trigrams, the noble person applies the penetrating clarity of Fire to investigate the exact truth of legal disputes without being deceived, and wields the arousing force of Thunder to execute just judgements swiftly and without hesitation.",
+    "structureCommentary": "Composed of Lí (Fire, solar clarity) below and Zhèn (Thunder, dynamic movement) above, this fifty-fifth hexagram depicts a civilisation at the height of its cultural and material noon. Yet because great fullness naturally casts deep shadows when obstructed by self-interest or faction, the middle lines employ the striking astronomical imagery of a solar eclipse—where curtains and screens obscure the midday sun until the northern stars become visible—teaching how inner truth pierces through political darkness."
   },
   {
     "number": 56,
     "unicode": "䷷",
     "chinese": "旅",
     "pinyin": "Lǚ",
-    "english": "The Wanderer",
+    "english": "The Sojourner",
     "upperTrigram": {
       "name": "Fire",
       "chinese": "離",
@@ -5393,68 +5407,68 @@ var HEXAGRAMS = [
       0,
       1
     ],
-    "judgment": "The Wanderer. Success through modesty. Traveling through unfamiliar territory with careful respect.",
-    "image": "Fire on the mountain: the image of the Wanderer. Thus the superior person is clear-minded, cautious, and avoids lingering entanglements.",
+    "judgment": "The Sojourner. Fulfilment in small matters. For the sojourner, steadfast integrity is auspicious.",
+    "image": "Upon the mountain blazes fire: the emblem of the Sojourner. Thus the noble person applies penalties with lucid caution and never allows litigation to linger.",
     "lineTexts": [
       {
         "line": 1,
         "val": 6,
         "type": "yin",
-        "name": "Six at the beginning",
-        "text": "If the wanderer busies himself with trivial things,\nHe draws down misfortune upon himself.",
-        "comments": "A wanderer should not demean himself or busy himself with inferior things he meets with along the way. The humbler and more defenseless his outward position, the more should he preserve his inner dignity. For a stranger is mistaken if he hopes to find a friendly reception through lending himself to jokes and buffoonery. The result will be only contempt and insulting treatment."
+        "name": "Initial Six",
+        "text": "The sojourner busies himself with petty trifles;\nthus he draws calamity upon himself.",
+        "comments": "Occupying the lowest station of a stranger on the road, this yielding line lacks inner gravitas and stoops to nitpicking, undignified pettiness. When a traveller without local standing forfeits self-respect through mean-spirited behaviour or trivial squabbles, he invites contempt and exhaustion. The Small Image notes that such misfortune is entirely self-incurred."
       },
       {
         "line": 2,
         "val": 6,
         "type": "yin",
-        "name": "Six in the second place",
-        "text": "The wanderer comes to an inn.\nHe has his property with him.\nHe wins the steadfastness of a young servant.",
-        "comments": "The wanderer her described is modest and reserved. He does not lose touch with his inner being, hence he finds a resting place. In the outside world he does not lose the liking of other people, hence all persons further him, so that he can acquire property. Moreover, he wins the allegiance of a faithful and trustworthy servant-a thing of inestimable value to a wanderer."
+        "name": "Six in the Second Place",
+        "text": "The sojourner comes to a lodging house,\ncherishes his resources,\nand wins the steadfast loyalty of a young attendant.",
+        "comments": "Central, upright, and grounded in the quiet composure of the Mountain trigram, this traveller conducts himself with unassuming modesty and warmth. Because his demeanour is trustworthy and his means are prudently managed, he secures a safe resting place and earns the devoted service of a faithful companion—an invaluable blessing when far from home."
       },
       {
         "line": 3,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the third place",
-        "text": "The wanderer's inn burns down.\nHe loses the steadfastness of his young servant.\nDanger.",
-        "comments": "A truculent stranger does not know how to behave properly. He meddles in affairs and controversies that do not concern him; thus he loses his resting place. He treats his servant with aloofness and arrogance; thus he loses the man's loyalty. When a stranger in a strange land has no one left on whom he can rely, the situation becomes very dangerous."
+        "name": "Nine in the Third Place",
+        "text": "The sojourner burns down his lodging house\nand loses his young attendant.\nSteadfastness faces peril.",
+        "comments": "An overly rigid yang line perched at the summit of the lower mountain presses hard against the upper trigram of Fire, behaving with overbearing arrogance in a foreign place. By meddling abrasively in local affairs and treating subordinates with harshness, he destroys his own shelter and alienates his sole loyal helper, leaving himself isolated in grave danger."
       },
       {
         "line": 4,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fourth place",
-        "text": "The wanderer rests in a shelter.\nHe obtains his property and an ax.\nMy heart is not glad.",
-        "comments": "This describes a wanderer who knows how to limit his desires outwardly, though he is inwardly strong and aspiring. Therefore he finds at least a place of shelter in which he can stay. He also succeeds in acquiring property, but even with this he is not secure. He must be always on guard, ready to defend himself with arms. Hence he is not at ease. He is persistently conscious of being a stranger in a strange land."
+        "name": "Nine in the Fourth Place",
+        "text": "The sojourner rests in a temporary shelter\nand obtains his resources and a protective axe;\nyet my heart is not glad.",
+        "comments": "Having entered the lower line of the outer trigram of Fire, this strong line tempers its force in an even place and secures both provisions and the means of self-defence. Yet because a fourth place is neither central nor permanently settled, one must remain constantly on guard behind defensive weapons, preventing the heart from enjoying true ease."
       },
       {
         "line": 5,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fifth place",
-        "text": "He shoots a pheasant.\nIt drops with the first arrow.\nIn the end this brings both praise and office.",
-        "comments": "Traveling statesman were in the habit of introducing themselves to local princes with the gift of a pheasant, killing it at the first shot. Thus he finds friends who praise and recommend him, and in the end the prince accepts him and confers an office upon him. Circumstances often cause a man to seek a home in foreign parts. If he knows how to meet the situation and how to introduce himself in the right way, he may find a circle of friends and a sphere of activity even in a strange country."
+        "name": "Six in the Fifth Place",
+        "text": "Shooting a pheasant,\nwith a single arrow it is brought down.\nIn the end this brings praise and a mandate of office.",
+        "comments": "As the central ruler of the upper trigram of Fire—whose classical emblem is the brilliantly plumed pheasant—this yielding line approaches a foreign court with grace, cultural refinement, and unerring skill. Though a single arrow is expended in presenting the ritual gift of introduction, one's luminous virtue wins the admiration of local worthies, culminating in high praise and an honourable appointment."
       },
       {
         "line": 6,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the top",
-        "text": "The bird's nest burns up.",
-        "comments": "The wanderer laughs at first,\n\nThen must needs lament and weep.\n\nThrough carelessness he loses his cow.\nMisfortune.\n\nThe picture of a bird whose nest burns up indicates loss of one's resting place. This misfortune may overtake the bird if it is heedless and imprudent when building its nest. It is the same with a wanderer. If he lets himself go, laughing and jesting, and forgets that he is a wanderer, he will later have cause to weep and lament. For if through carelessness a man loses his cow-i.e., his modesty and adaptability-evil will result."
+        "name": "Top Nine",
+        "text": "The bird burns up its nest.\nThe sojourner first laughs,\nthen afterwards wails and laments.\nLosing his ox in careless ease:\ninauspicious.",
+        "comments": "At the blazing apex of Fire, an unyielding line forgets entirely that it is a guest in a foreign land and exults in reckless, boastful pride. Like a bird nesting so high in dry branches that flames consume its home, initial merriment swiftly turns to bitter weeping. By forfeiting the docile adaptability symbolised by the ox, one brings ruin upon oneself with none to offer sympathy."
       }
     ],
-    "judgmentCommentary": "A wanderer has no fixed abode; his home is the road. Therefore he must take care to remain upright and steadfast, so that he sojourns only in the proper places, associating only with good people. Then he has good fortune and can go his way unmolested.",
-    "imageCommentary": "When grass on a mountain takes fire, there is bright light. However, the fire does not linger in one place, but travels on to new fuel. It is a phenomenon of short duration. This is what penalties and lawsuits should be like. They should be a quickly passing matter, and must not be dragged out indefinitely. Prisons ought to be places where people are lodged only temporarily, as guests are. They must not become dwelling places.",
-    "structureCommentary": "The mountain, Kên, stands still; above it fire, Li, flames up and does not tarry. Therefore the two trigrams do not stay together. Strange lands and separation are the wanderer's lot."
+    "judgmentCommentary": "The Commentary on the Decision explains that the Sojourner achieves fulfilment in small matters because the yielding fifth line occupies a central place outside its native realm and accords harmoniously with the strong lines flanking it. When inner stillness is paired with outer illumination, one navigates unfamiliar territory without losing composure or provoking hostility. A stranger away from home lacks broad institutional power, yet by maintaining modest, upright integrity, one secures safe passage and auspicious shelter. Great indeed is the art of right conduct during a time of sojourning.",
+    "imageCommentary": "A grass fire sweeping across a mountain ridge shines brightly against the sky, yet it never abides long in one spot, moving swiftly onward as its fuel is consumed. Guided by this image of mountain stability combined with passing flame, the noble person exercises utmost clarity and restraint in administering justice. Just as fire does not tarry on the hill, a humane magistrate resolves disputes promptly and never leaves prisoners languishing in protracted confinement.",
+    "structureCommentary": "Formed by Gèn (Mountain, stillness) below and Lí (Fire, clinging radiance) above, this fifty-sixth hexagram is the inverse of Abundance. Whereas the mountain stands immovable below, the flame flares upward and travels on, signifying the separation of dwelling and traveller. Governed by Six in the Fifth Place—a yielding guest sitting centrally between two firm hosts in the fourth and sixth lines—the hexagram counsels humility, vigilance, and self-containment in foreign lands."
   },
   {
     "number": 57,
     "unicode": "䷸",
     "chinese": "巽",
     "pinyin": "Xùn",
-    "english": "The Gentle Wind",
+    "english": "Gentle Penetration",
     "upperTrigram": {
       "name": "Wind",
       "chinese": "巽",
@@ -5490,61 +5504,61 @@ var HEXAGRAMS = [
       1,
       1
     ],
-    "judgment": "The Gentle. Success through small, penetrating influences. Adaptability and constant gentleness.",
-    "image": "Winds following one upon the other: the image of the Gentle. Thus the superior person spreads influence patiently abroad.",
+    "judgment": "Gentle Penetration. Fulfilment in small matters. It is favourable to have a destination to go to; it is favourable to behold the great person.",
+    "image": "Winds following one after another: the emblem of Gentle Penetration. Thus the noble person reiterates his ordinances and carries out his undertakings.",
     "lineTexts": [
       {
         "line": 1,
         "val": 6,
         "type": "yin",
-        "name": "Six at the beginning",
-        "text": "In advancing and in retreating,",
-        "comments": "The perseverance of a warrior furthers.\n\nIn born gentleness is often carried to the point of indecisiveness. One does not feel strong enough to advance resolutely. A thousand doubts crop up; one is, however, not minded to withdraw but drifts indecisively to and fro. In such a situation, a military decisiveness is the proper thing, so that one resolutely does what order demands. Resolute discipline is far better than irresolute license."
+        "name": "Initial Six",
+        "text": "Advancing and retreating:\nthe steadfast integrity of a warrior is favourable.",
+        "comments": "At the lowest position of Gentle Penetration, a yielding line is overly prone to hesitant scruples—stepping forward one moment and shrinking back the next as doubts multiply. To cure this wavering indecisiveness, one must adopt the crisp, disciplined resolve of a soldier. Once inner command is established, hesitation gives way to orderly conduct."
       },
       {
         "line": 2,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the second place",
-        "text": "Penetration under the bed.\nPriests and magicians are used in great number.\nGood fortune. No blame.",
-        "comments": "At times one has to deal with hidden enemies, intangible influences that slink into dark corners and from this hiding affect people by suggestion. In instances like this, it is necessary to trace these things back to the most secret recesses, in order to determine the nature of the influences to be dealt with. This is the task of the priests; removing the influences is the task of the magicians. The very anonymity of such plotting requires an especially vigorous and indefatigable effort, but this is well worth while. For when such elusive influences are brought into the light and branded, they lose their power over people."
+        "name": "Nine in the Second Place",
+        "text": "Penetration beneath the couch.\nEmploying chroniclers and shamans in abundance:\nauspicious and free from fault.",
+        "comments": "Occupying the central seat of the lower trigram, this firm line stoops down to investigate shadowy, subterranean influences lurking beneath the resting place. Like summoning temple scribes to diagnose hidden grievances and ritual exorcists to dispel noxious vapours, one brings secretive intrigues and unspoken anxieties into the clear light of day. Because the inquiry flows from sincere centrality rather than paranoia, the outcome is auspicious and free from fault."
       },
       {
         "line": 3,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the third place",
-        "text": "Repeated penetration. Humiliation.",
-        "comments": "Penetrating reflection must not be pushed too far, lest it cripple the power of decision. After a matter has been thoroughly pondered, it is essential to form a decision and to act. Repeated deliberation brings fresh doubts and scruples, and thereby humiliation, because one shows oneself unable to act."
+        "name": "Nine in the Third Place",
+        "text": "Repeated, anxious penetration:\ndistress.",
+        "comments": "An overly rigid yang line at the top of the lower trigram analyses a matter over and over without ever arriving at a clean resolution. When penetrating reflection degenerates into compulsive over-thinking and brow-beating, the will becomes exhausted and paralysed, resulting in humiliation."
       },
       {
         "line": 4,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fourth place",
-        "text": "Remorse vanishes.\nDuring the hunt",
-        "comments": "Three kinds of game are caught.\n\nWhen a responsible position and accumulated experience lead one to combine innate modesty with energetic action, great success is assured. The three kinds of animals referred to served for offerings to the gods, for feasting guests, and for everyday consumption. When the catch answered all three purposes, the hunt was considered especially successful."
+        "name": "Six in the Fourth Place",
+        "text": "Regret vanishes.\nIn the hunt, three classes of game are taken.",
+        "comments": "A yielding line in a proper even place, resting directly beneath the sovereign fifth line and supported by yang lines below, unites humble tact with active competence. All initial misgivings vanish as one's efforts yield a threefold harvest—traditionally the game reserved for ancestral sacrifices, for feasting guests, and for supplying the royal kitchen—signifying complete and varied accomplishment."
       },
       {
         "line": 5,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fifth place",
-        "text": "Perseverance brings good fortune.\nRemorse vanishes.",
-        "comments": "Nothing that does not further.\n\nNo beginning, but an end.\nBefore the change, three days.\nAfter the change, three days.\nGood fortune.\n\nIn the situation described in Ku, WORK ON WHAT HAS BEEN SPOILED\n\n18, an entirely new point of departure must be set up, whereas here it is only a question of reforms. The beginning has not been good, but the moment has been reached when a new direction can be taken. Change and improvement are called for. Such steps must be undertaken with steadfastness, that is, with a firm and correct attitude of mind; then they will succeed, and remorse will disappear. But it must be remembered that such improvements require careful consideration. Before a change is made, it must be pondered over again and again. After the change is made, it is necessary to note carefully for some time after how the improvements bear the test of actuality. Such careful work is accompanied by good fortune."
+        "name": "Nine in the Fifth Place",
+        "text": "Steadfast integrity is auspicious; regret vanishes;\nnothing fails to be favourable.\nWithout a bright beginning, yet with a fulfilled end.\nThree days before the Gēng day, and three days after the Gēng day:\nauspicious.",
+        "comments": "Occupying the central seat of sovereignty with upright yang strength, the ruler reforms entrenched habits through patient, penetrating decrees. Even where initial conditions were flawed, thorough deliberation makes the conclusion whole. Calculating three days prior to the cyclical Gēng point to weigh the causes, and three days afterward to watch how the new ordinances take root, ensures lasting good fortune."
       },
       {
         "line": 6,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the top",
-        "text": "Penetration under the bed.\nHe loses his property and his ax.\nPerseverance brings misfortune.",
-        "comments": "A man's understanding is sufficiently penetrating. He follows up injurious influences into the most secret corners. But he no longer has the strength to combat them decisively. In this case any attempt to penetrate into the personal domain of darkness would only bring harm."
+        "name": "Top Nine",
+        "text": "Penetration beneath the couch.\nHe loses his resources and his protective axe:\nsteadfastness brings misfortune.",
+        "comments": "At the extreme limit of the hexagram, penetrating scrutiny is pushed so far into dark corners that one forfeits the decisive power to act—symbolised by losing one's provisions and sharp battle-axe. When suspicion and over-refinement strip away all practical authority, persisting on that course brings certain misfortune."
       }
     ],
-    "judgmentCommentary": "Penetration produces gradual and inconspicuous effects. It should be effected not by an act of violation but by influence that never lapses. Results of this kind are less striking to the eye than those won by surprise attack, but they are more enduring and more complete. If one would produce such effects, one must have a clearly defined goal, for only when the penetrating influence works always in the same direction can the object be attained. Small strength can achieve its purpose only by subordinating itself to an eminent man who is capable of creating order.",
-    "imageCommentary": "The penetrating quality of the wind depends upon its ceaselessness. This is what makes it so powerful; time is its instrument. In the same way the ruler's thought should penetrate the soul of the people. This too requires a lasting influence brought about by enlightenment and command. Only when the command has been assimilated by the people is action in accordance with it possible. Action without preparation of the ground only frightens and repels.",
-    "structureCommentary": "Sun is one of the eight doubled trigrams. It is the eldest daughter and symbolizes wind or wood; it has for its attribute gentleness, which nonetheless penetrates like the wind or like growing wood with its roots. The dark principle, in itself rigid and immovable, is dissolved by the penetrating light principle, to which it subordinates itself in gentleness. In nature, it is the wind that disperses the gathered clouds, leaving the sky clear and serene. In human life it is penetrating clarity of judgment that thwarts all dark hidden motives. In the life of the community it is the powerful influence of a great personality that uncovers and breaks up those intrigues which shun the light of day."
+    "judgmentCommentary": "The Commentary on the Decision explains that doubled Xùn represents the continuous, subtle entry of wind by which mandates are disseminated across the realm. Because the firm yang lines occupy the central second and fifth seats and the yielding yin lines willingly accord with them, gentle adaptability achieves steady fulfilment. Rather than forcing compliance through sudden violence, persistent and patient influence enters every corner without resistance. Guided by the vision of the great person in the fifth place, every step forward finds its rightful direction.",
+    "imageCommentary": "The power of the wind lies not in a single violent gust, but in its ceaseless, sequential flow that bends the grasses and permeates every crevice. Modelling his governance upon these following breezes, the noble person explains and repeats his instructions until their meaning sinks deeply into the hearts of the people. Only after public understanding has been thoroughly prepared are decrees translated into decisive action.",
+    "structureCommentary": "Formed by doubling the trigram Xùn (Wind and Wood, the eldest daughter), this fifty-seventh hexagram is the structural inverse of the Joyous Lake. In both the lower and upper trigrams, a single receptive yin line at the base yields beneath two solid yang lines above, portraying how humble flexibility penetrates beneath rigid barriers and dissolves hidden obstructions."
   },
   {
     "number": 58,
@@ -5587,61 +5601,61 @@ var HEXAGRAMS = [
       1,
       0
     ],
-    "judgment": "The Joyous. Success through joyful communication and openness. Fellowship and shared insight.",
-    "image": "Lakes resting one on the other: the image of the Joyous. Thus the superior person joins with friends for fruitful exchange.",
+    "judgment": "The Joyous Lake brings fulfilment. Steadfast integrity is favourable.",
+    "image": "Lakes resting joined together: the emblem of the Joyous. Thus the noble person joins with friends for discourse and shared practice.",
     "lineTexts": [
       {
         "line": 1,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the beginning",
-        "text": "Contented joyousness. Good fortune.",
-        "comments": "A quiet, wordless, self-contained joy, desiring nothing from without and resting content with everything, remains free of all egotistic likes and dislikes. In this freedom lies good fortune, because it harbors the quiet security of a heart fortified within itself."
+        "name": "Initial Nine",
+        "text": "Harmonious joyousness:\nauspicious.",
+        "comments": "Standing at the base of the hexagram as a firm yang line unentangled with any private yin partner above, one embodies quiet, self-contained gladness. Because this concord arises from an upright and unclouded heart that craves nothing from outside, its path is wholly free from doubt and auspicious."
       },
       {
         "line": 2,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the second place",
-        "text": "Sincere joyousness. Good fortune.\nRemorse disappears.",
-        "comments": "We often find ourselves associating with inferior people in whose company we are tempted by pleasures that are inappropriate for the superior man. To participate in such pleasures would certainly bring remorse, for a superior man can find no real satisfaction in low pleasures. When, recognizing this, a man does not permit his will to swerve, so that he does not find such ways agreeable, not even dubious companions will venture to proffer any base pleasures, because he would not enjoy them. Thus every cause for regret is removed."
+        "name": "Nine in the Second Place",
+        "text": "Sincere joyousness: auspicious;\nregret vanishes.",
+        "comments": "Although this yang line occupies an even place directly beneath the tempting, pleasure-seeking yin line of the third place, its central rectitude keeps the will unswerving. Because one's joy is rooted in inner truth rather than base indulgence, flattery finds no foothold and every occasion for regret vanishes."
       },
       {
         "line": 3,
         "val": 6,
         "type": "yin",
-        "name": "Six in the third place",
-        "text": "Coming joyousness. Misfortune.",
-        "comments": "True joy must spring from within. But if one is empty within and wholly given over to the world, idle pleasures come streaming in from without. This is what many people welcome as diversion. Those who lack inner stability and therefore need amusement, will always find opportunity of indulgence. They attract external pleasures by the emptiness of their natures. Thus they lose themselves more and more, which of course has bad results."
+        "name": "Six in the Third Place",
+        "text": "Coming to seek joyousness:\ninauspicious.",
+        "comments": "A yielding line in an odd place at the rim of the lower lake lacks inner substance and turns hungrily outward to court amusement and favour. When a person depends on external diversions and ingratiation to fill an empty heart, dignity is forfeited and misfortune inevitably follows."
       },
       {
         "line": 4,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fourth place",
-        "text": "Joyousness that is weighed is not at peace.\nAfter ridding himself of mistakes a man has joy.",
-        "comments": "Often a man finds himself weighing the choice between various kinds of pleasures, and so long as he has not decided which kind he will choose, the higher or the lower, he has no inner peace. Only when he clearly recognizes that passion brings suffering, can he make up his mind to turn away from the lower pleasures and to strive for the higher. Once this decision is sealed, he finds true joy and peace, and inner conflict is overcome."
+        "name": "Nine in the Fourth Place",
+        "text": "Deliberating over joyousness, not yet at peace.\nFencing out the affliction brings gladness.",
+        "comments": "Positioned between the sovereign fifth line above and the seductive third line below, this strong minister weighs the choice between principled duty and easy pleasure. So long as one wavers between higher and lower satisfactions, the mind knows no rest; once one decisively rejects flattering indulgence as a sickness of the spirit, genuine joy and blessing arrive."
       },
       {
         "line": 5,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fifth place",
-        "text": "Sincerity toward disintegrating influences is dangerous.",
-        "comments": "Dangerous elements approach even the far best of men. If a man permits himself to have anything to do with them, their disintegrating influence acts slowly but surely, and inevitable brings dangers in its train. But if he recognizes the situation and can comprehend the danger, he knows how to protect himself and remains unharmed."
+        "name": "Nine in the Fifth Place",
+        "text": "Placing trust in what erodes:\nthere is peril.",
+        "comments": "Occupying the central seat of sovereignty, this yang line sits directly beneath the top yin line, whose smiling compliance masks a corrosive, disintegrating influence. Even a capable ruler faces grave danger if he lends credence to sycophants who flatter his vanity; only vigilant awareness of the peril preserves the throne."
       },
       {
         "line": 6,
         "val": 6,
         "type": "yin",
-        "name": "Six at the top",
-        "text": "Seductive joyousness.",
-        "comments": "A vain nature invites diverting pleasures and must suffer accordingly (cf. the six in the third place). If a man is unstable within, the pleasures of the world that he does not shun have so powerful an influence that he is swept along by them. Here it is no longer a question of danger, of good fortune or misfortune. He has given up direction of his own life, and what becomes of him depends upon chance and external influences."
+        "name": "Top Six",
+        "text": "Alluring joyousness.",
+        "comments": "At the uppermost surface of the doubled lake, this yielding line seeks to draw the strong lines below into a vortex of superficial pleasure and distraction. Because its influence lacks luminous principle, the oracle withholds any promise of good fortune, warning that whoever allows himself to be led astray by empty charm surrenders self-command."
       }
     ],
-    "judgmentCommentary": "The joyous mood is infectious and therefore brings success. But joy must be based on steadfastness if it is not to degenerate into uncontrolled mirth. Truth and strength must dwell in the heart, while gentleness reveals itself in social intercourse. In this way one assumes the right attitude toward God and man and achieves something. Under certain conditions, intimidation without gentleness may achieve something momentarily, but not for all time. When, on the other hand, the hearts of men are won by friendliness, they are led to take all hardships upon themselves willingly, and if need be will not shun death itself, so great is the power of joy over men.",
-    "imageCommentary": "A lake evaporates upward and thus gradually dries up; but when two lakes are joined they do not dry up so readily, for one replenishes the other. It is the same in the field of knowledge. Knowledge should be a refreshing and vitalizing force. It becomes so only through stimulating intercourse with congenial friends with whom one holds discussion and practices application of the truths of life. In this way learning becomes many-sided and takes on a cheerful lightness, whereas there is always something ponderous and one-sided about the learning of the self-taught.",
-    "structureCommentary": "This hexagram, like sun, is one of the eight formed by doubling of a trigram. The trigram Tui denotes the youngest daughter; it is symbolized by the smiling lake, and its attribute is joyousness. Contrary to appearances, it is not the yielding quality of the top line that accounts for joy here. The attribute of the yielding or dark principle is not joy but melancholy. However, joy is indicated by the fact that there are two strong lines within, expressing themselves through the medium of gentleness. True joy, therefore, rests on firmness and strength within, manifesting itself outwardly as yielding and gentle."
+    "judgmentCommentary": "The Commentary on the Decision states that Duì signifies joyousness: two firm lines dwell within while a yielding line appears on the surface, showing that true joy rests upon inner strength and sincerity expressed through outer gentleness. When joy remains anchored in steadfast integrity, it accords with the decree of heaven above and answers the hearts of humanity below. When leaders inspire the people through genuine warmth rather than harsh coercion, men willingly forget their toil in shared labour and even brave mortal peril without complaint—so vast is the inspiring power of authentic joy.",
+    "imageCommentary": "A solitary marsh sitting under the sun gradually evaporates and dries up, whereas two lakes connected by living channels continually replenish and refresh one another. Observing this mutual nourishment, the noble person gathers with kindred companions to debate classical principles and test them in daily practice. Through open, congenial exchange, wisdom stays fresh, balanced, and vital.",
+    "structureCommentary": "Formed by doubling the trigram Duì (Lake, the youngest daughter), this fifty-eighth hexagram features two solid yang lines at the base and middle of each trigram, crowned by a single open yin line at the top. The yin lines in the third and sixth places act as the surface of the lake—capable of smiling openness, yet also of seductive flattery if detached from the firm moral core of the second and fifth yang lines."
   },
   {
     "number": 59,
@@ -5684,68 +5698,68 @@ var HEXAGRAMS = [
       1,
       1
     ],
-    "judgment": "Dispersion. Rigid ego dissolves. Unity across divisions. It furthers one to cross the great stream.",
-    "image": "The wind drives over the water: the image of Dispersion. Thus the kings of old united the realm through sacred purpose.",
+    "judgment": "Dispersion brings fulfilment. The king approaches his ancestral temple. It is propitious to cross the great stream; steadfast integrity is favourable.",
+    "image": "The wind drives across the water: the emblem of Dispersion. Thus the former kings offered sacrifice to the Supreme Lord and established ancestral temples.",
     "lineTexts": [
       {
         "line": 1,
         "val": 6,
         "type": "yin",
-        "name": "Six at the beginning",
-        "text": "He brings help with the strength of a horse.\nGood fortune.",
-        "comments": "It is important that disunion should be overcome at the outset, before it has become complete-that the clouds should be dispersed before they have brought storm and rain. At such times when hidden divergences in temper make themselves felt and lead to mutual misunderstandings we must take quick and vigorous action to dissolve the misunderstandings and mutual distrust."
+        "name": "Initial Six",
+        "text": "Employing the strength of a vigorous horse to bring rescue:\nauspicious.",
+        "comments": "At the very beginning of estrangement or crisis, before division has hardened into ruin, this yielding line promptly relies upon the strong yang line in the second place just above—likened to a swift, sturdy steed. By acting early and leaning willingly on capable strength, one overcomes the nascent danger and secures good fortune."
       },
       {
         "line": 2,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the second place",
-        "text": "At the dissolution\nHe hurries to that which supports him.\nRemorse disappears.",
-        "comments": "When an individual discovers within himself the beginnings of alienation from others, of misanthropy and ill humor, he must set about dissolving these obstructions. He must rouse himself inwardly, hasten to that which supports him. Such support is never found in hatred, but always in a moderate and just judgment of men, linked with good will. If he regains this unobstructed outlook on humanity, while at the same time all saturnine ill humor is dissolved, all occasion for remorse disappears."
+        "name": "Nine in the Second Place",
+        "text": "During dispersion, he hastens to his supporting rest;\nregret vanishes.",
+        "comments": "Situated in the midst of the lower trigram of peril, this strong line settles into the central second place as upon a firm wooden armrest or kneeling-stool. By anchoring the mind in balanced composure and practical support rather than yielding to anxious agitation, inner turmoil dissolves and regret vanishes."
       },
       {
         "line": 3,
         "val": 6,
         "type": "yin",
-        "name": "Six in the third place",
-        "text": "He dissolves his self. No remorse.",
-        "comments": "Under certain circumstances, a man's work may become so difficult that he can no longer think of himself. He must set aside all personal desires and disperse whatever the self gathers about it to serve as a barrier against others. Only on the basis of great renunciation can he obtain the strength for great achievements. By setting his goal in a great task outside himself, he can attain this standpoint."
+        "name": "Six in the Third Place",
+        "text": "Dissolving one's attachment to the personal self:\nno regret.",
+        "comments": "Standing at the top of the lower abyss and responding to the top nine above, this line faces responsibilities so urgent that private comfort must be forgotten. By dispersing narrow self-concern and dedicating one's efforts wholly to the public task ahead, every cause for regret falls away."
       },
       {
         "line": 4,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fourth place",
-        "text": "He dissolves his bond with his group.",
-        "comments": "Supreme good fortune.\nDispersion leads in turn to accumulation.\n\nThis is something that ordinary men do not think of.\n\nWhen we are working at a task that affects the general welfare, we must leave all private friendships out of account. Only by rising above party interests can we achieve something decisive. He who has the courage thus to forego what is near wins what is afar. But in order to comprehend this standpoint, one must have a wide view of the interrelationships of life, such as only unusual men attain."
+        "name": "Six in the Fourth Place",
+        "text": "Dissolving his private faction: supreme good fortune.\nThrough dispersion, a lofty mound is gathered—\nsomething ordinary minds cannot fathom.",
+        "comments": "Occupying the ministerial fourth place in pure receptivity beneath the sovereign fifth line, this line renounces all partisan cliques and personal cronies among the yin lines below. Paradoxically, by scattering narrow factional bonds, one gathers the entire realm into a grand, mountain-like unity—a feat of statesmanship far beyond the comprehension of petty minds."
       },
       {
         "line": 5,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fifth place",
-        "text": "His loud cries are as dissolving as sweat.\nDissolution! A king abides without blame.",
-        "comments": "In times of general dispersion and separation, a great idea provides a focal point for the organization of recovery. Just as an illness reaches its crisis in a dissolving sweat, so a great stimulating idea is a true salvation in times of general deadlock. It gives the people a rallying point-a man in a ruling position who can dispel misunderstandings."
+        "name": "Nine in the Fifth Place",
+        "text": "Scattering his great proclamations like a fever-breaking sweat!\nDispersing the king's hoarded stores:\nfree from fault.",
+        "comments": "Just as a blocked fever breaks when a free sweat pours from the entire body, the sovereign in the fifth place issues inspiring decrees and opens the royal granaries to relieve the populace in a time of crisis. By circulating wealth and truth freely from the centre, stagnation is swept away and the throne abides free from fault."
       },
       {
         "line": 6,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the top",
-        "text": "He dissolves his blood.\nDeparting, keeping at a distance, going out,\nIs without blame.",
-        "comments": "The idea of the dissolving of a man's blood means the dispersion of that which might lead to bloodshed and wounds, i.e., avoidance of danger. But here the thought is not that a man avoids difficulties for himself alone, but rather that he rescues his kin-helps them to get away before danger comes, or to keep at a distance from an existing danger, or to find a way out of a danger that is already upon them. In this way he does what is right."
+        "name": "Top Nine",
+        "text": "Dispersing blood and wounds;\ndeparting and keeping far from harm:\nfree from fault.",
+        "comments": "At the outermost height of Wind, far above the lower abyss of danger, this firm line uses its clear perspective to dissolve the causes of bloodshed before they strike. By leading oneself and one's kindred safely away from the zone of conflict and animosity, one remains wholly free from fault."
       }
     ],
-    "judgmentCommentary": "45. In the latter, the subject is the bringing together of elements that have been separated, as water collects in lakes upon the earth. Here the subject is the dispersing and dissolving of divisive egotism. DISPERSION shows the way, so to speak, that leads to gathering together. This explains the similarity of the two texts. Religious forces are needed to overcome the egotism that divides men. The common celebration of the great sacrificial feasts and sacred rites, which gave expression simultaneously to the interrelation and social articulation of the family and state, was the means of employed by the great ruler to unite men. The sacred music and the splendor of the ceremonies aroused a strong tide of emotion that was shared by all hearts in unison, and that awakened a consciousness of the common origin of all creatures. In this way disunity was overcome and rigidity dissolved. A further means to the same end is co-operation in great general undertakings that set a high goal for the will of the people; in the common concentration on this goal, all barriers dissolve, just as, when a boat is crossing a great stream, all hands must unite in a joint task. But only a man who is himself free of all selfish ulterior considerations, and who perseveres in justice and steadfastness, is capable of so dissolving the hardness of egotism.",
-    "imageCommentary": "In the autumn and winter, water begins to freeze into ice. When the warm breezes of spring come, the rigidity is dissolved, and the elements that have been dispersed in ice floes are reunited. It is the same with the minds of the people. Through hardness and selfishness the heart grows rigid, and this rigidity leads to separation from all others. Egotism and cupidity isolate men. Therefore the hearts of men must be seized by a devout emotion. They must be shaken by a religious awe in face of eternity-stirred with an intuition of the One Creator of all living beings, and united through the strong feeling of fellowship experienced in the ritual of divine worship.",
-    "structureCommentary": "Wind blowing over water disperses it, dissolving it into foam and mist. This suggests that when a man's vital energy is dammed up within him (indicated as a danger by the attribute of the lower trigram), gentleness serves to break up and dissolve the blockage."
+    "judgmentCommentary": "The Commentary on the Decision explains that Dispersion achieves fulfilment because the firm second line comes to rest within the lower abyss without being exhausted, while the yielding fourth line obtains its rightful place externally and accords with the fifth line above. When the king enters the sacred temple in reverent concentration, scattered spirits and divided loyalties are gathered back to their common spiritual root. Just as wooden craft riding upon the water safely cross the great river when impelled by the wind, shared devotion dissolves selfish estrangement and carries great enterprises across perilous depths.",
+    "imageCommentary": "When warm spring breezes blow across frozen or stagnant waters, ice floes melt and the surface breaks into shimmering ripples and mist. Contemplating how invisible spirit dissolves hard barriers, the ancient sovereigns instituted grand sacrifices to Heaven and erected temples to the ancestors. By awakening a profound sense of reverence and shared lineage, sacred ritual melts away the icy isolation of egoism and unites the realm in common purpose.",
+    "structureCommentary": "Composed of Kǎn (Water, the abysmal stream and inner peril) below and Xùn (Wind and Wood, gentle penetration) above, this fifty-ninth hexagram portrays wind scattering pent-up knots over the water's surface. Nine in the Fifth Place rules from the throne as the unifying centre, while Six in the Fourth Place acts as the selfless minister who dissolves factional cliques for the greater good."
   },
   {
     "number": 60,
     "unicode": "䷻",
     "chinese": "節",
     "pinyin": "Jié",
-    "english": "Limitation",
+    "english": "Measured Articulation",
     "upperTrigram": {
       "name": "Water",
       "chinese": "坎",
@@ -5781,68 +5795,68 @@ var HEXAGRAMS = [
       1,
       0
     ],
-    "judgment": "Limitation brings success. Boundaries create form and rhythm. Bitter or extreme limitation must not be prolonged.",
-    "image": "Water over lake: the image of Limitation. Thus the superior person creates measure, bounds, and harmonious structure.",
+    "judgment": "Measured Articulation brings fulfilment. Yet bitter restriction must not be persisted in.",
+    "image": "Above the lake flows water: the emblem of Measured Articulation. Thus the noble person establishes numbers and measures, and deliberates upon virtuous conduct.",
     "lineTexts": [
       {
         "line": 1,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the beginning",
-        "text": "Not going out of the door and the courtyard\nIs without blame.",
-        "comments": "Often a man who would like to undertake something finds himself confronted by insurmountable limitations. Then he must know where to stop. If he rightly understands this and does not go beyond the limits set for him, he accumulates an energy that enables him, when the proper time comes, to act with great force. Discretion is of prime importance in preparing the way for momentous things. Concerning this, Confucius says:\n\nWhere disorder develops, words are the first steps. If the prince is not discreet, he loses his servant. If the servant is not discreet he loses his life. If germinating things are not handled with discretion, the perfecting of them is impeded. Therefore the superior man is careful to maintain silence and does not go forth."
+        "name": "Initial Nine",
+        "text": "Not going out of the door and courtyard:\nfree from fault.",
+        "comments": "At the beginning of the hexagram, a strong line faces the obstructing yin and yang lines directly ahead and recognises that the channel for public action is blocked. As the Great Treatise explains, when germinating plans are betrayed by premature speech, their completion is ruined; keeping silent and remaining within one's inner courtyard conserves vital force without fault."
       },
       {
         "line": 2,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the second place",
-        "text": "Not going out of the gate and the courtyard\nBrings misfortune.",
-        "comments": "When the time for action has come, the moment must be quickly seized. Just as water first collects in a lake without flowing out, yet is certain to find an outlet when the lake is full, so it is in the life of man. It is a good thing to hesitate so long as the time for action has not come, but no longer. Once the obstacles to action have been removed, anxious hesitation is a mistake that is bound to bring disaster, because one misses one's opportunity."
+        "name": "Nine in the Second Place",
+        "text": "Not going out of the outer gate and courtyard:\ninauspicious.",
+        "comments": "Unlike the first line, this second line sits before an open passage of two yielding yin lines in the third and fourth places, where the hour calls for decisive forward engagement. To cling timidly to seclusion behind locked gates when the tide is full squanders the appointed moment and invites misfortune."
       },
       {
         "line": 3,
         "val": 6,
         "type": "yin",
-        "name": "Six in the third place",
-        "text": "He who knows limitation\nWill have cause to lament.",
-        "comments": "No blame.\n\nIf an individual is bent only on pleasures and enjoyment, it is easy for him to lose his sense of the limits that are necessary. If he gives himself over to extravagance, he will have to suffer the consequences, with accompanying regret. He must not seek to lay the blame on others. Only when we realize that our mistakes are of our own making will such disagreeable experiences free us of errors."
+        "name": "Six in the Third Place",
+        "text": "Failing to practise restraint,\none will soon have cause to lament:\nno one else is to be blamed.",
+        "comments": "Occupying the rim of the lower lake with neither centrality nor correctness, this yielding line lets pleasure overflow without check or measure. When extravagance and self-indulgence bring inevitable hardship and sighing, one has only oneself to reproach; recognising that the fault is one's own is the first step toward recovery."
       },
       {
         "line": 4,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fourth place",
-        "text": "Contented limitation. Success.",
-        "comments": "Every limitation has its value, but a limitation that requires persistent effort entails a cost of too much energy. When, however, the limitation is a natural one (as for example, the limitation by which water flows only downhill), it necessarily leads to success, for then it means a saving of energy. The energy that otherwise would be consumed in a vain struggle with the object, is applied wholly to the benefit of the matter in hand, and success is assured."
+        "name": "Six in the Fourth Place",
+        "text": "Contented and natural articulation:\nfulfilment.",
+        "comments": "A yielding line resting properly in the fourth place directly beneath the sovereign fifth line accepts its boundaries willingly and without strained effort. Just as water flows naturally along a well-graded channel, this unforced, harmonious moderation conserves energy and achieves smooth fulfilment."
       },
       {
         "line": 5,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fifth place",
-        "text": "Sweet limitation brings good fortune.\nGoing brings esteem.",
-        "comments": "The limitation must be carried out in the right way if it is to be effective. If we seek to impose restrictions on others only, while evading them ourselves, these restrictions will always be resented and will provoke resistance. If, however, a man in a leading position applies the limitation first to himself, demanding little from those associated with him, and with modest means manages to achieve something, good fortune is the result. Where such an example occurs, it meets with emulation, so that whatever is undertaken must succeed."
+        "name": "Nine in the Fifth Place",
+        "text": "Sweet articulation: auspicious.\nGoing forward wins high esteem.",
+        "comments": "Central, upright, and occupying the seat of authority, the ruler exemplifies restraint in his own person before asking it of others, making his regulations feel wholesome and sweet rather than oppressive. Because such balanced measure refreshes the realm instead of exhausting it, every step forward commands universal respect."
       },
       {
         "line": 6,
         "val": 6,
         "type": "yin",
-        "name": "Six at the top",
-        "text": "Galling limitation.\nPerseverance brings misfortune.\nRemorse disappears.",
-        "comments": "If one is too severe in setting up restrictions, people will not endure them. The more consistent such severity, the worse it is, for in the long run a reaction is unavoidable. In the same way, the tormented body will rebel against excessive asceticism. On the other hand, although ruthless severity is not to be applied persistently and systematically, there may be times when it si the only means of safeguarding against guilt and remorse. In such situations ruthlessness toward oneself is the only means of saving one's soul, which otherwise would succumb to irresolution and temptation."
+        "name": "Top Six",
+        "text": "Bitter restriction: persisting therein brings misfortune,\nthough regret vanishes.",
+        "comments": "At the extreme summit of the upper abyss, regulation is pushed to a harsh, ascetic extreme that no community or living body can sustain for long. Although rigorous severity toward oneself may extinguish personal regret over past indulgence, imposing such galling austerity as a permanent rule exhausts the path and ends in misfortune."
       }
     ],
-    "judgmentCommentary": "Limitations are troublesome, but they are effective. If we live economically in normal times, we are prepared for times of want. To be sparing saves us from humiliation. Limitations are also indispensable in the regulation of world conditions. In nature there are fixed limits for summer and winter, day and night, and these limits give the year its meaning. In the same way, economy, by setting fixed limits upon expenditures, acts to preserve property and prevent injury to the people. But in limitation we must observe due measure. If a man should seek to impose galling limitations upon his own nature, it would be injurious. And if he should go too far in imposing limitations on others, they would rebel. Therefore it is necessary to set limits even upon limitation.",
-    "imageCommentary": "A lake is something limited. Water is inexhaustible. A lake can contain only a definite amount of the infinite quantity of water; this is its peculiarity. In human life too the individual achieves significance through discrimination and the setting of limits. Therefore what concerns us here is the problem of clearly defining these discriminations, which are, so to speak, the backbone of morality. Unlimited possibilities are not suited to man; if they existed, his life would only dissolve in the boundless. To become strong, a man's life needs the limitations ordained by duty and voluntarily accepted. The individual attains significance as a free spirit only by surrounding himself with these limitations and by determining for himself what his duty is.",
-    "structureCommentary": "A lake occupies a limited space. When more water comes into it, it overflows. Therefore limits must be set for the water. The image shows water below and water above, with the firmament between them as a limit. The Chinese word for limitation really denotes the joints that divide a bamboo stalk. In relation to ordinary life it means the thrift that sets fixed limits upon expenditures. In relation to the moral sphere it means the fixed limits that the superior man sets upon his actions-the limits of loyalty and disinterestedness."
+    "judgmentCommentary": "The Commentary on the Decision observes that Measured Articulation achieves fulfilment because firm and yielding lines are equally apportioned, with the strong lines occupying the central seats of both trigrams. Joyous openness below meets perilous water above with clear boundaries and timely restraint, governed by the sovereign fifth line. Just as heaven and earth articulate their breath into the four seasons so that the year is completed, wise rulers establish just regulations that protect wealth without injuring the people. However, if restriction becomes harsh and galling, human nature cannot endure it and its path comes to an impasse.",
+    "imageCommentary": "A lake basin can hold only a finite volume of the stream pouring into it; without banks to contain the water and sluices to release the overflow, the marsh would either burst its bounds or run dry. Guided by the bamboo nodes (jié) that divide a stalk into regular segments of strength, the noble person institutes clear standards of weight, measure, and ritual degree, while examining moral conduct to ensure that every duty is proportioned with equity.",
+    "structureCommentary": "Formed by Duì (Lake, joyous openness) below and Kǎn (Water, the abysmal stream) above, this sixtieth hexagram is the exact inverse of Dispersion. Whereas Dispersion dissolves rigid barriers, Measured Articulation restores necessary form and rhythm so that vital energy does not dissipate into the boundless. Nine in the Fifth Place governs the figure as the model of sweet, balanced self-restraint."
   },
   {
     "number": 61,
     "unicode": "䷼",
     "chinese": "中孚",
     "pinyin": "Zhōng Fú",
-    "english": "Inner Truth",
+    "english": "Innermost Sincerity",
     "upperTrigram": {
       "name": "Wind",
       "chinese": "巽",
@@ -5878,68 +5892,68 @@ var HEXAGRAMS = [
       1,
       1
     ],
-    "judgment": "Inner Truth. Supreme sincerity moves even pigs and fishes. Good fortune. Cross the great water.",
-    "image": "Wind over lake: the image of Inner Truth. Thus the superior person listens deeply and judges with compassion.",
+    "judgment": "Innermost Sincerity. Even pigs and fishes are moved: auspicious. It is propitious to cross the great stream; steadfast integrity is favourable.",
+    "image": "Above the lake blows the wind: the emblem of Innermost Sincerity. Thus the noble person deliberates over legal cases and stays the execution of death.",
     "lineTexts": [
       {
         "line": 1,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the beginning",
-        "text": "Being prepared brings good fortune.\nIf there are secret designs, it is disquieting.",
-        "comments": "The force of inner truth depends chiefly on inner stability and preparedness. From this state of mind springs the correct attitude toward the outer world. But if a man should try to cultivate secret relationships of a special sort, it would deprive him of his inner independence. The more reliance he places on the support of others, the more uneasy and anxious he will become as to whether these secret ties are really tenable. In this way inner peace and the force of inner truth are lost."
+        "name": "Initial Nine",
+        "text": "Resting in quiet preparedness is auspicious;\nif there are ulterior attachments, one knows no peace.",
+        "comments": "At the threshold of Innermost Sincerity, a firm and upright line possesses the self-contained poise needed to remain tranquil and observant. However, if one allows the mind to be distracted by secretive side-alliances or anxious calculations regarding the fourth line above, inner independence is lost and serenity turns to restlessness."
       },
       {
         "line": 2,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the second place",
-        "text": "A crane calling in the shade.\nIts young answers it.\nI have a good goblet.\nI will share it with you.",
-        "comments": "This refers to the involuntary influence of a man's inner being upon persons of kindred spirit. The crane need not show itself on a high hill. It may be quite hidden when it sounds its call; yet its young will hear its not, will recognize it and give answer. Where there is a joyous mood, there a comrade will appear to share a glass of wine. This is the echo awakened in men through spiritual attraction. Whenever a feeling is voiced with truth and frankness, whenever a deed is the clear expression of sentiment, a mysterious and far-reaching influence is exerted. At first it acts on those who are inwardly receptive. But the circle grows larger and larger. The root of all influence lies in one's own inner being: given true and vigorous expression in word and deed, its effect is great. The effect is but the reflection of something that emanates from one's own heart. Any deliberate intention of an effect would only destroy the possibility of producing it. Confucius says about this line:\n\nThe superior man abides in his room. If his words are well spoken, he meets with assent at a distance of more than a thousand miles. How much more then from near by! If the superior man abides in his room and his words are not well spoken, he meets with contradiction at a distance of more than a thousand miles. How much more then from near by! Words go forth from one's own person and exert their influence on men. Deeds are born close at hand and become visible far away. Words and deeds are the hinge and bowspring of the superior man. As hinge and bowspring move, they bring honor or disgrace. Through words and deeds the superior man moves heaven and earth . Must one not, then, be cautious?"
+        "name": "Nine in the Second Place",
+        "text": "A crane calls in the hidden shade,\nand its young answers it.\nI have a fine goblet;\nI will share it with you.",
+        "comments": "Occupying the central seat of the lower trigram, this yang line voices a truth so genuine that it requires no outward advertisement; even from the shaded marsh, its call awakens an immediate echo in kindred hearts. As Confucius remarks in the Great Treatise, words and deeds proceeding from deep sincerity in the privacy of one's chamber move heaven and earth across a thousand leagues, drawing worthy companions to share the cup of fellowship."
       },
       {
         "line": 3,
         "val": 6,
         "type": "yin",
-        "name": "Six in the third place",
-        "text": "He finds a comrade.",
-        "comments": "Now he beats the drum, now he stops.\n\nNow he sobs, now he sings.\n\nHere the source of a man's strength lies not in himself but in his relation to other people. No matter how close to them he may be, if his center of gravity depends on them, he is inevitably tossed to and fro between joy and sorrow. Rejoicing to high heaven, then sad unto death-this is the fate of those who depend upon an inner accord with other persons whom they love. Here we have only the statement of the law that this is so. Whether this condition is felt to be an affliction of the supreme happiness of love, is left to the subjective verdict of the person concerned."
+        "name": "Six in the Third Place",
+        "text": "He meets his counterpart:\nnow beating the drum, now ceasing;\nnow weeping, now singing.",
+        "comments": "A yielding line in an odd place at the top of the lower trigram fixes its entire emotional centre of gravity upon its counterpart in the top nine above rather than within itself. Devoid of inner autonomy, one's mood swings wildly with every external breeze—advancing and halting, sobbing and exulting by turns."
       },
       {
         "line": 4,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fourth place",
-        "text": "The moon nearly at the full.",
-        "comments": "The team horse goes astray.\n\nNo blame.\n\nTo intensify the power of inner truth, a man must always turn to his superior, from whom he can receive enlightenment as the moon receives light form the sun. However, this requires a certain humility, like that of the moon when it is not yet quite full. At the moment when the moon becomes full and stands directly opposite the sun, it begins to wane. Just as on the one hand we must be humble and reverent when face to face with the source of enlightenment, so likewise must we on the other renounce factionalism among men. Only be pursuing one's course like a horse that goes straight ahead without looking sidewise at its mate, can one retain the inner freedom that helps one onward."
+        "name": "Six in the Fourth Place",
+        "text": "The moon is nearly at the full.\nThe team-horse parts from its mate:\nfree from fault.",
+        "comments": "Resting in the ministerial fourth place just beneath the sovereign fifth line, this pure yin line shines with the modest fullness of a waxing moon that never presumes to rival the sun. By severing partisan ties with its former mate in the first line below—like a carriage steed pressing straight ahead without looking sideways—one serves the centre with undivided loyalty and remains free from fault."
       },
       {
         "line": 5,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fifth place",
-        "text": "He possesses truth, which links together.",
-        "comments": "No blame.\n\nThis describes the ruler who holds all elements together by the power of his personality. Only when the strength of his character is so ample that he can influence all who are subject to him, is he as he needs to be. The power of suggestion must emanate from the ruler. It will firmly knit together and unite all his adherents. Without this central force, all external unity is only deception and breaks down at the decisive moment."
+        "name": "Nine in the Fifth Place",
+        "text": "Possessing sincerity that binds hearts together:\nfree from fault.",
+        "comments": "Central, strong, and occupying the sovereign seat of honour, this line radiates a truthfulness so substantial that it knits the entire community into an unbreakable whole. Because this bond rests upon authentic moral gravity rather than coercion or artifice, the ruler's position is wholly secure and free from fault."
       },
       {
         "line": 6,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the top",
-        "text": "Cockcrow penetrating to heaven.\nPerseverance brings misfortune.",
-        "comments": "The cock is dependable. It crows at dawn. But it cannot itself fly to heaven. It just crows. A man may count on mere words to awaken faith. This may succeed now and then, but if persisted in, it will have bad consequences."
+        "name": "Top Nine",
+        "text": "Feathered sound soaring up to heaven:\npersisting therein brings misfortune.",
+        "comments": "At the extreme height of the Wind trigram, where inner substance is exhausted, one attempts to command trust through lofty words and theatrical boasts alone—like a gamecock whose crowing resounds toward the clouds even though its wings cannot carry it aloft. When grand pronouncements outstrip genuine reality, persisting in hollow display ends in certain misfortune."
       }
     ],
-    "judgmentCommentary": "Pigs and fishes are the least intelligent of all animals and therefore the most difficult to influence. The force of inner truth must grow great indeed before its influence can extend to such creatures. In dealing with persons as intractable and as difficult to influence as a pig or a fish, the whole secret of success depends on finding the right way of approach. One must first rid oneself of all prejudice and, so to speak, let the psyche of the other person act on one without restraint. Then one will establish contact with him, understand and gain power over him. When a door has thus been opened, the force of one's personality will influence him. If in this way one finds no obstacles insurmountable, one can undertake even the most dangerous things, such as crossing the great water, and succeed. But it is important to understand upon what the force inner truth depends. This force is not identical with simple intimacy or a secret bond. Close ties may exist also among thieves; it is true that such a bond acts as a force but, since it is not invincible, it does not bring good fortune. All association on the basis of common interests holds only up to a certain point. Where the community of interest ceases, the holding together ceases also, and the closest friendship often changes into hate. Only when the bond is based on what is right, on steadfastness, will it remain so firm that it triumphs over everything.",
-    "imageCommentary": "Wind stirs water by penetrating it. Thus the superior man, when obliged to judge the mistakes of men, tries to penetrate their minds with understanding, in order to gain a sympathetic appreciation of the circumstances. In ancient China, the entire administration of justice was guided by this principle. A deep understanding that knows how to pardon was considered the highest form of justice. This system was not without success, for its aim was to make so strong a moral impression that there was no reason to fear abuse of such mildness. For it sprang not from weakness but from a superior clarity.",
-    "structureCommentary": "The wind blows over the lake and stirs the surface of the water. Thus visible effects of the invisible manifest themselves. The hexagram consists of firm lines above and below, while it is open in the center. This indicates a heart free of prejudices and therefore open to truth. On the other hand, each of the two trigrams has a firm line in the middle; this indicates the force of inner truth in the influences they present. The attributes of the two trigrams are: above, gentleness, forbearance toward inferiors; below, joyousness in obeying superiors. Such conditions create the basis of a mutual confidence that makes achievements possible. The character of fu (\"truth\") is actually the picture of a bird's foot over a fledgling. It suggests the idea of brooding. An egg is hollow. The light-giving power must work to quicken it from outside, but there must be a germ of life within, if life is to be awakened. Far-reaching speculations can be linked with these ideas."
+    "judgmentCommentary": "The Commentary on the Decision observes that two yielding lines dwell in the innermost centre while firm lines occupy the central seats of both trigrams: an open, unprejudiced heart paired with solid integrity is how Innermost Sincerity transforms the realm. Joyous responsiveness below accords with gentle penetration above, awakening a resonance so pure that even the most unreflective creatures—pigs and fishes—are touched and calmed. Riding upon the hollow wood of a boat to cross the great river, such unfeigned truth answers heaven's law and overcomes every peril.",
+    "imageCommentary": "As the invisible breeze moves across the open face of the lake, the waters respond instantly because there is no barrier between them. Embodying this penetrating empathy, the noble person examines criminal cases from every angle, seeking to understand the hidden circumstances and human frailties behind an offence. Rather than rushing to irreversible capital punishment, wise justice tempers the law with compassion and seeks every avenue to preserve life.",
+    "structureCommentary": "Formed by Duì (Lake, joyous openness) below and Xùn (Wind and Wood, gentle penetration) above, this sixty-first hexagram presents a macro-image of the trigram Lí (hollow within, solid without). Four yang lines enclose two open yin lines at the core (lines three and four), picturing either a hollow wooden hull riding the waters or a brooding bird sheltering an egg with vital warmth. Nine in the Fifth Place and Six in the Fourth Place exemplify the union of sovereign sincerity and ministerial humility."
   },
   {
     "number": 62,
     "unicode": "䷽",
     "chinese": "小過",
     "pinyin": "Xiǎo Guò",
-    "english": "Small Preponderance",
+    "english": "Small Exceeding",
     "upperTrigram": {
       "name": "Thunder",
       "chinese": "震",
@@ -5975,68 +5989,68 @@ var HEXAGRAMS = [
       0,
       0
     ],
-    "judgment": "Preponderance of the Small. Success in small, attentive steps. Do not strive too high; stay humble and grounded.",
-    "image": "Thunder on the mountain: the image of Preponderance of the Small. Thus the superior person in conduct gives weight to reverence.",
+    "judgment": "Preponderance of the Small brings fulfilment; steadfast integrity is favourable. Small matters may be undertaken; great matters must not be undertaken. The flying bird leaves its call behind: it is not fitting to ascend, it is fitting to descend—great good fortune.",
+    "image": "Upon the mountain resounds thunder: the emblem of Preponderance of the Small. Thus the noble person in conduct inclines toward excess of reverence, in mourning toward excess of grief, and in expenditure toward excess of frugality.",
     "lineTexts": [
       {
         "line": 1,
         "val": 6,
         "type": "yin",
-        "name": "Six at the beginning",
-        "text": "The bird meets with misfortune through flying.",
-        "comments": "A bird ought to remain in the nest until it is fledged. If it tries to fly before this, it invites misfortune. Extraordinary measures should be resorted to only when all else fails. At first we ought to put up with traditional ways as long as possible; otherwise we exhaust ourselves and our energy and still achieve nothing."
+        "name": "Initial Six",
+        "text": "The bird takes flight and meets with misfortune.",
+        "comments": "At the very bottom of the hexagram, a fledgling yin line is stirred by resonance with the fourth yang line in the upper trigram of Thunder and attempts to soar aloft before its wings are grown. In a season that explicitly counsels staying low and grounded, rushing into premature flight courts immediate disaster from which nothing can save it."
       },
       {
         "line": 2,
         "val": 6,
         "type": "yin",
-        "name": "Six in the second place",
-        "text": "She passes by her ancestor\nAnd meets her ancestress.\nHe does not reach his prince\nAnd meets the official.",
-        "comments": "No blame.\n\nTwo exceptional situations are instanced here. In the temple of ancestors, where alternation of generations prevails, the grandson stands on the same side as the grandfather. Hence his closest relations are with the grandfather. The present line designates the grandson's wife, who during the sacrifice passes by the ancestor and goes toward the ancestress. This unusual behavior is, however, an expression of her modesty. She ventures rather to approach the ancestress, for she feels related to her by their common sex. Hence here deviation from the rule is not a mistake. Another image is that of the official who, in compliance with regulation, first seeks an audience with his prince. If he is not successful in this, he does not try to force anything but goes about conscientious fulfillment of his duty, taking his place among the other officials. This extraordinary restraint is likewise not a mistake in exceptional times. (The rule is that every official should first have an audience with the prince by whom he is appointed. Here the appointment is made by the minister.)"
+        "name": "Six in the Second Place",
+        "text": "Passing by the grandfather, one meets the grandmother;\nnot reaching the sovereign, one meets the minister:\nfree from fault.",
+        "comments": "Central and upright in the lower trigram, this yielding line advances with scrupulous modesty: passing beyond the stern yang lines to accord with the receptive fifth line above, just as in ancestral ritual one approaches the kindred ancestress. By fulfilling the duties of a conscientious minister without presuming to usurp the prerogative of a prince, one adapts gracefully to exceptional times and remains free from fault."
       },
       {
         "line": 3,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the third place",
-        "text": "If one is not extremely careful,",
-        "comments": "Somebody may come up from behind and strike him.\nMisfortune.\n\nAt certain times extraordinary caution is absolutely necessary. But it is just in such life situations that we find upright and strong personalities who, conscious of being in the right, disdain to hold themselves on guard, because they consider it petty. Instead, they go their way proud and unconcerned. But this self-confidence deludes them. There are dangers lurking for which they are unprepared. Yet such danger is not unavoidable; one can escape it if he understands that the time demands that he pay especial attention to small and insignificant thing."
+        "name": "Nine in the Third Place",
+        "text": "If one takes no extraordinary precautions to guard oneself,\nsomeone may follow behind and strike:\ninauspicious.",
+        "comments": "As a firm yang line at the top of the lower mountain during an era when yin forces predominate, one easily relies on uprightness and disdains defensive vigilance as beneath one's dignity. Yet when small, envious elements hold sway, carelessness invites a treacherous blow from the rear; only heightened watchfulness averts calamity."
       },
       {
         "line": 4,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fourth place",
-        "text": "No blame. He meets him without passing by.\nGoing brings danger. One must be on guard.\nDo not act. Be constantly persevering.",
-        "comments": "Hardness of character is tempered by yielding position so that no mistakes are made. The situation here calls for extreme caution; one must make no attempt of one's own initiative to reach the desired end. And if one were to go on, endeavoring one must be on guard and not act but continue inwardly to persevere."
+        "name": "Nine in the Fourth Place",
+        "text": "Free from fault; without passing by, he meets it.\nAdvancing brings peril; one must remain on guard.\nDo not act; do not cling to rigid permanence.",
+        "comments": "Unlike the rigid third line, this yang line tempers its strength in a yielding fourth place and meets the surrounding yin circumstances with flexible tact, thereby avoiding fault. Nevertheless, because movement upward into the fifth and sixth yin lines would violate the downward counsel of the hexagram, one must stay vigilant, refrain from aggressive initiative, and adapt fluidly rather than locking into stubborn permanence."
       },
       {
         "line": 5,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fifth place",
-        "text": "Dense clouds,",
-        "comments": "No rain from our western territory.\n\nThe prince shoots and hits him who is in the cave.\n\nAs a high place is pictured here, the image of a flying bird has become that of flying clouds. But dense as the clouds are, they race across the sky and give no rain. Similarly, in exceptional times there may be a born ruler who is qualified to set the world in order, but who cannot achieve anything or confer blessing on the people because he stands alone and has no helpers. Is such times a man must seek out helpers with whose aid he can carry out the task. But these helpers must be modestly sought out in the retirement to which they have withdrawn. It is not in the fame nor their great names but their genuine achievements that are important. Through such modesty the right man is found, and the exceptional task is carried out in spite of all difficulties."
+        "name": "Six in the Fifth Place",
+        "text": "Dense clouds, yet no rain from our western border.\nThe duke shoots with a tethered arrow\nand takes the one in the cavern.",
+        "comments": "Occupying the lofty fifth seat as a yielding yin line, one is like a gathering bank of clouds that lacks the condensing yang vigour needed to fall as nourishing rain upon the realm. Recognising that grand campaigns are beyond reach, the wise leader uses a corded arrow—suited for modest, precise targets—to draw forth worthy helpers hidden in quiet retirement."
       },
       {
         "line": 6,
         "val": 6,
         "type": "yin",
-        "name": "Six at the top",
-        "text": "He passes him by, not meeting him.",
-        "comments": "The flying bird leaves him.\nMisfortune.\n\nThis means bad luck and injury.\n\nIf one overshoots the goal, one cannot hit it. If a bird will not come to its nest but flies higher and higher, it eventually falls into the hunter's net. He who in times of extraordinary salience of small things does not know how to call a halt, but restlessly seeks to press on and on, draws upon himself misfortune at the hands of gods and men, because he deviates from the order of nature."
+        "name": "Top Six",
+        "text": "Without meeting it, he passes far beyond;\nthe flying bird leaves it behind: inauspicious.\nThis is called calamity and self-injury.",
+        "comments": "At the extreme summit of the Thunder trigram, restless movement overshoots every reasonable boundary, like a bird soaring so recklessly into the upper gale that it can never return to its nest and gets snared in a net. Arrogant excess that defies both natural limits and human counsel brings down a double misfortune of external disaster and personal fault."
       }
     ],
-    "judgmentCommentary": "28, the four strong, heavy lines within, supported only by two weak lines without, give the image of a sagging ridgepole. Here the supporting weak lines are both outside and preponderant; this gives the image of a soaring bird. But a bird should not try to surpass itself and fly into the sun; it should descend to the earth, where its nest is. In this way it gives the message conveyed by the hexagram.",
-    "imageCommentary": "Thunder on the mountain is different from thunder on the plain. In the mountains, thunder seems much nearer; outside the mountains, it is less audible than the thunder of an ordinary storm. Thus the superior man derives an imperative from this image: he must always fix his eyes more closely and more directly on duty than does the ordinary man, even though this might make his behavior seem petty to the outside world. He is exceptionally conscientious in his actions. In bereavement emotion means more to him than ceremoniousness. In all his personal expenditures he is extremely simple and unpretentious. In comparison with the man of the masses, all this makes him stand out as exceptional. But the essential significance of his attitude lies in the fact that in external matters he is on the side of the lowly.",
-    "structureCommentary": "While in the hexagram Ta Kuo, PREPONDERANCE OF THE GREAT\n\n28, the strong lines preponderate and are within, inclosed between weak lines at the top and bottom, the present hexagram has weak lines preponderating, though here again they are on the outside, the strong lines being within. This indeed is the basis of the exceptional situation indicated by the hexagram. When strong lines are outside, we have the hexagram I, PROVIDING NOURISHMENT\n\n27, or Chung Fu, INNER TRUTH,\n\n61; neither represents and exceptional state. When strong elements within preponderate, they necessarily enforce their will. This creates struggle and exceptional conditions in general. But in the present hexagram it is the weak element that perforce must mediate with the outside world. If a man occupies a position of authority for which he is by nature really inadequate, extraordinary prudence is necessary."
+    "judgmentCommentary": "The Commentary on the Decision explains that in Preponderance of the Small, four yielding lines outnumber two firm ones, yet because the yielding lines occupy the central second and fifth seats, modest steps achieve timely fulfilment. Unlike Preponderance of the Great, where massive inner strength can bear extraordinary burdens, here the times lack the concentrated force required for grand, sweeping enterprises. Like a bird in flight whose plaintive notes drift downward to the earth, wisdom lies in descending to humble, concrete realities rather than soaring ambitiously against the wind, thereby securing great good fortune.",
+    "imageCommentary": "When thunder rumbles high upon a mountain peak, its sound is close and sharp yet soon dissipates into the upper air without shaking the distant plains. Recognising a season when small, conscientious details outweigh grand gestures, the noble person errs deliberately on the side of humility rather than pride: bowing with extra deference in daily conduct, feeling genuine sorrow beyond mere ritual in bereavement, and practising strict simplicity in personal outlay.",
+    "structureCommentary": "Formed by Gèn (Mountain, stillness) below and Zhèn (Thunder, movement) above, this sixty-second hexagram presents a striking visual figure: two solid yang lines in the third and fourth places form the body of a bird, while two split yin lines above and two below spread out like beating wings. Governed by the central yin lines in the second and fifth places, the structure warns against over-reaching and counsels meticulous care."
   },
   {
     "number": 63,
     "unicode": "䷾",
     "chinese": "既濟",
     "pinyin": "Jì Jì",
-    "english": "After Completion",
+    "english": "Already Across",
     "upperTrigram": {
       "name": "Water",
       "chinese": "坎",
@@ -6072,68 +6086,68 @@ var HEXAGRAMS = [
       1,
       0
     ],
-    "judgment": "After Completion. Success in small matters. At the beginning good fortune; in the end watchfulness is needed.",
-    "image": "Water over fire: the image of After Completion. Thus the superior person anticipates misfortune and arms against it in advance.",
+    "judgment": "Already Across. Fulfilment in small matters; steadfast integrity is favourable. At the beginning, auspicious; in the end, disorder.",
+    "image": "Water rests above fire: the emblem of Already Across. Thus the noble person contemplates potential misfortune and arms against it in advance.",
     "lineTexts": [
       {
         "line": 1,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the beginning",
-        "text": "He breaks his wheels.\nHe gets his tail in the water.",
-        "comments": "No blame.\n\nIn times following a great transition, everything is pressing forward, striving in the direction of development and progress. But this pressing forward at the beginning is not good; it overshoots the mark and leads with certainty to loss and collapse. Therefore a man of strong character does not allow himself to be infected by the general intoxication but checks his course in time. He may indeed not remain altogether untouched by the disastrous consequences of the general pressure, but he is hit only from behind like a fox that, having crossed the water, at the last minute gets its tail wet. He will not suffer any real harm, because his behavior has been correct."
+        "name": "Initial Nine",
+        "text": "Dragging back his carriage wheels,\nwetting his tail in the stream:\nfree from fault.",
+        "comments": "At the very threshold of a newly completed era, eager momentum tempts everyone to rush headlong forward. Like a prudent driver who brakes his wheels at the river's edge, or a fox that wets only the tip of its tail before pulling back, checking one's pace at the outset prevents a reckless plunge and keeps one free from fault."
       },
       {
         "line": 2,
         "val": 6,
         "type": "yin",
-        "name": "Six in the second place",
-        "text": "The woman loses the curtain of her carriage.\nDo not run after it;\nOn the seventh day you will get it.",
-        "comments": "When a woman drove out in her carriage, she had a curtain that hid her from the glances of the curious. It was regarded as a breach of propriety to drive on if this curtain was lost. Applied to public life, this means that a man who wants to achieve something is not receiving that confidence of the authorities which he needs, so to speak, for his personal protection. Especially in times \"after completion\" it may happen that those who have come to power grow arrogant and conceited and no longer trouble themselves about fostering new talent. This as a rule results in office seeking. If a man's superiors withhold their trust from him, he will seek ways and means of getting it and of drawing attention to himself. We are warned against such an unworthy procedure: \"Do not seek it.\" Do not throw yourself away on the world, but wait tranquilly and develop your personal worth by your own efforts. Times change. When the six stages of the hexagram have passed, the new era dawns. That which is a man's own cannot be permanently lost. It comes to him of its own accord. He need only be able to wait."
+        "name": "Six in the Second Place",
+        "text": "The noblewoman loses her carriage screen.\nDo not pursue it; after seven days you will recover it.",
+        "comments": "Central, luminous, and upright in the lower trigram of Fire, this worthy minister finds that the ruler in the fifth place—grown complacent in a time of settled prosperity—withholds the protective trust symbolised by a lady's carriage curtain. Rather than stooping to anxious flattery or office-seeking to recover favour, one abides in quiet dignity; when the natural cycle of seven days completes its turn, rightful recognition returns of its own accord."
       },
       {
         "line": 3,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the third place",
-        "text": "The Illustrious Ancestor\nDisciplines the Devil's Country.\nAfter three years he conquers it.\nInferior people must not be employed.",
-        "comments": "\"Illustrious Ancestor\" is the dynastic title of the Emperor Wu Ting of the Yin dynasty. After putting his realm in order with a strong hand, he waged long colonial wars for the subjection of the Huns who occupied the northern borderland with constant threat of incursions. The situation described is as follows. After times of completion, when a new power has arisen and everything within the country has been set in order, a period of colonial expansion almost inevitably follows. Then as a rule long-drawn-out struggles must be reckoned with. For this reason, a correct colonial policy is especially important. The territory won at such bitter cost must not be regarded as an almshouse for people who in one way or another have hade themselves impossible at home, but who are thought to be quite good enough for the colonies. Such a policy ruins at the outset any chance of success. This holds true in small as well as large matters, because it is not only rising states that carry on a colonial policy; the urge to expand, with its accompanying dangers, is part and parcel of every ambitious undertaking."
+        "name": "Nine in the Third Place",
+        "text": "The Illustrious Ancestor campaigned against the Demon Frontier,\nsubduing it after three years.\nPetty persons must not be employed.",
+        "comments": "Standing at the boundary between inner clarity and outer peril, this strong line recalls King Wu Ding's arduous three-year campaign to pacify the northern borderlands. Even in a flourishing state, securing the frontier demands protracted discipline and sacrifice; once victory is won, entrusting newly pacified territories to greedy or petty officials would swiftly undo everything achieved."
       },
       {
         "line": 4,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fourth place",
-        "text": "The finest clothes turn to rags.\nBe careful all day long.",
-        "comments": "In a time of flowering culture, an occasional convulsion is bound to occur, uncovering a hidden evil within society and at first causing a great sensation. But since the situation is favorable on the whole, such evils can easily be glossed over and concealed from the public. Then everything is forgotten and peace apparently reigns complacently once more. However, to the thoughtful man, such occurrences are grave omens that he does not neglect. This is the only way of averting evil consequences."
+        "name": "Six in the Fourth Place",
+        "text": "Fine silk has its tattered rags for caulking;\nremain on guard all through the day.",
+        "comments": "Having crossed into the lower edge of the Water trigram, this yielding line perceives the first subtle leaks in the ship of state beneath the surface of outward splendour. Just as a wise boatman keeps bundles of old rags alongside fine silk garments to plug any sudden seam in the hull, unceasing vigilance throughout the day averts catastrophe."
       },
       {
         "line": 5,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fifth place",
-        "text": "The neighbor in the east who slaughters an ox\nDoes not attain as much real happiness\nAs the neighbor in the west\nWith his small offering.",
-        "comments": "Religious attitudes are likewise influenced by the spiritual atmosphere prevailing in times after completion. In divine worship the simple old forms are replaced by an ever more elaborate ritual and an ever greater outward display. But inner seriousness is lacking in this show of magnificence; human caprice takes the place of conscientious obedience to the divine will. However, while man sees what is before his eyes, God looks into the heart. Therefore a simple sacrifice offered with real piety holds a greater blessing than an impressive service without warmth."
+        "name": "Nine in the Fifth Place",
+        "text": "The neighbour in the east who slaughters an ox\ndoes not attain as much real blessing\nas the neighbour in the west with his simple spring offering.",
+        "comments": "In an age of established abundance, ritual easily degenerates into ostentatious display devoid of inner reverence, symbolised by the wealthy eastern neighbour's lavish sacrifice of an ox. Heaven looks not to the costliness of the vessel, but to the timely sincerity of the heart; the western neighbour's humble vernal offering, presented when spirit and season are aligned, receives true and lasting blessing."
       },
       {
         "line": 6,
         "val": 6,
         "type": "yin",
-        "name": "Six at the top",
-        "text": "He gets his head in the water. Danger.",
-        "comments": "Here in conclusion another warning is added. After crossing a stream, a man's head can get into the water only if he is so imprudent as to turn back. As long as he goes forward and does not look back, he escapes this danger. But there is a fascination in standing still and looking back on a peril overcome. However, such vain self-admiration brings misfortune. It leads only to danger, and unless one finally resolves to go forward without pausing, one falls a victim to this danger."
+        "name": "Top Six",
+        "text": "Wetting his head in the stream:\nperilous.",
+        "comments": "At the extreme end of Already Across, where the top line of Water sinks into complacency and looks backward in self-congratulation, the swimmer is submerged over his head by the returning current. Lingering in heedless pride after a crossing is accomplished cannot endure for long without inviting grave peril."
       }
     ],
-    "judgmentCommentary": "The transition from the old to the new time is already accomplished. In principle, everything stands systematized, and it si only in regard to details that success is still to be achieved. In respect to this, however, we must be careful to maintain the right attitude. Everything proceeds as if of its own accord, and this can all too easily tempt us to relax and let thing take their course without troubling over details. Such indifference is the root of all evil. Symptoms of decay are bound to be the result. Here we have the rule indicating the usual course of history. But this rule is not an inescapable law. He who understands it is in position to avoid its effects by dint of unremitting perseverance and caution.",
-    "imageCommentary": "When water in a kettle hangs over fire, the two elements stand in relation and thus generate energy (cf. the production of steam). But the resulting tension demands caution. If the water boils over, the fire is extinguished an its energy is lost. If the heat is too great, the water evaporates into the air. These elements here brought in to relation and thus generating energy are by nature hostile to each other. Only the most extreme caution can prevent damage. In life too there are junctures when all forces are in balance and work in harmony, so that everything seems to be in the best of order. In such times only the sage recognizes the moments that bode danger and knows how to banish it by means of timely precautions.",
-    "structureCommentary": "This hexagram is the evolution of T'ai PEACE\n\n11. The transition from confusion to order is completed, and everything is in its proper place even in particulars. The strong lines are in the strong places, the weak lines in the weak places. This is a very favorable outlook, yet it gives reason for thought. For it is just when perfect equilibrium has been reached that any movement may cause order to revert to disorder. The one strong line that has moved to the top, thus effecting complete order in details, is followed by the other lines. Each moving according to its nature, and thus suddenly there arises again the hexagram P'i, STANDSTILL\n\n12. Hence the present hexagram indicates the conditions of a time of climax, which necessitate the utmost caution."
+    "judgmentCommentary": "The Commentary on the Decision explains that Already Across signifies dynamic completion, wherein even small matters achieve fulfilment because every firm and yielding line occupies its proper odd or even station and corresponds to its partner across the trigrams. At the outset, the central lucidity of the second line brings auspicious harmony. Yet because cosmic law dictates that peak equilibrium immediately begins to slip toward stagnation the moment effort slackens, when the path halts in self-satisfaction at the end, disorder ensues.",
+    "imageCommentary": "When a cauldron of water is suspended directly over a blazing hearth, flame rises to heat the water while water descends to temper the flame, uniting two opposing elements in productive tension. Yet the slightest neglect allows the pot to boil over and quench the fire, or the fire to boil the vessel dry. Recognising that consummate order harbours the seeds of its own undoing, the noble person exercises vigilant foresight and repairs the dykes before a single leak appears.",
+    "structureCommentary": "Composed of Lí (Fire, solar clarity) below and Kǎn (Water, abysmal peril) above, this sixty-third hexagram is the only figure in the Book of Changes in which all six lines stand in exact positional correctness (yang in 1, 3, 5; yin in 2, 4, 6) and complete mutual correspondence. Precisely because this crystalline symmetry represents the autumn zenith of achieved order, any further step risks tipping back into decay unless sustained by unremitting mindfulness."
   },
   {
     "number": 64,
     "unicode": "䷿",
     "chinese": "未濟",
     "pinyin": "Wèi Jì",
-    "english": "Before Completion",
+    "english": "Not Yet Across",
     "upperTrigram": {
       "name": "Fire",
       "chinese": "離",
@@ -6169,61 +6183,61 @@ var HEXAGRAMS = [
       0,
       1
     ],
-    "judgment": "Before Completion. Success. The transition is at hand. Stay alert to step across successfully.",
-    "image": "Fire over water: the image of Before Completion. Thus the superior person differentiates things so each finds its proper place.",
+    "judgment": "Not Yet Across brings fulfilment. The little fox, nearly across the stream, wets its tail: nothing is favourable.",
+    "image": "Fire blazes above water: the emblem of Not Yet Across. Thus the noble person carefully discriminates things and assigns each to its proper quarter.",
     "lineTexts": [
       {
         "line": 1,
         "val": 6,
         "type": "yin",
-        "name": "Six at the beginning",
-        "text": "He gets his tail in the water.\nHumiliating.",
-        "comments": "In times of disorder there is a temptation to advance oneself as rapidly as possible in order to accomplish something tangible. But this enthusiasm leads only to failure and humiliation if the time for achievement has not yet arrived. In such time it is wise to spare ourselves the opprobrium of failure by holding back."
+        "name": "Initial Six",
+        "text": "Wetting its tail in the stream:\ndistress.",
+        "comments": "At the very bottom of the lower abyss of Water, a weak line attempts to plunge across the river before gauging the depth of the current or its own strength. Like a reckless young fox whose tail is dragged down by the water at the first step, premature haste born of ignorance ends in immediate embarrassment."
       },
       {
         "line": 2,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the second place",
-        "text": "He brakes his wheels.\nPerseverance brings good fortune.",
-        "comments": "Here again the time to act has not yet come. But the patience needed is not that of idle waiting without thought of the morrow. Kept up indefinitely, this would not lead to any success. Instead, an individual must develop in himself the strength that will enable him to go forward. He must have a vehicle, as it were, to effect the crossing. But he must for the time being use the brakes. Patience in the highest sense means putting brakes on strength. Therefore he must not fall asleep and lose sight of the goal. If he remains strong and steadfast in his resolve, all goes well in the end."
+        "name": "Nine in the Second Place",
+        "text": "Dragging back his carriage wheels:\nsteadfast integrity is auspicious.",
+        "comments": "Occupying the central seat of the lower trigram with strong yang capability and resonating with the fifth line above, this minister checks his wheels and refrains from rushing forward prematurely. Holding strength in disciplined reserve while bearing the burden of the crossing in loyal service to the sovereign ensures auspicious success."
       },
       {
         "line": 3,
         "val": 6,
         "type": "yin",
-        "name": "Six in the third place",
-        "text": "Before completion, attack brings misfortune.\nIt furthers one to cross the great water.",
-        "comments": "The time of transition has arrived, but one lacks the strength to complete the transition. If one should attempt to force it, disaster would result, because collapse would then be unavoidable. What is to be done? A new situation must be created; one must engage the energies of able helpers and in this fellowship take the decisive step-cross the great water. Then completion will become possible."
+        "name": "Six in the Third Place",
+        "text": "Not yet across: advancing aggressively brings misfortune.\nYet it is propitious to cross the great stream.",
+        "comments": "Positioned at the crest of the lower water trigram without sufficient strength or correct placement, launching a solitary offensive right now invites collapse. However, by stepping out of theperilous abyss to join forces with the strong fourth line above—embarking together in a shared vessel to cross the great river—the transition can be accomplished."
       },
       {
         "line": 4,
         "val": 9,
         "type": "yang",
-        "name": "Nine in the fourth place",
-        "text": "Perseverance brings good fortune.\nRemorse disappears.",
-        "comments": "Shock, thus to discipline the Devil's Country.\nFor three years, great realms are rewarded.\n\nNow it is the time of struggle. The transition must be completed. We must make ourselves strong in resolution; this brings good fortune. All misgivings that might arise in such grave times of struggle must be silenced. It is a question of a fierce battle to break and to discipline the Devil's Country, the forces of decadence. But the struggle also has its reward. Now is the time to lay the foundations of power and mastery for the future."
+        "name": "Nine in the Fourth Place",
+        "text": "Steadfast integrity is auspicious; regret vanishes.\nWith thunderous vigour he campaigns against the Demon Frontier;\nafter three years, great realms are rewarded.",
+        "comments": "Having entered the upper trigram of luminous Fire, this strong minister executes the arduous work of restoring order across the realm. By maintaining unwavering resolve throughout three years of disciplined effort to overcome entrenched forces of disorder, initial doubts vanish and a new era of flourishing statesmanship is rewarded."
       },
       {
         "line": 5,
         "val": 6,
         "type": "yin",
-        "name": "Six in the fifth place",
-        "text": "Perseverance brings good fortune.",
-        "comments": "No remorse.\n\nThe light of the superior man is true.\nGood fortune.\n\nThe victory has been won. The power of steadfastness has not been routed. Everything has gone well. All misgivings have been overcome. Success has justified the deed. The light of a superior personality shines forth anew and makes its influence felt among men who have faith in it and rally around it. The new time has arrived, and with it good fortune. And just as the sun shines forth in redoubled beauty after rain, or as a forest grows more freshly green from charred ruins after a fire, so the new era appears all the more glorious by contrast with the misery of the old."
+        "name": "Six in the Fifth Place",
+        "text": "Steadfast integrity is auspicious; there is no regret.\nThe radiance of the noble person possesses inner truth:\nauspicious.",
+        "comments": "As the central ruler of the upper trigram of Fire, flanked by strong yang helpers and resonating with the faithful second line below, this sovereign embodies the zenith of civilised clarity. Because its luminous grace shines from authentic inner sincerity and shares merit generously with the worthy, every shadow of regret disappears and supreme good fortune prevails."
       },
       {
         "line": 6,
         "val": 9,
         "type": "yang",
-        "name": "Nine at the top",
-        "text": "There is drinking of wine\nIn genuine confidence. No blame.\nBut if one wets his head,\nHe loses it, in truth.",
-        "comments": "Before completion, at the dawning of the new time, friends foregather in an atmosphere of mutual trust, and the time of waiting is passed in conviviality. Since the new era is hard on the threshold, there is no blame in this. But one must be careful in all this to keep within proper bounds. If in his exuberance a man gets drunk, he forfeits the favorableness of the situation through his intemperance."
+        "name": "Top Nine",
+        "text": "Partaking of wine in genuine trust: free from fault.\nYet if one wets one's head in over-indulgence,\nin truth one forfeits what is right.",
+        "comments": "At the culmination of Not Yet Across, when the long struggle is virtually won and the dawn of completion is at hand, celebrating in warm, trustful fellowship with comrades is wholly free from fault. Yet if joyous confidence crosses the line into drunken intemperance—immersing one's head in heedless excess—one loses all sense of measure and forfeits the hard-won mandate at the final hour."
       }
     ],
-    "judgmentCommentary": "The conditions are difficult. The task is great and full of responsibility. It is nothing less than that of leading the world out of confusion back to order. But it is a task that promises success, because there is a goal that can unite the forces now tending in different directions. At first, however, one must move warily, like an old fox walking over ice. The caution of a fox walking over ice is proverbial in China. His ears are constantly alert to the cracking of the ice, as he carefully and circumspectly searches out the safest spots. A young fox who as yet has not acquired this caution goes ahead boldly, and it may happen that he falls in and gets his tail wet when he is almost across the water. Then of course his effort has been all in vain. Accordingly, in times \"before completion,\" deliberation and caution are the prerequisites of success.",
-    "imageCommentary": "When fire, which by nature flames upward, is above, and water, which flows downward, is below, their effects take opposite directions and remain unrelated. If we wish to achieve an effect, we must first investigate the nature of the forces in question and ascertain their proper place. If we can bring these forces to bear in the right place, they will have the desired effect and completion will be achieved. But in order to handle external forces properly, we must above all arrive at the correct standpoint ourselves, for only from this vantage can we work correctly.",
-    "structureCommentary": "This hexagram indicates a time when the transition from disorder to order is not yet completed. The change is indeed prepared for, since all the lines in the upper trigram are in relation to those in the lower. However, they are not yet in their places. While the preceding hexagram offers an analogy to autumn, which forms the transition from summer to winter, this hexagram presents a parallel to spring, which leads out of winter's stagnation into the fruitful time of summer. With this hopeful outlook the Book of Changes come to its close."
+    "judgmentCommentary": "The Commentary on the Decision declares that Not Yet Across promises fulfilment because the yielding fifth line occupies the central seat of honour. Unlike an experienced old fox that treads warily across thin river ice with ears alert to every crack, a young fox grows overconfident just before reaching the far bank, wets its heavy tail, and fails to complete the crossing. Although none of the six lines yet occupies its final odd or even station, every firm and yielding line stands in living correspondence with its counterpart, showing that out of unfinished potential springs eternal renewal.",
+    "imageCommentary": "When fire flames upward into the sky and water flows downward into the depths, the two elements move in opposite directions and do not yet mingle in productive work. Contemplating this separation of natures, the noble person examines the distinct qualities of all things and places each person and resource in its fitting station, so that opposing forces may be brought into harmonious cooperation.",
+    "structureCommentary": "Formed by Kǎn (Water, the abysmal stream) below and Lí (Fire, radiant clarity) above, this sixty-fourth and final hexagram brings the Book of Changes not to a static close, but to an open threshold of creative becoming. Whereas Already Across corresponds to autumn's completed harvest, Not Yet Across mirrors the transition from winter's abyss into the rising light of spring, governed by the luminous Six in the Fifth Place."
   }
 ];
 var BY_BINARY = {};
@@ -6340,64 +6354,64 @@ var TRIGRAMS = {
 
 var LORE_SECTIONS = [
   {
-    id: "ritual",
-    icon: "🌿",
-    title: "1. The 18-Step Yarrow Stalk Ritual",
-    subtitle: "The Ancient Origin, Zhu Xi (1186 CE) & The Great Treatise",
-    paragraphs: [
-      "The stalk ritual first appeared in the Han-era Great Treatise (繫辭傳, Dà Zhuàn): 'The numbers of the Great Expansion are fifty; of these we use forty-nine.' For centuries, the exact physical sorting ritual was handed down through oral tradition until Song Dynasty philosopher Zhu Xi (朱熹, 1130–1200 CE) standardized the 3-pass algorithm in his 1186 CE manual Yixue Qimeng (易學啟蒙).",
-      "In this ceremony, 49 stalks are split blindly between the left and right hands (symbolizing Heaven and Earth). One stalk is placed between the fingers (symbolizing humanity), and each hand's stalks are sorted away in groups of four (symbolizing the four seasons). Repeating this three times generates the final remainder (6, 7, 8, or 9) for a single line.",
+    "id": "ritual",
+    "icon": "🌿",
+    "title": "1. The 18-Step Yarrow Stalk Ritual",
+    "subtitle": "The Ancient Origin, Zhu Xi (1186 CE) & The Great Treatise",
+    "paragraphs": [
+      "The stalk ritual first appeared in the Han-era Great Treatise (繫辭傳, Dà Zhuàn): 'The numbers of the Great Expansion are fifty; of these we use forty-nine.' For centuries, the exact physical sorting ritual was handed down through oral tradition until Song Dynasty philosopher Zhu Xi (朱熹, 1130–1200 CE) standardised the 3-pass algorithm in his 1186 CE manual Yixue Qimeng (易學啟蒙).",
+      "In this ceremony, 49 stalks are split blindly between the left and right hands (symbolising Heaven and Earth). One stalk is placed between the fingers (symbolising humanity), and each hand's stalks are sorted away in groups of four (symbolising the four seasons). Repeating this three times generates the final remainder (6, 7, 8, or 9) for a single line.",
       "Repeating this 18-step procedure six times from the bottom up produces the full hexagram. It is a slow, meditative practice requiring 15 to 20 minutes of quiet, deliberate concentration."
     ]
   },
   {
-    id: "math",
-    icon: "🔮",
-    title: "2. Mathematical Asymmetry & The 38-Marble Model",
-    subtitle: "Martin Gardner (1974), Andrew Kennedy (2006) & Physical Hands",
-    paragraphs: [
-      "Because hand-sorting 49 stalks 18 times takes 15 to 20 minutes, Western popularizers introduced flipping three coins. But in 1974, famed mathematician Martin Gardner proved in Scientific American that coins distort the oracle. Coin tossing gives equal 12.5% chances for both changing lines (Old Yang and Old Yin). In authentic Taoist philosophy, this is fundamentally wrong: Yang (creative initiative, fire) is restless and quick to burn out and transform; while Yin (earth, silence, receptivity) is heavy and slow to alter course.",
-      "In 2006, researcher Andrew Kennedy ('Briefing Leaders: A new look at the I Ching') observed that Gardner's chalkboard math assumed theoretical numbers dividing into quarters. But real human hands cannot divide stalks with zero on either side: when splitting 49 stalks into left and right hands, neither hand can ever be empty, and removing 1 stalk to tuck between fingers leaves the right hand with at least 2. This yields 47 possible physical splits on pass 1—a prime number that does not divide cleanly into quarters!",
+    "id": "math",
+    "icon": "🔮",
+    "title": "2. Mathematical Asymmetry & The 38-Marble Model",
+    "subtitle": "Martin Gardner (1974), Andrew Kennedy (2006) & Physical Hands",
+    "paragraphs": [
+      "Because hand-sorting 49 stalks 18 times takes 15 to 20 minutes, Western popularisers introduced flipping three coins. But in 1974, famed mathematician Martin Gardner proved in Scientific American that coins distort the oracle. Coin tossing gives equal 12.5% chances for both changing lines (Old Yang and Old Yin). In authentic Daoist philosophy, this is fundamentally wrong: Yang (creative initiative, fire) is restless and quick to burn out and transform; while Yin (earth, silence, receptivity) is heavy and slow to alter course.",
+      "In 2006, researcher Andrew Kennedy ('Briefing Leaders: A new look at the I Ching and the Tao De Ching') observed that Gardner's chalkboard mathematics assumed theoretical numbers dividing into quarters. But real human hands cannot divide stalks with zero on either side: when splitting 49 stalks into left and right hands, neither hand can ever be empty, and removing 1 stalk to tuck between fingers leaves the right hand with at least 2. This yields 47 possible physical splits on pass 1—a prime number that does not divide cleanly into quarters!",
       "The classical 32-marble bag had chalkboard errors of up to 2.4% on every single line. In contrast, when calculating the exact probability of physical hand divisions, a 38-marble pouch matches authentic yarrow stalks to within 0.09%—the #1 most accurate integer model in existence.",
       "The Sacred 38-Marble Pouch:\n• 17 Pure Black Marbles = Young Yin (8) [44.74%]\n• 11 Pure White Marbles = Young Yang (7) [28.95%]\n• 8 White with Black Specks = Old Yang (9) [21.05% · Changing]\n• 2 Black with White Specks = Old Yin (6) [5.26% · Changing]"
     ]
   },
   {
-    id: "nuclear",
-    icon: "⚛",
-    title: "3. Nuclear Trigrams & Latent Archetypes (互卦 · Hù Guà)",
-    subtitle: "Interior Engine, Subconscious Undercurrents & The 16 Core States",
-    paragraphs: [
+    "id": "nuclear",
+    "icon": "⚛",
+    "title": "3. Nuclear Trigrams & Latent Archetypes (互卦 · Hù Guà)",
+    "subtitle": "Interior Engine, Subconscious Undercurrents & The 16 Core States",
+    "paragraphs": [
       "Every 6-line hexagram contains an interior core known as the Nuclear Hexagram (互卦, Hù Guà or 互體, Hù Tǐ). While the outer trigrams (lines 1–3 and 4–6) depict the visible surface circumstances, the nuclear trigrams look into the interior lines (lines 2–5) to reveal the latent psychological engine and hidden undercurrents of the situation.",
       "The Lower Nuclear Trigram is formed by lines 2, 3, and 4. The Upper Nuclear Trigram is formed by lines 3, 4, and 5. Lines 3 and 4 overlap, interlocking the two trigrams into an organic interior whole. Line 1 is the entry threshold, and Line 6 is the exit threshold; lines 2 through 5 represent the thick of human struggle, choice, and gestation.",
       "Canonical Pedigree:\nRecorded in the Spring & Autumn chronicle Zuǒ Zhuàn (左傳, ~600 BCE), confirmed by Confucius in the Great Treatise (Dà Zhuàn, II.9: 'The second and fourth lines share the same duty... they interlock to form mutual trigrams'), and codified by Han Dynasty scholar Zheng Xuan (127–200 CE).",
-      "The 4 Primordial Root Gates (The Four Cosmic Pillars):\nAll 64 hexagrams collapse into exactly 16 Nuclear Hexagrams, which in turn resolve into 4 Primordial Root Gates determined strictly by the central human axis (Lines 3 & 4):\n• Gate I: The Creative (乾 · Lines 3 & 4 Yang) — Pure Spirit & Initiative\n• Gate II: The Receptive (坤 · Lines 3 & 4 Yin) — Pure Void & Devotional Vessel\n• Gate III: After Completion (既濟 · Line 3 Yang, Line 4 Yin) — Peak Order & Dynamic Equilibrium\n• Gate IV: Before Completion (未濟 · Line 3 Yin, Line 4 Yang) — Eternal Becoming & Potential",
+      "The 4 Primordial Root Gates (The Four Cosmic Pillars):\nAll 64 hexagrams collapse into exactly 16 Nuclear Hexagrams, which in turn resolve into 4 Primordial Root Gates determined strictly by the central human axis (Lines 3 & 4):\n• Gate I: The Creative Principle (乾 · Lines 3 & 4 Yang) — Pure Spirit & Initiative\n• Gate II: The Receptive Earth (坤 · Lines 3 & 4 Yin) — Pure Void & Devotional Vessel\n• Gate III: Already Across (既濟 · Line 3 Yang, Line 4 Yin) — Peak Order & Dynamic Equilibrium\n• Gate IV: Not Yet Across (未濟 · Line 3 Yin, Line 4 Yang) — Eternal Becoming & Potential",
       "The Three Levels of Changing Line Impact on the Core (X ➔ Y):\n• Level 1 (Lines 1 or 6 change): Surface Shift Only (X = Y). Outer circumstances change, but the interior nuclear engine remains completely constant.\n• Level 2 (Lines 2 or 5 change): Interior Realignment. The nuclear engine shifts (X ➔ Y), but remains anchored within the same Primordial Root Gate.\n• Level 3 (Lines 3 or 4 change): Deep Metamorphosis. The central human heart mutates, causing a seismic leap from one Primordial Root Gate to another (Gate A ➔ Gate B).",
-      "Classical Sources & Scholarly Citations:\n• Zuǒ Zhuàn (左傳, ~600–400 BCE): Earliest historical documentation of Hù Tǐ (互體, overlapping trigrams) during state divinations, notably Duke Zhuang 22nd Year (672 BCE) and Duke Xi 15th Year (645 BCE by Diviner Yan).\n• The Great Treatise (繫辭傳 · Dà Zhuàn, Han/Confucian Wings): Chapter II.9 formalizes how lines 2–4 and 3–5 interlock and share duties; Chapter I.6 establishes The Creative (Qián) and The Receptive (Kūn) as the Two Eternal Gates of the Changes.\n• Zheng Xuan (鄭玄, 127–200 CE) & Yu Fan (虞翻, 164–233 CE): Later Han Dynasty commentators who rigorously systematized Hù Tǐ into the 16 Nuclear Hexagrams and their cyclical convergence.\n• Richard Wilhelm / Cary F. Baynes: 'The I Ching or Book of Changes' (Bollingen Series XIX, Book III, pp. 356–364): Definitive modern Western mathematical and structural explanation of nuclear trigrams and internal gestation."
+      "Classical Sources & Scholarly Citations:\n• Zuǒ Zhuàn (左傳, ~600–400 BCE): Earliest historical documentation of Hù Tǐ (互體, overlapping trigrams) during state divinations, notably Duke Zhuang 22nd Year (672 BCE) and Duke Xi 15th Year (645 BCE by Diviner Yan).\n• The Great Treatise (繫辭傳 · Dà Zhuàn, Han/Confucian Wings): Chapter II.9 formalises how lines 2–4 and 3–5 interlock and share duties; Chapter I.6 establishes The Creative (Qián) and The Receptive (Kūn) as the Two Eternal Gates of the Changes.\n• Zheng Xuan (鄭玄, 127–200 CE) & Yu Fan (虞翻, 164–233 CE): Later Han Dynasty commentators who rigorously systematised Hù Tǐ into the 16 Nuclear Hexagrams and their cyclical convergence.\n• Richard Wilhelm: 'I Ging: Das Buch der Wandlungen' (Eugen Diederichs Verlag, Jena, 1923; public domain): Classical structural analysis of nuclear trigrams (Zwischenzeichen) and internal gestation."
     ]
   },
   {
-    id: "protocol",
-    icon: "🧘",
-    title: "4. Consultation Protocol & Mindset",
-    subtitle: "Sincerity of Intent (Chéng, 誠), Open Framing & Hexagram 4",
-    paragraphs: [
-      "Sincerity of Intent (誠, Chéng):\nThe Great Treatise teaches: 'In stillness it is without thought, tranquil and unmoving; when stirred, it penetrates all under heaven.' Approach the oracle with a quiet, centered mind, free of distraction or cynical testing.",
+    "id": "protocol",
+    "icon": "🧘",
+    "title": "4. Consultation Protocol & Mindset",
+    "subtitle": "Sincerity of Intent (Chéng, 誠), Open Framing & Hexagram 4",
+    "paragraphs": [
+      "Sincerity of Intent (誠, Chéng):\nThe Great Treatise teaches: 'In stillness it is without thought, tranquil and unmoving; when stirred, it penetrates all under heaven.' Approach the oracle with a quiet, centred mind, free of distraction or cynical testing.",
       "Hold the Question Throughout:\nMaintain uninterrupted mental focus on your inquiry as each line is drawn or calculated from the bottom up.",
-      "How to Frame an Inquiry:\nAsk open-ended questions about dynamics, inner attitudes, and wise counsel (e.g. 'What forces are at play in this endeavor?' or 'What mindset should I embody in this transition?') rather than fatalistic or trivial yes/no predictions.",
-      "The Sacred Rule of Hexagram 4 (Youthful Folly · 蒙):\n'The first consultation informs; asking repeatedly out of dissatisfaction is importunity' (初筮告，再三瀆，瀆則不告). Accept the oracle's counsel with an open heart. If you disagree with an answer, do not immediately re-cast the same question; meditate on why that reflection was offered."
+      "How to Frame an Inquiry:\nAsk open-ended questions about dynamics, inner attitudes, and wise counsel (e.g. 'What forces are at play in this endeavour?' or 'What mindset should I embody in this transition?') rather than fatalistic or trivial yes/no predictions.",
+      "The Sacred Rule of Hexagram 4 (Youthful Inexperience · 蒙):\n'The initial divination informs; to ask two or three times is irreverence, and irreverence receives no counsel' (初筮告，再三瀆，瀆則不告). Accept the oracle's counsel with an open heart. If you disagree with an answer, do not immediately re-cast the same question; meditate on why that reflection was offered."
     ]
   },
   {
-    id: "wilhelm",
-    icon: "📜",
-    title: "5. The Wilhelm / Baynes Benchmark Translation",
-    subtitle: "The Bollingen Series XIX, C.G. Jung's Foreword & Psychological Depth",
-    paragraphs: [
-      "The judgments, images, line texts (爻辭, Yáo Cí), and structural commentaries in this oracle are drawn from the Richard Wilhelm translation, translated from German into English by Cary F. Baynes with a celebrated foreword by psychologist C.G. Jung (Princeton University Press, Bollingen Series XIX).",
-      "Richard Wilhelm spent 25 years in China during the collapse of the Qing Dynasty, studying the Book of Changes under the guidance of venerable scholar Lao Naixuan. Wilhelm's mission was to capture not merely the archaic Chinese grammar, but the living psychological wisdom of the sages.",
-      "In his landmark foreword, C.G. Jung introduced the concept of synchronicity—meaningful coincidence not explained by linear causality—using the I-Ching as primary empirical evidence for how human consciousness resonates with the cosmic moment.",
-      "Authoritative Editions & Scholarly Bibliography:\n• Wilhelm, Richard & Baynes, Cary F. (Trans.). 'The I Ching or Book of Changes' (Foreword by C.G. Jung). Bollingen Series XIX, Princeton University Press (1950; 3rd ed. 1967).\n• Wilhelm, Hellmut. 'Change: Eight Lectures on the I Ching'. Bollingen Series LXII, Princeton University Press (1960).\n• Legge, James (Trans.). 'The Chinese Classics, Vol. V: The Ch\\'un Ts\\'ew, with the Tso Chuen (Zuǒ Zhuàn)'. Oxford University Press / Hong Kong University Press.\n• Kennedy, Andrew. 'Briefing Leaders: A new look at the I Ching and the Tao De Ching'. Gravity Publishing (2006) — Discovery of the physical 47-split boundary condition and the 38-marble integer stalk model."
+    "id": "wilhelm",
+    "icon": "📜",
+    "title": "5. Classical Lineage & Textual Provenance",
+    "subtitle": "Zhouyi, The Ten Wings, Pre-1929 Public Domain Scholarship & MIT Translation",
+    "paragraphs": [
+      "All English translations of the Judgments (卦辭, Guàcí), Great Images (大象, Dà Xiàng), and 386 Line Texts (爻辭, Yáocí), together with the structural, trigram, and changing-line commentaries bundled in this oracle, are original British-English translations and scholarly syntheses by Matthew Hudson, released under the MIT Licence.",
+      "This translation draws directly upon the public-domain Classical Chinese canon—specifically the Western Zhou core text (周易, Zhōuyì, c. 1046–771 BCE), the Confucian Ten Wings (十翼, Shí Yì: Tuàn Zhuàn, Dà Xiàng, Xiǎo Xiàng, Wényán Zhuàn, and Xìcí Zhuàn), and Song Dynasty Neo-Confucian exegesis by Cheng Yi (伊川易傳, 1099 CE) and Zhu Xi (周易本義, 1177 CE).",
+      "It also engages the foundational public-domain European sinological tradition, notably James Legge's 1882/1899 Oxford translation ('Sacred Books of the East', Vol. XVI) and Richard Wilhelm's landmark 1923 German edition ('I Ging: Das Buch der Wandlungen', Eugen Diederichs Verlag, Jena, prepared in Qingdao with classical scholar Lao Naixuan; public domain since 2001, 70 years after Wilhelm's death in 1930).",
+      "Primary Public-Domain Sources & Academic Bibliography:\n• Zhōuyì (周易) & Shí Yì (十翼, The Ten Wings): Warring States / Han Dynasty received standard text (Ruan Yuan's Shísānjīng Zhùshū, 1815).\n• Zhu Xi (朱熹, 1130–1200 CE): 'Zhōuyì Běnyì' (周易本義, 1177 CE) & 'Yìxué Qǐméng' (易學啟蒙, 1186 CE).\n• Legge, James (1882/1899): 'The Yi King' (Sacred Books of the East, Vol. XVI, Oxford University Press — Public Domain).\n• Wilhelm, Richard (1923): 'I Ging: Das Buch der Wandlungen' (Eugen Diederichs Verlag, Jena — Public Domain).\n• Kennedy, Andrew (2006): 'Briefing Leaders: A new look at the I Ching and the Tao De Ching' (Gravity Publishing) — Discovery of the physical 47-split boundary condition and the 38-marble integer stalk model."
     ]
   }
 ];

@@ -112,7 +112,7 @@ Panel {
       ? "Authentic 50 Yarrow Stalks Method"
       : "38 Marbles Pouch (Andrew Kennedy's Revised Yarrow Algorithm)"
     var text = "☯ I-Ching Oracle Reading (" + methodLabel + ") ☯\n"
-    text += "Translation & Commentary: Richard Wilhelm / Cary F. Baynes (Princeton University Press)\n\n"
+    text += "Translation & Commentary: Classical Zhouyi & Ten Wings (Original British-English Edition · MIT Licence)\n\n"
     if (root.inquiryText.trim() !== "") {
       text += "Inquiry: \"" + root.inquiryText.trim() + "\"\n\n"
     }
@@ -123,11 +123,11 @@ Panel {
     }
     text += "\nThe Judgment:\n" + p.judgment + "\n"
     if (p.judgmentCommentary) {
-      text += "\nWilhelm Commentary on the Judgment:\n" + p.judgmentCommentary + "\n"
+      text += "\nClassical Commentary on the Judgment (Tuàn Zhuàn):\n" + p.judgmentCommentary + "\n"
     }
     text += "\nThe Image:\n" + p.image + "\n"
     if (p.imageCommentary) {
-      text += "\nWilhelm Commentary on the Image:\n" + p.imageCommentary + "\n"
+      text += "\nClassical Commentary on the Image (Dà Xiàng):\n" + p.imageCommentary + "\n"
     }
     if (p.nuclear) {
       var pGateName = p.nuclear.rootGate ? (" · " + p.nuclear.rootGate.name) : ""
@@ -167,11 +167,11 @@ Panel {
         }
         text += "\nThe Judgment:\n" + t.judgment + "\n"
         if (t.judgmentCommentary) {
-          text += "\nWilhelm Commentary on the Judgment:\n" + t.judgmentCommentary + "\n"
+          text += "\nClassical Commentary on the Judgment (Tuàn Zhuàn):\n" + t.judgmentCommentary + "\n"
         }
         text += "\nThe Image:\n" + t.image + "\n"
         if (t.imageCommentary) {
-          text += "\nWilhelm Commentary on the Image:\n" + t.imageCommentary + "\n"
+          text += "\nClassical Commentary on the Image (Dà Xiàng):\n" + t.imageCommentary + "\n"
         }
         if (consultation.nuclearTransition) {
           var nt = consultation.nuclearTransition
@@ -1158,14 +1158,14 @@ Panel {
                 }
               }
 
-              // Wilhelm Commentary on Judgment
+              // Classical Commentary on Judgment
               Column {
                 width: parent.width
                 visible: !!(root.consultation && root.consultation.primary && root.consultation.primary.judgmentCommentary)
                 spacing: Style.space(4)
 
                 Text {
-                  text: "📖 Wilhelm Commentary on the Judgment"
+                  text: "📖 Classical Commentary on the Judgment (Tuàn Zhuàn)"
                   color: root.mutedColor
                   font.family: root.fontFamily
                   font.pixelSize: Style.font.caption
@@ -1224,14 +1224,14 @@ Panel {
                 }
               }
 
-              // Wilhelm Commentary on Image
+              // Classical Commentary on Image
               Column {
                 width: parent.width
                 visible: !!(root.consultation && root.consultation.primary && root.consultation.primary.imageCommentary)
                 spacing: Style.space(4)
 
                 Text {
-                  text: "🌊 Wilhelm Commentary on the Image"
+                  text: "🌊 Classical Commentary on the Image (Dà Xiàng)"
                   color: root.mutedColor
                   font.family: root.fontFamily
                   font.pixelSize: Style.font.caption
@@ -1594,14 +1594,14 @@ Panel {
                 }
               }
 
-              // Wilhelm Structural Dynamics
+              // Classical Structural Dynamics
               Column {
                 width: parent.width
                 visible: !!(root.consultation && root.consultation.primary && root.consultation.primary.structureCommentary)
                 spacing: Style.space(4)
 
                 Text {
-                  text: "📖 Wilhelm Structural & Elemental Commentary"
+                  text: "📖 Structural & Elemental Commentary"
                   color: root.mutedColor
                   font.family: root.fontFamily
                   font.pixelSize: Style.font.caption
@@ -1941,14 +1941,14 @@ Panel {
                 }
               }
 
-              // Wilhelm Commentary on Judgment
+              // Classical Commentary on Judgment
               Column {
                 width: parent.width
                 visible: !!(root.consultation && root.consultation.transformed && root.consultation.transformed.judgmentCommentary)
                 spacing: Style.space(4)
 
                 Text {
-                  text: "📖 Wilhelm Commentary on the Judgment"
+                  text: "📖 Classical Commentary on the Judgment (Tuàn Zhuàn)"
                   color: root.mutedColor
                   font.family: root.fontFamily
                   font.pixelSize: Style.font.caption
@@ -2007,14 +2007,14 @@ Panel {
                 }
               }
 
-              // Wilhelm Commentary on Image
+              // Classical Commentary on Image
               Column {
                 width: parent.width
                 visible: !!(root.consultation && root.consultation.transformed && root.consultation.transformed.imageCommentary)
                 spacing: Style.space(4)
 
                 Text {
-                  text: "🌊 Wilhelm Commentary on the Image"
+                  text: "🌊 Classical Commentary on the Image (Dà Xiàng)"
                   color: root.mutedColor
                   font.family: root.fontFamily
                   font.pixelSize: Style.font.caption
@@ -2640,14 +2640,14 @@ Panel {
                 }
               }
 
-              // Wilhelm Structural Dynamics
+              // Classical Structural Dynamics
               Column {
                 width: parent.width
                 visible: !!(root.consultation && root.consultation.transformed && root.consultation.transformed.structureCommentary)
                 spacing: Style.space(4)
 
                 Text {
-                  text: "📖 Wilhelm Structural & Elemental Commentary"
+                  text: "📖 Structural & Elemental Commentary"
                   color: root.mutedColor
                   font.family: root.fontFamily
                   font.pixelSize: Style.font.caption
@@ -2706,7 +2706,7 @@ Panel {
           width: parent.width
           visible: root.activeTab === "reading" && root.castLines.length === 6 && !!root.consultation
           horizontalAlignment: Text.AlignHCenter
-          text: "📖 Translation & Commentary: Richard Wilhelm / Cary F. Baynes · Princeton University Press"
+          text: "📖 Classical Zhouyi & Ten Wings · Original British-English Translation & Commentary (MIT Licence)"
           color: root.mutedColor
           font.family: root.fontFamily
           font.pixelSize: Style.font.caption
@@ -2780,7 +2780,7 @@ Panel {
               Button {
                 width: (parent.width - Style.space(16)) / 5
                 implicitHeight: Style.space(30)
-                text: "📜 Wilhelm"
+                text: "📜 Canon"
                 bordered: true
                 selected: root.loreSection === "wilhelm"
                 accent: root.accentColor
