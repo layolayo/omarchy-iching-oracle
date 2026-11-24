@@ -3,6 +3,7 @@ import QtQuick.Controls as Controls
 import Quickshell
 import Quickshell.Io
 import qs.Commons
+import qs.Commons as Commons
 import qs.Ui
 import "IChingData.js" as IChingData
 
@@ -28,10 +29,10 @@ Panel {
   readonly property var upperTrigramData: castLines.length >= 6 ? IChingData.resolveTrigram([castLines[3], castLines[4], castLines[5]]) : null
 
   readonly property string currentGlyph: consultation && consultation.primary ? consultation.primary.unicode : "☯"
-  readonly property color foreground: bar ? bar.foreground : Color.popups.text
-  readonly property color background: bar ? bar.background : Color.popups.background
+  readonly property color foreground: bar ? bar.foreground : Commons.Color.popups.text
+  readonly property color background: bar ? bar.background : Commons.Color.popups.background
   readonly property string fontFamily: bar ? bar.fontFamily : Style.font.family
-  readonly property color accentColor: Color.accent
+  readonly property color accentColor: Commons.Color.accent
   readonly property color changingLineColor: "#f59e0b"
   readonly property color mutedColor: Qt.rgba(foreground.r, foreground.g, foreground.b, 0.6)
 
